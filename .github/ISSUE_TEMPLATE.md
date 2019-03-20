@@ -1,12 +1,3 @@
----
-name: Custom issue template
-about: Describe this issue template's purpose here.
-title: ''
-labels: ''
-assignees: ''
-
----
-
 Breve comentário sobre o contexto e descrição da issue.
 
 **Tarefas**
