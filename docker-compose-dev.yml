@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+  message-handler:
+    build:
+      context: ./services/message-handler
+      dockerfile: Dockerfile-dev
+    volumes:
+      - './services/message-handler:/usr/src/app'
+    ports:
+      - 5000:5000
+    environment:
+      - FLASK_APP = project/__init__.py
+      - FLASK_ENV=development
+      - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
