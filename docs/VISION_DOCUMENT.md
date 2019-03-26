@@ -44,7 +44,7 @@ Tabela 2. Necessidades do Usuário
 ## 3.5 Alternativas e Concorrência
 * Stack Overflow
     * É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.
-![](https://i.imgur.com/NRkkAb7.png =400x)
+<img src="https://i.imgur.com/NRkkAb7.png" alt="drawing" width="400"/>
 <br>
 
 # 4: Visão Geral do Produto
