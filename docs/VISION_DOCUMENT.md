@@ -26,6 +26,10 @@ Tabela 1. Necessidades da Parte Interessada.
 |Tirar dúvidas<br> de programação|Ser rápido e claro.|Pesquisar por fóruns,<br> livros ou documentação.|Permitir que o usuário converse<br> com o bot e esclareça suas dúvidas.|
 |   |   |   |   |
 
+# 4: Visão Geral do Produto
+## 4.1 Perspectiva do Produto
+O produto se difere dos demais do mercado por ser capaz de reconhecer a dúvida do aluno através de frases escritas de acordo com o português usual. De modo que após reconhecido, o questionamento será esclarecido de forma imediata
+
 
 # 6: Restrições
 
