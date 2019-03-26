@@ -33,7 +33,7 @@ Tabela 1. Necessidades da Parte Interessada
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
-|Uma ferramenta<br>que auxilie no ensinamento de<br>Python|Ser acessível|Cursos de<br> qualificação,<br> livros e documetações|Uma forma flexível, confíavel<br> e menos trabalhosa de auxílio ao estudante|
+|Uma ferramenta que auxilie no ensinamento de Python|Ser acessível|Cursos de qualificação, livros e documetações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
 
 Tabela 2. Necessidades do Usuário
 
@@ -44,7 +44,7 @@ Tabela 2. Necessidades do Usuário
 ## 3.5 Alternativas e Concorrência
 * Stack Overflow
     * É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.
-![](https://i.imgur.com/NRkkAb7.png)
+![](https://i.imgur.com/NRkkAb7.png =400x)
 <br>
 
 # 4: Visão Geral do Produto
