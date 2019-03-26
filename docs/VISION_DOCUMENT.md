@@ -25,3 +25,10 @@ Tabela 1. Necessidades da Parte Interessada.
 |---|---|---|---|
 |Tirar dúvidas<br> de programação|Ser rápido e claro.|Pesquisar por fóruns,<br> livros ou documentação.|Permitir que o usuário converse<br> com o bot e esclareça suas dúvidas.|
 |   |   |   |   |
+
+
+# 6: Restrições
+
+* AIX é um bot que deverá funcionar juntamente ao ambiente web Jupyter Notebook.
+* O bot deverá estar disponível até Julho de 2019.
+* Para utilizar o bot será necessário um computador com sistema operacional Linux, Windows ou MacOS utilizando o ambiente Jupyter.
