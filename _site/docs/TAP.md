@@ -8,7 +8,9 @@ Aix é um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino 
 
 ## 3. propósito e Justificativa
 Os alunos ou usuários que estão se introduzindo na área da programação possuem certas dificuldades quanto a estruturação da linguagem, formação da lógica por trás dos exercícios propostos, aplicação de funções ou bibliotecas específicas, falta de habilidade e conhecimento, sintaxe, traduzir o problema do mundo real para soluções inteligíveis e outros problemas como por exemplo a ausência de feedback imediato.
+
 Logo, a Aix surge para suprir essas necessidades e minimizar os problemas existentes neste contexto.
+
 A Aix chega para viabilizar o aprendizado de python de forma que não venha a existir impedimentos quanto a compreensão da estrutura da linguagem de forma que se tenha respostas quanto a todos os questionamentos sobre a forma correta de escrita, feedback quanto a correção de exercícios de forma que o usuário tenha um retorno rápido sobre o que conseguiu desenvolver assim como dúvidas sobre construção lógica a fim de minimizar os problemas quanto a formação lógica do exercício.
 
 ## 4. Objetivos
@@ -30,6 +32,7 @@ Estão entre os requisitos de alto nível:
 |Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
 |Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
 | Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |
+
 ## 7. Estimativa de Custo
 
 ### 7.1. Custo de Aquisição
@@ -39,6 +42,7 @@ Estão entre os requisitos de alto nível:
 |Energia elétrica   | 5 dias por semana  |Desenvolvimento e planejamento   | 0,482 * R$/KWh  | R$ 313,30  |
 | Internet  |4 meses   |Desenvolvimento e planejamento   |R$ 100 **   | R$ 400  |
 | Transporte e alimentação  |2 passagens diárias + R$10 alimentação   | Transporte e alimentaçao  |R$ 16/dia   | R$ 16.000  |
+
 * Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 25/03/2019
 * Valor médio de um plano de internet na região do DF
 
@@ -75,6 +79,7 @@ Usuários da plataforma Jupyter para o desenvolvimento em Python
 
 ### 8.2. Equipe
 A equipe é composta por graduandos dos cursos de Engenharia de Produto de Software - EPS - (responsáveis pela gerência) e Metodologias de Desenvolvimento de Software - MDS - (responsáveis pelo desenvolvimento).
+
 |Nome   |Papel   | Email  |
 |---|---|---|
 | Eduardo Rodrigues Yoshida   |Gerente de projeto   |eduardoyosh@gmail.com   |
