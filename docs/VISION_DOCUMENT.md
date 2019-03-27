@@ -125,6 +125,8 @@ Após o usuário mandar o Bot compilar seu código, o mesmo irá mandar um feedb
 ## 7: Atributos do Recurso
 ### 7.1: Status
 Tabela 3: Status de um recurso.
+
+
 | Status      | Descrição                                                                                      |
 |-------------|------------------------------------------------------------------------------------------------|
 | Em análise  | Recurso que foi desenvolvido, mas será checado se seus critérios de aprovação foram atendidos  |
@@ -133,6 +135,8 @@ Tabela 3: Status de um recurso.
 
 ### 7.2: Benefício:
 Tabela 4: Prioridade do benefício.
+
+
 | Prioridade | Descrição                                                                                                                                                                                                                                                                                                                                                             |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Crítico    | Recurso essencial. A falha da implementação de um recurso crítico acarreta, além da ausência do benefício dele, também acarreta numa falha crítica ou que o sistema não atenderá o cliente                                                                                                                                                                            |
