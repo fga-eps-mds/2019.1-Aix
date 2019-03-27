@@ -1,14 +1,38 @@
 # Documento de Visão
 
-## 1. Introdução
+## 1.  Introdução
 <p align="justify"> &emsp;&emsp;
-Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.
-Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto em questão para assim, garantir o total entendimento do projeto. </p>
-
-### 1.1 Propósito
+Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.</p>
 <p align="justify"> &emsp;&emsp;
-O objetivo deste artigo será definir o problema, o perfil das partes interessadas e do usuário, o campo de negócio no qual a iniciativa será inserida, além de requisitos, recursos e especificações do sistema em pauta.</p>
+Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto em questão para assim, garantir o total entendimento do projeto.</p>
 
+### 1.1  Propósito
+<p align="justify"> &emsp;&emsp;
+O objetivo deste artigo será definir o problema, os perfis das partes interessadas e do usuário, o campo de negócio no qual a iniciativa será inserida, além de requisitos, recursos e especificações do sistema em pauta.</p>
+
+### 1.2  Escopo
+<p align="justify"> &emsp;&emsp;
+De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.</p>
+<p align="justify"> &emsp;&emsp;
+Em seguida, as informações técnicas do programa também serão bem delineadas e atualizadas caso seja necessário durante o processo de criação do sistema.</p>
+
+### 1.3  Definições, acrônimos e abreviações
+<p align="justify"> &emsp;&emsp;
+Estarão listadas neste tópico definições, acrônimos e abreviações para garantir uma maior proximidade para com o leitor e o público interessado no projeto.</p>
+
+#### 1.3.1 Definições
+
+Chatbot: programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.
+
+#### 1.3.2 Abreviações
+
+### 1.4  Referências
+
+### 1.5  Visão Geral
+<p align="justify"> &emsp;&emsp;
+Desta forma, a ideia principal deste documento de visão é fornecer de maneira objetiva e organizada os assuntos que tangem à problemática inicial.</p>
+<p align="justify"> &emsp;&emsp;
+As informações serão organizadas em tópicos referentes aos seguintes temas, como modelos de exemplo: o contexto da tecnologia no meio pedagógico, o detalhamento dos perfis interessados, as funcionalidades principais da ferramenta a ser produzida bem como característica técnicas do produto.</p>
 
 ## 3: Descrição da Parte Interessada e do Usuário
 * Cliente: 
