@@ -15,17 +15,47 @@ A Aix chega para viabilizar o aprendizado de python de forma que não venha a ex
 O objetivo da Aix é  facilitar o recebimento de informações e apoio ao usuário durante o estudo ou desenvolvimento da linguagem python. Com acesso às funcionalidades disponibilizadas no bot o usuário poupa tempo e esforço em relação a realizar uma pesquisa segura e ainda consegue um feedback quanto ao exercício desenvolvido.
 
 ## 5. Requisitos de Alto Nível
+Estão entre os requisitos de alto nível:
+- Construir personalidade do Bot;
+- As principais funcionalidades devem ser realizadas de forma simples e economizar o máximo de tempo possível e ainda assim ser mais eficaz que uma busca direta na web;
+- Interação através de linguagem natural para uma melhor usabilidade;
+- Fluxos de conversas objetivos e práticos;
 
 ## 6. Riscos
-
+| Risco  | Ação Preventiva  | Ação Reativa  |
+|---|---|---|
+| Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento.   |Realização de treinamento sobre tecnologias.   |
+|Divergência de horários entre membros da equipe   |Elaboração de quadro de horários disponíveis da cada membro da equipe.   |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.   |
+|Desistência da disciplina.   |Estimular a máxima participação dos membros da equipe   |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.   |
+|Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
+|Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
+| Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |
 ## 7. Estimativa de Custo
 
 ### 7.1. Custo de Aquisição
+|Equipamento | Quantidade  | Finalidade  |Valor unitário   |Preço  |
+|---|---|---|---|---|
+|Notebooks   | 9 unidades  |Desenvolvimento e planejamento   |R$ 3.000   |R$ 27.000   |
+|Energia elétrica   | 5 dias por semana  |Desenvolvimento e planejamento   | 0,482 * R$/KWh  | R$ 313,30  |
+| Internet  |4 meses   |Desenvolvimento e planejamento   |R$ 100 **   | R$ 400  |
+| Transporte e alimentação  |2 passagens diárias + R$10 alimentação   | Transporte e alimentaçao  |R$ 16/dia   | R$ 16.000  |
+* Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 25/03/2019
+* Valor médio de um plano de internet na região do DF
 
 ### 7.2. Custo de Pessoal
-
+| Cargo  | Quantidade  |Salário/mês (160h total)   |Salário/hora   | Total  |
+|---|---|---|---|---|
+| Desenvolvedor Python Jr  | 5  |R$ 3.250   |  R$20,30 |R$ 16.250   |
+| Arquiteto, DevOps, Scrum Master e PO  | 4  | R$ 6.000  |R$ 37,50   |R$ 54.000   |
 ### 7.3. Custo de Ferramentas
-
+|Ferramenta   |Finalidade   |Preço total   |
+|---|---|---|
+|Telegram   |Comunicação entre os membros   |R$ 0   |
+|Editor de Texto   |Elaboração de documentos e código   |R$ 0   |
+|Git e GitHub   |Versionamento de arquivos   |R$ 0   |
+|Google Drive   | Compartilhamento de arquivos  | R$ 0  |
+| Linux  |Ambiente de desenvolvimento   |R$ 0   |
+| Python, Rasa, Flask, MongoDB  |Tecnologias utilizadas para desenvolvimento   |R$ 0   |
 ### 7.4. Custo Total
 
 ## 8. Partes Interessadas
