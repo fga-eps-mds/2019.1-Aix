@@ -122,7 +122,22 @@ Após o usuário mandar o Bot compilar seu código, o mesmo irá mandar um feedb
 * O bot deverá estar disponível até Julho de 2019.
 * Para utilizar o bot será necessário um computador com sistema operacional Linux, Windows ou MacOS utilizando o ambiente Jupyter.
 
+## 7: Atributos do Recurso
+### 7.1: Status
+Tabela 3: Status de um recurso.
+| Status      | Descrição                                                                                      |
+|-------------|------------------------------------------------------------------------------------------------|
+| Em análise  | Recurso que foi desenvolvido, mas será checado se seus critérios de aprovação foram atendidos  |
+| Aprovado    | Recurso que teve sucesso na análise, porém não está em produção                                |
+| Em produção | Recurso em produção, incorporado ao código-fonte do servidor.                                  |
 
+### 7.2: Benefício:
+Tabela 4: Prioridade do benefício.
+| Prioridade | Descrição                                                                                                                                                                                                                                                                                                                                                             |
+|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Crítico    | Recurso essencial. A falha da implementação de um recurso crítico acarreta, além da ausência do benefício dele, também acarreta numa falha crítica ou que o sistema não atenderá o cliente                                                                                                                                                                            |
+| Importante | Recursos importantes para a eficácia e eficiência do sistema para a maioria dos aplicativos. As funções não podem ser facilmente fornecidas de alguma outra maneira. Omitir um recurso importante pode afetar a satisfação do cliente ou do usuário, ou até mesmo a receita. No entanto, a liberação não será atrasada porque um recurso importante não foi incluído. |
+| Útil       | Os recursos que são úteis em menos aplicativos típicos, são usados menos frequentemente, ou podem corresponder às soluções alternativas razoavelmente eficientes. Nenhuma receita significativa ou impacto na satisfação do cliente poderá ser esperada se tal item não for incluído em uma liberação.                                                                |
 
 ## Referências (vão adicionando e no final a gente formata)
 * [Dulce](https://dulce-work-schedule.github.io/especificacao/visao.html#2)
