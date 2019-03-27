@@ -88,5 +88,15 @@ A equipe é composta por graduandos dos cursos de Engenharia de Produto de Softw
 | Pedro Igor Oliveira Silva  |Desenvolvedor    | pedroigor852@gmail.com  |
 
 ## 9. Requisitos Para a Aprovação
+- Ter implementado as funcionalidades definidas pelo escopo do projeto
+- Integração com a plataforma Jupyter
+- Aprovação das ferramentas de análise de código
 
 ## 10. Referências
+FRANÇA, Diego; SCONETTO, João; MENDES, Mariana; ARNAUD, Victor. Dr. Down - Termo de Abertura de Projeto. Disponível em: https://fga-eps-mds.github.io/2018.1-Dr-Down/eps/TAP/. Acesso em 25 de março de 2019 às 21:15.
+
+EGEWARTH, Eliseu; EGEWARTH, João; GAMA, Gabriela; ALVES, Isaque. Dulce - Termo de Abertura de Projeto. Disponível em: https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Termo-de-Abertura-do-Projeto. Acesso em 25 de março de 2019 às 21:15.
+
+AUGUSTO,Guilherme; OLIVEIRA, Ícaro; SOUZA, Letícia. Lino, o bot - Termo de Abertura de Projeto. Disponível em: https://botlino.github.io/docs/doc-tap. Acesso em 25 de março de 2019 às 21:15.
+
+Rank de tarifas. ANEEL Agência Nacional de Energia Elétrica. Disponível em http://www.aneel.gov.br/ranking-das-tarifas. Acesso em 25 de março de 2019 às 21:15.
