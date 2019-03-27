@@ -17,14 +17,15 @@
 Nos últimos anos a quantidade de programadores cresceu significamente, até mesmo por se tornar uma área profissional com boa oferta de emprego. Além disso, muitos cursos requerem que seus formandos tenham ao menos noção de programação. Uma das linguagens mais utilizadas atualmente é o Python. Nos últimos anos houve um grande crescimento em sua utilização devido a variedade de aplicações utilizando a linguagem. Porém, aprender a programar pode não ser tão fácil para qualquer um. Na Universidade de Brasília muitos alunos se sentem desmotivados a programar e em muitos casos isso pode ser intensificado por dificuldades em aprender a linguagem em si.
 
 ## 3.2 Resumo da parte interessada
-Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensinamento de uma linguagem de programação, como o Pythom, aos seus funcionários e estudantes.
+Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensino de uma linguagem de programação, como o Python, aos seus funcionários e estudantes.
 
 ## 3.3 Resumo do usuário
-* Pessoas iniciantes no aprendizado da linguagem de programação Python
-    * Funcionários de empresas e estudantes que estão entrando na área de tecnologia
-* Professores interessados em alternativas para o processo de ensino da linguagem Python
-* Usuários da plataforma Jupyter para o desenvolvimento em Python
-* Profissinais autônomos que desejam aumentar seus conehcimentos
+* Pessoas iniciantes no aprendizado da linguagem de programação Python.
+    * Funcionários de empresas e estudantes que estão entrando na área de tecnologia.
+* Professores interessados em alternativas para o processo de ensino da linguagem Python.
+* Usuários da plataforma Jupyter para o desenvolvimento em Python.
+* Profissinais autônomos que desejam aumentar seus conhecimentos.
+
 
 ## 3.4 Principais Necessidades da Parte Interessada ou do Usuário
 
@@ -44,8 +45,14 @@ Tabela 2. Necessidades do Usuário
 ## 3.5 Alternativas e Concorrência
 * Stack Overflow
     * É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.
+  
 <img src="https://i.imgur.com/NRkkAb7.png" alt="drawing" width="400"/>
 <br>
+
+* Udemy
+    * Se trata de uma plataforma de cursos online. Alguns cursos permitem que os alunos comentem dúvidas e essas são respondidas pelos professores e/ou outros alunos.
+  
+<img src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg" alt="drawing" width="200"/><br>
 
 # 4: Visão Geral do Produto
 ## 4.1 Perspectiva do Produto
