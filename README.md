@@ -22,13 +22,14 @@
 
 ### Principais funcionalidades
 
-*
-*
-*
+* Auxilio no esclarecimento de dúvidas sobre sintaxe e estrutura da linguagem Python;
+* Auxilio na identificação da biblioteca que o usuário necessita para desenvolvimento;
+* Apoio ao estudo da linguagem com sugestão de links seguros para busca na web;
+* Feedback sobre correção de exercícios propostos ao bot;
 
 ### Guia de Contribuição
 Caso queira contribuir com o projeto verifique o documento <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/docs/CODE_OF_CONDUCT.md" margin=50> CONTRIBUTING</a>
 
 ### Licença
 
-<p align="justify">&emsp;&emsp; Aix é distribuído sob a licença 
+<p align="justify">&emsp;&emsp; Aix é distribuído sob a licença GPLv3. Consulte <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/LICENSE">LICENSE</a> para obter detalhes.</p>
