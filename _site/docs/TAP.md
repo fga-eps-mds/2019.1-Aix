@@ -57,12 +57,35 @@ Estão entre os requisitos de alto nível:
 | Linux  |Ambiente de desenvolvimento   |R$ 0   |
 | Python, Rasa, Flask, MongoDB  |Tecnologias utilizadas para desenvolvimento   |R$ 0   |
 ### 7.4. Custo Total
-
+|Custo   | Valor total  |
+|---|---|
+| Aquisição  |R$ 43.713,30   |
+|Pessoal   | R$ 70.250  |
+|Ferramentas   | R$ 0  |
+O valor total estimado dos custos informados é de R$113.963,30. Levando em conta 20% de risco e 20% de lucro, o valor final para a estimativa de custo é de R$159.548,62.
 ## 8. Partes Interessadas
 
 ### 8.1. Usuários
+Pessoas iniciantes no aprendizado da linguagem de programação Python
+
+Professores interessados em alternativas para o processo de ensino da linguagem Python
+
+Usuários da plataforma Jupyter para o desenvolvimento em Python
+
 
 ### 8.2. Equipe
+A equipe é composta por graduandos dos cursos de Engenharia de Produto de Software - EPS - (responsáveis pela gerência) e Metodologias de Desenvolvimento de Software - MDS - (responsáveis pelo desenvolvimento).
+|Nome   |Papel   | Email  |
+|---|---|---|
+| Eduardo Rodrigues Yoshida   |Gerente de projeto   |eduardoyosh@gmail.com   |
+|Guilherme Marques Moreira da Silva   |Gerente de projeto   |guilherme.marques.moreira@gmail.com   |
+| Kamilla Costa Souza  |Gerente de projeto   |kamillacosta.unb@gmail.com   |
+|Lucas Vitor de Paula   | Gerente de projeto  | lucasvitorifg@gmail.com  |
+| André Aben-Athar de Freitas  |Desenvolvedor   |andreabenf@gmail.com   |
+|Gabriela de Oliveira Lemos   |Desenvolvedor   |gabriela.leemoss@gmail.com   |
+| Gustavo Veloso Alves  |Desenvolvedor   | gustablealves@gmail.com  |
+|Iuri de Souza Severo Alves   |Desenvolvedor    |nobreiuri@gmail.com   |
+| Pedro Igor Oliveira Silva  |Desenvolvedor    | pedroigor852@gmail.com  |
 
 ## 9. Requisitos Para a Aprovação
 
