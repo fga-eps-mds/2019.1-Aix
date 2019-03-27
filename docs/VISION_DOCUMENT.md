@@ -69,6 +69,13 @@ Tabela 2. Necessidades do Usuário
 O produto se difere dos demais do mercado por ser capaz de reconhecer a dúvida do aluno através de frases escritas de acordo com o português usual. De modo que após reconhecido, o questionamento será esclarecido de forma imediata
 
 ### 4.2 Resumo das capacidades
+As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, o Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo erros de sintaxe, dúvidas relacionadas à linguagem Python, indicação de bibliotecas convenientes para as funcionalidades exigidas e feedback sobre as compilações no qual o usuário forneceu. Por fim, todos esses recursos foram pensandos para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.
+
+### 4.3 Suposições e Dependências
+O recurso de compilação dos códigos do usuário pode sofrer alterações ou ser retirado do escopo do produto, devido a limitação da tecnologia usada.
+
+### 4.4 Custo e precificação
+O produto não possui custos além dos relacionados a equipe de desenvolvimento e gerenciamento, não serão necessários nenhum serviço ou licença de terceiros pagos.
 
 
 ## 5 Recursos do Produto
