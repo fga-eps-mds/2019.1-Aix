@@ -22,11 +22,12 @@
 - obrigada
 - obrigado
 - obj
+- abraços
 
 ## intent:cumprimentar
-- oi, tudo bem
+- oi tudo bem
 - como vai
-- oi, como vai voce
+- oi como vai voce
 - como vao as coisas
 - com licenca
 - tudo bom
@@ -43,15 +44,16 @@
 - boa noite
 - olá
 - oie
-- oiee
 - opa tudo bem
 - ola boa tarde
 
 ## intent:elogios
-- Você é  muito educado!
+- Você é muito educado
 - Adorei
 - Me ajudou muito
 - vc eh linda
+- parabens
+- ótimo
 
 ## intent:negar
 - não sei onde a minha pergunta se encaixa
@@ -73,6 +75,22 @@
 - duvida
 - ainda não sei
 - nenhum
+
+## intent:afirmar
+- sim
+- ok
+- sim sim
+- okay
+- oquei
+- tudo bem
+- ta certo
+- beleza
+- firmeza
+- blz
+- blza
+- frmz
+- joia
+- massa
 
 ## intent:diga_mais
 - como funciona
