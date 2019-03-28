@@ -53,19 +53,44 @@
 
 ### 3.1 Política de __Commits__
 
-<p align="justify"></p>
+<p align="justify">
+Os commits deveram possuir mensagens curtas, significativas e em português sobre o que é adicionado, corrigido ou removido no mesmo. Deve ser atômico, de forma a facilitar a refatoração e a rastreabilidade das funcionalidades.
+
+Cada commit estará ligado diretamente a uma issue, e para facilidade no rastreamento das atividades cada commit deverá possuir o hash da issue a qual se relaciona.
+
+E caso haja pareamento no desenvolvimento do commit, o commit deverá ser co-autorado. O seguinte padrão deve ser seguido:
+
+#Número_da_issue - Mensagem descritiva do commit
+
+
+Co-authored-by: Nome da pessoa < emaildapessoa >
+
+</p>
 
 ### 3.2 Política de __Branchs__
 
-<p align="justify"></p>
+<p align="justify">
+O repositório do projeto contará com duas branches principais para o desenvolvimento, sendo elas: master e devel, e as branches auxiliares contendo as funcionalidades desenvolvidas.
+
+A branch master conterá a versão estável do produto, tendo seu conteúdo proveniente da branch de desenvolvimento (devel) após a aprovação do pull request. Por decisões de projeto, nenhum commit poderá ser feito pelos membros diretamente na branch master, exceto os commits iniciais de configuração do repositório.
+
+A branch devel será utilizada para o desenvolvimento do produto, onde a integração das funcionalidades desenvolvidas pela equipe nas branches auxiliares ocorrerá.
+
+As branches auxiliares serão utilizadas para o desenvolvimento das funcionalidades. Essas branches serão nomeadas de acordo com a rastreabilidade e na língua portuguesa, tendo o seu padrão de acordo com a metodologia adotada no momento.
+
+O nome da branch seguirá o seguinte padrão: issue_numero_da_issue_tema_da_issue
+
+- Exemplo: issue_1_documento_de_visao</p>
 
 ### 3.3 Política de Aprovação de Código
 
-<p align="justify"></p>
+<p align="justify">
+Após a implementação ou correção de bug descrita na issue (o que inclui todos os critérios de aceitação estarem completos), o membro deverá abrir um Pull Request para a branch devel, que será revisado por um integrante da gerência responsável (em geral, Product Owner ou Scrum Master). E ao final de casa Sprint um Pull Request deverá ser aberto a branch Master, a partir da Devel e ser revisado pelo  Product Owner.</p>
 
 ## 4. Uso de Issues
 
-<p align="justify"></p>
+<p align="justify">
+As issues serão utilizadas por questões de rastreabilidade, ou seja, para se ter maior controle sobre o que é desenvolvido, além de permitir melhor gestão de pessoal, pois facilita a alocação de trabalho para serviços específicos e permite acompanhamento do desenvolvimento a qual descreve. Cada issue deverá seguir o template descrito na própria issue.</p>
 
 
 
