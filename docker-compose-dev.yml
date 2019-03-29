@@ -2,18 +2,18 @@ version: '3.7'
 
 services:
 
-  message-handler:
-    build:
-      context: ./services/message-handler
-      dockerfile: Dockerfile-dev
-    volumes:
-      - './services/message-handler:/usr/src/app'
-    ports:
-      - 5000:5000
-    environment:
-      - FLASK_APP=project/__init__.py
-      - FLASK_ENV=development
-      - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
+  # message-handler:
+  #   build:
+  #     context: ./services/message-handler
+  #     dockerfile: Dockerfile-dev
+  #   volumes:
+  #     - './services/message-handler:/usr/src/app'
+  #   ports:
+  #     - 5000:5000
+  #   environment:
+  #     - FLASK_APP=project/__init__.py
+  #     - FLASK_ENV=development
+  #     - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
 
   rasa_core:
     image: rasa/rasa_core
@@ -21,9 +21,23 @@ services:
       - 5005:5005
     volumes:
       - ./services/core/models/rasa_core:/app/models
+      - ./services/core/config:/app/config
     command:
       - start
       - --core
       - models
       - -c
       - rest
+      - --endpoints
+      - config/endpoints.yml
+      - -u
+      - core
+
+  rasa_nlu:
+    image: rasa/rasa_nlu:latest-spacy
+    volumes:
+      - .services/core/models/rasa_nlu:/app/models
+    command:
+      - start
+      - --path
+      - models
