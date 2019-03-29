@@ -47,12 +47,13 @@ A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvim
 ## 4.2 Especificações dos casos de uso
 |Casos de Uso|Ator|Descrição|
 |---|---|------|
-|UC01 - Resposta de dúvidas| Usuário | Este caso de uso ocorre quando o usuário envia uma pergunta em relação à escrita da linguagem estudada ou assuntos básicos de programação|
-|UC02 - Ajuda com sintaxe| Usuário| Este caso de uso ocorre quando o usuário erra algo na digitação de seu código. O Bot irá alertá-lo do erro|
-|UC03 - Indicação de bibliotecas| Usuário | Este caso de uso permite o usuário buscar uma funcionalidade que não está disponível da STL da linguagem python. O Bot irá sugerir bibliotecas que possuam tal funcionalidade|
-|UC04 - Compilação de códigos| Usuário | Este caso de uso permite o usuário compilar códigos a partir do envio de dados de entrada, saída e o script do código|
-|UC05 - Feedback da compilação dos códigos| Sistema | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
-|UC06 - Salvar conversa| Sistema | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
+|UC01 - Iniciar conversa| Usuário | Este caso de uso ocorre quando inicializa o bot e manda uma mensagem inicial|
+|UC02 - Enviar arquivo| Usuário| Este caso de uso permite que o usuário envie um arquivo de código para o bot|
+|UC03 - Escrever código| Usuário | Este caso de uso ocorre quando usuário implementa o código em seu computador|
+|UC04 - Compilação de códigos| - | Este caso de uso ocorre quando o sistema compila o código enviado pelo usuário|
+|UC05 - Feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
+|UC06 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
+|UC07 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
 
 # 6. Desempenho
 <p align="justify"> &emsp;&emsp;
