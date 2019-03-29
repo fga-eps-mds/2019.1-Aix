@@ -34,19 +34,64 @@
 |CodeClimate|-|Ferramenta para análise estática do código|
 |Rasa Core+NLU|0.14.6|Ferramenta para criação do ChatBot|
 |Flask|1.0.2|Framework de desenvolvimento para API|
-|Flak8||Ferramenta de análise estática de código|
-|Rocket Chat|-|Ferramenta para visualização do chat|
+|Flake8||Ferramenta de análise estática de código|
+|Docker|-|Ferramenta para isolamento de ambiente|
 
-### 2 Visual Studio Code
-### 2 Git
-### 2 GitHub
-### 2 GitHub Pages
-### 2 GitHub
-### 2 CodeClimate
-### 2 Rasa Core+NLU
-### 2 Flask
-### 2 Flak8
-### 2 Rocket Chat
+### 2.1 Visual Studio Code
+
+<p align="justify">
+O Visual Studio Code é o editor padrão da equipe. É utilizado por conta que é facilmente customizavél com seus plugins, ele também foi pensado pois atualmente é mais leve e rápido do que a concorrente Atom.
+</p>
+
+
+### 2.2 Git
+
+<p align="justify">
+Ferramenta utilizada para o versionamento do código será utilizado o Git, é uma ferramenta de controle de versão descentralizada e um software livre, possibilitando o trabalho cooperativo entre várias pessoas no mesmo código. O método de utilização consiste em realizar as alterações locais versionando o código e quando conveniente é submetido ao repositório remoto.
+</p>
+
+### 2.3 GitHub
+
+<p align="justify">
+O GitHub é a ferramenta utilizada para hospedagem do repositório, controle de versão, marcação de atividades com as <i>issues</i> e documentação.
+</p>
+
+### 2.4 GitHub Pages
+
+<p align="justify">
+GitHub Pages é um servidor de hospedagem de sites estáticos que será utilizado pra subir a documentação. Esta ferramenta será utilizada, pois torna mais amigável a visualização dos documentos tornando maior o interesse pelo projeto.
+</p>
+
+
+### 2.5 CodeClimate
+
+<p align="justify">
+CodeCLimate é utilizada para análise estática de código adotada pela equipe. A escolha dessa ferramenta se deu a sua simplicidade de utilização e um diferencial crucial na escolha é por esta ferramenta possuir uma integração com o Github.
+</p>
+
+### 2.4 Rasa Core+NLU
+
+<p align="justify">
+Rasa é uma ferramenta para construição de <i>ChatBots</i>, ela foi escolhida por conta da sua simplicidade, por conter várias ferramentas e por ser de código aberto. Esta ferramenta é uma ferramenta amplamente utilizada pela comunidade para construção de <i>ChatBots</i>.
+</p>
+
+### 2.5 Flask
+
+<p align="justify">
+Framework voltado para desenvolvimento web, utiliza a linguagem Python. Esse framework foi escolhido por conta da sua simplicidade, por ser configuravel, e pelo projeto utilizar uma arquitetura de microsserviços com várias APIs. A escolha dessa ferramenta pela equipe de EPS em vez de DjangoRest foi por Flask ser mais simples e mais prático.
+</p>
+
+### 2.6 Flake8
+
+<p align="justify">
+Ferramenta utilizada para análise estática de código adotada pela equipe. Está ferramenta também possibilita verificar se a folha de estilo está sendo seguida pelos membros.
+</p>
+
+### 2.7 Docker
+
+<p align="justify">
+O Docker é um plataforma que permite que a criação, execute e faça deploy de containers. De maneira simples, um container é o empacotamento da sua aplicação mais as dependências dela. A plataforma será utilizada para executar a aplicação sem precisar instalar as dependências de forma direta em uma máquina, assim facilitando o desenvolvimento quando o deploy para o ambiente de produção.
+</p>
 
 
 ## 3. Políticas
