@@ -54,13 +54,13 @@ A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvim
 |UC05 - Feedback da compilação dos códigos| Sistema | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
 |UC06 - Salvar conversa| Sistema | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
 
-## 6 Desempenho
+# 6. Desempenho
 <p align="justify"> &emsp;&emsp;
 O desempenho do sistema será afetado por fatores como a velocidade da conexão do usuário com a internet e a quantidade de requisições sendo realizadas.
 </p>
 
 
-## 7 Qualidade
+# 7. Qualidade
 <p align="justify"> &emsp;&emsp;
 A arquitetura baseada em microserviços é ideal neste projeto porque todos os serviços são independentes e por conta de tal independência é possível gerenciar o trafego de todos individualmente, de modo que fica mais fácil de replicar ou excluir containers quando o trafego aumenta consideravelmente.
 Além de que, pelo fato de serem independentes é possível escalar todos os serviços, adicionar novas funcionalidades e remontar a arquitetura de maneira muito mais simples do que em um serviço monolítico
