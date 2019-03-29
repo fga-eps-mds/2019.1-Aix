@@ -39,7 +39,7 @@ A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvim
 * Git: Ferramenta de versionamento que será usada em conjunto com o GitHub para salvar os dados do decorrer do projeto, possibilitando a hospedagem e a geração de backups do mesmo. Será usada a versão 2.7.4 ou maior.
 * CodeClimate: Ferramenta para análise estática do código
 * Rasa Core+NLU: Ferramenta para criação do ChatBot. Será usada na versão 0.14.6.
-* Flake8: Ferramenta de análise estática de código. Será usada na versão #######
+* Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.
 * Rocket Chat: Ferramenta para visualização do chat.
 
 # 4. Casos de Uso
