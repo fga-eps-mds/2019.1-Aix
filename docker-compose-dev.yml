@@ -11,6 +11,19 @@ services:
     ports:
       - 5000:5000
     environment:
-      - FLASK_APP = project/__init__.py
+      - FLASK_APP=project/__init__.py
       - FLASK_ENV=development
       - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
+
+  rasa_core:
+    image: rasa/rasa_core
+    ports:
+      - 5005:5005
+    volumes:
+      - ./services/core/models/rasa_core:/app/models
+    command:
+      - start
+      - --core
+      - models
+      - -c
+      - rest
