@@ -44,6 +44,10 @@ A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvim
 
 # 4. Casos de Uso
 
+## 4.1 Diagrama de casos de uso
+
+![](https://i.imgur.com/HLweYIR.png)
+
 ## 4.2 Especificações dos casos de uso
 |Casos de Uso|Ator|Descrição|
 |---|---|------|
