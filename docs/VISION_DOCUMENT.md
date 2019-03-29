@@ -60,7 +60,7 @@ Ao tratar estes impasses dentro de classe, com o uso de ferramentas tecnológica
 
 ### 2.3  Instrução de Posição do produto
 <p align="justify"> &emsp;&emsp;
-Como um dispositivo alternativo de aprendizado, o nome do software apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em sintaxe da linguagem, explicação quanto a dúvidas na disciplina, indicação de bibliotecas e retornos de compilação de código.</p>
+Como um dispositivo alternativo de aprendizado, o Aix Bot apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em sintaxe da linguagem, explicação quanto a dúvidas na disciplina, indicação de bibliotecas e retornos de compilação de código.</p>
 
 <p align="justify"> &emsp;&emsp;
 Com essas utilidades, o aplicativo alcança uma posição inovadora na categoria de programas didáticos para entidades de aprendizado, sejam elas presenciais ou não.</p>
@@ -138,7 +138,7 @@ O recurso de compilação dos códigos do usuário pode sofrer alterações ou s
 O produto não possui custos além dos relacionados a equipe de desenvolvimento e gerenciamento, não serão necessários nenhum serviço ou licença de terceiros pagos.</p>
 
 ## 5. Recursos do Produto
-### 5.1 Ajuda com sintexe
+### 5.1 Ajuda com sintaxe
 <p align="justify"> &emsp;&emsp;
 O usuário terá seus erros de sintaxe da linguagem python corrigidos pelo Bot</p>
 
