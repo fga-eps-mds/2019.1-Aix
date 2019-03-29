@@ -60,7 +60,7 @@ Ao tratar estes impasses dentro de classe, com o uso de ferramentas tecnológica
 
 ### 2.3  Instrução de Posição do produto
 <p align="justify"> &emsp;&emsp;
-Como um dispositivo alternativo de aprendizado, o NOME DO SOFT apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em sintaxe da linguagem, explicação quanto a dúvidas na disciplina, indicação de bibliotecas e retornos de compilação de código.</p>
+Como um dispositivo alternativo de aprendizado, o nome do software apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em sintaxe da linguagem, explicação quanto a dúvidas na disciplina, indicação de bibliotecas e retornos de compilação de código.</p>
 
 <p align="justify"> &emsp;&emsp;
 Com essas utilidades, o aplicativo alcança uma posição inovadora na categoria de programas didáticos para entidades de aprendizado, sejam elas presenciais ou não.</p>
