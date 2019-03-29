@@ -34,7 +34,7 @@
 |CodeClimate|-|Ferramenta para análise estática do código|
 |Rasa Core+NLU|0.14.6|Ferramenta para criação do ChatBot|
 |Flask|1.0.2|Framework de desenvolvimento para API|
-|Flake8||Ferramenta de análise estática de código|
+|Flake8|3.7.7|Ferramenta de análise estática de código|
 |Docker|-|Ferramenta para isolamento de ambiente|
 
 ### 2.1 Visual Studio Code
