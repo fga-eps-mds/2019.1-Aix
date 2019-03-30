@@ -2,18 +2,18 @@ version: '3.7'
 
 services:
 
-  # message-handler:
-  #   build:
-  #     context: ./services/message-handler
-  #     dockerfile: Dockerfile-dev
-  #   volumes:
-  #     - './services/message-handler:/usr/src/app'
-  #   ports:
-  #     - 5000:5000
-  #   environment:
-  #     - FLASK_APP=project/__init__.py
-  #     - FLASK_ENV=development
-  #     - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
+  api:
+    build:
+      context: ./services/api
+      dockerfile: Dockerfile-dev
+    volumes:
+      - './services/api:/usr/src/app'
+    ports:
+      - 5001:5000
+    environment:
+      - FLASK_APP=project/__init__.py
+      - FLASK_ENV=development
+      - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
 
   rasa_core:
     image: rasa/rasa_core
@@ -45,10 +45,19 @@ services:
   mongo:
     image: mongo
     environment:
-      MONGO_INITDB_ROOT_USERNAME: "${MONGO_USERNAME}"
-      MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASSWORD}"
+      - MONGO_INITDB_ROOT_USERNAME="${MONGO_USERNAME}"
+      - MONGO_INITDB_ROOT_PASSWORD="${MONGO_PASSWORD}"
 
   action_server:
     image: rasa/rasa_core_sdk
     volumes:
       - ./services/actions:/app/actions
+
+  rabbitmq:
+    restart: always
+    image: rabbitmq:3.7.14-alpine
+    ports:
+      - 5672:5672
+    environment:
+      - RABBITMQ_DEFAULT_USER:"${RABBITMQ_USER}"
+      - RABBITMQ_DEFAULT_PASS:"${RABBITMQ_PASSWORD}"
