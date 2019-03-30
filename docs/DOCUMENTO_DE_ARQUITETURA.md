@@ -5,7 +5,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema e, de
 
 ## 1.2 Escopo
 <p align="justify"> &emsp;&emsp;
-Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino e aprendizado do usuário.</p>
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um iframe que se sobrepõe ao iframe da plataforma Jupyter Notebook, que visa orientar o ensino e aprendizado do usuário.</p>
 <p align="justify"> &emsp;&emsp;
 Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de testes, casos de uso, entre outros.</p>
 
@@ -19,6 +19,8 @@ Neste artigo serão exploradas todas as informações relacionadas à arquitetur
 * [Quero Mais Conversa](https://github.com/QueroMais/QueroMaisConversa/wiki/Casos-de-Uso)
 
 ## 1.5 Visão Geral
+O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente e conseguir responder às requisições em poucos segundos. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.
+
 Esta obra será segmentada da seguinte forma:
 * **Introdução:** Apresentará a organização do documento, junto a uma breve finalidade do software.
 * **Representação de Arquitetura:** Demonstra a arquitetura adotada no trabalho.
@@ -31,7 +33,7 @@ Esta obra será segmentada da seguinte forma:
 
 # 3. Metas e Restrições da Arquitetura 
 <p align="justify"> &emsp;&emsp;
-A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvimento serão usadas as seguintes tecnologias:</p>
+A aplicação deverá sobrepor o iframe do Jupyter Notebook com outro iframe e para seu desenvolvimento serão usadas as seguintes tecnologias:</p>
 
 * React.js: biblioteca de JavaScript para criar interfaces para o usuário, com o qual faremos a parte de front-end da aplicação
 * Flask: *microframework*, construído em python, para o desenvolvimento das API's do projeto. Será usado na versão 1.0.2.
@@ -41,6 +43,8 @@ A aplicação deverá ser suportada pelo Jupyter Notebook e para seu desenvolvim
 * Rasa Core+NLU: Ferramenta para criação do ChatBot. Será usada na versão 0.14.6.
 * Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.
 * Rocket Chat: Ferramenta para visualização do chat.
+
+
 
 # 4. Casos de Uso
 
