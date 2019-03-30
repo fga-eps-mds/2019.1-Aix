@@ -19,8 +19,6 @@ Neste artigo serão exploradas todas as informações relacionadas à arquitetur
 * [Quero Mais Conversa](https://github.com/QueroMais/QueroMaisConversa/wiki/Casos-de-Uso)
 
 ## 1.5 Visão Geral
-O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente e conseguir responder às requisições em poucos segundos. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.
-
 Esta obra será segmentada da seguinte forma:
 * **Introdução:** Apresentará a organização do documento, junto a uma breve finalidade do software.
 * **Representação de Arquitetura:** Demonstra a arquitetura adotada no trabalho.
@@ -44,6 +42,7 @@ A aplicação deverá sobrepor o iframe do Jupyter Notebook com outro iframe e p
 * Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.
 * Rocket Chat: Ferramenta para visualização do chat.
 
+O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente, conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.
 
 
 # 4. Casos de Uso
