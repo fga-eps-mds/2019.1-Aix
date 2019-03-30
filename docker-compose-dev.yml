@@ -36,7 +36,7 @@ services:
   rasa_nlu:
     image: rasa/rasa_nlu:latest-spacy
     volumes:
-      - .services/core/models/rasa_nlu:/app/models
+      - ./services/core/models/rasa_nlu:/app/models
     command:
       - start
       - --path
@@ -47,3 +47,8 @@ services:
     environment:
       MONGO_INITDB_ROOT_USERNAME: "${MONGO_USERNAME}"
       MONGO_INITDB_ROOT_PASSWORD: "${MONGO_PASSWORD}"
+
+  action_server:
+    image: rasa/rasa_core_sdk
+    volumes:
+      - ./services/actions:/app/actions
