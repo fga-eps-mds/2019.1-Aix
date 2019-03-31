@@ -4,5 +4,3 @@ rocketchat-py-sdk==0.0.8
 elasticsearch==6.3.1
 sklearn-crfsuite==0.3.6
 nltk==3.3
-coloredlogs==9.0
-packaging==17.1
