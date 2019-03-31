@@ -1,6 +1,6 @@
 policies:
   - name: KerasPolicy
-    epochs: 8
+    epochs: 20
     batch_size: 10
     featurizer:
       - name: FullDialogueTrackerFeaturizer
@@ -10,4 +10,4 @@ policies:
     nlu_threshold: 0.6
     core_threshold: 0.6
   - name: MemoizationPolicy
-    max_history: 2
+    max_history: 3

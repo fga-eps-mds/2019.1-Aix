@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 ENABLE_ANALYTICS = os.getenv('ENABLE_ANALYTICS', 'False').lower() == 'true'
 ENVIRONMENT_NAME = os.getenv('ENVIRONMENT_NAME', 'locahost')
-BOT_VERSION = os.getenv('BOT_VERSION', 'notdefined')
+BOT_VERSION = os.getenv('BOT_VERSION', 'undefined')
 HASH_GEN = hashlib.md5()
 
 def gen_id(timestamp):

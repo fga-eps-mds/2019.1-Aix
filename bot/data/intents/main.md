@@ -43,6 +43,7 @@
 - boa tarde
 - boa noite
 - olá
+- ola
 - oie
 - opa tudo bem
 - ola boa tarde

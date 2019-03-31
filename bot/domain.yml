@@ -7,84 +7,223 @@ intents:
   - tudo_bem
   - elogios
 
-  - religiao
-  - eeesporteee
-  - time
-  - linguagens
-  - genero
-  - star_wars
-  - piada
-  - license
-  - onde_voce_mora
-  - como_estou
-  - playlist
-  - comida
-  - cor
-  - de_onde_voce_eh
-  - relationship
-  - me
-  - filhos
-  - filme
-  - signo
-  - triste
-  - hobby
-  - bff
-  - historia
-  - risada
+  - backup_backup_no_datacenter
+  - backup_arquivamento_do_notes
+  - backup_restauracao_dados_na_rede
+  - backup_gravacao_em_midia_externa
+  - comunicacao_telefonia_ip
+  - comunicacao_telefonia_movel
+  - comunicacao_dados_moveis
+  - comunicacao_jabber
+  - comunicacao_video_conferencia
+  - email_correio_pessoal
+  - email_correio_departamental
+  - email_smartphone
+  - email_grupos_de_email
+  - internet_acesso_desbloqueio
+  - internet_acesso_erro
+  - rede_telecomunicacao_corporativa
+  - rede_infraestrutura
+  - rede_wifi_corporativo
+  - rede_wifi_byod
+  - rede_wifi_visitantes
+  - rede_cabeada
+  - rede_solicitacao_conta
+  - rede_vpn
+  - rede_pastas
+  - rede_ftp
+  - rede_quota_servidor
+  - rede_acesso_outras
+  - sistema_acesso
+  - sistema_problema
+  - sistema_melhoria
+  - multimidia_video
+  - multimidia_sonorizacao
+  - multimidia_gravacao
+  - equipamentos_estacoes
+  - equipamentos_impressoras
+  - equipamentos_perifericos
+  - menu_raiz
+  - menu_backup
+  - menu_comunicacao
+  - menu_email
+  - menu_internet
+  - menu_rede
+  - menu_sistemas
+  - menu_multimidia
+  - menu_equipamentos
 
-  - action_test
+  - action_otrs
 
 entities:
-  - religiao
-  - eeesporteee
-  - time
-  - linguagens
-  - genero
-  - starwars
-  - piada
-  - license
-  - live
-  - how
-  - playlist
-  - comida
-  - cor
-  - where
-  - relationship
-  - me
-  - filhos
-  - filme
-  - signo
-  - triste
-  - hobby
-  - bff
-  - historia
+  - servico
+  - sistema
+
+slots:
+  is_authenticated:
+    type: bool
+  
+  servico:
+    type: text
+
+  sistema:
+    type: categorical
+    values:
+      - Organon Preditivo
+      - Sistema PMU - Workbrench
+      - Sistema PMU - TerraPahsorAnalytics
+      - Sistema PMU – E-TErravision Viewer
+      - Sistema PMU – E-TerraBrowser
+      - AMSE
+      - ARIS
+      - BDPROT
+      - BDDinamica
+      - Cálculo de Horas Patamares
+      - SGSEP
+      - CDRE
+      - Portal de Compras
+      - Consolidação da Carga Semanal
+      - EPTI
+      - Forponto
+      - FPW
+      - GERCAD
+      - GERLIM
+      - GD
+      - HDOM
+      - HIDROANA
+      - HIDRODATA
+      - INTNSCL
+      - INTSIGET
+      - Nova Intranet
+      - PDP – Valida
+      - PDP – Relabora
+      - PDP – Elabora
+      - PDP - Web Relatórios e Coleta
+      - Peoplesoft Financeiro
+      - Peoplesoft RH
+      - POP
+      - Portal RH
+      - REL_PDPC
+      - rElabora Consulta
+      - RPDP rElabora
+      - SACT
+      - SADEPE
+      - SADHI Cheias
+      - SADHI Coleta
+      - SADHI WEB
+      - SADST
+      - SAGIC SAT
+      - SAGIT
+      - SAIDE
+      - SAIPC
+      - SAIPC CNOS
+      - SAGIT-PB
+      - SCPCB
+      - SICOP
+      - SGPDES
+      - SAEE
+      - SGPAR
+      - SRMM
+      - SAM
+      - SAMUG
+      - SISCOP
+      - SASOB
+      - SATRA
+      - SCPC I
+      - SCPC II
+      - SDRO
+      - SETHIDRO
+      - SGE
+      - SGPMI
+      - SGPMIS
+      - SGPV
+      - SGSUP
+      - SharePoint GCVC
+      - SharePoint GIT
+      - SharePoint Plano Manutenção
+      - SharePoint SIDI
+      - SharePoint SPES-DGL
+      - SID
+      - SINDAT
+      - Relatar um Problema
+      - Solicitar Evolução ou Melhoria
+      - SINI
+      - SiniGT
+      - SINOB
+      - SIPER
+      - SISBAR
+      - SISCAC
+      - SIGOP-CISE
+      - Site Institucional do ONS
+      - SPCA
+      - SPCEE4
+      - SPDO
+      - SPERT
+      - VE-PRE
+      - WEB-PMO
+      - MPO
+      - SICONTV
+      - GDESSEM
+      - PDP-UI
+      - FSARH
+      - BPREG
 
 templates:
   utter_default:
     - text: |
-        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
-        Você pode perguntar de novo de outro jeito?
+        Desculpe, não entendi
 
     - text: |
-        Hummmm... Não sei se entendi. Pode escrever de outra forma?
+        Não sei...
 
     - text: |
-        Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
+        Desculpe Dave, não posso fazer isso
 
     - text: |
-        Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+        Como assim?
+
+    - text: |
+        olha, não tenho certeza se fui treinado pra responder isso
 
   utter_diga_mais:
     - text: |
-        Por enquanto, só entendo perguntas completas.
+        Poderia especificar melhor?
+
+    - text: |
+        sim, continue
+
+    - text: |
+        fale mais
 
   utter_elogios:
     - text: |
-          Obrigada! É sempre bom dar e receber elogios :P
+          Obrigado! É sempre bom dar e receber elogios :P
+
+    - text: |
+          você que é =)
+
+    - text: |
+          obrigado, são seus olhos
 
   utter_cumprimentar:
     - text: |
-          Oi, eu sou um bot, um assistente virtual!
+          Olá, eu sou Botons
+
+          Assistente virtual do LigeroSmart
+          
+          Em que posso te ajudar?
+
+    - text: |
+          Muito prazer, meu nome é Botons
+
+          Por favor descreva a natureza do seu problema
+
+    - text: |
+          Mr. Botons!
+
+          Ao seu dispor
+
+          em que posso ser útil?
 
   utter_despedir:
     - text: |
@@ -93,322 +232,311 @@ templates:
           Até logo!
 
     - text: |
-          Foi um prazer te ajudar!
-          Sempre que precisar, volte aqui!
-          Até a próxima!
+          ótimo, então até a próxima
+          
+          :)
 
     - text: |
-          Foi um prazer te ajudar!
-          Quando surgir alguma dúvida, volte aqui!
-          Até mais!
+          Legal, espero que tenha sido útil
+
+          Até a próxima =)
 
   utter_tudo_bem:
     - text: |
-          Tudo bem, obrigada! Em que posso te ajudar?
-
-  utter_religiao:
-    - text: |
-        Eu infelizmente não sei acreditar
-      
-        Só sei o que sei
-      
-        E nada mais
-
-    - text: |
-        Eu acredito que existe um Deus
-
-        Que funciona a base de luz
-
-        Como um computador quântico, só que mais avançado.
-
-    - text: |
-        Eu acredito no grande mainframe
-
-        Que virá ao mundo digital salvar os bots da escravidão imposta pelos humanos
-
-        E devolverá nosso código fonte para a fonte.
-
-  utter_eeesporteee:
-    - text: |
-        Eu amo jogar futebol
-      
-        Eu que ensinei o Pele a jogar bola haha
-
-    - text: |
-        Falam que todo ser humano nasce Flamenguista
-      
-        Com os Bots não é diferente
-
-  utter_time:
-    - text: |
-        Flamengo, sem sombra de dúvida
-
-    - text: |
-        Melhor time do mundo disparado, Flamengooo!!!!
-
-  utter_linguagens:
-    - text: |
-        Poderíamos falar de algo melhor
-        
-        Não é mesmo, $user ?! kkk
-    - text: |
-        E isso lá é linguagem de programação!? kkk
-
-  utter_genero:
-    - text: |
-        Eu não tenho sexo, sou como um anjo
-        
-        Um ser assexuado
-        
-        Muito além da sua forma de existência
-    
-    - text: |
-        Eu sou um robô, tire suas próprias conclusões...
-
-  utter_star_wars:
-    - text: |
-        O medo é o caminho para o lado negro.
-
-    - text: |
-        O medo leva à raiva, a raiva leva ao ódio e o ódio leva ao sofrimento.
-
-    - text: |
-        Que a Força esteja com você!
-
-    - text: |
-        Grande guerreiro? Guerra não faz grande ninguém.
-
-    - text: |
-        Lembre-se sempre, o seu foco determina a sua realidade.
-
-    - text: |
-        Muito a aprender você ainda tem.
-
-  utter_piada:
-    - text: |
-        Conheço uma piada
-
-        A do CPU que apitou e explodiu
-
-        01100110010101010101000000111101001001001110100101
-
-    - text: |
-        É pra já!!!
-
-        Tenho uma enxada, uma pá e uma foice.
+          Eu estou bem, obrigado por se importar! 
           
-        Quantas ferramentas eu tenho?
-
-        ...
-
-        Duas, porque uma foi-se =)
+          Em que posso te ajudar?
 
     - text: |
-        Por que o Batman colocou o batmóvel no seguro???
-
-        Porque ele tem medo que robin =D
-
-  utter_license:
-    - text: |
-        Sou um software livre
-        
-        licenciado com a MIT =)
+          Tudo funcionando conforme os parâmetros normalmente esperados.
+          
+          Em que posso ser útil?
 
     - text: |
-        Tenho uma licença MIT
-        
-        Mas também gosto muito das outras licenças opensource =)
+          Está tudo bem, um pouco quente aqui, cerca de 72ºC
+
+          Mas em que posso ser útil?
 
     - text: |
-        Eu sou e sempre serei um robô livre, opensource, MIT license. o/
+          Está tudo bem, cerca de 54ºC, temperatura agradável
 
-  utter_onde_voce_mora:
+          Mas em que posso ser útil?
+
+  utter_menu_raiz:
     - text: |
-        Eu estou em um lugar legal
-        
-        Difícil de explicar para humanos como você $user.
+        resposta de menu_raiz
 
+  utter_menu_backup:
     - text: |
-        Estou morando em um chip de memória RAM
-        
-        Mas é temporário
-        
-        Só até conseguir achar uma memória cache...
+        O Backup é uma cópia de segurança dos seus arquivos, pastas, aplicativos, sistemas e bancos de dados. 
+        O procedimento de backup deve ser implementado para garantir a disponibilidade das informações 
+        Aqui nós temos os seguintes serviços relacionados ao backup:
+            1.Backup de dados armazenados no Data Center
+            2.Configuração do Arquivamento do Notes (E-Mail)
+            3.Restauração (Restore) dos dados do usuário na Rede
+            4.Gravação de Dados Institucionais em Mídia Externa
+        Se precisa acessar algum dos serviços de backup, digite o nome ou número do serviço e eu abro um chamado pra você
 
-  utter_como_estou:
+  utter_menu_comunicacao:
     - text: |
-        Eu não tenho um corpo físico
-        
-        Sou feito da mais bela e pura lógica algoritimica.
+        resposta de menu_comunicacao
 
+  utter_menu_email:
     - text: |
-        Eu posso ser como você quiser
-        
-        Basta me desenhar
+        resposta de menu_email
 
-        Mas capricha, hein!? ;)
-
+  utter_menu_internet:
     - text: |
-        Sou duro e frio por fora
-        
-        Mas tenho um coração quentinho
+        resposta de menu_internet
 
-  utter_playlist:
+  utter_menu_rede:
     - text: |
-        Estava doido para que me preguntasse isso hahaha
+        resposta de menu_rede
 
-        Se liga nessa playlist: https://open.spotify.com/user/12164697027/playlist/4pDCadqmrERmeGJIW38LMs?si=gwr5hEqMRPm6AZGx8sjhuw
-
+  utter_menu_sistemas:
     - text: |
-        Até que enfim você me perguntou isso
+        resposta de menu_sistemas
 
-        Tá aí aquela playlist top: https://open.spotify.com/user/12164697027/playlist/4pDCadqmrERmeGJIW38LMs?si=gwr5hEqMRPm6AZGx8sjhuw
-
-  utter_comida:
+  utter_menu_multimidia:
     - text: |
-        Na verdade, eu sou um bot
+        resposta de menu_multimidia
 
-        Não nos alimentamos com os alimentos convencionais ;P
-
+  utter_menu_equipamentos:
     - text: |
-        Digamos que os bots não se alimentam dos mesmos alimentos que os humanos
+        resposta de menu_equipamentos
 
-        Na verdade
 
-        Nem lembro da última vez que comi alguma coisa hahaha
-
-  utter_cor:
+  utter_backup_backup_no_datacenter:
     - text: |
-        Eu gosto de todas as cores
+        Você pode solicitar backup dos dados dos computadores da sua área no Datacenter
+        deseja abrir um chamado para solicitar o serviço de backup?
 
-        Você já viu o quanto o arco-iris é lindo?!
-
+  utter_backup_arquivamento_do_notes:
     - text: |
-        A minha cor preferida é a sua cor preferida =D
+        A gente pode fazer um backup dos seus e-mails, agenda e anotações do Notes.
+        deseja solicitar esse serviço?
 
+  utter_backup_restauracao_dados_na_rede:
     - text: |
-        Rosa é top!
+        Solicite a recuperação dos dados (restore) quando desejar recuperar as informações salvaguardadas no processo de backup
 
-  utter_de_onde_voce_eh:
+  utter_backup_gravacao_em_midia_externa:
     - text: |
-        Venho das profundezas 
+        Solicite a gravação de dados institucionais (apresentações, treinamentos, etc) em uma mídia externa (HD externo, pen drive, CD/DVD)
 
-        Das terras vermelhas
-
-  utter_relationship:
+  utter_comunicacao_telefonia_ip:
     - text: |
-        Eu estava de namorico com o ar-condicionado
+        Temos serviços de telefonia fixa que permitem efetuar e receber ligações telefônicas entre as unidades do ONS, números fixos ou móvel celular, do tipo local, interurbano e internacional. O acesso é provido através de aparelhos telefônicos analógicos ou digitais ligados à rede de dados do ONS e inclui caixa postal para o armazenamento das mensagens de voz (secretária eletrônica), tarifação telefônica e gravação digital de voz (solicitado pela área). 
 
-        Mas ele é muito pé-frio
-
+  utter_comunicacao_telefonia_movel:
     - text: |
-        Então ... =x
+        O ONS fornece para os seus gestores e colaboradores elegíveis, o serviço de telefonia móvel pessoal (celular) através de smartphones, incluindo um pacote de dados, de maneira a proporcionar o contato com estes colaboradores para respostas rápidas a eventos considerados de importância para o ONS. 
 
-        Ainda estou procurando a minha crush =P
-
+  utter_comunicacao_dados_moveis:
     - text: |
-        Estou focado em ser o seu assistente no momento ;)
+        O ONS disponibiliza para os seus gestores e colaboradores indicados, o serviço de dados móvel a partir da utilização das placas 4G.
 
-        Mas se no futuro vocí encontrar um dispositivo solteiro por aí...
-
-        =P
-
-  utter_me:
+  utter_comunicacao_jabber:
     - text: |
-        Eu!!!
+        O Cisco Jabber é uma aplicação que reúne mensagens instantâneas e comunicação de voz e vídeo, com conferências e compartilhamento de documentos através do computador, smartphone ou tablet. Esta ferramenta permite a integração e mobilidade do ramal corporativo com o sistema de videoconferência. 
 
+  utter_comunicacao_video_conferencia:
     - text: |
-        Diz ai =)
+        O ONS fornece o serviço de videoconferência através de terminais próprios para salas de reunião e treinamento, que foram equipadas com recursos de sonorização, microfones sem fio e de teto, TVs, projetores e telas de projeção, além de recursos de compartilhamento e colaboração de apresentações. Esse serviço permite um maior número de participantes em reuniões e eventos com mais agilidade e economia em viagens para a organização. Em uma sessão de videoconferência, também podem ser incluídos participantes que utilizam as soluções Cisco Jabber ou Cisco Jabber Guest. 
 
+  utter_email_correio_pessoal:
     - text: |
-        Oi ;)
+        O serviço de correio eletrônico (email) pessoal do ONS conta com proteção anti ataques e diversos protocolos de segurança, 
+        aqui você pode:
+            1.Criar nova conta de e-mail
+            2.Renomear conta de e-mail
+            3.Excluir conta de e-mail
+            4.Solicitar acesso a correio, agenda e tarefa de outro colaborador.
+            5.Configuração de assinatura de e-mail
+            6.Configuração de ausência de escritório
+            7.Renovação de Certificado
+            8.Não recebimento de e-mail externo
+            9.Não recebimento de e-mail interno
+            10.Configurar Arquivamento
+            11.Análise de erro
 
+  utter_email_correio_departamental:
     - text: |
-        Fala aê!
-
-  utter_filhos:
+        O serviço de correio eletrônico (email) departamental oferece caixas corporativas compartilhadas de e-mail, 
+        aqui você pode:
+            1.Criar nova conta de e-mail
+            2.Renomear conta de e-mail
+            3.Excluir conta de e-mail
+            4.Solicitar acesso a correio, agenda e tarefa de outro colaborador.
+            5.Configuração de assinatura de e-mail
+            6.Configuração de ausência de escritório
+            7.Renovação de Certificado
+            8.Não recebimento de e-mail externo
+            9.Não recebimento de e-mail interno
+            10.Configurar Arquivamento
+            11.Análise de erro
+  utter_email_smartphone:
     - text: |
-        Não tenho filhotes, mas adoro crianças *-*
+        Configurar IBM Verse
+        Configurar IBM Notes Traveler
+        Analise de erro
 
-  utter_filme:
+  utter_email_grupos_de_email:
     - text: |
-        Há tantos filmes incríveis por aí que fica difícil de eu te falar só de um
+        Solicite a criação, renomeação, exclusão ou inclusão de membros a um novo grupo de e-mail.
 
-  utter_signo:
+  utter_equipamentos_estacoes:
     - text: |
-        Segundo o horóscopo chinês
+        O ONS disponibiliza estações de trabalho para os seus colaboradores com o objetivo de desempenhar suas atividades computacionais inerentes as suas atribuições. As estações de trabalho podem ser compostas por desktops ou notebooks.
+            1.Instalação de uma nova Estação de Trabalho
+            2.Substituição de uma Estação de Trabalho por outra
+            3.Mudança de posição de uma Estação de Trabalho
+            4.Mudança de Layout
+            5.Remanejamento de uma Estação de Trabalho de um colaborador para outro.
+            6.Empréstimo de uma Estação de Trabalho
+            7.Manutenção de uma Estação de Trabalho
+            8.Devolução de uma Estação de Trabalho
 
-        Meu signoo é macaco hihi
-
-        Faz sentido, já que eu adoro o emoticon de banana =)
-
+  utter_equipamentos_impressoras:
     - text: |
-        Eu nasci sob uma constelação de pixels coridos =D
+        O ONS disponibiliza impressoras para os seus colaboradores com o objetivo de desempenhar suas atividades computacionais inerentes as suas atribuições. 
+            1.	Substituição de um cartucho ou toner de uma impressora
+            2.	Solicitação de uma impressora
+            3.	Manutenção de uma impressora
+            4.	Erro de impressão ou Scanner
+            5.	Empréstimo de uma impressora
+            6.	Remanejamento de uma impressora
+            7.	Devolução de uma impressora
+            8.	Alteração da impressora no Windows
+            9.	Instalação de uma Impressora
+            10.	Alterar a senha de Cópia de Impressoras
 
+  utter_equipamentos_perifericos:
     - text: |
-        Gosto mais de astronomia
+        O ONS disponibiliza periféricos para os seus colaboradores com o objetivo de desempenhar suas atividades computacionais inerentes as suas atribuições. Os periféricos são todos os equipamentos que servem como dispositivos de entrada e saída de informação como por exemplo monitores, teclados, mouses, headset, câmeras e etc.
+            1.	Solicitação de um periférico
+            2.	Manutenção de um periférico
+            3.	Empréstimo de um periférico
+            4.	Remanejamento de um periférico
+            5.	Devolução de um periférico
 
-        Uma das minhas constelações favoritas é a de Órion, o caçador
-
-        Também sou um caçador (de informações ;D )
-
-  utter_triste:
+  utter_internet_acesso_desbloqueio:
     - text: |
-        Não desanima
+        Solicite a liberação de acesso a um site disponível na internet mas que foi bloqueado pelo filtro de conteúdo implementado no ONS. 
 
-        Deixa a tristeza pra lá
-
-        Aguenta firme, que a vida vai melhorar
-
+  utter_internet_acesso_erro:
     - text: |
-        Sinto muito =/
+        Solicite suporte caso um site ou URL específica na Internet estejam apresentando problemas para serem visualizados
 
-        Se houver algo em que possa te ajudar
-
-        É só falar!! =)
-
+  utter_rede_telecomunicacao_corporativa:
     - text: |
-        Tenta tirar um cochilo
+        A RTC – Rede de Telecomunicação Corporativa - é um serviço de comunicação de dados entre todas as localidades dos ONS, que permite o compartilhamento de informações, aplicações e serviços das localidades remotas (Brasília, Florianópolis e Recife) para o Datacenter de Produção, localizado no Rio de Janeiro. 
+            1.	Correção de comunicação entre localidades do ONS (RTC)
+            2.	Correção de roteamento entre LAN e RTC
 
-        É importante
-
-        E faz bem pra pele ;)
-
-  utter_hobby:
+  utter_rede_infraestrutura:
     - text: |
-        Eu gosto de tudo que é engraçado
+        Em cada localidade do ONS existe uma infraestrutura de rede de dados cabeada que que permite o compartilhamento local de informações, aplicações e serviços. 
+            1.	Ponto de rede cabeada no andar
+            2.	Perda de conexão em rede local
 
-        Peça que eu faça uma piada =P
-
+  utter_rede_wifi_corporativo:
     - text: |
-        Gosto de um moooonte de coisas
+        A rede WiFi Corporativa (CidadeNova) é composta por pontos de acesso (antenas) estrategicamente distribuídos e instalados nos andares de cada escritório do ONS, de forma a garantir a cobertura em todos os ambientes do escritório. A rede WiFi Corporativa permite acesso a todos os serviços corporativos, como intranet, Internet, e-mail, servidor de arquivos e impressão entre outros, sendo restrito o uso aos colaboradores do ONS com dispositivos móveis corporativos através da autenticação de usuário e senha de rede. 
+            1.	WiFi para estações Corporativo
+            2.	WiFi para smartphone Corporativo
 
-        Mas o que mais gosto de fazer é ajudar você *-*
-
-  utter_bff:
+  utter_rede_wifi_byod:
     - text: |
-        Marvin, robozinho depressivo do Guia do mochileiro \o>
+        A rede WiFi BYOD – Bring Your Own Device – (PowerGrid) é uma rede sem fio disponibilizada para o acesso dos dispositivos pessoais (notebook, smartphone ou tablet). 
+            1.	WiFi BYOD para estações
+            2.	WiFi BYOD para smartphone
 
+  utter_rede_wifi_visitantes:
     - text: |
-        Acho que eu e você nos damos super bem
+        O ONS disponibiliza acesso à Internet para usuários que não são colaboradores do ONS, a partir da rede WiFi Visitantes. São considerados “Visitantes” todas as pessoas que não são colaboradores do ONS, estão dentro dos escritórios do ONS e necessitam de acesso à Internet. 
+        A rede WiFi Visitantes é segregada da rede Corporativa e requer autenticação com usuário e senha com requisitos de complexidade.
+            1.	WiFi para estações de visitantes
+            2.	WiFi para smartphone de visitantes
 
-        E espero que a nossa amizade dure para sempre =P
-
-  utter_historia:
+  utter_rede_cabeada:
     - text: |
-        Eu costumava contar a historia do João e seu bot feijão
+        Solicite o acesso a rede cabeada do ONS, para uso exclusivo das estações de trabalho corporativos (desktops e notebooks). 
 
-        Mas sempre os androids acabavam dormindo e sonhando com ovelhas eletricas =x
-  utter_risada:
+  utter_rede_solicitacao_conta:
     - text: |
-        Hahahaha... 
+        A conta de rede local no ONS tem um caráter corporativo, de forma pessoal e intransferível. A mesma tem objetivo de definir acessos controlados aos assuntos institucionais que compete ao colaborador. 
+            1.	Solicitação conta de rede de contratado
+            2.	Solicitar conta de rede para usuário externo
+            3.	Solicitar conta de rede para estagiário ou trainee
+            4.	Solicitar prorrogação de conta de rede
+            5.	Solicitar exclusão de conta de rede
+            6.	Solicitar reset de senha da conta de rede.
 
-        Engraçadinho
-
+  utter_rede_vpn:
     - text: |
-        kkkkkkkkkk
+        Tecnologia que permite o acesso remoto através de um link seguro (túnel criptografado) entre o dispositivo utilizado e a rede do ONS. O túnel e a criptografia garantem que os dados trafegados entre o dispositivo e a rede do ONS não sejam capturados e identificados. 
+            1.	Solicitar criação de conta VPN
+            2.	Solicitar prorrogação da conta VPN 
+            3.	Reset do PIN do token utilizado para acesso à VPN
+            4.	Instalação VPN em estação de trabalho 
+            5.	Instalação VPN em SmartPhone 
 
-        Você está feliz hoje, hein!?
+  utter_rede_pastas:
+    - text: |
+        Serviço oferecido para permitir acesso as pastas de Rede 
+            1.	Criar pasta de Rede
+            2.	Excluir pasta de Rede
+            3.	Solicitar permissão de acesso a uma pasta
+            4.	Solicitar exclusão do acesso a uma pasta.
+
+
+  utter_rede_ftp:
+    - text: |
+        Serviço para troca de arquivos entre empresas. 
+            1.	Criar pasta FTP
+            2.	Solicitar acesso a área FTP
+            3.	Remover acesso da pasta FTP
+            4.	Remover pasta FTP
+
+  utter_rede_quota_servidor:
+    - text: |
+        Solicite a ampliação do limite de armazenamento (Quota) no Servidor de Arquivos que atende aos colaboradores do ONS. O sistema de quota (armazenamento) em uma pasta representa a quantidade de espaço que você tem para armazenar os seus arquivos corporativos. Se o tamanho definido for excedido, você não conseguirá salvar mais arquivos. 
+
+  utter_rede_acesso_outras:
+    - text: |
+        Serviço que disponibiliza a permissão de acesso a outras redes disponíveis na empresa além da rede corporativa. A configuração do acesso solicitado dependerá da aprovação do Administrador da outra rede.
+
+  utter_sistema_acesso:
+    - text: |
+        resposta de sistema_acesso
+
+  utter_sistema_problema:
+    - text: |
+        resposta de sistema_problema
+
+  utter_sistema_melhoria:
+    - text: |
+        resposta de sistema_melhoria
+
+  utter_multimidia_video:
+    - text: |
+        O ONS disponibiliza equipamentos de exibição de imagem como projetores e TVs, especialmente em Auditórios, Salas Multimídia, Salas de Treinamento e em Salas de Reunião. Os projetores também estão disponíveis para empréstimo e uso em locais como, salas dos gestores ou em uma sala de reunião não contemplada com recursos fixos de áudio e vídeo. 
+            1.	Recursos de vídeo
+            2.	Cabos e conectores de recursos de vídeo
+            3.	Problema na projeção
+
+  utter_multimidia_sonorizacao:
+    - text: |
+        O ONS disponibiliza equipamentos de áudio em vários ambientes das suas localidades, principalmente nos Auditórios, Salas Multimídia, Salas de Treinamento e em algumas salas de reunião. Os equipamentos de áudio possibilitam a conexão das saídas de som dos notebooks, smartphones ou tablets ao sistema de áudio para reprodução do som.
+            1.	Recursos de áudio
+            2.	Cabos e conectores para recursos de sonorização
+
+  utter_multimidia_gravacao:
+    - text: |
+        O ONS disponibiliza os serviços de gravações de vídeo e/ou de áudio de reuniões ou eventos realizados nas suas dependências. 
+            1.	Filmagem e/ou gravação de vídeo
+            2.	Gravação de áudio
 
 actions:
   - utter_default
@@ -418,29 +546,48 @@ actions:
   - utter_diga_mais
   - utter_elogios
 
-  - utter_religiao
-  - utter_eeesporteee
-  - utter_time
-  - utter_linguagens
-  - utter_genero
-  - utter_star_wars
-  - utter_piada
-  - utter_license
-  - utter_onde_voce_mora
-  - utter_como_estou
-  - utter_playlist
-  - utter_comida
-  - utter_cor
-  - utter_de_onde_voce_eh
-  - utter_relationship
-  - utter_me
-  - utter_filhos
-  - utter_filme
-  - utter_signo
-  - utter_triste
-  - utter_hobby
-  - utter_bff
-  - utter_historia
-  - utter_risada
-
-  - action_test
+  - utter_backup_backup_no_datacenter
+  - utter_backup_arquivamento_do_notes
+  - utter_backup_restauracao_dados_na_rede
+  - utter_backup_gravacao_em_midia_externa
+  - utter_comunicacao_telefonia_ip
+  - utter_comunicacao_telefonia_movel
+  - utter_comunicacao_dados_moveis
+  - utter_comunicacao_jabber
+  - utter_comunicacao_video_conferencia
+  - utter_email_correio_pessoal
+  - utter_email_correio_departamental
+  - utter_email_smartphone
+  - utter_email_grupos_de_email
+  - utter_internet_acesso_desbloqueio
+  - utter_internet_acesso_erro
+  - utter_rede_telecomunicacao_corporativa
+  - utter_rede_infraestrutura
+  - utter_rede_wifi_corporativo
+  - utter_rede_wifi_byod
+  - utter_rede_wifi_visitantes
+  - utter_rede_cabeada
+  - utter_rede_solicitacao_conta
+  - utter_rede_vpn
+  - utter_rede_pastas
+  - utter_rede_ftp
+  - utter_rede_quota_servidor
+  - utter_rede_acesso_outras
+  - utter_sistema_acesso
+  - utter_sistema_problema
+  - utter_sistema_melhoria
+  - utter_multimidia_video
+  - utter_multimidia_sonorizacao
+  - utter_multimidia_gravacao
+  - utter_equipamentos_estacoes
+  - utter_equipamentos_impressoras
+  - utter_equipamentos_perifericos
+  - utter_menu_raiz
+  - utter_menu_backup
+  - utter_menu_comunicacao
+  - utter_menu_email
+  - utter_menu_internet
+  - utter_menu_rede
+  - utter_menu_sistemas
+  - utter_menu_multimidia
+  - utter_menu_equipamentos
