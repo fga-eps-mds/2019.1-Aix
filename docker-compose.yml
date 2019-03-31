@@ -63,9 +63,10 @@ services:
       - ./scripts:/scripts
 
   actions:
-    build:
-      context: .
-      dockerfile: ./docker/actions.Dockerfile
+    # build:
+    #   context: .
+    #   dockerfile: ./docker/actions.Dockerfile
+    image: diegodorgam/botons:actions
     ports:
       - 5055:5055
     volumes:
