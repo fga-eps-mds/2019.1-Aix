@@ -95,12 +95,8 @@ Construir backlog da Sprint antes da reunião
 
 ## Riscos
 
-<!-- | Risco  | Ação Preventiva  | Ação Reativa  |
+| Risco  | Ação Preventiva  | Ação Reativa  |
 |---|---|---|
 | Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento.   |Realização de treinamento sobre tecnologias.   |
-|Divergência de horários entre membros da equipe   |Elaboração de quadro de horários disponíveis da cada membro da equipe.   |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.   |
-|Desistência da disciplina.   |Estimular a máxima participação dos membros da equipe   |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.   |
+|Elaboração da arquitetura do projeto   |Estudo das tecnologias que integrarão a arquitetura   |Reuniões da equipe de EPS para definição das tecnologias e arquitetura   |
 |Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
-|Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
-| Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |
-|Escopo não bem definido|Reuniões da gerencia para definição de um escopo viável |Alocação de pessoal para a definição do escopo. | -->
