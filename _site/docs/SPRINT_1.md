@@ -91,7 +91,7 @@ Construir backlog da Sprint antes da reunião
 
 ## Velocity
 
-<!-- ![Velocity](https://imgur.com/PIuv3Qv.png) -->
+![Velocity](../images/velocity_sprint_1.png)
 
 ## Riscos
 
