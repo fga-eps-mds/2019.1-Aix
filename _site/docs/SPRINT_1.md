@@ -93,6 +93,12 @@ Construir backlog da Sprint antes da reunião
 
 ![Velocity](../images/velocity_sprint_1.png)
 
+
+## Quadro de Conhecimento
+
+![Quadro de conhecimento](../images/quadro_conhecimento_sprint_1.png)
+
+
 ## Riscos
 
 | Risco  | Ação Preventiva  | Ação Reativa  |
