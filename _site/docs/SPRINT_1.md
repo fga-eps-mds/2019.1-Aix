@@ -87,7 +87,7 @@ Construir backlog da Sprint antes da reunião
 
 ## Burndown
 
-<!-- ![Burndown](https://imgur.com/dId8od7.png) -->
+![Burndown](../images/burndown_sprint_1.png)
 
 ## Velocity
 
