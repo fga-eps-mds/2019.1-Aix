@@ -1,7 +1,12 @@
+---
+layout: post
+title: Metodologia
+tags: metodologia documento eps
+---
 # Introdução e Descrição da Metodologia
 
 <p align="justify">&emsp;&emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.</p>
-
+<!--more-->
 <p align="justify">&emsp;&emsp;O <b><i>Scrum</i></b> é um <i>framework</i> que preza pela entrega de valor ao cliente de maneira rápida, criativa, onde sua equipe trabalha de forma produtiva.</p>
 <p align="justify">&emsp;&emsp;Tem como artefatos <i>Product Backlog</i>, <i>Sprint Backlog</i> e incrementos. Atividades, tem as Sprints, <i>Sprints Planning</i>, Daily Scrum, <i>Sprint Review</i> e Retrospectiva da <i>Sprint</i>. E como artefatos temos o <i>Product Backlog</i> e <i>Sprint Backlog</i>.</p>
 

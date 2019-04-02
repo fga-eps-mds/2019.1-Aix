@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Documento de Visão
-tags: Documentos visão
+tags: documento visão mds
 ---
 
 # Documento de Visão
