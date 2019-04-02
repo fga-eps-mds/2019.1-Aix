@@ -7,3 +7,10 @@ A ideia da logo surgiu a partir de uma história da mitologia romana, referente 
 
 ## 1.2 Wordmark
 Aix - Consultoria de Python
+
+# 2. Tipografia
+## 2.1 Roboto Slab
+A fonte Roboto Slab deverá ser usada na forma Bold para títulos e headers e na forma regular para destacar informações nos textos gerais e explicativos
+
+## 2.2 Roboto
+A fonte Roboto deverá ser usada na forma Regular para textos gerais. 
