@@ -1,5 +1,5 @@
 
-# Perfil do bot Aix - A chatBode
+# Perfil do bot Aix - A ChatBode de Python
 
 ## Categoria do bot
 
