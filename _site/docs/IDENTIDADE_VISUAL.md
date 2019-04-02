@@ -15,12 +15,16 @@ As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto c
 ## 2.1 Descrição das Cores (+ cores serão adicionadas)
 * **#E47632**
 <img src="https://www.colorhexa.com/e47632.png" alt="drawing" width="70" height="70"/>
+
 * **#3F403F**
 <img src="https://www.colorhexa.com/3f403f.png" alt="drawing" width="70" height="70"/>
+
 * **#D8DBD8**
 <img src="https://www.colorhexa.com/d8dbd8.png" alt="drawing" width="70" height="70"/>
+
 * **#F2F2F2**
 <img src="https://www.colorhexa.com/f2f2f2.png" alt="drawing" width="70" height="70"/>
+
 * **#000000**
 <img src="https://www.colorhexa.com/000000.png" alt="drawing" width="70" height="70"/>
 
