@@ -11,13 +11,13 @@ Um bot consultor abrange o 'user case' onde os usuários precisam de uma soluç�
 Aix
 
 ## Entidade
-Uma cabra
+A espécie de animal: cabra
 
 ## Ambiente: 
 Assitente no Jupyter Notebook
 
 ## Audiência/ Público Alvo: 
-Alunos que estão tendo seu primeiro contato com a linguagem python (17 a 25 anos)
+Alunos que estão tendo seu primeiro contato com a linguagem python
 
 ## Tarefa a ser realizada: 
 Ensinar python para iniciantes
@@ -26,7 +26,7 @@ Ensinar python para iniciantes
 Caso o bot não identifique como responder uma pergunta será solicitado que o usuário refaça a pergunta com outras palavras ou o bot responderá que não possui tal conhecimento.
 
 ## Ambiente social/ Culturas aceitas: 
-Ambiente de estudos onde não poderão ser usados palavrões ou piadas com duplo sentido.
+Ambiente de estudos onde não poderão ser usados palavrões ou piadas com duplo sentido.:
 
 ## Marca resgistrada:
 Um bot amigo e prestativo, pronto a esclarecer dúvidas, com constante desejo de comer capim. Em todos momentos que existir o fonema "be", o mesmo será substituído por por "bée".
