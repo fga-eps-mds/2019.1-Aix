@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+
+    
+
+
+
+
+    
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Documento de Arquitetura | Aix</title>
+
+    <meta name="description" content="1. Introdução1.1 Finalidade &emsp;&emsp;Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevant...">
+
+    <link rel="shortcut icon" href="/assets/img/ogp.png" type="image/x-icon">
+    <link rel="canonical" href="http://localhost:4000/2019/03/29/documento-de-arquitetura/">
+    <link rel="alternate" type="application/atom+xml" title="Aix" href="/feed.xml" />
+
+    
+
+    <meta property="og:title" content="Documento de Arquitetura | Aix" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://fga-eps-mds.github.io/2019.1-Aix/assets/img/ogp.png" />
+    <meta property="og:url" content="http://localhost:4000/2019/03/29/documento-de-arquitetura/" />
+    <meta property="og:site_name" content="Aix" />
+    <meta property="fb:admins" content="" />
+    <meta property="fb:app_id" content="" />
+    <meta property="og:description" content="1. Introdução1.1 Finalidade &emsp;&emsp;Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevant..." />
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://use.fontawesome.com/1f5f360d80.js"></script>
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet">
+
+    <link href="/assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="inner clearfix">
+        
+        <a href="/">
+            <img class="avatar" src="/assets/img/ogp.png" alt=""/>
+        </a>
+        
+        <h1 class="clearfix">
+            <a class="title " href="/">Aix</a>
+            <br><span class="description">Um ChatBot para te ensinar a programar em Python.</span>
+        </h1>
+    </div>
+</header>
+
+<div class="site-container">
+    <div class="site-content">
+        <div class="article-wrapper">
+    <article>
+        
+
+<header>
+    <div class="panel">
+        <h1>
+            
+            Documento de Arquitetura
+            
+        </h1>
+
+        <ul class="tags">
+            
+            
+            <li><i class="fa fa-tags"></i></li>
+            
+            
+            <li>
+                <a class="tag" href="/search/?t=documento">#documento</a>
+            </li>
+            
+            <li>
+                <a class="tag" href="/search/?t=arquitetura">#arquitetura</a>
+            </li>
+            
+            <li>
+                <a class="tag" href="/search/?t=mds">#mds</a>
+            </li>
+            
+        </ul>
+
+        <div class="clearfix">
+            <ul class="meta">
+                
+                <li>
+                    <i class="fa fa-calendar"></i>
+                    2019-03-29
+                </li>
+                
+
+                
+            </ul>
+        </div>
+    </div>
+
+    
+    <div style="margin-top: 1em;">
+        
+
+
+
+
+<div class="clearfix">
+    <div style="float: right !important;">
+        
+        <div style="margin-right: 5px !important; float: left !important;">
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://localhost:4000/2019/03/29/documento-de-arquitetura/" data-text="Documento de Arquitetura | Aix">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+    
+
+    
+</header>
+
+        <section class="post-content">
+            <h1 id="1-introdução">1. Introdução</h1>
+<h2 id="11-finalidade">1.1 Finalidade</h2>
+<p align="justify"> &emsp;&emsp;
+Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pela equipe de desenvolvimento no decorrer da estruturação do escopo.</p>
+<!--more-->
+<h2 id="12-escopo">1.2 Escopo</h2>
+<p align="justify"> &emsp;&emsp;
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um iframe que se sobrepõe ao iframe da plataforma Jupyter Notebook, que visa orientar o ensino e aprendizado do usuário.</p>
+<p align="justify"> &emsp;&emsp;
+Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de testes, casos de uso, entre outros.</p>
+
+<h2 id="13-definições-acrônimos-e-abreviações">1.3 Definições, acrônimos e abreviações</h2>
+
+<h2 id="14-referências">1.4 Referências</h2>
+<ul>
+  <li><a href="https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Documento-de-Arquitetura#4">Receita Mais</a></li>
+  <li><a href="https://dulce-work-schedule.github.io/especificacao/arquitetura.html">Dulce</a></li>
+  <li><a href="https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/docArquitetura">Kalkuli</a></li>
+  <li><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjl7cre9pjhAhUDErkGHb2eA_IQFjAAegQIARAC&amp;url=https://www.dca.ufrn.br/~anderson/FTP/dca0120/modelodocarquiteturasoftware.doc&amp;usg=AOvVaw2P9L4xfD4kcFo0YtBNmuu8">IBM</a></li>
+  <li><a href="https://github.com/QueroMais/QueroMaisConversa/wiki/Casos-de-Uso">Quero Mais Conversa</a></li>
+</ul>
+
+<h2 id="15-visão-geral">1.5 Visão Geral</h2>
+<p>Esta obra será segmentada da seguinte forma:</p>
+<ul>
+  <li><strong>Introdução:</strong> Apresentará a organização do documento, junto a uma breve finalidade do software.</li>
+  <li><strong>Representação de Arquitetura:</strong> Demonstra a arquitetura adotada no trabalho.</li>
+  <li><strong>Restrições e Metas de Arquitetura:</strong> Exibe os requisitos de usabilidade do software e os propósitos que influenciam a aplicação.</li>
+  <li><strong>Visão de Casos de Uso:</strong> Revela os casos de uso da aplicação.</li>
+  <li><strong>Visão de Implementação:</strong> Expõe um esboço de como será implementada a arquitetura elaborada.</li>
+  <li><strong>Visão Lógica:</strong> Exibe elementos importantes do programa segundo a arquitetura adotada e a modelagem do design.</li>
+  <li><strong>Tamanho e Desempenho:</strong> Detalha as especificações da aplicação que afetam o desempenho.</li>
+  <li><strong>Qualidade:</strong> Retrata a forma como a opção da arquitetura do software engrandece a aplicação.</li>
+</ul>
+
+<h1 id="3-metas-e-restrições-da-arquitetura">3. Metas e Restrições da Arquitetura</h1>
+<p align="justify"> &emsp;&emsp;
+A aplicação deverá sobrepor o iframe do Jupyter Notebook com outro iframe e para seu desenvolvimento serão usadas as seguintes tecnologias:</p>
+
+<ul>
+  <li>React.js: biblioteca de JavaScript para criar interfaces para o usuário, com o qual faremos a parte de front-end da aplicação</li>
+  <li>Flask: <em>microframework</em>, construído em python, para o desenvolvimento das API’s do projeto. Será usado na versão 1.0.2.</li>
+  <li>Docker: Ferramenta para gerar um ambiente isolado e construído especificamente para a equipe que será utilizado para facilitar o desenvolvimento do projeto.</li>
+  <li>Git: Ferramenta de versionamento que será usada em conjunto com o GitHub para salvar os dados do decorrer do projeto, possibilitando a hospedagem e a geração de backups do mesmo. Será usada a versão 2.7.4 ou maior.</li>
+  <li>CodeClimate: Ferramenta para análise estática do código</li>
+  <li>Rasa Core+NLU: Ferramenta para criação do ChatBot. Será usada na versão 0.14.6.</li>
+  <li>Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.</li>
+  <li>Rocket Chat: Ferramenta para visualização do chat.</li>
+</ul>
+
+<p>O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente, conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.</p>
+
+<h1 id="4-casos-de-uso">4. Casos de Uso</h1>
+
+<h2 id="41-diagrama-de-casos-de-uso">4.1 Diagrama de casos de uso</h2>
+
+<p><img src="https://i.imgur.com/HLweYIR.png" alt="" /></p>
+
+<h2 id="42-especificações-dos-casos-de-uso">4.2 Especificações dos casos de uso</h2>
+<p>|Casos de Uso|Ator|Descrição|
+|—|—|——|
+|UC01 - Iniciar conversa| Usuário | Este caso de uso ocorre quando inicializa o bot e manda uma mensagem inicial|
+|UC02 - Enviar arquivo| Usuário| Este caso de uso permite que o usuário envie um arquivo de código para o bot|
+|UC03 - Escrever código| Usuário | Este caso de uso ocorre quando usuário implementa o código em seu computador|
+|UC04 - Compilação de códigos| - | Este caso de uso ocorre quando o sistema compila o código enviado pelo usuário|
+|UC05 - Feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
+|UC06 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
+|UC07 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|</p>
+
+<h1 id="6-desempenho">6. Desempenho</h1>
+<p align="justify"> &emsp;&emsp;
+O desempenho do sistema será afetado por fatores como a velocidade da conexão do usuário com a internet e a quantidade de requisições sendo realizadas.
+</p>
+
+<h1 id="7-qualidade">7. Qualidade</h1>
+<p align="justify"> &emsp;&emsp;
+A arquitetura baseada em microserviços é ideal neste projeto porque todos os serviços são independentes e por conta de tal independência é possível gerenciar o trafego de todos individualmente, de modo que fica mais fácil de replicar ou excluir containers quando o trafego aumenta consideravelmente.
+Além de que, pelo fato de serem independentes é possível escalar todos os serviços, adicionar novas funcionalidades e remontar a arquitetura de maneira muito mais simples do que em um serviço monolítico
+</p>
+
+
+        </section>
+        <footer>
+    
+    
+
+
+
+
+<div class="clearfix">
+    <div style="float: right !important;">
+        
+        <div style="margin-right: 5px !important; float: left !important;">
+            <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://localhost:4000/2019/03/29/documento-de-arquitetura/" data-text="Documento de Arquitetura | Aix">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+    
+</footer>
+
+    </article>
+</div>
+
+
+
+    </div>
+
+    <aside class="site-aside">
+        <div class="inner">
+            <div class="block">
+                <form action="/search">
+                    <input type="search" id="search" name="q" placeholder="Procurar" />
+                </form>
+            </div>
+            <!-- <ul>
+                
+                
+                
+                <li><a class="page-link" href="/2015-01-01-hello/">Hello, Jekyll and TtskchTheme</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a class="page-link" href="/about/">About</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/tags/">Tags</a></li>
+                
+                
+                
+                <li><a class="page-link" href="/archives/">Archives</a></li>
+                
+                
+            </ul>
+            <ul class="icons">
+                
+
+
+<li>
+    <a href="/feed.xml">
+        <i class="fa fa-fw fa-rss"></i>
+    </a>
+</li>
+
+
+
+
+
+<li>
+    <a href="https://github.com/fga-eps-mds">
+        <i class="fa fa-fw fa-github"></i>
+    </a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </ul> -->
+            <!-- <hr class="with-no-margin margin-bottom"/> -->
+
+            <div class="block sticky">
+                <h2>Posts Recentes</h2>
+                <ul>
+                    
+                    
+                    
+                    
+                    <li><a href="/2019/04/01/sprint-02/">Revisão da Sprint 1</a></li>
+                    
+                    <li><a href="/2019/03/31/folha-de-estilo/">Folha de Estilo</a></li>
+                    
+                    <li><a href="/2019/03/29/documento-de-arquitetura/">Documento de Arquitetura</a></li>
+                    
+                    <li><a href="/2019/03/29/documento-de-vis%C3%A3o/">Documento de Visão</a></li>
+                    
+                    <li><a href="/2019/03/29/gcs/">Plano de Gerenciamento de Configuração de Software</a></li>
+                    
+                    <li><a href="/2019/03/28/EAP/">Estrutura Analitica do Projeto</a></li>
+                    
+                    <li><a href="/2019/03/27/fluxograma/">Fluxograma</a></li>
+                    
+                    <li><a href="/2019/03/27/sprint-01/">Revisão da Sprint 0</a></li>
+                    
+                    <li><a href="/2019/03/27/tap/">Termo de Abertura do Projeto</a></li>
+                    
+                    <li><a href="/2019/03/26/metodologia/">Metodologia</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </aside>
+</div>
+
+<footer class="site-footer">
+    <div class="inner">
+        <span>Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://github.com/ttskch/jekyll-ttskch-theme">TtskchTheme</a></span>
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="/assets/lib/garand-sticky/jquery.sticky.js"></script>
+<script src="/assets/js/script.js"></script>
+
+
+<script src="/assets/js/header-link.js"></script>
+
+
+
+
+<!-- Init Facebook SDK -->
+
+
+<!-- Google Analytics -->
+
+
+
+</body>
+</html>
