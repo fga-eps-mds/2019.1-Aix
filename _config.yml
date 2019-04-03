@@ -2,11 +2,11 @@
 # Basic settings.
 #
 # URL to test in your machine
-url: http://localhost:4000
-baseurl: ""
+# url: http://localhost:4000
+# baseurl: ""
 # URL in deploy to your Page
-# url: https://fga-eps-mds.github.io/2019.1-Aix/
-# baseurl: 2019.1-Aix/
+url: https://fga-eps-mds.github.io/2019.1-Aix/
+baseurl: 2019.1-Aix/
 title: Aix
 description: Um ChatBot para te ensinar a programar em Python.
 avatar: /assets/img/ogp.png
@@ -20,9 +20,9 @@ language: pt-br
 icons:
   rss: true
   email:
-  github: ttskch
+  github: fga-eps-mds
   bitbucket:
-  twitter: ttskch
+  twitter: 
   facebook:
   google_plus:
   tumblr:
@@ -76,13 +76,13 @@ paginate_path: page/:num
 #
 share_buttons:
   twitter: true
-  facebook: false # needs ogp.fb.app_id
+  facebook: false
   hatena: false
 ogp:
-  image_url: //ttskch.github.io/jekyll-ttskch-theme/assets/img/ogp.png
+  image_url: https://fga-eps-mds.github.io/2019.1-Aix/assets/img/ogp.png
   fb:
-    admin: # facebook admin id
-    app_id: # facebook application id
+    admin:
+    app_id:
 
 #
 # Plugins.
