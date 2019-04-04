@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-03T16:12:53-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aix</title><subtitle>Um ChatBot para te ensinar a programar em Python.</subtitle><entry><title type="html">Revisão da Sprint 1</title><link href="http://localhost:4000/2019/04/01/sprint-02/" rel="alternate" type="text/html" title="Revisão da Sprint 1" /><published>2019-04-01T00:00:00-03:00</published><updated>2019-04-01T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/01/sprint-02</id><content type="html" xml:base="http://localhost:4000/2019/04/01/sprint-02/">&lt;h1 id=&quot;sprint-1&quot;&gt;Sprint 1&lt;/h1&gt;
+
+&lt;h2 id=&quot;duração&quot;&gt;Duração&lt;/h2&gt;
+
+&lt;p&gt;Duração: 1 semana&lt;br /&gt;
+Início: 23/03/2019&lt;br /&gt;
+Fim: 30/03/2019&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;p&gt;Treinamentos de tecnologias&lt;br /&gt;
+Criação de documentação&lt;br /&gt;
+Dockerização do ambiente
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sprint-backlog&quot;&gt;Sprint Backlog&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/8&quot;&gt;#8 Treinamento de tecnologias&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/9&quot;&gt;#9 Treinamento de Chatbot&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/10&quot;&gt;#10 Elaboração do TAP&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/11&quot;&gt;#11 Elaboração do EAP&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/12&quot;&gt;#12 Definir tecnologias a serem utilizadas&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/13&quot;&gt;#13 Criar documento de Metodologia&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/14&quot;&gt;#14 Documentar Sprint 0&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/15&quot;&gt;#15 Definição da arquitetura inicial&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/16&quot;&gt;#16 Elaborar documento de visão&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/17&quot;&gt;#17 Elaborar documento de arquitetura&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/18&quot;&gt;#18 Criar fluxograma versão 1.0&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/19&quot;&gt;#19 Dockerizar o ambiente&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;retrospectiva&quot;&gt;Retrospectiva&lt;/h2&gt;
+
+&lt;h3 id=&quot;pontos-positivos&quot;&gt;Pontos Positivos&lt;/h3&gt;
+
+&lt;p&gt;Tem lanche
+A gente conseguiu se comunicar bem&lt;br /&gt;
+Issues foram completadas&lt;br /&gt;
+Usamos bem as issues (estamos nos comunicando nas issues)&lt;br /&gt;
+Iuri monopolizou arquitetura (ajudando quem não pode
+trabalhar no momento)&lt;br /&gt;
+Conseguimos definir melhor o projeto (estava muito abstrato)&lt;br /&gt;
+Não houveram muitos empecilhos&lt;br /&gt;
+Issues finalizadas&lt;br /&gt;
+Conseguimos fechar tudo&lt;br /&gt;
+Boa comunicação&lt;br /&gt;
+Fechamos tudo&lt;br /&gt;
+Apesar da falta de conhecimento sobre documentação, MDS conseguiu produzir bem&lt;br /&gt;
+Iuri trabalhando muito&lt;br /&gt;
+Ajuda do Guilherme no doc de arquitetura&lt;br /&gt;
+Diagrama de Caso de Uso foi útil&lt;br /&gt;
+Ajuda externa&lt;br /&gt;
+Descobrimos muita coisa sobre EPS que não sabíamos&lt;br /&gt;
+Aprendendo coisas legais&lt;br /&gt;
+Docker tá indo (ainda não sei pra onde)&lt;br /&gt;
+MDS conseguiu fazer os documentos&lt;br /&gt;
+Esforço de MDS, EPS deixou a desejar ao entregar a parte completa&lt;/p&gt;
+
+&lt;h3 id=&quot;pontos-negativos&quot;&gt;Pontos Negativos&lt;/h3&gt;
+
+&lt;p&gt;Falta de conhecimento&lt;br /&gt;
+PR errados&lt;br /&gt;
+Iuri monopolizou o conteúdo&lt;br /&gt;
+Sábado a tarde&lt;br /&gt;
+Monopolio de trabalho pode atrapalhar parte da equipe&lt;br /&gt;
+Comunicação entre EPS e MDS, principalmente no doc de Arquitetura&lt;br /&gt;
+Muito trabalho para o Iuri (tinha mais tempo livre, e trabalhou mais)&lt;br /&gt;
+Falta de salas pro Dojo&lt;br /&gt;
+Iuri trabalhando&lt;br /&gt;
+Começamos errado na metodologia (levantamento de requisitos não foi feito direito antes da arquitetura)&lt;br /&gt;
+Arquitetura começou mal, pois começou sem bom conhecimento das tecnologias&lt;br /&gt;
+Mais integração no time de EPS (todos estarem presentes na reunião, e conseguir resolver problemas o mais rápido possível)&lt;/p&gt;
+
+&lt;h3 id=&quot;melhorias&quot;&gt;Melhorias&lt;/h3&gt;
+
+&lt;p&gt;Pareamento sem competição, e sim como time (definir bem a sua parte e “ajudar” o outro no tempo que sobrar)&lt;br /&gt;
+Melhorar comunicação entre EPS e MDS&lt;br /&gt;
+E melhorar divisão do trabalho (e respeito a divisão)&lt;br /&gt;
+Salas para o Dojô&lt;br /&gt;
+Falta de organização ao criar documentação&lt;br /&gt;
+Ler mais o PMBOK&lt;br /&gt;
+Melhorar metodologia&lt;br /&gt;
+Construir backlog da Sprint antes da reunião&lt;/p&gt;
+
+&lt;h2 id=&quot;burndown&quot;&gt;Burndown&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/burndown_sprint_1.png&quot; alt=&quot;Burndown&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;velocity&quot;&gt;Velocity&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/velocity_sprint_1.png&quot; alt=&quot;Velocity&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;quadro-de-conhecimento&quot;&gt;Quadro de Conhecimento&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/quadro_conhecimento_sprint_1.png&quot; alt=&quot;Quadro de conhecimento&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;riscos&quot;&gt;Riscos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Risco&lt;/th&gt;
+      &lt;th&gt;Ação Preventiva&lt;/th&gt;
+      &lt;th&gt;Ação Reativa&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dificuldades da equipe com as novas tecnologias inseridas&lt;/td&gt;
+      &lt;td&gt;Seleção de alunos experientes para aplicação de treinamento.&lt;/td&gt;
+      &lt;td&gt;Realização de treinamento sobre tecnologias.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Elaboração da arquitetura do projeto&lt;/td&gt;
+      &lt;td&gt;Estudo das tecnologias que integrarão a arquitetura&lt;/td&gt;
+      &lt;td&gt;Reuniões da equipe de EPS para definição das tecnologias e arquitetura&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alteração do escopo&lt;/td&gt;
+      &lt;td&gt;Documentar e refinar de forma constante os requisitos&lt;/td&gt;
+      &lt;td&gt;Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="sprint" /><category term="revisão" /><category term="eps" /><summary type="html">Sprint 1 Duração Duração: 1 semana Início: 23/03/2019 Fim: 30/03/2019 Objetivos Treinamentos de tecnologias Criação de documentação Dockerização do ambiente</summary></entry><entry><title type="html">Folha de Estilo</title><link href="http://localhost:4000/2019/03/31/folha-de-estilo/" rel="alternate" type="text/html" title="Folha de Estilo" /><published>2019-03-31T00:00:00-03:00</published><updated>2019-03-31T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/31/folha-de-estilo</id><content type="html" xml:base="http://localhost:4000/2019/03/31/folha-de-estilo/">&lt;h1 id=&quot;folha-de-estilo&quot;&gt;Folha de Estilo&lt;/h1&gt;
+
+&lt;p&gt;Este documento define as convenção seguidas para a programação na linguagem python que serão utilizadas no presente projeto. Ele tem como base o &lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP8 – Style Guide for Python Code&lt;/a&gt;, porém apresenta algumas leves alterações para refletir melhor as necessidades da equipe.
+Obervação: este documento pode sofrer alterações, caso seja evidenciado que alguma das convenções aqui descritas não se adequam da melhor forma ao contexto do projeto.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;layout-do-código&quot;&gt;Layout do Código&lt;/h2&gt;
+
+&lt;h3 id=&quot;identação&quot;&gt;Identação&lt;/h3&gt;
+
+&lt;p&gt;Usar 4 espaços por nível de identação (configurar tab para 4 espaços)&lt;/p&gt;
+
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Com argumentos no primeira linha:
+foo = long_function_name(var_one, var_two,
+                         var_three, var_four)
+
+
+#Adicione 4 espaços extras para distinguir argumentos do resto (caso não fique na primeira linha):
+def long_function_name(
+        var_one, var_two, var_three,
+        var_four):
+    print(var_one)
+
+
+#Sem argumentos na primeira linha:
+foo = long_function_name(
+    var_one, var_two,
+    var_three, var_four)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Argumentos na primeira linha são proibidos quando não utilizar alinhamento vertical:
+foo = long_function_name(var_one, var_two,
+    var_three, var_four)
+
+#Identação dos argumentos não se distingue do resto do código:
+def long_function_name(
+    var_one, var_two, var_three,
+    var_four):
+    print(var_one)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;No caso de listas e dicionários, o fechamento deve ser feito abaixo do conteúdo, no mesmo nível da declaração da lista ou dicionário:&lt;/p&gt;
+
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;my_list = [
+    1, 2, 3,
+    4, 5, 6,
+]
+
+my_dict = {
+    &quot;key1&quot;: &quot;value1&quot;,
+    &quot;key2&quot;: &quot;value2&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;my_list = [
+    1, 2, 3,
+    4, 5, 6,]
+
+my_dict = {
+    &quot;key1&quot;: &quot;value1&quot;,
+    &quot;key2&quot;: &quot;value2&quot;}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;tamanho-máximo-de-caracteres-por-linha&quot;&gt;Tamanho máximo de caracteres por linha&lt;/h3&gt;
+
+&lt;p&gt;O tamanho máximo de caracteres por linha será de 79 caracteres.&lt;/p&gt;
+
+&lt;p&gt;Este número se deve a maior comodidade e adequação à maioria dos editores de texto, evitando a necessidade de scroll lateral no texto, permitindo, assim, uma visão melhor do código como um todo.&lt;/p&gt;
+
+&lt;p&gt;Em casos em que a linha ultrapasse o valor estipulado, a linha deverá ser quebrada (neste caso, será utilizado a continuação de linha implícita, através de parênteses, colchetes e chaves). Outra possibilidade é a utilização de barra invertida.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;with open('/path/to/some/file/you/want/to/read') as file_1, \
+    open('/path/to/some/file/being/written', 'w') as file_2:
+    file_2.write(file_1.read())
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;quebra-de-linha-em-operadores-binários&quot;&gt;Quebra de linha em operadores binários&lt;/h3&gt;
+
+&lt;p&gt;Caso necessário, será utilizado quebra de linha após o operador binário.&lt;/p&gt;
+
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;income = (gross_wages +
+      taxable_interest +
+      (dividends - qualified_dividends) -
+      ira_deduction -
+      student_loan_interest)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;income = (gross_wages
+      + taxable_interest
+      + (dividends - qualified_dividends)
+      - ira_deduction
+      - student_loan_interest)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;espaços-em-branco&quot;&gt;Espaços em branco&lt;/h3&gt;
+
+&lt;p&gt;Deverá existir dois espaços em branco entre as declarações de funções.&lt;/p&gt;
+
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def function1():
+    do_something()
+
+
+def function2():
+    do_something_but_different()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def function1():
+    do_something()
+
+def function2():
+    do_something_but_different()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Deverá existir um espaço em branco entre parágrafos de código.&lt;/p&gt;
+
+&lt;h3 id=&quot;imports&quot;&gt;Imports&lt;/h3&gt;
+
+&lt;p&gt;Os imports são sempre colocados na parte superior do arquivo, logo após os comentários de módulos e docstrings, e antes dos módulos globais e constantes.&lt;/p&gt;
+
+&lt;p&gt;Os imports devem ser agrupadas na seguinte ordem:&lt;/p&gt;
+
+&lt;p&gt;Imports de biblioteca padrão.
+Imports de terceiros relacionadas.
+Imports específicas de aplicativo / biblioteca local.&lt;/p&gt;
+
+&lt;p&gt;Imports devem ser feitos em linha separadas.&lt;/p&gt;
+
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import os
+import sys
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import sys, os
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Também é permitido desta forma:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from subprocess import Popen, PIPE
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;aspas-em-strings&quot;&gt;Aspas em Strings&lt;/h2&gt;
+
+&lt;p&gt;Python não distigue entre aspas simples e duplas. Então por pura convenção, será utilizada aspas simples para Strings.&lt;/p&gt;
+
+&lt;h2 id=&quot;espaçamento-entre-declarações-e-expressões&quot;&gt;Espaçamento entre declarações e expressões&lt;/h2&gt;
+
+&lt;p&gt;Evite espaçamentos nos seguintes casos:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Imediatamente dentro de parênteses, colchetes e chaves:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yes: spam(ham[1], {eggs: 2})
+
+No:  spam( ham[ 1 ], { eggs: 2 } )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Entre uma vírgula final e um fechamento de parênteses:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yes: foo = (0,)
+
+No:  bar = (0, )
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Imediatamente antes de um vírgula, ponto e vírgula ou dois pontos:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yes: if x == 4: print x, y; x, y = y, x
+
+No:  if x == 4 : print x , y ; x , y = y , x
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Imediatamente antes de abertura de parênteses:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yes: spam(1)
+
+No:  spam (1)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Imediatamente antes de indexação:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Yes: dct['key'] = lst[index]
+
+No:  dct ['key'] = lst [index]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Alinhamento entre operadores:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- Forçando formatação --&gt;
+&lt;p&gt;Como fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x = 1
+y = 2
+long_variable = 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Como não fazer:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;x             = 1
+y             = 2
+long_variable = 3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;comentários&quot;&gt;Comentários&lt;/h2&gt;
+
+&lt;p&gt;Comentários que contradizem o código são piores do que comentários. Sempre priorize manter os comentários atualizados quando o código for alterado!&lt;/p&gt;
+
+&lt;p&gt;Comentários devem ser frases completas. A primeira palavra deve ser maiúscula, a menos que seja um identificador que comece com uma letra minúscula (nunca altere o caso dos identificadores!).&lt;/p&gt;
+
+&lt;p&gt;Os comentários de bloco geralmente consistem em um ou mais parágrafos construídos com sentenças completas, com cada sentença terminando em um período.&lt;/p&gt;
+
+&lt;p&gt;Os comentários devem seguir a língua do código.&lt;/p&gt;
+
+&lt;h3 id=&quot;blocos-de-comentários&quot;&gt;Blocos de comentários&lt;/h3&gt;
+
+&lt;p&gt;Os blocos de comentários devem seguir a identação do código, e cada linha do comentário de começar com # e um espaço antes do texto.&lt;/p&gt;
+
+&lt;h3 id=&quot;comentários-em-linha&quot;&gt;Comentários em linha&lt;/h3&gt;
+
+&lt;p&gt;Devem ser separados em dois espaços do código, e começar com # e um espaço em branco antes do código.&lt;/p&gt;
+
+&lt;h2 id=&quot;convenções-de-nomenclatura&quot;&gt;Convenções de nomenclatura&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arquivos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Arquivos devem seguir o padrão snake case.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nlu_config.yml
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Classes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Classes devem seguir o padrão pascal case.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;class ClassNameHere()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Funções&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Funções devem seguir o padrão camel case.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def functionNameHere()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Variáveis&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Variáveis devem seguir o padrão camel case.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int variableNameHere
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Constantes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Constantes devem seguir o padrão screaming snake case.&lt;/p&gt;
+
+&lt;p&gt;Exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;int CONSTANT_NAME_HERE
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><category term="folha" /><category term="estilo" /><category term="eps" /><category term="documento" /><summary type="html">Folha de Estilo Este documento define as convenção seguidas para a programação na linguagem python que serão utilizadas no presente projeto. Ele tem como base o PEP8 – Style Guide for Python Code, porém apresenta algumas leves alterações para refletir melhor as necessidades da equipe. Obervação: este documento pode sofrer alterações, caso seja evidenciado que alguma das convenções aqui descritas não se adequam da melhor forma ao contexto do projeto.</summary></entry><entry><title type="html">Documento de Arquitetura</title><link href="http://localhost:4000/2019/03/29/documento-de-arquitetura/" rel="alternate" type="text/html" title="Documento de Arquitetura" /><published>2019-03-29T00:00:00-03:00</published><updated>2019-03-29T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/29/documento-de-arquitetura</id><content type="html" xml:base="http://localhost:4000/2019/03/29/documento-de-arquitetura/">&lt;h1 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h1&gt;
+&lt;h2 id=&quot;11-finalidade&quot;&gt;1.1 Finalidade&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pela equipe de desenvolvimento no decorrer da estruturação do escopo.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;12-escopo&quot;&gt;1.2 Escopo&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um iframe que se sobrepõe ao iframe da plataforma Jupyter Notebook, que visa orientar o ensino e aprendizado do usuário.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de testes, casos de uso, entre outros.&lt;/p&gt;
+
+&lt;h2 id=&quot;13-definições-acrônimos-e-abreviações&quot;&gt;1.3 Definições, acrônimos e abreviações&lt;/h2&gt;
+
+&lt;h2 id=&quot;14-referências&quot;&gt;1.4 Referências&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Documento-de-Arquitetura#4&quot;&gt;Receita Mais&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dulce-work-schedule.github.io/especificacao/arquitetura.html&quot;&gt;Dulce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/docArquitetura&quot;&gt;Kalkuli&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.google.com/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=2ahUKEwjl7cre9pjhAhUDErkGHb2eA_IQFjAAegQIARAC&amp;amp;url=https://www.dca.ufrn.br/~anderson/FTP/dca0120/modelodocarquiteturasoftware.doc&amp;amp;usg=AOvVaw2P9L4xfD4kcFo0YtBNmuu8&quot;&gt;IBM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/QueroMais/QueroMaisConversa/wiki/Casos-de-Uso&quot;&gt;Quero Mais Conversa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;15-visão-geral&quot;&gt;1.5 Visão Geral&lt;/h2&gt;
+&lt;p&gt;Esta obra será segmentada da seguinte forma:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Introdução:&lt;/strong&gt; Apresentará a organização do documento, junto a uma breve finalidade do software.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Representação de Arquitetura:&lt;/strong&gt; Demonstra a arquitetura adotada no trabalho.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Restrições e Metas de Arquitetura:&lt;/strong&gt; Exibe os requisitos de usabilidade do software e os propósitos que influenciam a aplicação.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visão de Casos de Uso:&lt;/strong&gt; Revela os casos de uso da aplicação.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visão de Implementação:&lt;/strong&gt; Expõe um esboço de como será implementada a arquitetura elaborada.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Visão Lógica:&lt;/strong&gt; Exibe elementos importantes do programa segundo a arquitetura adotada e a modelagem do design.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tamanho e Desempenho:&lt;/strong&gt; Detalha as especificações da aplicação que afetam o desempenho.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Qualidade:&lt;/strong&gt; Retrata a forma como a opção da arquitetura do software engrandece a aplicação.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;3-metas-e-restrições-da-arquitetura&quot;&gt;3. Metas e Restrições da Arquitetura&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+A aplicação deverá sobrepor o iframe do Jupyter Notebook com outro iframe e para seu desenvolvimento serão usadas as seguintes tecnologias:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;React.js: biblioteca de JavaScript para criar interfaces para o usuário, com o qual faremos a parte de front-end da aplicação&lt;/li&gt;
+  &lt;li&gt;Flask: &lt;em&gt;microframework&lt;/em&gt;, construído em python, para o desenvolvimento das API’s do projeto. Será usado na versão 1.0.2.&lt;/li&gt;
+  &lt;li&gt;Docker: Ferramenta para gerar um ambiente isolado e construído especificamente para a equipe que será utilizado para facilitar o desenvolvimento do projeto.&lt;/li&gt;
+  &lt;li&gt;Git: Ferramenta de versionamento que será usada em conjunto com o GitHub para salvar os dados do decorrer do projeto, possibilitando a hospedagem e a geração de backups do mesmo. Será usada a versão 2.7.4 ou maior.&lt;/li&gt;
+  &lt;li&gt;CodeClimate: Ferramenta para análise estática do código&lt;/li&gt;
+  &lt;li&gt;Rasa Core+NLU: Ferramenta para criação do ChatBot. Será usada na versão 0.14.6.&lt;/li&gt;
+  &lt;li&gt;Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.&lt;/li&gt;
+  &lt;li&gt;Rocket Chat: Ferramenta para visualização do chat.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente, conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.&lt;/p&gt;
+
+&lt;h1 id=&quot;4-casos-de-uso&quot;&gt;4. Casos de Uso&lt;/h1&gt;
+
+&lt;h2 id=&quot;41-diagrama-de-casos-de-uso&quot;&gt;4.1 Diagrama de casos de uso&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/HLweYIR.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;42-especificações-dos-casos-de-uso&quot;&gt;4.2 Especificações dos casos de uso&lt;/h2&gt;
+&lt;p&gt;|Casos de Uso|Ator|Descrição|
+|—|—|——|
+|UC01 - Iniciar conversa| Usuário | Este caso de uso ocorre quando inicializa o bot e manda uma mensagem inicial|
+|UC02 - Enviar arquivo| Usuário| Este caso de uso permite que o usuário envie um arquivo de código para o bot|
+|UC03 - Escrever código| Usuário | Este caso de uso ocorre quando usuário implementa o código em seu computador|
+|UC04 - Compilação de códigos| - | Este caso de uso ocorre quando o sistema compila o código enviado pelo usuário|
+|UC05 - Feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
+|UC06 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
+|UC07 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|&lt;/p&gt;
+
+&lt;h1 id=&quot;6-desempenho&quot;&gt;6. Desempenho&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O desempenho do sistema será afetado por fatores como a velocidade da conexão do usuário com a internet e a quantidade de requisições sendo realizadas.
+&lt;/p&gt;
+
+&lt;h1 id=&quot;7-qualidade&quot;&gt;7. Qualidade&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+A arquitetura baseada em microserviços é ideal neste projeto porque todos os serviços são independentes e por conta de tal independência é possível gerenciar o trafego de todos individualmente, de modo que fica mais fácil de replicar ou excluir containers quando o trafego aumenta consideravelmente.
+Além de que, pelo fato de serem independentes é possível escalar todos os serviços, adicionar novas funcionalidades e remontar a arquitetura de maneira muito mais simples do que em um serviço monolítico
+&lt;/p&gt;</content><author><name></name></author><category term="documento" /><category term="arquitetura" /><category term="mds" /><summary type="html">1. Introdução 1.1 Finalidade &amp;emsp;&amp;emsp; Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pela equipe de desenvolvimento no decorrer da estruturação do escopo.</summary></entry><entry><title type="html">Documento de Visão</title><link href="http://localhost:4000/2019/03/29/documento-de-vis%C3%A3o/" rel="alternate" type="text/html" title="Documento de Visão" /><published>2019-03-29T00:00:00-03:00</published><updated>2019-03-29T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/29/documento-de-vis%C3%A3o</id><content type="html" xml:base="http://localhost:4000/2019/03/29/documento-de-vis%C3%A3o/">&lt;h1 id=&quot;documento-de-visão&quot;&gt;Documento de Visão&lt;/h1&gt;
+
+&lt;h2 id=&quot;1--introdução&quot;&gt;1.  Introdução&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Este documento estará repleto de dados que sustentarão o propósito, o contexto e a visão geral do produto em questão para assim, garantir o total entendimento do projeto.&lt;/p&gt;
+
+&lt;h3 id=&quot;11--propósito&quot;&gt;1.1  Propósito&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O objetivo deste artigo será definir o problema, os perfis das partes interessadas e do usuário, o campo de negócio no qual a iniciativa será inserida, além de requisitos, recursos e especificações do sistema em pauta.&lt;/p&gt;
+
+&lt;h3 id=&quot;12--escopo&quot;&gt;1.2  Escopo&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Em seguida, as informações técnicas do programa também serão bem delineadas e atualizadas caso seja necessário durante o processo de criação do sistema.&lt;/p&gt;
+
+&lt;h3 id=&quot;13--definições-acrônimos-e-abreviações&quot;&gt;1.3  Definições, acrônimos e abreviações&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Estarão listadas neste tópico definições, acrônimos e abreviações para garantir uma maior proximidade para com o leitor e o público interessado no projeto.&lt;/p&gt;
+
+&lt;h4 id=&quot;131-definições&quot;&gt;1.3.1 Definições&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Chatbot:&lt;/strong&gt; programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.&lt;/p&gt;
+
+&lt;h4 id=&quot;132-abreviações&quot;&gt;1.3.2 Abreviações&lt;/h4&gt;
+
+&lt;h3 id=&quot;14--referências&quot;&gt;1.4  Referências&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt;
+Acessado em: 26/03/2018, 15:30, Horário de Brasília.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dulce-work-schedule.github.io/especificacao/visao.html#2&quot;&gt;Dulce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html&quot;&gt;IBM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;15--visão-geral&quot;&gt;1.5  Visão Geral&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Desta forma, a ideia principal deste documento de visão é fornecer de maneira objetiva e organizada os assuntos que tangem à problemática inicial.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+As informações serão organizadas em tópicos referentes aos seguintes temas, como modelos de exemplo: o contexto da tecnologia no meio pedagógico, o detalhamento dos perfis interessados, as funcionalidades principais da ferramenta a ser produzida bem como característica técnicas do produto.&lt;/p&gt;
+
+&lt;h2 id=&quot;2--posicionamento&quot;&gt;2.  Posicionamento&lt;/h2&gt;
+
+&lt;h3 id=&quot;21--oportunidade-de-negócios&quot;&gt;2.1  Oportunidade de Negócios&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O programa concebido pela equipe de desenvolvimento desempenha a função de superar os obstáculos encontrados no processo de aprendizagem comumente defasado e engessado no presente momento. Com o intuito de introduzir uma metodologia de ensino alternativa e dinâmica, com um formato inovador, o projeto foi criado justamente com um direcionamento ao professor, às instituições de educação e ao principal beneficente: o aluno. Plataformas digitais educacionais também são alvos quando se trata do campo empreendedor.&lt;/p&gt;
+
+&lt;h3 id=&quot;22--instrução-do-problema&quot;&gt;2.2  Instrução do Problema&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Como foi dito anteriormente, devido ao ultrapassado modelo de aprendizado frequentemente encontrado em diversas instituições juntamente à grande dificuldade do público acadêmico em absorver conteúdos de programação, a ideia de um auxílio educacional tomou forma e foi desenvolvida pela equipe. Assim, o projeto foi construído com a finalidade de sanar os transtornos da comunidade acadêmica em geral, que sofre com a falta de dinamismo e fluidez em sala de aula.
+&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Ao tratar estes impasses dentro de classe, com o uso de ferramentas tecnológicas, seria enfim possível uma melhor qualificação do lecionando e garantiria também um maior interesse da parte de outros profissionais de diferentes áreas, engrandecendo, dessa forma, projetos futuros.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Tipo&lt;/th&gt;
+      &lt;th&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Problema&lt;/td&gt;
+      &lt;td&gt;Dificuldades encontradas no ensino atualmente.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Afeta&lt;/td&gt;
+      &lt;td&gt;Campo acadêmico geral, tanto alunos quanto professores e corporações de educação que não alcançam êxito em suas funções.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Impactos&lt;/td&gt;
+      &lt;td&gt;Formação de excelentes profissionais para o mercado de trabalho, estimular o interesse de especialistas de outras áreas.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Solução&lt;/td&gt;
+      &lt;td&gt;O programa fornecerá diferentes funcionalidades para o usuário, como respostas automáticas para indagações do usuário, ajuda com sintaxe, indicar bibliotecas, feedback da compilação dos códigos.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;23--instrução-de-posição-do-produto&quot;&gt;2.3  Instrução de Posição do produto&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Como um dispositivo alternativo de aprendizado, o Aix Bot apresenta auxílio ao usuário ao demonstrar as funcionalidades de amparo em sintaxe da linguagem, explicação quanto a dúvidas na disciplina, indicação de bibliotecas e retornos de compilação de código.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Com essas utilidades, o aplicativo alcança uma posição inovadora na categoria de programas didáticos para entidades de aprendizado, sejam elas presenciais ou não.&lt;/p&gt;
+
+&lt;h2 id=&quot;3-descrição-da-parte-interessada-e-do-usuário&quot;&gt;3. Descrição da Parte Interessada e do Usuário&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Cliente:
+    &lt;ul&gt;
+      &lt;li&gt;Instituições de ensino médio e superior&lt;/li&gt;
+      &lt;li&gt;Empresas privadas&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Usuários:
+    &lt;ul&gt;
+      &lt;li&gt;Pessoas iniciantes no aprendizado da linguagem de programação Python&lt;/li&gt;
+      &lt;li&gt;Professores interessados em alternativas para o processo de ensino da linguagem Python&lt;/li&gt;
+      &lt;li&gt;Usuários da plataforma Jupyter para o desenvolvimento em Python&lt;/li&gt;
+      &lt;li&gt;Profissinais autônomos&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Equipe: Graduandos do curso de Engenharia de Software da Universidade de Brasília campus Gama.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;31-demográficos-de-mercado&quot;&gt;3.1 Demográficos de Mercado&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Nos últimos anos a quantidade de programadores cresceu significamente, até mesmo por se tornar uma área profissional com boa oferta de emprego. Além disso, muitos cursos requerem que seus formandos tenham ao menos noção de programação. Uma das linguagens mais utilizadas atualmente é o Python. Nos últimos anos houve um grande crescimento em sua utilização devido a variedade de aplicações utilizando a linguagem. Porém, aprender a programar pode não ser tão fácil para qualquer um. Na Universidade de Brasília muitos alunos se sentem desmotivados a programar e em muitos casos isso pode ser intensificado por dificuldades em aprender a linguagem em si.&lt;/p&gt;
+
+&lt;h3 id=&quot;32-resumo-da-parte-interessada&quot;&gt;3.2 Resumo da parte interessada&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensino de uma linguagem de programação, como o Python, aos seus funcionários e estudantes.&lt;/p&gt;
+
+&lt;h3 id=&quot;33-resumo-do-usuário&quot;&gt;3.3 Resumo do usuário&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pessoas iniciantes no aprendizado da linguagem de programação Python.
+    &lt;ul&gt;
+      &lt;li&gt;Funcionários de empresas e estudantes que estão entrando na área de tecnologia.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Professores interessados em alternativas para o processo de ensino da linguagem Python.&lt;/li&gt;
+  &lt;li&gt;Usuários da plataforma Jupyter para o desenvolvimento em Python.&lt;/li&gt;
+  &lt;li&gt;Profissinais autônomos que desejam aumentar seus conhecimentos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;34-principais-necessidades-da-parte-interessada-ou-do-usuário&quot;&gt;3.4 Principais Necessidades da Parte Interessada ou do Usuário&lt;/h3&gt;
+
+&lt;p&gt;Tabela 1. Necessidades da Parte Interessada&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Necessidade&lt;/th&gt;
+      &lt;th&gt;Prioridade&lt;/th&gt;
+      &lt;th&gt;Solução Atual&lt;/th&gt;
+      &lt;th&gt;Solução Proposta&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Uma ferramenta que auxilie no ensinamento de Python&lt;/td&gt;
+      &lt;td&gt;Ser acessível&lt;/td&gt;
+      &lt;td&gt;Cursos de qualificação, livros e documetações&lt;/td&gt;
+      &lt;td&gt;Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Tabela 2. Necessidades do Usuário&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Necessidade&lt;/th&gt;
+      &lt;th&gt;Prioridade&lt;/th&gt;
+      &lt;th&gt;Solução Atual&lt;/th&gt;
+      &lt;th&gt;Solução Proposta&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tirar dúvidas de programação&lt;/td&gt;
+      &lt;td&gt;Ser rápido e claro&lt;/td&gt;
+      &lt;td&gt;Pesquisar por fóruns, livros e documentações&lt;/td&gt;
+      &lt;td&gt;Permitir que o usuário converse com o bot e esclareça suas dúvidas&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;35-alternativas-e-concorrência&quot;&gt;3.5 Alternativas e Concorrência&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stack Overflow
+    &lt;ul&gt;
+      &lt;li&gt;É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/NRkkAb7.png&quot; alt=&quot;drawing&quot; width=&quot;400&quot; /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Udemy
+    &lt;ul&gt;
+      &lt;li&gt;Se trata de uma plataforma de cursos online. Alguns cursos permitem que os alunos comentem dúvidas e essas são respondidas pelos professores e/ou outros alunos.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg&quot; alt=&quot;drawing&quot; width=&quot;200&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-visão-geral-do-produto&quot;&gt;4. Visão Geral do Produto&lt;/h2&gt;
+&lt;h3 id=&quot;41-perspectiva-do-produto&quot;&gt;4.1 Perspectiva do Produto&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O produto se difere dos demais do mercado por ser capaz de reconhecer a dúvida do aluno através de frases escritas de acordo com o português usual. De modo que após reconhecido, o questionamento será esclarecido de forma imediata&lt;/p&gt;
+
+&lt;h3 id=&quot;42-resumo-das-capacidades&quot;&gt;4.2 Resumo das capacidades&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, o Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo erros de sintaxe, dúvidas relacionadas à linguagem Python, indicação de bibliotecas convenientes para as funcionalidades exigidas e feedback sobre as compilações no qual o usuário forneceu. Por fim, todos esses recursos foram pensandos para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.&lt;/p&gt;
+
+&lt;h3 id=&quot;43-suposições-e-dependências&quot;&gt;4.3 Suposições e Dependências&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O recurso de compilação dos códigos do usuário pode sofrer alterações ou ser retirado do escopo do produto, devido a limitação da tecnologia usada.&lt;/p&gt;
+
+&lt;h3 id=&quot;44-custo-e-precificação&quot;&gt;4.4 Custo e precificação&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O produto não possui custos além dos relacionados a equipe de desenvolvimento e gerenciamento, não serão necessários nenhum serviço ou licença de terceiros pagos.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-recursos-do-produto&quot;&gt;5. Recursos do Produto&lt;/h2&gt;
+&lt;h3 id=&quot;51-ajuda-com-sintaxe&quot;&gt;5.1 Ajuda com sintaxe&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O usuário terá seus erros de sintaxe da linguagem python corrigidos pelo Bot&lt;/p&gt;
+
+&lt;h3 id=&quot;52-respostas-de-dúvidas&quot;&gt;5.2 Respostas de Dúvidas&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+O Bot irá responder as dúvidas do aluno sobre a linguagem python&lt;/p&gt;
+
+&lt;h3 id=&quot;53-indicação-de-bibliotecas&quot;&gt;5.3 Indicação de Bibliotecas&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Caso o usuário queira uma funcionalidade que não está disponível da STL da linguagem python, o Bot irá sugerir bibliotecas que possuam tal funcionalidade&lt;/p&gt;
+
+&lt;h3 id=&quot;54-feedback-da-compilação-dos-códigos&quot;&gt;5.4 Feedback da compilação dos códigos&lt;/h3&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Após o usuário mandar o Bot compilar seu código, o mesmo irá mandar um feedback da compilação. De modo que os possíveis erros e warnings serão mostrados e explicados&lt;/p&gt;
+
+&lt;h2 id=&quot;6-restrições&quot;&gt;6. Restrições&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;AIX é um bot que deverá funcionar juntamente ao ambiente web Jupyter Notebook.&lt;/li&gt;
+  &lt;li&gt;O bot deverá estar disponível até Julho de 2019.&lt;/li&gt;
+  &lt;li&gt;Para utilizar o bot será necessário um computador com sistema operacional Linux, Windows ou MacOS utilizando o ambiente Jupyter.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;7-atributos-do-recurso&quot;&gt;7. Atributos do Recurso&lt;/h2&gt;
+&lt;h3 id=&quot;71-status&quot;&gt;7.1 Status&lt;/h3&gt;
+&lt;p&gt;Tabela 3: Status de um recurso.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Status&lt;/th&gt;
+      &lt;th&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Em análise&lt;/td&gt;
+      &lt;td&gt;Recurso que foi desenvolvido, mas será checado se seus critérios de aprovação foram atendidos&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Aprovado&lt;/td&gt;
+      &lt;td&gt;Recurso que teve sucesso na análise, porém não está em produção&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Em produção&lt;/td&gt;
+      &lt;td&gt;Recurso em produção, incorporado ao código-fonte do servidor.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;72-benefício&quot;&gt;7.2 Benefício:&lt;/h3&gt;
+&lt;p&gt;Tabela 4: Prioridade do benefício.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Prioridade&lt;/th&gt;
+      &lt;th&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crítico&lt;/td&gt;
+      &lt;td&gt;Recurso essencial. A falha da implementação de um recurso crítico acarreta, além da ausência do benefício dele, também acarreta numa falha crítica ou que o sistema não atenderá o cliente&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Importante&lt;/td&gt;
+      &lt;td&gt;Recursos importantes para a eficácia e eficiência do sistema para a maioria dos aplicativos. As funções não podem ser facilmente fornecidas de alguma outra maneira. Omitir um recurso importante pode afetar a satisfação do cliente ou do usuário, ou até mesmo a receita. No entanto, a liberação não será atrasada porque um recurso importante não foi incluído.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Útil&lt;/td&gt;
+      &lt;td&gt;Os recursos que são úteis em menos aplicativos típicos, são usados menos frequentemente, ou podem corresponder às soluções alternativas razoavelmente eficientes. Nenhuma receita significativa ou impacto na satisfação do cliente poderá ser esperada se tal item não for incluído em uma liberação.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="documento" /><category term="visão" /><category term="mds" /><summary type="html">Documento de Visão 1. Introdução &amp;emsp;&amp;emsp; Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.</summary></entry><entry><title type="html">Plano de Gerenciamento de Configuração de Software</title><link href="http://localhost:4000/2019/03/29/gcs/" rel="alternate" type="text/html" title="Plano de Gerenciamento de Configuração de Software" /><published>2019-03-29T00:00:00-03:00</published><updated>2019-03-29T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/29/gcs</id><content type="html" xml:base="http://localhost:4000/2019/03/29/gcs/">&lt;h1 id=&quot;plano-de-gerenciamento&quot;&gt;Plano de Gerenciamento&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Esse documento tem como objetivo a construção de um plano para definição das ferramentas que serão utilizadas pela equipe, das políticas para padronização de &lt;i&gt;commits&lt;/i&gt;, &lt;i&gt;branchs&lt;/i&gt;, &lt;i&gt;pull requests&lt;/i&gt; e &lt;i&gt;issues&lt;/i&gt;. &lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;2-ferramentas&quot;&gt;2. Ferramentas&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt; As ferramentas que serão utilizadas pela Equipe de Desenvolvimento serão:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Ferramentas&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Versão&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Descrição&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Visual Studio Code&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Editor de texto para codar&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Git&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2.7.4 ou maior&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ferramenta de versionamento&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;GitHub&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Servidor de hospedagem do projeto&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;GitHub Pages&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Página estática para documentação&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;CodeClimate&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ferramenta para análise estática do código&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rasa Core+NLU&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.14.6&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ferramenta para criação do ChatBot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Flask&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.0.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Framework de desenvolvimento para API&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Flake8&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3.7.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ferramenta de análise estática de código&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Docker&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Ferramenta para isolamento de ambiente&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;21-visual-studio-code&quot;&gt;2.1 Visual Studio Code&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+O Visual Studio Code é o editor padrão da equipe. É utilizado por conta que é facilmente customizavél com seus plugins, ele também foi pensado pois atualmente é mais leve e rápido do que a concorrente Atom.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;22-git&quot;&gt;2.2 Git&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Ferramenta utilizada para o versionamento do código será utilizado o Git, é uma ferramenta de controle de versão descentralizada e um software livre, possibilitando o trabalho cooperativo entre várias pessoas no mesmo código. O método de utilização consiste em realizar as alterações locais versionando o código e quando conveniente é submetido ao repositório remoto.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;23-github&quot;&gt;2.3 GitHub&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+O GitHub é a ferramenta utilizada para hospedagem do repositório, controle de versão, marcação de atividades com as &lt;i&gt;issues&lt;/i&gt; e documentação.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;24-github-pages&quot;&gt;2.4 GitHub Pages&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+GitHub Pages é um servidor de hospedagem de sites estáticos que será utilizado pra subir a documentação. Esta ferramenta será utilizada, pois torna mais amigável a visualização dos documentos tornando maior o interesse pelo projeto.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;25-codeclimate&quot;&gt;2.5 CodeClimate&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+CodeCLimate é utilizada para análise estática de código adotada pela equipe. A escolha dessa ferramenta se deu a sua simplicidade de utilização e um diferencial crucial na escolha é por esta ferramenta possuir uma integração com o Github.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;24-rasa-corenlu&quot;&gt;2.4 Rasa Core+NLU&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Rasa é uma ferramenta para construição de &lt;i&gt;ChatBots&lt;/i&gt;, ela foi escolhida por conta da sua simplicidade, por conter várias ferramentas e por ser de código aberto. Esta ferramenta é uma ferramenta amplamente utilizada pela comunidade para construção de &lt;i&gt;ChatBots&lt;/i&gt;.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;25-flask&quot;&gt;2.5 Flask&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Framework voltado para desenvolvimento web, utiliza a linguagem Python. Esse framework foi escolhido por conta da sua simplicidade, por ser configuravel, e pelo projeto utilizar uma arquitetura de microsserviços com várias APIs. A escolha dessa ferramenta pela equipe de EPS em vez de DjangoRest foi por Flask ser mais simples e mais prático.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;26-flake8&quot;&gt;2.6 Flake8&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Ferramenta utilizada para análise estática de código adotada pela equipe. Está ferramenta também possibilita verificar se a folha de estilo está sendo seguida pelos membros.
+&lt;/p&gt;
+
+&lt;h3 id=&quot;27-docker&quot;&gt;2.7 Docker&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+O Docker é um plataforma que permite que a criação, execute e faça deploy de containers. De maneira simples, um container é o empacotamento da sua aplicação mais as dependências dela. A plataforma será utilizada para executar a aplicação sem precisar instalar as dependências de forma direta em uma máquina, assim facilitando o desenvolvimento quando o deploy para o ambiente de produção.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;3-políticas&quot;&gt;3. Políticas&lt;/h2&gt;
+
+&lt;h3 id=&quot;31-política-de-commits&quot;&gt;3.1 Política de &lt;strong&gt;Commits&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Os commits deveram possuir mensagens curtas, significativas e em português sobre o que é adicionado, corrigido ou removido no mesmo. Deve ser atômico, de forma a facilitar a refatoração e a rastreabilidade das funcionalidades.
+
+Cada commit estará ligado diretamente a uma issue, e para facilidade no rastreamento das atividades cada commit deverá possuir o hash da issue a qual se relaciona.
+
+E caso haja pareamento no desenvolvimento do commit, o commit deverá ser co-autorado. O seguinte padrão deve ser seguido:
+
+#Número_da_issue - Mensagem descritiva do commit
+
+
+Co-authored-by: Nome da pessoa &amp;lt; emaildapessoa &amp;gt;
+
+&lt;/p&gt;
+
+&lt;h3 id=&quot;32-política-de-branchs&quot;&gt;3.2 Política de &lt;strong&gt;Branchs&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+O repositório do projeto contará com duas branches principais para o desenvolvimento, sendo elas: master e devel, e as branches auxiliares contendo as funcionalidades desenvolvidas.
+
+A branch master conterá a versão estável do produto, tendo seu conteúdo proveniente da branch de desenvolvimento (devel) após a aprovação do pull request. Por decisões de projeto, nenhum commit poderá ser feito pelos membros diretamente na branch master, exceto os commits iniciais de configuração do repositório.
+
+A branch devel será utilizada para o desenvolvimento do produto, onde a integração das funcionalidades desenvolvidas pela equipe nas branches auxiliares ocorrerá.
+
+As branches auxiliares serão utilizadas para o desenvolvimento das funcionalidades. Essas branches serão nomeadas de acordo com a rastreabilidade e na língua portuguesa, tendo o seu padrão de acordo com a metodologia adotada no momento.
+
+O nome da branch seguirá o seguinte padrão: issue_numero_da_issue_tema_da_issue
+
+- Exemplo: issue_1_documento_de_visao&lt;/p&gt;
+
+&lt;h3 id=&quot;33-política-de-aprovação-de-código&quot;&gt;3.3 Política de Aprovação de Código&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+Após a implementação ou correção de bug descrita na issue (o que inclui todos os critérios de aceitação estarem completos), o membro deverá abrir um Pull Request para a branch devel, que será revisado por um integrante da gerência responsável (em geral, Product Owner ou Scrum Master). E ao final de casa Sprint um Pull Request deverá ser aberto a branch Master, a partir da Devel e ser revisado pelo  Product Owner.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-uso-de-issues&quot;&gt;4. Uso de Issues&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;
+As issues serão utilizadas por questões de rastreabilidade, ou seja, para se ter maior controle sobre o que é desenvolvido, além de permitir melhor gestão de pessoal, pois facilita a alocação de trabalho para serviços específicos e permite acompanhamento do desenvolvimento a qual descreve. Cada issue deverá seguir o template descrito na própria issue.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-bibliografia&quot;&gt;5. Bibliografia&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software&quot;&gt;GCS da equipe do Receita Mais&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="plano" /><category term="configuração" /><category term="documento" /><category term="eps" /><summary type="html">Plano de Gerenciamento 1. Introdução Esse documento tem como objetivo a construção de um plano para definição das ferramentas que serão utilizadas pela equipe, das políticas para padronização de commits, branchs, pull requests e issues.</summary></entry><entry><title type="html">Estrutura Analitica do Projeto</title><link href="http://localhost:4000/2019/03/28/EAP/" rel="alternate" type="text/html" title="Estrutura Analitica do Projeto" /><published>2019-03-28T00:00:00-03:00</published><updated>2019-03-28T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/28/EAP</id><content type="html" xml:base="http://localhost:4000/2019/03/28/EAP/">&lt;h1 id=&quot;estrutura-analítica-do-projeto&quot;&gt;Estrutura Analítica do Projeto&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção da estrutura analítica do projeto (EAP) do bot Aix, que representa o processo de divisão do projeto em partes menores e mais facilmente gerenciáveis. Abaixo, encontram-se as versões de EAP desenvolvidas pelo grupo de gerenciamento da equipe.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;h2 id=&quot;eap-v10&quot;&gt;EAP v1.0&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/eap_Versao_1.0.png&quot; alt=&quot;EAP&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="projeto" /><category term="eps" /><category term="documento" /><summary type="html">Estrutura Analítica do Projeto &amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção da estrutura analítica do projeto (EAP) do bot Aix, que representa o processo de divisão do projeto em partes menores e mais facilmente gerenciáveis. Abaixo, encontram-se as versões de EAP desenvolvidas pelo grupo de gerenciamento da equipe.</summary></entry><entry><title type="html">Fluxograma</title><link href="http://localhost:4000/2019/03/27/fluxograma/" rel="alternate" type="text/html" title="Fluxograma" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/fluxograma</id><content type="html" xml:base="http://localhost:4000/2019/03/27/fluxograma/">&lt;h1 id=&quot;fluxograma-aix&quot;&gt;Fluxograma Aix&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção dos fluxogramas do bot Aix. Abaixo, encontra-se os fluxogramas e suas devidas versões com a finalidade de apresentar a evolução e maturidade do grupo quanto a construção e inserção de conteúdo assim como novas funcionalidades ao bot, baseado na aplicação da técnica mágico de Oz.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/fluxograma_Versao_1.0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="fluxograma" /><category term="aix" /><category term="eps" /><summary type="html">Fluxograma Aix &amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção dos fluxogramas do bot Aix. Abaixo, encontra-se os fluxogramas e suas devidas versões com a finalidade de apresentar a evolução e maturidade do grupo quanto a construção e inserção de conteúdo assim como novas funcionalidades ao bot, baseado na aplicação da técnica mágico de Oz.</summary></entry><entry><title type="html">Revisão da Sprint 0</title><link href="http://localhost:4000/2019/03/27/sprint-01/" rel="alternate" type="text/html" title="Revisão da Sprint 0" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/sprint-01</id><content type="html" xml:base="http://localhost:4000/2019/03/27/sprint-01/">&lt;h1 id=&quot;sprint-0&quot;&gt;Sprint 0&lt;/h1&gt;
+
+&lt;h2 id=&quot;duração&quot;&gt;Duração&lt;/h2&gt;
+
+&lt;p&gt;Duração: 1 semana&lt;br /&gt;
+Início: 18/03/2019&lt;br /&gt;
+Fim: 23/03/2019&lt;/p&gt;
+
+&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
+
+&lt;p&gt;Treinamentos para equipe de MDS&lt;br /&gt;
+Levantamento de requisitos
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;sprint-backlog&quot;&gt;Sprint Backlog&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/1&quot;&gt;#1 Dojo: Git&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/2&quot;&gt;#2 Dojo: Documento de Visão&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/3&quot;&gt;#3 Dojo: Metodologias e práticas ágeis&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/4&quot;&gt;#4 Dojo: Licenças&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/5&quot;&gt;#5 Dojo: Documento de Arquitetura&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/6&quot;&gt;#6 Formulário para a coleta de requisitos&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;retrospectiva&quot;&gt;Retrospectiva&lt;/h2&gt;
+
+&lt;h3 id=&quot;pontos-positivos&quot;&gt;Pontos Positivos&lt;/h3&gt;
+
+&lt;p&gt;Proatividade e interesse de MDS&lt;br /&gt;
+Conseguimos o tema escolhido&lt;br /&gt;
+Nosso time é proativo, se empenharam muito e já estão pensando lá na frente (estão motivados)&lt;br /&gt;
+Conseguimos cumprir bem o que estava planejado para a Sprint&lt;br /&gt;
+EPS está passando segurança&lt;br /&gt;
+Organização (tudo foi bem explicado)&lt;/p&gt;
+
+&lt;h3 id=&quot;pontos-negativos&quot;&gt;Pontos Negativos&lt;/h3&gt;
+
+&lt;p&gt;Não teve “quebra gelo”&lt;br /&gt;
+Escopo/tema não estava bem definido&lt;br /&gt;
+Tecnologia não estava definida&lt;br /&gt;
+Número ímpar de MDS&lt;br /&gt;
+Não conhecer bem o EPS&lt;br /&gt;
+Sábado a tarde é um horário ruim&lt;br /&gt;
+Complexidade do tema&lt;/p&gt;
+
+&lt;h3 id=&quot;melhorias&quot;&gt;Melhorias&lt;/h3&gt;
+
+&lt;p&gt;Melhor escopo, tá muito básico&lt;br /&gt;
+Melhorar práticas ágeis&lt;br /&gt;
+Acrescentar mais no nosso escopo&lt;br /&gt;
+Definir tudo o que não está definido&lt;/p&gt;
+
+&lt;h2 id=&quot;burndown&quot;&gt;Burndown&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/dId8od7.png&quot; alt=&quot;Burndown&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;velocity&quot;&gt;Velocity&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://imgur.com/PIuv3Qv.png&quot; alt=&quot;Velocity&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;riscos&quot;&gt;Riscos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Risco&lt;/th&gt;
+      &lt;th&gt;Ação Preventiva&lt;/th&gt;
+      &lt;th&gt;Ação Reativa&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dificuldades da equipe com as novas tecnologias inseridas&lt;/td&gt;
+      &lt;td&gt;Seleção de alunos experientes para aplicação de treinamento.&lt;/td&gt;
+      &lt;td&gt;Realização de treinamento sobre tecnologias.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Divergência de horários entre membros da equipe&lt;/td&gt;
+      &lt;td&gt;Elaboração de quadro de horários disponíveis da cada membro da equipe.&lt;/td&gt;
+      &lt;td&gt;Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Desistência da disciplina.&lt;/td&gt;
+      &lt;td&gt;Estimular a máxima participação dos membros da equipe&lt;/td&gt;
+      &lt;td&gt;Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alteração do escopo&lt;/td&gt;
+      &lt;td&gt;Documentar e refinar de forma constante os requisitos&lt;/td&gt;
+      &lt;td&gt;Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Presença dos membros durante Daily e reunião de planejamento&lt;/td&gt;
+      &lt;td&gt;Definir datas, horários e locais que sejam acessíveis a todos.&lt;/td&gt;
+      &lt;td&gt;Manter o time sempre alinhado quanto às decisões tomadas.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Falta de cliente real&lt;/td&gt;
+      &lt;td&gt;Utilização de ferramentas que ajudem a levantar requisitos&lt;/td&gt;
+      &lt;td&gt;Utilização de dados levantados por usuários que sejam o público alvo do projeto.&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Escopo não bem definido&lt;/td&gt;
+      &lt;td&gt;Reuniões da gerencia para definição de um escopo viável&lt;/td&gt;
+      &lt;td&gt;Alocação de pessoal para a definição do escopo.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="sprint" /><category term="revisão" /><category term="eps" /><summary type="html">Sprint 0 Duração Duração: 1 semana Início: 18/03/2019 Fim: 23/03/2019 Objetivos Treinamentos para equipe de MDS Levantamento de requisitos</summary></entry><entry><title type="html">Termo de Abertura do Projeto</title><link href="http://localhost:4000/2019/03/27/tap/" rel="alternate" type="text/html" title="Termo de Abertura do Projeto" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/tap</id><content type="html" xml:base="http://localhost:4000/2019/03/27/tap/">&lt;h1 id=&quot;termo-de-abertura-de-projeto&quot;&gt;Termo de Abertura de projeto&lt;/h1&gt;
+
+&lt;h2 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h2&gt;
+&lt;p&gt;O presente documento tem como objetivo informar os propósitos, objetivos e requisitos de alto nível, assim como uma visão inicial do projeto do Bot Aix.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-descrição&quot;&gt;2. Descrição&lt;/h2&gt;
+&lt;p&gt;Aix é um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino e aprendizado do usuário com assuntos relacionados a introdução à linguagem python.
+&lt;!--more--&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-propósito-e-justificativa&quot;&gt;3. propósito e Justificativa&lt;/h2&gt;
+&lt;p&gt;Os alunos ou usuários que estão se introduzindo na área da programação possuem certas dificuldades quanto a estruturação da linguagem, formação da lógica por trás dos exercícios propostos, aplicação de funções ou bibliotecas específicas, falta de habilidade e conhecimento, sintaxe, traduzir o problema do mundo real para soluções inteligíveis e outros problemas como por exemplo a ausência de feedback imediato.&lt;/p&gt;
+
+&lt;p&gt;Logo, a Aix surge para suprir essas necessidades e minimizar os problemas existentes neste contexto.&lt;/p&gt;
+
+&lt;p&gt;A Aix chega para viabilizar o aprendizado de python de forma que não venha a existir impedimentos quanto a compreensão da estrutura da linguagem de forma que se tenha respostas quanto a todos os questionamentos sobre a forma correta de escrita, feedback quanto a correção de exercícios de forma que o usuário tenha um retorno rápido sobre o que conseguiu desenvolver assim como dúvidas sobre construção lógica a fim de minimizar os problemas quanto a formação lógica do exercício.&lt;/p&gt;
+
+&lt;h2 id=&quot;4-objetivos&quot;&gt;4. Objetivos&lt;/h2&gt;
+&lt;p&gt;O objetivo da Aix é  facilitar o recebimento de informações e apoio ao usuário durante o estudo ou desenvolvimento da linguagem python. Com acesso às funcionalidades disponibilizadas no bot o usuário poupa tempo e esforço em relação a realizar uma pesquisa segura e ainda consegue um feedback quanto ao exercício desenvolvido.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-requisitos-de-alto-nível&quot;&gt;5. Requisitos de Alto Nível&lt;/h2&gt;
+&lt;p&gt;Estão entre os requisitos de alto nível:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Construir personalidade do Bot;&lt;/li&gt;
+  &lt;li&gt;As principais funcionalidades devem ser realizadas de forma simples e economizar o máximo de tempo possível e ainda assim ser mais eficaz que uma busca direta na web;&lt;/li&gt;
+  &lt;li&gt;Interação através de linguagem natural para uma melhor usabilidade;&lt;/li&gt;
+  &lt;li&gt;Fluxos de conversas objetivos e práticos;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;6-riscos&quot;&gt;6. Riscos&lt;/h2&gt;
+&lt;p&gt;| Risco  | Ação Preventiva  | Ação Reativa  |
+|—|—|—|
+| Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento.   |Realização de treinamento sobre tecnologias.   |
+|Divergência de horários entre membros da equipe   |Elaboração de quadro de horários disponíveis da cada membro da equipe.   |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.   |
+|Desistência da disciplina.   |Estimular a máxima participação dos membros da equipe   |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.   |
+|Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
+|Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
+| Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |&lt;/p&gt;
+
+&lt;h2 id=&quot;7-estimativa-de-custo&quot;&gt;7. Estimativa de Custo&lt;/h2&gt;
+
+&lt;h3 id=&quot;71-custo-de-aquisição&quot;&gt;7.1. Custo de Aquisição&lt;/h3&gt;
+&lt;p&gt;|Equipamento | Quantidade  | Finalidade  |Valor unitário   |Preço  |
+|—|—|—|—|—|
+|Notebooks   | 9 unidades  |Desenvolvimento e planejamento   |R$ 3.000   |R$ 27.000   |
+|Energia elétrica   | 5 dias por semana  |Desenvolvimento e planejamento   | 0,482 * R$/KWh  | R$ 313,30  |
+| Internet  |4 meses   |Desenvolvimento e planejamento   |R$ 100 **   | R$ 400  |
+| Transporte e alimentação  |2 passagens diárias + R$10 alimentação   | Transporte e alimentaçao  |R$ 16/dia   | R$ 16.000  |&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 25/03/2019&lt;/li&gt;
+  &lt;li&gt;Valor médio de um plano de internet na região do DF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;72-custo-de-pessoal&quot;&gt;7.2. Custo de Pessoal&lt;/h3&gt;
+&lt;p&gt;| Cargo  | Quantidade  |Salário/mês (160h total)   |Salário/hora   | Total  |
+|—|—|—|—|—|
+| Desenvolvedor Python Jr  | 5  |R$ 3.250   |  R$20,30 |R$ 16.250   |
+| Arquiteto, DevOps, Scrum Master e PO  | 4  | R$ 6.000  |R$ 37,50   |R$ 54.000   |&lt;/p&gt;
+&lt;h3 id=&quot;73-custo-de-ferramentas&quot;&gt;7.3. Custo de Ferramentas&lt;/h3&gt;
+&lt;p&gt;|Ferramenta   |Finalidade   |Preço total   |
+|—|—|—|
+|Telegram   |Comunicação entre os membros   |R$ 0   |
+|Editor de Texto   |Elaboração de documentos e código   |R$ 0   |
+|Git e GitHub   |Versionamento de arquivos   |R$ 0   |
+|Google Drive   | Compartilhamento de arquivos  | R$ 0  |
+| Linux  |Ambiente de desenvolvimento   |R$ 0   |
+| Python, Rasa, Flask, MongoDB  |Tecnologias utilizadas para desenvolvimento   |R$ 0   |&lt;/p&gt;
+&lt;h3 id=&quot;74-custo-total&quot;&gt;7.4. Custo Total&lt;/h3&gt;
+&lt;p&gt;|Custo   | Valor total  |
+|—|—|
+| Aquisição  |R$ 43.713,30   |
+|Pessoal   | R$ 70.250  |
+|Ferramentas   | R$ 0  |
+O valor total estimado dos custos informados é de R$113.963,30. Levando em conta 20% de risco e 20% de lucro, o valor final para a estimativa de custo é de R$159.548,62.&lt;/p&gt;
+&lt;h2 id=&quot;8-partes-interessadas&quot;&gt;8. Partes Interessadas&lt;/h2&gt;
+
+&lt;h3 id=&quot;81-usuários&quot;&gt;8.1. Usuários&lt;/h3&gt;
+&lt;p&gt;Pessoas iniciantes no aprendizado da linguagem de programação Python&lt;/p&gt;
+
+&lt;p&gt;Professores interessados em alternativas para o processo de ensino da linguagem Python&lt;/p&gt;
+
+&lt;p&gt;Usuários da plataforma Jupyter para o desenvolvimento em Python&lt;/p&gt;
+
+&lt;h3 id=&quot;82-equipe&quot;&gt;8.2. Equipe&lt;/h3&gt;
+&lt;p&gt;A equipe é composta por graduandos dos cursos de Engenharia de Produto de Software - EPS - (responsáveis pela gerência) e Metodologias de Desenvolvimento de Software - MDS - (responsáveis pelo desenvolvimento).&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Nome&lt;/th&gt;
+      &lt;th&gt;Papel&lt;/th&gt;
+      &lt;th&gt;Email&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eduardo Rodrigues Yoshida&lt;/td&gt;
+      &lt;td&gt;Gerente de projeto&lt;/td&gt;
+      &lt;td&gt;eduardoyosh@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Guilherme Marques Moreira da Silva&lt;/td&gt;
+      &lt;td&gt;Gerente de projeto&lt;/td&gt;
+      &lt;td&gt;guilherme.marques.moreira@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Kamilla Costa Souza&lt;/td&gt;
+      &lt;td&gt;Gerente de projeto&lt;/td&gt;
+      &lt;td&gt;kamillacosta.unb@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Lucas Vitor de Paula&lt;/td&gt;
+      &lt;td&gt;Gerente de projeto&lt;/td&gt;
+      &lt;td&gt;lucasvitorifg@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;André Aben-Athar de Freitas&lt;/td&gt;
+      &lt;td&gt;Desenvolvedor&lt;/td&gt;
+      &lt;td&gt;andreabenf@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gabriela de Oliveira Lemos&lt;/td&gt;
+      &lt;td&gt;Desenvolvedor&lt;/td&gt;
+      &lt;td&gt;gabriela.leemoss@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Gustavo Veloso Alves&lt;/td&gt;
+      &lt;td&gt;Desenvolvedor&lt;/td&gt;
+      &lt;td&gt;gustablealves@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Iuri de Souza Severo Alves&lt;/td&gt;
+      &lt;td&gt;Desenvolvedor&lt;/td&gt;
+      &lt;td&gt;nobreiuri@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pedro Igor Oliveira Silva&lt;/td&gt;
+      &lt;td&gt;Desenvolvedor&lt;/td&gt;
+      &lt;td&gt;pedroigor852@gmail.com&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;9-requisitos-para-a-aprovação&quot;&gt;9. Requisitos Para a Aprovação&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ter implementado as funcionalidades definidas pelo escopo do projeto&lt;/li&gt;
+  &lt;li&gt;Integração com a plataforma Jupyter&lt;/li&gt;
+  &lt;li&gt;Aprovação das ferramentas de análise de código&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;10-referências&quot;&gt;10. Referências&lt;/h2&gt;
+&lt;p&gt;FRANÇA, Diego; SCONETTO, João; MENDES, Mariana; ARNAUD, Victor. Dr. Down - Termo de Abertura de Projeto. Disponível em: https://fga-eps-mds.github.io/2018.1-Dr-Down/eps/TAP/. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
+
+&lt;p&gt;EGEWARTH, Eliseu; EGEWARTH, João; GAMA, Gabriela; ALVES, Isaque. Dulce - Termo de Abertura de Projeto. Disponível em: https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Termo-de-Abertura-do-Projeto. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
+
+&lt;p&gt;AUGUSTO,Guilherme; OLIVEIRA, Ícaro; SOUZA, Letícia. Lino, o bot - Termo de Abertura de Projeto. Disponível em: https://botlino.github.io/docs/doc-tap. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
+
+&lt;p&gt;Rank de tarifas. ANEEL Agência Nacional de Energia Elétrica. Disponível em http://www.aneel.gov.br/ranking-das-tarifas. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;</content><author><name></name></author><category term="termo" /><category term="documento" /><category term="projeto" /><category term="eps" /><summary type="html">Termo de Abertura de projeto 1. Introdução O presente documento tem como objetivo informar os propósitos, objetivos e requisitos de alto nível, assim como uma visão inicial do projeto do Bot Aix. 2. Descrição Aix é um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino e aprendizado do usuário com assuntos relacionados a introdução à linguagem python.</summary></entry><entry><title type="html">Metodologia</title><link href="http://localhost:4000/2019/03/26/metodologia/" rel="alternate" type="text/html" title="Metodologia" /><published>2019-03-26T00:00:00-03:00</published><updated>2019-03-26T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/26/metodologia</id><content type="html" xml:base="http://localhost:4000/2019/03/26/metodologia/">&lt;h1 id=&quot;introdução-e-descrição-da-metodologia&quot;&gt;Introdução e Descrição da Metodologia&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.&lt;/p&gt;
+&lt;!--more--&gt;
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp;O &lt;b&gt;&lt;i&gt;Scrum&lt;/i&gt;&lt;/b&gt; é um &lt;i&gt;framework&lt;/i&gt; que preza pela entrega de valor ao cliente de maneira rápida, criativa, onde sua equipe trabalha de forma produtiva.&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp;Tem como artefatos &lt;i&gt;Product Backlog&lt;/i&gt;, &lt;i&gt;Sprint Backlog&lt;/i&gt; e incrementos. Atividades, tem as Sprints, &lt;i&gt;Sprints Planning&lt;/i&gt;, Daily Scrum, &lt;i&gt;Sprint Review&lt;/i&gt; e Retrospectiva da &lt;i&gt;Sprint&lt;/i&gt;. E como artefatos temos o &lt;i&gt;Product Backlog&lt;/i&gt; e &lt;i&gt;Sprint Backlog&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Algumas práticas que iremos adotar desta metodologia são: &lt;i&gt;Pair Programming&lt;/i&gt;, Integração Contínua, Padrão de Código e Testes.&lt;/p&gt;
+
+&lt;h1 id=&quot;papéis&quot;&gt;Papéis&lt;/h1&gt;
+
+&lt;h2 id=&quot;product-owner&quot;&gt;&lt;i&gt;Product Owner&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Organizar o &lt;i&gt;Product Backlog&lt;/i&gt; em ordem de prioridade, de forma a entregar valor ao cliente e manter a coesão do produto;&lt;/li&gt;
+      &lt;li&gt;Garantir que o &lt;i&gt;Product Backlog&lt;/i&gt; esteja de forma clara;&lt;/li&gt;
+      &lt;li&gt;Assegurar que os Desenvolvedores entendam o &lt;i&gt;Product Backlog&lt;/i&gt; no nível de especificação necessário;&lt;/li&gt;
+      &lt;li&gt;Trabalhar a venda do produto de software;&lt;/li&gt;
+      &lt;li&gt;Fazer o intermédio entre cliente e equipe;&lt;/li&gt;
+      &lt;li&gt;Mostrar a visão do produto em documentos como Canvas.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;scrum-master&quot;&gt;&lt;i&gt;Scrum Master&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Garantir que o &lt;i&gt;Product Backlog&lt;/i&gt; seja feito, de acordo com a priorização do &lt;i&gt;Product Owner&lt;/i&gt;, pelos Desenvolvedores;&lt;/li&gt;
+      &lt;li&gt;Certificar-se que os rituais ageís sejam realizados por toda a equipe da forma como foi descrito;&lt;/li&gt;
+      &lt;li&gt;Mapear o progresso da equipe e do desenvolvimento do produto, assim como suas falhas e questões a melhorar;&lt;/li&gt;
+      &lt;li&gt;Documentar o processo de cada &lt;i&gt;Sprint&lt;/i&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;arquiteto-de-software&quot;&gt;Arquiteto de &lt;i&gt;Software&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Mapear, juntamente ao &lt;i&gt;Product Owner&lt;/i&gt; e DevOps, a arquitetura necessária para o desenvolvimento do produto;&lt;/li&gt;
+      &lt;li&gt;Desenhar e diagramar a arquitetura do produto;&lt;/li&gt;
+      &lt;li&gt;Garantir que a arquitetura seja implementada pelos Desenvolvedores.
+        &lt;h2&gt;&lt;DevOps&gt;&lt;/DevOps&gt;&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Desenhar, juntamente com o Arquiteto, os vários pipelines do produto de software;&lt;/li&gt;
+      &lt;li&gt;Implementar a integração contínua;&lt;/li&gt;
+      &lt;li&gt;Garantir o deploy contínuo;&lt;/li&gt;
+      &lt;li&gt;Facilitar a configuração do ambiente de desenvolvimento da equipe.
+        &lt;h2 id=&quot;quality-assurance&quot;&gt;&lt;i&gt;Quality Assurance&lt;/i&gt;&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Decidir métricas para avaliar o produto de software e seu desenvolvimento;&lt;/li&gt;
+      &lt;li&gt;Coletar e Analisar as métricas do produto de software;&lt;/li&gt;
+      &lt;li&gt;Garantir as melhorias das métricas que necessitam dessas melhorias e manter a qualidade, tanto em termos de código, quanto em usabilidade, do produto de software.
+        &lt;h2 id=&quot;desenvolvedores&quot;&gt;Desenvolvedores&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Atribuições
+    &lt;ul&gt;
+      &lt;li&gt;Desenvolver as funcionalidades priorizadas pelo &lt;i&gt;Product Owner&lt;/i&gt; e selecionadas pelo &lt;i&gt;Scrum Master&lt;/i&gt; dentro da &lt;i&gt;Sprint&lt;/i&gt;;&lt;/li&gt;
+      &lt;li&gt;Manter a qualidade do produto em relação a código.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;atividades-da-metodologia&quot;&gt;Atividades da &lt;i&gt;Metodologia&lt;/i&gt;&lt;/h1&gt;
+
+&lt;h2 id=&quot;sprint&quot;&gt;&lt;i&gt;Sprint&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Trata-se de período definido pela equipe, que no caso do projeto é um período de uma semana, onde são realizado as tarefas definidas pelo &lt;i&gt;Scrum Master&lt;/i&gt;, mas priorizadas pelo &lt;i&gt;Product Owner&lt;/i&gt;.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Assim que este período é encerrado, entrega-se um valor ao cliente, como foi definido.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;No projeto: a &lt;i&gt;Sprint&lt;/i&gt; tem início no sábado e seu término no sábado seguinte.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;planejamento-da-sprint&quot;&gt;Planejamento da &lt;i&gt;Sprint&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;São reuniões onde o &lt;i&gt;Scrum Master&lt;/i&gt;, em conjunto com o &lt;i&gt;Product Owner&lt;/i&gt;, decide as funcionalidades e atividades que deverão ser realizadas pela equipe de Desenvolvimento e também avaliadas quais melhorias devem ser feitas.&lt;/li&gt;
+  &lt;li&gt;O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas.&lt;/li&gt;
+  &lt;li&gt;É definido também, as duplas que trabalharão em conjunto (&lt;i&gt;Pair Programming&lt;/i&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;daily-meeting&quot;&gt;&lt;i&gt;Daily Meeting&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reuniões com o tempo determinado de 15 minutos, onde cada membro da equipe fala sobre o andamento da tarefa e seu planejamento para terminá-la.
+    &lt;ul&gt;
+      &lt;li&gt;No projeto: estas reuniões ocorrem de segunda a sexta, e possuem duração de, no máximo, 20 minutos.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sprint-review&quot;&gt;&lt;i&gt;Sprint Review&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discussão das dificuldades, melhorias e pontos positivos durante a &lt;i&gt;Sprint&lt;/i&gt;, além do levantamento das tarefas realizadas e não realizadas.&lt;/li&gt;
+  &lt;li&gt;A avaliação geral da &lt;i&gt;Sprint&lt;/i&gt; é feita pelo &lt;i&gt;Scrum Master&lt;/i&gt;, porém todas os pontos (positivos, negativos e a melhorar) é debatido pela equipe.
+    &lt;ul&gt;
+      &lt;li&gt;No projeto: a Review ocorre aos sábados, no mesmo dia do Planejamento da &lt;i&gt;Sprint&lt;/i&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;pair-programming&quot;&gt;&lt;i&gt;Pair Programming&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Ritual onde dois membros da equipe de Desenvolvimento, trabalham juntos para realizar uma tarefa.&lt;/li&gt;
+  &lt;li&gt;A cada 15 minutos, um deles assume o papel de piloto, ou seja, escreve o código, e o outro assume o papel de co-piloto e dita a lógica para realizar a funcionalidade e também auxilia o piloto a pensar na melhor forma de desenvolver essa funcionalidade.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;integração-contínua&quot;&gt;Integração Contínua&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prática de testar as modificações do código que foi submetida ao repositorio remoto do projeto.&lt;/li&gt;
+  &lt;li&gt;Todo o funcionamento da integração continua é pensado e efeitvado pelo DevOps do projeto.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;padrão-de-código&quot;&gt;Padrão de Código&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;É a definição de escrita do código, de maneira a manter a homogeniedade deste.&lt;/li&gt;
+  &lt;li&gt;A folha de estilo, documento que define esse padrão, é contruida pelo &lt;i&gt;Quality Assurence&lt;/i&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;testes&quot;&gt;Testes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Toda a funcionalidade desenvolvida, deve ser testada, ou seja, deve ser implementados testes que prevêm funcionamento errôneo ou indesejado da funcionalidade. E esta funcionalidade deve passar em todos os testes escritos.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;kanban&quot;&gt;&lt;i&gt;Kanban&lt;/i&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Metodologia que consistem em um quadro divido em &lt;i&gt;&lt;b&gt;TO DO&lt;/b&gt;&lt;/i&gt;, &lt;i&gt;&lt;b&gt;DOING&lt;/b&gt;&lt;/i&gt; e &lt;i&gt;&lt;b&gt;DONE&lt;/b&gt;&lt;/i&gt;, e em cada uma destas colunas é colocado as tarefas que devem ser feitas, as que estão no processo de ser feitas e as completas, respectivamente.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;No projeto, utilizamos o &lt;i&gt;&lt;b&gt;Zenhub&lt;/b&gt;&lt;/i&gt; para contemplar esta metodologia.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;referências-bibliográficas&quot;&gt;Referências Bibliográficas&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.agilealliance.org/glossary/xp/#q=~(filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)&quot;&gt;GLOSSARY Extreme Programming&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498&quot;&gt;Extreme Programming - Conceitos e Práticas&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;https://www.scrum.org/resources/what-is-scrum?gclid=Cj0KCQjwlK7cBRCnARIsAJiE3Mg-GBLapVDq-TPyx-wt0K0_8jLFjB14XaEjPZzMTJUJ5fPvZWmQmokaAs23EALw_wcB&quot;&gt;What is Scrum&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;table&gt;
+    &lt;tbody&gt;
+      &lt;tr&gt;
+        &lt;td&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2018.2-Lino/edit/master/docs/metodologia.md&quot;&gt;Lino - Metodologia&lt;/a&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/tbody&gt;
+  &lt;/table&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="metodologia" /><category term="documento" /><category term="eps" /><summary type="html">Introdução e Descrição da Metodologia &amp;emsp;&amp;emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.</summary></entry></feed>
