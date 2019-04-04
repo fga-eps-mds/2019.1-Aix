@@ -1,8 +1,13 @@
+---
+layout: post
+title: Código de Conduta
+tags: código conduta eps
+---
 # Código de Conduta do Convênio de Contribuição
 
 ## Nosso Compromisso
 No interesse de promover um ambiente aberto e acolhedor, nós, como colaboradores e mantenedores, prometemos fazer parte de nosso projeto e de nossa comunidade uma experiência livre de assédio para todos, independentemente da idade, tamanho corporal, deficiência, etnia, identidade e expressão de gênero, nível de experiência, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexual.
-
+<!--more-->
 ## Nossos Padrões
 Exemplos de comportamentos que contribuem para criar um ambiente positivo incluem:
 
