@@ -207,23 +207,40 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Olá, eu sou Botons
+          Olá, eu sou Aix
 
-          Assistente virtual do LigeroSmart
+          Bée
+
+          Sua assistente aqui no Jupyter Notebook
           
           Em que posso te ajudar?
 
     - text: |
-          Muito prazer, meu nome é Botons
+          Muito prazer!
 
-          Por favor descreva a natureza do seu problema
+          Bée
+
+          Meu nome é Aix
+
+          Algum problema?
+    
+    - text: |
+          Aix ao seu dispor!
+
+          Bée
+
+          Em que posso ser útil?
 
     - text: |
-          Mr. Botons!
+          Bée
 
-          Ao seu dispor
+          Finalmente alguém que precise de mim..
 
-          em que posso ser útil?
+          Oiie! Eu sou Aix, como posso te ajudar?
+    - text: |
+          Oiieee, tudo Bééem?
+
+          Sou Aix, como posso te ajudar?
 
   utter_despedir:
     - text: |

@@ -47,6 +47,23 @@
 - oie
 - opa tudo bem
 - ola boa tarde
+- hello
+- hi
+- preciso de ajuda
+- me ajuda
+- oi
+- como vai
+- opa
+- eai
+- e ai
+- eae
+- eaw
+- help
+- ow
+- ou
+- epa
+- fala comigo
+- fala
 
 ## intent:elogios
 - Você é muito educado
