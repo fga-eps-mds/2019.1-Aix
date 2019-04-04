@@ -1,15 +1,21 @@
+---
+layout: post
+title: Identidade Visual
+tags: identidade visual mds 
+---
+
 # 1. Identidade visual
 ## 1.1 Logo
 <p align="justify"> &emsp;&emsp;
 A ideia da logo surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, a qual o bot irá trabalhar em conjunto e "alimentar" de informações sobre a linguagem Python, que também é representada na logo pela cobra.
 </p>
-
+<!--more-->
 ## 1.2 Wordmark
 Aix - chatBode de Python
 
 # 2. Paleta de Cores
 <p align="justify"> &emsp;&emsp;
-As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos em imagens de robôs, representando o bot e a plataforma na qual ele será acoplado.
+As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também o verde, que foi usado para representar a cobra da linguagem Python, que é a linguagem na qual o produto irá se focar.
 </p>
 
 ## 2.1 Descrição das Cores (+ cores serão adicionadas)
