@@ -2,15 +2,15 @@ FROM python:3.6-slim
 
 RUN apt-get update && apt-get install -y git gcc make curl
 
-ADD ./docker/actions.requirements.txt /tmp/
+ADD ./actions/actions.requirements.txt /tmp/
 
 RUN pip install --upgrade pip && \
     pip install -r /tmp/actions.requirements.txt
 
-ADD ./bot/actions/actions.py /bot/actions/actions.py
-ADD ./bot/Makefile /bot/Makefile
+ADD ./actions/actions.py /bot/actions/actions.py
+ADD ./Makefile /bot/Makefile
 
-WORKDIR bot/
+WORKDIR .
 
 RUN apt-get -yq remove --purge --auto-remove -y ${BUILD_PACKAGES}; \
     apt-get -yq clean; \
