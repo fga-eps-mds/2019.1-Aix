@@ -7,40 +7,58 @@ tags: identidade visual mds
 # 1. Identidade visual
 ## 1.1 Logo
 <p align="justify"> &emsp;&emsp;
-A ideia da logo surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, a qual o bot irá trabalhar em conjunto e "alimentar" de informações sobre a linguagem Python, que também é representada na logo pela cobra.
+A ideia do mascote surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, com a qual o bot irá trabalhar em conjunto e "alimentar" de informações sobre a linguagem Python, que é representada na arte pela cobras entrelaçadas no símbolo da plataforma.
 </p>
 <p align="justify"> &emsp;&emsp;
 Quanto ao caráter técnico, a logo foi desenvolvida a partir de técnicas do desenho vetorial, para garantir uma melhor qualidade da imagem. Isso possibilitará que a ilustração possa ser trabalhada em diversos formatos, em ambientes sociais diferentes. </p>
 <p align="justify"> &emsp;&emsp;
-Já no que tange a originalidade, a logo consiste no mascote do projeto inserido no meio de dois símbolos laranjas que faz analogia ao sistema Jupyter, no qual o bot será integrado. </p>
+Já no que tange a originalidade, a logo consiste no mascote do projeto inserido no meio de dois símbolos laranjas que faz analogia ao sistema Jupyter, no qual o bot será integrado. E as cobras representam a especificadade do projeto, que estará voltado para a linguagem Python.</p>
 
 <!--more-->
 ## 1.2 Wordmark
 Aix - chatBode de Python
 
+## 1.3 História
+
 # 2. Paleta de Cores
 <p align="justify"> &emsp;&emsp;
-As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também as cores verde, amarelo e azul que foram usadas para representar a cobra da linguagem Python, que é a linguagem na qual o produto irá focar.
+As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também as cores verde e azul que foram usadas para representar as cobras do símbolo linguagem Python, que é o conteúdo em qual o produto irá focar.
 </p>
 
-## 2.1 Descrição das Cores (+ cores serão adicionadas)
-* **#FEDD55**
-<img src="https://www.colorhexa.com/FEDD55.png" alt="drawing" width="70" height="70"/>
+## 2.1 Descrição das Cores
 
-* **#3874A4**
-<img src="https://www.colorhexa.com/3874A4.png" alt="drawing" width="70" height="70"/>
+* **#E57633** 
+<img src="https://www.colorhexa.com/E57633.png" alt="drawing" width="70" height="70"/>
+
+* **#3F4140**
+<img src="https://www.colorhexa.com/3F4140.png" alt="drawing" width="70" height="70"/>
+
+* **#3475A5**
+<img src="https://www.colorhexa.com/3475A5.png" alt="drawing" width="70" height="70"/>
+
+* **#FCDE54**
+<img src="https://www.colorhexa.com/FCDE54.png" alt="drawing" width="70" height="70"/>
+
+* **#FAD6CF**
+<img src="https://www.colorhexa.com/FAD6CF.png" alt="drawing" width="70" height="70"/>
+
+* **#F16063**
+<img src="https://www.colorhexa.com/F16063.png" alt="drawing" width="70" height="70"/>
+
+* **#020202**
+<img src="https://www.colorhexa.com/020202.png" alt="drawing" width="70" height="70"/>
+
+* **#D8DCD9**
+<img src="https://www.colorhexa.com/D8DCD9.png" alt="drawing" width="70" height="70"/>
+
+* **#A27C89**
+<img src="https://www.colorhexa.com/A27C89.png" alt="drawing" width="70" height="70"/>
 
 * **#E47632**
 <img src="https://www.colorhexa.com/e47632.png" alt="drawing" width="70" height="70"/>
 
 * **#3F403F**
 <img src="https://www.colorhexa.com/3f403f.png" alt="drawing" width="70" height="70"/>
-
-* **#D8DBD8**
-<img src="https://www.colorhexa.com/d8dbd8.png" alt="drawing" width="70" height="70"/>
-
-* **#F2F2F2**
-<img src="https://www.colorhexa.com/f2f2f2.png" alt="drawing" width="70" height="70"/>
 
 * **#000000**
 <img src="https://www.colorhexa.com/000000.png" alt="drawing" width="70" height="70"/>
