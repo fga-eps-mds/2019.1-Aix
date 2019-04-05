@@ -52,9 +52,6 @@ intents:
   - menu_sistemas
   - menu_multimidia
   - menu_equipamentos
-
-  - action_otrs
-
   - sobre_python
 
 entities:

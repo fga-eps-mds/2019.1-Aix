@@ -37,16 +37,15 @@
 - to bem
 - tranquilo
 - estou bem
-- estou otimo
+- otimo
 - muito bem
 - bom dia
 - boa tarde
 - boa noite
-- olá
 - ola
 - oie
-- opa tudo bem
-- ola boa tarde
+- opa
+- eae 
 
 ## intent:elogios
 - Você é muito educado
@@ -77,21 +76,6 @@
 - ainda não sei
 - nenhum
 
-## intent:afirmar
-- sim
-- ok
-- sim sim
-- okay
-- oquei
-- tudo bem
-- ta certo
-- beleza
-- firmeza
-- blz
-- blza
-- frmz
-- joia
-- massa
 
 ## intent:diga_mais
 - como funciona
@@ -124,4 +108,3 @@
 - em qual ano python surgiu
 - quem e o criador do python
 - voce sabe quem e o pai do python
-
