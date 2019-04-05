@@ -207,9 +207,11 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Oiieee, tudo Bééem?
-          Sou Aix, sua assistente de Python. 
-          Como posso te ajudar?
+          Olá, eu sou Aix
+          Bée
+          Sua assistente aqui no Jupyter Notebook
+          
+          Em que posso te ajudar?
 
   utter_despedir:
     - text: |
