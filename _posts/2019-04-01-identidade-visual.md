@@ -19,6 +19,9 @@ Já no que tange a originalidade, a logo consiste no mascote do projeto inserido
 Aix - chatBode de Python
 
 ## 1.3 História
+<p align="justify"> &emsp;&emsp;
+Segundo a mitologia romana, a cabra Aix, por ser tão detestável, foi requisitado pelos Titãs à sua mãe Terra - Gaia - que a escondesse, para que assim não fosse possível vê-la. Gaia então a enviou para Creta e, devido a isto, posteriormente viria a amamentar Júpiter (Zeus) quando este era ainda jovem. Além disso, Júpiter (Zeus) fez uma couraça a partir da pele da cabra, que ficou conhecida como Égide. Fez também, de um de seus chifres, a Cornucópia, que ofereceu à Amaltéia.
+</p>
 
 # 2. Paleta de Cores
 <p align="justify"> &emsp;&emsp;
@@ -26,12 +29,6 @@ As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto c
 </p>
 
 ## 2.1 Descrição das Cores
-
-* **#E57633** 
-<img src="https://www.colorhexa.com/E57633.png" alt="drawing" width="70" height="70"/>
-
-* **#3F4140**
-<img src="https://www.colorhexa.com/3F4140.png" alt="drawing" width="70" height="70"/>
 
 * **#3475A5**
 <img src="https://www.colorhexa.com/3475A5.png" alt="drawing" width="70" height="70"/>
