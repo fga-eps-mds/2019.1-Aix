@@ -11,16 +11,25 @@ A ideia da logo surgiu a partir de uma história da mitologia romana, referente 
 </p>
 <p align="justify"> &emsp;&emsp;
 Quanto ao caráter técnico, a logo foi desenvolvida a partir de técnicas do desenho vetorial, para garantir uma melhor qualidade da imagem. Isso possibilitará que a ilustração possa ser trabalhada em diversos formatos, em ambientes sociais diferentes. </p>
+<p align="justify"> &emsp;&emsp;
+Já no que tange a originalidade, a logo consiste no mascote do projeto inserido no meio de dois símbolos laranjas que faz analogia ao sistema Jupyter, no qual o bot será integrado. </p>
+
 <!--more-->
 ## 1.2 Wordmark
 Aix - chatBode de Python
 
 # 2. Paleta de Cores
 <p align="justify"> &emsp;&emsp;
-As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também o verde, que foi usado para representar a cobra da linguagem Python, que é a linguagem na qual o produto irá se focar.
+As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também as cores verde, amarelo e azul que foram usadas para representar a cobra da linguagem Python, que é a linguagem na qual o produto irá focar.
 </p>
 
 ## 2.1 Descrição das Cores (+ cores serão adicionadas)
+* **#FEDD55**
+<img src="https://www.colorhexa.com/FEDD55.png" alt="drawing" width="70" height="70"/>
+
+* **#3874A4**
+<img src="https://www.colorhexa.com/3874A4.png" alt="drawing" width="70" height="70"/>
+
 * **#E47632**
 <img src="https://www.colorhexa.com/e47632.png" alt="drawing" width="70" height="70"/>
 
