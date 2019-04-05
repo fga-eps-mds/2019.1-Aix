@@ -115,3 +115,18 @@
 - Tudo bem e você
 - como vc esta
 - como vai
+
+## intent:sobre_python
+- o que e python
+- me defina python
+- me explique o que e python
+- quando python foi criado
+- em qual ano python surgiu
+- em que ano criaram o python
+- qual a idade do python
+- quantos anos o python tem
+- quem criou o python
+- quem e o criador do python
+- voce sabe quem e o pai do python
+- quero saber quem gerou o python
+- quem e o autor do python
