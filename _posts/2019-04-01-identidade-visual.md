@@ -9,6 +9,8 @@ tags: identidade visual mds
 <p align="justify"> &emsp;&emsp;
 A ideia da logo surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, a qual o bot irá trabalhar em conjunto e "alimentar" de informações sobre a linguagem Python, que também é representada na logo pela cobra.
 </p>
+<p align="justify"> &emsp;&emsp;
+Quanto ao caráter técnico, a logo foi desenvolvida a partir de técnicas do desenho vetorial, para garantir uma melhor qualidade da imagem. Isso possibilitará que a ilustração possa ser trabalhada em diversos formatos, em ambientes sociais diferentes. </p>
 <!--more-->
 ## 1.2 Wordmark
 Aix - chatBode de Python
