@@ -55,6 +55,8 @@ intents:
 
   - action_otrs
 
+  - sobre_python
+
 entities:
   - servico
   - sistema
@@ -538,6 +540,11 @@ templates:
             1.	Filmagem e/ou gravação de vídeo
             2.	Gravação de áudio
 
+  utter_sobre_python:
+    - text: |
+        O Python é uma linguagem de programação de alto nível, muito usada no Linux e em outros sistemas Unix por ser béem rápida de aprender, mesmo para quem não possui experiência anterior com programação. A sintaxe é bastante organizada e a linguagem inclui suporte a objetos. Uma de suas principais características é permitir a fácil leitura do código e, desse modo, produzir um código bom e fácil de manter de maneira rápida.
+        O Python foi criado por Guido van Rossum, tambéem conhecido como Béenevolent Dictator for Life (BDFL) na comunidade da linguagem, no ano de 1991, béem antes de eu nascer, e atualmente ela está com 27~28 anos.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -591,3 +598,5 @@ actions:
   - utter_menu_sistemas
   - utter_menu_multimidia
   - utter_menu_equipamentos
+
+  - utter_sobre_python
