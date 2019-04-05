@@ -19,7 +19,7 @@ tags: plano comunicação eps
 ## <i>Telegram</i>
 * Por esta ferramenta, discutimos assuntos operacionais pontuais, como horários de reuniões, pautas. Algumas vezes, dailies podem ocorrer por esta.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/telegram-logo.png)
+<img src="{{ site.url }}/2019.1-Aix/assets/img/telegram-logo.png" alt="drawing" width="200"/>
 
 
 ## <i>Github</i>
