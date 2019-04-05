@@ -132,3 +132,13 @@
 - Tudo bem e você
 - como vc esta
 - como vai
+
+## intent:sobre_python
+- o que e python
+- me defina python
+- me explique o que e python
+- quando python foi criado
+- em qual ano python surgiu
+- quem e o criador do python
+- voce sabe quem e o pai do python
+
