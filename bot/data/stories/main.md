@@ -1,6 +1,3 @@
-## Despedir
-* despedir
-    - utter_despedir
 
 ## Oi Tudo Bem Story
 * tudo_bem
@@ -37,7 +34,20 @@
 ## path 2
 * cumprimentar
     - utter_cumprimentar
+    
+## path 3
+* cumprimentar
+    - utter_cumprimentar
+
 
 ## sobre_python
 * sobre_python
   - utter_sobre_python
+
+## menu_ajuda
+* menu_ajuda
+    - utter_menu_ajuda
+
+## Despedir
+* despedir
+    - utter_despedir

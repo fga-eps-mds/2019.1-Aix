@@ -23,6 +23,7 @@
 - obrigado
 - obj
 - abraços
+- xau
 
 ## intent:cumprimentar
 - oi tudo bem
@@ -45,7 +46,8 @@
 - ola
 - oie
 - opa
-- eae 
+- eae
+- opa meu bom 
 
 ## intent:elogios
 - Você é muito educado
@@ -108,3 +110,16 @@
 - em qual ano python surgiu
 - quem e o criador do python
 - voce sabe quem e o pai do python
+
+## intent:menu_ajuda
+- o que vc faz
+- o que você faz
+- como te usar
+- o que voce sabe
+- com o que voce pode me ajudar
+- como voce funciona
+- me ajuda
+- help
+- me da um help
+
+
