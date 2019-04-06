@@ -8,22 +8,25 @@
 ## intent:despedir
 - Tchau obrigada
 - Tchau
+- tchau obg
 - até logo
-- namaste
+- xau
+- bye bye
+- cya
 - sayonara
 - até mais
 - até breve
 - falou, valeu
 - flw vlw
-- blza
-- blz
-- valeu
-- de boa
+- bon voyage
+- arrivederci
+- até mais ver
+- adeus
+- hasta la vista, baby
+- obrigado pela ajuda
 - obrigada
 - obrigado
-- obj
 - abraços
-- xau
 
 ## intent:cumprimentar
 - oi tudo bem

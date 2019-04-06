@@ -213,19 +213,11 @@ templates:
 
   utter_despedir:
     - text: |
-          Foi um prazer te ajudar!
-          Sempre que tiver alguma dúvida, volte aqui!
-          Até logo!
+          Bééem, foi ótimo poder me divertir enquanto te ajudo!
 
-    - text: |
-          ótimo, então até a próxima
+          Qualquer dúvida conta comigo, beleza?
 
-          :)
-
-    - text: |
-          Legal, espero que tenha sido útil
-
-          Até a próxima =)
+          Até logo meu pequeno jupiter!
 
   utter_tudo_bem:
     - text: |
