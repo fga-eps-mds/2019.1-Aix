@@ -15,6 +15,11 @@
 - até breve
 - falou, valeu
 - flw vlw
+- bon voyage
+- arrivederci
+- até mais ver
+- adeus
+- hasta la vista, baby
 - blza
 - blz
 - valeu
