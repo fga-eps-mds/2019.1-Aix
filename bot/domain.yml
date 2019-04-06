@@ -54,6 +54,7 @@ intents:
   - menu_equipamentos
   - sobre_python
   - menu_ajuda
+  - sobre_aix
 
 entities:
   - servico
@@ -531,6 +532,16 @@ templates:
         Além disso tudo, que te ajudo no dever de casa! Hahahaha! Só me mandar o exercício e o seu código que eu corrijo!
         É só perguntar! Sou uma Cabra mas eu não mordo.
 
+  utter_sobre_aix:
+    - text: |
+        Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
+        Quer surpreender seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma, que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!
+        Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília? Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz de criar uma ferramenta de estudo tão maneira quanto essa!
+        Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda corrige seus exercícios de programação? Béem, se você falou seu professor, você acertou... Mas sabia que eu também posso te ajudar com isso?
+        Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
+        A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
+        Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -586,3 +597,4 @@ actions:
   - utter_menu_equipamentos
   - utter_sobre_python
   - utter_menu_ajuda
+  - utter_sobre_aix
