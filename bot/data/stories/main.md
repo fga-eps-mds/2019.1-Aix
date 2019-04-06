@@ -50,6 +50,6 @@
 * despedir
     - utter_despedir
 
-## me_ajuda
-* me_ajuda
-    - utter_me_ajuda
+## menu_ajuda
+* menu_ajuda
+    - utter_menu_ajuda
