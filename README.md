@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="">
+  <img width="200" height="200" src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/LOGO%20PINTADA-01.png">
 </p>
 
 <h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
