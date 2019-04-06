@@ -50,7 +50,7 @@
 - oie
 - opa
 - eae
-- opa meu bom 
+- opa meu bom
 
 ## intent:elogios
 - Você é muito educado
@@ -125,4 +125,32 @@
 - help
 - me da um help
 
+## intent:sobre_aix
+- quem
+- me defina python
+- me explique o que e python
+- quando python foi criado
+- em qual ano python surgiu
+- quem e o criador do python
+- voce sabe quem e o pai do python
 
+## intent:sobre_aix
+- quem e voce
+- sobre o chatbot
+- diga uma curiosidade sobre chatbot
+- o que e aix
+- quais suas funcionalidades
+- qual seu proposito
+- quem e vc
+- como voce me ajuda
+- sobre o chatbode
+- descreva voce
+- descreva vc
+- aix
+- cabra
+- chatbode
+- chatbot
+- conheço
+- curiosidade
+- cabrita
+- bode
