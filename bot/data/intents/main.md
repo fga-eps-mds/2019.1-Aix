@@ -8,8 +8,11 @@
 ## intent:despedir
 - Tchau obrigada
 - Tchau
+- tchau obg
 - até logo
-- namaste
+- xau
+- bye bye
+- cya
 - sayonara
 - até mais
 - até breve
@@ -20,14 +23,11 @@
 - até mais ver
 - adeus
 - hasta la vista, baby
-- blza
-- blz
-- valeu
-- de boa
+- obrigado pela ajuda
 - obrigada
 - obrigado
-- obj
 - abraços
+- valeu falou
 
 ## intent:cumprimentar
 - oi tudo bem
