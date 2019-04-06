@@ -125,19 +125,12 @@
 - help
 - me da um help
 
-## intent:sobre_aix
-- quem
-- me defina python
-- me explique o que e python
-- quando python foi criado
-- em qual ano python surgiu
-- quem e o criador do python
-- voce sabe quem e o pai do python
 
 ## intent:sobre_aix
 - quem e voce
 - sobre o chatbot
 - diga uma curiosidade sobre chatbot
+- quem e aix
 - o que e aix
 - quais suas funcionalidades
 - qual seu proposito
