@@ -533,12 +533,12 @@ templates:
     - text: |
         Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
         Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
-        Você pode mandar seus códigos! Assim eu posso corrigir eles, te aconselhar alguma Biblioteca legal, explicar onde o quê você errou
+        Você pode mandar seus códigos! Assim eu posso corrigir eles, te aconselhar alguma Biblioteca legal, explicar onde  você errou
         Tem alguma dúvida sobre alguma função da linguagem? Pode perguntar também! Te ajudo na sintaxe e tudo mais. Hahaha!
         Poxa, você pode até achar que eu não expliquei muito béem. Não tem problema. Eu te mando um link que te explica melhor!
         Além disso tudo, que te ajudo no dever de casa! Hahahaha! Só me mandar o exercício e o seu código que eu corrijo!
         É só perguntar! Sou uma Cabra mas eu não mordo.
-        
+
 actions:
   - utter_default
   - utter_cumprimentar
