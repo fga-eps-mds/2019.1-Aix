@@ -9,9 +9,9 @@
 # baseurl: 2019.1-Aix/
 title: Aix
 description: Um ChatBot para te ensinar a programar em Python.
-avatar: /assets/img/ogp.png
+avatar: /assets/img/LOGO PINTADA-01.png
 # favicon: /favicon.ico
-favicon: /assets/img/ogp.png
+favicon: /assets/img/LOGO PINTADA-01.png
 language: pt-br
 
 #
@@ -79,7 +79,7 @@ share_buttons:
   facebook: false
   hatena: false
 ogp:
-  image_url: https://fga-eps-mds.github.io/2019.1-Aix/assets/img/ogp.png
+  image_url: https://fga-eps-mds.github.io/2019.1-Aix/assets/img/LOGO PINTADA-01.png
   fb:
     admin:
     app_id:

@@ -1,4 +1,1766 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-03T16:12:53-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aix</title><subtitle>Um ChatBot para te ensinar a programar em Python.</subtitle><entry><title type="html">Revisão da Sprint 1</title><link href="http://localhost:4000/2019/04/01/sprint-02/" rel="alternate" type="text/html" title="Revisão da Sprint 1" /><published>2019-04-01T00:00:00-03:00</published><updated>2019-04-01T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/01/sprint-02</id><content type="html" xml:base="http://localhost:4000/2019/04/01/sprint-02/">&lt;h1 id=&quot;sprint-1&quot;&gt;Sprint 1&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-06T15:56:50-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aix</title><subtitle>Um ChatBot para te ensinar a programar em Python.</subtitle><entry><title type="html">Backlog do Produto</title><link href="http://localhost:4000/2019/04/05/backlog-de-produto/" rel="alternate" type="text/html" title="Backlog do Produto" /><published>2019-04-05T00:00:00-03:00</published><updated>2019-04-05T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/05/backlog-de-produto</id><content type="html" xml:base="http://localhost:4000/2019/04/05/backlog-de-produto/">&lt;h1 id=&quot;backlog-do-produto&quot;&gt;Backlog do Produto&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;Épicos&quot;&gt;Épicos&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;strong&gt;ID&lt;/strong&gt;
+   &lt;/td&gt;
+   &lt;td&gt;&lt;strong&gt;DESCRIÇÃO&lt;/strong&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+   &lt;td&gt;Conteúdo
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;EP02
+   &lt;/td&gt;
+   &lt;td&gt;Linkagem
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;&lt;strong&gt;ID&lt;/strong&gt;
+   &lt;/td&gt;
+   &lt;td&gt;&lt;strong&gt;DESCRIÇÃO&lt;/strong&gt;
+   &lt;/td&gt;
+   &lt;td&gt;&lt;strong&gt;ÉPICO&lt;/strong&gt;
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+   &lt;td&gt;Tópicos base bot
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+   &lt;td&gt;Variáveis
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+   &lt;td&gt;Estruturas Condicionais
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+   &lt;td&gt;Estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+   &lt;td&gt;Vetores
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+   &lt;td&gt;Matrizes
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+   &lt;td&gt;Funções
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+   &lt;td&gt;Arquivos
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+   &lt;td&gt;Linkagem estática
+   &lt;/td&gt;
+   &lt;td&gt;EP01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+   &lt;td&gt;Linkagem conteúdo extra
+   &lt;/td&gt;
+   &lt;td&gt;EP02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+   &lt;td&gt;Linkagem erro
+   &lt;/td&gt;
+   &lt;td&gt;EP02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+   &lt;td&gt;Linkagem exercício
+   &lt;/td&gt;
+   &lt;td&gt;EP02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;histórias-de-usuários&quot;&gt;Histórias de Usuários&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;ID
+   &lt;/td&gt;
+   &lt;td&gt;Descrição
+   &lt;/td&gt;
+   &lt;td&gt;Feature
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS01
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar Tópico Cumprimentar
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS02
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico Menu de Ajuda
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS03
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico Sobre Python
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS04
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico Sobre a Aix
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS05
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico de Despedida
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS06
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico sobre Curiosidades de Python
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS07
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico para que o bot seja capaz de Manter uma conversa
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS08
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico para que o bot entre em Fallback quando necessário
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS09
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição de variável
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS10
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de usos de variáveis em python
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS11
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre variáveis
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS12
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de variáveis
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS13
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são estruturas condicionais
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS14
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de estruturas condicionais
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS15
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas condicionais
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS16
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas condicionais
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS17
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS18
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS19
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS20
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS21
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são vetores
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS22
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de vetores
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS23
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre vetores
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS24
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de vetores
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS25
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são matrizes
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS26
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de matrizes
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS27
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre matrizes
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS28
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de matrizes
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS29
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são funções
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS30
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de funções
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS31
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre funções
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS32
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS33
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com a definição do que são arquivos
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS34
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com exemplos de utilização de arquivos
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS35
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS36
+   &lt;/td&gt;
+   &lt;td&gt;Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de arquivos
+   &lt;/td&gt;
+   &lt;td&gt;FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS37
+   &lt;/td&gt;
+   &lt;td&gt;Procurar e estudar estrutura de sites confiáveis para estudos da linguagem
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS38
+   &lt;/td&gt;
+   &lt;td&gt;Criar crawler (ou ligação com a API) dos sites encontrados para conteúdo extra
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS39
+   &lt;/td&gt;
+   &lt;td&gt;Estudar estrutura da API do stackoverflow
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS40
+   &lt;/td&gt;
+   &lt;td&gt;Criar API para comunicação com a API do Stackoverflow
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS41
+   &lt;/td&gt;
+   &lt;td&gt;Estudar estrutura do URI e correlatos para verificação de viabilidade técnica
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS42
+   &lt;/td&gt;
+   &lt;td&gt;Criar crawler (ou ligação com a API) dos sites encontrados para recomendação de exercícios
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;tasks-issues&quot;&gt;Tasks Issues&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS
+   &lt;/td&gt;
+   &lt;td&gt;ID
+   &lt;/td&gt;
+   &lt;td&gt;Descrição
+   &lt;/td&gt;
+   &lt;td&gt;Feature 
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS01
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação do bot de cumprimentar 
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS01
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de cumprimentar do bot. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS02
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação do bot de oferecer o menu de ajuda, a fim de explicar no que o bot pode ajudar o usuário 
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS02
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar menu de ajuda do bot. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS03
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação do bot de explicar sobre a linguagem python
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS03
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre python. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS04
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação do bot de explicar sobre a Aix
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS04
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre a Aix. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS05
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de despedir do bot
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS05
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de despedir do bot. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS06
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a curiosidades sobre python do bot
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS06
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a curiosidades sobre python. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS07
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de manter conversa que tem como finalidade fazer com que o usuário continue uma conversa fluida com o bot.
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS07
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de manter conversa com o  bot. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS08
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de fallback do bot que representa o estado do bot no momento que não entender a entrada do usuário, solicitando assim que o mesmo possa repetir a entrada de forma mais clara.
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS08
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de fallback do bot. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT01
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS09
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre variáveis
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS09
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre variáveis. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS10
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de variáveis na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS10
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT02
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS11
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de variáveis na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT02/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS11
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT02/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS12
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de variáveis na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT02/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS12
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT02/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS13
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Estruturas condicionais
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS13
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS14
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas condicionais na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS14
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT03
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS15
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Estruturas condicionais na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT03/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS15
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT03/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS16
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas condicionais na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT03/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS16
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT03/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS17
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Estruturas de repetição
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS17
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS18
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas de repetição na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS18
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT04
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS19
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Estruturas de repetição na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT04/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS19
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT04/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS20
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas repetição na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT04/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS20
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT04/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS21
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Vetores
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS21
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre Vetores.Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS22
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Vetores na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS22
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Vetores. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT05
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS23
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Vetores na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT05/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS23
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Vetores. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT05/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS24
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Vetores na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT05/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS24
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Vetores. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT05/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS25
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Matrizes
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS25
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre Matrizes.Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS26
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Matrizes na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS26
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Matrizes. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT06
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS27
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Matrizes na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT06/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS27
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Matrizes. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT06/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS28
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Matrizes na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT06/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS28
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Matrizes. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT06/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS29
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Funções
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS29
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre Funções.Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS30
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Funções na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS30
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Funções. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT07
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS31
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Funções na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT07/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS31
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Funções. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT07/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS32
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Funções na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT07/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS32
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Funções. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT07/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS33
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de explicar sobre Arquivos
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS33
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de explicar sobre Arquivos.Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS34
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar conteúdo referente a ação de apresentar exemplos de utilização de Arquivos na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS34
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de apresentar exemplos de Arquivos. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT08
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS35
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a utilização de Arquivos na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT08/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS35
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Arquivos. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT08/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS36
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Pesquisar link referente a sugestão de exercícios referentes ao uso de Arquivos na linguagem python.
+   &lt;/td&gt;
+   &lt;td&gt;FT08/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS36
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Arquivos. Incluindo arquivos de Domain.yml, intents e utter
+   &lt;/td&gt;
+   &lt;td&gt;FT08/FT09
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS37
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Procurar sites de ensino sobre python
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS37
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Relatar estrutura do site (caso não haja API, determinar caminho html até o conteúdo)
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS38
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar action responsável pela comunicação do bot com o site externo (ou API)
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS38
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Elaborar parser dos dados recebidos
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS38
+   &lt;/td&gt;
+   &lt;td&gt;T03
+   &lt;/td&gt;
+   &lt;td&gt;Bot responder com dados retornados do ambiente externo
+   &lt;/td&gt;
+   &lt;td&gt;FT10
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS39
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Documentar pontos relevantes da estrutura da API do stackoverflow (na própria issue)
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS39
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Descobrir viabilidade técnica de comunicação com a API do stackoverflow
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS40
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar action responsável pela comunicação do bot com a API do Stackoverflow
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS40
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Elaborar parser dos dados recebidos
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS40
+   &lt;/td&gt;
+   &lt;td&gt;T03
+   &lt;/td&gt;
+   &lt;td&gt;Bot responder com dados retornados do ambiente externo
+   &lt;/td&gt;
+   &lt;td&gt;FT11
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS41
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Descobrir viabilidade técnica de comunicação com o URI online judge e correlatos
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS41
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Relatar estrutura do site (caso não haja API, determinar caminho html até o conteúdo)
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS42
+   &lt;/td&gt;
+   &lt;td&gt;T01
+   &lt;/td&gt;
+   &lt;td&gt;Criar action responsável pela comunicação do bot com o site externo (ou API)
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS42
+   &lt;/td&gt;
+   &lt;td&gt;T02
+   &lt;/td&gt;
+   &lt;td&gt;Elaborar parser dos dados recebidos
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;IS42
+   &lt;/td&gt;
+   &lt;td&gt;T03
+   &lt;/td&gt;
+   &lt;td&gt;Bot responder com dados retornados do ambiente externo
+   &lt;/td&gt;
+   &lt;td&gt;FT12
+   &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;!-- Docs to Markdown version 1.0β16 --&gt;</content><author><name></name></author><category term="plano" /><category term="backlog" /><category term="documento" /><category term="eps" /><summary type="html">Backlog do Produto Épicos ID DESCRIÇÃO EP01 Conteúdo EP02 Linkagem Features ID DESCRIÇÃO ÉPICO FT01 Tópicos base bot EP01 FT02 Variáveis EP01 FT03 Estruturas Condicionais EP01 FT04 Estruturas de repetição EP01 FT05 Vetores EP01 FT06 Matrizes EP01 FT07 Funções EP01 FT08 Arquivos EP01 FT09 Linkagem estática EP01 FT10 Linkagem conteúdo extra EP02 FT11 Linkagem erro EP02 FT12 Linkagem exercício EP02 Histórias de Usuários ID Descrição Feature IS01 Adicionar Tópico Cumprimentar FT01 IS02 Adicionar tópico Menu de Ajuda FT01 IS03 Adicionar tópico Sobre Python FT01 IS04 Adicionar tópico Sobre a Aix FT01 IS05 Adicionar tópico de Despedida FT01 IS06 Adicionar tópico sobre Curiosidades de Python FT01 IS07 Adicionar tópico para que o bot seja capaz de Manter uma conversa FT01 IS08 Adicionar tópico para que o bot entre em Fallback quando necessário FT01 IS09 Adicionar tópico com a definição de variável FT02 IS10 Adicionar tópico com exemplos de usos de variáveis em python FT02 IS11 Adicionar tópico com linkagem estática para conteúdo extra sobre variáveis FT09 IS12 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de variáveis FT09 IS13 Adicionar tópico com a definição do que são estruturas condicionais FT03 IS14 Adicionar tópico com exemplos de utilização de estruturas condicionais FT03 IS15 Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas condicionais FT09 IS16 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas condicionais FT09 IS17 Adicionar tópico com a definição do que são estruturas de repetição FT04 IS18 Adicionar tópico com exemplos de utilização de estruturas de repetição FT04 IS19 Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas de repetição FT09 IS20 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas de repetição FT09 IS21 Adicionar tópico com a definição do que são vetores FT05 IS22 Adicionar tópico com exemplos de utilização de vetores FT05 IS23 Adicionar tópico com linkagem estática para conteúdo extra sobre vetores FT09 IS24 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de vetores FT09 IS25 Adicionar tópico com a definição do que são matrizes FT06 IS26 Adicionar tópico com exemplos de utilização de matrizes FT06 IS27 Adicionar tópico com linkagem estática para conteúdo extra sobre matrizes FT09 IS28 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de matrizes FT09 IS29 Adicionar tópico com a definição do que são funções FT07 IS30 Adicionar tópico com exemplos de utilização de funções FT07 IS31 Adicionar tópico com linkagem estática para conteúdo extra sobre funções FT09 IS32 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções FT09 IS33 Adicionar tópico com a definição do que são arquivos FT08 IS34 Adicionar tópico com exemplos de utilização de arquivos FT08 IS35 Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos FT09 IS36 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de arquivos FT09 IS37 Procurar e estudar estrutura de sites confiáveis para estudos da linguagem FT10 IS38 Criar crawler (ou ligação com a API) dos sites encontrados para conteúdo extra FT10 IS39 Estudar estrutura da API do stackoverflow FT11 IS40 Criar API para comunicação com a API do Stackoverflow FT11 IS41 Estudar estrutura do URI e correlatos para verificação de viabilidade técnica FT12 IS42 Criar crawler (ou ligação com a API) dos sites encontrados para recomendação de exercícios FT12 Tasks Issues IS ID Descrição Feature IS01 T01 Criar conteúdo referente a ação do bot de cumprimentar FT01 IS01 T02 Inserir conteúdo referente a ação de cumprimentar do bot. Incluindo arquivos de Domain.yml, intents e utter FT01 IS02 T01 Criar conteúdo referente a ação do bot de oferecer o menu de ajuda, a fim de explicar no que o bot pode ajudar o usuário FT01 IS02 T02 Inserir conteúdo referente a ação de apresentar menu de ajuda do bot. Incluindo arquivos de Domain.yml, intents e utter FT01 IS03 T01 Criar conteúdo referente a ação do bot de explicar sobre a linguagem python FT01 IS03 T02 Inserir conteúdo referente a ação de explicar sobre python. Incluindo arquivos de Domain.yml, intents e utter FT01 IS04 T01 Criar conteúdo referente a ação do bot de explicar sobre a Aix FT01 IS04 T02 Inserir conteúdo referente a ação de explicar sobre a Aix. Incluindo arquivos de Domain.yml, intents e utter FT01 IS05 T01 Criar conteúdo referente a ação de despedir do bot FT01 IS05 T02 Inserir conteúdo referente a ação de despedir do bot. Incluindo arquivos de Domain.yml, intents e utter FT01 IS06 T01 Criar conteúdo referente a curiosidades sobre python do bot FT01 IS06 T02 Inserir conteúdo referente a curiosidades sobre python. Incluindo arquivos de Domain.yml, intents e utter FT01 IS07 T01 Criar conteúdo referente a ação de manter conversa que tem como finalidade fazer com que o usuário continue uma conversa fluida com o bot. FT01 IS07 T02 Inserir conteúdo referente a ação de manter conversa com o bot. Incluindo arquivos de Domain.yml, intents e utter FT01 IS08 T01 Criar conteúdo referente a ação de fallback do bot que representa o estado do bot no momento que não entender a entrada do usuário, solicitando assim que o mesmo possa repetir a entrada de forma mais clara. FT01 IS08 T02 Inserir conteúdo referente a ação de fallback do bot. Incluindo arquivos de Domain.yml, intents e utter FT01 IS09 T01 Criar conteúdo referente a ação de explicar sobre variáveis FT02 IS09 T02 Inserir conteúdo referente a ação de explicar sobre variáveis. Incluindo arquivos de Domain.yml, intents e utter FT02 IS10 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de variáveis na linguagem python. FT02 IS10 T02 Inserir conteúdo referente a ação de apresentar exemplos de variáveis. Incluindo arquivos de Domain.yml, intents e utter FT02 IS11 T01 Pesquisar link referente a utilização de variáveis na linguagem python. FT02/FT09 IS11 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter FT02/FT09 IS12 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de variáveis na linguagem python. FT02/FT09 IS12 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de variáveis. Incluindo arquivos de Domain.yml, intents e utter FT02/FT09 IS13 T01 Criar conteúdo referente a ação de explicar sobre Estruturas condicionais FT03 IS13 T02 Inserir conteúdo referente a ação de explicar sobre estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter FT03 IS14 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas condicionais na linguagem python. FT03 IS14 T02 Inserir conteúdo referente a ação de apresentar exemplos de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter FT03 IS15 T01 Pesquisar link referente a utilização de Estruturas condicionais na linguagem python. FT03/FT09 IS15 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter FT03/FT09 IS16 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas condicionais na linguagem python. FT03/FT09 IS16 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas condicionais. Incluindo arquivos de Domain.yml, intents e utter FT03/FT09 IS17 T01 Criar conteúdo referente a ação de explicar sobre Estruturas de repetição FT04 IS17 T02 Inserir conteúdo referente a ação de explicar sobre estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter FT04 IS18 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Estruturas de repetição na linguagem python. FT04 IS18 T02 Inserir conteúdo referente a ação de apresentar exemplos de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter FT04 IS19 T01 Pesquisar link referente a utilização de Estruturas de repetição na linguagem python. FT04/FT09 IS19 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter FT04/FT09 IS20 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Estruturas repetição na linguagem python. FT04/FT09 IS20 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Estruturas de repetição. Incluindo arquivos de Domain.yml, intents e utter FT04/FT09 IS21 T01 Criar conteúdo referente a ação de explicar sobre Vetores FT05 IS21 T02 Inserir conteúdo referente a ação de explicar sobre Vetores.Incluindo arquivos de Domain.yml, intents e utter FT05 IS22 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Vetores na linguagem python. FT05 IS22 T02 Inserir conteúdo referente a ação de apresentar exemplos de Vetores. Incluindo arquivos de Domain.yml, intents e utter FT05 IS23 T01 Pesquisar link referente a utilização de Vetores na linguagem python. FT05/FT09 IS23 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Vetores. Incluindo arquivos de Domain.yml, intents e utter FT05/FT09 IS24 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Vetores na linguagem python. FT05/FT09 IS24 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Vetores. Incluindo arquivos de Domain.yml, intents e utter FT05/FT09 IS25 T01 Criar conteúdo referente a ação de explicar sobre Matrizes FT06 IS25 T02 Inserir conteúdo referente a ação de explicar sobre Matrizes.Incluindo arquivos de Domain.yml, intents e utter FT06 IS26 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Matrizes na linguagem python. FT06 IS26 T02 Inserir conteúdo referente a ação de apresentar exemplos de Matrizes. Incluindo arquivos de Domain.yml, intents e utter FT06 IS27 T01 Pesquisar link referente a utilização de Matrizes na linguagem python. FT06/FT09 IS27 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Matrizes. Incluindo arquivos de Domain.yml, intents e utter FT06/FT09 IS28 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Matrizes na linguagem python. FT06/FT09 IS28 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Matrizes. Incluindo arquivos de Domain.yml, intents e utter FT06/FT09 IS29 T01 Criar conteúdo referente a ação de explicar sobre Funções FT07 IS29 T02 Inserir conteúdo referente a ação de explicar sobre Funções.Incluindo arquivos de Domain.yml, intents e utter FT07 IS30 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Funções na linguagem python. FT07 IS30 T02 Inserir conteúdo referente a ação de apresentar exemplos de Funções. Incluindo arquivos de Domain.yml, intents e utter FT07 IS31 T01 Pesquisar link referente a utilização de Funções na linguagem python. FT07/FT09 IS31 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Funções. Incluindo arquivos de Domain.yml, intents e utter FT07/FT09 IS32 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Funções na linguagem python. FT07/FT09 IS32 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Funções. Incluindo arquivos de Domain.yml, intents e utter FT07/FT09 IS33 T01 Criar conteúdo referente a ação de explicar sobre Arquivos FT08 IS33 T02 Inserir conteúdo referente a ação de explicar sobre Arquivos.Incluindo arquivos de Domain.yml, intents e utter FT08 IS34 T01 Criar conteúdo referente a ação de apresentar exemplos de utilização de Arquivos na linguagem python. FT08 IS34 T02 Inserir conteúdo referente a ação de apresentar exemplos de Arquivos. Incluindo arquivos de Domain.yml, intents e utter FT08 IS35 T01 Pesquisar link referente a utilização de Arquivos na linguagem python. FT08/FT09 IS35 T02 Inserir conteúdo referente a ação de oferecer um link sobre a utilização de Arquivos. Incluindo arquivos de Domain.yml, intents e utter FT08/FT09 IS36 T01 Pesquisar link referente a sugestão de exercícios referentes ao uso de Arquivos na linguagem python. FT08/FT09 IS36 T02 Inserir conteúdo referente a ação de oferecer um link sobre sugestão de exercício sobre utilização de Arquivos. Incluindo arquivos de Domain.yml, intents e utter FT08/FT09 IS37 T01 Procurar sites de ensino sobre python FT10 IS37 T02 Relatar estrutura do site (caso não haja API, determinar caminho html até o conteúdo) FT10 IS38 T01 Criar action responsável pela comunicação do bot com o site externo (ou API) FT10 IS38 T02 Elaborar parser dos dados recebidos FT10 IS38 T03 Bot responder com dados retornados do ambiente externo FT10 IS39 T01 Documentar pontos relevantes da estrutura da API do stackoverflow (na própria issue) FT11 IS39 T02 Descobrir viabilidade técnica de comunicação com a API do stackoverflow FT11 IS40 T01 Criar action responsável pela comunicação do bot com a API do Stackoverflow FT11 IS40 T02 Elaborar parser dos dados recebidos FT11 IS40 T03 Bot responder com dados retornados do ambiente externo FT11 IS41 T01 Descobrir viabilidade técnica de comunicação com o URI online judge e correlatos FT12 IS41 T02 Relatar estrutura do site (caso não haja API, determinar caminho html até o conteúdo) FT12 IS42 T01 Criar action responsável pela comunicação do bot com o site externo (ou API) FT12 IS42 T02 Elaborar parser dos dados recebidos FT12 IS42 T03 Bot responder com dados retornados do ambiente externo FT12</summary></entry><entry><title type="html">Plano de Comunicação</title><link href="http://localhost:4000/2019/04/05/plano-de-comunicacao/" rel="alternate" type="text/html" title="Plano de Comunicação" /><published>2019-04-05T00:00:00-03:00</published><updated>2019-04-05T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/05/plano-de-comunicacao</id><content type="html" xml:base="http://localhost:4000/2019/04/05/plano-de-comunicacao/">&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Data&lt;/th&gt;
+      &lt;th&gt;Versão&lt;/th&gt;
+      &lt;th&gt;Descrição&lt;/th&gt;
+      &lt;th&gt;Autor&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;05/04/2019&lt;/td&gt;
+      &lt;td&gt;1.0&lt;/td&gt;
+      &lt;td&gt;Criação do documento&lt;/td&gt;
+      &lt;td&gt;Kamilla Costa&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;objetivo&quot;&gt;Objetivo&lt;/h1&gt;
+
+&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem como objetivo evidenciar a comunicação interna da equipe e as ferramentas utilizadas para obtenção da mesma.&lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;h1 id=&quot;ferramentas&quot;&gt;Ferramentas&lt;/h1&gt;
+
+&lt;h2 id=&quot;telegram&quot;&gt;&lt;i&gt;Telegram&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Por esta ferramenta, discutimos assuntos operacionais pontuais, como horários de reuniões, pautas. Algumas vezes, dailies podem ocorrer por esta.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/telegram-logo.png&quot; alt=&quot;drawing&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;github&quot;&gt;&lt;i&gt;Github&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;O GitHub é essencial na transparência interna da equipe e externa junto ao cliente, as orientadoras do projeto (Carla Rocha e Bruna Nayara) e a comunidade em geral. Foi feito um uso extensivo das issues para comunicação entre os membros da equipe, para dúvidas sobre a issue e para mostrar o andamento do projeto.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/github.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;zenhub&quot;&gt;&lt;i&gt;Zenhub&lt;/i&gt;&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Por esta ferramenta, aplica-se o Kanban e monitora-se o andamento das issues.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/zenhub.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="plano" /><category term="comunicação" /><category term="eps" /><summary type="html">Data Versão Descrição Autor 05/04/2019 1.0 Criação do documento Kamilla Costa Objetivo &amp;emsp;&amp;emsp; Este documento tem como objetivo evidenciar a comunicação interna da equipe e as ferramentas utilizadas para obtenção da mesma.</summary></entry><entry><title type="html">Plano de Gerenciamento de Custos</title><link href="http://localhost:4000/2019/04/05/plano-de-gerenciamento-de-custos/" rel="alternate" type="text/html" title="Plano de Gerenciamento de Custos" /><published>2019-04-05T00:00:00-03:00</published><updated>2019-04-05T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/05/plano-de-gerenciamento-de-custos</id><content type="html" xml:base="http://localhost:4000/2019/04/05/plano-de-gerenciamento-de-custos/">&lt;h1 id=&quot;plano-de-gerenciamento-de-custos&quot;&gt;Plano de Gerenciamento de Custos&lt;/h1&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Esse documento tem por objetivo identificar e documentar a forma como será feita a gerência de custos do projeto. Detalhando os processos para gerência de custos e regras de medição.
+
+Ele basea-se na definição do PMBOK, que determina o Gerenciamento dos Custos do Projeto como o responsável por incluir os processos envolvidos em planejamento, estimativas, orçamentos, financiamentos, gerenciamento e controle dos custos, de modo que o projeto possa ser terminado dentro do orçamento aprovado. &lt;/p&gt;
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;2-processos-para-gerenciamento-dos-custos-do-projeto&quot;&gt;2. Processos para Gerenciamento dos Custos do Projeto&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;O  processo aqui descrito se basea no plano de gerenciamento de custo descrito no PMBOK. Ele compreende quatro fases: planejamento de custos, estimativa de custos, determinação de orçamento, controle de custos, abaixo está descrito a forma como cada uma das etapas será realizada no presente projeto. &lt;/p&gt;
+
+&lt;h3 id=&quot;21-estimar-custos&quot;&gt;2.1. Estimar Custos&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Segundo o PMBOK, estimar os custos é desenvolver uma estimativa dos recursos necessários para executar as atividades do projeto, essas estimativas incluem a identificação e a consideração das alternativas de custo para iniciar e terminar o projeto.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Para auxiliar no processo de estimar custos, serão utilizadas as seguintes técnicas:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Estimativa Análoga: Esta estimativa se baseia na experiência dos membros da equipe em projetos semelhantes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Estimativa bottom-up: Esta estimativa se baseia na estrutura analítica do projeto para gerar estimativa de custos, partindo dos componentes de nível mais baixo da estrutura.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;22-determinar-orçamento&quot;&gt;2.2. Determinar Orçamento&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Para determinar o valor do orçamento do projeto será feito o cálculo baseado no número de horas trabalhadas planejadas da equipe multiplicado pelo preço da hora. Logo, o orçamento será determinado por:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                         Orçamento = Horas Trabalhadas * Preço da Hora
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;23-controlar-custos&quot;&gt;2.3. Controlar Custos&lt;/h3&gt;
+
+&lt;p align=&quot;justify&quot;&gt;O controle de custos será feito por meio da Gerência do valor da agregado(EVM) ao decorrer do projeto.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Para isso será necessário calcular algumas variáveis em alguns momentos do projeto. Por isso será necessário calcular três elementos: valor planejado (VP), valor agregado(VA) e o custo real (CR). A seguir será explicado um pouco sobre cada elemento:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Valor Planejado (VP)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;O valor planejado será estimado a partir das horas, e será dado em reais. Sendo este o número de horas de trabalho planejadas para cada membro da equipe multiplicado pelo número de integrantes e o resultado desta operação multiplicado pelo custo da hora trabalhada.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Valor Agregado(VA)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Valor agregado (VA) é a medida do trabalho executado expressa em termos do orçamento autorizado para tal trabalho. É o orçamento associado ao trabalho autorizado que foi concluído.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Ele é calculado por meio da multiplicação do valor planejado para a atividade pela porcentagem concluída da mesma atividade ao fim do tempo planejado.Tendo assim o valor agregado em reais.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Custo Real(CR)&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;O custo real representa o quanto foi gasto na execução do trabalho, sendo este calculado a partir da multiplicação das horas gastas pelos integrantes do projeto pelo preço da hora trabalhada.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Com estas dimensões é possível realizar o cálculo da variação de custos e do índice de desempenho de custos, dois importantes indicadores para o gerenciamento do valor agregado.&amp;lt;/p&amp;gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-regras-de-medição-e-desempenho&quot;&gt;3. Regras de Medição e Desempenho&lt;/h2&gt;
+
+&lt;p align=&quot;justify&quot;&gt;A medição de desempenho dos custos ao decorrer do projeto será dada pelo Gerenciamento do valor Agregado(EVM), como foi dito. Para que esta análise seja mais precisa e quantificada deve se calcular dois índices de eficiência:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;IDC - Índice de Desempenho de Custos&lt;/li&gt;
+  &lt;li&gt;IDP - Índice de Desempenho de Prazos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;justify&quot;&gt;O IDC mede a eficiência dos custos em relação ao orçamento planejado, ou seja, IDC = Valor Agregado/Custo Real. Para comparação e análise o IDC pode se enquadrar em três diferentes intervalos:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Valor&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Interpretação&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDC &amp;gt; 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Custo mais baixo que o planejado&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDC = 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Custo conforme planejado&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDC &amp;lt; 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Custo mais alto que o planejado&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Já o IDP mede a eficiência do cronograma do projeto, e é calculado dividindo o valor agregado pelo valor planejado, ou seja, IDP = VA/VP. Para comparação e análise o IDP pode se enquadrar em três diferentes intervalos:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Valor&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Interpretação&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDP &amp;gt; 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Adiantado&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDP = 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;No prazo&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;IDP &amp;lt; 1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Atrasado&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p align=&quot;justify&quot;&gt;Para análise do valor agregado também existem outras duas importantes variáveis de desempenho que serão utilizadas durante o projeto para determinar a situação momentânea do projeto:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Variação de Prazos&lt;/li&gt;
+  &lt;li&gt;Variação de Custos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p align=&quot;justify&quot;&gt;A variação de prazos é uma medida de desempenho do cronograma expressa como a diferença entre o valor agregado e o valor planejado. É a quantidade de adiantamento ou atraso do projeto em relação à data de entrega planejada, em um determinado momento. É igual ao valor agregado (VA) menos o valor planejado (VP), ou seja, VPR = VA – VP.&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot;&gt;A variação de custos(VC) é a quantidade de déficit ou excedente orçamentário em um determinado momento, expressa como a diferença entre o valor agregado(VA) e o custo real(CR), ou seja, VC = VA – CR. A VC é uma medida do desempenho dos custos em um projeto, e é particularmente crítica pois indica a relação entre o desempenho físico e os custos gastos.&lt;/p&gt;
+
+&lt;h2 id=&quot;5-bibliografia&quot;&gt;5. Bibliografia&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software&quot;&gt;GCS da equipe do Receita Mais&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 6a. ed. - EUA: Project Management Institute, 2017.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="plano" /><category term="custos" /><category term="documento" /><category term="eps" /><summary type="html">Plano de Gerenciamento de Custos 1. Introdução Esse documento tem por objetivo identificar e documentar a forma como será feita a gerência de custos do projeto. Detalhando os processos para gerência de custos e regras de medição. Ele basea-se na definição do PMBOK, que determina o Gerenciamento dos Custos do Projeto como o responsável por incluir os processos envolvidos em planejamento, estimativas, orçamentos, financiamentos, gerenciamento e controle dos custos, de modo que o projeto possa ser terminado dentro do orçamento aprovado.</summary></entry><entry><title type="html">Estudo de Tecnologia</title><link href="http://localhost:4000/2019/04/03/estudo-de-tecnologia/" rel="alternate" type="text/html" title="Estudo de Tecnologia" /><published>2019-04-03T00:00:00-03:00</published><updated>2019-04-03T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/03/estudo-de-tecnologia</id><content type="html" xml:base="http://localhost:4000/2019/04/03/estudo-de-tecnologia/">&lt;h1 id=&quot;estudo-de-tecnologia-boilerplate&quot;&gt;Estudo de Tecnologia Boilerplate&lt;/h1&gt;
+
+&lt;h2 id=&quot;definições&quot;&gt;Definições&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Intent&lt;/strong&gt;: Inteção do usuário, “significado” da frase;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Utter&lt;/strong&gt;: Ação de resposta do bot; Mensagem que ele envia após identificar um intent;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Storie&lt;/strong&gt;: Conjunto de intents e utters, define o caminho que o Bot irá tomar na situação definida&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Entities&lt;/strong&gt;: Quase como um assunto, conjunto de palavras que podem encaixar numa mesma intent
+    &lt;ul&gt;
+      &lt;li&gt;ex: entitie “Esporte” contém:
+        &lt;ul&gt;
+          &lt;li&gt;Futebol, Volei, Basquete&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;sintaxe&quot;&gt;Sintaxe:&lt;/h2&gt;
+
+&lt;h3 id=&quot;como-elaborar-uma-intent&quot;&gt;Como elaborar uma intent:&lt;/h3&gt;
+&lt;p&gt;Primeiramente é necessário atribuir um nome a intent. Para fazer isso coloca-se ‘## intent: ‘ e logo após os dois pontos o nome da intent.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: ## intent:conversar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Após definir o título é necessário definir as frases que serão reconhecidas pelo bot para que interaja com o usuário. Uma dica importante é não repetir palavras e/ou frases. Sempre tentar utilizar palavras diferentes em cada frase. Antes de digitar cada frase é colocado um ‘-‘, após um espaço é escrita a frase. Uma frase por linha apenas.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: ## intent:conversar
+	- Preciso falar um coisa
+	- Vamos bater um papo?
+	- Quero te contar um segredo.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Para iniciar outra intent basta dar um enter, colocar ‘##’ e definir título e frases para a intent.&lt;/p&gt;
+
+&lt;h3 id=&quot;como-elaborar-uma-utter&quot;&gt;Como elaborar uma utter:&lt;/h3&gt;
+&lt;p&gt;Assim como as Intents, as Utters necessitam de um título e este deve se relacionar a uma Intent. O título deve ser iniciado por “utter_” logo após é colocado o título que deve ser o mesmo título de uma intent existente e logo após ‘:’.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: utter_conversar:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Logo na linha de baixo são adicionados os textos de resposta ao usuário assim que uma utter é chamada. É possível adicionar diversos textos. O bot, de forma aleatória escolherá qual irá utilizar. Para definir um texto resposta, coloca-se ‘- text:&lt;/td&gt;
+      &lt;td&gt;’. Todas as palavras que vierem abaixo, até que se encontre uma próxima utter ou um próximo text, faz parte do texto.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: utter_conversar:
+	- text: |
+		Oiii, quanto tempo!
+		Sobre o que gostaria de falar?
+
+	- text: |
+		Tenhos muitas novidades..
+		Nem sei por onde começar!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;como-elaborar-uma-storie&quot;&gt;Como elaborar uma storie:&lt;/h3&gt;
+&lt;p&gt;Assim como as Intents e as Utters, as Stories também necessitam de título. Para criar um título utiliza-se ‘## ‘ logo após um espaço é definido o nome da storie ou caminho a ser seguido.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: ## bater_um_papo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Após definir o título é necessário identificar as intents e respectivas utters que deverão ser seguidas, respectivamente. Para definir a intent que será utilizada colocamos ‘* ‘ e logo após o nome da intent. Na linha de baixo, pressiona-se Tab, coloca-se um ‘- ‘ e logo a pós a utter correspondente a intent adicionada.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: ## bater_um_papo
+	* conversar
+		- utter_conversar
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Para que siga realmente uma história, são colocadas várias intents e utters que se complementem passando a ideia de que é uma pessoa quem está conversando.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ex: ## batter_um_papo
+	* cumprimentar
+		- utter_cumprimentar
+	* perguntar_como_esta
+		- utter_perguntar_como_esta
+	* perguntar_novidades
+		-utter_perguntar_novidades
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;pastas-e-documentos-importantes&quot;&gt;Pastas e documentos importantes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;/bot/data/intents/ -&amp;gt; Local onde ficam as intents&lt;/li&gt;
+  &lt;li&gt;/bot/data/stories/ -&amp;gt; Local onde ficam as stories&lt;/li&gt;
+  &lt;li&gt;/bot/domain.yml -&amp;gt; Arquivo que lista as intents, entidades, utters e o templates das utters&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="estudo" /><category term="tecnologia" /><category term="boilerplate" /><category term="eps" /><category term="mds" /><summary type="html">Estudo de Tecnologia Boilerplate Definições Intent: Inteção do usuário, “significado” da frase; Utter: Ação de resposta do bot; Mensagem que ele envia após identificar um intent; Storie: Conjunto de intents e utters, define o caminho que o Bot irá tomar na situação definida Entities: Quase como um assunto, conjunto de palavras que podem encaixar numa mesma intent ex: entitie “Esporte” contém: Futebol, Volei, Basquete Sintaxe: Como elaborar uma intent: Primeiramente é necessário atribuir um nome a intent. Para fazer isso coloca-se ‘## intent: ‘ e logo após os dois pontos o nome da intent. ex: ## intent:conversar Após definir o título é necessário definir as frases que serão reconhecidas pelo bot para que interaja com o usuário. Uma dica importante é não repetir palavras e/ou frases. Sempre tentar utilizar palavras diferentes em cada frase. Antes de digitar cada frase é colocado um ‘-‘, após um espaço é escrita a frase. Uma frase por linha apenas. ex: ## intent:conversar - Preciso falar um coisa - Vamos bater um papo? - Quero te contar um segredo. Para iniciar outra intent basta dar um enter, colocar ‘##’ e definir título e frases para a intent. Como elaborar uma utter: Assim como as Intents, as Utters necessitam de um título e este deve se relacionar a uma Intent. O título deve ser iniciado por “utter_” logo após é colocado o título que deve ser o mesmo título de uma intent existente e logo após ‘:’. ex: utter_conversar: Logo na linha de baixo são adicionados os textos de resposta ao usuário assim que uma utter é chamada. É possível adicionar diversos textos. O bot, de forma aleatória escolherá qual irá utilizar. Para definir um texto resposta, coloca-se ‘- text: ’. Todas as palavras que vierem abaixo, até que se encontre uma próxima utter ou um próximo text, faz parte do texto. ex: utter_conversar: - text: | Oiii, quanto tempo! Sobre o que gostaria de falar? - text: | Tenhos muitas novidades.. Nem sei por onde começar! Como elaborar uma storie: Assim como as Intents e as Utters, as Stories também necessitam de título. Para criar um título utiliza-se ‘## ‘ logo após um espaço é definido o nome da storie ou caminho a ser seguido. ex: ## bater_um_papo Após definir o título é necessário identificar as intents e respectivas utters que deverão ser seguidas, respectivamente. Para definir a intent que será utilizada colocamos ‘* ‘ e logo após o nome da intent. Na linha de baixo, pressiona-se Tab, coloca-se um ‘- ‘ e logo a pós a utter correspondente a intent adicionada. ex: ## bater_um_papo * conversar - utter_conversar Para que siga realmente uma história, são colocadas várias intents e utters que se complementem passando a ideia de que é uma pessoa quem está conversando. ex: ## batter_um_papo * cumprimentar - utter_cumprimentar * perguntar_como_esta - utter_perguntar_como_esta * perguntar_novidades -utter_perguntar_novidades Pastas e documentos importantes /bot/data/intents/ -&amp;gt; Local onde ficam as intents /bot/data/stories/ -&amp;gt; Local onde ficam as stories /bot/domain.yml -&amp;gt; Arquivo que lista as intents, entidades, utters e o templates das utters</summary></entry><entry><title type="html">Identidade Visual</title><link href="http://localhost:4000/2019/04/01/identidade-visual/" rel="alternate" type="text/html" title="Identidade Visual" /><published>2019-04-01T00:00:00-03:00</published><updated>2019-04-01T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/01/identidade-visual</id><content type="html" xml:base="http://localhost:4000/2019/04/01/identidade-visual/">&lt;h1 id=&quot;1-identidade-visual&quot;&gt;1. Identidade visual&lt;/h1&gt;
+&lt;h2 id=&quot;11-logo&quot;&gt;1.1 Logo&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+A ideia do mascote surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, com a qual o bot irá trabalhar em conjunto e &quot;alimentar&quot; de informações sobre a linguagem Python, que é representada na arte pela cobras entrelaçadas no símbolo da plataforma.
+&lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Quanto ao caráter técnico, a logo foi desenvolvida a partir de técnicas do desenho vetorial, para garantir uma melhor qualidade da imagem. Isso possibilitará que a ilustração possa ser trabalhada em diversos formatos, em ambientes sociais diferentes. &lt;/p&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Já no que tange a originalidade, a logo consiste no mascote do projeto inserido no meio de dois símbolos laranjas que faz analogia ao sistema Jupyter, no qual o bot será integrado. E as cobras representam a especificadade do projeto, que estará voltado para a linguagem Python.&lt;/p&gt;
+
+&lt;!--more--&gt;
+&lt;h2 id=&quot;12-wordmark&quot;&gt;1.2 Wordmark&lt;/h2&gt;
+&lt;p&gt;Aix - chatBode de Python&lt;/p&gt;
+
+&lt;h2 id=&quot;13-história&quot;&gt;1.3 História&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+Segundo a mitologia romana, a cabra Aix, por ser tão detestável, foi requisitado pelos Titãs à sua mãe Terra - Gaia - que a escondesse, para que assim não fosse possível vê-la. Gaia então a enviou para Creta e, devido a isto, posteriormente viria a amamentar Júpiter (Zeus) quando este era ainda jovem. Além disso, Júpiter (Zeus) fez uma couraça a partir da pele da cabra, que ficou conhecida como Égide. Fez também, de um de seus chifres, a Cornucópia, que ofereceu à Amaltéia.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;14-arte-visual&quot;&gt;1.4 Arte Visual&lt;/h2&gt;
+&lt;p&gt;LOGO:
+[&lt;img src=&quot;https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/LOGO%20PINTADA-01.png&quot; alt=&quot;&quot; /&gt;]&lt;/p&gt;
+
+&lt;p&gt;IMAGEM SECUNDÁRIA:
+[&lt;img src=&quot;https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/arte_secundaria_Prancheta%201.png&quot; alt=&quot;&quot; /&gt;]&lt;/p&gt;
+
+&lt;h1 id=&quot;2-paleta-de-cores&quot;&gt;2. Paleta de Cores&lt;/h1&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto com os padrões de cores que vemos nas cabras, representando a Aix e a plataforma na qual ele será acoplado. Há também as cores verde e azul que foram usadas para representar as cobras do símbolo linguagem Python, que é o conteúdo em qual o produto irá focar.
+&lt;/p&gt;
+
+&lt;h2 id=&quot;21-descrição-das-cores&quot;&gt;2.1 Descrição das Cores&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#3475A5&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/3475A5.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#FCDE54&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/FCDE54.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#FAD6CF&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/FAD6CF.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#F16063&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/F16063.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#020202&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/020202.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#D8DCD9&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/D8DCD9.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#A27C89&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/A27C89.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#E47632&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/e47632.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#3F403F&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/3f403f.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;#000000&lt;/strong&gt;
+&lt;img src=&quot;https://www.colorhexa.com/000000.png&quot; alt=&quot;drawing&quot; width=&quot;70&quot; height=&quot;70&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;3-tipografia&quot;&gt;3. Tipografia&lt;/h1&gt;
+&lt;h2 id=&quot;31-roboto-slab&quot;&gt;3.1 Roboto Slab&lt;/h2&gt;
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+A fonte Roboto Slab deverá ser usada na forma Bold para títulos e headers e na forma regular para destacar informações nos textos gerais e explicativos
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://txt.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5VbTlpYjNSdklGTnNZV0lnVW1WbmRXeGhjZywsLjA,/roboto-slab.regular.png&quot; alt=&quot;drawing&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;/br&amp;gt;
+
+&lt;img src=&quot;https://txt.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5VbTlpYjNSdklGTnNZV0lnUW05c1pBLCwuMA,,/roboto-slab.bold.png&quot; alt=&quot;drawing&quot; /&gt;
+&lt;p&gt;&amp;lt;/br&amp;gt;
+
+## 3.2 Roboto
+&lt;p align=&quot;justify&quot;&gt; &amp;emsp;&amp;emsp;
+A fonte Roboto deverá ser usada na forma Regular para textos gerais. 
+&lt;/p&gt;
+
+&lt;img src=&quot;https://txt.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5VbTlpYjNSdklGSmxaM1ZzWVhJLC4x/roboto.regular.png&quot; alt=&quot;drawing&quot; /&gt;
+
+# 4. Referências
+* [Color Hexa](https://www.colorhexa.com/), acessado dia 02/04
+* [Color Adobe](https://color.adobe.com/pt/create/color-wheel), acessado dia 01/04
+* [Lino](https://botlino.github.io/docs/doc-identidade-visual), acessado dia 01/04
+* [Dulce](https://dulce-work-schedule.github.io/especificacao/identidade_visual.html), acessado dia 31/03
+* [Kalkuli](https://fga-eps-mds.github.io/2018.2-Kalkuli/docs/idVisual), acessado dia 31/03
+* [Projeto Jupyter](https://github.com/jupyter/jupyter.github.io/blob/master/jupyter-circle.png), acessado dia 31/03
+&lt;/p&gt;&lt;/p&gt;</content><author><name></name></author><category term="identidade" /><category term="visual" /><category term="mds" /><summary type="html">1. Identidade visual 1.1 Logo &amp;emsp;&amp;emsp; A ideia do mascote surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, com a qual o bot irá trabalhar em conjunto e &quot;alimentar&quot; de informações sobre a linguagem Python, que é representada na arte pela cobras entrelaçadas no símbolo da plataforma. &amp;emsp;&amp;emsp; Quanto ao caráter técnico, a logo foi desenvolvida a partir de técnicas do desenho vetorial, para garantir uma melhor qualidade da imagem. Isso possibilitará que a ilustração possa ser trabalhada em diversos formatos, em ambientes sociais diferentes. &amp;emsp;&amp;emsp; Já no que tange a originalidade, a logo consiste no mascote do projeto inserido no meio de dois símbolos laranjas que faz analogia ao sistema Jupyter, no qual o bot será integrado. E as cobras representam a especificadade do projeto, que estará voltado para a linguagem Python.</summary></entry><entry><title type="html">Revisão da Sprint 1</title><link href="http://localhost:4000/2019/04/01/sprint-02/" rel="alternate" type="text/html" title="Revisão da Sprint 1" /><published>2019-04-01T00:00:00-03:00</published><updated>2019-04-01T00:00:00-03:00</updated><id>http://localhost:4000/2019/04/01/sprint-02</id><content type="html" xml:base="http://localhost:4000/2019/04/01/sprint-02/">&lt;h1 id=&quot;sprint-1&quot;&gt;Sprint 1&lt;/h1&gt;
 
 &lt;h2 id=&quot;duração&quot;&gt;Duração&lt;/h2&gt;
 
@@ -83,15 +1845,15 @@ Construir backlog da Sprint antes da reunião&lt;/p&gt;
 
 &lt;h2 id=&quot;burndown&quot;&gt;Burndown&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/burndown_sprint_1.png&quot; alt=&quot;Burndown&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/burndown_sprint_1.png&quot; alt=&quot;Burndown&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;velocity&quot;&gt;Velocity&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/velocity_sprint_1.png&quot; alt=&quot;Velocity&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/velocity_sprint_1.png&quot; alt=&quot;Velocity&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;quadro-de-conhecimento&quot;&gt;Quadro de Conhecimento&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/quadro_conhecimento_sprint_1.png&quot; alt=&quot;Quadro de conhecimento&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://localhost:4000/2019.1-Aix/assets/img/quadro_conhecimento_sprint_1.png&quot; alt=&quot;Quadro de conhecimento&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;riscos&quot;&gt;Riscos&lt;/h2&gt;
 
@@ -794,7 +2556,7 @@ Após o usuário mandar o Bot compilar seu código, o mesmo irá mandar um feedb
       &lt;td&gt;Os recursos que são úteis em menos aplicativos típicos, são usados menos frequentemente, ou podem corresponder às soluções alternativas razoavelmente eficientes. Nenhuma receita significativa ou impacto na satisfação do cliente poderá ser esperada se tal item não for incluído em uma liberação.&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="documento" /><category term="visão" /><category term="mds" /><summary type="html">Documento de Visão 1. Introdução &amp;emsp;&amp;emsp; Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.</summary></entry><entry><title type="html">Plano de Gerenciamento de Configuração de Software</title><link href="http://localhost:4000/2019/03/29/gcs/" rel="alternate" type="text/html" title="Plano de Gerenciamento de Configuração de Software" /><published>2019-03-29T00:00:00-03:00</published><updated>2019-03-29T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/29/gcs</id><content type="html" xml:base="http://localhost:4000/2019/03/29/gcs/">&lt;h1 id=&quot;plano-de-gerenciamento&quot;&gt;Plano de Gerenciamento&lt;/h1&gt;
+&lt;/table&gt;</content><author><name></name></author><category term="documento" /><category term="visão" /><category term="mds" /><summary type="html">Documento de Visão 1. Introdução &amp;emsp;&amp;emsp; Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.</summary></entry><entry><title type="html">Plano de Gerenciamento de Configuração de Software</title><link href="http://localhost:4000/2019/03/29/gcs/" rel="alternate" type="text/html" title="Plano de Gerenciamento de Configuração de Software" /><published>2019-03-29T00:00:00-03:00</published><updated>2019-03-29T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/29/gcs</id><content type="html" xml:base="http://localhost:4000/2019/03/29/gcs/">&lt;h1 id=&quot;plano-de-gerenciamento-de-configuração-de-software&quot;&gt;Plano de Gerenciamento de Configuração de Software&lt;/h1&gt;
 &lt;hr /&gt;
 
 &lt;h2 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h2&gt;
@@ -962,481 +2724,9 @@ As issues serão utilizadas por questões de rastreabilidade, ou seja, para se t
 &lt;h2 id=&quot;5-bibliografia&quot;&gt;5. Bibliografia&lt;/h2&gt;
 
 &lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software&quot;&gt;GCS da equipe do Receita Mais&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="plano" /><category term="configuração" /><category term="documento" /><category term="eps" /><summary type="html">Plano de Gerenciamento 1. Introdução Esse documento tem como objetivo a construção de um plano para definição das ferramentas que serão utilizadas pela equipe, das políticas para padronização de commits, branchs, pull requests e issues.</summary></entry><entry><title type="html">Estrutura Analitica do Projeto</title><link href="http://localhost:4000/2019/03/28/EAP/" rel="alternate" type="text/html" title="Estrutura Analitica do Projeto" /><published>2019-03-28T00:00:00-03:00</published><updated>2019-03-28T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/28/EAP</id><content type="html" xml:base="http://localhost:4000/2019/03/28/EAP/">&lt;h1 id=&quot;estrutura-analítica-do-projeto&quot;&gt;Estrutura Analítica do Projeto&lt;/h1&gt;
-
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção da estrutura analítica do projeto (EAP) do bot Aix, que representa o processo de divisão do projeto em partes menores e mais facilmente gerenciáveis. Abaixo, encontram-se as versões de EAP desenvolvidas pelo grupo de gerenciamento da equipe.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;h2 id=&quot;eap-v10&quot;&gt;EAP v1.0&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/eap_Versao_1.0.png&quot; alt=&quot;EAP&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="projeto" /><category term="eps" /><category term="documento" /><summary type="html">Estrutura Analítica do Projeto &amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção da estrutura analítica do projeto (EAP) do bot Aix, que representa o processo de divisão do projeto em partes menores e mais facilmente gerenciáveis. Abaixo, encontram-se as versões de EAP desenvolvidas pelo grupo de gerenciamento da equipe.</summary></entry><entry><title type="html">Fluxograma</title><link href="http://localhost:4000/2019/03/27/fluxograma/" rel="alternate" type="text/html" title="Fluxograma" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/fluxograma</id><content type="html" xml:base="http://localhost:4000/2019/03/27/fluxograma/">&lt;h1 id=&quot;fluxograma-aix&quot;&gt;Fluxograma Aix&lt;/h1&gt;
-
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção dos fluxogramas do bot Aix. Abaixo, encontra-se os fluxogramas e suas devidas versões com a finalidade de apresentar a evolução e maturidade do grupo quanto a construção e inserção de conteúdo assim como novas funcionalidades ao bot, baseado na aplicação da técnica mágico de Oz.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/img/fluxograma_Versao_1.0.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="fluxograma" /><category term="aix" /><category term="eps" /><summary type="html">Fluxograma Aix &amp;emsp;&amp;emsp; Este documento tem o objetivo de apresentar a construção dos fluxogramas do bot Aix. Abaixo, encontra-se os fluxogramas e suas devidas versões com a finalidade de apresentar a evolução e maturidade do grupo quanto a construção e inserção de conteúdo assim como novas funcionalidades ao bot, baseado na aplicação da técnica mágico de Oz.</summary></entry><entry><title type="html">Revisão da Sprint 0</title><link href="http://localhost:4000/2019/03/27/sprint-01/" rel="alternate" type="text/html" title="Revisão da Sprint 0" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/sprint-01</id><content type="html" xml:base="http://localhost:4000/2019/03/27/sprint-01/">&lt;h1 id=&quot;sprint-0&quot;&gt;Sprint 0&lt;/h1&gt;
-
-&lt;h2 id=&quot;duração&quot;&gt;Duração&lt;/h2&gt;
-
-&lt;p&gt;Duração: 1 semana&lt;br /&gt;
-Início: 18/03/2019&lt;br /&gt;
-Fim: 23/03/2019&lt;/p&gt;
-
-&lt;h2 id=&quot;objetivos&quot;&gt;Objetivos&lt;/h2&gt;
-
-&lt;p&gt;Treinamentos para equipe de MDS&lt;br /&gt;
-Levantamento de requisitos
-&lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;sprint-backlog&quot;&gt;Sprint Backlog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/1&quot;&gt;#1 Dojo: Git&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/2&quot;&gt;#2 Dojo: Documento de Visão&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/3&quot;&gt;#3 Dojo: Metodologias e práticas ágeis&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/4&quot;&gt;#4 Dojo: Licenças&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/5&quot;&gt;#5 Dojo: Documento de Arquitetura&lt;/a&gt;&lt;br /&gt;
-&lt;a href=&quot;https://github.com/fga-eps-mds/2019.1-aix/issues/6&quot;&gt;#6 Formulário para a coleta de requisitos&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;retrospectiva&quot;&gt;Retrospectiva&lt;/h2&gt;
-
-&lt;h3 id=&quot;pontos-positivos&quot;&gt;Pontos Positivos&lt;/h3&gt;
-
-&lt;p&gt;Proatividade e interesse de MDS&lt;br /&gt;
-Conseguimos o tema escolhido&lt;br /&gt;
-Nosso time é proativo, se empenharam muito e já estão pensando lá na frente (estão motivados)&lt;br /&gt;
-Conseguimos cumprir bem o que estava planejado para a Sprint&lt;br /&gt;
-EPS está passando segurança&lt;br /&gt;
-Organização (tudo foi bem explicado)&lt;/p&gt;
-
-&lt;h3 id=&quot;pontos-negativos&quot;&gt;Pontos Negativos&lt;/h3&gt;
-
-&lt;p&gt;Não teve “quebra gelo”&lt;br /&gt;
-Escopo/tema não estava bem definido&lt;br /&gt;
-Tecnologia não estava definida&lt;br /&gt;
-Número ímpar de MDS&lt;br /&gt;
-Não conhecer bem o EPS&lt;br /&gt;
-Sábado a tarde é um horário ruim&lt;br /&gt;
-Complexidade do tema&lt;/p&gt;
-
-&lt;h3 id=&quot;melhorias&quot;&gt;Melhorias&lt;/h3&gt;
-
-&lt;p&gt;Melhor escopo, tá muito básico&lt;br /&gt;
-Melhorar práticas ágeis&lt;br /&gt;
-Acrescentar mais no nosso escopo&lt;br /&gt;
-Definir tudo o que não está definido&lt;/p&gt;
-
-&lt;h2 id=&quot;burndown&quot;&gt;Burndown&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/dId8od7.png&quot; alt=&quot;Burndown&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;velocity&quot;&gt;Velocity&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://imgur.com/PIuv3Qv.png&quot; alt=&quot;Velocity&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;riscos&quot;&gt;Riscos&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Risco&lt;/th&gt;
-      &lt;th&gt;Ação Preventiva&lt;/th&gt;
-      &lt;th&gt;Ação Reativa&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Dificuldades da equipe com as novas tecnologias inseridas&lt;/td&gt;
-      &lt;td&gt;Seleção de alunos experientes para aplicação de treinamento.&lt;/td&gt;
-      &lt;td&gt;Realização de treinamento sobre tecnologias.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Divergência de horários entre membros da equipe&lt;/td&gt;
-      &lt;td&gt;Elaboração de quadro de horários disponíveis da cada membro da equipe.&lt;/td&gt;
-      &lt;td&gt;Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Desistência da disciplina.&lt;/td&gt;
-      &lt;td&gt;Estimular a máxima participação dos membros da equipe&lt;/td&gt;
-      &lt;td&gt;Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Alteração do escopo&lt;/td&gt;
-      &lt;td&gt;Documentar e refinar de forma constante os requisitos&lt;/td&gt;
-      &lt;td&gt;Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Presença dos membros durante Daily e reunião de planejamento&lt;/td&gt;
-      &lt;td&gt;Definir datas, horários e locais que sejam acessíveis a todos.&lt;/td&gt;
-      &lt;td&gt;Manter o time sempre alinhado quanto às decisões tomadas.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Falta de cliente real&lt;/td&gt;
-      &lt;td&gt;Utilização de ferramentas que ajudem a levantar requisitos&lt;/td&gt;
-      &lt;td&gt;Utilização de dados levantados por usuários que sejam o público alvo do projeto.&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Escopo não bem definido&lt;/td&gt;
-      &lt;td&gt;Reuniões da gerencia para definição de um escopo viável&lt;/td&gt;
-      &lt;td&gt;Alocação de pessoal para a definição do escopo.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name></name></author><category term="sprint" /><category term="revisão" /><category term="eps" /><summary type="html">Sprint 0 Duração Duração: 1 semana Início: 18/03/2019 Fim: 23/03/2019 Objetivos Treinamentos para equipe de MDS Levantamento de requisitos</summary></entry><entry><title type="html">Termo de Abertura do Projeto</title><link href="http://localhost:4000/2019/03/27/tap/" rel="alternate" type="text/html" title="Termo de Abertura do Projeto" /><published>2019-03-27T00:00:00-03:00</published><updated>2019-03-27T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/27/tap</id><content type="html" xml:base="http://localhost:4000/2019/03/27/tap/">&lt;h1 id=&quot;termo-de-abertura-de-projeto&quot;&gt;Termo de Abertura de projeto&lt;/h1&gt;
-
-&lt;h2 id=&quot;1-introdução&quot;&gt;1. Introdução&lt;/h2&gt;
-&lt;p&gt;O presente documento tem como objetivo informar os propósitos, objetivos e requisitos de alto nível, assim como uma visão inicial do projeto do Bot Aix.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-descrição&quot;&gt;2. Descrição&lt;/h2&gt;
-&lt;p&gt;Aix é um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino e aprendizado do usuário com assuntos relacionados a introdução à linguagem python.
-&lt;!--more--&gt;&lt;/p&gt;
-&lt;h2 id=&quot;3-propósito-e-justificativa&quot;&gt;3. propósito e Justificativa&lt;/h2&gt;
-&lt;p&gt;Os alunos ou usuários que estão se introduzindo na área da programação possuem certas dificuldades quanto a estruturação da linguagem, formação da lógica por trás dos exercícios propostos, aplicação de funções ou bibliotecas específicas, falta de habilidade e conhecimento, sintaxe, traduzir o problema do mundo real para soluções inteligíveis e outros problemas como por exemplo a ausência de feedback imediato.&lt;/p&gt;
-
-&lt;p&gt;Logo, a Aix surge para suprir essas necessidades e minimizar os problemas existentes neste contexto.&lt;/p&gt;
-
-&lt;p&gt;A Aix chega para viabilizar o aprendizado de python de forma que não venha a existir impedimentos quanto a compreensão da estrutura da linguagem de forma que se tenha respostas quanto a todos os questionamentos sobre a forma correta de escrita, feedback quanto a correção de exercícios de forma que o usuário tenha um retorno rápido sobre o que conseguiu desenvolver assim como dúvidas sobre construção lógica a fim de minimizar os problemas quanto a formação lógica do exercício.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-objetivos&quot;&gt;4. Objetivos&lt;/h2&gt;
-&lt;p&gt;O objetivo da Aix é  facilitar o recebimento de informações e apoio ao usuário durante o estudo ou desenvolvimento da linguagem python. Com acesso às funcionalidades disponibilizadas no bot o usuário poupa tempo e esforço em relação a realizar uma pesquisa segura e ainda consegue um feedback quanto ao exercício desenvolvido.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-requisitos-de-alto-nível&quot;&gt;5. Requisitos de Alto Nível&lt;/h2&gt;
-&lt;p&gt;Estão entre os requisitos de alto nível:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Construir personalidade do Bot;&lt;/li&gt;
-  &lt;li&gt;As principais funcionalidades devem ser realizadas de forma simples e economizar o máximo de tempo possível e ainda assim ser mais eficaz que uma busca direta na web;&lt;/li&gt;
-  &lt;li&gt;Interação através de linguagem natural para uma melhor usabilidade;&lt;/li&gt;
-  &lt;li&gt;Fluxos de conversas objetivos e práticos;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6-riscos&quot;&gt;6. Riscos&lt;/h2&gt;
-&lt;p&gt;| Risco  | Ação Preventiva  | Ação Reativa  |
-|—|—|—|
-| Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento.   |Realização de treinamento sobre tecnologias.   |
-|Divergência de horários entre membros da equipe   |Elaboração de quadro de horários disponíveis da cada membro da equipe.   |Planejamento de de pareamento por sprint baseado na disponibilidade dos integrantes por meio do quadro de disponibilidade.   |
-|Desistência da disciplina.   |Estimular a máxima participação dos membros da equipe   |Redistribuir tarefas de forma que não ocorra sobrecarga para nenhum dos membros do grupo e que o grupo consiga interagir da melhor maneira possível.   |
-|Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
-|Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
-| Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |&lt;/p&gt;
-
-&lt;h2 id=&quot;7-estimativa-de-custo&quot;&gt;7. Estimativa de Custo&lt;/h2&gt;
-
-&lt;h3 id=&quot;71-custo-de-aquisição&quot;&gt;7.1. Custo de Aquisição&lt;/h3&gt;
-&lt;p&gt;|Equipamento | Quantidade  | Finalidade  |Valor unitário   |Preço  |
-|—|—|—|—|—|
-|Notebooks   | 9 unidades  |Desenvolvimento e planejamento   |R$ 3.000   |R$ 27.000   |
-|Energia elétrica   | 5 dias por semana  |Desenvolvimento e planejamento   | 0,482 * R$/KWh  | R$ 313,30  |
-| Internet  |4 meses   |Desenvolvimento e planejamento   |R$ 100 **   | R$ 400  |
-| Transporte e alimentação  |2 passagens diárias + R$10 alimentação   | Transporte e alimentaçao  |R$ 16/dia   | R$ 16.000  |&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Fonte: http://www.aneel.gov.br/ranking-das-tarifas, acesso: 25/03/2019&lt;/li&gt;
-  &lt;li&gt;Valor médio de um plano de internet na região do DF&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;72-custo-de-pessoal&quot;&gt;7.2. Custo de Pessoal&lt;/h3&gt;
-&lt;p&gt;| Cargo  | Quantidade  |Salário/mês (160h total)   |Salário/hora   | Total  |
-|—|—|—|—|—|
-| Desenvolvedor Python Jr  | 5  |R$ 3.250   |  R$20,30 |R$ 16.250   |
-| Arquiteto, DevOps, Scrum Master e PO  | 4  | R$ 6.000  |R$ 37,50   |R$ 54.000   |&lt;/p&gt;
-&lt;h3 id=&quot;73-custo-de-ferramentas&quot;&gt;7.3. Custo de Ferramentas&lt;/h3&gt;
-&lt;p&gt;|Ferramenta   |Finalidade   |Preço total   |
-|—|—|—|
-|Telegram   |Comunicação entre os membros   |R$ 0   |
-|Editor de Texto   |Elaboração de documentos e código   |R$ 0   |
-|Git e GitHub   |Versionamento de arquivos   |R$ 0   |
-|Google Drive   | Compartilhamento de arquivos  | R$ 0  |
-| Linux  |Ambiente de desenvolvimento   |R$ 0   |
-| Python, Rasa, Flask, MongoDB  |Tecnologias utilizadas para desenvolvimento   |R$ 0   |&lt;/p&gt;
-&lt;h3 id=&quot;74-custo-total&quot;&gt;7.4. Custo Total&lt;/h3&gt;
-&lt;p&gt;|Custo   | Valor total  |
-|—|—|
-| Aquisição  |R$ 43.713,30   |
-|Pessoal   | R$ 70.250  |
-|Ferramentas   | R$ 0  |
-O valor total estimado dos custos informados é de R$113.963,30. Levando em conta 20% de risco e 20% de lucro, o valor final para a estimativa de custo é de R$159.548,62.&lt;/p&gt;
-&lt;h2 id=&quot;8-partes-interessadas&quot;&gt;8. Partes Interessadas&lt;/h2&gt;
-
-&lt;h3 id=&quot;81-usuários&quot;&gt;8.1. Usuários&lt;/h3&gt;
-&lt;p&gt;Pessoas iniciantes no aprendizado da linguagem de programação Python&lt;/p&gt;
-
-&lt;p&gt;Professores interessados em alternativas para o processo de ensino da linguagem Python&lt;/p&gt;
-
-&lt;p&gt;Usuários da plataforma Jupyter para o desenvolvimento em Python&lt;/p&gt;
-
-&lt;h3 id=&quot;82-equipe&quot;&gt;8.2. Equipe&lt;/h3&gt;
-&lt;p&gt;A equipe é composta por graduandos dos cursos de Engenharia de Produto de Software - EPS - (responsáveis pela gerência) e Metodologias de Desenvolvimento de Software - MDS - (responsáveis pelo desenvolvimento).&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Nome&lt;/th&gt;
-      &lt;th&gt;Papel&lt;/th&gt;
-      &lt;th&gt;Email&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Eduardo Rodrigues Yoshida&lt;/td&gt;
-      &lt;td&gt;Gerente de projeto&lt;/td&gt;
-      &lt;td&gt;eduardoyosh@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Guilherme Marques Moreira da Silva&lt;/td&gt;
-      &lt;td&gt;Gerente de projeto&lt;/td&gt;
-      &lt;td&gt;guilherme.marques.moreira@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Kamilla Costa Souza&lt;/td&gt;
-      &lt;td&gt;Gerente de projeto&lt;/td&gt;
-      &lt;td&gt;kamillacosta.unb@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Lucas Vitor de Paula&lt;/td&gt;
-      &lt;td&gt;Gerente de projeto&lt;/td&gt;
-      &lt;td&gt;lucasvitorifg@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;André Aben-Athar de Freitas&lt;/td&gt;
-      &lt;td&gt;Desenvolvedor&lt;/td&gt;
-      &lt;td&gt;andreabenf@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gabriela de Oliveira Lemos&lt;/td&gt;
-      &lt;td&gt;Desenvolvedor&lt;/td&gt;
-      &lt;td&gt;gabriela.leemoss@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Gustavo Veloso Alves&lt;/td&gt;
-      &lt;td&gt;Desenvolvedor&lt;/td&gt;
-      &lt;td&gt;gustablealves@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Iuri de Souza Severo Alves&lt;/td&gt;
-      &lt;td&gt;Desenvolvedor&lt;/td&gt;
-      &lt;td&gt;nobreiuri@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Pedro Igor Oliveira Silva&lt;/td&gt;
-      &lt;td&gt;Desenvolvedor&lt;/td&gt;
-      &lt;td&gt;pedroigor852@gmail.com&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;9-requisitos-para-a-aprovação&quot;&gt;9. Requisitos Para a Aprovação&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ter implementado as funcionalidades definidas pelo escopo do projeto&lt;/li&gt;
-  &lt;li&gt;Integração com a plataforma Jupyter&lt;/li&gt;
-  &lt;li&gt;Aprovação das ferramentas de análise de código&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;10-referências&quot;&gt;10. Referências&lt;/h2&gt;
-&lt;p&gt;FRANÇA, Diego; SCONETTO, João; MENDES, Mariana; ARNAUD, Victor. Dr. Down - Termo de Abertura de Projeto. Disponível em: https://fga-eps-mds.github.io/2018.1-Dr-Down/eps/TAP/. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
-
-&lt;p&gt;EGEWARTH, Eliseu; EGEWARTH, João; GAMA, Gabriela; ALVES, Isaque. Dulce - Termo de Abertura de Projeto. Disponível em: https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Termo-de-Abertura-do-Projeto. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
-
-&lt;p&gt;AUGUSTO,Guilherme; OLIVEIRA, Ícaro; SOUZA, Letícia. Lino, o bot - Termo de Abertura de Projeto. Disponível em: https://botlino.github.io/docs/doc-tap. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;
-
-&lt;p&gt;Rank de tarifas. ANEEL Agência Nacional de Energia Elétrica. Disponível em http://www.aneel.gov.br/ranking-das-tarifas. Acesso em 25 de março de 2019 às 21:15.&lt;/p&gt;</content><author><name></name></author><category term="termo" /><category term="documento" /><category term="projeto" /><category term="eps" /><summary type="html">Termo de Abertura de projeto 1. Introdução O presente documento tem como objetivo informar os propósitos, objetivos e requisitos de alto nível, assim como uma visão inicial do projeto do Bot Aix. 2. Descrição Aix é um bot disponibilizado na plataforma Jupyter, que visa orientar o ensino e aprendizado do usuário com assuntos relacionados a introdução à linguagem python.</summary></entry><entry><title type="html">Metodologia</title><link href="http://localhost:4000/2019/03/26/metodologia/" rel="alternate" type="text/html" title="Metodologia" /><published>2019-03-26T00:00:00-03:00</published><updated>2019-03-26T00:00:00-03:00</updated><id>http://localhost:4000/2019/03/26/metodologia</id><content type="html" xml:base="http://localhost:4000/2019/03/26/metodologia/">&lt;h1 id=&quot;introdução-e-descrição-da-metodologia&quot;&gt;Introdução e Descrição da Metodologia&lt;/h1&gt;
-
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.&lt;/p&gt;
-&lt;!--more--&gt;
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp;O &lt;b&gt;&lt;i&gt;Scrum&lt;/i&gt;&lt;/b&gt; é um &lt;i&gt;framework&lt;/i&gt; que preza pela entrega de valor ao cliente de maneira rápida, criativa, onde sua equipe trabalha de forma produtiva.&lt;/p&gt;
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp;Tem como artefatos &lt;i&gt;Product Backlog&lt;/i&gt;, &lt;i&gt;Sprint Backlog&lt;/i&gt; e incrementos. Atividades, tem as Sprints, &lt;i&gt;Sprints Planning&lt;/i&gt;, Daily Scrum, &lt;i&gt;Sprint Review&lt;/i&gt; e Retrospectiva da &lt;i&gt;Sprint&lt;/i&gt;. E como artefatos temos o &lt;i&gt;Product Backlog&lt;/i&gt; e &lt;i&gt;Sprint Backlog&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p align=&quot;justify&quot;&gt;&amp;emsp;&amp;emsp; Algumas práticas que iremos adotar desta metodologia são: &lt;i&gt;Pair Programming&lt;/i&gt;, Integração Contínua, Padrão de Código e Testes.&lt;/p&gt;
-
-&lt;h1 id=&quot;papéis&quot;&gt;Papéis&lt;/h1&gt;
-
-&lt;h2 id=&quot;product-owner&quot;&gt;&lt;i&gt;Product Owner&lt;/i&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Organizar o &lt;i&gt;Product Backlog&lt;/i&gt; em ordem de prioridade, de forma a entregar valor ao cliente e manter a coesão do produto;&lt;/li&gt;
-      &lt;li&gt;Garantir que o &lt;i&gt;Product Backlog&lt;/i&gt; esteja de forma clara;&lt;/li&gt;
-      &lt;li&gt;Assegurar que os Desenvolvedores entendam o &lt;i&gt;Product Backlog&lt;/i&gt; no nível de especificação necessário;&lt;/li&gt;
-      &lt;li&gt;Trabalhar a venda do produto de software;&lt;/li&gt;
-      &lt;li&gt;Fazer o intermédio entre cliente e equipe;&lt;/li&gt;
-      &lt;li&gt;Mostrar a visão do produto em documentos como Canvas.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;scrum-master&quot;&gt;&lt;i&gt;Scrum Master&lt;/i&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Garantir que o &lt;i&gt;Product Backlog&lt;/i&gt; seja feito, de acordo com a priorização do &lt;i&gt;Product Owner&lt;/i&gt;, pelos Desenvolvedores;&lt;/li&gt;
-      &lt;li&gt;Certificar-se que os rituais ageís sejam realizados por toda a equipe da forma como foi descrito;&lt;/li&gt;
-      &lt;li&gt;Mapear o progresso da equipe e do desenvolvimento do produto, assim como suas falhas e questões a melhorar;&lt;/li&gt;
-      &lt;li&gt;Documentar o processo de cada &lt;i&gt;Sprint&lt;/i&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;arquiteto-de-software&quot;&gt;Arquiteto de &lt;i&gt;Software&lt;/i&gt;&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Mapear, juntamente ao &lt;i&gt;Product Owner&lt;/i&gt; e DevOps, a arquitetura necessária para o desenvolvimento do produto;&lt;/li&gt;
-      &lt;li&gt;Desenhar e diagramar a arquitetura do produto;&lt;/li&gt;
-      &lt;li&gt;Garantir que a arquitetura seja implementada pelos Desenvolvedores.
-        &lt;h2&gt;&lt;DevOps&gt;&lt;/DevOps&gt;&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Desenhar, juntamente com o Arquiteto, os vários pipelines do produto de software;&lt;/li&gt;
-      &lt;li&gt;Implementar a integração contínua;&lt;/li&gt;
-      &lt;li&gt;Garantir o deploy contínuo;&lt;/li&gt;
-      &lt;li&gt;Facilitar a configuração do ambiente de desenvolvimento da equipe.
-        &lt;h2 id=&quot;quality-assurance&quot;&gt;&lt;i&gt;Quality Assurance&lt;/i&gt;&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Decidir métricas para avaliar o produto de software e seu desenvolvimento;&lt;/li&gt;
-      &lt;li&gt;Coletar e Analisar as métricas do produto de software;&lt;/li&gt;
-      &lt;li&gt;Garantir as melhorias das métricas que necessitam dessas melhorias e manter a qualidade, tanto em termos de código, quanto em usabilidade, do produto de software.
-        &lt;h2 id=&quot;desenvolvedores&quot;&gt;Desenvolvedores&lt;/h2&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Atribuições
-    &lt;ul&gt;
-      &lt;li&gt;Desenvolver as funcionalidades priorizadas pelo &lt;i&gt;Product Owner&lt;/i&gt; e selecionadas pelo &lt;i&gt;Scrum Master&lt;/i&gt; dentro da &lt;i&gt;Sprint&lt;/i&gt;;&lt;/li&gt;
-      &lt;li&gt;Manter a qualidade do produto em relação a código.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;atividades-da-metodologia&quot;&gt;Atividades da &lt;i&gt;Metodologia&lt;/i&gt;&lt;/h1&gt;
-
-&lt;h2 id=&quot;sprint&quot;&gt;&lt;i&gt;Sprint&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Trata-se de período definido pela equipe, que no caso do projeto é um período de uma semana, onde são realizado as tarefas definidas pelo &lt;i&gt;Scrum Master&lt;/i&gt;, mas priorizadas pelo &lt;i&gt;Product Owner&lt;/i&gt;.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Assim que este período é encerrado, entrega-se um valor ao cliente, como foi definido.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;No projeto: a &lt;i&gt;Sprint&lt;/i&gt; tem início no sábado e seu término no sábado seguinte.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;planejamento-da-sprint&quot;&gt;Planejamento da &lt;i&gt;Sprint&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;São reuniões onde o &lt;i&gt;Scrum Master&lt;/i&gt;, em conjunto com o &lt;i&gt;Product Owner&lt;/i&gt;, decide as funcionalidades e atividades que deverão ser realizadas pela equipe de Desenvolvimento e também avaliadas quais melhorias devem ser feitas.&lt;/li&gt;
-  &lt;li&gt;O esforço para realizar cada uma das tarefas é medido com a equipe e assim, essas tarefas serão pontuadas.&lt;/li&gt;
-  &lt;li&gt;É definido também, as duplas que trabalharão em conjunto (&lt;i&gt;Pair Programming&lt;/i&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;daily-meeting&quot;&gt;&lt;i&gt;Daily Meeting&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Reuniões com o tempo determinado de 15 minutos, onde cada membro da equipe fala sobre o andamento da tarefa e seu planejamento para terminá-la.
-    &lt;ul&gt;
-      &lt;li&gt;No projeto: estas reuniões ocorrem de segunda a sexta, e possuem duração de, no máximo, 20 minutos.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;sprint-review&quot;&gt;&lt;i&gt;Sprint Review&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Discussão das dificuldades, melhorias e pontos positivos durante a &lt;i&gt;Sprint&lt;/i&gt;, além do levantamento das tarefas realizadas e não realizadas.&lt;/li&gt;
-  &lt;li&gt;A avaliação geral da &lt;i&gt;Sprint&lt;/i&gt; é feita pelo &lt;i&gt;Scrum Master&lt;/i&gt;, porém todas os pontos (positivos, negativos e a melhorar) é debatido pela equipe.
-    &lt;ul&gt;
-      &lt;li&gt;No projeto: a Review ocorre aos sábados, no mesmo dia do Planejamento da &lt;i&gt;Sprint&lt;/i&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;pair-programming&quot;&gt;&lt;i&gt;Pair Programming&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Ritual onde dois membros da equipe de Desenvolvimento, trabalham juntos para realizar uma tarefa.&lt;/li&gt;
-  &lt;li&gt;A cada 15 minutos, um deles assume o papel de piloto, ou seja, escreve o código, e o outro assume o papel de co-piloto e dita a lógica para realizar a funcionalidade e também auxilia o piloto a pensar na melhor forma de desenvolver essa funcionalidade.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;integração-contínua&quot;&gt;Integração Contínua&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Prática de testar as modificações do código que foi submetida ao repositorio remoto do projeto.&lt;/li&gt;
-  &lt;li&gt;Todo o funcionamento da integração continua é pensado e efeitvado pelo DevOps do projeto.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;padrão-de-código&quot;&gt;Padrão de Código&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;É a definição de escrita do código, de maneira a manter a homogeniedade deste.&lt;/li&gt;
-  &lt;li&gt;A folha de estilo, documento que define esse padrão, é contruida pelo &lt;i&gt;Quality Assurence&lt;/i&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;testes&quot;&gt;Testes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Toda a funcionalidade desenvolvida, deve ser testada, ou seja, deve ser implementados testes que prevêm funcionamento errôneo ou indesejado da funcionalidade. E esta funcionalidade deve passar em todos os testes escritos.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;kanban&quot;&gt;&lt;i&gt;Kanban&lt;/i&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Metodologia que consistem em um quadro divido em &lt;i&gt;&lt;b&gt;TO DO&lt;/b&gt;&lt;/i&gt;, &lt;i&gt;&lt;b&gt;DOING&lt;/b&gt;&lt;/i&gt; e &lt;i&gt;&lt;b&gt;DONE&lt;/b&gt;&lt;/i&gt;, e em cada uma destas colunas é colocado as tarefas que devem ser feitas, as que estão no processo de ser feitas e as completas, respectivamente.&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;No projeto, utilizamos o &lt;i&gt;&lt;b&gt;Zenhub&lt;/b&gt;&lt;/i&gt; para contemplar esta metodologia.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;referências-bibliográficas&quot;&gt;Referências Bibliográficas&lt;/h1&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.agilealliance.org/glossary/xp/#q=~(filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)&quot;&gt;GLOSSARY Extreme Programming&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
+  &lt;p&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software&quot;&gt;GCS da equipe do Receita Mais&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.devmedia.com.br/extreme-programming-conceitos-e-praticas/1498&quot;&gt;Extreme Programming - Conceitos e Práticas&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;https://www.scrum.org/resources/what-is-scrum?gclid=Cj0KCQjwlK7cBRCnARIsAJiE3Mg-GBLapVDq-TPyx-wt0K0_8jLFjB14XaEjPZzMTJUJ5fPvZWmQmokaAs23EALw_wcB&quot;&gt;What is Scrum&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;table&gt;
-    &lt;tbody&gt;
-      &lt;tr&gt;
-        &lt;td&gt;&lt;a href=&quot;https://github.com/fga-eps-mds/2018.2-Lino/edit/master/docs/metodologia.md&quot;&gt;Lino - Metodologia&lt;/a&gt;&lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/tbody&gt;
-  &lt;/table&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="metodologia" /><category term="documento" /><category term="eps" /><summary type="html">Introdução e Descrição da Metodologia &amp;emsp;&amp;emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.</summary></entry></feed>
+  &lt;p&gt;PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 6a. ed. - EUA: Project Management Institute, 2017.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="plano" /><category term="configuração" /><category term="documento" /><category term="eps" /><summary type="html">Plano de Gerenciamento de Configuração de Software 1. Introdução Esse documento tem como objetivo a construção de um plano para definição das ferramentas que serão utilizadas pela equipe, das políticas para padronização de commits, branchs, pull requests e issues.</summary></entry></feed>
