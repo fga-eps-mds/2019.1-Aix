@@ -586,3 +586,4 @@ actions:
   - utter_menu_equipamentos
   - utter_sobre_python
   - utter_menu_ajuda
+  - utter_sobre_aix
