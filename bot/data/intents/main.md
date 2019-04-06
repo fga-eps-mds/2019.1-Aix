@@ -46,7 +46,8 @@
 - ola
 - oie
 - opa
-- eae 
+- eae
+- opa meu bom 
 
 ## intent:elogios
 - Você é muito educado
@@ -110,7 +111,7 @@
 - quem e o criador do python
 - voce sabe quem e o pai do python
 
-## intent:sobre_python
+## intent:menu_ajuda
 - o que vc faz
 - o que você faz
 - como te usar
