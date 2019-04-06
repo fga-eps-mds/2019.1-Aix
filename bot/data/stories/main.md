@@ -41,3 +41,15 @@
 ## sobre_python
 * sobre_python
   - utter_sobre_python
+
+## path 3
+* cumprimentar
+    - utter_cumprimentar
+* me_ajuda
+    - utter_me_ajuda
+* despedir
+    - utter_despedir
+
+## me_ajuda
+* me_ajuda
+    - utter_me_ajuda

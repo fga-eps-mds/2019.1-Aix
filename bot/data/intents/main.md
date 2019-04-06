@@ -119,4 +119,7 @@
 - com o que voce pode me ajudar
 - como voce funciona
 - me ajuda
+- help
+- me da um help
+
 
