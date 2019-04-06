@@ -45,8 +45,8 @@
 ## path 3
 * cumprimentar
     - utter_cumprimentar
-* me_ajuda
-    - utter_me_ajuda
+* menu_ajuda
+    - utter_menu_ajuda
 * despedir
     - utter_despedir
 
