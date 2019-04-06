@@ -1,59 +1,35 @@
-# jekyll-ttskch-theme
+<p align="center">
+  <img width="200" height="200" src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/LOGO%20PINTADA-01.png">
+</p>
 
-A simple and customizable theme for Jekyll.
+<h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
 
-> This theme was renamed from _jekyll-**qck**-theme_ to _jekyll-**tch**-theme_ at 2016.06.02.  
-> And renamed again from _jekyll-**tch**-theme_ to _jekyll-**ttskch**-theme_ at 2016.09.23.
+  <p align="center">
+    <a href="https://fga-eps-mds.github.io/2019.1-Aix"><strong>Visite nossa página &raquo;</strong></a>
+    <br>
+  </p>
+</p>
 
-## Screen shot
+### Sobre o projeto
 
-![image](https://cloud.githubusercontent.com/assets/4360663/18776176/62611b38-81a2-11e6-875b-86a66aa8f15c.png)
+<p align="justify"> &emsp;&emsp;
+  O projeto Aix baseia-se na criação de um bot disponibilizado na plataforma <a href="https://jupyter.org" margin=50> Jupyter</a>, que visa orientar o ensino e aprendizado do usuário com assuntos relacionados a introdução à linguagem python.</p>
 
-## Features
+<p align="justify"> &emsp;&emsp;
+  Como principais funcionalidade, tem-se:
+</p>
 
-* A lot of Markdown features (also GitHub Flavored Markdown)
-* `:emoji:` ready :+1:
-* Easy color-scheme customization
-* Tags list page
-* Monthly Archives page
-* Search feature without any Jekyll plugins
-* `<!--more-->` tag feature
-* Anchor links for each headings
-* Sticky side nav
-* Responsive
-* OGP ready
-* Share buttons ready
 
-## Getting started
+### Principais funcionalidades
 
-1. [Fork me](https://github.com/ttskch/jekyll-ttskch-theme/fork)
-2. Rename the repository from `jekyll-ttskch-theme` to `{username}.github.io` ([learn more](https://pages.github.com/))
-3. Modify `_config.yml`
-4. Modify `_sass/base/_variables.scss` if you need to change colors or font sizes
-5. Add new posts into `_posts/` :smiley:
+* Auxilio no esclarecimento de dúvidas sobre sintaxe e estrutura da linguagem Python;
+* Auxilio na identificação da biblioteca que o usuário necessita para desenvolvimento;
+* Apoio ao estudo da linguagem com sugestão de links seguros para busca na web;
+* Feedback sobre correção de exercícios propostos ao bot;
 
-## Demo
+### Guia de Contribuição
+Caso queira contribuir com o projeto verifique o documento <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/docs/CODE_OF_CONDUCT.md" margin=50> CONTRIBUTING</a>
 
-You can see live demo at below:
+### Licença
 
-* https://ttskch.github.io/jekyll-ttskch-theme/
-
-## Thanks for using :wink:
-
-* http://ttskch.github.io
-* http://sitaramshelke.github.io
-* http://jffourmond.github.io
-* http://vbflash8.github.io
-* http://luqitao.github.io
-* http://harusametime.github.io
-* http://gitzxon.github.io
-* http://hutsonlu.github.io
-* http://k0-1.github.io
-* http://anthonygore.github.io
-* http://getjsdojo.github.io
-* http://georgezhuo.github.io
-* http://neontapir.github.io
-* https://sasukeh.github.io
-* https://blog.guilhermegarnier.com
-
-Please PR if you want to add your blog.
+<p align="justify">&emsp;&emsp; Aix é distribuído sob a licença GPLv3. Consulte <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/LICENSE">LICENSE</a> para obter detalhes.</p>
