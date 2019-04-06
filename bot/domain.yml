@@ -53,6 +53,7 @@ intents:
   - menu_multimidia
   - menu_equipamentos
   - sobre_python
+  - menu_ajuda
 
 entities:
   - servico
@@ -520,6 +521,16 @@ templates:
         O Python é uma linguagem de programação de alto nível, muito usada no Linux e em outros sistemas Unix por ser béem rápida de aprender, mesmo para quem não possui experiência anterior com programação. A sintaxe é bastante organizada e a linguagem inclui suporte a objetos. Uma de suas principais características é permitir a fácil leitura do código e, desse modo, produzir um código bom e fácil de manter de maneira rápida.
         O Python foi criado por Guido van Rossum, tambéem conhecido como Béenevolent Dictator for Life (BDFL) na comunidade da linguagem, no ano de 1991, béem antes de eu nascer, e atualmente ela está com 27~28 anos.
 
+  utter_menu_ajuda:
+    - text: |
+        Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
+        Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
+        Você pode mandar seus códigos! Assim eu posso corrigir eles, te aconselhar alguma Biblioteca legal, explicar onde  você errou
+        Tem alguma dúvida sobre alguma função da linguagem? Pode perguntar também! Te ajudo na sintaxe e tudo mais. Hahaha!
+        Poxa, você pode até achar que eu não expliquei muito béem. Não tem problema. Eu te mando um link que te explica melhor!
+        Além disso tudo, que te ajudo no dever de casa! Hahahaha! Só me mandar o exercício e o seu código que eu corrijo!
+        É só perguntar! Sou uma Cabra mas eu não mordo.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -574,3 +585,4 @@ actions:
   - utter_menu_multimidia
   - utter_menu_equipamentos
   - utter_sobre_python
+  - utter_menu_ajuda
