@@ -8,20 +8,24 @@
 ## intent:despedir
 - Tchau obrigada
 - Tchau
+- tchau obg
 - até logo
-- namaste
+- xau
+- bye bye
+- cya
 - sayonara
 - até mais
 - até breve
 - falou, valeu
 - flw vlw
-- blza
-- blz
-- valeu
-- de boa
+- bon voyage
+- arrivederci
+- até mais ver
+- adeus
+- hasta la vista, baby
+- obrigado pela ajuda
 - obrigada
 - obrigado
-- obj
 - abraços
 
 ## intent:cumprimentar
@@ -37,16 +41,16 @@
 - to bem
 - tranquilo
 - estou bem
-- estou otimo
+- otimo
 - muito bem
 - bom dia
 - boa tarde
 - boa noite
-- olá
 - ola
 - oie
-- opa tudo bem
-- ola boa tarde
+- opa
+- eae
+- opa meu bom
 
 ## intent:elogios
 - Você é muito educado
@@ -77,21 +81,6 @@
 - ainda não sei
 - nenhum
 
-## intent:afirmar
-- sim
-- ok
-- sim sim
-- okay
-- oquei
-- tudo bem
-- ta certo
-- beleza
-- firmeza
-- blz
-- blza
-- frmz
-- joia
-- massa
 
 ## intent:diga_mais
 - como funciona
@@ -115,3 +104,46 @@
 - Tudo bem e você
 - como vc esta
 - como vai
+
+## intent:sobre_python
+- o que e python
+- me defina python
+- me explique o que e python
+- quando python foi criado
+- em qual ano python surgiu
+- quem e o criador do python
+- voce sabe quem e o pai do python
+
+## intent:menu_ajuda
+- o que vc faz
+- o que você faz
+- como te usar
+- o que voce sabe
+- com o que voce pode me ajudar
+- como voce funciona
+- me ajuda
+- help
+- me da um help
+
+
+## intent:sobre_aix
+- quem e voce
+- sobre o chatbot
+- diga uma curiosidade sobre chatbot
+- quem e aix
+- o que e aix
+- quais suas funcionalidades
+- qual seu proposito
+- quem e vc
+- como voce me ajuda
+- sobre o chatbode
+- descreva voce
+- descreva vc
+- aix
+- cabra
+- chatbode
+- chatbot
+- conheço
+- curiosidade
+- cabrita
+- bode
