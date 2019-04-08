@@ -1,5 +1,13 @@
 ### github pages ###
 _site/
+_site/2015-01-01-hello
+_site/2019/
+_site/about/
+_site/archives/
+_site/page/
+_site/search/
+_site/tags/
+_site/404.html
 
 ### Rasa ###
 bot/models
