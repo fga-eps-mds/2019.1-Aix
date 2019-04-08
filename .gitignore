@@ -205,6 +205,8 @@ tags
 # End of https://www.gitignore.io/api/vim,linux,macos,python
 .vscode/
 
+# GH pages Jekyll temporary files
+_site/
 .DS_Store
 .bundle/
 .sass-cache/
