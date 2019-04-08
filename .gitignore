@@ -1,3 +1,6 @@
+### github pages ###
+_site/
+
 ### Rasa ###
 bot/models
 rasa_core.log
@@ -21,7 +24,7 @@ notebooks/intents/models
 notebooks/intents/errors.json
 notebooks/stories/matrix.pdf
 
- ### Stories Notebook ###
+### Stories Notebook ###
 notebooks/stories/models
 notebooks/stories/errors.json
 notebooks/stories/img
