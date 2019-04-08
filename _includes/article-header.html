@@ -1,7 +1,7 @@
 {% assign page = include.page %}
 
 <header>
-    <div class="panel">
+    <div class="panel" style="background-color: white">
         <h1>
             {% if include.link %}
             <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -49,6 +49,7 @@
             </ul>
         </div>
     </div>
+    <hr>
 
     {% if site.share_buttons and include.share != false %}
     <div style="margin-top: 1em;">
