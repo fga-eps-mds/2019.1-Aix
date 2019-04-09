@@ -54,16 +54,17 @@ O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados,
 
 ## 4.1 Diagrama de casos de uso
 
-![](https://i.imgur.com/HLweYIR.png)
+<img src="https://i.imgur.com/QmVEYNB.png" alt="drawing"/>
 
 ## 4.2 Especificações dos casos de uso
+
 |Casos de Uso|Ator|Descrição|
 |---|---|------|
 |UC01 - Iniciar conversa| Usuário | Este caso de uso ocorre quando inicializa o bot e manda uma mensagem inicial|
 |UC02 - Enviar arquivo| Usuário| Este caso de uso permite que o usuário envie um arquivo de código para o bot|
 |UC03 - Escrever código| Usuário | Este caso de uso ocorre quando usuário implementa o código em seu computador|
 |UC04 - Compilação de códigos| - | Este caso de uso ocorre quando o sistema compila o código enviado pelo usuário|
-|UC05 - Feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
+|UC05 - Dar feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
 |UC06 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
 |UC07 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
 
