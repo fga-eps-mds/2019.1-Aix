@@ -108,4 +108,14 @@
 - basico sobre else
 - basico sobre condicional
 - condicionais
+- condição
+- fazer um if
+- fazer um else
+- elsif
+- condicional
+- se então
+- estrutura condicional
+- montar um if
+- montar um else
+
 
