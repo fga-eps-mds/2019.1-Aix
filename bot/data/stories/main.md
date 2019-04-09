@@ -45,3 +45,7 @@
 ## sobre_pontos_flutuantes
 * sobre_pontos_flutuantes
     - utter_sobre_pontos_flutuantes
+
+## sobre_caracteres
+* sobre_caracteres
+    - utter_sobre_caracteres

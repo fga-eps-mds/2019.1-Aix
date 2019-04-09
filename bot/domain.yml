@@ -8,6 +8,7 @@ intents:
   - sobre_variaveis
   - sobre_inteiros
   - sobre_pontos_flutuantes
+  - sobre_caracteres
 
 entities:
   - servico
@@ -91,6 +92,12 @@ templates:
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo.
         Uma variável do tipo ponto flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).
 
+  utter_sobre_caracteres:
+    - text : |
+        Existe também as do tipo caractere.
+        Elas guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
+        Exemplos de caracteres seriam 'b', 'é', 'e', '!'
+        
 actions:
   - utter_default
   - utter_cumprimentar
@@ -150,3 +157,4 @@ actions:
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
+  - utter_sobre_caracteres
