@@ -101,4 +101,11 @@
 - bode
 
 ## intent:sobre_condicionais
+- o que e if
+- o que e else
+- o que e condicional
+- basico sobre if
+- basico sobre else
+- basico sobre condicional
+- condicionais
 
