@@ -33,3 +33,9 @@
 ## sobre_aix
 * sobre_aix
   - utter_sobre_aix
+
+## sobre_variaveis
+* sobre_variaveis
+    - utter_sobre_variaveis
+* sobre_inteiros
+    - utter_sobre_inteiros
