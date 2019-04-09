@@ -58,7 +58,7 @@
 - beleza
 - bom
 - esta bem
-- voce esta bem 
+- voce esta bem
 
 ## intent:sobre_python
 - o que e python
@@ -124,3 +124,26 @@
 
 
 
+## intent:sobre_variaveis
+- o que sao variaveis
+- variaveis python
+- variaveis geral
+- variaveis basico
+- como uso variaveis
+- Variáveis
+- variaveis primitivas
+- que que é variavel
+- variavel em python
+- variavel
+
+## intent:sobre_inteiros
+- o que sao inteiros
+- inteiros
+- int
+- que que é inteiro
+- inteiro
+- integer
+- numeros inteiros
+- numeros positivos
+- numeros negativos
+- numeros sem precisão decimal

@@ -38,5 +38,8 @@
 * sobre_condicionais
     - utter_sobre_condicionais
 
-
-
+## sobre_variaveis
+* sobre_variaveis
+    - utter_sobre_variaveis
+* sobre_inteiros
+    - utter_sobre_inteiros

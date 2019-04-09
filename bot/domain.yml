@@ -5,7 +5,12 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
+<<<<<<< HEAD
   - sobre_condicionais
+=======
+  - sobre_variaveis
+  - sobre_inteiros
+>>>>>>> 1b65ea2... "#69 - Intents e utters para definição geral de variáveis definidos"
 
 entities:
   - servico
@@ -85,7 +90,19 @@ templates:
         Se você me der ele, eu vou ficar feliz!
         Se você resolver ficar com ele, eu vou ficar na vontade, poxa!
         E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
-        
+
+  utter_sobre_variaveis:
+    - text : |
+        Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
+        Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
+        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+
+  utter_sobre_inteiros:
+    - text : |
+        Uma variável do tipo inteiro, serve para guardar valores numéricos dentro do conjunto de inteiros.
+        Isto éee, todos números positivos e negatios sem casas decimais.
+        Por exemplo, você pode contar seus fenos com inteiros, 20 fenos, 30 fenos.
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -143,3 +160,5 @@ actions:
   - utter_menu_ajuda
   - utter_sobre_aix
   - utter_sobre_condicionais
+  - utter_sobre_variaveis
+  - utter_sobre_inteiros
