@@ -47,15 +47,18 @@
 
 ## intent:tudo_bem
 - Tudo bem
-- Como vocês esta
-- como ta
+- Como voce esta
+- como vc ta
 - joia
 - joinha
 - tudo bom
 - bom dia flor do dia
 - Tudo bem e você
-- como vc esta
-- como vai
+- tudo bem
+- beleza
+- bom
+- esta bem
+- voce esta bem 
 
 ## intent:sobre_python
 - o que e python
@@ -117,5 +120,7 @@
 - estrutura condicional
 - montar um if
 - montar um else
+- estruturas condicionais
+
 
 
