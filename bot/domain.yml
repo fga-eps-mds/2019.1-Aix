@@ -5,6 +5,7 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
+  - sobre_condicionais
 
 entities:
   - servico
@@ -70,6 +71,9 @@ templates:
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
+  utter_sobre_condicionais:
+    - text: |
+        
 actions:
   - utter_default
   - utter_cumprimentar
@@ -126,3 +130,4 @@ actions:
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
+  - utter_sobre_condicionais
