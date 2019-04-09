@@ -147,3 +147,21 @@
 - numeros positivos
 - numeros negativos
 - numeros sem precisão decimal
+
+## intent:sobre_pontos_flutuantes
+- o que são pontos flutuantes
+- o que é um float
+- o que e um ponto flutuante
+- variavel com casas decimais
+- registrar pi numa variavel
+- pontos flutuantes
+- float
+- double
+- pontos flutuantes com o dobro de precisão
+- numeros com casas decimais
+- numeros fracionados
+- frações
+- numeros racionais
+- racionais
+- casas decimais
+- fração

@@ -41,5 +41,11 @@
 ## sobre_variaveis
 * sobre_variaveis
     - utter_sobre_variaveis
+
+## sobre_inteiros
 * sobre_inteiros
     - utter_sobre_inteiros
+
+## sobre_pontos_flutuantes
+* sobre_pontos_flutuantes
+    - utter_sobre_pontos_flutuantes

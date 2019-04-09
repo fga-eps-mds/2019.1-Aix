@@ -5,12 +5,10 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
-<<<<<<< HEAD
   - sobre_condicionais
-=======
   - sobre_variaveis
   - sobre_inteiros
->>>>>>> 1b65ea2... "#69 - Intents e utters para definição geral de variáveis definidos"
+  - sobre_pontos_flutuantes
 
 entities:
   - servico
@@ -103,6 +101,12 @@ templates:
         Isto éee, todos números positivos e negatios sem casas decimais.
         Por exemplo, você pode contar seus fenos com inteiros, 20 fenos, 30 fenos.
 
+  utter_sobre_pontos_flutuantes:
+    - text : |
+        A "evolução" do tipo inteiro é o tipo Ponto Flutuente, ele armazena valores numéricos, porém com casas decimais.
+        Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo.
+        Uma variável do tipo ponto flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -162,3 +166,4 @@ actions:
   - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
+  - utter_sobre_pontos_flutuantes
