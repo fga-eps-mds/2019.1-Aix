@@ -8,6 +8,7 @@ tags: documento arquitetura mds
 <p align="justify"> &emsp;&emsp;
 Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pela equipe de desenvolvimento no decorrer da estruturação do escopo.</p>
 <!--more-->
+
 ## 1.2 Escopo
 <p align="justify"> &emsp;&emsp;
 Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um iframe que se sobrepõe ao iframe da plataforma Jupyter Notebook, que visa orientar o ensino e aprendizado do usuário.</p>
