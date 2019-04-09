@@ -9,6 +9,7 @@ intents:
   - sobre_inteiros
   - sobre_pontos_flutuantes
   - sobre_caracteres
+  - sobre_booleanos
 
 entities:
   - servico
@@ -94,10 +95,13 @@ templates:
 
   utter_sobre_caracteres:
     - text : |
-        Existe também as do tipo caractere.
-        Elas guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
+        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
-        
+
+  utter_sobre_booleanos:
+    - text : |
+        O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
+        É verdadeiro que eu gosto muito de feno!
 actions:
   - utter_default
   - utter_cumprimentar
@@ -158,3 +162,4 @@ actions:
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
+  - utter_sobre_booleanos

@@ -155,3 +155,14 @@
 - caractéres
 - Letras
 - Como uma variável guarda letras
+
+## intent:sobre_booleanos
+- o que são booleanos
+- bool
+- true e false
+- verdadeiro e falso
+- o que é um booleano
+- variavel booleana
+- booleano
+- booleana
+- verdadeira e falsa

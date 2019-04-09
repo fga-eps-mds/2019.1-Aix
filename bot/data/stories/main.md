@@ -49,3 +49,7 @@
 ## sobre_caracteres
 * sobre_caracteres
     - utter_sobre_caracteres
+
+## sobre_booleanos
+* sobre_booleanos
+    - utter_sobre_booleanos
