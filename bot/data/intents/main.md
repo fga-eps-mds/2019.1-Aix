@@ -165,3 +165,17 @@
 - racionais
 - casas decimais
 - fração
+
+## intent:sobre_caracteres
+- o que são caracteres
+- o que é um caractere
+- caracter
+- char
+- caractere
+- variavel caracter
+- variavel char
+- alfanumericos e caracteres especiais
+- caracteres
+- caractéres
+- Letras
+- Como uma variável guarda letras
