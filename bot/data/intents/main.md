@@ -100,16 +100,16 @@
 - cabrita
 - bode
 
-## link_conteudo_condicionais
+## intent:link_conteudo_condicionais
 - link sobre condicionais
 - link sobre if
 - link sobre else
 - link sobre condicional
 - mais estruturas condicionais
 - mais if
-- mais elfe
+- mais else
 - mais exemplos if
 - mais conteudo if
 - mais exemplos else
-- mais conteudo else- mais exemplos if
+- mais conteudo else
 - mais conteudo if
