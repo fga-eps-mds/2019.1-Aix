@@ -99,3 +99,6 @@
 - curiosidade
 - cabrita
 - bode
+
+## intent:sobre_condicionais
+
