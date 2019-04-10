@@ -48,11 +48,6 @@ services:
       - ENABLE_ANALYTICS=False
       - ELASTICSEARCH_URL=elasticsearch:9200
 
-      # HTTP login on elasticsearch
-      # - ELASTICSEARCH_USER=admin
-      # - ELASTICSEARCH_PASSWORD=admin
-      # - ELASTICSEARCH_HTTP_SCHEME=https
-      # - ELASTICSEARCH_PORT=443
     ports:
       - 5005:5005
       - 5002:5002
@@ -63,10 +58,10 @@ services:
       - ./scripts:/scripts
 
   actions:
-    # build:
-    #   context: .
-    #   dockerfile: ./docker/actions.Dockerfile
-    image: diegodorgam/botons:actions
+    build:
+      context: ./bot
+      dockerfile: ./actions/actions.Dockerfile
+    # image: diegodorgam/botons:actions
     ports:
       - 5055:5055
     volumes:
@@ -74,13 +69,9 @@ services:
       - ./bot/Makefile:/bot/Makefile
     command: "make run-actions"
 
-  # =============================== Notebooks =================================
-  # notebooks:
-  #   build:
-  #     context: .
-  #     dockerfile: ./docker/notebooks.Dockerfile
-  #   volumes:
-  #     - ./bot:/work/bot
-  #     - ./notebooks:/work/notebooks
-  #   ports:
-  #     - 8888:8888
+  jupyter:
+    build:
+      context: ./jupyter
+      dockerfile: ./jupyter.Dockerfile
+    ports:
+      - 8888:8888

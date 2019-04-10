@@ -1,39 +1,59 @@
+## path 2
+* cumprimentar
+    - utter_cumprimentar
+
+## Tudo Bem
+* tudo_bem
+    - utter_tudo_bem
+
 ## Despedir
 * despedir
     - utter_despedir
 
-## Oi Tudo Bem Story
-* tudo_bem
-    - utter_tudo_bem
-
-## Oi Tudo Bem Story 1
+## Oi Tudo Bem
 * cumprimentar
     - utter_cumprimentar
 * tudo_bem
     - utter_tudo_bem
 
-## Nao entendi
-* diga_mais
-    - utter_diga_mais  
-
-## fallback
-* out_of_scope
-    - utter_default
-
-## negar sem contexto
-* negar
-    - utter_despedir
-
-## elogios
-* elogios
-    - utter_elogios
-
-## path 1
+## cumprimentar
 * cumprimentar
     - utter_cumprimentar
 * despedir
     - utter_despedir
 
-## path 2
-* cumprimentar
-    - utter_cumprimentar
+## sobre_python
+* sobre_python
+  - utter_sobre_python
+
+## menu_ajuda
+* menu_ajuda
+    - utter_menu_ajuda
+
+## sobre_aix
+* sobre_aix
+    - utter_sobre_aix
+
+## sobre_condicionais
+* sobre_condicionais
+    - utter_sobre_condicionais
+
+## sobre_variaveis
+* sobre_variaveis
+    - utter_sobre_variaveis
+
+## sobre_inteiros
+* sobre_inteiros
+    - utter_sobre_inteiros
+
+## sobre_pontos_flutuantes
+* sobre_pontos_flutuantes
+    - utter_sobre_pontos_flutuantes
+
+## sobre_caracteres
+* sobre_caracteres
+    - utter_sobre_caracteres
+
+## sobre_booleanos
+* sobre_booleanos
+    - utter_sobre_booleanos
