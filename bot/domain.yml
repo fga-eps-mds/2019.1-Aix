@@ -11,6 +11,7 @@ intents:
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
+  - sobre_condicionais_exemplo
 
 entities:
   - servico
@@ -119,6 +120,9 @@ templates:
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
 
+  utter_sobre_condicionais:
+    - text : |
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -135,3 +139,4 @@ actions:
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
+  - utter_sobre_condicionais_exemplo

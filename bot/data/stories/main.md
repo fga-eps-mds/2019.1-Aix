@@ -57,3 +57,7 @@
 ## sobre_booleanos
 * sobre_booleanos
     - utter_sobre_booleanos
+
+## sobre_condicionais_exemplo
+* sobre_condicionais_exemplo
+    - utter_sobre_condicionais_exemplo 
