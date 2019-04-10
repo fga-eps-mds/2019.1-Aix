@@ -108,8 +108,12 @@
 - mais estruturas condicionais
 - mais if
 - mais else
-- mais exemplos if
-- mais conteudo if
-- mais exemplos else
-- mais conteudo else
-- mais conteudo if
+- exemplos if
+- conteudo if
+- exemplos else
+- conteudo else
+- conteudo if
+- me de um exemplo if else
+- nao entendi if else
+- saber mais if else
+- outros exemplos if else
