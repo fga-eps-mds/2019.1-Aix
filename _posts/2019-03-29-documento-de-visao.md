@@ -134,13 +134,9 @@ O produto se difere dos demais do mercado por ser capaz de reconhecer a dúvida 
 
 ### 4.2 Resumo das capacidades
 <p align="justify"> &emsp;&emsp;
-As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, o Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo erros de sintaxe, dúvidas relacionadas à linguagem Python, indicação de bibliotecas convenientes para as funcionalidades exigidas e feedback sobre as compilações no qual o usuário forneceu. Por fim, todos esses recursos foram pensandos para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.</p>
+As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, o Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo erros de sintaxe, dúvidas relacionadas à linguagem Python e indicação de bibliotecas convenientes para as funcionalidades exigidas. Por fim, todos esses recursos foram pensandos para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.</p>
 
-### 4.3 Suposições e Dependências
-<p align="justify"> &emsp;&emsp;
-O recurso de compilação dos códigos do usuário pode sofrer alterações ou ser retirado do escopo do produto, devido a limitação da tecnologia usada.</p>
-
-### 4.4 Custo e precificação
+### 4.3 Custo e precificação
 <p align="justify"> &emsp;&emsp;
 O produto não possui custos além dos relacionados a equipe de desenvolvimento e gerenciamento, não serão necessários nenhum serviço ou licença de terceiros pagos.</p>
 
