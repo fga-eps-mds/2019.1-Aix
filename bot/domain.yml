@@ -6,6 +6,11 @@ intents:
   - menu_ajuda
   - sobre_aix
   - sobre_condicionais
+  - sobre_variaveis
+  - sobre_inteiros
+  - sobre_pontos_flutuantes
+  - sobre_caracteres
+  - sobre_booleanos
 
 entities:
   - servico
@@ -86,6 +91,34 @@ templates:
         Se você resolver ficar com ele, eu vou ficar na vontade, poxa!
         E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
         
+  utter_sobre_variaveis:
+    - text : |
+        Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
+        Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
+        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+
+  utter_sobre_inteiros:
+    - text : |
+        Uma variável do tipo inteiro, serve para guardar valores numéricos dentro do conjunto de inteiros.
+        Isto éee, todos números positivos e negatios sem casas decimais.
+        Por exemplo, você pode contar seus fenos com inteiros, 20 fenos, 30 fenos.
+
+  utter_sobre_pontos_flutuantes:
+    - text : |
+        A "evolução" do tipo inteiro é o tipo Ponto Flutuente, ele armazena valores numéricos, porém com casas decimais.
+        Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo.
+        Uma variável do tipo ponto flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).
+
+  utter_sobre_caracteres:
+    - text : |
+        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
+        Exemplos de caracteres seriam 'b', 'é', 'e', '!'
+
+  utter_sobre_booleanos:
+    - text : |
+        O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
+        É verdadeiro que eu gosto muito de feno!
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -93,53 +126,12 @@ actions:
   - utter_tudo_bem
   - utter_diga_mais
   - utter_elogios
-
-  - utter_backup_backup_no_datacenter
-  - utter_backup_arquivamento_do_notes
-  - utter_backup_restauracao_dados_na_rede
-  - utter_backup_gravacao_em_midia_externa
-  - utter_comunicacao_telefonia_ip
-  - utter_comunicacao_telefonia_movel
-  - utter_comunicacao_dados_moveis
-  - utter_comunicacao_jabber
-  - utter_comunicacao_video_conferencia
-  - utter_email_correio_pessoal
-  - utter_email_correio_departamental
-  - utter_email_smartphone
-  - utter_email_grupos_de_email
-  - utter_internet_acesso_desbloqueio
-  - utter_internet_acesso_erro
-  - utter_rede_telecomunicacao_corporativa
-  - utter_rede_infraestrutura
-  - utter_rede_wifi_corporativo
-  - utter_rede_wifi_byod
-  - utter_rede_wifi_visitantes
-  - utter_rede_cabeada
-  - utter_rede_solicitacao_conta
-  - utter_rede_vpn
-  - utter_rede_pastas
-  - utter_rede_ftp
-  - utter_rede_quota_servidor
-  - utter_rede_acesso_outras
-  - utter_sistema_acesso
-  - utter_sistema_problema
-  - utter_sistema_melhoria
-  - utter_multimidia_video
-  - utter_multimidia_sonorizacao
-  - utter_multimidia_gravacao
-  - utter_equipamentos_estacoes
-  - utter_equipamentos_impressoras
-  - utter_equipamentos_perifericos
-  - utter_menu_raiz
-  - utter_menu_backup
-  - utter_menu_comunicacao
-  - utter_menu_email
-  - utter_menu_internet
-  - utter_menu_rede
-  - utter_menu_sistemas
-  - utter_menu_multimidia
-  - utter_menu_equipamentos
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
   - utter_sobre_condicionais
+  - utter_sobre_variaveis
+  - utter_sobre_inteiros
+  - utter_sobre_pontos_flutuantes
+  - utter_sobre_caracteres
+  - utter_sobre_booleanos
