@@ -130,7 +130,17 @@ templates:
           username = "username@email.com"
           senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
-        
+        Outro exemplo possível é uma equação, onde você já tem variáveis!!
+        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+          y1 = (-b + delta**1/2)/(2*a)
+          y2 = (-b - delta**1/2)/(2*a)
+        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+        a, b, c, delta, y1 e y2
+        Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
 actions:
   - utter_default

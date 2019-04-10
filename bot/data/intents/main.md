@@ -202,6 +202,7 @@
 - voce pode me ajudar com exemplos de variaveis?
 - como variaveis funcionam
 - exemplos variáveis
+- exemplo variável
 - exemplos python variáveis
 - exemplo variável python
 - como fazer uma variavel em python
