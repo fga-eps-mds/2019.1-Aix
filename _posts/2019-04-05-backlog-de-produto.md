@@ -2,6 +2,7 @@
 layout: post
 title: Backlog do Produto
 tags: plano backlog documento eps
+category: Produto
 ---
 # Backlog do Produto
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Plano de Gerenciamento de Custos
 tags: plano custos documento eps
+category: Gerencia
 ---
 # Plano de Gerenciamento de Custos
 ---

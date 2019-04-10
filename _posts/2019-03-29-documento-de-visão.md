@@ -2,6 +2,7 @@
 layout: post
 title: Documento de Visão
 tags: documento visão mds
+category: Projeto
 ---
 
 # Documento de Visão

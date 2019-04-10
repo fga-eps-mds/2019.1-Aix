@@ -2,6 +2,7 @@
 layout: post
 title: Fluxograma
 tags: fluxograma aix eps
+category: Produto
 ---
 # Fluxograma Aix
 

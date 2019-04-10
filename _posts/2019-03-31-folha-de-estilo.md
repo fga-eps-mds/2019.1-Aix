@@ -2,6 +2,7 @@
 layout: post
 title: Folha de Estilo
 tags: folha estilo eps documento
+category: Contribuicao
 ---
 # Folha de Estilo
 

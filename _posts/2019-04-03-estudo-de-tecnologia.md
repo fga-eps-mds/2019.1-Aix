@@ -2,6 +2,7 @@
 layout: post
 title: Estudo de Tecnologia
 tags: estudo tecnologia boilerplate eps mds
+category: Projeto
 ---
 # Estudo de Tecnologia Boilerplate
 

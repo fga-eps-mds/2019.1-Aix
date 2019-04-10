@@ -2,6 +2,7 @@
 layout: post
 title: Detalhamaneto de riscos
 tags: datelhamento riscos documento eps
+category: Gerencia
 ---
 # Detalhamento de Riscos
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Documento de Arquitetura
 tags: documento arquitetura mds
+category: Projeto
 ---
 # 1. Introdução
 ## 1.1 Finalidade
