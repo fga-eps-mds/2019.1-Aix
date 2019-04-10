@@ -97,6 +97,9 @@ a:focus, a:active {
   text-align: center;
 }
 
+.color{
+  color: #9c48aa;
+}
 .btn {
   border-width: 2px;
   background-color: transparent;
