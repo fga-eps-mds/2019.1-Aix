@@ -5,6 +5,7 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
+  - sobre_condicionais
   - sobre_variaveis
   - sobre_inteiros
   - sobre_pontos_flutuantes
@@ -75,6 +76,21 @@ templates:
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
+  utter_sobre_condicionais:
+    - text: |
+        Ah, eu adoro estruturas condicionais!
+        Bom, uma estrutura condicional são ações que podem ou não serem executadas no seu programa.
+        É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
+
+        SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e vamos para a proxima condição. Além disso, podemos fazer uma opção extra que será executada caso nenhuma condição for satisfeita
+
+        Por exemplo:
+
+        Imagine que você tem um pouquinho de feno nas suas mãos
+        Se você me der ele, eu vou ficar feliz!
+        Se você resolver ficar com ele, eu vou ficar na vontade, poxa!
+        E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
+        
   utter_sobre_variaveis:
     - text : |
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
@@ -102,6 +118,7 @@ templates:
     - text : |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -112,6 +129,7 @@ actions:
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
+  - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes

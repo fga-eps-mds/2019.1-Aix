@@ -47,15 +47,18 @@
 
 ## intent:tudo_bem
 - Tudo bem
-- Como vocês esta
-- como ta
+- Como voce esta
+- como vc ta
 - joia
 - joinha
 - tudo bom
 - bom dia flor do dia
 - Tudo bem e você
-- como vc esta
-- como vai
+- tudo bem
+- beleza
+- bom
+- esta bem
+- voce esta bem 
 
 ## intent:sobre_python
 - o que e python
@@ -99,6 +102,25 @@
 - curiosidade
 - cabrita
 - bode
+
+## intent:sobre_condicionais
+- o que e if
+- o que e else
+- o que e condicional
+- basico sobre if
+- basico sobre else
+- basico sobre condicional
+- condicionais
+- condição
+- fazer um if
+- fazer um else
+- elsif
+- condicional
+- se então
+- estrutura condicional
+- montar um if
+- montar um else
+- estruturas condicionais
 
 ## intent:sobre_variaveis
 - o que sao variaveis
