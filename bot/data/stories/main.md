@@ -57,3 +57,7 @@
 ## sobre_booleanos
 * sobre_booleanos
     - utter_sobre_booleanos
+
+## exemplo_variaveis
+* exemplo_variaveis
+    - utter_exemplo_variaveis

@@ -188,3 +188,24 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:exemplo_variaveis
+- me de exemplos de variaveis
+- como usar essas variaveis?
+- não entendi como usa a variável
+- mas e eu faço como com variáveis?
+- e como que uso?
+- exemplos variaveis
+- exemplos de variaveis
+- me explica como usa essas variaveis
+- me ajuda com exemplos de variaveis
+- voce pode me ajudar com exemplos de variaveis?
+- como variaveis funcionam
+- exemplos variáveis
+- exemplos python variáveis
+- exemplo variável python
+- como fazer uma variavel em python
+- como funciona as variaveis
+- funcionamento variaveis
+- variaveis na pratica
+- codigo de exemplo de variaveis
