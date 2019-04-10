@@ -122,6 +122,17 @@ templates:
 
   utter_sobre_condicionais:
     - text : |
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa!
+        Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
+        caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
+        que seja printado "amo a Aix" :
+          
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
 
 actions:
   - utter_default
