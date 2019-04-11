@@ -118,8 +118,6 @@
 - condicional
 - se então
 - estrutura condicional
-- montar um if
-- montar um else
 - estruturas condicionais
 
 
@@ -171,7 +169,70 @@
 - o que é um caractere
 - caracter
 - char
-- caractere
+- caractere## path 2
+* cumprimentar
+    - utter_cumprimentar
+
+## Tudo Bem
+* tudo_bem
+    - utter_tudo_bem
+
+## Despedir
+* despedir
+    - utter_despedir
+
+## Oi Tudo Bem
+* cumprimentar
+    - utter_cumprimentar
+* tudo_bem
+    - utter_tudo_bem
+
+## cumprimentar
+* cumprimentar
+    - utter_cumprimentar
+* despedir
+    - utter_despedir
+
+## sobre_python
+* sobre_python
+  - utter_sobre_python
+
+## menu_ajuda
+* menu_ajuda
+    - utter_menu_ajuda
+
+## sobre_aix
+* sobre_aix
+    - utter_sobre_aix
+
+## sobre_condicionais
+* sobre_condicionais
+    - utter_sobre_condicionais
+
+## sobre_variaveis
+* sobre_variaveis
+    - utter_sobre_variaveis
+
+## sobre_inteiros
+* sobre_inteiros
+    - utter_sobre_inteiros
+
+## sobre_pontos_flutuantes
+* sobre_pontos_flutuantes
+    - utter_sobre_pontos_flutuantes
+
+## sobre_caracteres
+* sobre_caracteres
+    - utter_sobre_caracteres
+
+## sobre_booleanos
+* sobre_booleanos
+    - utter_sobre_booleanos
+
+## sobre_condicionais_exemplo
+* sobre_condicionais_exemplo
+    - utter_sobre_condicionais_exemplo 
+
 - variavel caracter
 - variavel char
 - alfanumericos e caracteres especiais
@@ -191,4 +252,9 @@
 - booleana
 - verdadeira e falsa
 
-## intent:sobre_condicionais_exemplos
+## intent:sobre_condicionais_exemplo
+- me de exemplo de if else
+- exemplo if else
+- como fazer um if else
+- fazer if else
+- montar if else
