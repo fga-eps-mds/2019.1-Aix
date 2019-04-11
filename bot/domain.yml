@@ -11,6 +11,7 @@ intents:
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
+  - exemplo_variaveis
 
 entities:
   - servico
@@ -33,23 +34,23 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Oiieee, tudo Bééem?
+        Oiieee, tudo Bééem?
 
-          Sou Aix, como posso te ajudar?
+        Sou Aix, como posso te ajudar?
 
   utter_despedir:
     - text: |
-          Bééem, foi ótimo poder me divertir enquanto te ajudo!
+        Bééem, foi ótimo poder me divertir enquanto te ajudo!
 
-          Qualquer dúvida conta comigo, beleza?
+        Qualquer dúvida conta comigo, beleza?
 
-          Até logo meu pequeno jupiter!
+        Até logo meu pequeno jupiter!
 
   utter_tudo_bem:
     - text: |
-          Eu estou béeḿm, obrigado por se importar!
+        Eu estou béeḿm, obrigado por se importar!
 
-          Em que posso te ajudar?
+        Em que posso te ajudar?
 
   utter_sobre_python:
     - text: |
@@ -118,6 +119,28 @@ templates:
     - text : |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
+        
+  utter_exemplo_variaveis:
+    - text: |
+        Então você quer ver como as variáveis funcionam...
+        Não é fácil igual comer capim, mas vou te dar alguns exemplos e você vai entender!!!
+        Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
+        Num código ficaria mais ou menos assim:
+          nome da variável = conteúdo da variável
+          username = "username@email.com"
+          senha = "digitos1234"
+        Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        Outro exemplo possível é uma equação, onde você já tem variáveis!!
+        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+          y1 = (-b + delta**1/2)/(2*a)
+          y2 = (-b - delta**1/2)/(2*a)
+        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+        a, b, c, delta, y1 e y2
+        Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
 actions:
   - utter_default
@@ -135,3 +158,4 @@ actions:
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
+  - utter_exemplo_variaveis
