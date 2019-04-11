@@ -7,10 +7,10 @@ services:
     restart: unless-stopped
     environment:
       - PORT=3000
-      - ROOT_URL=http://localhost:3000
-      - MONGO_URL=mongodb://mongo:27017/rocketchat
-      - ADMIN_USERNAME=admin
-      - ADMIN_PASS=admin
+      - ROOT_URL=${ROOT_URL}
+      - MONGO_URL=${MONGO_URL}
+      - ADMIN_USERNAME=${ROCKET_USER}
+      - ADMIN_PASS=${ROCKET_PASS}
     ports:
       - 3000:3000
     depends_on:
@@ -34,19 +34,16 @@ services:
       - MIN_TYPING_TIME=1
       - WORDS_PER_SECOND_TYPING=10
       - ROCKETCHAT_URL=rocketchat:3000
-      - ROCKETCHAT_ADMIN_USERNAME=admin
-      - ROCKETCHAT_ADMIN_PASSWORD=admin
-      - ROCKETCHAT_BOT_USERNAME=botons
-      - ROCKETCHAT_BOT_PASSWORD=botons
+      - ROCKETCHAT_ADMIN_USERNAME=${ROCKET_USER}
+      - ROCKETCHAT_ADMIN_PASSWORD=${ROCKET_PASS}
+      - ROCKETCHAT_BOT_USERNAME=${BOT_USER}
+      - ROCKETCHAT_BOT_PASSWORD=${BOT_PASS}
+      - ROCKETCHAT_BOT_EMAIL=${BOT_EMAIL}
 
       # Should be set to 'production' or 'beta' or 'dev'
-      - ENVIRONMENT_NAME=localhost
+      - ENVIRONMENT_NAME=${ENV_NAME}
       # Last commit hash using this command: git rev-parse HEAD
       - BOT_VERSION=0.1.0-alpha
-
-      # Analytics config
-      - ENABLE_ANALYTICS=False
-      - ELASTICSEARCH_URL=elasticsearch:9200
 
     ports:
       - 5005:5005
