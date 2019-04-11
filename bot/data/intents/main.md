@@ -258,3 +258,6 @@
 - como fazer um if else
 - fazer if else
 - montar if else
+- sintaxe if else
+- sintaxe condicionais
+- exemplo de condicionais
