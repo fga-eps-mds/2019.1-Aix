@@ -12,6 +12,7 @@ intents:
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
+  - sobre_condicionais_exercicios
   - exemplo_variaveis
 
 entities:
@@ -150,6 +151,16 @@ templates:
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
+  utter_sobre_condicionais_exercicios:
+    - text : |
+        Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
+        A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+        Veja esses 3 exercícios:
+          Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
+          Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
+          Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
+        
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -167,4 +178,5 @@ actions:
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
+  - utter_sobre_condicionais_exercicios
   - utter_exemplo_variaveis

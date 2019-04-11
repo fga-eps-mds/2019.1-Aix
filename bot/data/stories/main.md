@@ -63,6 +63,11 @@
 * sobre_booleanos
     - utter_sobre_booleanos
 
+## sobre_condicionais_exercicios
+* sobre_condicionais_exercicios
+    - utter_sobre_condicionais_exercicios
+
 ## exemplo_variaveis
 * exemplo_variaveis
     - utter_exemplo_variaveis
+
