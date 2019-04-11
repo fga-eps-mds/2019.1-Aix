@@ -32,6 +32,11 @@
 
 ## sobre_aix
 * sobre_aix
+  - utter_sobre_aix
+
+## link_conteudo_condicionais
+* link_conteudo_condicionais
+    - utter_link_conteudo_condicionais
     - utter_sobre_aix
 
 ## sobre_condicionais
@@ -61,3 +66,8 @@
 ## sobre_condicionais_exercicios
 * sobre_condicionais_exercicios
     - utter_sobre_condicionais_exercicios
+
+## exemplo_variaveis
+* exemplo_variaveis
+    - utter_exemplo_variaveis
+

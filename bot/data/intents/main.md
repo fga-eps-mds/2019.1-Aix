@@ -58,6 +58,7 @@
 - beleza
 - bom
 - esta bem
+- voce esta bem 
 - voce esta bem
 
 ## intent:sobre_python
@@ -103,6 +104,24 @@
 - cabrita
 - bode
 
+## intent:link_conteudo_condicionais
+- link sobre condicionais
+- link sobre if
+- link sobre else
+- link sobre condicional
+- mais estruturas condicionais
+- mais if
+- mais else
+- exemplos if
+- conteudo if
+- exemplos else
+- conteudo else
+- conteudo if
+- me de um exemplo if else
+- nao entendi if else
+- saber mais if else
+- outros exemplos if else
+
 ## intent:sobre_condicionais
 - o que e if
 - o que e else
@@ -121,8 +140,6 @@
 - montar um if
 - montar um else
 - estruturas condicionais
-
-
 
 ## intent:sobre_variaveis
 - o que sao variaveis
@@ -204,3 +221,25 @@
 - uri condicionais
 - testar conhecimentos if else
 - testar conhecimentos condicionais
+
+## intent:exemplo_variaveis
+- me de exemplos de variaveis
+- como usar essas variaveis?
+- não entendi como usa a variável
+- mas e eu faço como com variáveis?
+- e como que uso?
+- exemplos variaveis
+- exemplos de variaveis
+- me explica como usa essas variaveis
+- me ajuda com exemplos de variaveis
+- voce pode me ajudar com exemplos de variaveis?
+- como variaveis funcionam
+- exemplos variáveis
+- exemplo variável
+- exemplos python variáveis
+- exemplo variável python
+- como fazer uma variavel em python
+- como funciona as variaveis
+- funcionamento variaveis
+- variaveis na pratica
+- codigo de exemplo de variaveis
