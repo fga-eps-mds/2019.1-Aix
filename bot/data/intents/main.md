@@ -104,6 +104,24 @@
 - cabrita
 - bode
 
+## intent:link_conteudo_condicionais
+- link sobre condicionais
+- link sobre if
+- link sobre else
+- link sobre condicional
+- mais estruturas condicionais
+- mais if
+- mais else
+- exemplos if
+- conteudo if
+- exemplos else
+- conteudo else
+- conteudo if
+- me de um exemplo if else
+- nao entendi if else
+- saber mais if else
+- outros exemplos if else
+
 ## intent:sobre_condicionais
 - o que e if
 - o que e else

@@ -5,6 +5,7 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
+  - link_conteudo_condicionais
   - sobre_condicionais
   - sobre_variaveis
   - sobre_inteiros
@@ -76,6 +77,13 @@ templates:
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+
+  utter_link_conteudo_condicionais:
+    - text: |
+        Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+          if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+              Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+              https://www.w3schools.com/python/python_conditions.asp
 
   utter_sobre_condicionais:
     - text: |
@@ -152,6 +160,7 @@ actions:
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
+  - utter_link_conteudo_condicionais
   - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
