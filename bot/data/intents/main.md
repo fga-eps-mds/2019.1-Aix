@@ -190,3 +190,5 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:sobre_condicionais_exercicios

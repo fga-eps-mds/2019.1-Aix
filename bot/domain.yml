@@ -11,6 +11,7 @@ intents:
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
+  - sobre_condicionais_exercicios
 
 entities:
   - servico
@@ -135,3 +136,4 @@ actions:
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
+  - utter_sobre_condicionais_exercicios
