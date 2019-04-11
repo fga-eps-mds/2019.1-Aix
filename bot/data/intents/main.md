@@ -59,6 +59,7 @@
 - bom
 - esta bem
 - voce esta bem 
+- voce esta bem
 
 ## intent:sobre_python
 - o que e python

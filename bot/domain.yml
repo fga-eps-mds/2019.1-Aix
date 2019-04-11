@@ -91,7 +91,7 @@ templates:
         Se você me der ele, eu vou ficar feliz!
         Se você resolver ficar com ele, eu vou ficar na vontade, poxa!
         E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
-        
+
   utter_sobre_variaveis:
     - text : |
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
@@ -119,7 +119,7 @@ templates:
     - text : |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
-
+        
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam...
