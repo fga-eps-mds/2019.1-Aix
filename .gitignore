@@ -81,7 +81,7 @@ Temporary Items
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__
 *.py[cod]
 *$py.class
 
@@ -193,3 +193,9 @@ tags
 
 # End of https://www.gitignore.io/api/vim,linux,macos,python
 .vscode/
+
+.DS_Store
+.bundle/
+.sass-cache/
+Gemfile.lock
+vendor/
