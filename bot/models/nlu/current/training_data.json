@@ -2,1214 +2,6 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
-        "intent": "backup_backup_no_datacenter",
-        "entities": [
-          {
-            "start": 12,
-            "end": 18,
-            "value": "backup",
-            "entity": "servico"
-          }
-        ],
-        "text": "Quero fazer backup dos meus arquivos"
-      },
-      {
-        "intent": "backup_backup_no_datacenter",
-        "text": "como fazer backup no datacenter"
-      },
-      {
-        "intent": "backup_backup_no_datacenter",
-        "text": "preciso salvar meus dados"
-      },
-      {
-        "intent": "backup_backup_no_datacenter",
-        "text": "pode salvar meus dados"
-      },
-      {
-        "intent": "backup_backup_no_datacenter",
-        "entities": [
-          {
-            "start": 7,
-            "end": 13,
-            "value": "backup",
-            "entity": "servico"
-          }
-        ],
-        "text": "faça o backup do meu pc"
-      },
-      {
-        "intent": "backup_backup_no_datacenter",
-        "text": "backup do meu desktop"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "podem arquivar meu notes"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "salvar meu notes"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "exportar meu notes para o arquivo"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "quero arquivar meu notes"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "salvar meu notes no arquivo"
-      },
-      {
-        "intent": "backup_arquivamento_do_notes",
-        "text": "gerar arquivo do notes"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "quero recuperar meus arquivos na rede"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "recuperar minha pasta na rede"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "pode trazer meus arquivos de volta"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "apaguei meus arquivos da rede"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "minha pasta está no backup"
-      },
-      {
-        "intent": "backup_restauracao_dados_na_rede",
-        "text": "tem backup do meu arquivo na rede"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "preciso gravar meus arquivos em um DVD"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "pode gravar um CD com meus arquivos"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "backup em um CD"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "backup em um DVD"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "Backup em um HD externo"
-      },
-      {
-        "intent": "backup_gravacao_em_midia_externa",
-        "text": "Salvar em um pendrive"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "Novo ramal de telefone"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "ramal para estagiário"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "cancelamento de ramal"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "configurar um grupo de captura de chamadas"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "configurar teclas no aparelho"
-      },
-      {
-        "intent": "comunicacao_telefonia_ip",
-        "text": "remanejamento de aparelho"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "novo aparelho de celular"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "preciso ativar o roaming do celular"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "roubaram meu celular"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "perdi meu celular"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "quero trocar meu celular"
-      },
-      {
-        "intent": "comunicacao_telefonia_movel",
-        "text": "quero trocar meu smartphone"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "preciso de um modem 3g"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "preciso de um modem 4g"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "quero conectar no 3g"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "tem um 4g para viagem"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "gostaria de um modem"
-      },
-      {
-        "intent": "comunicacao_dados_moveis",
-        "text": "meu modem 4g quebrou"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "instalar o cisco jabber no meu desktop"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "baixar o jabber no PC"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "instalar o jabber no smartphone"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "instalar o jabber no celular"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "onde encontro o jabber pra android"
-      },
-      {
-        "intent": "comunicacao_jabber",
-        "text": "tem jabber para iphone"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "pode abrir uma sala de video conferencia"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "quero fazer uma conferencia online"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "gostaria de fazer um hangout"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "como faço uma chamada de video"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "preciso fazer uma conferencia na web"
-      },
-      {
-        "intent": "comunicacao_video_conferencia",
-        "text": "preciso transmitir uma reunião online"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "criar uma conta de email"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "quero mudar meu email"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "preciso deletar um email"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "vou ficar ausente, como configurar"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "configurar agenda do email"
-      },
-      {
-        "intent": "email_correio_pessoal",
-        "text": "configurar assinatura do e-mail"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "criar uma caixa corporativa"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "preciso de um email para meu departamento"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "gostaria de incluir um colaborador no meu departamento"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "adicionar usuario na caixa corporativa"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "minha caixa departamental está cheia"
-      },
-      {
-        "intent": "email_correio_departamental",
-        "text": "caixa departamental"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "configurar email no smartphone"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "instalar IBM Verse no celular"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "pode instralar IBM notes no android"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "pode instralar IBM notes no iphone"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "instalar verse no android"
-      },
-      {
-        "intent": "email_smartphone",
-        "text": "instalar verse no iphone"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "como faço pra criar um grupo de email"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "preciso de um grupo de email"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "incluir uma pessoa no grupo de email"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "excluir pessoa do grupo de email"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "incluir colaborador no grupo de email"
-      },
-      {
-        "intent": "email_grupos_de_email",
-        "text": "excluir colaborador do grupo de email"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "quero desbloquear meu acesso a um site"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "preciso acessar o site"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "libera o acesso ao website"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "site está bloqueado para acesso"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "preciso muito acessar um sítio de internet"
-      },
-      {
-        "intent": "internet_acesso_desbloqueio",
-        "text": "acessar um saite"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "deu erro no site"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "achei um erro quando abri esse site"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "saite ta dando erro aqui"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "saite da erro quando abre"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "site nao carrega direito"
-      },
-      {
-        "intent": "internet_acesso_erro",
-        "text": "saite nao ta carregando"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "rede de comunicação corporativa"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "telecomunicação corporativa"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "comunicação de dados entre localidades"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "redundancia automática da RTC"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "redundância de comunicação entre o datacenter"
-      },
-      {
-        "intent": "rede_telecomunicacao_corporativa",
-        "text": "indisponibilidade dos circuitos da RTC"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "conectar notebook do consultor na rede"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "instalar ponto de rede cabeada"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "reparar ramal desligado"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "minha conexão cabeada está caindo"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "adicionar um ponto de rede"
-      },
-      {
-        "intent": "rede_infraestrutura",
-        "text": "conectar meu computador na rede cabeada"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "conectar na cidade nova"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "conectar meu celular no wifi"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "senha do wifi corporativo"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "permissao para acessar wifi"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "tablet no wifi corporativo"
-      },
-      {
-        "intent": "rede_wifi_corporativo",
-        "text": "smartphone no wifi corporativo"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "acesso ao powergrid"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "permissão de acesso a rede powergrid"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "Acesso a rede wifi com meu dispositivo"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "instalar dell kace"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "Bring Your Own Device"
-      },
-      {
-        "intent": "rede_wifi_byod",
-        "text": "arrumar acesso na powergrid"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "alguma configuração para acessar a rede WiFi Visitantes"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "Acesso a rede Visitantes-RJO"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "Acesso a rede Visitantes-BSB"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "Acesso a rede Visitantes-REC"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "Acesso a rede Visitantes-FLN"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "senha de Visitantes é alterada"
-      },
-      {
-        "intent": "rede_wifi_visitantes",
-        "text": "o usuário e senha da wifi visitantes"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "Quem pode usar a rede cabeada"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "eu posso acessar a rede cabeada"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "cabo de rede para meu desktop"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "onde tem rede cabeada"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "notebook na rede cabeada"
-      },
-      {
-        "intent": "rede_cabeada",
-        "text": "conectar mac na rede cabeada"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "posso solicitar conta para quem"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "quero uma conta para um colaborador"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "criar uma conta para consultor externo"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "qual é a senha do primeiro acesso"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "esqueci minha senha da rede"
-      },
-      {
-        "intent": "rede_solicitacao_conta",
-        "text": "minha senha da rede foi bloqueada"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "instalar uma VPN"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "dar acesso pela VPN"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "instalar o GlobalProtect"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "o que é a senha OTP"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "pin da VPN não funciona"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "VPN para Mac"
-      },
-      {
-        "intent": "rede_vpn",
-        "text": "VPN para Linux"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "Criar pastas na rede"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "dar acesso a pastas na rede"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "restringir acesso a pasta de rede"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "bloquear acesso na pasta da rede"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "usuário externo com acesso a pasta na rede"
-      },
-      {
-        "intent": "rede_pastas",
-        "text": "compartilhar arquivos na rede"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "criar uma conta de FTP"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "como acesso o FTP"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "acessar ftp://ftprio.ons.org.br"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "alterar senha do FTP"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "resetar senha do FTP"
-      },
-      {
-        "intent": "rede_ftp",
-        "text": "autorização pra acessar FTP"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "aumentar a quota do servidor de arquivos"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "aumentar o limite de arquivos no servidor"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "meu limite de arquivos esgotou"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "não consigo salvar na rede"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "meu espaço na rede acabou"
-      },
-      {
-        "intent": "rede_quota_servidor",
-        "text": "diminuir espaço na rede"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "acessar outra rede"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "Preciso acessar sistemas do REGER"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "Preciso acessar sistemas do PMU"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "Preciso acessar sistemas do RTDS"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "quero entrar no REGER"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "logar no PMU"
-      },
-      {
-        "intent": "rede_acesso_outras",
-        "text": "preciso entrar no RTDS"
-      },
-      {
-        "intent": "sistema_acesso",
-        "text": "Gostaria de ter acesso ao sistema"
-      },
-      {
-        "intent": "sistema_acesso",
-        "text": "criar novo usuario no sistema"
-      },
-      {
-        "intent": "sistema_acesso",
-        "text": "acessar o sistema"
-      },
-      {
-        "intent": "sistema_acesso",
-        "text": "entrar no sistema"
-      },
-      {
-        "intent": "sistema_acesso",
-        "text": "resetar senha do sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "desbloquear sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "encontrei um bug no sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "não consigo acessar o sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "encontrei um erro no sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "precisa corrigir esse erro no sistema"
-      },
-      {
-        "intent": "sistema_problema",
-        "text": "resetar senha do sistema"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "criar uma funcionalidade nova"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "tem uma nova feature"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "queria desenvolver uma coisa nova"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "desenvolver um funcionalidade"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "acrescentar feature no sistema"
-      },
-      {
-        "intent": "sistema_melhoria",
-        "text": "especificar uma nova função no sistema"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "tem projetores para emprestar"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "instalar projetores na sala"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "sala de reunião com telão"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "Cabos de HDMI para projetor"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "reservar sala multimidia"
-      },
-      {
-        "intent": "multimidia_video",
-        "text": "auditório com equipamento multimidia"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "sala sonorizada"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "equipamento de som"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "sala de treinamento com som"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "caixas de som para auditório"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "som para apresentação"
-      },
-      {
-        "intent": "multimidia_sonorizacao",
-        "text": "caixa de som para sala de treinamento"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "quero gravar uma reunião"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "podemos transmitir uma palestra"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "transmitir reunião ao vivo"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "gravar o audio das reuniões"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "preciso filmar um evento"
-      },
-      {
-        "intent": "multimidia_gravacao",
-        "text": "tem como filmar um treinamento"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "instalar uma estação de trabalho"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "remover uma estação de trabalho"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "Mudar uma estaçào de posição"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "reparar um desktop"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "trazer um novo desktop"
-      },
-      {
-        "intent": "equipamentos_estacoes",
-        "text": "instalar um desktop"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "Instalar uma impressora"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "remover uma impressora"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "mudar impressora de lugar"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "desintalar impressora"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "impressora sem papel"
-      },
-      {
-        "intent": "equipamentos_impressoras",
-        "text": "cartucho da impressora acabou"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "preciso de um fone de ouvido"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "posso ter um headset"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "instalar um teclado novo"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "trocar o meu mouse"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "instalar webcam"
-      },
-      {
-        "intent": "equipamentos_perifericos",
-        "text": "colocar uma camera no meu computador"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "quero ver os serviços"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "o que voce faz"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "catalogo de serviços"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "problemas de TI"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "serviços de TI"
-      },
-      {
-        "intent": "menu_raiz",
-        "text": "menu principal"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "menu backup"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "serviços de backup"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "preciso de um backup"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "quero um backup"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "voce faz backup"
-      },
-      {
-        "intent": "menu_backup",
-        "text": "copiar arquivos"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "menu comunicação"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "comunicação corporativa"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "rede de telecomunicação corporativa"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "menu RTC"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "serviços de comunicação"
-      },
-      {
-        "intent": "menu_comunicacao",
-        "text": "catalogo de comunicação"
-      },
-      {
-        "intent": "menu_email",
-        "text": "menu email"
-      },
-      {
-        "intent": "menu_email",
-        "text": "serviços de e-mail"
-      },
-      {
-        "intent": "menu_email",
-        "text": "catalogo de email"
-      },
-      {
-        "intent": "menu_email",
-        "text": "quero saber sobre emails"
-      },
-      {
-        "intent": "menu_email",
-        "text": "menu e-mail"
-      },
-      {
-        "intent": "menu_email",
-        "text": "problemas com e-mail"
-      },
-      {
-        "intent": "menu_internet",
-        "entities": [
-          {
-            "start": 5,
-            "end": 13,
-            "value": "internet",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu internet"
-      },
-      {
-        "intent": "menu_internet",
-        "text": "serviços de internet"
-      },
-      {
-        "intent": "menu_internet",
-        "text": "catalogo de internet"
-      },
-      {
-        "intent": "menu_internet",
-        "text": "problemas com internet"
-      },
-      {
-        "intent": "menu_internet",
-        "text": "sobre internet"
-      },
-      {
-        "intent": "menu_internet",
-        "entities": [
-          {
-            "start": 13,
-            "end": 30,
-            "value": "acesso a internet",
-            "entity": "servico"
-          }
-        ],
-        "text": "problemas de acesso a internet"
-      },
-      {
-        "intent": "menu_rede",
-        "entities": [
-          {
-            "start": 5,
-            "end": 19,
-            "value": "infraestrutura",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu infraestrutura"
-      },
-      {
-        "intent": "menu_rede",
-        "text": "menu rede"
-      },
-      {
-        "intent": "menu_rede",
-        "text": "serviços de rede"
-      },
-      {
-        "intent": "menu_rede",
-        "text": "problemas com ponto de rede"
-      },
-      {
-        "intent": "menu_rede",
-        "text": "catalogo de redes"
-      },
-      {
-        "intent": "menu_rede",
-        "text": "problemas de infraestrutura"
-      },
-      {
-        "intent": "menu_sistemas",
-        "entities": [
-          {
-            "start": 5,
-            "end": 13,
-            "value": "sistemas",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu sistemas"
-      },
-      {
-        "intent": "menu_sistemas",
-        "entities": [
-          {
-            "start": 5,
-            "end": 16,
-            "value": "aplicativos",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu aplicativos"
-      },
-      {
-        "intent": "menu_sistemas",
-        "entities": [
-          {
-            "start": 12,
-            "end": 20,
-            "value": "sistemas",
-            "entity": "servico"
-          }
-        ],
-        "text": "serviços de sistemas"
-      },
-      {
-        "intent": "menu_sistemas",
-        "text": "serviços para aplicações"
-      },
-      {
-        "intent": "menu_sistemas",
-        "text": "problemas com sistemas"
-      },
-      {
-        "intent": "menu_sistemas",
-        "text": "problemas com aplicações"
-      },
-      {
-        "intent": "menu_multimidia",
-        "entities": [
-          {
-            "start": 5,
-            "end": 15,
-            "value": "multimídia",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu multimídia"
-      },
-      {
-        "intent": "menu_multimidia",
-        "text": "serviços de multimídia"
-      },
-      {
-        "intent": "menu_multimidia",
-        "text": "problemas com vídeo"
-      },
-      {
-        "intent": "menu_multimidia",
-        "text": "problemas com som"
-      },
-      {
-        "intent": "menu_multimidia",
-        "text": "serviços de gravação"
-      },
-      {
-        "intent": "menu_multimidia",
-        "text": "gravação de audio e vídeo"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "entities": [
-          {
-            "start": 5,
-            "end": 16,
-            "value": "perifericos",
-            "entity": "servico"
-          }
-        ],
-        "text": "menu perifericos"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "text": "menu equipamentos"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "text": "serviços de troca de periféricos"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "text": "instalação de equipamentos"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "text": "equipamentos periféricos"
-      },
-      {
-        "intent": "menu_equipamentos",
-        "text": "teclado mouse webcam"
-      },
-      {
-        "intent": "action_otrs",
-        "text": "crie um ticket"
-      },
-      {
-        "intent": "action_otrs",
-        "text": "abrir um ticket"
-      },
-      {
-        "intent": "action_otrs",
-        "text": "por favor abra o ticket"
-      },
-      {
-        "intent": "action_otrs",
-        "text": "criar chamado"
-      },
-      {
-        "intent": "action_otrs",
-        "text": "abrir um chamado"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Você fala sobre o meio ambiente?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Qual a origem do mundo?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Você tem signo?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "Vc gosta de carnaval?"
-      },
-      {
-        "intent": "out_of_scope",
-        "text": "batatinha quando nasce"
-      },
-      {
         "intent": "despedir",
         "text": "Tchau obrigada"
       },
@@ -1219,11 +11,23 @@
       },
       {
         "intent": "despedir",
+        "text": "tchau obg"
+      },
+      {
+        "intent": "despedir",
         "text": "até logo"
       },
       {
         "intent": "despedir",
-        "text": "namaste"
+        "text": "xau"
+      },
+      {
+        "intent": "despedir",
+        "text": "bye bye"
+      },
+      {
+        "intent": "despedir",
+        "text": "cya"
       },
       {
         "intent": "despedir",
@@ -1247,19 +51,27 @@
       },
       {
         "intent": "despedir",
-        "text": "blza"
+        "text": "bon voyage"
       },
       {
         "intent": "despedir",
-        "text": "blz"
+        "text": "arrivederci"
       },
       {
         "intent": "despedir",
-        "text": "valeu"
+        "text": "até mais ver"
       },
       {
         "intent": "despedir",
-        "text": "de boa"
+        "text": "adeus"
+      },
+      {
+        "intent": "despedir",
+        "text": "hasta la vista, baby"
+      },
+      {
+        "intent": "despedir",
+        "text": "obrigado pela ajuda"
       },
       {
         "intent": "despedir",
@@ -1268,10 +80,6 @@
       {
         "intent": "despedir",
         "text": "obrigado"
-      },
-      {
-        "intent": "despedir",
-        "text": "obj"
       },
       {
         "intent": "despedir",
@@ -1327,7 +135,7 @@
       },
       {
         "intent": "cumprimentar",
-        "text": "estou otimo"
+        "text": "otimo"
       },
       {
         "intent": "cumprimentar",
@@ -1347,10 +155,6 @@
       },
       {
         "intent": "cumprimentar",
-        "text": "olá"
-      },
-      {
-        "intent": "cumprimentar",
         "text": "ola"
       },
       {
@@ -1359,47 +163,7 @@
       },
       {
         "intent": "cumprimentar",
-        "text": "opa tudo bem"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ola boa tarde"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "hello"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "hi"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "preciso de ajuda"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "me ajuda"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "oi"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "como vai"
-      },
-      {
-        "intent": "cumprimentar",
         "text": "opa"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "eai"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "e ai"
       },
       {
         "intent": "cumprimentar",
@@ -1407,223 +171,7 @@
       },
       {
         "intent": "cumprimentar",
-        "text": "eaw"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "help"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ow"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "ou"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "epa"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "fala comigo"
-      },
-      {
-        "intent": "cumprimentar",
-        "text": "fala"
-      },
-      {
-        "intent": "elogios",
-        "text": "Você é muito educado"
-      },
-      {
-        "intent": "elogios",
-        "text": "Adorei"
-      },
-      {
-        "intent": "elogios",
-        "text": "Me ajudou muito"
-      },
-      {
-        "intent": "elogios",
-        "text": "vc eh linda"
-      },
-      {
-        "intent": "elogios",
-        "text": "parabens"
-      },
-      {
-        "intent": "elogios",
-        "text": "ótimo"
-      },
-      {
-        "intent": "negar",
-        "text": "não sei onde a minha pergunta se encaixa"
-      },
-      {
-        "intent": "negar",
-        "text": "nao quero saber mais"
-      },
-      {
-        "intent": "negar",
-        "text": "quero falar sobre outra coisa"
-      },
-      {
-        "intent": "negar",
-        "text": "não quero saber de mais nada"
-      },
-      {
-        "intent": "negar",
-        "text": "nao era isso, me enganei"
-      },
-      {
-        "intent": "negar",
-        "text": "não quero falar sobre isso"
-      },
-      {
-        "intent": "negar",
-        "text": "ainda nao sei escolher um tópico"
-      },
-      {
-        "intent": "negar",
-        "text": "ainda não pensei sobre isso"
-      },
-      {
-        "intent": "negar",
-        "text": "nao sei do que quero falar"
-      },
-      {
-        "intent": "negar",
-        "text": "não sei do que quero conversar"
-      },
-      {
-        "intent": "negar",
-        "text": "nunca"
-      },
-      {
-        "intent": "negar",
-        "text": "nao"
-      },
-      {
-        "intent": "negar",
-        "text": "nao conheco"
-      },
-      {
-        "intent": "negar",
-        "text": "não quero"
-      },
-      {
-        "intent": "negar",
-        "text": "escolhi errado"
-      },
-      {
-        "intent": "negar",
-        "text": "falei errado"
-      },
-      {
-        "intent": "negar",
-        "text": "duvida"
-      },
-      {
-        "intent": "negar",
-        "text": "ainda não sei"
-      },
-      {
-        "intent": "negar",
-        "text": "nenhum"
-      },
-      {
-        "intent": "afirmar",
-        "text": "sim"
-      },
-      {
-        "intent": "afirmar",
-        "text": "ok"
-      },
-      {
-        "intent": "afirmar",
-        "text": "sim sim"
-      },
-      {
-        "intent": "afirmar",
-        "text": "okay"
-      },
-      {
-        "intent": "afirmar",
-        "text": "oquei"
-      },
-      {
-        "intent": "afirmar",
-        "text": "tudo bem"
-      },
-      {
-        "intent": "afirmar",
-        "text": "ta certo"
-      },
-      {
-        "intent": "afirmar",
-        "text": "beleza"
-      },
-      {
-        "intent": "afirmar",
-        "text": "firmeza"
-      },
-      {
-        "intent": "afirmar",
-        "text": "blz"
-      },
-      {
-        "intent": "afirmar",
-        "text": "blza"
-      },
-      {
-        "intent": "afirmar",
-        "text": "frmz"
-      },
-      {
-        "intent": "afirmar",
-        "text": "joia"
-      },
-      {
-        "intent": "afirmar",
-        "text": "massa"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "como funciona"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "me diga mais"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "não entendi"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "nao entendi"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "não é isso"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "nao eh isso"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "como assim"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "e como funciona"
-      },
-      {
-        "intent": "diga_mais",
-        "text": "nao tenho certeza"
+        "text": "opa meu bom"
       },
       {
         "intent": "tudo_bem",
@@ -1631,11 +179,11 @@
       },
       {
         "intent": "tudo_bem",
-        "text": "Como vocês esta"
+        "text": "Como voce esta"
       },
       {
         "intent": "tudo_bem",
-        "text": "como ta"
+        "text": "como vc ta"
       },
       {
         "intent": "tudo_bem",
@@ -1659,11 +207,611 @@
       },
       {
         "intent": "tudo_bem",
-        "text": "como vc esta"
+        "text": "tudo bem"
       },
       {
         "intent": "tudo_bem",
-        "text": "como vai"
+        "text": "beleza"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "bom"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "esta bem"
+      },
+      {
+        "intent": "tudo_bem",
+        "text": "voce esta bem"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "o que e python"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "me defina python"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "me explique o que e python"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "quando python foi criado"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "em qual ano python surgiu"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "quem e o criador do python"
+      },
+      {
+        "intent": "sobre_python",
+        "text": "voce sabe quem e o pai do python"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "o que vc faz"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "o que você faz"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "como te usar"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "o que voce sabe"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "com o que voce pode me ajudar"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "como voce funciona"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "me ajuda"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "help"
+      },
+      {
+        "intent": "menu_ajuda",
+        "text": "me da um help"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "quem e voce"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "sobre o chatbot"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "diga uma curiosidade sobre chatbot"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "quem e aix"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "o que e aix"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "quais suas funcionalidades"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "qual seu proposito"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "quem e vc"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "como voce me ajuda"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "sobre o chatbode"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "descreva voce"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "descreva vc"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "aix"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "cabra"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "chatbode"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "chatbot"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "conheço"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "curiosidade"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "cabrita"
+      },
+      {
+        "intent": "sobre_aix",
+        "text": "bode"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "o que e if"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "o que e else"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "o que e condicional"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "basico sobre if"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "basico sobre else"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "basico sobre condicional"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "condicionais"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "condição"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "fazer um if"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "fazer um else"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "elsif"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "condicional"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "se então"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "estrutura condicional"
+      },
+      {
+        "intent": "sobre_condicionais",
+        "text": "estruturas condicionais"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "o que sao variaveis"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variaveis python"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variaveis geral"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variaveis basico"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "como uso variaveis"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "Variáveis"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variaveis primitivas"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "que que é variavel"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variavel em python"
+      },
+      {
+        "intent": "sobre_variaveis",
+        "text": "variavel"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "o que sao inteiros"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "inteiros"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "int"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "que que é inteiro"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "inteiro"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "integer"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "numeros inteiros"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "numeros positivos"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "numeros negativos"
+      },
+      {
+        "intent": "sobre_inteiros",
+        "text": "numeros sem precisão decimal"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "o que são pontos flutuantes"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "o que é um float"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "o que e um ponto flutuante"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "variavel com casas decimais"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "registrar pi numa variavel"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "pontos flutuantes"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "float"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "double"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "pontos flutuantes com o dobro de precisão"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "numeros com casas decimais"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "numeros fracionados"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "frações"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "numeros racionais"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "racionais"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "casas decimais"
+      },
+      {
+        "intent": "sobre_pontos_flutuantes",
+        "text": "fração"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "o que são caracteres"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "o que é um caractere"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "caracter"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "char"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "caractere## path 2"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "tudo_bem"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_tudo_bem"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "despedir"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_despedir"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "tudo_bem"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_tudo_bem"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_cumprimentar"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "despedir"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_despedir"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_python"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_python"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "menu_ajuda"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_menu_ajuda"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_aix"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_aix"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_condicionais"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_condicionais"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_variaveis"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_variaveis"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_inteiros"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_inteiros"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_pontos_flutuantes"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_pontos_flutuantes"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_caracteres"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_caracteres"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_booleanos"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_booleanos"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "sobre_condicionais_exemplo"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "utter_sobre_condicionais_exemplo"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "variavel caracter"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "variavel char"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "alfanumericos e caracteres especiais"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "caracteres"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "caractéres"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "Letras"
+      },
+      {
+        "intent": "sobre_caracteres",
+        "text": "Como uma variável guarda letras"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "o que são booleanos"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "bool"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "true e false"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "verdadeiro e falso"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "o que é um booleano"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "variavel booleana"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "booleano"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "booleana"
+      },
+      {
+        "intent": "sobre_booleanos",
+        "text": "verdadeira e falsa"
+      },
+      {
+        "intent": "sobre_condicionais_exemplo",
+        "text": "me de exemplo de if else"
+      },
+      {
+        "intent": "sobre_condicionais_exemplo",
+        "text": "exemplo if else"
+      },
+      {
+        "intent": "sobre_condicionais_exemplo",
+        "text": "como fazer um if else"
+      },
+      {
+        "intent": "sobre_condicionais_exemplo",
+        "text": "fazer if else"
+      },
+      {
+        "intent": "sobre_condicionais_exemplo",
+        "text": "montar if else"
       }
     ],
     "regex_features": [],

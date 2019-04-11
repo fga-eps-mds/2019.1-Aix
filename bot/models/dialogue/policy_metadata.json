@@ -3,100 +3,43 @@
     "action_listen": {
       "slots": []
     },
-    "utter_comunicacao_video_conferencia": {
+    "utter_sobre_inteiros": {
       "slots": []
     },
-    "utter_internet_acesso_desbloqueio": {
+    "utter_sobre_condicionais_exemplo": {
       "slots": []
     },
-    "utter_comunicacao_telefonia_ip": {
+    "utter_sobre_caracteres": {
       "slots": []
     },
-    "utter_despedir": {
+    "utter_menu_ajuda": {
       "slots": []
     },
-    "utter_equipamentos_perifericos": {
-      "slots": []
-    },
-    "utter_default": {
-      "slots": []
-    },
-    "utter_menu_raiz": {
-      "slots": []
-    },
-    "utter_cumprimentar": {
-      "slots": []
-    },
-    "utter_menu_internet": {
-      "slots": []
-    },
-    "utter_menu_comunicacao": {
-      "slots": []
-    },
-    "utter_rede_wifi_byod": {
-      "slots": []
-    },
-    "utter_rede_quota_servidor": {
-      "slots": []
-    },
-    "utter_rede_wifi_visitantes": {
-      "slots": []
-    },
-    "utter_email_grupos_de_email": {
-      "slots": []
-    },
-    "utter_backup_restauracao_dados_na_rede": {
-      "slots": []
-    },
-    "utter_menu_sistemas": {
-      "slots": []
-    },
-    "utter_sistema_problema": {
+    "utter_sobre_pontos_flutuantes": {
       "slots": []
     },
     "utter_tudo_bem": {
       "slots": []
     },
-    "utter_backup_arquivamento_do_notes": {
+    "utter_sobre_aix": {
       "slots": []
     },
-    "utter_menu_backup": {
+    "utter_sobre_python": {
       "slots": []
     },
-    "utter_rede_ftp": {
+    "utter_despedir": {
       "slots": []
     },
-    "utter_sistema_acesso": {
+    "utter_sobre_condicionais": {
       "slots": []
     },
-    "utter_email_correio_departamental": {
+    "utter_cumprimentar": {
       "slots": []
     },
-    "utter_rede_infraestrutura": {
+    "utter_sobre_variaveis": {
       "slots": []
     },
-    "utter_multimidia_sonorizacao": {
-      "slots": []
-    },
-    "utter_multimidia_video": {
-      "slots": []
-    },
-    "utter_menu_email": {
-      "slots": []
-    },
-    "utter_rede_telecomunicacao_corporativa": {
-      "slots": []
-    },
-    "utter_internet_acesso_erro": {
-      "slots": []
-    },
-    "utter_email_correio_pessoal": {
-      "slots": []
-    },
-    "utter_email_smartphone": {
-      "slots": []
-    },
-    "utter_rede_pastas": {
+    "utter_sobre_booleanos": {
       "slots": []
     }
   },
@@ -112,7 +55,7 @@
     "rasa_core.policies.fallback.FallbackPolicy",
     "rasa_core.policies.memoization.MemoizationPolicy"
   ],
-  "trained_at": "20190405-021839",
+  "trained_at": "20190411-012116",
   "rasa_core": "0.13.1",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.3"

@@ -7,51 +7,16 @@ actions:
 - utter_tudo_bem
 - utter_diga_mais
 - utter_elogios
-- utter_backup_backup_no_datacenter
-- utter_backup_arquivamento_do_notes
-- utter_backup_restauracao_dados_na_rede
-- utter_backup_gravacao_em_midia_externa
-- utter_comunicacao_telefonia_ip
-- utter_comunicacao_telefonia_movel
-- utter_comunicacao_dados_moveis
-- utter_comunicacao_jabber
-- utter_comunicacao_video_conferencia
-- utter_email_correio_pessoal
-- utter_email_correio_departamental
-- utter_email_smartphone
-- utter_email_grupos_de_email
-- utter_internet_acesso_desbloqueio
-- utter_internet_acesso_erro
-- utter_rede_telecomunicacao_corporativa
-- utter_rede_infraestrutura
-- utter_rede_wifi_corporativo
-- utter_rede_wifi_byod
-- utter_rede_wifi_visitantes
-- utter_rede_cabeada
-- utter_rede_solicitacao_conta
-- utter_rede_vpn
-- utter_rede_pastas
-- utter_rede_ftp
-- utter_rede_quota_servidor
-- utter_rede_acesso_outras
-- utter_sistema_acesso
-- utter_sistema_problema
-- utter_sistema_melhoria
-- utter_multimidia_video
-- utter_multimidia_sonorizacao
-- utter_multimidia_gravacao
-- utter_equipamentos_estacoes
-- utter_equipamentos_impressoras
-- utter_equipamentos_perifericos
-- utter_menu_raiz
-- utter_menu_backup
-- utter_menu_comunicacao
-- utter_menu_email
-- utter_menu_internet
-- utter_menu_rede
-- utter_menu_sistemas
-- utter_menu_multimidia
-- utter_menu_equipamentos
+- utter_sobre_python
+- utter_menu_ajuda
+- utter_sobre_aix
+- utter_sobre_condicionais
+- utter_sobre_variaveis
+- utter_sobre_inteiros
+- utter_sobre_pontos_flutuantes
+- utter_sobre_caracteres
+- utter_sobre_booleanos
+- utter_sobre_condicionais_exemplo
 config:
   store_entities_as_slots: true
 entities:
@@ -61,109 +26,29 @@ forms: []
 intents:
 - cumprimentar:
     use_entities: true
-- despedir:
-    use_entities: true
-- out_of_scope:
-    use_entities: true
-- negar:
-    use_entities: true
-- diga_mais:
-    use_entities: true
 - tudo_bem:
     use_entities: true
-- elogios:
+- despedir:
     use_entities: true
-- backup_backup_no_datacenter:
+- sobre_python:
     use_entities: true
-- backup_arquivamento_do_notes:
+- menu_ajuda:
     use_entities: true
-- backup_restauracao_dados_na_rede:
+- sobre_aix:
     use_entities: true
-- backup_gravacao_em_midia_externa:
+- sobre_condicionais:
     use_entities: true
-- comunicacao_telefonia_ip:
+- sobre_variaveis:
     use_entities: true
-- comunicacao_telefonia_movel:
+- sobre_inteiros:
     use_entities: true
-- comunicacao_dados_moveis:
+- sobre_pontos_flutuantes:
     use_entities: true
-- comunicacao_jabber:
+- sobre_caracteres:
     use_entities: true
-- comunicacao_video_conferencia:
+- sobre_booleanos:
     use_entities: true
-- email_correio_pessoal:
-    use_entities: true
-- email_correio_departamental:
-    use_entities: true
-- email_smartphone:
-    use_entities: true
-- email_grupos_de_email:
-    use_entities: true
-- internet_acesso_desbloqueio:
-    use_entities: true
-- internet_acesso_erro:
-    use_entities: true
-- rede_telecomunicacao_corporativa:
-    use_entities: true
-- rede_infraestrutura:
-    use_entities: true
-- rede_wifi_corporativo:
-    use_entities: true
-- rede_wifi_byod:
-    use_entities: true
-- rede_wifi_visitantes:
-    use_entities: true
-- rede_cabeada:
-    use_entities: true
-- rede_solicitacao_conta:
-    use_entities: true
-- rede_vpn:
-    use_entities: true
-- rede_pastas:
-    use_entities: true
-- rede_ftp:
-    use_entities: true
-- rede_quota_servidor:
-    use_entities: true
-- rede_acesso_outras:
-    use_entities: true
-- sistema_acesso:
-    use_entities: true
-- sistema_problema:
-    use_entities: true
-- sistema_melhoria:
-    use_entities: true
-- multimidia_video:
-    use_entities: true
-- multimidia_sonorizacao:
-    use_entities: true
-- multimidia_gravacao:
-    use_entities: true
-- equipamentos_estacoes:
-    use_entities: true
-- equipamentos_impressoras:
-    use_entities: true
-- equipamentos_perifericos:
-    use_entities: true
-- menu_raiz:
-    use_entities: true
-- menu_backup:
-    use_entities: true
-- menu_comunicacao:
-    use_entities: true
-- menu_email:
-    use_entities: true
-- menu_internet:
-    use_entities: true
-- menu_rede:
-    use_entities: true
-- menu_sistemas:
-    use_entities: true
-- menu_multimidia:
-    use_entities: true
-- menu_equipamentos:
-    use_entities: true
-- action_otrs:
+- sobre_condicionais_exemplo:
     use_entities: true
 slots:
   is_authenticated:
@@ -180,352 +65,96 @@ slots:
     type: rasa_core.slots.CategoricalSlot
     values:
     - organon preditivo
-    - sistema pmu - workbrench
-    - sistema pmu - terrapahsoranalytics
-    - sistema pmu – e-terravision viewer
-    - sistema pmu – e-terrabrowser
-    - amse
-    - aris
-    - bdprot
-    - bddinamica
-    - cálculo de horas patamares
-    - sgsep
-    - cdre
-    - portal de compras
-    - consolidação da carga semanal
-    - epti
-    - forponto
-    - fpw
-    - gercad
-    - gerlim
-    - gd
-    - hdom
-    - hidroana
-    - hidrodata
-    - intnscl
-    - intsiget
-    - nova intranet
-    - pdp – valida
-    - pdp – relabora
-    - pdp – elabora
-    - pdp - web relatórios e coleta
-    - peoplesoft financeiro
-    - peoplesoft rh
-    - pop
-    - portal rh
-    - rel_pdpc
-    - relabora consulta
-    - rpdp relabora
-    - sact
-    - sadepe
-    - sadhi cheias
-    - sadhi coleta
-    - sadhi web
-    - sadst
-    - sagic sat
-    - sagit
-    - saide
-    - saipc
-    - saipc cnos
-    - sagit-pb
-    - scpcb
-    - sicop
-    - sgpdes
-    - saee
-    - sgpar
-    - srmm
-    - sam
-    - samug
-    - siscop
-    - sasob
-    - satra
-    - scpc i
-    - scpc ii
-    - sdro
-    - sethidro
-    - sge
-    - sgpmi
-    - sgpmis
-    - sgpv
-    - sgsup
-    - sharepoint gcvc
-    - sharepoint git
-    - sharepoint plano manutenção
-    - sharepoint sidi
-    - sharepoint spes-dgl
-    - sid
-    - sindat
-    - relatar um problema
-    - solicitar evolução ou melhoria
-    - sini
-    - sinigt
-    - sinob
-    - siper
-    - sisbar
-    - siscac
-    - sigop-cise
-    - site institucional do ons
-    - spca
-    - spcee4
-    - spdo
-    - spert
-    - ve-pre
-    - web-pmo
-    - mpo
-    - sicontv
-    - gdessem
-    - pdp-ui
-    - fsarh
-    - bpreg
 templates:
-  utter_backup_arquivamento_do_notes:
-  - text: "A gente pode fazer um backup dos seus e-mails, agenda e anotações do Notes.\n\
-      deseja solicitar esse serviço?\n"
-  utter_backup_backup_no_datacenter:
-  - text: "Você pode solicitar backup dos dados dos computadores da sua área no Datacenter\n\
-      deseja abrir um chamado para solicitar o serviço de backup?\n"
-  utter_backup_gravacao_em_midia_externa:
-  - text: "Solicite a gravação de dados institucionais (apresentações, treinamentos,\
-      \ etc) em uma mídia externa (HD externo, pen drive, CD/DVD)\n"
-  utter_backup_restauracao_dados_na_rede:
-  - text: "Solicite a recuperação dos dados (restore) quando desejar recuperar as\
-      \ informações salvaguardadas no processo de backup\n"
-  utter_comunicacao_dados_moveis:
-  - text: "O ONS disponibiliza para os seus gestores e colaboradores indicados, o\
-      \ serviço de dados móvel a partir da utilização das placas 4G.\n"
-  utter_comunicacao_jabber:
-  - text: "O Cisco Jabber é uma aplicação que reúne mensagens instantâneas e comunicação\
-      \ de voz e vídeo, com conferências e compartilhamento de documentos através\
-      \ do computador, smartphone ou tablet. Esta ferramenta permite a integração\
-      \ e mobilidade do ramal corporativo com o sistema de videoconferência. \n"
-  utter_comunicacao_telefonia_ip:
-  - text: "Temos serviços de telefonia fixa que permitem efetuar e receber ligações\
-      \ telefônicas entre as unidades do ONS, números fixos ou móvel celular, do tipo\
-      \ local, interurbano e internacional. O acesso é provido através de aparelhos\
-      \ telefônicos analógicos ou digitais ligados à rede de dados do ONS e inclui\
-      \ caixa postal para o armazenamento das mensagens de voz (secretária eletrônica),\
-      \ tarifação telefônica e gravação digital de voz (solicitado pela área). \n"
-  utter_comunicacao_telefonia_movel:
-  - text: "O ONS fornece para os seus gestores e colaboradores elegíveis, o serviço\
-      \ de telefonia móvel pessoal (celular) através de smartphones, incluindo um\
-      \ pacote de dados, de maneira a proporcionar o contato com estes colaboradores\
-      \ para respostas rápidas a eventos considerados de importância para o ONS. \n"
-  utter_comunicacao_video_conferencia:
-  - text: "O ONS fornece o serviço de videoconferência através de terminais próprios\
-      \ para salas de reunião e treinamento, que foram equipadas com recursos de sonorização,\
-      \ microfones sem fio e de teto, TVs, projetores e telas de projeção, além de\
-      \ recursos de compartilhamento e colaboração de apresentações. Esse serviço\
-      \ permite um maior número de participantes em reuniões e eventos com mais agilidade\
-      \ e economia em viagens para a organização. Em uma sessão de videoconferência,\
-      \ também podem ser incluídos participantes que utilizam as soluções Cisco Jabber\
-      \ ou Cisco Jabber Guest. \n"
   utter_cumprimentar:
-  - text: "Olá, eu sou Aix\n\nBée\n\nSua assistente aqui no Jupyter Notebook\n\nEm\
-      \ que posso te ajudar?\n"
-  - text: "Muito prazer!\n\nBée\n\nMeu nome é Aix\n\nAlgum problema?\n"
-  - text: "Aix ao seu dispor!\n\nBée\n\nEm que posso ser útil?\n"
-  - text: "Bée\n\nFinalmente alguém que precise de mim..\n\nOiie! Eu sou Aix, como\
-      \ posso te ajudar?\n"
   - text: "Oiieee, tudo Bééem?\n\nSou Aix, como posso te ajudar?\n"
-  utter_default:
-  - text: "Desculpe, não entendi\n"
-  - text: "Não sei...\n"
-  - text: "Desculpe Dave, não posso fazer isso\n"
-  - text: "Como assim?\n"
-  - text: "olha, não tenho certeza se fui treinado pra responder isso\n"
   utter_despedir:
-  - text: "Foi um prazer te ajudar!\nSempre que tiver alguma dúvida, volte aqui!\n\
-      Até logo!\n"
-  - text: "ótimo, então até a próxima\n\n:)\n"
-  - text: "Legal, espero que tenha sido útil\n\nAté a próxima =)\n"
-  utter_diga_mais:
-  - text: "Poderia especificar melhor?\n"
-  - text: "sim, continue\n"
-  - text: "fale mais\n"
-  utter_elogios:
-  - text: "Obrigado! É sempre bom dar e receber elogios :P\n"
-  - text: "você que é =)\n"
-  - text: "obrigado, são seus olhos\n"
-  utter_email_correio_departamental:
-  - text: "O serviço de correio eletrônico (email) departamental oferece caixas corporativas\
-      \ compartilhadas de e-mail, \naqui você pode:\n    1.Criar nova conta de e-mail\n\
-      \    2.Renomear conta de e-mail\n    3.Excluir conta de e-mail\n    4.Solicitar\
-      \ acesso a correio, agenda e tarefa de outro colaborador.\n    5.Configuração\
-      \ de assinatura de e-mail\n    6.Configuração de ausência de escritório\n  \
-      \  7.Renovação de Certificado\n    8.Não recebimento de e-mail externo\n   \
-      \ 9.Não recebimento de e-mail interno\n    10.Configurar Arquivamento\n    11.Análise\
-      \ de erro\n"
-  utter_email_correio_pessoal:
-  - text: "O serviço de correio eletrônico (email) pessoal do ONS conta com proteção\
-      \ anti ataques e diversos protocolos de segurança, \naqui você pode:\n    1.Criar\
-      \ nova conta de e-mail\n    2.Renomear conta de e-mail\n    3.Excluir conta\
-      \ de e-mail\n    4.Solicitar acesso a correio, agenda e tarefa de outro colaborador.\n\
-      \    5.Configuração de assinatura de e-mail\n    6.Configuração de ausência\
-      \ de escritório\n    7.Renovação de Certificado\n    8.Não recebimento de e-mail\
-      \ externo\n    9.Não recebimento de e-mail interno\n    10.Configurar Arquivamento\n\
-      \    11.Análise de erro\n"
-  utter_email_grupos_de_email:
-  - text: "Solicite a criação, renomeação, exclusão ou inclusão de membros a um novo\
-      \ grupo de e-mail.\n"
-  utter_email_smartphone:
-  - text: "Configurar IBM Verse\nConfigurar IBM Notes Traveler\nAnalise de erro\n"
-  utter_equipamentos_estacoes:
-  - text: "O ONS disponibiliza estações de trabalho para os seus colaboradores com\
-      \ o objetivo de desempenhar suas atividades computacionais inerentes as suas\
-      \ atribuições. As estações de trabalho podem ser compostas por desktops ou notebooks.\n\
-      \    1.Instalação de uma nova Estação de Trabalho\n    2.Substituição de uma\
-      \ Estação de Trabalho por outra\n    3.Mudança de posição de uma Estação de\
-      \ Trabalho\n    4.Mudança de Layout\n    5.Remanejamento de uma Estação de Trabalho\
-      \ de um colaborador para outro.\n    6.Empréstimo de uma Estação de Trabalho\n\
-      \    7.Manutenção de uma Estação de Trabalho\n    8.Devolução de uma Estação\
-      \ de Trabalho\n"
-  utter_equipamentos_impressoras:
-  - text: "O ONS disponibiliza impressoras para os seus colaboradores com o objetivo\
-      \ de desempenhar suas atividades computacionais inerentes as suas atribuições.\
-      \ \n    1.\tSubstituição de um cartucho ou toner de uma impressora\n    2.\t\
-      Solicitação de uma impressora\n    3.\tManutenção de uma impressora\n    4.\t\
-      Erro de impressão ou Scanner\n    5.\tEmpréstimo de uma impressora\n    6.\t\
-      Remanejamento de uma impressora\n    7.\tDevolução de uma impressora\n    8.\t\
-      Alteração da impressora no Windows\n    9.\tInstalação de uma Impressora\n \
-      \   10.\tAlterar a senha de Cópia de Impressoras\n"
-  utter_equipamentos_perifericos:
-  - text: "O ONS disponibiliza periféricos para os seus colaboradores com o objetivo\
-      \ de desempenhar suas atividades computacionais inerentes as suas atribuições.\
-      \ Os periféricos são todos os equipamentos que servem como dispositivos de entrada\
-      \ e saída de informação como por exemplo monitores, teclados, mouses, headset,\
-      \ câmeras e etc.\n    1.\tSolicitação de um periférico\n    2.\tManutenção de\
-      \ um periférico\n    3.\tEmpréstimo de um periférico\n    4.\tRemanejamento\
-      \ de um periférico\n    5.\tDevolução de um periférico\n"
-  utter_internet_acesso_desbloqueio:
-  - text: "Solicite a liberação de acesso a um site disponível na internet mas que\
-      \ foi bloqueado pelo filtro de conteúdo implementado no ONS. \n"
-  utter_internet_acesso_erro:
-  - text: "Solicite suporte caso um site ou URL específica na Internet estejam apresentando\
-      \ problemas para serem visualizados\n"
-  utter_menu_backup:
-  - text: "O Backup é uma cópia de segurança dos seus arquivos, pastas, aplicativos,\
-      \ sistemas e bancos de dados. \nO procedimento de backup deve ser implementado\
-      \ para garantir a disponibilidade das informações \nAqui nós temos os seguintes\
-      \ serviços relacionados ao backup:\n    1.Backup de dados armazenados no Data\
-      \ Center\n    2.Configuração do Arquivamento do Notes (E-Mail)\n    3.Restauração\
-      \ (Restore) dos dados do usuário na Rede\n    4.Gravação de Dados Institucionais\
-      \ em Mídia Externa\nSe precisa acessar algum dos serviços de backup, digite\
-      \ o nome ou número do serviço e eu abro um chamado pra você\n"
-  utter_menu_comunicacao:
-  - text: "resposta de menu_comunicacao\n"
-  utter_menu_email:
-  - text: "resposta de menu_email\n"
-  utter_menu_equipamentos:
-  - text: "resposta de menu_equipamentos\n"
-  utter_menu_internet:
-  - text: "resposta de menu_internet\n"
-  utter_menu_multimidia:
-  - text: "resposta de menu_multimidia\n"
-  utter_menu_raiz:
-  - text: "resposta de menu_raiz\n"
-  utter_menu_rede:
-  - text: "resposta de menu_rede\n"
-  utter_menu_sistemas:
-  - text: "resposta de menu_sistemas\n"
-  utter_multimidia_gravacao:
-  - text: "O ONS disponibiliza os serviços de gravações de vídeo e/ou de áudio de\
-      \ reuniões ou eventos realizados nas suas dependências. \n    1.\tFilmagem e/ou\
-      \ gravação de vídeo\n    2.\tGravação de áudio\n"
-  utter_multimidia_sonorizacao:
-  - text: "O ONS disponibiliza equipamentos de áudio em vários ambientes das suas\
-      \ localidades, principalmente nos Auditórios, Salas Multimídia, Salas de Treinamento\
-      \ e em algumas salas de reunião. Os equipamentos de áudio possibilitam a conexão\
-      \ das saídas de som dos notebooks, smartphones ou tablets ao sistema de áudio\
-      \ para reprodução do som.\n    1.\tRecursos de áudio\n    2.\tCabos e conectores\
-      \ para recursos de sonorização\n"
-  utter_multimidia_video:
-  - text: "O ONS disponibiliza equipamentos de exibição de imagem como projetores\
-      \ e TVs, especialmente em Auditórios, Salas Multimídia, Salas de Treinamento\
-      \ e em Salas de Reunião. Os projetores também estão disponíveis para empréstimo\
-      \ e uso em locais como, salas dos gestores ou em uma sala de reunião não contemplada\
-      \ com recursos fixos de áudio e vídeo. \n    1.\tRecursos de vídeo\n    2.\t\
-      Cabos e conectores de recursos de vídeo\n    3.\tProblema na projeção\n"
-  utter_rede_acesso_outras:
-  - text: "Serviço que disponibiliza a permissão de acesso a outras redes disponíveis\
-      \ na empresa além da rede corporativa. A configuração do acesso solicitado dependerá\
-      \ da aprovação do Administrador da outra rede.\n"
-  utter_rede_cabeada:
-  - text: "Solicite o acesso a rede cabeada do ONS, para uso exclusivo das estações\
-      \ de trabalho corporativos (desktops e notebooks). \n"
-  utter_rede_ftp:
-  - text: "Serviço para troca de arquivos entre empresas. \n    1.\tCriar pasta FTP\n\
-      \    2.\tSolicitar acesso a área FTP\n    3.\tRemover acesso da pasta FTP\n\
-      \    4.\tRemover pasta FTP\n"
-  utter_rede_infraestrutura:
-  - text: "Em cada localidade do ONS existe uma infraestrutura de rede de dados cabeada\
-      \ que que permite o compartilhamento local de informações, aplicações e serviços.\
-      \ \n    1.\tPonto de rede cabeada no andar\n    2.\tPerda de conexão em rede\
-      \ local\n"
-  utter_rede_pastas:
-  - text: "Serviço oferecido para permitir acesso as pastas de Rede \n    1.\tCriar\
-      \ pasta de Rede\n    2.\tExcluir pasta de Rede\n    3.\tSolicitar permissão\
-      \ de acesso a uma pasta\n    4.\tSolicitar exclusão do acesso a uma pasta.\n"
-  utter_rede_quota_servidor:
-  - text: "Solicite a ampliação do limite de armazenamento (Quota) no Servidor de\
-      \ Arquivos que atende aos colaboradores do ONS. O sistema de quota (armazenamento)\
-      \ em uma pasta representa a quantidade de espaço que você tem para armazenar\
-      \ os seus arquivos corporativos. Se o tamanho definido for excedido, você não\
-      \ conseguirá salvar mais arquivos. \n"
-  utter_rede_solicitacao_conta:
-  - text: "A conta de rede local no ONS tem um caráter corporativo, de forma pessoal\
-      \ e intransferível. A mesma tem objetivo de definir acessos controlados aos\
-      \ assuntos institucionais que compete ao colaborador. \n    1.\tSolicitação\
-      \ conta de rede de contratado\n    2.\tSolicitar conta de rede para usuário\
-      \ externo\n    3.\tSolicitar conta de rede para estagiário ou trainee\n    4.\t\
-      Solicitar prorrogação de conta de rede\n    5.\tSolicitar exclusão de conta\
-      \ de rede\n    6.\tSolicitar reset de senha da conta de rede.\n"
-  utter_rede_telecomunicacao_corporativa:
-  - text: "A RTC – Rede de Telecomunicação Corporativa - é um serviço de comunicação\
-      \ de dados entre todas as localidades dos ONS, que permite o compartilhamento\
-      \ de informações, aplicações e serviços das localidades remotas (Brasília, Florianópolis\
-      \ e Recife) para o Datacenter de Produção, localizado no Rio de Janeiro. \n\
-      \    1.\tCorreção de comunicação entre localidades do ONS (RTC)\n    2.\tCorreção\
-      \ de roteamento entre LAN e RTC\n"
-  utter_rede_vpn:
-  - text: "Tecnologia que permite o acesso remoto através de um link seguro (túnel\
-      \ criptografado) entre o dispositivo utilizado e a rede do ONS. O túnel e a\
-      \ criptografia garantem que os dados trafegados entre o dispositivo e a rede\
-      \ do ONS não sejam capturados e identificados. \n    1.\tSolicitar criação de\
-      \ conta VPN\n    2.\tSolicitar prorrogação da conta VPN \n    3.\tReset do PIN\
-      \ do token utilizado para acesso à VPN\n    4.\tInstalação VPN em estação de\
-      \ trabalho \n    5.\tInstalação VPN em SmartPhone \n"
-  utter_rede_wifi_byod:
-  - text: "A rede WiFi BYOD – Bring Your Own Device – (PowerGrid) é uma rede sem fio\
-      \ disponibilizada para o acesso dos dispositivos pessoais (notebook, smartphone\
-      \ ou tablet). \n    1.\tWiFi BYOD para estações\n    2.\tWiFi BYOD para smartphone\n"
-  utter_rede_wifi_corporativo:
-  - text: "A rede WiFi Corporativa (CidadeNova) é composta por pontos de acesso (antenas)\
-      \ estrategicamente distribuídos e instalados nos andares de cada escritório\
-      \ do ONS, de forma a garantir a cobertura em todos os ambientes do escritório.\
-      \ A rede WiFi Corporativa permite acesso a todos os serviços corporativos, como\
-      \ intranet, Internet, e-mail, servidor de arquivos e impressão entre outros,\
-      \ sendo restrito o uso aos colaboradores do ONS com dispositivos móveis corporativos\
-      \ através da autenticação de usuário e senha de rede. \n    1.\tWiFi para estações\
-      \ Corporativo\n    2.\tWiFi para smartphone Corporativo\n"
-  utter_rede_wifi_visitantes:
-  - text: "O ONS disponibiliza acesso à Internet para usuários que não são colaboradores\
-      \ do ONS, a partir da rede WiFi Visitantes. São considerados “Visitantes” todas\
-      \ as pessoas que não são colaboradores do ONS, estão dentro dos escritórios\
-      \ do ONS e necessitam de acesso à Internet. \nA rede WiFi Visitantes é segregada\
-      \ da rede Corporativa e requer autenticação com usuário e senha com requisitos\
-      \ de complexidade.\n    1.\tWiFi para estações de visitantes\n    2.\tWiFi para\
-      \ smartphone de visitantes\n"
-  utter_sistema_acesso:
-  - text: "resposta de sistema_acesso\n"
-  utter_sistema_melhoria:
-  - text: "resposta de sistema_melhoria\n"
-  utter_sistema_problema:
-  - text: "resposta de sistema_problema\n"
+  - text: "Bééem, foi ótimo poder me divertir enquanto te ajudo!\n\nQualquer dúvida\
+      \ conta comigo, beleza?\n\nAté logo meu pequeno jupiter!\n"
+  utter_menu_ajuda:
+  - text: "Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!\n\
+      Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de\
+      \ Python!\nVocê pode mandar seus códigos! Assim eu posso corrigir eles, te aconselhar\
+      \ alguma Biblioteca legal, explicar onde  você errou\nTem alguma dúvida sobre\
+      \ alguma função da linguagem? Pode perguntar também! Te ajudo na sintaxe e tudo\
+      \ mais. Hahaha!\nPoxa, você pode até achar que eu não expliquei muito béem.\
+      \ Não tem problema. Eu te mando um link que te explica melhor!\nAlém disso tudo,\
+      \ que te ajudo no dever de casa! Hahahaha! Só me mandar o exercício e o seu\
+      \ código que eu corrijo!\nÉ só perguntar! Sou uma Cabra mas eu não mordo.\n"
+  utter_sobre_aix:
+  - text: "Você ainda não me conhece?! Por onde é que você navegava esse tempo todo?\
+      \ Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir\
+      \ sua nota 10 quando o assunto é linguagem de programação Python!\nQuer surpreender\
+      \ seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma,\
+      \ que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!\n\
+      Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu\
+      \ fui criada por estudantes da Universidade de Brasília? Eu aposto que se você\
+      \ se esforçar e estudar muito junto comigo você tambéem será capaz de criar\
+      \ uma ferramenta de estudo tão maneira quanto essa!\nAí vai uma charada: Quem\
+      \ é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda\
+      \ corrige seus exercícios de programação? Béem, se você falou seu professor,\
+      \ você acertou... Mas sabia que eu também posso te ajudar com isso?\nJá vi que\
+      \ você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive,\
+      \ se quiser me apresentar aos seus amigos, fala para eles que eles precisam\
+      \ ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça,\
+      \ você tambéem precisa do ambiente Jupyter instalado!\nA cabra que corrige seus\
+      \ códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo\
+      \ tempo junto com você... Essa cabra sou eu!\nQuer saber uma curiosidade sobre\
+      \ mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo\
+      \ atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada\
+      \ integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação,\
+      \ não?\n"
+  utter_sobre_booleanos:
+  - text: "O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso,\
+      \ é usado em operações lógicas\nÉ verdadeiro que eu gosto muito de feno!\n"
+  utter_sobre_caracteres:
+  - text: "As variáveis do tipo caracter guardam valores alfanuméricos e caractéres\
+      \ especiais, então, letras, números, pontos, acentos, chaves, parêntese.\nExemplos\
+      \ de caracteres seriam 'b', 'é', 'e', '!'\n"
+  utter_sobre_condicionais:
+  - text: "Ah, eu adoro estruturas condicionais!\nBom, uma estrutura condicional são\
+      \ ações que podem ou não serem executadas no seu programa.\nÉ necessário que\
+      \ uma condição seja testada para que que essas ações sejam executadas ou não.\n\
+      \nSE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos\
+      \ e vamos para a proxima condição. Além disso, podemos fazer uma opção extra\
+      \ que será executada caso nenhuma condição for satisfeita\n\nPor exemplo:\n\n\
+      Imagine que você tem um pouquinho de feno nas suas mãos\nSe você me der ele,\
+      \ eu vou ficar feliz!\nSe você resolver ficar com ele, eu vou ficar na vontade,\
+      \ poxa!\nE se você nem me der e nem ficar com ele, vou ficar confusa, oras!\
+      \ Por que você teria feno e não faria nada com ele? Eu hein...\n"
+  utter_sobre_condicionais_exemplo:
+  - text: "Quer saber como escrever uma estrutura condicional em python? Xá comigo,\
+      \ nisso eu sou muito boa!\nDigamos que se você quer que seja printado \"amo\
+      \ feno\" caso uma variavel x seja igual a 2 e \"amo python\"\ncaso essa variável\
+      \ seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer\nque\
+      \ seja printado \"amo a Aix\" :\n  \n  if x == 2:\n    print(\"amo feno\")\n\
+      \  elif x == 5:\n    print(\"amo python\")\n  else:\n    print(\"amo a Aix\"\
+      )\n"
+  utter_sobre_inteiros:
+  - text: "Uma variável do tipo inteiro, serve para guardar valores numéricos dentro\
+      \ do conjunto de inteiros.\nIsto éee, todos números positivos e negatios sem\
+      \ casas decimais.\nPor exemplo, você pode contar seus fenos com inteiros, 20\
+      \ fenos, 30 fenos.\n"
+  utter_sobre_pontos_flutuantes:
+  - text: "A \"evolução\" do tipo inteiro é o tipo Ponto Flutuente, ele armazena valores\
+      \ numéricos, porém com casas decimais.\nEntão 3.14150, -1.5, 61.884 são possíveis\
+      \ de serem armazenados numa variável deste tipo.\nUma variável do tipo ponto\
+      \ flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).\n"
+  utter_sobre_python:
+  - text: "O Python é uma linguagem de programação de alto nível, muito usada no Linux\
+      \ e em outros sistemas Unix por ser béem rápida de aprender, mesmo para quem\
+      \ não possui experiência anterior com programação. A sintaxe é bastante organizada\
+      \ e a linguagem inclui suporte a objetos. Uma de suas principais características\
+      \ é permitir a fácil leitura do código e, desse modo, produzir um código bom\
+      \ e fácil de manter de maneira rápida.\nO Python foi criado por Guido van Rossum,\
+      \ tambéem conhecido como Béenevolent Dictator for Life (BDFL) na comunidade\
+      \ da linguagem, no ano de 1991, béem antes de eu nascer, e atualmente ela está\
+      \ com 27~28 anos.\n"
+  utter_sobre_variaveis:
+  - text: "Pois béem, variável é o nome dado a uma área de memória reservada para\
+      \ guardar as informações ou os dados de um programa por um determinado tempo.\n\
+      Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos\
+      \ tipos primitivos.\nEsses tipos são inteiro(int), ponto flutuante(float), caractere(char)\
+      \ e booleano (bool).\n"
   utter_tudo_bem:
-  - text: "Eu estou bem, obrigado por se importar! \n\nEm que posso te ajudar?\n"
-  - text: "Tudo funcionando conforme os parâmetros normalmente esperados.\n\nEm que\
-      \ posso ser útil?\n"
-  - text: "Está tudo bem, um pouco quente aqui, cerca de 72ºC\n\nMas em que posso\
-      \ ser útil?\n"
-  - text: "Está tudo bem, cerca de 54ºC, temperatura agradável\n\nMas em que posso\
-      \ ser útil?\n"
+  - text: "Eu estou béeḿm, obrigado por se importar!\n\nEm que posso te ajudar?\n"
