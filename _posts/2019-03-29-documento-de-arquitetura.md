@@ -40,8 +40,7 @@ Esta obra será segmentada da seguinte forma:
 * **Restrições e Metas de Arquitetura:** Exibe os requisitos de usabilidade do software e os propósitos que influenciam a aplicação.
 * **Visão de Casos de Uso:** Revela os casos de uso da aplicação.
 * **Visão Lógica:** Exibe elementos importantes do programa segundo a arquitetura adotada e a modelagem do design.
-<!-- * **Tamanho e Desempenho:** Detalha as especificações da aplicação que afetam o desempenho.
-* **Qualidade:** Retrata a forma como a opção da arquitetura do software engrandece a aplicação.  -->
+
 
 # 2. Representação de Arquitetura
 
@@ -50,6 +49,8 @@ Esta obra será segmentada da seguinte forma:
 <p align="justify">
 
 </p>
+
+![Diagrama de Relações]({{ site.url }}/2019.1-Aix/assets/img/diagrama_de_fluxo.png)
 
 ### 2.2 Tecnologias
 <p align="justify"> &emsp;&emsp;
