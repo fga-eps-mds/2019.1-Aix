@@ -192,3 +192,15 @@
 - verdadeira e falsa
 
 ## intent:sobre_condicionais_exercicios
+- exercicio condicionais
+- exercicio if else
+- exercicios condicionais
+- exercicios if else
+- treinar condicionais
+- treinar if else
+- saber se aprendi if else
+- saber se aprendi condicionais
+- uri if else
+- uri condicionais
+- testar conhecimentos if else
+- testar conhecimentos condicionais

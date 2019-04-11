@@ -120,6 +120,16 @@ templates:
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
 
+  utter_sobre_condicionais_exercicios:
+    - text : |
+        Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
+        A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+        Veja esses 3 exercícios:
+          Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
+          Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
+          Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
+        
+
 actions:
   - utter_default
   - utter_cumprimentar
