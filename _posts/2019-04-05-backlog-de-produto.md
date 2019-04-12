@@ -6,6 +6,15 @@ tags: plano backlog documento eps
 # Backlog do Produto
 ---
 
+Foram criado algumas personas para inserção das histórias de usuário como:
+- Desenvolvedor: Responsável pelo desenvolvimento de funcionalidades do bot
+- Usuário: Persona a quem se destina o uso do bot
+- Administrador do bot: Responsável pela inserção de conteúdos no bot
+
+Por experiências de sprints iniciais, o grupo optou por não levantar as tasks de forma que as mesmas serão deixar para definir 
+as tasks de cada história na reunião de planejamento para evitar retrabalho uma vez que as definições 
+se alteram muito ao decorrer da implementação das outras histórias.
+  
 ## Épicos
 
 
