@@ -256,3 +256,22 @@
 - if else na pratica
 - funcionamento condicional
 - funcionamento if else
+
+## intent:link_conteudo_variaveis
+- tem algum link pra entender variaveis?
+- mais conteudo sobre variaveis
+- link externos para variaveis
+- links sobre variaveis
+- mais informações sobre variaveis
+- conteudo aprofundado de variaveis
+- mais sobre variaveis
+- tem links sobre variaveis?
+- me manda algum site falando sobre variaveis
+- sites variaveis
+- site variavel
+- links variáveis
+- link variável
+- conteúdo extra variável
+- conteúdos extra variáveis
+- nao entendi variavel, algum site?
+- me dá mais conteúdo sobre variáveis, pf
