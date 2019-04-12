@@ -75,6 +75,12 @@
 * exemplo_condicionais
     - utter_exemplo_condicionais
 
+<<<<<<< HEAD
 ## link_exercicios_variaveis
 * link_exercicios_variaveis
     - utter_link_exercicios_variaveis
+=======
+## link_conteudo_variaveis
+* link_conteudo_variaveis
+    - utter_link_conteudo_variaveis
+>>>>>>> da1a9f18b7254034c67421ac03fb20025f948fbb
