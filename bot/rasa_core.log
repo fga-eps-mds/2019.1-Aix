@@ -352,3 +352,21 @@ There is a memorised next action '0'
 Predicted next action using policy_2_MemoizationPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'stop' with intent '{'name': None, 'confidence': 0.0}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+NLU confidence 0.0 is lower than NLU threshold 0.6. 
+Current tracker state [{'prev_action_listen': 1.0, 'intent_link_exercicios_variaveis': 1.0}, {'prev_utter_link_exercicios_variaveis': 1.0, 'intent_link_exercicios_variaveis': 1.0}, {'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_FallbackPolicy
+Predicted next action 'action_default_fallback' with prob 1.00.
+Action 'action_default_fallback' ended with events '['UserUtteranceReverted()']'
+Current tracker state [{'prev_utter_link_exercicios_variaveis': 1.0, 'intent_link_exercicios_variaveis': 1.0}, {'prev_action_listen': 1.0, 'intent_link_exercicios_variaveis': 1.0}, {'prev_utter_link_exercicios_variaveis': 1.0, 'intent_link_exercicios_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
