@@ -16,3 +16,4 @@ tags: projeto eps documento roadmap papeis
 ![RoadMap Release 1]({{ site.url }}/2019.1-Aix/assets/img/roadmapsm.png)
 
 ![RoadMap Release 1]({{ site.url }}/2019.1-Aix/assets/img/roadmaparquiteto.png)
+![RoadMap Release 1]({{ site.url }}/2019.1-Aix/assets/img/roadmapdevops.png)
