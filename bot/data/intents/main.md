@@ -243,3 +243,16 @@
 - funcionamento variaveis
 - variaveis na pratica
 - codigo de exemplo de variaveis
+
+## intent:exemplo_condicionais
+- me de exemplo de if else
+- exemplo if else
+- como fazer um if else
+- fazer if else
+- montar if else
+- sintaxe if else
+- sintaxe condicionais
+- exemplo de condicionais
+- if else na pratica
+- funcionamento condicional
+- funcionamento if else
