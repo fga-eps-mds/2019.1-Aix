@@ -15,6 +15,7 @@ intents:
   - sobre_condicionais_exercicios
   - exemplo_variaveis
   - exemplo_condicionais
+  - link_conteudo_variaveis
 
 entities:
   - servico
@@ -175,6 +176,13 @@ templates:
           else:
             print("amo a Aix")
 
+  utter_link_conteudo_variaveis:
+    - text : |
+        Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+        Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+        Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+        onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+        e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
 
 actions:
@@ -197,3 +205,4 @@ actions:
   - utter_sobre_condicionais_exercicios
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
+  - utter_link_conteudo_variaveis
