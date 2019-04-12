@@ -56,8 +56,8 @@ services:
 
   actions:
     build:
-      context: ./bot
-      dockerfile: ./actions/actions.Dockerfile
+      context: .
+      dockerfile: ./docker/actions.Dockerfile
     # image: diegodorgam/botons:actions
     ports:
       - 5055:5055
