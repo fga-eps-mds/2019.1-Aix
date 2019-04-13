@@ -46,23 +46,23 @@ Esta obra será segmentada da seguinte forma:
 
 ### 2.1 Diagrama de Relações
 
-<p align="justify">
-
-</p>
-
 ![Diagrama de Relações]({{ site.url }}/2019.1-Aix/assets/img/diagrama_de_fluxo.png)
 
 ### 2.2 Tecnologias
-<p align="justify"> &emsp;&emsp;
-A aplicação deverá sobrepor o iframe do Jupyter Notebook com outro iframe e para seu desenvolvimento serão usadas as seguintes tecnologias:</p>
+<p align="justify"> 
+O ChatBot Aix será uma ferramente que irá utilizar várias ferramentas como interface como o Jupyter Notebook e Telegram e terá um servidor principal com alguns serviços. As tecnologias a seguir são as necessárias para implementação tanto do Front-End como do Back-End.
+</p>
 
-* Flask: *microframework*, construído em python, para o desenvolvimento das API's do projeto. Será usado na versão 1.0.2.
+* Flask: *microframework*: Ferramenta em Python, para a comunicação das API's do projeto. Será usado na versão 1.0.2.
 * Docker: Ferramenta para gerar um ambiente isolado e construído especificamente para a equipe que será utilizado para facilitar o desenvolvimento do projeto. 
 * Git: Ferramenta de versionamento que será usada em conjunto com o GitHub para salvar os dados do decorrer do projeto, possibilitando a hospedagem e a geração de backups do mesmo. Será usada a versão 2.7.4 ou maior.
 * CodeClimate: Ferramenta para análise estática do código
 * Rasa Core+NLU: Ferramenta para criação do ChatBot. Será usada na versão 0.14.6.
 * Flake8: Ferramenta de análise estática de código. Será usada na versão 3.7.7.
 * Rocket Chat: Ferramenta para visualização do chat.
+* Jupyter Notebook: Ferramenta de compartilhamento de documentos e códigos executaveis.
+* Telegram: Aplicativo de troca de mensagem.
+* Travis CI: Ferramenta utilizada para integração continua.
 
 <p align="justify">
 O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente, conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.
@@ -73,7 +73,8 @@ O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados,
 São metas de de Arquitetura:
  - Disponibilizar ao usuário um fluxo constante de conversas para sanar a necessidade do usuário de aprender o básico sobre a linguagem Python.
 
-São restrições de Arquitetura:
+São restrições de Arquitetura
+ - Fazer
  - Conexão necessária com a internet.
 
 # 4. Visão de Casos de Uso
