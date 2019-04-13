@@ -13,16 +13,9 @@ RUN pip install --upgrade pip && \
 WORKDIR /bot
 
 ENV TRAINING_EPOCHS=20                     \
-    ROCKETCHAT_URL=rocketchat:3000         \
     MAX_TYPING_TIME=4                      \
     MIN_TYPING_TIME=1                      \
     WORDS_PER_SECOND_TYPING=5              \
-    ROCKETCHAT_ADMIN_USERNAME=admin        \
-    ROCKETCHAT_ADMIN_PASSWORD=admin        \
-    ROCKETCHAT_BOT_USERNAME=bot            \
-    ROCKETCHAT_BOT_PASSWORD=bot            \
-    ENVIRONMENT_NAME=localhost             \
-    BOT_VERSION=last-commit-hash           \
     ENABLE_ANALYTICS=False                 \
     ELASTICSEARCH_URL=elasticsearch:9200
 
@@ -38,8 +31,9 @@ RUN apt-get -yq remove --purge --auto-remove -y ${BUILD_PACKAGES}; \
     find /usr/lib/python3 -name __pycache__ | xargs rm -rf; \
     find /bot -name __pycache__ | xargs rm -rf; \
     rm -rf /root/.[acpw]*;
-    
+
 CMD python /scripts/bot_config.py -r $ROCKETCHAT_URL                        \
            -an $ROCKETCHAT_ADMIN_USERNAME -ap $ROCKETCHAT_ADMIN_PASSWORD    \
-           -bu $ROCKETCHAT_BOT_USERNAME -bp $ROCKETCHAT_BOT_PASSWORD     && \
+           -bu $ROCKETCHAT_BOT_USERNAME -bp $ROCKETCHAT_BOT_PASSWORD        \
+           -be $ROCKETCHAT_BOT_EMAIL     && \
     make train && make run-rocketchat
