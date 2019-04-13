@@ -37,7 +37,6 @@
 ## link_conteudo_condicionais
 * link_conteudo_condicionais
     - utter_link_conteudo_condicionais
-    - utter_sobre_aix
 
 ## sobre_condicionais
 * sobre_condicionais
@@ -82,6 +81,10 @@
 ## link_conteudo_variaveis
 * link_conteudo_variaveis
     - utter_link_conteudo_variaveis
+
+## manter_conversa
+* manter_conversa
+    - utter_manter_conversa
 
 ## sobre_laços
 * sobre_laços
