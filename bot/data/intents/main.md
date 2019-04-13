@@ -58,7 +58,7 @@
 - beleza
 - bom
 - esta bem
-- voce esta bem 
+- voce esta bem
 - voce esta bem
 
 ## intent:sobre_python
@@ -85,7 +85,7 @@
 ## intent:sobre_aix
 - quem e voce
 - sobre o chatbot
-- diga uma curiosidade sobre chatbot
+- diga sobre chatbot
 - quem e aix
 - o que e aix
 - quais suas funcionalidades
@@ -275,3 +275,25 @@
 - conteúdos extra variáveis
 - nao entendi variavel, algum site?
 - me dá mais conteúdo sobre variáveis, pf
+
+## intent:curiosidades_python
+- zen do python
+- monte python
+- monty python
+- the zen of python
+- curiosidades de python
+- curiosidades da linguagem python
+- saber mais de python
+- tenho interesse em python
+- curiosidades python
+- curiosidade
+- curiosidades
+- poema
+- novidade
+- curiosity
+- bisbilhotice
+- inusitado
+- curiosos
+- dados curiosos
+- fatos curiosos
+- fatos desconhecidos
