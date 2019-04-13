@@ -277,23 +277,23 @@
 - me dá mais conteúdo sobre variáveis, pf
 
 ## intent:manter_conversa
-- thank
-- agradecida
-- obrigada
-- obrigado
-- agradecido
-- grato
-- grata
+- certo
+- beleza
+- perfeito
+- otimo
+- perfect
+- legal
+- cool
 - ok
 - okay
-- thanks
-- devo minha gratidao
-- nao sei como agradecer
+- justo
+- foi esclarecido
+- tudo certo
 - foi de grande ajuda
 - muito util
 - ajudou bastante
 - ajudou muito
-- meus agradecimentos
-- muito obrigada
-- muito obrigado
+- gostei bastante
+- tirou minhas duvidas
+- esclareceu minha dúvida
 - era so isso
