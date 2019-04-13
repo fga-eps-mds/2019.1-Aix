@@ -5,8 +5,6 @@ tags: documento visão mds
 category: Projeto
 ---
 
-# Documento de Visão
-
 ## 1.  Introdução
 <p align="justify"> &emsp;&emsp;
 Serão listadas na obra as premissas do desenvolvimento e da adaptação de uma ferramenta digital muito conhecida na atualidade - o Chatbot – para uma forma de transmissão de conteúdo didático, mais especificadamente, da linguagem de programação Python. Assim, com base na apuração destas informações, serão estruturadas funcionalidades inovadoras para a solução das adversidades levantadas.</p>
