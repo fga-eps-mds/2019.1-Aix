@@ -19,6 +19,7 @@ intents:
   - link_conteudo_variaveis
   - sobre_laços
   - curiosidades_python
+  - link_conteudo_repeticao
 
 entities:
   - servico
@@ -211,6 +212,9 @@ templates:
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
+  utter_link_conteudo_repeticao:
+    - text : |
+    
 actions:
   - utter_default
   - utter_cumprimentar
@@ -235,3 +239,4 @@ actions:
   - utter_link_conteudo_variaveis
   - utter_sobre_laços
   - utter_curiosidades_python
+  - utter_link_conteudo_repeticao

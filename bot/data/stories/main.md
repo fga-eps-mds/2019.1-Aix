@@ -90,3 +90,7 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
+
+## link_conteudo_repeticao
+* link_conteudo_repeticao
+    - utter_link_conteudo_repeticao

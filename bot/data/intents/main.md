@@ -329,3 +329,5 @@
 - dados curiosos
 - fatos curiosos
 - fatos desconhecidos
+
+## intent:link_conteudo_repeticao
