@@ -85,7 +85,7 @@
 ## intent:sobre_aix
 - quem e voce
 - sobre o chatbot
-- diga uma curiosidade sobre chatbot
+- diga sobre chatbot
 - quem e aix
 - o que e aix
 - quais suas funcionalidades
@@ -257,6 +257,18 @@
 - funcionamento condicional
 - funcionamento if else
 
+## intent:link_exercicios_variaveis
+- exercícios sobre variáveis
+- exercicios variavel
+- exercicio de variaveis
+- link exercicios sobre variaveis
+- treinar sobre variáveis
+- testar variaveis
+- aprender exercicios variaveis
+- me envie links com exercicios sobre variaveis
+- onde faço exercícios sobre variáveis
+- exercicio sobre variavel
+
 ## intent:link_conteudo_variaveis
 - tem algum link pra entender variaveis?
 - mais conteudo sobre variaveis
@@ -295,3 +307,25 @@
 - for
 - enquanto
 - laço
+
+## intent:curiosidades_python
+- zen do python
+- monte python
+- monty python
+- the zen of python
+- curiosidades de python
+- curiosidades da linguagem python
+- saber mais de python
+- tenho interesse em python
+- curiosidades python
+- curiosidade
+- curiosidades
+- poema
+- novidade
+- curiosity
+- bisbilhotice
+- inusitado
+- curiosos
+- dados curiosos
+- fatos curiosos
+- fatos desconhecidos
