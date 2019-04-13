@@ -200,3 +200,477 @@ There is a memorised next action '0'
 Predicted next action using policy_2_MemoizationPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+custom_webhook_CmdlineInput.health                 HEAD, OPTIONS, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.9259140491485596}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oiieee, tudo Bééem?
+
+Sou Aix, como posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'O que são variáveis' with intent '{'name': 'sobre_variaveis', 'confidence': 0.8030533194541931}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_cumprimentar': 1.0}, {'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}, {'prev_action_listen': 1.0, 'intent_sobre_variaveis': 1.0}]
+There is a memorised next action '18'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_variaveis' with prob 1.00.
+Action 'utter_sobre_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
+Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
+Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_utter_cumprimentar': 1.0}, {'prev_action_listen': 1.0, 'intent_sobre_variaveis': 1.0}, {'prev_utter_sobre_variaveis': 1.0, 'intent_sobre_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'Tem como me dar exemplos' with intent '{'name': 'exemplo_variaveis', 'confidence': 0.8568636178970337}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_sobre_variaveis': 1.0}, {'prev_utter_sobre_variaveis': 1.0, 'intent_sobre_variaveis': 1.0}, {'prev_action_listen': 1.0, 'intent_exemplo_variaveis': 1.0}]
+There is a memorised next action '24'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_exemplo_variaveis' with prob 1.00.
+Action 'utter_exemplo_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Então você quer ver como as variáveis funcionam...
+Não é fácil igual comer capim, mas vou te dar alguns exemplos e você vai entender!!!
+Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
+Num código ficaria mais ou menos assim:
+  nome da variável = conteúdo da variável
+  username = "username@email.com"
+  senha = "digitos1234"
+Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+Outro exemplo possível é uma equação, onde você já tem variáveis!!
+A Fórmula de Bhaskara poderia ser escrita desse jeito:
+  a = -5
+  b = 4
+  c = 1
+  delta = b*b - 4*a*c
+  y1 = (-b + delta**1/2)/(2*a)
+  y2 = (-b - delta**1/2)/(2*a)
+Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+a, b, c, delta, y1 e y2
+Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_sobre_variaveis': 1.0, 'intent_sobre_variaveis': 1.0}, {'prev_action_listen': 1.0, 'intent_exemplo_variaveis': 1.0}, {'prev_utter_exemplo_variaveis': 1.0, 'intent_exemplo_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'links variaveis' with intent '{'name': 'link_conteudo_variaveis', 'confidence': 0.8323764204978943}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [None, {}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '26'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_variaveis' with prob 1.00.
+Action 'utter_link_conteudo_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+onde ele resume o que são variáveis, [Primeiros comandos em Python3](https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+e uma aula exclusiva sobre Tipo Primitivos, [Tipos Primitivos e Saída de Dados!](https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'links variaveis' with intent '{'name': 'sobre_variaveis', 'confidence': 0.6736264228820801}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [None, {}, {'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '18'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_variaveis' with prob 1.00.
+Action 'utter_sobre_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
+Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
+Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'link variavel' with intent '{'name': 'link_conteudo_condicionais', 'confidence': 0.8177492618560791}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '16'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_condicionais' with prob 1.00.
+Action 'utter_link_conteudo_condicionais' ended with events '[]'
+Bot utterance 'BotUttered(text: Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+  if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+      Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+      https://www.w3schools.com/python/python_conditions.asp
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '15'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_aix' with prob 1.00.
+Action 'utter_sobre_aix' ended with events '[]'
+Bot utterance 'BotUttered(text: Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
+Quer surpreender seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma, que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!
+Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília? Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz de criar uma ferramenta de estudo tão maneira quanto essa!
+Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda corrige seus exercícios de programação? Béem, se você falou seu professor, você acertou... Mas sabia que eu também posso te ajudar com isso?
+Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
+A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
+Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'link variavel' with intent '{'name': 'link_conteudo_condicionais', 'confidence': 0.8177492618560791}' and entities '[]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '16'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_condicionais' with prob 1.00.
+Action 'utter_link_conteudo_condicionais' ended with events '[]'
+Bot utterance 'BotUttered(text: Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+  if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+      Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+      https://www.w3schools.com/python/python_conditions.asp
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '15'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_aix' with prob 1.00.
+Action 'utter_sobre_aix' ended with events '[]'
+Bot utterance 'BotUttered(text: Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
+Quer surpreender seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma, que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!
+Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília? Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz de criar uma ferramenta de estudo tão maneira quanto essa!
+Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda corrige seus exercícios de programação? Béem, se você falou seu professor, você acertou... Mas sabia que eu também posso te ajudar com isso?
+Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
+A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
+Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'oi' with intent '{'name': 'cumprimentar', 'confidence': 0.909953236579895}' and entities '[]'
+Logged UserUtterance - tracker now has 18 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '8'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_cumprimentar' with prob 1.00.
+Action 'utter_cumprimentar' ended with events '[]'
+Bot utterance 'BotUttered(text: Oiieee, tudo Bééem?
+
+Sou Aix, como posso te ajudar?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'link variavel' with intent '{'name': 'link_conteudo_condicionais', 'confidence': 0.8177492618560791}' and entities '[]'
+Logged UserUtterance - tracker now has 22 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'intent_cumprimentar': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '16'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_condicionais' with prob 1.00.
+Action 'utter_link_conteudo_condicionais' ended with events '[]'
+Bot utterance 'BotUttered(text: Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+  if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+      Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+      https://www.w3schools.com/python/python_conditions.asp
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_cumprimentar': 1.0, 'intent_cumprimentar': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '15'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_aix' with prob 1.00.
+Action 'utter_sobre_aix' ended with events '[]'
+Bot utterance 'BotUttered(text: Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
+Quer surpreender seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma, que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!
+Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília? Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz de criar uma ferramenta de estudo tão maneira quanto essa!
+Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda corrige seus exercícios de programação? Béem, se você falou seu professor, você acertou... Mas sabia que eu também posso te ajudar com isso?
+Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
+A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
+Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'variavel' with intent '{'name': 'sobre_variaveis', 'confidence': 0.9626270532608032}' and entities '[]'
+Logged UserUtterance - tracker now has 28 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '18'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_variaveis' with prob 1.00.
+Action 'utter_sobre_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
+Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
+Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'link variável' with intent '{'name': 'link_conteudo_condicionais', 'confidence': 0.7626031637191772}' and entities '[]'
+Logged UserUtterance - tracker now has 32 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'intent_sobre_variaveis': 1.0, 'prev_action_listen': 1.0}, {'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '16'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_condicionais' with prob 1.00.
+Action 'utter_link_conteudo_condicionais' ended with events '[]'
+Bot utterance 'BotUttered(text: Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+  if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+      Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+      https://www.w3schools.com/python/python_conditions.asp
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_sobre_variaveis': 1.0, 'prev_utter_sobre_variaveis': 1.0}, {'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '15'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_sobre_aix' with prob 1.00.
+Action 'utter_sobre_aix' ended with events '[]'
+Bot utterance 'BotUttered(text: Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
+Quer surpreender seu professor com um notão na sua avaliação? Não sabée o que fazer? Calma, que eu estou aqui para te ajudar! Posso corrigir seu código, se você quiser!
+Então você quer saber mais sobre mim? Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília? Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz de criar uma ferramenta de estudo tão maneira quanto essa!
+Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas dúvidas, e ainda corrige seus exercícios de programação? Béem, se você falou seu professor, você acertou... Mas sabia que eu também posso te ajudar com isso?
+Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
+A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
+Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_link_conteudo_condicionais': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_condicionais': 1.0, 'intent_link_conteudo_condicionais': 1.0}, {'prev_utter_sobre_aix': 1.0, 'intent_link_conteudo_condicionais': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Available web server routes: 
+static                                             GET, OPTIONS, HEAD             /static/[filename]
+custom_webhook_CmdlineInput.health                 GET, OPTIONS, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'link variavel' with intent '{'name': 'link_conteudo_variaveis', 'confidence': 0.6764016151428223}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [None, {}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '26'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_variaveis' with prob 1.00.
+Action 'utter_link_conteudo_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'link variáveis' with intent '{'name': 'link_conteudo_variaveis', 'confidence': 0.8433394432067871}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '26'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_variaveis' with prob 1.00.
+Action 'utter_link_conteudo_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'me manda link de variável' with intent '{'name': 'link_conteudo_variaveis', 'confidence': 0.8323766589164734}' and entities '[]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+	is_authenticated: None
+	servico: None
+	sistema: None
+Current tracker state [{'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '26'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_link_conteudo_variaveis' with prob 1.00.
+Action 'utter_link_conteudo_variaveis' ended with events '[]'
+Bot utterance 'BotUttered(text: Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
+, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}, {'intent_link_conteudo_variaveis': 1.0, 'prev_action_listen': 1.0}, {'prev_utter_link_conteudo_variaveis': 1.0, 'intent_link_conteudo_variaveis': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'

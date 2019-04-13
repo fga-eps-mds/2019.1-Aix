@@ -5,12 +5,17 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
+  - link_conteudo_condicionais
   - sobre_condicionais
   - sobre_variaveis
   - sobre_inteiros
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
+  - sobre_condicionais_exercicios
+  - exemplo_variaveis
+  - exemplo_condicionais
+  - link_conteudo_variaveis
 
 entities:
   - servico
@@ -33,23 +38,23 @@ templates:
 
   utter_cumprimentar:
     - text: |
-          Oiieee, tudo Bééem?
+        Oiieee, tudo Bééem?
 
-          Sou Aix, como posso te ajudar?
+        Sou Aix, como posso te ajudar?
 
   utter_despedir:
     - text: |
-          Bééem, foi ótimo poder me divertir enquanto te ajudo!
+        Bééem, foi ótimo poder me divertir enquanto te ajudo!
 
-          Qualquer dúvida conta comigo, beleza?
+        Qualquer dúvida conta comigo, beleza?
 
-          Até logo meu pequeno jupiter!
+        Até logo meu pequeno jupiter!
 
   utter_tudo_bem:
     - text: |
-          Eu estou béeḿm, obrigado por se importar!
+        Eu estou béeḿm, obrigado por se importar!
 
-          Em que posso te ajudar?
+        Em que posso te ajudar?
 
   utter_sobre_python:
     - text: |
@@ -75,6 +80,13 @@ templates:
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim! Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você tambéem precisa do ambiente Jupyter instalado!
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
+
+  utter_link_conteudo_condicionais:
+    - text: |
+        Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+          if Aix_não_sanou_sua_duvida or Quer_mais_informações:
+              Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+              https://www.w3schools.com/python/python_conditions.asp
 
   utter_sobre_condicionais:
     - text: |
@@ -118,6 +130,60 @@ templates:
     - text : |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
+        
+  utter_exemplo_variaveis:
+    - text: |
+        Então você quer ver como as variáveis funcionam...
+        Não é fácil igual comer capim, mas vou te dar alguns exemplos e você vai entender!!!
+        Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
+        Num código ficaria mais ou menos assim:
+          nome da variável = conteúdo da variável
+          username = "username@email.com"
+          senha = "digitos1234"
+        Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        Outro exemplo possível é uma equação, onde você já tem variáveis!!
+        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+          y1 = (-b + delta**1/2)/(2*a)
+          y2 = (-b - delta**1/2)/(2*a)
+        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+        a, b, c, delta, y1 e y2
+        Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
+
+  utter_sobre_condicionais_exercicios:
+    - text : |
+        Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
+        A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+        Veja esses 3 exercícios:
+          Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
+          Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
+          Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
+
+  utter_exemplo_condicionais:
+    - text : |
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa!
+        Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
+        caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
+        que seja printado "amo a Aix" :
+          
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+  utter_link_conteudo_variaveis:
+    - text : |
+        Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+        Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
+        Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+        onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
+        e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
+
 
 actions:
   - utter_default
@@ -129,9 +195,14 @@ actions:
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
+  - utter_link_conteudo_condicionais
   - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
+  - utter_sobre_condicionais_exercicios
+  - utter_exemplo_variaveis
+  - utter_exemplo_condicionais
+  - utter_link_conteudo_variaveis

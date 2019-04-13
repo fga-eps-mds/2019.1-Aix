@@ -58,6 +58,7 @@
 - beleza
 - bom
 - esta bem
+- voce esta bem 
 - voce esta bem
 
 ## intent:sobre_python
@@ -103,6 +104,24 @@
 - cabrita
 - bode
 
+## intent:link_conteudo_condicionais
+- link sobre condicionais
+- link sobre if
+- link sobre else
+- link sobre condicional
+- mais estruturas condicionais
+- mais if
+- mais else
+- exemplos if
+- conteudo if
+- exemplos else
+- conteudo else
+- conteudo if
+- me de um exemplo if else
+- nao entendi if else
+- saber mais if else
+- outros exemplos if else
+
 ## intent:sobre_condicionais
 - o que e if
 - o que e else
@@ -121,8 +140,6 @@
 - montar um if
 - montar um else
 - estruturas condicionais
-
-
 
 ## intent:sobre_variaveis
 - o que sao variaveis
@@ -190,3 +207,71 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:sobre_condicionais_exercicios
+- exercicio condicionais
+- exercicio if else
+- exercicios condicionais
+- exercicios if else
+- treinar condicionais
+- treinar if else
+- saber se aprendi if else
+- saber se aprendi condicionais
+- uri if else
+- uri condicionais
+- testar conhecimentos if else
+- testar conhecimentos condicionais
+
+## intent:exemplo_variaveis
+- me de exemplos de variaveis
+- como usar essas variaveis?
+- não entendi como usa a variável
+- mas e eu faço como com variáveis?
+- e como que uso?
+- exemplos variaveis
+- exemplos de variaveis
+- me explica como usa essas variaveis
+- me ajuda com exemplos de variaveis
+- voce pode me ajudar com exemplos de variaveis?
+- como variaveis funcionam
+- exemplos variáveis
+- exemplo variável
+- exemplos python variáveis
+- exemplo variável python
+- como fazer uma variavel em python
+- como funciona as variaveis
+- funcionamento variaveis
+- variaveis na pratica
+- codigo de exemplo de variaveis
+
+## intent:exemplo_condicionais
+- me de exemplo de if else
+- exemplo if else
+- como fazer um if else
+- fazer if else
+- montar if else
+- sintaxe if else
+- sintaxe condicionais
+- exemplo de condicionais
+- if else na pratica
+- funcionamento condicional
+- funcionamento if else
+
+## intent:link_conteudo_variaveis
+- tem algum link pra entender variaveis?
+- mais conteudo sobre variaveis
+- link externos para variaveis
+- links sobre variaveis
+- mais informações sobre variaveis
+- conteudo aprofundado de variaveis
+- mais sobre variaveis
+- tem links sobre variaveis?
+- me manda algum site falando sobre variaveis
+- sites variaveis
+- site variavel
+- links variáveis
+- link variável
+- conteúdo extra variável
+- conteúdos extra variáveis
+- nao entendi variavel, algum site?
+- me dá mais conteúdo sobre variáveis, pf
