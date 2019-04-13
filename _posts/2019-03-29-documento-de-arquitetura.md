@@ -13,7 +13,7 @@ tags: documento arquitetura mds
 ### 1.1 Finalidade
 
 <p align="justify"> &emsp;&emsp;
-Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pela equipe de desenvolvimento no decorrer da estruturação do escopo.
+Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pelo arquiteto em conjunto com o DevOps, PO, ScrumMaster e a Equipe de Desenvolvimento no decorrer da estruturação do escopo.
 </p>
 
 <!--more-->
@@ -21,7 +21,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema e, de
 ### 1.2 Escopo
 
 <p align="justify"> &emsp;&emsp;
-Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada online, e o bot visa ensinar o básico sobre Python para os usuários.</p>
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download, o bot também será disponibilizado através do Telegram.</p>
 <p align="justify"> &emsp;&emsp;
 Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de uso, entre outros.</p>
 
@@ -63,18 +63,22 @@ O ChatBot Aix será uma ferramente que irá utilizar várias ferramentas como in
 * Jupyter Notebook: Ferramenta de compartilhamento de documentos e códigos executaveis.
 * Telegram: Aplicativo de troca de mensagem.
 * Travis CI: Ferramenta utilizada para integração continua.
+* ElasticSearch: Ferramenta de análise de texto.
+* Kibana: Plugin do ElasticSearch para a visualização dos dados obtidos pelo mesmo.
 
 <p align="justify">
-O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve ser eficiente, conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como o estruturamento de código, para que assim seja garantida a manutenibilidade do sistema.
+O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como disponibilidade, segurança, usabilidade, escalabilidade,e garantir a manutenibilidade do sistema.
 </p>
 
 # 3. Metas e Restrições da Arquitetura 
 
 São metas de de Arquitetura:
- - Disponibilizar ao usuário um fluxo constante de conversas para sanar a necessidade do usuário de aprender o básico sobre a linguagem Python.
+ - Disponibilizar ao usuário um fluxo constante de conversas para sanar a  necessidade do usuário de aprender o básico sobre a linguagem Python.
+ - Desacoplamento e independencia entre os serviços.
+ - Monitoramenteo e escalabilidade dos serviços.
 
-São restrições de Arquitetura
- - Fazer
+São restrições de Arquitetura:
+ - Serviços centrais como os do Rasa Core e o Rasa Actions não devem se comunicar diretamente com o cliente apenas através de interfaces e _APIs Gateways_.
  - Conexão necessária com a internet.
 
 # 4. Visão de Casos de Uso
@@ -96,17 +100,6 @@ São restrições de Arquitetura
 
 # 5. Visão Lógica
 
-
-<!-- # 6. Desempenho
-<p align="justify"> &emsp;&emsp;
-O desempenho do sistema será afetado por fatores como a velocidade da conexão do usuário com a internet e a quantidade de requisições sendo realizadas.
+### 4.1 Diagrama de Pacotes
+<p align="justify">
 </p>
-
-
-# 7. Qualidade
-<p align="justify"> &emsp;&emsp;
-A arquitetura baseada em microserviços é ideal neste projeto porque todos os serviços são independentes e por conta de tal independência é possível gerenciar o trafego de todos individualmente, de modo que fica mais fácil de replicar ou excluir containers quando o trafego aumenta consideravelmente.
-Além de que, pelo fato de serem independentes é possível escalar todos os serviços, adicionar novas funcionalidades e remontar a arquitetura de maneira muito mais simples do que em um serviço monolítico
-</p> -->
-
-
