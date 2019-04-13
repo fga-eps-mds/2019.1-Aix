@@ -2,6 +2,7 @@
 layout: post
 title: Plano de Comunicação
 tags: plano comunicação eps
+category: Gerencia
 ---
 
 |Data   |Versão   |Descrição   |Autor   |

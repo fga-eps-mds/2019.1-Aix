@@ -2,9 +2,9 @@
 layout: post
 title: Identidade Visual
 tags: identidade visual mds 
+category: Produto
 ---
 
-# 1. Identidade visual
 ## 1.1 Logo
 <p align="justify"> &emsp;&emsp;
 A ideia do mascote surgiu a partir de uma história da mitologia romana, referente ao nascimento do deus Júpiter e a forma como a cabra Aix foi necessária para sua sobrevivência. A analogia vem do trocadilho formado pelo nome do deus romano e a plataforma Jupyter, com a qual o bot irá trabalhar em conjunto e "alimentar" de informações sobre a linguagem Python, que é representada na arte pela cobras entrelaçadas no símbolo da plataforma.

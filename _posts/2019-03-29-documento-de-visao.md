@@ -2,9 +2,8 @@
 layout: post
 title: Documento de Visão
 tags: documento visão mds
+category: Projeto
 ---
-
-# Documento de Visão
 
 ## 1.  Introdução
 <p align="justify"> &emsp;&emsp;

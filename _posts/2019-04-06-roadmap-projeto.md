@@ -2,6 +2,7 @@
 layout: post
 title: Roadmap do Projeto
 tags: projeto eps documento roadmap
+category: Projeto
 ---
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |

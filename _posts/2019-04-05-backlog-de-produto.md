@@ -2,8 +2,7 @@
 layout: post
 title: Backlog do Produto
 tags: plano backlog documento eps
----
-# Backlog do Produto
+category: Produto
 ---
 
 Foram criado algumas personas para inserção das histórias de usuário como:
