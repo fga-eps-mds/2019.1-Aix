@@ -78,3 +78,7 @@
 ## link_conteudo_variaveis
 * link_conteudo_variaveis
     - utter_link_conteudo_variaveis
+
+## curiosidades_python
+* curiosidades_python
+    - utter_curiosidades_python
