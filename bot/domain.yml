@@ -216,7 +216,7 @@ templates:
     - text : |
       Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
       sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
-      Olha aqui ó: 
+      Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
     
 actions:
   - utter_default
