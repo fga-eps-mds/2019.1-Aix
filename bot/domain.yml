@@ -17,6 +17,7 @@ intents:
   - exemplo_condicionais
   - link_exercicios_variaveis
   - link_conteudo_variaveis
+  - curiosidades_python
 
 entities:
   - servico
@@ -131,7 +132,7 @@ templates:
     - text : |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
-        
+
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam...
@@ -169,7 +170,7 @@ templates:
         Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
         caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
         que seja printado "amo a Aix" :
-          
+
           if x == 2:
             print("amo feno")
           elif x == 5:
@@ -191,10 +192,18 @@ templates:
     - text : |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
         Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
-        Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais, 
+        Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais,
         onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
+  utter_curiosidades_python:
+    - text : |
+        O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
+        Existe um poema da linguagem Python chamado Zen do Python que resume as boas práticas.
+        Tenta usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
+        O Python serviu de inspiração para muitas linguagens novas!!
+        Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
+        Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
 
 actions:
@@ -219,3 +228,4 @@ actions:
   - utter_exemplo_condicionais
   - utter_link_exercicios_variaveis
   - utter_link_conteudo_variaveis
+  - utter_curiosidades_python
