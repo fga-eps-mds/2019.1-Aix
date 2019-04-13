@@ -58,7 +58,7 @@
 - beleza
 - bom
 - esta bem
-- voce esta bem 
+- voce esta bem
 - voce esta bem
 
 ## intent:sobre_python
@@ -275,3 +275,25 @@
 - conteúdos extra variáveis
 - nao entendi variavel, algum site?
 - me dá mais conteúdo sobre variáveis, pf
+
+## intent:manter_conversa
+- thank
+- agradecida
+- obrigada
+- obrigado
+- agradecido
+- grato
+- grata
+- ok
+- okay
+- thanks
+- devo minha gratidao
+- nao sei como agradecer
+- foi de grande ajuda
+- muito util
+- ajudou bastante
+- ajudou muito
+- meus agradecimentos
+- muito obrigada
+- muito obrigado
+- era so isso
