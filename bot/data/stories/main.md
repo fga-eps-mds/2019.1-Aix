@@ -82,6 +82,10 @@
 ## link_conteudo_variaveis
 * link_conteudo_variaveis
     - utter_link_conteudo_variaveis
+
+## sobre_laços
+* sobre_laços
+    - utter_sobre_laços
     
 ## curiosidades_python
 * curiosidades_python

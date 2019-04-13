@@ -288,6 +288,26 @@
 - nao entendi variavel, algum site?
 - me dá mais conteúdo sobre variáveis, pf
 
+## intent:sobre_laços
+- repoduzir uma açao
+- definiçao estruturas de repetiçao
+- loop infinito
+- definir estruturas de repetiçao
+- como repetir uma acao
+- o que sao laços
+- explique estruturas de repetiçao
+- repetir
+- loop
+- iterar
+- iteração
+- laços
+- repetições
+- iterador
+- while
+- for
+- enquanto
+- laço
+
 ## intent:curiosidades_python
 - zen do python
 - monte python

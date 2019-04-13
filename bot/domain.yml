@@ -17,6 +17,7 @@ intents:
   - exemplo_condicionais
   - link_exercicios_variaveis
   - link_conteudo_variaveis
+  - sobre_laços
   - curiosidades_python
 
 entities:
@@ -196,6 +197,11 @@ templates:
         onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
+  utter_sobre_laços:
+    - text : |
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
+        Laços são funções capazes de reproduzir determinada ação. Béem, vou explicar de outra forma. Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantidade de passos até chegar ao meu objetivo. Repetirei então a minha ação "dar um passo" até chegar ao meu feno de cada dia. Funciona mais ou menos assim!
+
   utter_curiosidades_python:
     - text : |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
@@ -204,7 +210,6 @@ templates:
         O Python serviu de inspiração para muitas linguagens novas!!
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
-
 
 actions:
   - utter_default
@@ -228,4 +233,5 @@ actions:
   - utter_exemplo_condicionais
   - utter_link_exercicios_variaveis
   - utter_link_conteudo_variaveis
+  - utter_sobre_laços
   - utter_curiosidades_python
