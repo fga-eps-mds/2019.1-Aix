@@ -331,3 +331,14 @@
 - fatos desconhecidos
 
 ## intent:link_conteudo_repeticao
+- mais conteudo for
+- mais conteudo while
+- link extra sobre repetiçao
+- outras sontes repeticao
+- outras fontes for while
+- quero saber mais sobre loop for while
+- ensinar mais cobre loop for while
+- link sobre estrtutura condicional
+- conteudo extra condicionais loop
+- site com loop
+- site sobre loop while for

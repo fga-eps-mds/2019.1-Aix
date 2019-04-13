@@ -214,6 +214,9 @@ templates:
 
   utter_link_conteudo_repeticao:
     - text : |
+      Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
+      sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
+      Olha aqui ó: 
     
 actions:
   - utter_default
