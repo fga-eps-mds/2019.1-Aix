@@ -30,6 +30,10 @@ parser.add_argument(
     help='Bot username at RocketChat(default: Bot)'
 )
 parser.add_argument(
+    '--bot-email', '-be', type=str, default='aix@email.com',
+    help='Bot email at RocketChat(default: aix@email.com)'
+)
+parser.add_argument(
     '--bot-username', '-bu', type=str, default='bot',
     help='Bot username at RocketChat(default: bot)'
 )
@@ -59,7 +63,7 @@ parser.add_argument(
 )
 
 args = parser.parse_args()
-
+print(args)
 
 host = args.rocketchat_url
 if host[-1] == '/':
@@ -75,7 +79,7 @@ bot = {
     'username': args.bot_username,
     'password': args.bot_password,
     'avatar': args.bot_avatar,
-    'email': args.bot_name + '@email.com',
+    'email': args.bot_email,
 }
 
 admin_name = args.admin_name

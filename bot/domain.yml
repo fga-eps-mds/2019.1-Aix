@@ -15,8 +15,11 @@ intents:
   - sobre_condicionais_exercicios
   - exemplo_variaveis
   - exemplo_condicionais
+  - link_exercicios_variaveis
   - link_conteudo_variaveis
   - manter_conversa
+  - sobre_laços
+  - curiosidades_python
 
 entities:
   - servico
@@ -177,6 +180,16 @@ templates:
           else:
             print("amo a Aix")
 
+  utter_link_exercicios_variaveis:
+    - text : |
+        Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
+        Por que você não tenta esse exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
+          Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
+          Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
+          Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+        Não esquece que para acessar o URI você precisa criar uma conta antes!!
+        Se você preferir, também achei esse exercício resolvido no YouTube, Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
+
   utter_link_conteudo_variaveis:
     - text : |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -189,6 +202,19 @@ templates:
     - text : |
         Sobre o que mais você deseja sabéer?
 
+  utter_sobre_laços:
+    - text : |
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
+        Laços são funções capazes de reproduzir determinada ação. Béem, vou explicar de outra forma. Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantidade de passos até chegar ao meu objetivo. Repetirei então a minha ação "dar um passo" até chegar ao meu feno de cada dia. Funciona mais ou menos assim!
+
+  utter_curiosidades_python:
+    - text : |
+        O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
+        Existe um poema da linguagem Python chamado Zen do Python que resume as boas práticas.
+        Tenta usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
+        O Python serviu de inspiração para muitas linguagens novas!!
+        Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
+        Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
 actions:
   - utter_default
@@ -210,5 +236,9 @@ actions:
   - utter_sobre_condicionais_exercicios
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
+  - utter_link_exercicios_variaveis
   - utter_link_conteudo_variaveis
   - utter_manter_conversa
+  - utter_sobre_laços
+  - utter_curiosidades_python
+  
