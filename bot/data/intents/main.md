@@ -257,6 +257,18 @@
 - funcionamento condicional
 - funcionamento if else
 
+## intent:link_exercicios_variaveis
+- exercícios sobre variáveis
+- exercicios variavel
+- exercicio de variaveis
+- link exercicios sobre variaveis
+- treinar sobre variáveis
+- testar variaveis
+- aprender exercicios variaveis
+- me envie links com exercicios sobre variaveis
+- onde faço exercícios sobre variáveis
+- exercicio sobre variavel
+
 ## intent:link_conteudo_variaveis
 - tem algum link pra entender variaveis?
 - mais conteudo sobre variaveis
