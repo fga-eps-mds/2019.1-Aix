@@ -187,12 +187,7 @@ templates:
 
   utter_manter_conversa:
     - text : |
-        Bée bée... o que temos pra hoje?
-        Sobre o que você deseja conversar agora, meu consagrado?
-        E então, qual a sua maior dificuldade em Python?
         Sobre o que mais você deseja sabéer?
-        Béeleza? Gostaria de mais alguma informação?
-        Em que mais eu posso ser útil? Bée bée
 
 
 actions:
