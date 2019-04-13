@@ -2,6 +2,7 @@
 layout: post
 title: Documento de Arquitetura
 tags: documento arquitetura mds
+category: Projeto
 ---
 
 |Data|Versão|Descrição|Autor|
@@ -19,6 +20,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema e, de
 <!--more-->
 
 ### 1.2 Escopo
+
 
 <p align="justify"> &emsp;&emsp;
 Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download, o bot também será disponibilizado através do Telegram.</p>
@@ -85,18 +87,18 @@ São restrições de Arquitetura:
 
 ### 4.1 Diagrama de casos de uso
 
- <img src="https://i.imgur.com/HLweYIR.png" alt="Smiley face">
+
+<img src="https://i.imgur.com/I56a0Su.png" alt="drawing"/>
 
 ### 4.2 Especificações dos casos de uso
+
 |Casos de Uso|Ator|Descrição|
 |---|---|------|
 |UC01 - Iniciar conversa| Usuário | Este caso de uso ocorre quando inicializa o bot e manda uma mensagem inicial|
 |UC02 - Enviar arquivo| Usuário| Este caso de uso permite que o usuário envie um arquivo de código para o bot|
-|UC03 - Escrever código| Usuário | Este caso de uso ocorre quando usuário implementa o código em seu computador|
-|UC04 - Compilação de códigos| - | Este caso de uso ocorre quando o sistema compila o código enviado pelo usuário|
-|UC05 - Feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
-|UC06 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
-|UC07 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
+|UC03 - Dar feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
+|UC04 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
+|UC05 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
 
 # 5. Visão Lógica
 

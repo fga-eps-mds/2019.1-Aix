@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Estudo de Tecnologia
+title: Estudo de Tecnologia Boilerplate
 tags: estudo tecnologia boilerplate eps mds
+category: Projeto
 ---
-# Estudo de Tecnologia Boilerplate
 
 ## Definições
 * **Intent**: Inteção do usuário, "significado" da frase;
