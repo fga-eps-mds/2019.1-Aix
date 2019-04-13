@@ -102,6 +102,6 @@ São restrições de Arquitetura:
 
 # 5. Visão Lógica
 
-### 4.1 Diagrama de Pacotes
+### 5.1 Diagrama de Pacotes
 <p align="justify">
 </p>
