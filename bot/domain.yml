@@ -17,6 +17,7 @@ intents:
   - exemplo_condicionais
   - link_exercicios_variaveis
   - link_conteudo_variaveis
+  - manter_conversa
   - sobre_laços
   - curiosidades_python
   - links_exercicios_repeticao
@@ -197,6 +198,10 @@ templates:
         onde ele resume o que são variáveis, Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
+  utter_manter_conversa:
+    - text : |
+        Sobre o que mais você deseja sabéer?
+
   utter_sobre_laços:
     - text : |
         Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
@@ -242,6 +247,7 @@ actions:
   - utter_exemplo_condicionais
   - utter_link_exercicios_variaveis
   - utter_link_conteudo_variaveis
+  - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
   - utter_links_exercicios_repeticao
