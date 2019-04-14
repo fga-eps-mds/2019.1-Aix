@@ -82,6 +82,10 @@
 * link_conteudo_variaveis
     - utter_link_conteudo_variaveis
 
+## manter_conversa
+* manter_conversa
+    - utter_manter_conversa
+
 ## sobre_laços
 * sobre_laços
     - utter_sobre_laços
