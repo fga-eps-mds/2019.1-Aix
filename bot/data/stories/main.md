@@ -24,7 +24,7 @@
 
 ## sobre_python
 * sobre_python
-  - utter_sobre_python
+    - utter_sobre_python
 
 ## menu_ajuda
 * menu_ajuda
@@ -32,12 +32,11 @@
 
 ## sobre_aix
 * sobre_aix
-  - utter_sobre_aix
+    - utter_sobre_aix
 
 ## link_conteudo_condicionais
 * link_conteudo_condicionais
     - utter_link_conteudo_condicionais
-    - utter_sobre_aix
 
 ## sobre_condicionais
 * sobre_condicionais
@@ -90,3 +89,7 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
+
+## fallback
+* fallback
+    - utter_fallback
