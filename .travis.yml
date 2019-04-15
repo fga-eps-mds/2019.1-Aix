@@ -1,0 +1,24 @@
+services:
+  - docker
+
+sudo: required
+
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+
+env:
+ - DOCKER_COMPOSE_VERSION=1.23.2
+
+
+before_install:
+  - sudo rm /usr/local/bin/docker-compose
+  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
+  - chmod +x docker-compose
+  - sudo mv docker-compose /usr/local/bin
+
+script:
+  - docker-compose up --build -d rocketchat
+# - docker-compose up --build jupyter
+  - docker-compose up --build -d bot
+  - docker-compose exec bot flake8 --exclude='Makefile, models, data, *.log, __pycache__, *.yml, *.txt' --ignore=F821, F841
+  - docker-compose exec actions flake8 --exclude='__pycache__, *.Dockerfile, *.txt'
