@@ -66,6 +66,19 @@ services:
       - ./bot/Makefile:/bot/Makefile
     command: "make run-actions"
 
+  telegram:
+    build:
+      context: ./services/telegram
+      dockerfile: Dockerfile
+    volumes:
+      - './services/telegram:/usr/src/app'
+    ports:
+      - 5000:5000
+    environment:
+      - FLASK_APP = project/__init__.py
+      - FLASK_ENV=development
+      - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
+
   jupyter:
     build:
       context: ./jupyter
