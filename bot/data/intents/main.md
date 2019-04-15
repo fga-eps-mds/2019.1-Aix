@@ -370,3 +370,19 @@
 - me indique uma playlist para estudar
 - qual seu signo
 - o que e stackoverflow
+
+## intent:links_exercicios_repeticao
+- exercicio laco de repeticao
+- exercicios laços de repetição
+- exercicio for
+- exercicios while
+- exercicios for while
+- treinar repeticao
+- treinar for while
+- saber se aprendi for while
+- saber se aprendi repeticao
+- uri for while
+- uri repeticao
+- testar conhecimentos for while
+- testar conhecimentos repeticao
+>>>>>>> b057d43c9f24e2eaa37ada58fe4bd353cfbb4374
