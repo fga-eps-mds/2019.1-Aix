@@ -351,3 +351,18 @@
 - dados curiosos
 - fatos curiosos
 - fatos desconhecidos
+
+## intent:links_exercicios_repeticao
+- exercicio laco de repeticao
+- exercicios laços de repetição
+- exercicio for
+- exercicios while
+- exercicios for while
+- treinar repeticao
+- treinar for while
+- saber se aprendi for while
+- saber se aprendi repeticao
+- uri for while
+- uri repeticao
+- testar conhecimentos for while
+- testar conhecimentos repeticao

@@ -20,7 +20,7 @@ intents:
   - manter_conversa
   - sobre_laços
   - curiosidades_python
-
+  - links_exercicios_repeticao
 entities:
   - servico
   - sistema
@@ -215,6 +215,15 @@ templates:
         O Python serviu de inspiração para muitas linguagens novas!!
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
+  utter_links_exercicios_repeticao:
+    - text : |
+        Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
+        A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+        Veja esses 3 exercícios:
+          Números Pares - https://www.urionlinejudge.com.br/judge/pt/problems/view/1059
+          Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
+          Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
+
 
 actions:
   - utter_default
@@ -241,4 +250,4 @@ actions:
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
-  
+  - utter_links_exercicios_repeticao
