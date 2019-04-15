@@ -95,5 +95,5 @@
     - utter_curiosidades_python
 
 ## fallback
-* fallback
-    - utter_fallback
+* out_of_scope
+    - utter_default

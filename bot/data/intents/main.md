@@ -352,7 +352,7 @@
 - fatos curiosos
 - fatos desconhecidos
 
-## intent:fallback
+## intent:out_of_scope
 - voce sabe sobre grafos
 - o que e geometria computacional
 - o que e uma tupula
@@ -369,3 +369,4 @@
 - gosta de ouvir musica 
 - me indique uma playlist para estudar
 - qual seu signo
+- o que e stackoverflow

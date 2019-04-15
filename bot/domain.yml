@@ -20,7 +20,7 @@ intents:
   - manter_conversa
   - sobre_laços
   - curiosidades_python
-  - fallback
+  - out_of_scope
 
 entities:
   - servico
@@ -217,7 +217,7 @@ templates:
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
-  utter_fallback:
+  utter_default:
     - text: |
         Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
         Você pode perguntar de novo?
@@ -249,5 +249,5 @@ actions:
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
-  - utter_fallback
+  - utter_default
   
