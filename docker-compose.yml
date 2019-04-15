@@ -39,6 +39,7 @@ services:
       - ROCKETCHAT_BOT_USERNAME=${BOT_USER}
       - ROCKETCHAT_BOT_PASSWORD=${BOT_PASS}
       - ROCKETCHAT_BOT_EMAIL=${BOT_EMAIL}
+      - ROCKETCHAT_BOT_NAME=${BOT_NAME}
 
       # Should be set to 'production' or 'beta' or 'dev'
       - ENVIRONMENT_NAME=${ENV_NAME}
