@@ -37,7 +37,6 @@
 ## link_conteudo_condicionais
 * link_conteudo_condicionais
     - utter_link_conteudo_condicionais
-    - utter_sobre_aix
 
 ## sobre_condicionais
 * sobre_condicionais
@@ -83,6 +82,10 @@
 * link_conteudo_variaveis
     - utter_link_conteudo_variaveis
 
+## manter_conversa
+* manter_conversa
+    - utter_manter_conversa
+
 ## sobre_laços
 * sobre_laços
     - utter_sobre_laços
@@ -90,7 +93,13 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
+<<<<<<< HEAD
 
 ## link_conteudo_repeticao
 * link_conteudo_repeticao
     - utter_link_conteudo_repeticao
+=======
+##links_exercicios_repeticao
+* links_exercicios_repeticao
+    - utter_links_exercicios_repeticao
+>>>>>>> b057d43c9f24e2eaa37ada58fe4bd353cfbb4374

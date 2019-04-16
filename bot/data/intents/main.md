@@ -288,6 +288,28 @@
 - nao entendi variavel, algum site?
 - me dá mais conteúdo sobre variáveis, pf
 
+## intent:manter_conversa
+- certo
+- beleza
+- perfeito
+- otimo
+- perfect
+- legal
+- cool
+- ok
+- okay
+- justo
+- foi esclarecido
+- tudo certo
+- foi de grande ajuda
+- muito util
+- ajudou bastante
+- ajudou muito
+- gostei bastante
+- tirou minhas duvidas
+- esclareceu minha dúvida
+- era so isso
+
 ## intent:sobre_laços
 - repoduzir uma açao
 - definiçao estruturas de repetiçao
@@ -342,3 +364,18 @@
 - conteudo extra condicionais loop
 - site com loop
 - site sobre loop while for
+
+## intent:links_exercicios_repeticao
+- exercicio laco de repeticao
+- exercicios laços de repetição
+- exercicio for
+- exercicios while
+- exercicios for while
+- treinar repeticao
+- treinar for while
+- saber se aprendi for while
+- saber se aprendi repeticao
+- uri for while
+- uri repeticao
+- testar conhecimentos for while
+- testar conhecimentos repeticao
