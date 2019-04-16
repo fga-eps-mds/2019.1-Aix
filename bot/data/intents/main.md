@@ -104,7 +104,7 @@
 - cabrita
 - bode
 
-## intent:link_conteudo_condicionais
+## intent:conteudo_extra_condicionais
 - link sobre condicionais
 - link sobre if
 - link sobre else
@@ -208,7 +208,7 @@
 - booleana
 - verdadeira e falsa
 
-## intent:sobre_condicionais_exercicios
+## intent:exercicios_condicionais
 - exercicio condicionais
 - exercicio if else
 - exercicios condicionais
@@ -257,7 +257,7 @@
 - funcionamento condicional
 - funcionamento if else
 
-## intent:link_exercicios_variaveis
+## intent:exercicios_variaveis
 - exercícios sobre variáveis
 - exercicios variavel
 - exercicio de variaveis
@@ -269,7 +269,7 @@
 - onde faço exercícios sobre variáveis
 - exercicio sobre variavel
 
-## intent:link_conteudo_variaveis
+## intent:conteudo_extra_variaveis
 - tem algum link pra entender variaveis?
 - mais conteudo sobre variaveis
 - link externos para variaveis
@@ -352,7 +352,7 @@
 - fatos curiosos
 - fatos desconhecidos
 
-## intent:links_exercicios_repeticao
+## intent:exercicios_repeticao
 - exercicio laco de repeticao
 - exercicios laços de repetição
 - exercicio for
