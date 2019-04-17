@@ -5,7 +5,7 @@
 - criar chamado
 - abrir um chamado
 
-## intent:pesquisar_no_stackoverflow
+## intent:pesquisa_stackoverflow
 - quero pesquisar [variaveis](pesquisa) no stackoverflow
 - pesquise sobre [condicionais](pesquisa) para mim
 - olhe o que sao [estruturas de repeticao](pesquisa) na internet
