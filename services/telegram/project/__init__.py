@@ -23,11 +23,9 @@ def index():
         msg = request.get_json()
         chat_id= msg["message"]['chat']['id']
         mensagem = msg['message']['text']
-        aix.sendMessage(chat_id,"olha, vou te imitar!\n" + mensagem)
+        aix.sendMessage(chat_id,"Béeee olha, vou te imitar béeee!\n" + mensagem)
         write_json(msg, 'Resposta_request.json')
-        
-    
-    return '<h1> lhul </h1>'
+        return Response('ok',status=200)
 
 
 @app.route('/ping', methods=['GET'])
