@@ -351,3 +351,26 @@
 - dados curiosos
 - fatos curiosos
 - fatos desconhecidos
+
+## intent:exemplo_laços
+- exemplo de laços
+- exemplo de estruturas de repetiçao
+- exemplos de laços
+- exemplos de estruturas de repetiçao
+- exemplos de while
+- exemplos de for
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- modelos de laços
+- sintaxe de laços
+- sintaxe de iteraçao
+- modelos de estruturas de repetiçao
+- modelo de while
+- sintaxe de while
+- sintaxe de for
+- como repetir açao
+- exemplifique laço
+- exemplifique estruturas de repetiçao
+- exemplifique while
+- exemplifique for
