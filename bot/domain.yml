@@ -29,24 +29,10 @@ intents:
 
 entities:
   - pesquisa
-  - servico
-  - sistema
 
 slots:
   pesquisa:
     type: unfeaturized
-
-  is_authenticated:
-    type: bool
-
-  servico:
-    type: text
-
-  sistema:
-    type: categorical
-    values:
-      - Organon Preditivo
-
 
 templates:
 

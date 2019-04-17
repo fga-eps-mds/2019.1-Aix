@@ -8,7 +8,7 @@ class ActionOTRS(Action):
         return "action_otrs"
     def run(self, dispatcher, tracker, domain):
         try:
-            dispatcher.utter_message("Mensagem enviada por uma custom action!")
+            dispatcher.utter_message("Mensagem enviada por uma custom action!!")
         except ValueError:
             dispatcher.utter_message(ValueError)
     def createTicket(self, dispatcher, tracker, domain):
