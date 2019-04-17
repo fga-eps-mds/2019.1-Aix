@@ -93,6 +93,11 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
-##exercicios_repeticao
+
+## link_conteudo_repeticao
+* link_conteudo_repeticao
+    - utter_link_conteudo_repeticao
+
+## exercicios_repeticao
 * exercicios_repeticao
     - utter_exercicios_repeticao
