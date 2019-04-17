@@ -3,5 +3,5 @@
     - action_otrs
 
 ## pesquisar_no_stackoverflow
-* pesquisar_no_stackoverflow
-    - action_pesquisar_no_stackoverflow
+* pesquisa_stackoverflow
+    - action_pesquisa_stackoverflow

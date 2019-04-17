@@ -25,7 +25,7 @@ intents:
   - exercicios_repeticao
 
   - action_otrs
-  - pesquisar_no_stackoverflow
+  - pesquisa_stackoverflow
 
 entities:
   - pesquisa
@@ -238,7 +238,7 @@ templates:
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
-    
+
 actions:
   - utter_cumprimentar
   - utter_despedir
@@ -266,4 +266,4 @@ actions:
   - utter_exercicios_repeticao
 
   - action_otrs
-  - action_pesquisar_no_stackoverflow
+  - action_pesquisa_stackoverflow

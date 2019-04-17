@@ -19,11 +19,12 @@ class ActionOTRS(Action):
         #TODO
         return
 
-class ActionPesquisarNoStackoverflow(Action):
+class ActionPesquisaStackoverflow(Action):
     def name(self):
-        return "action_pesquisar_no_stackoverflow"
+        return "action_pesquisa_stackoverflow"
+
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("Conferindo...")
+        dispatcher.utter_message("Buscando...")
         pesquisa = tracker.get_slot('pesquisa')
         dispatcher.utter_message(pesquisa)
         x = tracker.current_slot_values()['pesquisa']

@@ -5,7 +5,7 @@
 - criar chamado
 - abrir um chamado
 
-## intent:pesquisar_no_stackoverflow
+## intent:pesquisa_stackoverflow
 - quero pesquisar [variaveis](pesquisa) no stackoverflow
 - olhe o que sao [estruturas de repeticao](pesquisa) na internet
 - gostaria de pesquisar [qual o limite de um inteiro](pesquisa)
@@ -17,3 +17,4 @@
 - procure sobre [algo](pesquisa) no stackoverflow
 - procure sobre [algo](pesquisa) na internet
 - procure [C++](pesquisa) no stackoverflow
+
