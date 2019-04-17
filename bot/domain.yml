@@ -21,6 +21,7 @@ intents:
   - sobre_laços
   - curiosidades_python
   - out_of_scope
+  - link_conteudo_repeticao
   - exercicios_repeticao
 
 entities:
@@ -238,6 +239,13 @@ templates:
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
 
+
+  utter_link_conteudo_repeticao:
+    - text : |
+      Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
+      sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
+      Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
+    
 actions:
   - utter_cumprimentar
   - utter_despedir
@@ -261,4 +269,5 @@ actions:
   - utter_sobre_laços
   - utter_curiosidades_python
   - utter_default
+  - utter_link_conteudo_repeticao
   - utter_exercicios_repeticao

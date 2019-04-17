@@ -97,6 +97,10 @@
 ## fallback
 * out_of_scope
     - utter_default
+    
+## link_conteudo_repeticao
+* link_conteudo_repeticao
+    - utter_link_conteudo_repeticao
 
 ## exercicios_repeticao
 * exercicios_repeticao
