@@ -352,6 +352,25 @@
 - fatos curiosos
 - fatos desconhecidos
 
+## intent:out_of_scope
+- voce sabe sobre grafos
+- o que e geometria computacional
+- o que e uma tupula
+- existem arvores binarias em python
+- voce fala sobre o meio ambiente
+- qual a origem do mundo
+- voce tem signo
+- vc gosta de carnaval
+- qual a melhor linguagem de programacao
+- o que voce acha de C++
+- C e uma boa linguagem
+- torce pra qual time
+- joga algum jogo
+- gosta de ouvir musica 
+- me indique uma playlist para estudar
+- qual seu signo
+- o que e stackoverflow
+
 ## intent:link_conteudo_repeticao
 - mais conteudo for
 - mais conteudo while

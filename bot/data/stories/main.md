@@ -24,7 +24,7 @@
 
 ## sobre_python
 * sobre_python
-  - utter_sobre_python
+    - utter_sobre_python
 
 ## menu_ajuda
 * menu_ajuda
@@ -32,7 +32,7 @@
 
 ## sobre_aix
 * sobre_aix
-  - utter_sobre_aix
+    - utter_sobre_aix
 
 ## conteudo_extra_condicionais
 * conteudo_extra_condicionais
@@ -94,6 +94,10 @@
 * curiosidades_python
     - utter_curiosidades_python
 
+## fallback
+* out_of_scope
+    - utter_default
+    
 ## link_conteudo_repeticao
 * link_conteudo_repeticao
     - utter_link_conteudo_repeticao
