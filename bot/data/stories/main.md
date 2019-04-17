@@ -34,9 +34,9 @@
 * sobre_aix
   - utter_sobre_aix
 
-## link_conteudo_condicionais
-* link_conteudo_condicionais
-    - utter_link_conteudo_condicionais
+## conteudo_extra_condicionais
+* conteudo_extra_condicionais
+    - utter_conteudo_extra_condicionais
 
 ## sobre_condicionais
 * sobre_condicionais
@@ -62,9 +62,9 @@
 * sobre_booleanos
     - utter_sobre_booleanos
 
-## sobre_condicionais_exercicios
-* sobre_condicionais_exercicios
-    - utter_sobre_condicionais_exercicios
+## exercicios_condicionais
+* exercicios_condicionais
+    - utter_exercicios_condicionais
 
 ## exemplo_variaveis
 * exemplo_variaveis
@@ -74,13 +74,13 @@
 * exemplo_condicionais
     - utter_exemplo_condicionais
 
-## link_exercicios_variaveis
-* link_exercicios_variaveis
-    - utter_link_exercicios_variaveis
+## exercicios_variaveis
+* exercicios_variaveis
+    - utter_exercicios_variaveis
 
-## link_conteudo_variaveis
-* link_conteudo_variaveis
-    - utter_link_conteudo_variaveis
+## conteudo_extra_variaveis
+* conteudo_extra_variaveis
+    - utter_conteudo_extra_variaveis
 
 ## manter_conversa
 * manter_conversa
@@ -93,13 +93,11 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
-<<<<<<< HEAD
 
 ## link_conteudo_repeticao
 * link_conteudo_repeticao
     - utter_link_conteudo_repeticao
-=======
-##links_exercicios_repeticao
-* links_exercicios_repeticao
-    - utter_links_exercicios_repeticao
->>>>>>> b057d43c9f24e2eaa37ada58fe4bd353cfbb4374
+
+## exercicios_repeticao
+* exercicios_repeticao
+    - utter_exercicios_repeticao
