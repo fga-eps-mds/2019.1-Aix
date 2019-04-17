@@ -75,7 +75,7 @@ services:
     ports:
       - 5000:5000
     environment:
-      - FLASK_APP=./services/project/__init__.py
+      - FLASK_APP=project/__init__.py
       - FLASK_ENV=development
       - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
 
