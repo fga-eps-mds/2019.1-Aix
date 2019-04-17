@@ -10,7 +10,7 @@ _site/tags/
 _site/404.html
 
 ### Rasa ###
-bot/models
+/bot/models/*
 rasa_core.log
 errors.json
 
@@ -92,7 +92,7 @@ Temporary Items
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__
 *.py[cod]
 *$py.class
 
