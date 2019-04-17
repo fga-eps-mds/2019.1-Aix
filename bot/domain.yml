@@ -20,6 +20,7 @@ intents:
   - manter_conversa
   - sobre_laços
   - curiosidades_python
+  - exemplo_laços
 
 entities:
   - servico
@@ -216,6 +217,11 @@ templates:
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
+  utter_exemplo_laços:
+    - text : |
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação "dar um passo" até chegar ao meu feno. Funciona mais ou menos assim!
+
+
 actions:
   - utter_default
   - utter_cumprimentar
@@ -241,4 +247,4 @@ actions:
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
-  
+  - utter_exemplo_laços
