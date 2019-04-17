@@ -5,23 +5,23 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
-  - link_conteudo_condicionais
+  - conteudo_extra_condicionais
   - sobre_condicionais
   - sobre_variaveis
   - sobre_inteiros
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
-  - sobre_condicionais_exercicios
+  - exercicios_condicionais
   - exemplo_variaveis
   - exemplo_condicionais
-  - link_exercicios_variaveis
-  - link_conteudo_variaveis
+  - exercicios_variaveis
+  - conteudo_extra_variaveis
   - manter_conversa
   - sobre_laços
   - curiosidades_python
   - out_of_scope
-  - links_exercicios_repeticao
+  - exercicios_repeticao
 
 entities:
   - servico
@@ -87,7 +87,7 @@ templates:
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
-  utter_link_conteudo_condicionais:
+  utter_conteudo_extra_condicionais:
     - text: |
         Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
           if Aix_não_sanou_sua_duvida or Quer_mais_informações:
@@ -159,8 +159,8 @@ templates:
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
-  utter_sobre_condicionais_exercicios:
-    - text: |
+  utter_exercicios_condicionais:
+    - text : |
         Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
@@ -182,8 +182,8 @@ templates:
           else:
             print("amo a Aix")
 
-  utter_link_exercicios_variaveis:
-    - text: |
+  utter_exercicios_variaveis:
+    - text : |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
         Por que você não tenta esse exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
           Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
@@ -192,8 +192,8 @@ templates:
         Não esquece que para acessar o URI você precisa criar uma conta antes!!
         Se você preferir, também achei esse exercício resolvido no YouTube, Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-  utter_link_conteudo_variaveis:
-    - text: |
+  utter_conteudo_extra_variaveis:
+    - text : |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
         Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
         Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula sobre comandos iniciais,
@@ -217,7 +217,7 @@ templates:
         O Python serviu de inspiração para muitas linguagens novas!!
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
-  utter_links_exercicios_repeticao:
+  utter_exercicios_repeticao:
     - text : |
         Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
@@ -237,6 +237,7 @@ templates:
         Deve ter caído um pouco de capim nos meus olhos, você pode me perguntar de novo usando outras palavras?
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
+
 actions:
   - utter_cumprimentar
   - utter_despedir
@@ -244,20 +245,20 @@ actions:
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
-  - utter_link_conteudo_condicionais
+  - utter_conteudo_extra_condicionais
   - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
-  - utter_sobre_condicionais_exercicios
+  - utter_exercicios_condicionais
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
-  - utter_link_exercicios_variaveis
-  - utter_link_conteudo_variaveis
+  - utter_exercicios_variaveis
+  - utter_conteudo_extra_variaveis
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
   - utter_default
-  - utter_links_exercicios_repeticao
+  - utter_exercicios_repeticao
