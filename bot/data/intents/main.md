@@ -385,4 +385,3 @@
 - uri repeticao
 - testar conhecimentos for while
 - testar conhecimentos repeticao
->>>>>>> b057d43c9f24e2eaa37ada58fe4bd353cfbb4374
