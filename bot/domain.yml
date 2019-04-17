@@ -21,11 +21,19 @@ intents:
   - sobre_laços
   - curiosidades_python
   - exercicios_repeticao
+
+  - action_otrs
+  - pesquisar_no_stackoverflow
+
 entities:
+  - pesquisa
   - servico
   - sistema
 
 slots:
+  pesquisa:
+    type: unfeaturized
+
   is_authenticated:
     type: bool
 
@@ -251,3 +259,6 @@ actions:
   - utter_sobre_laços
   - utter_curiosidades_python
   - utter_exercicios_repeticao
+
+  - action_otrs
+  - action_pesquisar_no_stackoverflow
