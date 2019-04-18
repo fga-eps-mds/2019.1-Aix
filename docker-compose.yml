@@ -66,18 +66,23 @@ services:
       - ./bot/Makefile:/bot/Makefile
     command: "make run-actions"
 
-  telegram:
+  # ============================ Telegram Bot =================================
+  telegram_bot:
     build:
-      context: ./services/telegram
-      dockerfile: Dockerfile
-    volumes:
-      - './services/telegram:/usr/src/app'
-    ports:
-      - 5000:5000
+      context: .
+      dockerfile: ./docker/bot.Dockerfile
     environment:
-      - FLASK_APP=project/__init__.py
-      - FLASK_ENV=development
-      - APP_SETTINGS=project.config.DevelopmentConfig # sets environemnt config
+      - TELEGRAM_BOT_USERNAME=lappisbot
+      - TELEGRAM_TOKEN=token
+      - TELEGRAM_WEBHOOK=your_webhook_server/webhooks/telegram/webhook
+    ports:
+      - 5002:5002
+    depends_on:
+      - actions
+    volumes:
+      - ./bot:/bot
+      - ./scripts:/scripts
+    command: sh -c "make run-telegram"
 
   jupyter:
     build:
