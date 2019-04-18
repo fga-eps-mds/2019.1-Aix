@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Abertura da Sprint 2
-tags: sprint abertura eps 
+title: Abertura da Sprint 3
+tags: sprint abertura eps
 category: Sprint
 ---
 
