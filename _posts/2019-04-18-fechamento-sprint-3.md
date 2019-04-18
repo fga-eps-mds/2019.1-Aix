@@ -79,6 +79,7 @@ category: Sprint
 | Equipe de desenvolvimento desanimada   |planejamento de atividades com dificuldade evolutiva   |Desafios nas Sprints para animar a equipe de desenvolvimento   |
 | Equipe protelando atividades  | Planejar a sprint com atividades pequenas para serem feitas de forma contínua   | Reunião e discussão sobre responsabilidades e importância do trabalho contínuo  |
 
+
 ## Resumo pelo Scrum Master
 
 A Sprint foi bem mais "pesada" para a equipe de desenvolvimento, se considerada com as anteriores, porém a equipe conseguiu completar todas as atividades propostas. Deploy contínuo nãoo foi desenvolvido, devido a pendencias (e falta de comunicação de devops e arquitetura em informar esse problema). Exceto deploy, todo o planejamento foi realizado, mostrando o esforço da equipe de forma geral.
