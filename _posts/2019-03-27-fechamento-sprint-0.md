@@ -1,61 +1,39 @@
 ---
 layout: post
-title: Revisão da Sprint 0
+title: Fechamento da Sprint 0
 tags: sprint revisão eps 
 category: Sprint
 ---
-
-## Duração
-
-Duração: 1 semana<br>
-Início: 18/03/2019<br>
-Fim: 23/03/2019
-
-## Objetivos
-
-Treinamentos para equipe de MDS<br>
-Levantamento de requisitos
-<!--more-->
-
-## Sprint Backlog
-
-[#1 Dojo: Git](https://github.com/fga-eps-mds/2019.1-aix/issues/1)<br>
-[#2 Dojo: Documento de Visão](https://github.com/fga-eps-mds/2019.1-aix/issues/2)<br>
-[#3 Dojo: Metodologias e práticas ágeis](https://github.com/fga-eps-mds/2019.1-aix/issues/3)<br>
-[#4 Dojo: Licenças](https://github.com/fga-eps-mds/2019.1-aix/issues/4)<br>
-[#5 Dojo: Documento de Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/5)<br>
-[#6 Formulário para a coleta de requisitos](https://github.com/fga-eps-mds/2019.1-aix/issues/6)
-
 
 ## Retrospectiva
 
 ### Pontos Positivos
 
-Proatividade e interesse de MDS<br>
-Conseguimos o tema escolhido<br>
-Nosso time é proativo, se empenharam muito e já estão pensando lá na frente (estão motivados)<br>
-Conseguimos cumprir bem o que estava planejado para a Sprint<br>
-EPS está passando segurança<br>
-Organização (tudo foi bem explicado)
+- Proatividade e interesse de MDS
+- Conseguimos o tema escolhido
+- Nosso time é proativo, se empenharam muito e já estão pensando lá na frente (estão motivados)
+- Conseguimos cumprir bem o que estava planejado para a Sprint
+- EPS está passando segurança
+- Organização (tudo foi bem explicado)
 
 
 ### Pontos Negativos
 
-Não teve “quebra gelo”<br>
-Escopo/tema não estava bem definido<br>
-Tecnologia não estava definida<br>
-Número ímpar de MDS<br>
-Não conhecer bem o EPS<br>
-Sábado a tarde é um horário ruim<br>
-Complexidade do tema
+- Não teve “quebra gelo”
+- Escopo/tema não estava bem definido
+- Tecnologia não estava definida
+- Número ímpar de MDS
+- Não conhecer bem o EPS
+- Sábado a tarde é um horário ruim
+- Complexidade do tema
 
 
 ### Melhorias
 
-Melhor escopo, tá muito básico<br>
-Melhorar práticas ágeis<br>
-Acrescentar mais no nosso escopo<br>
-Definir tudo o que não está definido
+- Melhor escopo, tá muito básico
+- Melhorar práticas ágeis
+- Acrescentar mais no nosso escopo
+- Definir tudo o que não está definido
 
 
 ## Burndown
@@ -77,3 +55,8 @@ Definir tudo o que não está definido
 |Presença dos membros durante Daily e reunião de planejamento   |Definir datas, horários e locais que sejam acessíveis a todos.   |Manter o time sempre alinhado quanto às decisões tomadas.   |
 | Falta de cliente real  |Utilização de ferramentas que ajudem a levantar requisitos   |Utilização de dados levantados por usuários que sejam o público alvo do projeto.   |
 |Escopo não bem definido|Reuniões da gerencia para definição de um escopo viável |Alocação de pessoal para a definição do escopo. |
+
+
+## Resumo pelo Scrum Master
+
+Primeira sprint do projeto. Nesta sprint foram realizados treinamentos iniciais da disciplina sobre git e metodologias. Todas as atividades planejadas foram realizadas.
