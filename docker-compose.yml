@@ -56,15 +56,12 @@ services:
 
   actions:
     build:
-      context: .
-      dockerfile: ./docker/actions.Dockerfile
-    # image: diegodorgam/botons:actions
-    ports:
-      - "5055:5055"
+      context: ./actions
+      dockerfile: actions.Dockerfile
     volumes:
-      - ./bot/actions:/bot/actions
-      - ./bot/Makefile:/bot/Makefile
-    command: "make run-actions"
+      - ./actions:/app/actions
+    ports:
+      - 5055:5055
 
   jupyter:
     build:
