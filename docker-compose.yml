@@ -47,7 +47,7 @@ services:
 
     ports:
       - 5005:5005
-      - 5002:5002
+      # - 5002:5002
     depends_on:
       - actions
     volumes:
@@ -62,6 +62,24 @@ services:
       - ./actions:/app/actions
     ports:
       - 5055:5055
+
+  # ============================ Telegram Bot =================================
+  telegram_bot:
+    build:
+      context: .
+      dockerfile: ./docker/bot.Dockerfile
+    environment:
+      - TELEGRAM_BOT_USERNAME=${TELEGRAM_BOT_USERNAME}
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - TELEGRAM_WEBHOOK=${TELEGRAM_WEBHOOK}
+    ports:
+      - 5002:5002
+    depends_on:
+      - actions
+    volumes:
+      - ./bot:/bot
+      - ./scripts:/scripts
+    command: sh -c "make run-telegram"
 
   jupyter:
     build:
