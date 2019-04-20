@@ -1,4 +1,0 @@
-Flask==1.0.2
-flake8
-telepot
-requests
