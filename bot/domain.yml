@@ -94,19 +94,10 @@ templates:
 
   utter_sobre_condicionais:
     - text: |
-        Ah, eu adoro estruturas condicionais!
         Bom, uma estrutura condicional são ações que podem ou não serem executadas no seu programa.
         É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
 
-        SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e vamos para a proxima condição. Além disso, podemos fazer uma opção extra que será executada caso nenhuma condição for satisfeita
-
-        Por exemplo:
-
-        Imagine que você tem um pouquinho de feno nas suas mãos
-        Se você me der ele, eu vou ficar feliz!
-        Se você resolver ficar com ele, eu vou ficar na vontade, poxa!
-        E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
-
+        SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
   utter_sobre_variaveis:
     - text : |
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
