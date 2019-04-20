@@ -47,7 +47,7 @@ services:
 
     ports:
       - 5005:5005
-      - 5002:5002
+      # - 5002:5002
     depends_on:
       - actions
     volumes:
@@ -72,9 +72,9 @@ services:
       context: .
       dockerfile: ./docker/bot.Dockerfile
     environment:
-      - TELEGRAM_BOT_USERNAME=lappisbot
-      - TELEGRAM_TOKEN=token
-      - TELEGRAM_WEBHOOK=your_webhook_server/webhooks/telegram/webhook
+      - TELEGRAM_BOT_USERNAME=${TELEGRAM_BOT_USERNAME}
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - TELEGRAM_WEBHOOK=${TELEGRAM_WEBHOOK}
     ports:
       - 5002:5002
     depends_on:

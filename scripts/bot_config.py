@@ -26,7 +26,7 @@ logger.addHandler(ch)
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '--bot-name', '-bn', type=str, default='Bot',
+    '--bot-name', type=str, default='Aix',
     help='Bot username at RocketChat(default: Bot)'
 )
 parser.add_argument(
