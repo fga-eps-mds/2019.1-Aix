@@ -19,6 +19,8 @@ before_install:
 script:
   - docker-compose up --build -d rocketchat
 # - docker-compose up --build jupyter
+  # - docker-compose up --build -d telegram_bot
   - docker-compose up --build -d bot
   - docker-compose exec bot flake8 --exclude='Makefile, models, data, *.log, __pycache__, *.yml, *.txt' --ignore=F821, F841
   - docker-compose exec actions flake8 --exclude='__pycache__, *.Dockerfile, *.txt, *.log' actions
+  # - docker-compose exec telegram_bot flake8 --exclude='__pycache__, Dockerfile, *.txt'
