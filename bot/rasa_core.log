@@ -389,3 +389,271 @@ There is a memorised next action '0'
 Predicted next action using policy_2_MemoizationPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5001
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5002
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Rasa process starting
+Restoring parameters from models/nlu/current/intent_classifier_tensorflow_embedding.ckpt
+Webhook Setup Successful
+Rasa Core server is up and running on http://localhost:5002
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Feature 'intent_start' could not be found in feature map.
+Exception on /webhooks/telegram/webhook [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 143, in message
+    if self._is_user_message(msg):
+  File "/usr/local/lib/python3.6/site-packages/rasa_core/channels/telegram.py", line 103, in _is_user_message
+    return message.text
+AttributeError: 'NoneType' object has no attribute 'text'
