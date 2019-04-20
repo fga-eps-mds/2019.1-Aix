@@ -9,7 +9,8 @@ class ActionOTRS(Action):
 
     def run(self, dispatcher, tracker, domain):
         try:
-            dispatcher.utter_message("Mensagem enviada por uma custom action!!")
+            dispatcher.utter_message(
+                "Mensagem enviada por uma custom action!!")
         except ValueError:
             dispatcher.utter_message(ValueError)
 
@@ -33,7 +34,9 @@ class ActionPesquisaStackoverflow(Action):
         pesquisa = tracker.current_slot_values()['pesquisa']
         dispatcher.utter_message(pesquisa)
         if str(type(pesquisa)) != "<class 'NoneType'>":
-            link = 'https://api.stackexchange.com/2.2/search?order=desc&sort=activity&intitle='
+            link = """
+            https://api.stackexchange.com/2.2/search?order=desc&sort=activity&intitle=
+            """
             site = '&site=stackoverflow'
             resultado = requests.get(link+str(pesquisa)+site)
             dicionario = json.loads(resultado.text)
@@ -47,5 +50,7 @@ class ActionPesquisaStackoverflow(Action):
                 for link in links:
                     dispatcher.utter_message(link)
             else:
-                dispatcher.utter_message('Bééé, infelizmente não encontrei nada sobre isso em minhas pesquisas. \
-                                            Poderia me perguntar com outras palavras?')
+                dispatcher.utter_message("""
+                    Bééé, infelizmente não encontrei \
+                    nada sobre isso em minhas pesquisas. \
+                    Poderia me perguntar com outras palavras?""")
