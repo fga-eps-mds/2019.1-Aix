@@ -104,7 +104,7 @@
 - cabrita
 - bode
 
-## intent:link_conteudo_condicionais
+## intent:conteudo_extra_condicionais
 - link sobre condicionais
 - link sobre if
 - link sobre else
@@ -208,7 +208,7 @@
 - booleana
 - verdadeira e falsa
 
-## intent:sobre_condicionais_exercicios
+## intent:exercicios_condicionais
 - exercicio condicionais
 - exercicio if else
 - exercicios condicionais
@@ -257,7 +257,7 @@
 - funcionamento condicional
 - funcionamento if else
 
-## intent:link_exercicios_variaveis
+## intent:exercicios_variaveis
 - exercícios sobre variáveis
 - exercicios variavel
 - exercicio de variaveis
@@ -269,7 +269,7 @@
 - onde faço exercícios sobre variáveis
 - exercicio sobre variavel
 
-## intent:link_conteudo_variaveis
+## intent:conteudo_extra_variaveis
 - tem algum link pra entender variaveis?
 - mais conteudo sobre variaveis
 - link externos para variaveis
@@ -352,7 +352,62 @@
 - fatos curiosos
 - fatos desconhecidos
 
-## intent:links_exercicios_repeticao
+## intent:exemplo_laços
+- exemplo de laços
+- exemplo de estruturas de repetiçao
+- exemplos de laços
+- exemplos de estruturas de repetiçao
+- exemplos de while
+- exemplos de for
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- modelos de laços
+- sintaxe de laços
+- sintaxe de iteraçao
+- modelos de estruturas de repetiçao
+- modelo de while
+- sintaxe de while
+- sintaxe de for
+- como repetir açao
+- exemplifique laço
+- exemplifique estruturas de repetiçao
+- exemplifique while
+- exemplifique for
+
+## intent:out_of_scope
+- voce sabe sobre grafos
+- o que e geometria computacional
+- o que e uma tupula
+- existem arvores binarias em python
+- voce fala sobre o meio ambiente
+- qual a origem do mundo
+- voce tem signo
+- vc gosta de carnaval
+- qual a melhor linguagem de programacao
+- o que voce acha de C++
+- C e uma boa linguagem
+- torce pra qual time
+- joga algum jogo
+- gosta de ouvir musica 
+- me indique uma playlist para estudar
+- qual seu signo
+- o que e stackoverflow
+
+## intent:link_conteudo_repeticao
+- mais conteudo for
+- mais conteudo while
+- link extra sobre repetiçao
+- outras sontes repeticao
+- outras fontes for while
+- quero saber mais sobre loop for while
+- ensinar mais cobre loop for while
+- link sobre estrtutura condicional
+- conteudo extra condicionais loop
+- site com loop
+- site sobre loop while for
+
+## intent:exercicios_repeticao
 - exercicio laco de repeticao
 - exercicios laços de repetição
 - exercicio for
