@@ -208,11 +208,22 @@ templates:
   utter_curiosidades_python:
     - text: |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
+
+    - text: |
         Existe um poema da linguagem Python chamado Zen do Python que resume as boas práticas.
+
+    - text: |
         Tenta usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
+
+    - text: |
         O Python serviu de inspiração para muitas linguagens novas!!
+
+    - text: |
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
+
+    - text: |
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
+        
   utter_exercicios_repeticao:
     - text : |
         Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
