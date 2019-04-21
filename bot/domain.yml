@@ -155,7 +155,7 @@ templates:
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
 
   utter_exercicios_condicionais:
-    - text : |
+    - text: |
         Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
@@ -178,7 +178,7 @@ templates:
             print("amo a Aix")
 
   utter_exercicios_variaveis:
-    - text : |
+    - text: |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
         Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
           Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
@@ -189,7 +189,7 @@ templates:
         Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
   utter_conteudo_extra_variaveis:
-    - text : |
+    - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
         Tente esses aqui: O que é variável e constante?(https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem até uns exemplos nele!
         Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula onde ele resume o que são variáveis,
@@ -197,8 +197,23 @@ templates:
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
   utter_manter_conversa:
-    - text : |
+    - text: |
+        Bée bée... o que temos pra hoje?
+
+    - text: |
+        Sobre o que você deseja conversar agora, meu consagrado?
+
+    - text: |
+        E então, qual a sua maior dificuldade em Python?
+
+    - text: |
         Sobre o que mais você deseja sabéer?
+
+    - text: |
+        Béeleza? Gostaria de mais alguma informação?
+
+    - text: |
+        Em que mais eu posso ser útil? Bée
 
   utter_sobre_laços:
     - text: |
@@ -223,9 +238,9 @@ templates:
 
     - text: |
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
-        
+
   utter_exercicios_repeticao:
-    - text : |
+    - text: |
         Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
