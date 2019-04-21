@@ -38,5 +38,5 @@ ENV TRAINING_EPOCHS=20                     \
 CMD python /scripts/bot_config.py -r $ROCKETCHAT_URL                        \
            -an $ROCKETCHAT_ADMIN_USERNAME -ap $ROCKETCHAT_ADMIN_PASSWORD    \
            -bu $ROCKETCHAT_BOT_USERNAME -bp $ROCKETCHAT_BOT_PASSWORD        \
-           -be $ROCKETCHAT_BOT_EMAIL && \
+           -be $ROCKETCHAT_BOT_EMAIL  -bn $ROCKETCHAT_BOT_NAME    && \
     make train && make run-rocketchat

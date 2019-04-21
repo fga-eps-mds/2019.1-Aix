@@ -26,32 +26,32 @@ logger.addHandler(ch)
 parser = argparse.ArgumentParser()
 
 parser.add_argument(
-    '--bot-name', type=str, default='Aix',
-    help='Bot username at RocketChat(default: Bot)'
+    '--bot-name', '-bn', type=str, default='Aix, o ChatBode',
+    help='Bot username at RocketChat'
 )
 parser.add_argument(
-    '--bot-email', '-be', type=str, default='aix@email.com',
-    help='Bot email at RocketChat(default: aix@email.com)'
+    '--bot-email', '-be', type=str,
+    help='Bot email at RocketChat'
 )
 parser.add_argument(
-    '--bot-username', '-bu', type=str, default='bot',
-    help='Bot username at RocketChat(default: bot)'
+    '--bot-username', '-bu', type=str,
+    help='Bot username at RocketChat'
 )
 parser.add_argument(
-    '--bot-password', '-bp', type=str, default='bot',
-    help='Bot password at RocketChat(default: bot)'
+    '--bot-password', '-bp', type=str,
+    help='Bot password at RocketChat'
 )
 parser.add_argument(
-    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/lappis-unb/rouana/master/images/rouana_avatar.jpeg',
+    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png',
     help='Bot avatar photo link (default: bot\'s github avatar)'
 )
 parser.add_argument(
-    '--admin-name', '-an', type=str, default='admin',
-    help='Admin username at RocketChat(default: admin)'
+    '--admin-name', '-an', type=str,
+    help='Admin username at RocketChat'
 )
 parser.add_argument(
-    '--admin-password', '-ap', type=str, default='admin',
-    help='Admin password at RocketChat(default: admin)'
+    '--admin-password', '-ap', type=str,
+    help='Admin password at RocketChat'
 )
 parser.add_argument(
     '--rocketchat-url', '-r', type=str, default='http://rocketchat:3000',
