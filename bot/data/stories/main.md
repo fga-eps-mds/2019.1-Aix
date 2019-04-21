@@ -89,10 +89,15 @@
 ## sobre_laços
 * sobre_laços
     - utter_sobre_laços
-    
+
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
-##exercicios_repeticao
+
+## exercicios_repeticao
 * exercicios_repeticao
     - utter_exercicios_repeticao
+
+## conteudo_extra_repeticao
+ * conteudo_extra_repeticao
+        - utter_conteudo_extra_repeticao
