@@ -20,6 +20,7 @@ intents:
   - manter_conversa
   - sobre_laços
   - curiosidades_python
+  - exemplo_laços
   - out_of_scope
   - link_conteudo_repeticao
   - exercicios_repeticao
@@ -240,6 +241,11 @@ templates:
         Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
 
 
+  utter_exemplo_laços:
+    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
+      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
+
+
   utter_link_conteudo_repeticao:
     - text: |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
@@ -268,6 +274,7 @@ actions:
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
+  - utter_exemplo_laços
   - utter_default
   - utter_link_conteudo_repeticao
   - utter_exercicios_repeticao
