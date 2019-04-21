@@ -66,7 +66,9 @@ templates:
 
   utter_sobre_python:
     - text: |
-        O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender. A sintaxe é bastante organizada e permite a fácil leitura do código. O Python foi criado por Guido van Rossum, no ano de 1991, béem antes de eu nascer.
+        O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender!
+        Possui uma sintaxe bastante organizada, como meus fenos, e permite a fácil leitura do código.
+        O Python foi criado por Guido van Rossum, no ano de 1991, béem antes de eu nascer.
 
   utter_menu_ajuda:
     - text: |
@@ -110,25 +112,24 @@ templates:
 
   utter_sobre_inteiros:
     - text: |
-        Uma variável do tipo inteiro, serve para guardar valores numéricos dentro do conjunto de inteiros.
+        Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
         Isto éee, todos números positivos e negatios sem casas decimais.
-        Por exemplo, você pode contar seus fenos com inteiros, 20 fenos, 30 fenos.
+        Você pode contar seus fenos com inteiros!! 20 fenos, 30 fenos...
 
   utter_sobre_pontos_flutuantes:
     - text: |
-        A "evolução" do tipo inteiro é o tipo Ponto Flutuente, ele armazena valores numéricos, porém com casas decimais.
-        Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo.
-        Uma variável do tipo ponto flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).
+        A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
+        Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
 
   utter_sobre_caracteres:
     - text: |
-        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
+        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
 
   utter_sobre_booleanos:
     - text: |
-        O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
-        É verdadeiro que eu gosto muito de feno!
+        O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
+        Eu gosto muito de feno é uma afirmação verdadeira!!
 
   utter_exemplo_variaveis:
     - text: |
