@@ -218,7 +218,9 @@ templates:
   utter_sobre_laços:
     - text: |
         Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
-        Laços são funções capazes de reproduzir determinada ação. Béem, vou explicar de outra forma. Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantidade de passos até chegar ao meu objetivo. Repetirei então a minha ação "dar um passo" até chegar ao meu feno de cada dia. Funciona mais ou menos assim!
+
+    - text: |
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os laços, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR. Quer saber mais sobre eles? Posso te dar alguns exemplos, se desejar!
 
   utter_curiosidades_python:
     - text: |
