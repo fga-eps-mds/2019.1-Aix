@@ -34,7 +34,19 @@
 * menu_ajuda
     - utter_menu_ajuda
 
+## menu_ajuda2
+* menu_ajuda
+    - utter_menu_ajuda
+* manter_conversa
+    - utter_manter_conversa
+
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
+    
+## curiosidades_python2
+* curiosidades_python
+    - utter_curiosidades_python
+* manter_conversa
+    - utter_manter_conversa
 

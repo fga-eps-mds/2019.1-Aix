@@ -16,11 +16,11 @@ intents:
   - sobre_caracteres
   - sobre_booleanos
   - sobre_condicionais
-  - sobre_laços
+  - sobre_repeticao
 
   - exemplo_variaveis
   - exemplo_condicionais
-  - exemplo_laços
+  - exemplo_repeticao
 
   - exercicios_variaveis
   - exercicios_condicionais
@@ -29,23 +29,6 @@ intents:
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
-
-entities:
-  - servico
-  - sistema
-
-slots:
-  is_authenticated:
-    type: bool
-
-  servico:
-    type: text
-
-  sistema:
-    type: categorical
-    values:
-      - Organon Preditivo
-
 
 templates:
 
@@ -187,12 +170,12 @@ templates:
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
-  utter_sobre_laços:
+  utter_sobre_repeticao:
     - text: |
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os repeticao for e while da linguagem Python. Ficou béem claro?
 
     - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os laços, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR. Quer saber mais sobre eles? Posso te dar alguns exemplos, se desejar!
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR. Quer saber mais sobre eles? Posso te dar alguns exemplos, se desejar!
 
   utter_exemplo_variaveis:
     - text: |
@@ -219,7 +202,7 @@ templates:
           else:
             print("amo a Aix")
 
-  utter_exemplo_laços:
+  utter_exemplo_repeticao:
     - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
       image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
 
@@ -291,11 +274,11 @@ actions:
   - utter_sobre_caracteres
   - utter_sobre_booleanos
   - utter_sobre_condicionais
-  - utter_sobre_laços
+  - utter_sobre_repeticao
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
-  - utter_exemplo_laços
+  - utter_exemplo_repeticao
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais

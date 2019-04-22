@@ -11,7 +11,7 @@
 - funcionamento condicional
 - funcionamento if else
 
-## intent:exemplo_laços
+## intent:exemplo_repeticao
 - exemplo de laços
 - exemplo de estruturas de repetiçao
 - exemplos de laços

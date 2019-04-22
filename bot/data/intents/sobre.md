@@ -48,7 +48,7 @@
 - montar um else
 - estruturas condicionais
 
-## intent:sobre_laços
+## intent:sobre_repeticao
 - repoduzir uma açao
 - definiçao estruturas de repetiçao
 - loop infinito
