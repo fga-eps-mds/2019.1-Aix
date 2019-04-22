@@ -22,7 +22,6 @@ class ActionOTRS(Action):
         # TODO
         return
 
-
 class ActionPesquisaStackoverflow(Action):
     def name(self):
         return "action_pesquisa_stackoverflow"

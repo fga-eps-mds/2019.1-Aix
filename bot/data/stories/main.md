@@ -89,11 +89,14 @@
 ## sobre_laços
 * sobre_laços
     - utter_sobre_laços
-    
+
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
 
+## exemplo_laços
+* exemplo_laços
+    - utter_exemplo_laços
 ## fallback
 * out_of_scope
     - utter_default

@@ -7,10 +7,10 @@ services:
     restart: unless-stopped
     environment:
       - PORT=3000
-      - ROOT_URL=${ROOT_URL}
-      - MONGO_URL=${MONGO_URL}
-      - ADMIN_USERNAME=${ROCKET_USER}
-      - ADMIN_PASS=${ROCKET_PASS}
+      - ROOT_URL=http://localhost:3000
+      - MONGO_URL=MONGO_URL=mongodb://mongo:27017/rocketchat
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASS=admin
     ports:
       - 3000:3000
     depends_on:
@@ -39,6 +39,7 @@ services:
       - ROCKETCHAT_BOT_USERNAME=${BOT_USER}
       - ROCKETCHAT_BOT_PASSWORD=${BOT_PASS}
       - ROCKETCHAT_BOT_EMAIL=${BOT_EMAIL}
+      - ROCKETCHAT_BOT_NAME=${BOT_NAME}
 
       # Should be set to 'production' or 'beta' or 'dev'
       - ENVIRONMENT_NAME=${ENV_NAME}

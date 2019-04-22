@@ -27,7 +27,7 @@ ADD ./scripts /scripts
 
 WORKDIR /bot
 
-ENV TRAINING_EPOCHS=20                     \
+ENV TRAINING_EPOCHS=5                     \
     MAX_TYPING_TIME=4                      \
     MIN_TYPING_TIME=1                      \
     WORDS_PER_SECOND_TYPING=5              \
@@ -38,5 +38,5 @@ ENV TRAINING_EPOCHS=20                     \
 CMD python /scripts/bot_config.py -r $ROCKETCHAT_URL                        \
            -an $ROCKETCHAT_ADMIN_USERNAME -ap $ROCKETCHAT_ADMIN_PASSWORD    \
            -bu $ROCKETCHAT_BOT_USERNAME -bp $ROCKETCHAT_BOT_PASSWORD        \
-           -be $ROCKETCHAT_BOT_EMAIL && \
+           -be $ROCKETCHAT_BOT_EMAIL  -bn $ROCKETCHAT_BOT_NAME    && \
     make train && make run-rocketchat
