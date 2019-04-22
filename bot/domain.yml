@@ -5,38 +5,25 @@ intents:
   - sobre_python
   - menu_ajuda
   - sobre_aix
-  - link_conteudo_condicionais
+  - conteudo_extra_condicionais
   - sobre_condicionais
   - sobre_variaveis
   - sobre_inteiros
   - sobre_pontos_flutuantes
   - sobre_caracteres
   - sobre_booleanos
-  - sobre_condicionais_exercicios
+  - exercicios_condicionais
   - exemplo_variaveis
   - exemplo_condicionais
-  - link_exercicios_variaveis
-  - link_conteudo_variaveis
+  - exercicios_variaveis
+  - conteudo_extra_variaveis
   - manter_conversa
   - sobre_laços
   - curiosidades_python
-
-entities:
-  - servico
-  - sistema
-
-slots:
-  is_authenticated:
-    type: bool
-
-  servico:
-    type: text
-
-  sistema:
-    type: categorical
-    values:
-      - Organon Preditivo
-
+  - exemplo_laços
+  - out_of_scope
+  - link_conteudo_repeticao
+  - exercicios_repeticao
 
 templates:
 
@@ -85,7 +72,7 @@ templates:
         A cabra que corrige seus códigos na hora... que tira suas dúvidas sem nenhuma demora... que está todo tempo junto com você... Essa cabra sou eu!
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
-  utter_link_conteudo_condicionais:
+  utter_conteudo_extra_condicionais:
     - text: |
         Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
           if Aix_não_sanou_sua_duvida or Quer_mais_informações:
@@ -98,7 +85,7 @@ templates:
         Bom, uma estrutura condicional são ações que podem ou não serem executadas no seu programa.
         É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
 
-        SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e vamos para a proxima condição. Além disso, podemos fazer uma opção extra que será executada caso nenhuma condição for satisfeita
+        Se a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e vamos para a proxima condição. Além disso, podemos fazer uma opção extra que será executada caso nenhuma condição for satisfeita
 
         Por exemplo:
 
@@ -108,30 +95,30 @@ templates:
         E se você nem me der e nem ficar com ele, vou ficar confusa, oras! Por que você teria feno e não faria nada com ele? Eu hein...
 
   utter_sobre_variaveis:
-    - text : |
+    - text: |
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
 
   utter_sobre_inteiros:
-    - text : |
+    - text: |
         Uma variável do tipo inteiro, serve para guardar valores numéricos dentro do conjunto de inteiros.
         Isto éee, todos números positivos e negatios sem casas decimais.
         Por exemplo, você pode contar seus fenos com inteiros, 20 fenos, 30 fenos.
 
   utter_sobre_pontos_flutuantes:
-    - text : |
+    - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuente, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo.
         Uma variável do tipo ponto flutuante pode ser 1,5 kilos de capim, o meu peso (que é segredo).
 
   utter_sobre_caracteres:
-    - text : |
+    - text: |
         As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parêntese.
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
 
   utter_sobre_booleanos:
-    - text : |
+    - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas
         É verdadeiro que eu gosto muito de feno!
 
@@ -157,7 +144,7 @@ templates:
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
-  utter_sobre_condicionais_exercicios:
+  utter_exercicios_condicionais:
     - text : |
         Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
@@ -167,7 +154,7 @@ templates:
           Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
 
   utter_exemplo_condicionais:
-    - text : |
+    - text: |
         Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa!
         Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
         caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
@@ -180,7 +167,7 @@ templates:
           else:
             print("amo a Aix")
 
-  utter_link_exercicios_variaveis:
+  utter_exercicios_variaveis:
     - text : |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
         Por que você não tenta esse exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
@@ -190,7 +177,7 @@ templates:
         Não esquece que para acessar o URI você precisa criar uma conta antes!!
         Se você preferir, também achei esse exercício resolvido no YouTube, Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-  utter_link_conteudo_variaveis:
+  utter_conteudo_extra_variaveis:
     - text : |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
         Achei aqui um blog com uma explicação béem legal de variáveis, [O que é variável e constante?](https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem uns exemplos nele tambéem!!
@@ -203,42 +190,74 @@ templates:
         Sobre o que mais você deseja sabéer?
 
   utter_sobre_laços:
-    - text : |
+    - text: |
         Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os laços for e while da linguagem Python. Ficou béem claro?
         Laços são funções capazes de reproduzir determinada ação. Béem, vou explicar de outra forma. Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantidade de passos até chegar ao meu objetivo. Repetirei então a minha ação "dar um passo" até chegar ao meu feno de cada dia. Funciona mais ou menos assim!
 
   utter_curiosidades_python:
-    - text : |
+    - text: |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
         Existe um poema da linguagem Python chamado Zen do Python que resume as boas práticas.
         Tenta usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
         O Python serviu de inspiração para muitas linguagens novas!!
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
+  utter_exercicios_repeticao:
+    - text : |
+        Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
+        A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+        Veja esses 3 exercícios:
+          Números Pares - https://www.urionlinejudge.com.br/judge/pt/problems/view/1059
+          Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
+          Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
+
+
+  utter_default:
+    - text: |
+        Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
+        Você pode perguntar de novo?
+    - text: |
+        Hummmm... Acho que não sou uma cabra tão inteligente assim... Pode escrever de outra forma, não entendi tão béem?
+    - text: |
+        Deve ter caído um pouco de capim nos meus olhos, você pode me perguntar de novo usando outras palavras?
+    - text: |
+        Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
+
+
+  utter_exemplo_laços:
+    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
+      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
+
+
+  utter_link_conteudo_repeticao:
+    - text: |
+        Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
+        sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
+        Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
 actions:
-  - utter_default
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
-  - utter_diga_mais
-  - utter_elogios
   - utter_sobre_python
   - utter_menu_ajuda
   - utter_sobre_aix
-  - utter_link_conteudo_condicionais
+  - utter_conteudo_extra_condicionais
   - utter_sobre_condicionais
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
-  - utter_sobre_condicionais_exercicios
+  - utter_exercicios_condicionais
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
-  - utter_link_exercicios_variaveis
-  - utter_link_conteudo_variaveis
+  - utter_exercicios_variaveis
+  - utter_conteudo_extra_variaveis
   - utter_manter_conversa
   - utter_sobre_laços
   - utter_curiosidades_python
-  
+  - utter_exemplo_laços
+  - utter_default
+  - utter_link_conteudo_repeticao
+  - utter_exercicios_repeticao

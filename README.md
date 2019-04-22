@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200" height="200" src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/LOGO%20PINTADA-01.png">
+  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png" alt="Logo">
 </p>
 
 <h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
@@ -30,13 +30,43 @@
 ### Guia de Contribuição
 Caso queira contribuir com o projeto verifique o documento <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/docs/CODE_OF_CONDUCT.md" margin=50> CONTRIBUTING</a>
 
+Caso tenha interesse em contribuir com nossa documentação é bem simples!
+
+- Vá para a nossa branch gh-pages onde se encontra nosso documentos
+
+```
+  git checkout gh-pages
+```
+- Crie uma issue baseado em nosso template de issue regular a partir da branch gh-pages
+
+```
+  git checkout -b "issue_x_documentoX"
+```
+
+- Entre na pasta _posts
+
+```
+  cd _posts
+```
+  Nesta página você encontra todos os documentos referentes ao projetos!
+
+- Lembre se de seguir nossa folha de estilo que pode ser encontrada em:
+
+```
+  cd _posts/2019-03-29-gcs.md
+```
+- Agora abra um pr em nosso repositório
+
+- Agora é só aguardar que revisaremos seu PR e te daremos um feedback!
+
+
 ### Instalação
   Nesta seção estão descritos os passos necessários para instalar e executar o Aix localmente.
 
 #### Pré-requisitos
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/get-docker)
-* [Docker-composer](https://docs.docker.com/compose/install/#install-compose)
+* [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 #### Configuração
   Clone o repositório
@@ -55,7 +85,10 @@ Caso queira contribuir com o projeto verifique o documento <a href="https://gith
   ```
     docker-compose up jupyter
   ```
-  Sua instância do jupyter estará disponível em http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
+  Sua instância do jupyter estará disponível em 
+  ```
+    http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
+  ```
 
   
 ### Licença
