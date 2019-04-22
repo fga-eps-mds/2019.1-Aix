@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/img/cabracinza.png" alt="Logo">
+  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png" alt="Logo">
 </p>
 
 <h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
@@ -66,7 +66,7 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 #### Pré-requisitos
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/get-docker)
-* [Docker-composer](https://docs.docker.com/compose/install/#install-compose)
+* [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 #### Configuração
   Clone o repositório
