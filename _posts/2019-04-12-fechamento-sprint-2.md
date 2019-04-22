@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Fechamento da Sprint 2
-tags: sprint abertura eps 
+tags: sprint abertura eps
+category: Sprint
 ---
 
 ## Retrospectiva

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Abertura da Sprint 2
-tags: sprint abertura eps 
+tags: sprint abertura eps
+category: Sprint
 ---
 
 ## Objetivos
@@ -41,8 +42,8 @@ Desenvolvimento de documentos de EPS
 ## Duração
 
 Duração: 1 semana<br>
-Início: 18/03/2019<br>
-Fim: 23/03/2019
+Início: 30/03/2019<br>
+Fim: 06/04/2019
 
 
 <!--more-->
