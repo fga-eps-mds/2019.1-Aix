@@ -1715,7 +1715,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 
 .dropdown-item {
-  padding-left: 7px;
+  padding-left: 10px;
   padding-top: 7px;
   padding-bottom: 7px;
 }
