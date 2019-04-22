@@ -93,6 +93,12 @@
 - me ajuda
 - help
 - me da um help
+- como te perguntar algo
+- estou com uma duvida
+- menu
+- voce possui menu
+- usabilidade
+- como tirar duvida
 
 ## intent:curiosidades_python
 - zen do python
