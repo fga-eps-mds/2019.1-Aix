@@ -1,3 +1,14 @@
+### github pages ###
+_site/
+_site/2015-01-01-hello
+_site/2019/
+_site/about/
+_site/archives/
+_site/page/
+_site/search/
+_site/tags/
+_site/404.html
+
 ### Rasa ###
 /bot/models/*
 rasa_core.log
@@ -21,7 +32,7 @@ notebooks/intents/models
 notebooks/intents/errors.json
 notebooks/stories/matrix.pdf
 
- ### Stories Notebook ###
+### Stories Notebook ###
 notebooks/stories/models
 notebooks/stories/errors.json
 notebooks/stories/img
@@ -194,6 +205,8 @@ tags
 # End of https://www.gitignore.io/api/vim,linux,macos,python
 .vscode/
 
+# GH pages Jekyll temporary files
+_site/
 .DS_Store
 .bundle/
 .sass-cache/

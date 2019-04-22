@@ -66,7 +66,7 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 #### Pré-requisitos
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/get-docker)
-* [Docker-composer](https://docs.docker.com/compose/install/#install-compose)
+* [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 #### Configuração
   Clone o repositório

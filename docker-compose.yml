@@ -7,10 +7,10 @@ services:
     restart: unless-stopped
     environment:
       - PORT=3000
-      - ROOT_URL=${ROOT_URL}
-      - MONGO_URL=${MONGO_URL}
-      - ADMIN_USERNAME=${ROCKET_USER}
-      - ADMIN_PASS=${ROCKET_PASS}
+      - ROOT_URL=http://localhost:3000
+      - MONGO_URL=MONGO_URL=mongodb://mongo:27017/rocketchat
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASS=admin
     ports:
       - 3000:3000
     depends_on:
