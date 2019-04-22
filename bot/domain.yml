@@ -3,6 +3,7 @@ intents:
   - despedir
   - tudo_bem
   - manter_conversa
+  - out_of_scope
 
   - menu_ajuda
   - curiosidades_python
@@ -27,9 +28,7 @@ intents:
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
-  - link_conteudo_repeticao
-
-  - out_of_scope
+  - conteudo_extra_repeticao
 
 entities:
   - servico
@@ -268,7 +267,7 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-  utter_link_conteudo_repeticao:
+  utter_conteudo_extra_repeticao:
     - text: |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
@@ -304,4 +303,4 @@ actions:
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
-  - utter_link_conteudo_repeticao
+  - utter_conteudo_extra_repeticao

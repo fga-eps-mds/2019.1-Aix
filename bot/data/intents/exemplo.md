@@ -1,0 +1,57 @@
+## intent:exemplo_condicionais
+- me de exemplo de if else
+- exemplo if else
+- como fazer um if else
+- fazer if else
+- montar if else
+- sintaxe if else
+- sintaxe condicionais
+- exemplo de condicionais
+- if else na pratica
+- funcionamento condicional
+- funcionamento if else
+
+## intent:exemplo_laços
+- exemplo de laços
+- exemplo de estruturas de repetiçao
+- exemplos de laços
+- exemplos de estruturas de repetiçao
+- exemplos de while
+- exemplos de for
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- modelos de laços
+- sintaxe de laços
+- sintaxe de iteraçao
+- modelos de estruturas de repetiçao
+- modelo de while
+- sintaxe de while
+- sintaxe de for
+- como repetir açao
+- exemplifique laço
+- exemplifique estruturas de repetiçao
+- exemplifique while
+- exemplifique for
+
+## intent:exemplo_variaveis
+- me de exemplos de variaveis
+- como usar essas variaveis?
+- não entendi como usa a variável
+- mas e eu faço como com variáveis?
+- e como que uso?
+- exemplos variaveis
+- exemplos de variaveis
+- me explica como usa essas variaveis
+- me ajuda com exemplos de variaveis
+- voce pode me ajudar com exemplos de variaveis?
+- como variaveis funcionam
+- exemplos variáveis
+- exemplo variável
+- exemplos python variáveis
+- exemplo variável python
+- como fazer uma variavel em python
+- como funciona as variaveis
+- funcionamento variaveis
+- variaveis na pratica
+- codigo de exemplo de variaveis
