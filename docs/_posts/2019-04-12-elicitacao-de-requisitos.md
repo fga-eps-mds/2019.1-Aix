@@ -2,6 +2,7 @@
 layout: post
 title: Elicitação de Requisitos
 tags: requisitos elicitação eps 
+category: Produto
 ---
 
 ## Introdução
