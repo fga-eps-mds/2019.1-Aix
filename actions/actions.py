@@ -28,11 +28,14 @@ class ActionPesquisaStackoverflow(Action):
         return "action_pesquisa_stackoverflow"
 
     def run(self, dispatcher, tracker, domain):
-        dispatcher.utter_message("Buscando...")
-        slot = tracker.get_slot('pesquisa')
-        dispatcher.utter_message(slot)
-        pesquisa = tracker.current_slot_values()['pesquisa']
-        dispatcher.utter_message(pesquisa)
+        pesquisa = tracker.latest_message['text']
+        pesquisa = pesquisa.replace('pesquise', '')
+        pesquisa = pesquisa.replace('sobre', '')
+        pesquisa = pesquisa.strip()
+        dispatcher.utter_message('Então você quer saber sobre ' +
+                                 pesquisa + '''... Vou ver o que acho \
+                                 aqui entre meu fenos!''')
+
         if str(type(pesquisa)) != "<class 'NoneType'>":
             link = """
             https://api.stackexchange.com/2.2/search?order=desc&sort=activity&intitle=
@@ -51,6 +54,6 @@ class ActionPesquisaStackoverflow(Action):
                     dispatcher.utter_message(link)
             else:
                 dispatcher.utter_message("""
-                    Bééé, infelizmente não encontrei \
-                    nada sobre isso em minhas pesquisas. \
+                    Bééé, infelizmente não encontrei nada
+                    sobre isso em minhas pesquisas.
                     Poderia me perguntar com outras palavras?""")

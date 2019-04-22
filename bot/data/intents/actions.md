@@ -6,15 +6,19 @@
 - abrir um chamado
 
 ## intent:pesquisa_stackoverflow
-- quero pesquisar [variaveis](pesquisa) no stackoverflow
-- olhe o que sao [estruturas de repeticao](pesquisa) na internet
-- gostaria de pesquisar [qual o limite de um inteiro](pesquisa)
-- pesquise sobre [condicionais](pesquisa) para mim
-- pesquise por [tipos de variaveis](pesquisa) no stackoverflow
-- pesquise [linguagem python](pesquisa) no stackoverflow
-- pesquise [linguagem C++](pesquisa) na internet
-- pesquise [Ruby](pesquisa)
-- procure sobre [algo](pesquisa) no stackoverflow
-- procure sobre [algo](pesquisa) na internet
-- procure [C++](pesquisa) no stackoverflow
+- pesquise sobre: C++
+- pesquise sobre: python
+- pesquise sobre: ruby
+- pesquise sobre: pearl
+- pesquise sobre: java
+- pesquise sobre: flask
+- pesquise sobre: django
 
+## intent:pesquisar
+- quero pesquisar algo
+- pesquise algo para mim
+- conecte com a internet
+- quero fazer uma pesquisa
+- olhe no stackoverflow
+- procure na internet
+- procure no stackoverflow

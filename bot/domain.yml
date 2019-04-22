@@ -26,6 +26,7 @@ intents:
 
   - action_otrs
   - pesquisa_stackoverflow
+  - pesquisar
 
 entities:
   - pesquisa
@@ -239,6 +240,11 @@ templates:
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
+  utter_pesquisar:
+    - text : |
+        Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
+        "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
+
 actions:
   - utter_cumprimentar
   - utter_despedir
@@ -267,3 +273,4 @@ actions:
 
   - action_otrs
   - action_pesquisa_stackoverflow
+  - utter_pesquisar
