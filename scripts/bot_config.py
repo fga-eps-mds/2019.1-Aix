@@ -42,7 +42,7 @@ parser.add_argument(
     help='Bot password at RocketChat'
 )
 parser.add_argument(
-    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png',
+    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png',
     help='Bot avatar photo link (default: bot\'s github avatar)'
 )
 parser.add_argument(

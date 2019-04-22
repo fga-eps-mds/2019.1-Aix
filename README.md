@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png" alt="Logo">
+  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png" alt="Logo">
 </p>
 
 <h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
@@ -43,10 +43,10 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
   git checkout -b "issue_x_documentoX"
 ```
 
-- Entre na pasta _posts
+- Entre na pasta docs e em seguida a pasta _posts
 
 ```
-  cd _posts
+  cd docs/_posts
 ```
   Nesta página você encontra todos os documentos referentes ao projetos!
 
