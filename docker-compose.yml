@@ -39,6 +39,7 @@ services:
       - ROCKETCHAT_BOT_USERNAME=${BOT_USER}
       - ROCKETCHAT_BOT_PASSWORD=${BOT_PASS}
       - ROCKETCHAT_BOT_EMAIL=${BOT_EMAIL}
+      - ROCKETCHAT_BOT_NAME=${BOT_NAME}
 
       # Should be set to 'production' or 'beta' or 'dev'
       - ENVIRONMENT_NAME=${ENV_NAME}
@@ -47,7 +48,7 @@ services:
 
     ports:
       - 5005:5005
-      - 5002:5002
+      # - 5002:5002
     depends_on:
       - actions
     volumes:
@@ -65,6 +66,24 @@ services:
       - ./bot/actions:/bot/actions
       - ./bot/Makefile:/bot/Makefile
     command: "make run-actions"
+
+  # ============================ Telegram Bot =================================
+  telegram_bot:
+    build:
+      context: .
+      dockerfile: ./docker/bot.Dockerfile
+    environment:
+      - TELEGRAM_BOT_USERNAME=${TELEGRAM_BOT_USERNAME}
+      - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+      - TELEGRAM_WEBHOOK=${TELEGRAM_WEBHOOK}
+    ports:
+      - 5002:5002
+    depends_on:
+      - actions
+    volumes:
+      - ./bot:/bot
+      - ./scripts:/scripts
+    command: sh -c "make run-telegram"
 
   jupyter:
     build:
