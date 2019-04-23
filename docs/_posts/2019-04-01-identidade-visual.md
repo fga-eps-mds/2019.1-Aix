@@ -4,6 +4,10 @@ title: Identidade Visual
 tags: identidade visual mds 
 category: Produto
 ---
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 06/04/2019 | 0.0.1  | Criação do documento de identidade visual             | Gabriela    |
+| 20/04/2019 | 0.0.2  | do documento de identidade visual                | Gabriela   |
 
 ## 1.1 Logo
 <p align="justify"> &emsp;&emsp;
