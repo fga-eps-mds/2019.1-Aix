@@ -99,6 +99,9 @@
 - voce possui menu
 - usabilidade
 - como tirar duvida
+- quero estudar
+- como estudar com você
+- quero aprender 
 
 ## intent:curiosidades_python
 - zen do python
