@@ -88,7 +88,9 @@ São restrições de Arquitetura:
 ### 4.1 Diagrama de casos de uso
 
 
-<img src="https://i.imgur.com/I56a0Su.png" alt="drawing"/>
+<img src="https://i.imgur.com/ckc9ovY.png" alt="drawing"/>
+
+
 
 ### 4.2 Especificações dos casos de uso
 
@@ -99,6 +101,7 @@ São restrições de Arquitetura:
 |UC03 - Dar feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
 |UC04 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
 |UC05 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
+|UC06 - Pesquisar erros e dúvidas| StackOverflow | Esse caso permite ao usuário fazer pesquisas diretamente no banco de dados do StackOverflow a partir das mensagens com o bot|
 
 # 5. Visão Lógica
 
