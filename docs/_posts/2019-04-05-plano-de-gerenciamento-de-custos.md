@@ -4,6 +4,10 @@ title: Plano de Gerenciamento de Custos
 tags: plano custos documento eps
 category: Gerencia
 ---
+|Data   |Versão   |Descrição   |Autor   |
+|---|---|---|---|
+|05/04/2019   | 1.0  |Criação do documento   |Lucas Vitor   |
+|09/04/2019   | 1.1  |Refatoração do documento | Lucas Vitor |
 
 
 ## 1. Introdução
