@@ -15,10 +15,25 @@
 - pesquise sobre: django
 
 ## intent:pesquisar
-- quero pesquisar algo
-- pesquise algo para mim
+- pesquise esse erro para mim
 - conecte com a internet
-- quero fazer uma pesquisa
 - olhe no stackoverflow
 - procure na internet
 - procure no stackoverflow
+- quero fazer uma pesquisa
+- quero pesquisar algo
+- quero pesquisar um erro
+- quero fazer uma pesquisa   
+- quero realizar uma pesquisa
+- gostaria de pesquisar um erro
+- gostaria de verficar algo na internet
+- estou com um erro
+- preciso resolver um erro
+- tenho um erro no programa
+- tem um erro no codigo
+- tem um erro no meu codigo  
+- possui um erro no meu programa
+- o programa esta com um erro
+- desejo pesquisar algo
+- desejo verificar um erro
+- desejo pesquisar algo

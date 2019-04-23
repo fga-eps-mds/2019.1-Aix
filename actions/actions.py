@@ -28,6 +28,7 @@ class ActionPesquisaStackoverflow(Action):
 
     def run(self, dispatcher, tracker, domain):
         pesquisa = tracker.latest_message['text']
+        pesquisa = pesquisa.tolower()
         pesquisa = pesquisa.replace('pesquise', '')
         pesquisa = pesquisa.replace('sobre', '')
         pesquisa = pesquisa.strip()
