@@ -106,7 +106,7 @@ Tabela 1. Necessidades da Parte Interessada
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
-|Uma ferramenta que auxilie no ensinamento de Python|Ser acessível|Cursos de qualificação, livros e documetações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
+|Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documetações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
 
 Tabela 2. Necessidades do Usuário
 
