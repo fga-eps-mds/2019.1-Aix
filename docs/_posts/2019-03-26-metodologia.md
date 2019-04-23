@@ -4,6 +4,10 @@ title: Metodologia
 tags: metodologia documento eps
 category: Contribuicao
 ---
+---
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 20/03/2019 | 0.0.1  | Criação do documento de metodologia            | Kamilla Costa    |
 
 <p align="justify">&emsp;&emsp; Este documento tem o objetivo de esclarecer as metodologias ágeis adotadas para o projeto **Aix**. Abaixo, encontra-se descrito as metodologias bases (Scrum e Kanban), papeis e artefatos selecionados, suprindo assim, as necessidades de organização e atividades da equipe.</p>
 <!--more-->
