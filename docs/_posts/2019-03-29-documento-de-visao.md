@@ -166,9 +166,9 @@ O usuário poderá solicitar uma pesquisa. Será feita uma requisição com a ap
 </p>
 
 ## 6. Restrições
-* AIX é um bot que deverá funcionar juntamente ao ambiente web Jupyter Notebook.
+* AIX é um bot que deverá funcionar juntamente ao ambiente web Jupyter Notebook e com o mensageiro Telegram.
 * O bot deverá estar disponível até Julho de 2019.
-* Para utilizar o bot será necessário um computador com sistema operacional Linux, Windows ou MacOS utilizando o ambiente Jupyter.
+* Para utilizar o bot será necessário um computador com sistema operacional Linux, Windows ou MacOS utilizando o ambiente Jupyter ou algum dispositivo com a versão mais atual do mensageiro Telegram.
 
 ## 7. Atributos do Recurso
 ### 7.1 Status
