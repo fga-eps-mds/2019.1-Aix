@@ -202,7 +202,7 @@ templates:
     - text : |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
         Existe um poema da linguagem Python chamado Zen do Python que resume as boas práticas.
-        Tenta usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
+        Tente usar o comando "python" e depois "import this" no terminal... você vai ver algo béem legal!!
         O Python serviu de inspiração para muitas linguagens novas!!
         Python foi feita com base na linguagem ABC, com A de aix, Bée de bode e C de capim!
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
