@@ -29,24 +29,27 @@ class ActionPesquisaStackoverflow(Action):
 
     def run(self, dispatcher, tracker, domain):
         pesquisa = tracker.latest_message['text']
-        pesquisa = pesquisa.tolower()
+        pesquisa = pesquisa.lower()
         pesquisa = pesquisa.replace('pesquise', '')
         pesquisa = pesquisa.replace('sobre', '')
         pesquisa = pesquisa.strip()
         dispatcher.utter_message('Então você quer saber sobre ' +
                                  pesquisa + '''... Vou ver o que acho \
-                                 aqui entre meu fenos!''')
+                                 aqui entre meu fenos!!''')
 
         if str(type(pesquisa)) != "<class 'NoneType'>":
-            link = """
-            https://api.stackexchange.com/2.2/search?order=desc&sort=activity&intitle=
-            """
-            site = '&site=stackoverflow'
-            resultado = requests.get(link+str(pesquisa)+site)
+            link = 'https://api.stackexchange.com/2.2/search'
+            order = 'desc'
+            sort = 'activity'
+            intitle = pesquisa
+            site = 'stackoverflow'
+            payload = {
+                'order': order, 'sort': sort, 'intitle': intitle, 'site': site}
+            resultado = requests.get(link, params=payload)
             dicionario = json.loads(resultado.text)
             links = []
             for item in dicionario['items']:
-                if str((item)['is_answered']) == 'True':
+                if str(item['is_answered']) == 'True':
                     links.append(item['link'])
                 if len(links) == 5:
                     break
