@@ -255,7 +255,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS05
    </td>
-   <td>Eu, como usuário, desejo receber mensagem de despedida do bot para dar finalizar a conversa
+   <td>Eu, como usuário, desejo receber mensagem de despedida do bot para finalizar a conversa
    </td>
    <td>FT01
    </td>
@@ -311,7 +311,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS12
    </td>
-   <td>Eu, como ususário do bot , desejo saber sobre Curiosidades da linguagem Python
+   <td>Eu, como ususário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
@@ -319,7 +319,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS13
    </td>
-   <td>Eu, como ususário do bot , desejo saber sobre Curiosidades da linguagem Python
+   <td>Eu, como ususário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
