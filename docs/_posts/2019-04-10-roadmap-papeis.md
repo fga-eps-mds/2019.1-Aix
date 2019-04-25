@@ -2,6 +2,7 @@
 layout: post
 title: Roadmap de Papeis
 tags: projeto eps documento roadmap papeis
+category: Projeto
 ---
 | Data | Versão | Descrição | Autor |
 | :--: | :--: | :--: | :--: |
