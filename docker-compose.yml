@@ -57,15 +57,12 @@ services:
 
   actions:
     build:
-      context: .
-      dockerfile: ./docker/actions.Dockerfile
-    # image: diegodorgam/botons:actions
+      context: ./actions
+      dockerfile: actions.Dockerfile
+    volumes:
+      - ./actions:/app/actions
     ports:
       - 5055:5055
-    volumes:
-      - ./bot/actions:/bot/actions
-      - ./bot/Makefile:/bot/Makefile
-    command: "make run-actions"
 
   # ============================ Telegram Bot =================================
   telegram_bot:

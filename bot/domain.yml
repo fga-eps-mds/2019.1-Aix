@@ -25,8 +25,11 @@ intents:
   - link_conteudo_repeticao
   - exercicios_repeticao
 
-templates:
+  - action_otrs
+  - pesquisa_stackoverflow
+  - pesquisar
 
+templates:
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
@@ -230,10 +233,15 @@ templates:
 
 
   utter_link_conteudo_repeticao:
-    - text: |
+    - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
+
+  utter_pesquisar:
+    - text : |
+        Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
+        "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
 actions:
   - utter_cumprimentar
@@ -261,3 +269,7 @@ actions:
   - utter_default
   - utter_link_conteudo_repeticao
   - utter_exercicios_repeticao
+
+  - action_otrs
+  - action_pesquisa_stackoverflow
+  - utter_pesquisar
