@@ -107,4 +107,7 @@ São restrições de Arquitetura:
 
 ### 5.1 Diagrama de Pacotes
 <p align="justify">
+
+<img src="https://i.imgur.com/W4qG9ux.png" alt="drawing"/>
+
 </p>
