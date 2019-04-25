@@ -14,7 +14,7 @@ category: Projeto
 ### 1.1 Finalidade
 
 <p align="justify"> &emsp;&emsp;
-Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pelo arquiteto em conjunto com o DevOps, PO, ScrumMaster e a Equipe de Desenvolvimento no decorrer da estruturação do escopo.
+Este documento oferece uma visão geral arquitetural abrangente do sistema. Desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregadas diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pelo arquiteto em conjunto do DevOps, PO, ScrumMaster e a Equipe de Desenvolvimento no decorrer da estruturação do escopo.
 </p>
 
 <!--more-->
@@ -74,9 +74,9 @@ O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados,
 
 # 3. Metas e Restrições da Arquitetura 
 
-São metas de de Arquitetura:
+São metas de Arquitetura:
  - Disponibilizar ao usuário um fluxo constante de conversas para sanar a  necessidade do usuário de aprender o básico sobre a linguagem Python.
- - Desacoplamento e independencia entre os serviços.
+ - Desacoplamento e independência entre outros serviços.
  - Monitoramenteo e escalabilidade dos serviços.
 
 São restrições de Arquitetura:
