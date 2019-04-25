@@ -311,7 +311,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS12
    </td>
-   <td>Eu, como ususário, desejo saber sobre Curiosidades da linguagem Python
+   <td>Eu, como usuário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
@@ -319,7 +319,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS13
    </td>
-   <td>Eu, como ususário, desejo saber sobre Curiosidades da linguagem Python
+   <td>Eu, como usuário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
