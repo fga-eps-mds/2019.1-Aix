@@ -23,7 +23,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema. Dess
 
 
 <p align="justify"> &emsp;&emsp;
-Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download, o bot também será disponibilizado através do Telegram.</p>
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download. O bot também será disponibilizado através do Telegram.</p>
 <p align="justify"> &emsp;&emsp;
 Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de uso, entre outros.</p>
 
@@ -87,9 +87,7 @@ São restrições de Arquitetura:
 
 ### 4.1 Diagrama de casos de uso
 
-
-<img src="https://i.imgur.com/ckc9ovY.png" alt="drawing"/>
-
+<img src="https://i.imgur.com/rDwqRhs.png" alt="drawing"/>
 
 
 ### 4.2 Especificações dos casos de uso
