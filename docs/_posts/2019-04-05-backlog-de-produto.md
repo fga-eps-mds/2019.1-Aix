@@ -4,6 +4,10 @@ title: Backlog do Produto
 tags: plano backlog documento eps
 category: Produto
 ---
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 17/04/2019 | 0.0.1  | Criação do backlog                  | Kamilla Costa   e Lucas Vitor |
+| 22/04/2019 | 0.0.2  | Refatoração do backlog              | Kamilla Costa    |
 
 Foram criado algumas personas para inserção das histórias de usuário como:
 - Desenvolvedor: Responsável pelo desenvolvimento de funcionalidades do bot
