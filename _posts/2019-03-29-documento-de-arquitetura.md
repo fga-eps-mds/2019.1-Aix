@@ -48,7 +48,7 @@ Esta obra será segmentada da seguinte forma:
 
 ### 2.1 Diagrama de Relações
 
-![Diagrama de Relações]({{ site.url }}/2019.1-Aix/assets/img/diagrama_de_fluxo.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/diagrama_de_fluxo.png" alt="drawing" width="700px">
 
 ### 2.2 Tecnologias
 <p align="justify"> 
