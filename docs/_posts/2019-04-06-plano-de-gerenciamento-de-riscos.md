@@ -1,19 +1,56 @@
 ---
 layout: post
-title: Detalhamaneto de riscos
+title: Plano de gerenciamento de riscos
 tags: datelhamento riscos documento eps
 category: Gerencia
 ---
 |Data   |Versão   |Descrição   |Autor   |
 |---|---|---|---|
-|05/04/2019   | 1.0  |Criação do documento   |Lucas Vitor   |
-|09/04/2019   | 1.1  |Refatoração do documento | LUcas Vitor |
+|05/04/2019   | 1.0  |Criação do documento   | Lucas Vitor |
+|09/04/2019   | 1.1  |Refatoração do documento | Lucas Vitor |
+|25/04/2019   | 1.2  |Refatoração do documento | Lucas Vitor |
 
 
 ## 1. Introdução
 
-<p align="justify">O presente documento tem por objetivo a documentação dos riscos iniciais do projeto, bem como a descrição do processo de identificação e de resposta aos riscos enfrentados.</p>
+<p align="justify">O plano de gerenciamento de riscos tem por objetivo a identificação, análise e planejamento de medidas para os possíveis riscos que o projeto pode enfrentar. Este documento se torna imprescindível, pois a partir dele riscos que podem causar consequências graves são identificados e resolvidos ou mitigados.</p>
 <!--more-->
+
+## 2. Análise Quantitativa
+
+<p align="justify">A análise quantitativa tem por objetivo a priorização e categorização dos riscos de acordo com 2 métricas: probabilidade, chances de um risco ocorrer; impacto, o quanto o risco impacta no projeto.</p>
+
+### 2.1. Probabilidade
+
+|Probabilidade|Intervalo|Peso|
+|:-:|:-:|:-:|
+|Muito baixa|0 a 15|1|
+|Baixa|16 a 35|2|
+|Média|36 a 50|3|
+|Alta|51 a 65|4|
+|Muito alta|65 a 100|5|
+
+### 2.2. Impacto
+
+|Impacto|Descrição|Peso|
+|:-:|:-:|:-:|
+|Muito baixo|Pouco expressivo|1|
+|Baixo|Pouco impacto|2|
+|Médio|Impacto médio|3|
+|Alto|Grande impacto|4|
+|Muito alto|Impacto impede o procedimento do projeto|5|
+
+### 2.3. Prioridade
+
+<p align="justify">Se baseando com no impacto e na probabilidade é calculada a prioridade dos riscos. O que determina a urgência com que medidas devem ser tomadas para mitigar ou resolver um risco que pode impedir o projeto.</p>
+
+|I/P|Muito baixa|Baixa|Média|Alta|Muito alta|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|**Muito baixo**|1|2|3|4|5|
+|**Baixo**|2|4|6|8|10|
+|**Médio**|3|6|9|12|15|
+|**Alto**|4|8|12|16|20|
+|**Muito alto**|5|10|15|20|25|
 
 ## 2. Identificação dos Riscos
 
