@@ -9,6 +9,7 @@ category: Projeto
 |:--:|:--:|:--:|:--:|
 |28/03/2019| 1.0|Criação do documento e preenchendo os tópicos|Gabriela, André, Pedro, Iuri, Gustavo|
 |09/04/2019|1.1|Adicionando tópicos 2 e 5 e arrumando a maneira de apresentar a arquitetura|Guilherme Marques|
+|25/04/2019|1.2|Criação do diagrama de pacotes, alterações no diagrama de casos de uso e revisão ortográfica.| Gabriela, Iuri, Pedro|
 
 # 1. Introdução
 ### 1.1 Finalidade
@@ -87,7 +88,7 @@ São restrições de Arquitetura:
 
 ### 4.1 Diagrama de casos de uso
 
-<img src="https://i.imgur.com/rDwqRhs.png" alt="drawing"/>
+<img src="https://i.imgur.com/qZH8ojX.png" alt="drawing"/>
 
 
 ### 4.2 Especificações dos casos de uso
@@ -106,6 +107,6 @@ São restrições de Arquitetura:
 ### 5.1 Diagrama de Pacotes
 <p align="justify">
 
-<img src="https://i.imgur.com/W4qG9ux.png" alt="drawing"/>
+<img src="https://i.imgur.com/Zl3ll6L.png" alt="drawing"/>
 
 </p>
