@@ -75,7 +75,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT01
    </td>
-   <td>Apresentação  Aix
+   <td>Cumprimento/Despedida  Aix
    </td>
    <td>EP01
    </td>
@@ -83,7 +83,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT02
    </td>
-   <td>Funcionalidades Aix
+   <td>Apresentação de funcionalidades Aix
    </td>
    <td>EP01
    </td>
@@ -115,7 +115,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT06
    </td>
-   <td>Variáveis
+   <td>Conteúdo sobre Variáveis
    </td>
    <td>EP03
    </td>
@@ -123,7 +123,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT07
    </td>
-   <td>Estruturas Condicionais
+   <td>Conteúdo sobre Estruturas Condicionais
    </td>
    <td>EP03
    </td>
@@ -131,7 +131,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT08
    </td>
-   <td>Estruturas de repetição
+   <td>Conteúdo sobre Estruturas de repetição
    </td>
    <td>EP03
    </td>
@@ -139,7 +139,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT09
    </td>
-   <td>Vetores
+   <td>Conteúdo sobre Vetores
    </td>
    <td>EP03
    </td>
@@ -147,7 +147,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT10
    </td>
-   <td>Matrizes
+   <td>Conteúdo sobre Matrizes
    </td>
    <td>EP03
    </td>
@@ -155,7 +155,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT11
    </td>
-   <td>Funções
+   <td>Conteúdo sobre Funções
    </td>
    <td>EP03
    </td>
@@ -163,7 +163,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>FT12
    </td>
-   <td>Arquivos
+   <td>Conteúdo sobre Arquivos
    </td>
    <td>EP03
    </td>
@@ -259,7 +259,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS05
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico de Despedida
+   <td>Eu, como usuário, desejo receber mensagem de despedida do bot para finalizar a conversa
    </td>
    <td>FT01
    </td>
@@ -267,7 +267,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS06
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico Menu de Ajuda
+   <td>Eu, como usuário, desejo saber sobre as funcionalidades existentes no bot
    </td>
    <td>FT02
    </td>
@@ -275,7 +275,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS07
    </td>
-   <td>Eu, como desenvolvedor, desejo questionar o usuário quanto a existência de um ambiente de desenvolvimento configurado  
+   <td>Eu, como usuário, desejo ser questionado quanto a existência de um ambiente de desenvolvimento configurado  
    </td>
    <td>FT03
    </td>
@@ -291,7 +291,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS09
    </td>
-   <td>Eu, como desenvolvedor, desejo indicar dependências do ambiente de desenvolvimento do usuário
+   <td>Eu, como usuário, desejo receber indicações de dependências do meu ambiente de desenvolvimento
    </td>
    <td>FT04
    </td>
@@ -299,7 +299,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS10
    </td>
-   <td>Eu, como desenvolvedor, desejo guiar o usuário na instalação das dependências do python
+   <td>Eu, como usuário, desejo ser guiado na instalação das dependências do python
    </td>
    <td>FT04
    </td>
@@ -315,7 +315,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS12
    </td>
-   <td>Eu, como administrador do bot , desejo adicionar o tópico Curiosidades Python
+   <td>Eu, como usuário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
@@ -323,7 +323,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS13
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico sobre Curiosidades de Python
+   <td>Eu, como usuário, desejo saber sobre Curiosidades da linguagem Python
    </td>
    <td>FT05
    </td>
@@ -331,7 +331,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS14
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição de variável
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição de variável para que o usuário compreenda o conteúdo.
    </td>
    <td>FT06
    </td>
@@ -339,7 +339,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS15
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de usos de variáveis em python
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de usos de variáveis em python para que o usuário compreenda o conteúdo.
    </td>
    <td>FT06
    </td>
@@ -347,7 +347,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS16
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre variáveis
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre variáveis para que o usuário compreenda o conteúdo.
    </td>
    <td>FT06/FT13
    </td>
@@ -355,7 +355,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS17
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de variáveis
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de variáveis para que o usuário compreenda o conteúdo.
    </td>
    <td>FT06/FT13
    </td>
@@ -363,7 +363,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS18
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são estruturas condicionais
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são estruturas condicionais para que o usuário compreenda o conteúdo.
    </td>
    <td>FT07
    </td>
@@ -371,7 +371,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS19
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de estruturas condicionais
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de estruturas condicionais para que o usuário compreenda o conteúdo.
    </td>
    <td>FT07
    </td>
@@ -379,7 +379,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS20
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico um link para conteúdo extra sobre estruturas condicionais
+   <td>Eu, como administrador do bot, desejo adicionar o tópico um link para conteúdo extra sobre estruturas condicionais para que o usuário compreenda o conteúdo.
    </td>
    <td>FT07/FT13
    </td>
@@ -387,7 +387,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS21
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico um link para sugestão de exercício sobre uso de estruturas condicionais
+   <td>Eu, como administrador do bot, desejo adicionar o tópico um link para sugestão de exercício sobre uso de estruturas condicionais para que o usuário compreenda o conteúdo.
    </td>
    <td>FT07/FT13
    </td>
@@ -395,7 +395,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS22
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são estruturas de repetição
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são estruturas de repetição para que o usuário compreenda o conteúdo.
    </td>
    <td>FT08
    </td>
@@ -403,7 +403,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS23
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de estruturas de repetição
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de estruturas de repetição para que o usuário compreenda o conteúdo.
    </td>
    <td>FT08
    </td>
@@ -411,7 +411,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS24
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre estruturas de repetição
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre estruturas de repetição para que o usuário compreenda o conteúdo.
    </td>
    <td>FT08/FT13
    </td>
@@ -419,7 +419,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS25
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de estruturas de repetição
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de estruturas de repetição para que o usuário compreenda o conteúdo.
    </td>
    <td>FT08/FT13
    </td>
@@ -427,7 +427,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS26
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são vetores
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são vetores para que o usuário compreenda o conteúdo.
    </td>
    <td>FT09
    </td>
@@ -435,7 +435,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS27
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de vetores
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de vetores para que o usuário compreenda o conteúdo.
    </td>
    <td>FT09
    </td>
@@ -443,7 +443,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS28
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre vetores
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre vetores para que o usuário compreenda o conteúdo.
    </td>
    <td>FT09/FT13
    </td>
@@ -451,7 +451,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS29
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de vetores
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de vetores para que o usuário compreenda o conteúdo.
    </td>
    <td>FT09/FT13
    </td>
@@ -459,7 +459,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS30
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são matrizes
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são matrizes para que o usuário compreenda o conteúdo.
    </td>
    <td>FT10
    </td>
@@ -467,7 +467,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS31
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de matrizes
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de matrizes para que o usuário compreenda o conteúdo.
    </td>
    <td>FT10
    </td>
@@ -475,7 +475,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS32
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre matrizes
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre matrizes para que o usuário compreenda o conteúdo.
    </td>
    <td>FT10/FT13
    </td>
@@ -483,7 +483,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS33
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de matrizes
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de matrizes para que o usuário compreenda o conteúdo.
    </td>
    <td>FT10/FT13
    </td>
@@ -491,7 +491,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS34
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são funções
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são funções para que o usuário compreenda o conteúdo.
    </td>
    <td>FT11
    </td>
@@ -499,7 +499,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS35
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de funções
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de funções para que o usuário compreenda o conteúdo.
    </td>
    <td>FT11
    </td>
@@ -507,7 +507,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS36
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre funções
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre funções para que o usuário compreenda o conteúdo.
    </td>
    <td>FT11/FT13
    </td>
@@ -515,7 +515,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS37
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de funções
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de funções para que o usuário compreenda o conteúdo.
    </td>
    <td>FT11/FT13
    </td>
@@ -523,7 +523,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS38
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são arquivos
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com a definição do que são arquivos para que o usuário compreenda o conteúdo.
    </td>
    <td>FT12
    </td>
@@ -531,7 +531,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS39
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de arquivos
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com exemplos de utilização de arquivos para que o usuário compreenda o conteúdo.
    </td>
    <td>FT12
    </td>
@@ -539,7 +539,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS40
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre arquivos
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para conteúdo extra sobre arquivos para que o usuário compreenda o conteúdo.
    </td>
    <td>FT12/FT13
    </td>
@@ -547,7 +547,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS41
    </td>
-   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de arquivos
+   <td>Eu, como administrador do bot, desejo adicionar o tópico com um link para sugestão de exercício sobre uso de arquivos para que o usuário compreenda o conteúdo.
    </td>
    <td>FT12/FT13
    </td>
@@ -603,7 +603,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
   <tr>
    <td>IS48
    </td>
-   <td>Eu, como desenvolvedor, desejo auxiliar o usuário na construção do primeiro programa ‘Hello Word’
+   <td>Eu, como usuário, desejo ser auxiliado na construção do meu primeiro programa ‘Hello Word’
    </td>
    <td>FT17
    </td>
