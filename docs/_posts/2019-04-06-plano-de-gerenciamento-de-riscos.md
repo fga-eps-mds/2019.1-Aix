@@ -62,8 +62,10 @@ category: Gerencia
 |Alto|16 a 20|
 |Muito alto|21 a 25|
 
+## 3. Estrutura Analítica de Riscos
 
-
+<p align="justify">Esta estrutura, também conhecida como EAR, é responsável por agrupar as possíveis causas dos riscos, o que facilita o tratamento e reconhecimento de riscos do projeto, facilitando o processo de mitigação dos riscos.</p>
+<p align="justify">Os riscos podem ser classificados de acordo com várias categorias. <b>Técnico</b>, que são riscos associados à tecnologia, requisitos  e qualidade. <b>Externo</b>, são riscos relativos ao cliente, mercado ou ambiente. <b>Organizacional</b>, são relacioandos à priorização e recursos do projeto. <b>Gerência</b>, são relativos à estimativa, planejamento, controle e comunicação.</p>
 
 ## 4. Identificação dos Riscos
 
