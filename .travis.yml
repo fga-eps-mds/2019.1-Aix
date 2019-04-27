@@ -27,9 +27,9 @@ script:
   - docker run aixchatbot/aix-bot make train
   - docker run aixchatbot/aix-actions flake8 --filename=*.py --exclude=__pycache__
 
-deploy:
-  provider: script
-  script: bash ./deploy.sh
+# deploy:
+#   provider: script
+#   script: bash ./deploy.sh
   # remover comentário antes de abrir o pull request
   # on:
   #  branch: master
