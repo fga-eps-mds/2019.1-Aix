@@ -47,8 +47,11 @@ Duração: 1 semana<br>
 Início: 06/04/2019<br>
 Fim: 13/04/2019
 
-
 <!--more-->
+
+## Pareamentos
+
+![Pareamentos]({{ site.url }}/assets/img/Pareamento_sprint_3.png)
 
 ## Sprint Backlog
 
