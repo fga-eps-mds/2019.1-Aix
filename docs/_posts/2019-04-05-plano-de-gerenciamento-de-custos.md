@@ -94,6 +94,6 @@ Com estas dimensões é possível realizar o cálculo da variação de custos e 
 
 ## 5. Bibliografia
 
-> [GCS da equipe do Receita Mais](https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software)
+> [Plano de gerenciamento de custos da equipe do Receita Mais](https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-de-Custo)
 
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 6a. ed. - EUA: Project Management Institute, 2017.

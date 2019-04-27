@@ -83,13 +83,15 @@ As cores escolhidas foram baseadas no logomarca do Projeto Jupyter em conjunto c
 <p align="justify"> &emsp;&emsp;
 A fonte Roboto Slab deverá ser usada na forma Bold para títulos e headers e na forma regular para destacar informações nos textos gerais e explicativos
 </p>
+
 <img src="https://txt.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5VbTlpYjNSdklGTnNZV0lnVW1WbmRXeGhjZywsLjA,/roboto-slab.regular.png" alt="drawing"/>
-<p></br>
+<br>
 
 <img src="https://txt.static.1001fonts.net/txt/dHRmLjcyLjAwMDAwMC5VbTlpYjNSdklGTnNZV0lnUW05c1pBLCwuMA,,/roboto-slab.bold.png" alt="drawing"/>
-<p></br>
+<br>
 
 ## 3.2 Roboto
+
 <p align="justify"> &emsp;&emsp;
 A fonte Roboto deverá ser usada na forma Regular para textos gerais. 
 </p>
