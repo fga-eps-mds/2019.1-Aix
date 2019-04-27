@@ -9,12 +9,13 @@ category: Projeto
 |:--:|:--:|:--:|:--:|
 |28/03/2019| 1.0|Criação do documento e preenchendo os tópicos|Gabriela, André, Pedro, Iuri, Gustavo|
 |09/04/2019|1.1|Adicionando tópicos 2 e 5 e arrumando a maneira de apresentar a arquitetura|Guilherme Marques|
+|25/04/2019|1.2|Criação do diagrama de pacotes, alterações no diagrama de casos de uso e revisão ortográfica.| Gabriela, Iuri, Pedro|
 
 # 1. Introdução
 ### 1.1 Finalidade
 
 <p align="justify"> &emsp;&emsp;
-Este documento oferece uma visão geral arquitetural abrangente do sistema e, desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido, explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregues diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pelo arquiteto em conjunto com o DevOps, PO, ScrumMaster e a Equipe de Desenvolvimento no decorrer da estruturação do escopo.
+Este documento oferece uma visão geral arquitetural abrangente do sistema. Desse modo, especifica decisões relevantes na produção e implementação do projeto Aix em relação ao assunto discorrido explicitando como acontecerá a comunicação dos diversos serviços contidos no software como um todo. Para isso, serão empregadas diversas características do projeto como casos de usos, restrições e requisitos, qualidade, desempenho dentre outros com a finalidade de fundamentar as decisões tomadas pelo arquiteto em conjunto do DevOps, PO, ScrumMaster e a Equipe de Desenvolvimento no decorrer da estruturação do escopo.
 </p>
 
 <!--more-->
@@ -23,7 +24,7 @@ Este documento oferece uma visão geral arquitetural abrangente do sistema e, de
 
 
 <p align="justify"> &emsp;&emsp;
-Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download, o bot também será disponibilizado através do Telegram.</p>
+Serão documentados neste trabalho os componentes de software, padrões, plataformas de desenvolvimento e frameworks necessários para a composição do programa que se dedica ao aprendizado de seus usuários da linguagem python. Resumidamente, o software consiste em um bot disponibilizado dentro de um de um script em JavaScript que pode ser executado dentro da plataforma Jupyter Notebook que será disponibilizada para download. O bot também será disponibilizado através do Telegram.</p>
 <p align="justify"> &emsp;&emsp;
 Neste artigo serão exploradas todas as informações relacionadas à arquitetura do projeto, como por exemplo diagramas de classes, casos de uso, entre outros.</p>
 
@@ -48,7 +49,7 @@ Esta obra será segmentada da seguinte forma:
 
 ### 2.1 Diagrama de Relações
 
-![Diagrama de Relações]({{ site.url }}/2019.1-Aix/assets/img/diagrama_de_fluxo.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/diagrama_de_fluxo.png" alt="drawing" width="700px">
 
 ### 2.2 Tecnologias
 <p align="justify"> 
@@ -74,9 +75,9 @@ O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados,
 
 # 3. Metas e Restrições da Arquitetura 
 
-São metas de de Arquitetura:
+São metas de Arquitetura:
  - Disponibilizar ao usuário um fluxo constante de conversas para sanar a  necessidade do usuário de aprender o básico sobre a linguagem Python.
- - Desacoplamento e independencia entre os serviços.
+ - Desacoplamento e independência entre outros serviços.
  - Monitoramenteo e escalabilidade dos serviços.
 
 São restrições de Arquitetura:
@@ -87,8 +88,8 @@ São restrições de Arquitetura:
 
 ### 4.1 Diagrama de casos de uso
 
+<img src="https://i.imgur.com/qZH8ojX.png" alt="drawing"/>
 
-<img src="https://i.imgur.com/I56a0Su.png" alt="drawing"/>
 
 ### 4.2 Especificações dos casos de uso
 
@@ -99,9 +100,13 @@ São restrições de Arquitetura:
 |UC03 - Dar feedback da compilação dos códigos| - | Este caso de uso ocorre após a compilação de um código, onde o bot avisa o usuário de possíveis erros e warnings que aconteceram na ação pedida e os explica, para que possam ser consertados|
 |UC04 - Salvar conversa| - | Esse caso de uso ocorre após o usuário fechar o programa. O bot automaticamente salva os dados da conversa para que num próximo uso seja possível rever os que já foi conversado|
 |UC05 - Corrigir exercícios por um juíz online| Juíz online | Esse caso de uso fornece ao usuário a opção de encaminhar seu código diretamente ao um juíz online que efetuará a correção do mesmo|
+|UC06 - Pesquisar erros e dúvidas| StackOverflow | Esse caso permite ao usuário fazer pesquisas diretamente no banco de dados do StackOverflow a partir das mensagens com o bot|
 
 # 5. Visão Lógica
 
 ### 5.1 Diagrama de Pacotes
 <p align="justify">
+
+<img src="https://i.imgur.com/Zl3ll6L.png" alt="drawing"/>
+
 </p>
