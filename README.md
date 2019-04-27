@@ -7,6 +7,7 @@
   <p align="center">
     <a href="https://fga-eps-mds.github.io/2019.1-Aix"><strong>Visite nossa página &raquo;</strong></a>
     <br>
+    Converse com a Aix no <a href="https://t.me/Aix_chatbodebot">Telegram</a> ou em nossa instância do <a href="http://aixbot.me">Jupyter.</a>
   </p>
 </p>
 
@@ -85,12 +86,12 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
   ```
     docker-compose up jupyter
   ```
-  Sua instância do jupyter estará disponível em 
+  Sua instância do jupyter estará disponível em
   ```
     http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
   ```
 
-  
+
 ### Licença
 
 <p align="justify">&emsp;&emsp; Aix é distribuído sob a licença GPLv3. Consulte <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/LICENSE">LICENSE</a> para obter detalhes.</p>
