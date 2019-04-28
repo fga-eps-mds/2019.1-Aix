@@ -72,44 +72,36 @@ no StackOverflow.</p>
 <p align="justify"> &emsp;&emsp;
 Com essas utilidades, o aplicativo alcança uma posição inovadora na categoria de programas didáticos para entidades de aprendizado, sejam elas presenciais ou não.</p>
 
-## 3. Descrição da Parte Interessada e do Usuário
-* Cliente: 
-    * Instituições de ensino médio e superior
-    * Empresas privadas
-* Usuários: 
-    * Pessoas iniciantes no aprendizado da linguagem de programação Python
-    * Professores interessados em alternativas para o processo de ensino da linguagem Python
-    * Usuários da plataforma Jupyter para o desenvolvimento em Python
-    * Profissinais autônomos
-
-* Equipe: Graduandos do curso de Engenharia de Software da Universidade de Brasília campus Gama.
+## 3. Descrições da Parte Interessada e do Usuário
+<p align="justify"> &emsp;&emsp;Neste tópico serão descritos os perfis da parte interessada e do usuário. Ademais, serão abordados também serviços que apresentam-se como concorrência para o nosso produto. </p>
 
 ### 3.1 Demográficos de Mercado
-<p align="justify"> &emsp;&emsp;
-Nos últimos anos a quantidade de programadores cresceu significamente, até mesmo por se tornar uma área profissional com boa oferta de emprego. Além disso, muitos cursos requerem que seus formandos tenham ao menos noção de programação. Uma das linguagens mais utilizadas atualmente é o Python. Nos últimos anos houve um grande crescimento em sua utilização devido a variedade de aplicações utilizando a linguagem. Porém, aprender a programar pode não ser tão fácil para qualquer um. Na Universidade de Brasília muitos alunos se sentem desmotivados a programar e em muitos casos isso pode ser intensificado por dificuldades em aprender a linguagem em si.</p>
+
+<p align="justify"> &emsp;&emsp;Nos últimos anos, a quantidade de programadores cresceu substancialmente, principalmente devido ao grande sucesso da área no mercado de trabalho. Além disso, diversas disciplinas necessitam da interação de noções básicas do
+setor de software, de linguagens de programação, em especial. </p>
+
+<p align="justify"> &emsp;&emsp;Uma das linguagens mais utilizadas atualmente é o Python. Desde a sua concepção, houve um grande crescimento em seu uso devido a variedade de aplicações da linguagem. Porém, aprender a programar para muitos discentes aparenta ser um imenso empecilho. Na Universidade de Brasília vários alunos se sentem desmotivados a programar e em diversos casos isso pode ser intensificado por dificuldades em aprender a linguagem em si.</p>
+
+<p align="justify"> &emsp;&emsp;Desse modo, a Aix surge como uma ferramenta não só de aprendizado, mas também de motivação para os iniciantes em software. Assim, esperamos conseguir um êxito na formação de excelentes profissionais sem que seja necessário custos absurdos para que o serviço seja oferecido.</p>
 
 ### 3.2 Resumo da parte interessada
-<p align="justify"> &emsp;&emsp;
-Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensino de uma linguagem de programação, como o Python, aos seus funcionários e estudantes.</p>
+
+<p align="justify"> &emsp;&emsp;Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensino dinâmico de uma linguagem de programação, como o Python, aos seus funcionários e estudantes. </p>
 
 ### 3.3 Resumo do usuário
-* Pessoas iniciantes no aprendizado da linguagem de programação Python.
-    * Funcionários de empresas e estudantes que estão entrando na área de tecnologia.
-* Professores interessados em alternativas para o processo de ensino da linguagem Python.
-* Usuários da plataforma Jupyter para o desenvolvimento em Python.
-* Profissinais autônomos que desejam aumentar seus conhecimentos.
+<p align="justify"> &emsp;&emsp;
+O alvo beneficiário principal do nosso projeto são pessoas iniciantes no aprendizado da linguagem de programação Python, funcionários de empresas e estudantes que estão entrando na área de tecnologia, professores interessados em alternativas para o processo de ensino da matéria em questão, usuários da plataforma Jupyter que focam no desenvolvimento em Python e profissionais autônomos que desejam aumentar seus conhecimentos.</p>
 
+### 3.4 Principais Necessidades da Parte Interessada e do Usuário
 
-### 3.4 Principais Necessidades da Parte Interessada ou do Usuário
-
-Tabela 1. Necessidades da Parte Interessada
+**Tabela 1.** Necessidades da Parte Interessada
 
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
 |Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documetações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
 
-Tabela 2. Necessidades do Usuário
+**Tabela 2.** Necessidades do Usuário
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
