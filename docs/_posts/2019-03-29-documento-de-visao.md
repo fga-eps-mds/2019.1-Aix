@@ -26,15 +26,10 @@ Em seguida, as informações técnicas do programa também serão bem delineadas
 <p align="justify"> &emsp;&emsp;
 Estarão listadas neste tópico definições, acrônimos e abreviações para garantir uma maior proximidade para com o leitor e o público interessado no projeto.</p>
 
-#### 1.3.1 Definições
-
 **Chatbot:** programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.
-
-#### 1.3.2 Abreviações
 
 ### 1.4  Referências
 * [Stack Overflow](https://stackoverflow.com/)
-Acessado em: 26/03/2018, 15:30, Horário de Brasília.
 * [Dulce](https://dulce-work-schedule.github.io/especificacao/visao.html#2)
 * [IBM](https://www.ibm.com/support/knowledgecenter/pt-br/SSYMRC_6.0.3/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html)
 
@@ -129,7 +124,7 @@ Critérios de Sucesso|Envolvimento|Entregas|
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
-|Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documentações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
+|Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documentações|Uma forma flexível, confiável e menos trabalhosa de auxílio ao estudante|
 
 **Tabela 2.** Necessidades do Usuário
 
@@ -165,11 +160,11 @@ O produto não possui custos além dos relacionados a equipe de desenvolvimento 
 ## 5. Recursos do Produto
 ### 5.1 Ajuda com sintaxe
 <p align="justify"> &emsp;&emsp;
-O usuário poderá tirar dúvidas de sintaxe da linguagem python por meio do Bot.</p>
+O usuário poderá tirar dúvidas de sintaxe da linguagem Python por meio do Bot.</p>
 
 ### 5.2 Respostas de Dúvidas
 <p align="justify"> &emsp;&emsp;
-O Bot irá responder as dúvidas do aluno sobre a linguagem python.</p>
+O Bot irá responder as dúvidas do aluno sobre a linguagem Python.</p>
 
 ### 5.3 Ajudar o usuário com exemplos
 <p align="justify"> &emsp;&emsp;
