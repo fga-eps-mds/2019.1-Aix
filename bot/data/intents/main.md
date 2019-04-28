@@ -150,3 +150,5 @@
 - me indique uma playlist para estudar
 - qual seu signo
 - o que é stackoverflow
+- o que é uma lista
+- oq e uma lista
