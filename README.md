@@ -53,7 +53,7 @@ cd docs/_posts
 - Lembre se de seguir nossa folha de estilo que pode ser encontrada em:
 
 ```
-cd _posts/2019-03-29-gcs.md
+cd _posts/2019-03-31-folha-de-estilo.md
 ```
 - Agora abra um pr em nosso repositório
 
