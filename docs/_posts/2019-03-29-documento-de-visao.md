@@ -113,6 +113,14 @@ Critérios de Sucesso|Envolvimento|Entregas|
 
 ### 3.6 Perfis do Usuário
 
+|Representante|Descrição|Tipo|Responsabilidades|
+|--|--|--|--|
+|Indivíduos interessados em linguagem de programação Python.|Estudantes de cursos da computação, alunos de outras áreas interessados na interdisciplinariedade, profissionais autônomos. | Usuários informais que apresentam um nível baixo ou intermediário de conhecimento sobre Python. | Além de usar com responsabilidade o programa, tentando respeitar ao máximo a língua portuguesa mesmo que de forma coloquial, o usuário deve relatar qualquer problema técnico encontrado à parte interessada, para que esta alerte a equipe de desenvolvimento, que resolverá o problema.
+
+Critérios de Sucesso|Envolvimento|Entregas|
+|--|--|--|
+|Reconhecimento pelo usuário de noções básicas da linguagem, identificação pelo beneficente de capítulos recorrentes de conteúdos bibliográficos, capacidade de solucionar problemas propostos pela Aix e outros demais empecilhos. | Construtor das dúvidas e receptor de conhecimento. Dialoga com o simulador de maneira informal e envia interrogações para que assim o chatbot retorne uma explicação correspondente.|As entregas do usuário são as dúvidas enviadas que deverão ser elaboradas por ele durante o processo de aprendizagem.|
+
 
 ### 3.7 Principais Necessidades da Parte Interessada e do Usuário
 
