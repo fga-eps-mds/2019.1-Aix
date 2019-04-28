@@ -30,8 +30,11 @@ intents:
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
 
-templates:
+  - action_otrs
+  - pesquisa_stackoverflow
+  - pesquisar
 
+templates:
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
@@ -259,11 +262,16 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-  utter_conteudo_extra_repeticao:
-    - text: |
+  utter_link_conteudo_repeticao:
+    - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
+
+  utter_pesquisar:
+    - text : |
+        Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
+        "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
 actions:
   - utter_cumprimentar
@@ -296,3 +304,7 @@ actions:
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+
+  - action_otrs
+  - action_pesquisa_stackoverflow
+  - utter_pesquisar

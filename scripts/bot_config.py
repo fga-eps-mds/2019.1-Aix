@@ -42,7 +42,7 @@ parser.add_argument(
     help='Bot password at RocketChat'
 )
 parser.add_argument(
-    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png',
+    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png',
     help='Bot avatar photo link (default: bot\'s github avatar)'
 )
 parser.add_argument(
@@ -54,12 +54,12 @@ parser.add_argument(
     help='Admin password at RocketChat'
 )
 parser.add_argument(
-    '--rocketchat-url', '-r', type=str, default='http://rocketchat:3000',
-    help='Rocket chat URL (default: http://rocketchat:3000)'
+    '--rocketchat-url', '-r', type=str,
+    help='Rocket chat URL'
 )
 parser.add_argument(
-    '--rasa-url', '-rasa', type=str, default='http://bot:5005/webhooks/rocketchat/webhook',
-    help='Rasa URL (default: http://bot:5005/webhooks/rocketchat/webhook)'
+    '--rasa-url', '-rasa', type=str,
+    help='Rasa URL'
 )
 
 args = parser.parse_args()

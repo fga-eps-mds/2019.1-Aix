@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/assets/img/cabracinza.png" alt="Logo">
+  <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png" alt="Logo">
 </p>
 
 <h1 align="center"> Aix - Bot de Aprendizado integrado a plataforma Jupyter</h1>
@@ -7,6 +7,7 @@
   <p align="center">
     <a href="https://fga-eps-mds.github.io/2019.1-Aix"><strong>Visite nossa página &raquo;</strong></a>
     <br>
+    Converse com a Aix no <a href="https://t.me/Aix_chatbodebot">Telegram</a> ou em nossa instância do <a href="http://aixbot.me">Jupyter.</a>
   </p>
 </p>
 
@@ -35,25 +36,25 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 - Vá para a nossa branch gh-pages onde se encontra nosso documentos
 
 ```
-  git checkout gh-pages
+git checkout gh-pages
 ```
 - Crie uma issue baseado em nosso template de issue regular a partir da branch gh-pages
 
 ```
-  git checkout -b "issue_x_documentoX"
+git checkout -b "issue_x_documentoX"
 ```
 
-- Entre na pasta _posts
+- Entre na pasta docs e em seguida a pasta _posts
 
 ```
-  cd _posts
+cd docs/_posts
 ```
   Nesta página você encontra todos os documentos referentes ao projetos!
 
 - Lembre se de seguir nossa folha de estilo que pode ser encontrada em:
 
 ```
-  cd _posts/2019-03-29-gcs.md
+cd _posts/2019-03-31-folha-de-estilo.md
 ```
 - Agora abra um pr em nosso repositório
 
@@ -66,31 +67,31 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 #### Pré-requisitos
 * [Git](https://git-scm.com/)
 * [Docker](https://www.docker.com/get-docker)
-* [Docker-composer](https://docs.docker.com/compose/install/#install-compose)
+* [Docker-compose](https://docs.docker.com/compose/install/#install-compose)
 
 #### Configuração
   Clone o repositório
   ```
-    git clone https://github.com/fga-eps-mds/2019.1-Aix.git
+  git clone https://github.com/fga-eps-mds/2019.1-Aix.git
   ```
   Inicialize o RocketChat
   ```
-    docker-compose up -d rocketchat
+  docker-compose up -d rocketchat
   ```
   Inicialize o Bot(recomenda-se aguardar 3 minutos para que o rocketchat inicialize)
   ```
-    docker-compose up bot
+  docker-compose up bot
   ```
   Inicialize o Jupyter
   ```
-    docker-compose up jupyter
+  docker-compose up jupyter
   ```
-  Sua instância do jupyter estará disponível em 
+  Sua instância do jupyter estará disponível em
   ```
-    http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
+  http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
   ```
 
-  
+
 ### Licença
 
 <p align="justify">&emsp;&emsp; Aix é distribuído sob a licença GPLv3. Consulte <a href="https://github.com/fga-eps-mds/2019.1-Aix/blob/master/LICENSE">LICENSE</a> para obter detalhes.</p>

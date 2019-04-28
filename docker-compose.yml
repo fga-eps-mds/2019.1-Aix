@@ -7,10 +7,10 @@ services:
     restart: unless-stopped
     environment:
       - PORT=3000
-      - ROOT_URL=${ROOT_URL}
-      - MONGO_URL=${MONGO_URL}
-      - ADMIN_USERNAME=${ROCKET_USER}
-      - ADMIN_PASS=${ROCKET_PASS}
+      - ROOT_URL=http://localhost:3000
+      - MONGO_URL=MONGO_URL=mongodb://mongo:27017/rocketchat
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASS=admin
     ports:
       - 3000:3000
     depends_on:
@@ -40,7 +40,7 @@ services:
       - ROCKETCHAT_BOT_PASSWORD=${BOT_PASS}
       - ROCKETCHAT_BOT_EMAIL=${BOT_EMAIL}
       - ROCKETCHAT_BOT_NAME=${BOT_NAME}
-
+      - RASA_URL=${RASA_URL}
       # Should be set to 'production' or 'beta' or 'dev'
       - ENVIRONMENT_NAME=${ENV_NAME}
       # Last commit hash using this command: git rev-parse HEAD
@@ -57,15 +57,12 @@ services:
 
   actions:
     build:
-      context: .
-      dockerfile: ./docker/actions.Dockerfile
-    # image: diegodorgam/botons:actions
+      context: ./actions
+      dockerfile: actions.Dockerfile
+    volumes:
+      - ./actions:/app/actions
     ports:
       - 5055:5055
-    volumes:
-      - ./bot/actions:/bot/actions
-      - ./bot/Makefile:/bot/Makefile
-    command: "make run-actions"
 
   # ============================ Telegram Bot =================================
   telegram_bot:
