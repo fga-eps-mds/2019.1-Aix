@@ -396,19 +396,19 @@
 ## intent:link_conteudo_repeticao
 - mais conteudo for
 - mais conteudo while
-- link extra sobre repetiçao
-- outras sontes repeticao
+- link extra sobre repeticao
+- outras fontes repeticao
 - outras fontes for while
 - quero saber mais sobre loop for while
-- ensinar mais cobre loop for while
-- link sobre estrtutura condicional
-- conteudo extra condicionais loop
+- ensinar mais sobre loop for while
+- link sobre estrutura de repeticao
+- conteudo extra loop
 - site com loop
 - site sobre loop while for
 
 ## intent:exercicios_repeticao
 - exercicio laco de repeticao
-- exercicios laços de repetição
+- exercicios lacos de repeticao
 - exercicio for
 - exercicios while
 - exercicios for while

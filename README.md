@@ -36,25 +36,25 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 - Vá para a nossa branch gh-pages onde se encontra nosso documentos
 
 ```
-  git checkout gh-pages
+git checkout gh-pages
 ```
 - Crie uma issue baseado em nosso template de issue regular a partir da branch gh-pages
 
 ```
-  git checkout -b "issue_x_documentoX"
+git checkout -b "issue_x_documentoX"
 ```
 
 - Entre na pasta docs e em seguida a pasta _posts
 
 ```
-  cd docs/_posts
+cd docs/_posts
 ```
   Nesta página você encontra todos os documentos referentes ao projetos!
 
 - Lembre se de seguir nossa folha de estilo que pode ser encontrada em:
 
 ```
-  cd _posts/2019-03-29-gcs.md
+cd _posts/2019-03-31-folha-de-estilo.md
 ```
 - Agora abra um pr em nosso repositório
 
@@ -72,23 +72,23 @@ Caso tenha interesse em contribuir com nossa documentação é bem simples!
 #### Configuração
   Clone o repositório
   ```
-    git clone https://github.com/fga-eps-mds/2019.1-Aix.git
+  git clone https://github.com/fga-eps-mds/2019.1-Aix.git
   ```
   Inicialize o RocketChat
   ```
-    docker-compose up -d rocketchat
+  docker-compose up -d rocketchat
   ```
   Inicialize o Bot(recomenda-se aguardar 3 minutos para que o rocketchat inicialize)
   ```
-    docker-compose up bot
+  docker-compose up bot
   ```
   Inicialize o Jupyter
   ```
-    docker-compose up jupyter
+  docker-compose up jupyter
   ```
   Sua instância do jupyter estará disponível em
   ```
-    http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
+  http://localhost:8888/?token=f3e7fa23fb7e347ad05914368b625416b7a95a674dc078f7
   ```
 
 

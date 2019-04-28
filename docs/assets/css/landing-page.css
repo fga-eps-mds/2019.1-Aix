@@ -1691,6 +1691,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 }
 
+.dropdown {
+  color: white;
+  padding-top: 23px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-item:hover {
+  background-color: #eee;
+  color: grey;
+}
+
+.dropdown-item {
+  padding-left: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.dropdown-title:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-link {
+  color: #3f4140;
+}
+
 @media (min-width: 768px){
     .landing-page .navbar-top{
         padding-top: 10px;
