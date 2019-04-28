@@ -100,7 +100,21 @@ A esfera de ação do projeto se encontra atualmente no aplicativo social denomi
 <p align="justify"> &emsp;&emsp;
 Dessa forma, no momento atual, é necessário para o usuário apenas um dispositivo eletrônico apropriado para acessar o aplicativo Telegram.</p>
 
-### 3.5 Principais Necessidades da Parte Interessada e do Usuário
+### 3.5 Perfis das Partes Interessadas: 
+
+|Representante|Descrição|Tipo|Responsabilidades|
+|--|--|--|--|
+|Entidades de ensino.|Instituições físicas, empresas privadas, professores, plataformas digitais.|Guias intelectuais para aprendizes da linguagem de programação Python. |Garantir a conquista da formação de seus pupilos no conteúdo em questão e buscar alternativas que fogem ao estilo engessado de transmitir conhecimento. Inovar ao ensinar para alcançar o objetivo final. 
+
+Critérios de Sucesso|Envolvimento|Entregas|
+|--|--|--|
+|Maior adesão ao serviço da parte interessada, graças aos bons resultados alcançados através de programas inovadores de ensino e grandes profissionais que podem ser formados por estas entidades que darão nome a essas instituições.|Revisor de requisitos. Confere se é abordado no projeto todos os temas que a entidade busca propagar aos usuários, todo o conteúdo necessário para o pupilo em determinado período. Em caso de ausência de algum tema, contacta a equipe para que o tópico seja implementado.|Entregas adicionais que podem ser requeridas pela parte interessada serão os temas não abordados pela equipe mas que carecem na hora da revisão da parte interessada. Conteúdos relacionados ao estudo da linguagem Python.|
+
+
+### 3.6 Perfis do Usuário
+
+
+### 3.7 Principais Necessidades da Parte Interessada e do Usuário
 
 **Tabela 1.** Necessidades da Parte Interessada
 
@@ -115,7 +129,7 @@ Dessa forma, no momento atual, é necessário para o usuário apenas um disposit
 |---|---|---|---|
 |Tirar dúvidas de programação|Ser rápido e claro|Pesquisar por fóruns, livros e documentações|Permitir que o usuário converse com o bot e esclareça suas dúvidas|
 
-### 3.6 Alternativas e Concorrência
+### 3.8 Alternativas e Concorrência
 * Stack Overflow
     * É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.
   
