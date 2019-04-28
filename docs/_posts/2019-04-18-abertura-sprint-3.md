@@ -51,7 +51,7 @@ Fim: 13/04/2019
 
 ## Pareamentos
 
-![Pareamentos]({{ site.url }}/assets/img/Pareamento_sprint_3.png)
+![Pareamentos]({{ site.url }}/2019.1-Aix/assets/img/Pareamento_sprint_3.png)
 
 ## Sprint Backlog
 
