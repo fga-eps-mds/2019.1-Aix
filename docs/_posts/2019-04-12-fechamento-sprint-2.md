@@ -75,6 +75,10 @@ category: Sprint
 |Mudança inesperada de arquitetura   |Comunicação com equipe de EPS   |Reunião com EPS para definição de melhor plano de reação ao risco   |
 | Adicionar dificuldade técnica para MDS  | Planejar Sprints com dificuldade gradativa para adequação da equipe de MDS   | Treinamentos e pareamentos  |
 
+## Burndown de Riscos
+
+![Burndown de Riscos]({{ site.url }}/2019.1-Aix/assets/img/burndown_riscos_sprint_2.png)
+
 ## Resumo pelo Scrum Master
 
 A sprint possuiu vários impedimentos que podem ser considerados externos ao projeto em si (problemas de saúde familiar e técnicos) que atrasaram parte do trabalho, mas que foram contornados devido à boa auto-organização da equipe (sobretudo MDS). Houveram dívidas técnicas por parte de EPS, principalmente no tocante ao deploy e integração, e isso se deve à mudança arquitetural não prevista.
