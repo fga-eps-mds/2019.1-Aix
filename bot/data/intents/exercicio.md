@@ -1,7 +1,7 @@
 ## intent:exercicios_condicionais
-- exercicio condicionais
+- exercício condicionais
 - exercicio if else
-- exercicios condicionais
+- exercícios condicionais
 - exercicios if else
 - treinar condicionais
 - treinar if else
@@ -14,26 +14,31 @@
 
 ## intent:exercicios_variaveis
 - exercícios sobre variáveis
-- exercicios variavel
-- exercicio de variaveis
+- exercicios sobre inteiros
+- exercícios variável
+- exercicios float
+- exercício de variaveis
+- exercicio de booleanos
 - link exercicios sobre variaveis
 - treinar sobre variáveis
+- treinar sobre caracteres
 - testar variaveis
-- aprender exercicios variaveis
-- me envie links com exercicios sobre variaveis
+- aprender exercicios variáveis
+- aprender exercicios inteiros
+- me envie links com exercicios sobre variáveis
 - onde faço exercícios sobre variáveis
-- exercicio sobre variavel
+- exercício sobre variavel
 
 ## intent:exercicios_repeticao
-- exercicio laco de repeticao
+- exercício laço de repeticao
 - exercicios laços de repetição
-- exercicio for
+- exercício for
 - exercicios while
-- exercicios for while
+- exercícios for while
 - treinar repeticao
 - treinar for while
 - saber se aprendi for while
-- saber se aprendi repeticao
+- saber se aprendi repetição
 - uri for while
 - uri repeticao
 - testar conhecimentos for while

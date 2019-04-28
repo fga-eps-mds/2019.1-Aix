@@ -1,22 +1,22 @@
 ## intent:sobre_python
-- o que e python
+- o que é python
 - me defina python
-- me explique o que e python
+- me explique o que é python
 - quando python foi criado
 - em qual ano python surgiu
-- quem e o criador do python
-- voce sabe quem e o pai do python
+- quem é o criador do python
+- voce sabe quem é o pai do python
 
 ## intent:sobre_aix
-- quem e voce
+- quem é você
 - sobre o chatbot
 - diga sobre chatbot
-- quem e aix
+- quem é aix
 - o que e aix
 - quais suas funcionalidades
 - qual seu proposito
-- quem e vc
-- como voce me ajuda
+- quem é vc
+- como você me ajuda
 - sobre o chatbode
 - descreva voce
 - descreva vc
@@ -30,31 +30,30 @@
 - bode
 
 ## intent:sobre_condicionais
-- o que e if
-- o que e else
-- o que e condicional
-- basico sobre if
+- o que é if
+- o que é else
+- o que é condicional
+- básico sobre if
 - basico sobre else
-- basico sobre condicional
+- básico sobre condicional
 - condicionais
 - condição
 - fazer um if
 - fazer um else
 - elsif
 - condicional
-- se então
 - estrutura condicional
 - montar um if
 - montar um else
 - estruturas condicionais
 
 ## intent:sobre_repeticao
-- repoduzir uma açao
+- reproduzir uma ação
 - definiçao estruturas de repetiçao
 - loop infinito
 - definir estruturas de repetiçao
 - como repetir uma acao
-- o que sao laços
+- o que são laços
 - explique estruturas de repetiçao
 - repetir
 - loop
@@ -69,15 +68,15 @@
 - laço
 
 ## intent:sobre_variaveis
-- o que sao variaveis
-- variaveis python
+- o que sao variáveis
+- variáveis python
 - variaveis geral
-- variaveis basico
+- variáveis basico
 - como uso variaveis
 - Variáveis
 - variaveis primitivas
 - que que é variavel
-- variavel em python
+- variável em python
 - variavel
 
 ## intent:sobre_inteiros
@@ -87,25 +86,25 @@
 - que que é inteiro
 - inteiro
 - integer
-- numeros inteiros
+- números inteiros
 - numeros positivos
-- numeros negativos
+- números negativos
 - numeros sem precisão decimal
 
 ## intent:sobre_pontos_flutuantes
 - o que são pontos flutuantes
 - o que é um float
 - o que e um ponto flutuante
-- variavel com casas decimais
+- variável com casas decimais
 - registrar pi numa variavel
 - pontos flutuantes
 - float
 - double
 - pontos flutuantes com o dobro de precisão
-- numeros com casas decimais
+- números com casas decimais
 - numeros fracionados
 - frações
-- numeros racionais
+- números racionais
 - racionais
 - casas decimais
 - fração
@@ -116,9 +115,9 @@
 - caracter
 - char
 - caractere
-- variavel caracter
+- variável caracter
 - variavel char
-- alfanumericos e caracteres especiais
+- alfanuméricos e caracteres especiais
 - caracteres
 - caractéres
 - Letras
@@ -130,7 +129,7 @@
 - true e false
 - verdadeiro e falso
 - o que é um booleano
-- variavel booleana
+- variável booleana
 - booleano
 - booleana
 - verdadeira e falsa

@@ -1,13 +1,14 @@
 ## intent:cumprimentar
+- /start
 - oi tudo bem
 - como vai
 - oi como vai voce
-- como vao as coisas
+- como vão as coisas
 - com licenca
 - tudo bom
-- posso falar com voce
-- pode me tirar uma duvida
-- gostaria de tirar uma duvida
+- posso falar com você
+- pode me tirar uma dúvida
+- gostaria de tirar uma dúvida
 - to bem
 - tranquilo
 - estou bem
@@ -21,10 +22,15 @@
 - opa
 - eae
 - opa meu bom
+- olá
+- hola
+- hello
+- hi
+- hey
 
 ## intent:tudo_bem
 - Tudo bem
-- Como voce esta
+- Como você está
 - como vc ta
 - joia
 - joinha
@@ -35,8 +41,8 @@
 - beleza
 - bom
 - esta bem
-- voce esta bem
-- voce esta bem
+- voce está bem
+- você esta bem
 
 ## intent:despedir
 - Tchau obrigada
@@ -65,7 +71,7 @@
 - certo
 - beleza
 - perfeito
-- otimo
+- ótimo
 - perfect
 - legal
 - cool
@@ -79,7 +85,7 @@
 - ajudou bastante
 - ajudou muito
 - gostei bastante
-- tirou minhas duvidas
+- tirou minhas dúvidas
 - esclareceu minha dúvida
 - era so isso
 
@@ -87,18 +93,18 @@
 - o que vc faz
 - o que você faz
 - como te usar
-- o que voce sabe
+- o que você sabe
 - com o que voce pode me ajudar
-- como voce funciona
+- como você funciona
 - me ajuda
 - help
 - me da um help
 - como te perguntar algo
 - estou com uma duvida
 - menu
-- voce possui menu
+- você possui menu
 - usabilidade
-- como tirar duvida
+- como tirar dúvida
 - quero estudar
 - como estudar com você
 - quero aprender 
@@ -126,20 +132,21 @@
 - fatos desconhecidos
 
 ## intent:out_of_scope
-- voce sabe sobre grafos
-- o que e geometria computacional
-- o que e uma tupula
-- existem arvores binarias em python
-- voce fala sobre o meio ambiente
+- você sabe sobre grafos
+- o que é geometria computacional
+- o que é uma tupula
+- existem árvores binarias em python
+- você fala sobre o meio ambiente
+- como dar espaçamento no python
 - qual a origem do mundo
-- voce tem signo
+- você tem signo
 - vc gosta de carnaval
-- qual a melhor linguagem de programacao
-- o que voce acha de C++
-- C e uma boa linguagem
+- qual a melhor linguagem de programação
+- o que você acha de C++
+- C é uma boa linguagem
 - torce pra qual time
 - joga algum jogo
-- gosta de ouvir musica 
+- gosta de ouvir música 
 - me indique uma playlist para estudar
 - qual seu signo
-- o que e stackoverflow
+- o que é stackoverflow
