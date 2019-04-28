@@ -19,11 +19,18 @@ before_install:
   - gem install "rubygems-update:<3.0.0" --no-document
   - gem install bundler:2.0.1
 
+  - docker build -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
+  - docker build -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
+
 script:
-  - docker-compose up --build -d rocketchat
-# - docker-compose up --build jupyter
-  # - docker-compose up --build -d telegram_bot
-  - docker-compose up --build -d bot
-  - docker-compose exec bot flake8 --exclude='Makefile, models, data, *.log, __pycache__, *.yml, *.txt' --ignore=F821, F841
-  - docker-compose exec actions flake8 --exclude='__pycache__, *.Dockerfile, *.txt, *.log' actions
-  # - docker-compose exec telegram_bot flake8 --exclude='__pycache__, Dockerfile, *.txt'
+  - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
+  - docker run aixchatbot/aix-bot make train
+  - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude=__pycache__ actions
+
+# deploy:
+#   provider: script
+#   script: bash ./deploy.sh
+  # remover comentário antes de abrir o pull request
+  # on:
+  #  branch: master
+

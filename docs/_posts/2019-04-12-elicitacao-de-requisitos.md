@@ -2,7 +2,12 @@
 layout: post
 title: Elicitação de Requisitos
 tags: requisitos elicitação eps 
+category: Produto
 ---
+|Data   |Versão   |Descrição   |Autor   |
+|---|---|---|---|
+|12/04/2019   | 1.0  |Criação do documento   |Lucas VItor  |
+
 
 ## Introdução
 

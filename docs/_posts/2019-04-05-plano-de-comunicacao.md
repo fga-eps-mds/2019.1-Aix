@@ -8,6 +8,7 @@ category: Gerencia
 |Data   |Versão   |Descrição   |Autor   |
 |---|---|---|---|
 |05/04/2019   | 1.0  |Criação do documento   |Kamilla Costa   |
+|09/04/2019   | 1.1  |Refatoração do documento | Kamilla Costa |
 
 # 1. Objetivo
 
@@ -22,30 +23,27 @@ category: Gerencia
 ## <i>Telegram</i>
 * Por esta ferramenta, discutimos assuntos operacionais pontuais, como horários de reuniões, pautas. Algumas vezes, dailies podem ocorrer por esta.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/telegram-logo.png)
-
+<img src="{{ site.url }}/2019.1-Aix/assets/img/telegram-logo.png" alt="Telegram" width="190"/>
 
 ## <i>Github</i>
 * O GitHub é essencial na transparência interna da equipe e externa junto ao cliente, as orientadoras do projeto (Carla Rocha e Bruna Nayara) e a comunidade em geral. Foi feito um uso extensivo das issues para comunicação entre os membros da equipe, para dúvidas sobre a issue e para mostrar o andamento do projeto.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/github.jpeg)
-
+<img src="{{ site.url }}/2019.1-Aix/assets/img/github.png" alt="Github" width="200"/>
 
 ## <i>Zenhub</i>
 * Por esta ferramenta, aplica-se o Kanban e monitora-se o andamento das issues.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/zenhub.png)
-
+<img src="{{ site.url }}/2019.1-Aix/assets/img/zenhub.png" alt="Zenhub" width="200"/>
 
 ## <i>Hangout</i>
 * Ferramenta utilizada para reuniões não presenciais.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/hangout.jpg)
+<img src="{{ site.url }}/2019.1-Aix/assets/img/hangouts.png" alt="Hangouts" width="200"/>
 
 ## <i>Google Drive</i>
 * Utilizado como ferramenta de comunicação estática, onde os artefatos são mantidos, caso necessário.
 
-![]({{ site.url }}/2019.1-Aix/assets/img/drive.png)
+<img src="{{ site.url }}/2019.1-Aix/assets/img/drive.png" alt="Drive" width="200"/>
 
 # 3. Estratégias de Comunicação
 
