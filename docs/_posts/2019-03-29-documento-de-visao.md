@@ -61,7 +61,7 @@ Ao tratar estes impasses dentro de classe, com o uso de ferramentas tecnológica
 |--|--|
 |Problema | Dificuldades encontradas no ensino atualmente.
 |Afeta|Campo acadêmico geral, tanto alunos quanto professores e corporações de educação que não alcançam êxito em suas funções.
-|Impactos | Formação de excelentes profissionais para o mercado de trabalho, estimular o interesse de especialistas de outras áreas.|
+|Impactos | Formação de excelentes profissionais para o mercado de trabalho, estimular o interesse de especialistas de outras áreas na programação.|
 |Solução | O programa fornecerá diferentes funcionalidades para o usuário, como respostas automáticas para indagações do usuário, ajuda com sintaxe, pesquisa direta no StackOverflow, entre outros serviços. |
 
 ### 2.3  Instrução de Posição do produto
@@ -129,7 +129,7 @@ Critérios de Sucesso|Envolvimento|Entregas|
 
 |Necessidade|Prioridade|Solução Atual|Solução Proposta|
 |---|---|---|---|
-|Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documetações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
+|Uma ferramenta que auxilie no ensino de Python|Ser acessível|Cursos de qualificação, livros e documentações|Uma forma flexível, confíavel e menos trabalhosa de auxílio ao estudante|
 
 **Tabela 2.** Necessidades do Usuário
 
@@ -156,7 +156,7 @@ O produto se difere dos demais do mercado por ser capaz de reconhecer a dúvida 
 
 ### 4.2 Resumo das capacidades
 <p align="justify"> &emsp;&emsp;
-As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, a Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo dúvidas de sintaxe relacionadas à linguagem Python. Por fim, todos esses recursos foram pensandos para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.</p>
+As capacidades do produto vão de encontro com as necessidades do aluno recém-ingresso no curso de Engenharia de Software ou do estudante que deseja aprender a programar, ambos começando por entender os elementos fundamentais da prática da programação. Assim, a Aix Bot será capaz de tirar dúvidas relacionadas a esta realidade dos seus usuários, incluindo dúvidas de sintaxe relacionadas à linguagem Python. Por fim, todos esses recursos foram pensados para que o Bot seja capaz de estar sempre auxiliando o utilizador no tocante a programação básica.</p>
 
 ### 4.3 Custo e precificação
 <p align="justify"> &emsp;&emsp;
@@ -171,11 +171,11 @@ O usuário poderá tirar dúvidas de sintaxe da linguagem python por meio do Bot
 <p align="justify"> &emsp;&emsp;
 O Bot irá responder as dúvidas do aluno sobre a linguagem python.</p>
 
-### 5.3 Ajudar com o usuário com exemplo
+### 5.3 Ajudar o usuário com exemplos
 <p align="justify"> &emsp;&emsp;
 Caso o usuário não tenha entendido como pretendia, ou gostaria de visualizar uma aplicação do que foi explicado, um exemplo pode ser solicitado.</p>
 
-### 5.4 Oferecer link com conteúdo extra
+### 5.4 Oferecer links com conteúdo extra
 <p align="justify"> &emsp;&emsp;
 O usuário pode solicitar por conteúdo extra, será fornecido o link de algum site com informação confiável e didática.</p>
 
@@ -185,7 +185,7 @@ O usuário pode solicitar por exercícios para que seja fixado o que foi aprendi
 
 ### 5.6 Permitir que o usuário pesquise no StackOverflow
 <p align="justify"> &emsp;&emsp;
-O usuário poderá solicitar uma pesquisa. Será feita uma requisição com a api do site StackOverflow que retornará 3 links com dúvidas semelhantes que foram esclarecidas.
+O usuário poderá solicitar uma pesquisa. Será feita uma requisição com a api do site StackOverflow que retornará cerca de cinco links com dúvidas semelhantes que foram esclarecidas.
 </p>
 
 ## 6. Restrições
