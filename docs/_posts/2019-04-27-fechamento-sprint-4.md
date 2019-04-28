@@ -72,6 +72,9 @@ category: Sprint
 | Maior dificuldade para a euipe de desenvolvimento |Indicação de material de apoio para facilitar o desenvolvimento das atividades |Pareamento em grupo para resolução de grandes empecilhos |
 | Arquiteto e DevOps com provas na semana |Sprint mais leve para esses papéis |Substituição desses papéis pelo Scrum Master e P.O |
 
+## Burndown de Riscos
+
+![Burndown de Riscos]({{ site.url }}/2019.1-Aix/assets/img/burndown_riscos_sprint_4.png)
 
 ## Resumo pelo Scrum Master
 
