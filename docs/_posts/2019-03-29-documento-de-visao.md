@@ -89,10 +89,18 @@ setor de software, de linguagens de programação, em especial. </p>
 <p align="justify"> &emsp;&emsp;Instituições de ensino, assim como empresas comerciais, se adaptam aos avanços tecnológicos existentes de modo a tornar seus dependentes mais aptos as necessidades cotidianas. Umas das possíveis adaptações atuais é o ensino dinâmico de uma linguagem de programação, como o Python, aos seus funcionários e estudantes. </p>
 
 ### 3.3 Resumo do usuário
+
 <p align="justify"> &emsp;&emsp;
 O alvo beneficiário principal do nosso projeto são pessoas iniciantes no aprendizado da linguagem de programação Python, funcionários de empresas e estudantes que estão entrando na área de tecnologia, professores interessados em alternativas para o processo de ensino da matéria em questão, usuários da plataforma Jupyter que focam no desenvolvimento em Python e profissionais autônomos que desejam aumentar seus conhecimentos.</p>
 
-### 3.4 Principais Necessidades da Parte Interessada e do Usuário
+###  3.4 Ambiente do Usuário
+
+<p align="justify"> &emsp;&emsp;
+A esfera de ação do projeto se encontra atualmente no aplicativo social denominado Telegram. O objetivo da equipe é deixar o programa disponível tanto na rede supracitada, quanto no ambiente Jupyter, visando uma maior acessibilidade do usuário. Este, por sua vez, será capaz de acessar os serviços da Aix enquanto estuda na sua mesa de trabalho ou em qualquer lugar que estiver pelo seu celular. Tal característica garante o maior alcance da ferramenta e consequentemente um maior sucesso desta.</p>
+<p align="justify"> &emsp;&emsp;
+Dessa forma, no momento atual, é necessário para o usuário apenas um dispositivo eletrônico apropriado para acessar o aplicativo Telegram.</p>
+
+### 3.5 Principais Necessidades da Parte Interessada e do Usuário
 
 **Tabela 1.** Necessidades da Parte Interessada
 
@@ -107,7 +115,7 @@ O alvo beneficiário principal do nosso projeto são pessoas iniciantes no apren
 |---|---|---|---|
 |Tirar dúvidas de programação|Ser rápido e claro|Pesquisar por fóruns, livros e documentações|Permitir que o usuário converse com o bot e esclareça suas dúvidas|
 
-### 3.5 Alternativas e Concorrência
+### 3.6 Alternativas e Concorrência
 * Stack Overflow
     * É um website para perguntas e respostas sobre tópicos de programação, onde, através do registro, é possível votar em questões e respostas mais ou menos úteis.
   
