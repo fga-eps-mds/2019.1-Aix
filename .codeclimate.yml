@@ -1,3 +1,5 @@
+version: "2"
+
 #
 # ---Choose Your Languages---
 # To disable analysis for a certain language, set the language to `false`.
@@ -10,6 +12,51 @@ languages:
   PHP: false
   Python: true
 
+
+#
+# ---Set Your Quality Metrics---
+# To disable analysis for a certain metrics, set the metric to `false`.
+# For help setting your quality metrics:
+# https://docs.codeclimate.com/docs/advanced-configuration
+#
+checks:
+  argument-count:
+    enabled: false
+  complex-logic:
+    enabled: false
+  file-lines:
+    enabled: false
+  method-complexity:
+    enabled: false
+  method-count:
+    enabled: false
+  method-lines:
+    enabled: true
+  nested-control-flow:
+    enabled: false
+  return-statements:
+    enabled: false
+  similar-code:
+    enabled: true
+  identical-code:
+    enabled: true
+
+
+#
+# ---Configuring Plugins---
+# To disable analysis for a certain plugins, set to `false`.
+# For help setting your plugins:
+# https://docs.codeclimate.com/docs/advanced-configuration
+# For list of these plugins:
+# https://docs.codeclimate.com/docs/list-of-engines
+#
+
+plugins:
+  pep8:
+    enabled: true  
+
+
+
 #
 # ---Exclude Files or Directories---
 # List the files or directories you would like excluded from analysis.
@@ -17,12 +64,9 @@ languages:
 # https://docs.codeclimate.com/docs/advanced-configuration#section-exclude-patterns
 #
 exclude_paths:
- - "_includes/"
- - "_layouts/"
- - "_pages/"
- - "_posts/"
- - "_sass/"
- - "_site/"
+ - "doc/"
+ - "docker/"
+ - "notebooks/"
  - "config/"
  - "db/"
  - "dist/"
@@ -35,3 +79,5 @@ exclude_paths:
  - "**/vendor/"
  - "**/*_test.go"
  - "**/*.d.ts"
+ - "**/__pycache__"
+ - "**.js"

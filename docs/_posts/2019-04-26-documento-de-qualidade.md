@@ -24,6 +24,30 @@ A problemática envolvida no contexto de aplicação de qualidade em chatbots se
 O cumprimento de testes de usabilidade baseia-se na aplicação da técnica de validação utilizada para avaliar um produto ou serviço. Os testes são realizados com usuários representativos do público-alvo. 
 Os dados foram levantados baseado na aplicação de um formulário no Google Forms mediante a validação de funcionalidades aplicadas para a release 1 afim de refatorar conteúdos e aplicar melhorias nas implementação existentes.
 
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico1.png)
+
+A partir destes dados foi observado que parte dos usuários conseguiram acessar a parte do fluxo que está integrada a API do stackoverflow e parte ou não conseguiram acessar ou não levaram mais tempo que o proposto para identificar que o fluxo esteja intuitivo o suficiente para o usuário. Logo identificamso a necessidade de implementar melhorias quanto a construção dos fluxos de conversas.
+
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico2.png)
+
+Em relação a satisfação dos usuário quanto a explicação referente aos conteúdos dispostos no bot, foi observado que metade dos usuários ficaram satisfeitos e a outra maior parte da metade achou exagerado demais a quantidade de conteúdo oferecida pelo bot. Identificando assim melhorias quanto a quantidade de informação fornecida e adequação do melhor formato para estar disposto na janela do bot.
+
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico3.png)
+
+Foi possível identificar melhoria spor meio desta coleta de sugestões que os usuários esperam uma melhor interação do bot quanto a algumas perguntas gerais do campo da programação assim como uma maior diversidade de aceitação quanto ao vocabulário do bot.
+
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico4.png)
+
+Neste quesito foi possivel identificar que mais da metade dos usuários não tiveram problemas quanto ao fluxo do bot e a consideraram intuitiva.
+
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico5.png)
+
+Neste quesito foi possivel identificar que mais da metade dos usuários não tiveram problemas quanto a compreensão das funcionalidades dispostas no bot.
+
+![]({{ site.url }}/2019.1-Aix/assets/img/grafico6.png)
+
+Quanto as sugestões de melhorias foi possível identificar várias que estão sendo planejadas para implementação afim de melhorar a interação entre bot e usuário assim como identificar alguns problemas por meio de sua utilização com usuários diversificados.
+
 
 
 ## Testes Unitários
