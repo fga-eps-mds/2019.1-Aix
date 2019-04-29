@@ -74,11 +74,14 @@ category: Sprint
 
 | Risco  | Ação Preventiva  | Ação Reativa  |
 |---|---|---|
-| Problemas de saúde entre familiares  |Issues pequenas e executáveis dentro do tempo da sprint, o que permite replanejamento de horas   |Planejamento de pareamento por sprint   |
-| Problemas técnicos com  a equipe de desenvolvimento  |Issues pequenas e executáveis dentro do tempo da sprint, o que permite replanejamento de horas   |Planejamento de pareamento por sprint  |
-| Equipe de desenvolvimento desanimada   |planejamento de atividades com dificuldade evolutiva   |Desafios nas Sprints para animar a equipe de desenvolvimento   |
-| Equipe protelando atividades  | Planejar a sprint com atividades pequenas para serem feitas de forma contínua   | Reunião e discussão sobre responsabilidades e importância do trabalho contínuo  |
+| Problemas de saúde entre familiares |Issues pequenas e executáveis dentro do tempo da sprint, o que permite replanejamento de horas |Planejamento de pareamento por sprint |
+| Problemas técnicos com  a equipe de desenvolvimento |Issues pequenas e executáveis dentro do tempo da sprint, o que permite replanejamento de horas |Planejamento de pareamento por sprint |
+| Equipe de desenvolvimento desanimada |planejamento de atividades com dificuldade evolutiva |Desafios nas Sprints para animar a equipe de desenvolvimento |
+| Equipe protelando atividades | Planejar a sprint com atividades pequenas para serem feitas de forma contínua | Reunião e discussão sobre responsabilidades e importância do trabalho contínuo |
 
+## Burndown de Riscos
+
+![Burndown de Riscos]({{ site.url }}/2019.1-Aix/assets/img/burndown_riscos_sprint_3.png)
 
 ## Resumo pelo Scrum Master
 

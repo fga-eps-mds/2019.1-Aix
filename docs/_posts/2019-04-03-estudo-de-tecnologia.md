@@ -4,6 +4,11 @@ title: Estudo de Tecnologia Boilerplate
 tags: estudo tecnologia boilerplate eps mds
 category: Projeto
 ---
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 06/04/2019 | 0.0.1  | Criação do documento             | Gabriela, André, Pedro, Iuri, Gustavo    |
+
+
 
 ## Definições
 * **Intent**: Inteção do usuário, "significado" da frase;

@@ -4,6 +4,10 @@ title: Plano de Gerenciamento de Custos
 tags: plano custos documento eps
 category: Gerencia
 ---
+|Data   |Versão   |Descrição   |Autor   |
+|---|---|---|---|
+|05/04/2019   | 1.0  |Criação do documento   |Lucas Vitor   |
+|09/04/2019   | 1.1  |Refatoração do documento | Lucas Vitor |
 
 
 ## 1. Introdução
@@ -90,6 +94,6 @@ Com estas dimensões é possível realizar o cálculo da variação de custos e 
 
 ## 5. Bibliografia
 
-> [GCS da equipe do Receita Mais](https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-e-Configura%C3%A7%C3%A3o-de-Software)
+> [Plano de gerenciamento de custos da equipe do Receita Mais](https://github.com/fga-eps-mds/2017.2-Receita-Mais/wiki/Plano-de-Gerenciamento-de-Custo)
 
 > PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK 6a. ed. - EUA: Project Management Institute, 2017.

@@ -4,6 +4,9 @@ title: Folha de Estilo
 tags: folha estilo eps documento
 category: Contribuicao
 ---
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 01/04/2019 | 0.0.1  | Criação da Folha de Estilo             | Lucas Vitor    |  |
 
 Este documento define as convenção seguidas para a programação na linguagem python que serão utilizadas no presente projeto. Ele tem como base o [PEP8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/), porém apresenta algumas leves alterações para refletir melhor as necessidades da equipe.
 Obervação: este documento pode sofrer alterações, caso seja evidenciado que alguma das convenções aqui descritas não se adequam da melhor forma ao contexto do projeto.

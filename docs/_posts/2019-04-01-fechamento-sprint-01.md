@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Revisão da Sprint 1
-tags: sprint revisão eps
+title: Fechamento da Sprint 1
+tags: sprint fechamento eps
 category: Sprint
 ---
 
@@ -79,10 +79,13 @@ trabalhar no momento)
 
 | Risco  | Ação Preventiva  | Ação Reativa  |
 |---|---|---|
-| Dificuldades da equipe com as novas tecnologias inseridas  |Seleção de alunos experientes para aplicação de treinamento.   |Realização de treinamento sobre tecnologias.   |
-|Elaboração da arquitetura do projeto   |Estudo das tecnologias que integrarão a arquitetura   |Reuniões da equipe de EPS para definição das tecnologias e arquitetura   |
-|Alteração do escopo   |Documentar e refinar de forma constante os requisitos   |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot   |
+| Dificuldades da equipe com as novas tecnologias inseridas |Seleção de alunos experientes para aplicação de treinamento. |Realização de treinamento sobre tecnologias. |
+|Elaboração da arquitetura do projeto |Estudo das tecnologias que integrarão a arquitetura |Reuniões da equipe de EPS para definição das tecnologias e arquitetura |
+|Alteração do escopo |Documentar e refinar de forma constante os requisitos |Planejar corretamente a sprint e se manter atualizado quanto às novas funcionalidades que serão adicionadas ao bot |
 
+## Burndown de Riscos
+
+![Burndown de Riscos]({{ site.url }}/2019.1-Aix/assets/img/burndown_riscos_sprint_1.png)
 
 ## Resumo pelo Scrum Master
 

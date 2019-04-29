@@ -4,9 +4,9 @@
     <div class="panel" style="background-color: white">
         <h1>
             {% if include.link %}
-            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}" style="color: #936f92">{{ page.title }}</a>
             {% else %}
-            {{ page.title }}
+            <div  style="color: #936f92">{{ page.title }}</div>
             {% endif %}
         </h1>
 
