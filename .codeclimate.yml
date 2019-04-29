@@ -1,13 +1,24 @@
 version: "2"
 
 #
+# ---Choose Your Languages---
+# To disable analysis for a certain language, set the language to `false`.
+# For help setting your languages:
+# http://docs.codeclimate.com/article/169-configuring-analysis-languages
+#
+languages:
+  Ruby: false
+  Javascript: false
+  PHP: false
+  Python: true
+
+
+#
 # ---Set Your Quality Metrics---
 # To disable analysis for a certain metrics, set the metric to `false`.
 # For help setting your quality metrics:
 # https://docs.codeclimate.com/docs/advanced-configuration
 #
-
-
 checks:
   argument-count:
     enabled: false
@@ -44,17 +55,6 @@ plugins:
   pep8:
     enabled: true  
 
-#
-# ---Choose Your Languages---
-# To disable analysis for a certain language, set the language to `false`.
-# For help setting your languages:
-# http://docs.codeclimate.com/article/169-configuring-analysis-languages
-#
-languages:
-  Ruby: false
-  Javascript: false
-  PHP: false
-  Python: true
 
 
 #
@@ -80,3 +80,4 @@ exclude_paths:
  - "**/*_test.go"
  - "**/*.d.ts"
  - "**/__pycache__"
+ - "**.js"
