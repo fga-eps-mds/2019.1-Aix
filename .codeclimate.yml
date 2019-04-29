@@ -64,7 +64,7 @@ plugins:
 # https://docs.codeclimate.com/docs/advanced-configuration#section-exclude-patterns
 #
 exclude_paths:
- - "doc/"
+ - "docs/"
  - "docker/"
  - "notebooks/"
  - "config/"
