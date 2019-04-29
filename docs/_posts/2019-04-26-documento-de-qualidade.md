@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Docuemnto de Qualidade
+title: Documento de Qualidade
 tags: qualidade usabilidade teste eps
 category: Gerencia
 ---
@@ -10,7 +10,7 @@ category: Gerencia
 
 ## Objetivo
 
-O objetivo desse documento é apresentar como, quais e os porquês referente as adoções de cada tipo de teste durante o processo de desenvolvimento do produto. 
+O objetivo desse documento é apresentar como, quais e os porquês referentes às adoções de cada tipo de teste durante o processo de desenvolvimento do produto. 
 
 ## Qualidade aplicada no contexto de chatbots
 
