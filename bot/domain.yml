@@ -22,6 +22,7 @@ intents:
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
+  - exemplo_matrizes
 
   - exercicios_variaveis
   - exercicios_condicionais
@@ -225,6 +226,24 @@ templates:
     - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
       image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
 
+  utter_exemplo_matrizes:
+    - text: |
+        Você quer ver uma matriz na prática? Vou te dar um exemplo!
+        
+        Digamos que eu queira marcar quantas dúvidas eu tirei em um mês, para isso poderia fazer uma matriz de dúvidas por dia, separando por semanas para ficar mais fácil de ler.
+          duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
+                    [0, 0, 2, 4, 3, 2, 2],
+                    [1, 2, 4, 3, 7, 1, 1],
+                    [0, 5, 6, 7, 7, 5, 0] ]
+      image: |
+        https://i.imgur.com/7c8UasQ.png
+    
+        Sendo as linhas referentes as semanas e as colunas os dias! E para acessar as dúvidas de segunda da primeira semana seria: 
+          print(duvidas_por_mes[0][1])
+          # 4
+        
+        Lembrando que as posições começam a ser contadas a partir 0.
+
   utter_exercicios_variaveis:
     - text: |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
@@ -269,7 +288,7 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-  utter_link_conteudo_repeticao:
+  utter_conteudo_extra_repeticao:
     - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
@@ -304,6 +323,7 @@ actions:
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_matrizes
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
