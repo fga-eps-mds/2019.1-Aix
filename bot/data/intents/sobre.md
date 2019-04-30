@@ -133,3 +133,16 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:sobre_matrizes
+- o que são matrizes
+- me fale sobre matriz
+- quero saber o que é um array bidimensional
+- explique o que é um array bidimensional
+- desejo saber o que é um matriz
+- matrizes
+- array bidimensional
+- discorra a respeito de matriz
+- quero que me diga algo sobre matriz
+- poderia me explicar sobre matrizes
+- você sabe o que são matrizes

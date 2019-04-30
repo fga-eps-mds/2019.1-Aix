@@ -75,3 +75,13 @@
     - utter_sobre_caracteres
 * sobre_booleanos
     - utter_sobre_booleanos
+
+## sobre_matrizes
+* sobre_matrizes
+    - utter_sobre_matrizes
+
+## sobre_matrizes2
+* sobre_matrizes
+    - utter_sobre_matrizes
+* exemplo_matrizes
+    - utter_exemplo_matrizes
