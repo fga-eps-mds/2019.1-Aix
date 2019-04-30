@@ -27,6 +27,7 @@ intents:
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
+  - exercicios_matrizes
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -274,6 +275,15 @@ templates:
           Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
           Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
 
+  utter_exercicios_matrizes:
+    - text: |
+        Quer praticar seus conhecimentos sobre matriz..? Tenho uns exercícios béem legais para você!!
+        
+        Exercício Python #086 - Matriz em Python(https://www.youtube.com/watch?v=EGmlFdwD4C4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=20&t=0s)
+        Exercício Python #087 - Mais sobre Matriz em Python(https://www.youtube.com/watch?v=QhS829x6up4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=21&t=0s)
+        Linha na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1181)
+        Coluna na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1182)
+
   utter_conteudo_extra_variaveis:
     - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -338,6 +348,7 @@ actions:
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_matrizes
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
