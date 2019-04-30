@@ -165,6 +165,7 @@ templates:
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+        
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
   utter_sobre_inteiros:
@@ -172,24 +173,28 @@ templates:
         Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
         Isto éee, todos números positivos e negatios sem casas decimais.
         Você pode contar seus fenos com inteiros!! 20 fenos, 30 fenos...
+        
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
+        
         Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
 
   utter_sobre_caracteres:
     - text: |
         As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
+        
         Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
 
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
         Eu gosto muito de feno é uma afirmação verdadeira!!
+        
         Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
 
   utter_sobre_condicionais:
@@ -198,6 +203,7 @@ templates:
         É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
+        
         Quer outro exemplo? Me peça exemplos de estruturas condicionais!
 
   utter_sobre_repeticao:
@@ -217,6 +223,7 @@ templates:
           username = "username@email.com"
           senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!
     
     - text: |
@@ -231,6 +238,7 @@ templates:
         Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
+        
         Que saber mais? Me peça conteúdo extra de variáveis!
 
   utter_exemplo_condicionais:
@@ -294,6 +302,8 @@ templates:
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
+        Que tal tentar uns exercícios agora? Pois béem, tenho alguns links de exercício para você, só pedir!
+
   utter_conteudo_extra_condicionais:
     - text: |
         Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
@@ -301,11 +311,15 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
+        Vamos por o conhecimento em prática? Só me pedir que te passo uns exercícios bem legais sobre estruturas condicionais!
+
   utter_link_conteudo_repeticao:
     - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
+
+        Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
 
   utter_pesquisar:
     - text : |
