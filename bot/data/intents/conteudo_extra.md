@@ -45,3 +45,18 @@
 - conteúdos extra variáveis
 - nao entendi variável, algum site?
 - me dá mais conteúdo sobre variáveis, pf
+
+## intent:conteudo_extra_vetores
+- tem algum link pra entender array?
+- mais conteúdo sobre vetores
+- links externos para vetores
+- links sobre vetor
+- mais informações sobre vetores
+- conteudo aprofundado de vetores
+- mais sobre array unidimensional
+- tem links sobre vetores?
+- sites vetores
+- link array
+- conteúdos extra sobre arrays unidimensionais
+- nao entendi vetores, algum site?
+- me dá mais conteúdo sobre vetores, pf
