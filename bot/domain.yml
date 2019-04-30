@@ -217,6 +217,21 @@ templates:
           username = "username@email.com"
           senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!
+    
+    - text: |
+        Outro exemplo possível é uma equação, onde você já tem variáveis!!
+        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+          y1 = (-b + delta**1/2)/(2*a)
+          y2 = (-b - delta**1/2)/(2*a)
+        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+        a, b, c, delta, y1 e y2
+        Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
+        Que saber mais? Me peça conteúdo extra de variáveis!
 
   utter_exemplo_condicionais:
     - text: |
@@ -232,9 +247,15 @@ templates:
           else:
             print("amo a Aix")
 
+        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!
+
   utter_exemplo_repeticao:
-    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
-      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
+    - text: |
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+      image: |
+        https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
+
+        Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!
 
   utter_exercicios_variaveis:
     - text: |
