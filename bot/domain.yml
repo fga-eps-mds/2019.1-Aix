@@ -31,6 +31,7 @@ intents:
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
+  - conteudo_extra_matrizes
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -294,6 +295,15 @@ templates:
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
+  utter_conteudo_extra_matrizes:
+    - text: |
+        Olha esse links sobre matrizes que eu achei! Neles explica muito béem!!! Tem três aulas em texto para você e uma vídeo aula, se preferir.
+        
+        Curso Python #17 - Listas (Parte 2)(https://www.youtube.com/watch?v=YV_JQmZNFsk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=17&t=0s)
+        Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
+        Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
+        Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
+
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
@@ -332,6 +342,7 @@ actions:
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_matrizes
 
   - action_otrs
   - action_pesquisa_stackoverflow
