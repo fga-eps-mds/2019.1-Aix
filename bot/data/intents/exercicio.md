@@ -43,3 +43,16 @@
 - uri repeticao
 - testar conhecimentos for while
 - testar conhecimentos repeticao
+
+## intent:exercicios_matrizes
+- desejo fazer exercícios sobre matrizes
+- exercício matriz
+- link de exercícios sobre arrays bidimensionais
+- quero exercicios de matrizes
+- questões sobre matrizes
+- treinar arrays bidimensionais
+- atividades de matriz
+- URI array bidimensinal
+- me mostra exercícios sobre array bidimensional
+- poderia me passar questões sobre matrizes
+- gostaria de fazer exercícios sobre matriz

@@ -27,3 +27,13 @@
     - utter_exercicios_variaveis
 * conteudo_extra_variaveis
     - utter_conteudo_extra_variaveis
+
+## exercicios_matrizes
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+
+## exercicios_matrizes2
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+* conteudo_extra_matrizes
+    - utter_conteudo_extra_matrizes
