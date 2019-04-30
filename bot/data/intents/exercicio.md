@@ -43,3 +43,16 @@
 - uri repeticao
 - testar conhecimentos for while
 - testar conhecimentos repeticao
+
+## intent:exercicios_vetores
+- desejo fazer exercícios sobre vetores
+- exercício vetor
+- link de exercícios sobre arrays
+- quero exercicios de vetores
+- questões sobre vetores
+- treinar arrays
+- atividades de vetor
+- URI array unidimensional
+- me mostra exercícios sobre array 
+- poderia me passar questões sobre vetores
+- gostaria de fazer exercícios sobre vetor
