@@ -55,3 +55,16 @@
 - funcionamento variaveis
 - variáveis na prática
 - código de exemplo de variaveis
+
+## intent:exemplo_vetores
+- gostaria de ver exemplos sobre vetor
+- exemplos de vetores
+- você tem algum exemplo de vetores
+- código usando vetor
+- exemplo prático de vetor
+- como fica um array na prática
+- exemplifique vetores
+- poderia me mostrar um exemplo de vetor
+- desejo ver exemplos de vetores
+- quero exemplos de array unidimensional 
+- me dê um exemplo de vetor

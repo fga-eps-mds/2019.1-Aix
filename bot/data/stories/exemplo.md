@@ -45,3 +45,13 @@
     - utter_exemplo_variaveis
 * exercicios_variaveis
     - utter_exercicios_variaveis
+
+## exemplo_vetores
+* exemplo_vetores
+    - utter_exemplo_vetores
+
+## exemplo_vetores2
+* exemplo_vetores
+    - utter_exemplo_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
