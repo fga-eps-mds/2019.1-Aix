@@ -133,3 +133,16 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:sobre_vetores
+- o que são vetores
+- me fale sobre vetor
+- quero saber o que é um array
+- explique o que é um array
+- desejo saber o que é um vetor
+- vetores
+- array unidimensional
+- discorra a respeito de vetor
+- quero que me diga algo sobre vetor
+- poderia me explicar sobre vetores
+- você sabe o que são vetores
