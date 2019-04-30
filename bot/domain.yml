@@ -17,10 +17,12 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
+  - sobre_vetores
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
+  - exemplo_vetores
 
   - exercicios_variaveis
   - exercicios_condicionais
@@ -223,6 +225,18 @@ templates:
     - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
       image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
 
+  utter_exemplo_vetores:
+    - text: |
+          Béeem, um exemplo de vetor? Imagine que eu quero contar quantos fenos eu comi na semana. Como eu faria isso? Com um vetor de fenos por dia!! Ficaria mais ou menos assim:
+            fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
+      image: |
+          https://i.imgur.com/soiRg1i.png 
+         
+          E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
+            print(fenos_por_dia[0])
+            # 4
+          Lembrando que as posições começam a ser contadas a partir 0.
+
   utter_exercicios_variaveis:
     - text: |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
@@ -302,6 +316,7 @@ actions:
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_vetores
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
