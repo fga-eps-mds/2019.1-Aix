@@ -27,6 +27,7 @@ intents:
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
+  - exercicios_vetores
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -266,6 +267,15 @@ templates:
           Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
           Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
 
+  utter_exercicios_vetores:
+    - text: |
+        Então você se sente pronto para praticar?! Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, mas tome cuidado que é mais difícil que comer capim!    
+        
+        Substituição em Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1172)
+        Preenchimento de Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1173)
+        Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
+        Exercício Python #080 - Lista ordenada sem repetições(https://www.youtube.com/watch?v=QDpwjBYRcVE&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=13&t=0s)
+
   utter_conteudo_extra_variaveis:
     - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -321,6 +331,7 @@ actions:
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_vetores
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
