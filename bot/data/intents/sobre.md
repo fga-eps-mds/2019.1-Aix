@@ -6,6 +6,9 @@
 - em qual ano python surgiu
 - quem é o criador do python
 - voce sabe quem é o pai do python
+- o que e python
+- quem e o criador do python
+- voce sabe quem e o pai do python
 
 ## intent:sobre_aix
 - quem é você
@@ -28,6 +31,10 @@
 - curiosidade
 - cabrita
 - bode
+- quem e você
+- quem e aix
+- quem e vc
+- como voce me ajuda
 
 ## intent:sobre_condicionais
 - o que é if
@@ -46,13 +53,20 @@
 - montar um if
 - montar um else
 - estruturas condicionais
+- o que e if
+- o que e else
+- o que e condicional
+- basico sobre if
+- básico sobre else
+- basico sobre condicional
+- condiçao
 
 ## intent:sobre_repeticao
 - reproduzir uma ação
 - definiçao estruturas de repetiçao
 - loop infinito
 - definir estruturas de repetiçao
-- como repetir uma acao
+- como repetir uma açao
 - o que são laços
 - explique estruturas de repetiçao
 - repetir
@@ -66,18 +80,36 @@
 - for
 - enquanto
 - laço
+- repetiçoes
+- iteraçao
+- o que sao laços
+- explique estruturas de repetição
+- definir estruturas de repetição
+- como repetir uma ação
+- reproduzir uma açao
+- definição estruturas de repetição
 
 ## intent:sobre_variaveis
-- o que sao variáveis
+- o que são variáveis
 - variáveis python
 - variaveis geral
-- variáveis basico
+- variáveis básico
 - como uso variaveis
 - Variáveis
 - variaveis primitivas
 - que que é variavel
 - variável em python
 - variavel
+- o que sao variaveis
+- variaveis python
+- variáveis geral
+- variaveis basico
+- como uso variáveis
+- Variaveis
+- variáveis primitivas
+- que que é variável
+- variavel em python
+- variável
 
 ## intent:sobre_inteiros
 - o que sao inteiros
@@ -90,6 +122,13 @@
 - numeros positivos
 - números negativos
 - numeros sem precisão decimal
+- o que são inteiros
+- que que e inteiro
+- numeros inteiros
+- números positivos
+- numeros negativos
+- números sem precisão decimal
+- numeros sem precisao decimal
 
 ## intent:sobre_pontos_flutuantes
 - o que são pontos flutuantes
@@ -108,6 +147,17 @@
 - racionais
 - casas decimais
 - fração
+- o que sao pontos flutuantes
+- o que e um float
+- o que é um ponto flutuante
+- variavel com casas decimais
+- registrar pi numa variável
+- pontos flutuantes com o dobro de precisao
+- numeros com casas decimais
+- números fracionados
+- fraçoes
+- numeros racionais
+- fraçao
 
 ## intent:sobre_caracteres
 - o que são caracteres
@@ -122,6 +172,12 @@
 - caractéres
 - Letras
 - Como uma variável guarda letras
+- o que sao caracteres
+- o que e um caractere
+- variavel caracter
+- variável char
+- alfanumericos e caracteres especiais
+- Como uma variavel guarda letras
 
 ## intent:sobre_booleanos
 - o que são booleanos
@@ -133,3 +189,6 @@
 - booleano
 - booleana
 - verdadeira e falsa
+- o que sao booleanos
+- o que e um booleano
+- variavel booleana

@@ -10,21 +10,23 @@
 - if else na prática
 - funcionamento condicional
 - funcionamento if else
+- me de exemplo de if else
+- if else na pratica
 
 ## intent:exemplo_repeticao
 - exemplo de laços
 - exemplo de estruturas de repetição
 - exemplos de laços
-- exemplos de estruturas de repetiçao
+- exemplos de estruturas de repetição
 - exemplos de while
 - exemplos de for
 - exemplo de repetições
 - exemplo de iteração
-- exemplos de iteraçoes
+- exemplos de iterações
 - modelos de laços
 - sintaxe de laços
-- sintaxe de iteraçao
-- modelos de estruturas de repetiçao
+- sintaxe de iteração
+- modelos de estruturas de repetição
 - modelo de while
 - sintaxe de while
 - sintaxe de for
@@ -33,6 +35,15 @@
 - exemplifique estruturas de repetição
 - exemplifique while
 - exemplifique for
+- exemplo de estruturas de repetiçao
+- exemplos de estruturas de repetiçao
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- sintaxe de iteraçao
+- modelos de estruturas de repetiçao
+- como repetir açao
+- exemplifique estruturas de repetiçao
 
 ## intent:exemplo_variaveis
 - me dê exemplos de variaveis
@@ -55,3 +66,24 @@
 - funcionamento variaveis
 - variáveis na prática
 - código de exemplo de variaveis
+
+- me dê exemplos de variáveis
+- como usar essas variáveis?
+- não entendi como usa a variavel
+- mas e eu faço como com variaveis?
+- e como que uso?
+- exemplos variaveis
+- exemplos de variaveis
+- me explica como usa essas variáveis
+- me ajuda com exemplos de variaveis
+- voce pode me ajudar com exemplos de variáveis?
+- como variáveis funcionam
+- exemplos variaveis
+- exemplo variavel
+- exemplos python variaveis
+- exemplo variavel python
+- como fazer uma variável em python
+- como funciona as variáveis
+- funcionamento variáveis
+- variaveis na pratica
+- código de exemplo de variáveis

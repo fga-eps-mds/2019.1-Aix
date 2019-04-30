@@ -10,6 +10,8 @@
 - conteúdo extra condicionais loop
 - site com loop
 - site sobre loop while for
+- link extra sobre repetiçao
+- outras fontes repetiçao
 
 ## intent:conteudo_extra_condicionais
 - link sobre condicionais
@@ -45,3 +47,30 @@
 - conteúdos extra variáveis
 - nao entendi variável, algum site?
 - me dá mais conteúdo sobre variáveis, pf
+- tem algum link pra entender variaveis?
+- links externos para variaveis
+- links sobre variáveis
+- mais sobre variaveis
+- tem links sobre variáveis?
+- me manda algum site falando sobre variaveis
+- sites variáveis
+- link variavel
+- nao entendi variavel, algum site?
+- conteúdo extra variavel
+- conteúdos extra variaveis
+- me dá mais conteúdo sobre variaveis, pf
+- mais informações sobre variaveis
+- conteudo aprofundado de variáveis
+- mais conteúdo sobre variáveis
+- conteúdo extra variável
+- conteúdos extra variáveis
+- me da mais conteúdo sobre variáveis, pf
+- mais informações sobre variáveis
+- conteúdo aprofundado de variáveis
+- mais conteúdo sobre variáveis
+- conteudo extra variavel
+- conteudos extra variaveis
+- me da mais conteudo sobre variaveis, pf
+- mais informaçoes sobre variaveis
+- conteudo aprofundado de variaveis
+- mais conteudo sobre variaveis
