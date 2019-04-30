@@ -55,3 +55,9 @@
     - utter_exemplo_vetores
 * conteudo_extra_vetores
     - utter_conteudo_extra_vetores
+
+## exemplo_vetores3
+* exemplo_vetores
+    - utter_exemplo_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
