@@ -32,6 +32,7 @@ intents:
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
+  - conteudo_extra_vetores
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -297,6 +298,14 @@ templates:
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
+  utter_conteudo_extra_vetores:
+    - text: |
+        Não entendeu muito béem? Pesquisei um links muito legais para você! Tem uma vídeo aula e duas explicações escritas.       
+          
+        Curso Python #17 - Listas (Parte 1)(https://www.youtube.com/watch?v=N1hTsbW50eM&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=10&t=0s)
+        Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
+        Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
+
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
@@ -336,6 +345,7 @@ actions:
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_vetores
 
   - action_otrs
   - action_pesquisa_stackoverflow
