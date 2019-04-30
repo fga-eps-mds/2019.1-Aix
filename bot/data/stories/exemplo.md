@@ -45,3 +45,19 @@
     - utter_exemplo_variaveis
 * exercicios_variaveis
     - utter_exercicios_variaveis
+
+## exemplo_matrizes
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+
+## exemplo_matrizes2
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+* conteudo_extra_matrizes
+    - utter_conteudo_extra_matrizes
+
+## exemplo_matrizes3
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+* exercicios_matrizes
+    - utter_exercicios_matrizes

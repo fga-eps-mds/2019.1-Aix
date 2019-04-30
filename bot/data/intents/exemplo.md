@@ -55,3 +55,16 @@
 - funcionamento variaveis
 - variáveis na prática
 - código de exemplo de variaveis
+
+## intent:exemplo_matrizes
+- gostaria de ver exemplos sobre matriz
+- exemplos de matrizes
+- você tem algum exemplo de matrizes
+- código usando matriz
+- exemplo prático de matriz
+- como fica um array na prática
+- exemplifique matrizes
+- poderia me mostrar um exemplo de matriz
+- desejo ver exemplos de matrizes
+- quero exemplos de array bidimensional 
+- me dê um exemplo de matriz
