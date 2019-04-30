@@ -45,3 +45,18 @@
 - conteúdos extra variáveis
 - nao entendi variável, algum site?
 - me dá mais conteúdo sobre variáveis, pf
+
+## intent:conteudo_extra_matrizes
+- tem algum link pra entender array bidimensional?
+- mais conteúdo sobre matrizes
+- links externos para matrizes
+- links sobre matriz
+- mais informações sobre matrizes
+- conteudo aprofundado de matrizes
+- mais sobre array bidimensional
+- tem links sobre matrizes?
+- sites matrizes
+- link array bidimensional
+- conteúdos extra sobre arrays bidimensionais
+- nao entendi matrizes, algum site?
+- me dá mais conteúdo sobre matrizes, pf
