@@ -103,6 +103,10 @@ templates:
           Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
           Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
           Vamos começar?
+    - text: |
+          Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
+          Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+          Pode perguntar!
           
   utter_curiosidades_python:
     - text: |
