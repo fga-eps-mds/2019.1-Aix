@@ -292,7 +292,7 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-  utter_link_conteudo_repeticao:
+  utter_conteudo_extra_repeticao:
     - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
