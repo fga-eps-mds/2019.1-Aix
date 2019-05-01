@@ -280,7 +280,7 @@ templates:
     - text : |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
         O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
-        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto.
+        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas duplas.
         Temos então:
             print("Hello World!")
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
