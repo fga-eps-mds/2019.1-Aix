@@ -1,35 +1,49 @@
+
 ## intent:conteudo_extra_repeticao
-- mais conteúdo for
-- mais conteudo while
-- link extra sobre repetição
-- outras fontes repetição
-- outras fontes for while
-- quero saber mais sobre loop for while
-- ensinar mais cobre loop for while
-- link sobre estrutura condicional
-- conteúdo extra condicionais loop
-- site com loop
-- site sobre loop while for
-- link extra sobre repetiçao
-- outras fontes repetiçao
+- extra for
+- extra while
+- extra laços
+- extra repetição
+- extra repetição
+- conteúdo adicional for
+- conteúdo adicional while
+- conteudo adicional for
+- conteudo adicional while
+- conteudo extra laços
+- conteúdo extra laços
+- conteudo extra estrutura de repetiçao
+- conteúdo extra estrutura de repetição
+- mais sobre sobre laços
+- mais sobre for while
+- exemplo for
+- exemplo while
+- exemplos for
+- exemplos while
+- outra fonte estrutura repetição
+- outra fonte for while
 
 ## intent:conteudo_extra_condicionais
-- link sobre condicionais
-- link sobre if
-- link sobre else
-- link sobre condicional
-- mais estruturas condicionais
-- mais if
-- mais else
+- extra if
+- extra else
+- extra condicional
+- extra estrutura condicional
+- extra estruturas condicionais
+- conteúdo adicional if
+- conteúdo adicional else
+- conteudo adicional if
+- conteudo adicional else
+- conteudo extra condicionais
+- conteúdo extra condicional
+- conteudo extra estruturas condicionais
+- conteúdo extra estrutura condicional
+- mais sobre sobre condição
+- mais sobre if else
+- exemplo if
+- exemplo else
 - exemplos if
-- conteúdo if
 - exemplos else
-- conteudo else
-- conteúdo if
-- me de um exemplo if else
-- não entendi if else
-- saber mais if else
-- outros exemplos if else
+- outra fonte estrutura condicional
+- outra fonte if else
 
 ## intent:conteudo_extra_variaveis
 - tem algum link pra entender variáveis?
