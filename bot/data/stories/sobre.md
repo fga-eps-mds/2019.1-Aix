@@ -83,3 +83,5 @@
 ## sobre_importar_bibliotecas
 * sobre_importar_bibliotecas
     - utter_sobre_importar_bibliotecas
+* exemplo_importar_bibliotecas
+    - utter_exemplo_importar_bibliotecas

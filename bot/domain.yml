@@ -17,10 +17,13 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
+  - sobre_hello_world
+  - sobre_importar_bibliotecas
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
+  - exemplo_importar_bibliotecas
 
   - exercicios_variaveis
   - exercicios_condicionais
@@ -33,9 +36,6 @@ intents:
   - action_otrs
   - pesquisa_stackoverflow
   - pesquisar
-
-  - sobre_hello_world
-  - sobre_importar_bibliotecas
 
 templates:
   utter_cumprimentar:
@@ -276,7 +276,7 @@ templates:
         Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
   
-  utter_hello_world:
+  utter_sobre_hello_world:
     - text : |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
         O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
@@ -285,13 +285,21 @@ templates:
             print("Hello World!")
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
-  utter_importar_bibliotecas:
+  utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
         Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
         Caso não tenha entendido perfeitamente, peça-me um exemplo Bée.
+  
+  utter_exemplo_importar_bibliotecas:
+    - text : |
+        Vamos importar a biblioteca math, útil para funções matemáticas. Bée
+        Primeiro passo: import math
+        Para utilizar as funções em seu código basta colocar math.funcao()
+        Segundo passo: math.sqrt(9)
+        Caso haja alguma dúvida você pode solicitar por uma pesquisa.
 
 actions:
   - utter_cumprimentar
@@ -312,10 +320,14 @@ actions:
   - utter_sobre_booleanos
   - utter_sobre_condicionais
   - utter_sobre_repeticao
+  - utter_sobre_hello_world
+  - utter_sobre_importar_bibliotecas
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_importar_bibliotecas
+  
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
@@ -328,6 +340,3 @@ actions:
   - action_otrs
   - action_pesquisa_stackoverflow
   - utter_pesquisar
-
-  - utter_sobre_hello_world
-  - utter_sobre_importar_bibliotecas
