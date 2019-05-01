@@ -99,13 +99,13 @@ templates:
         Olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
         É só perguntar!
     - text: |
-        Eu te ajudo a aprender python, poxa! É só me perguntar a sua duvida sobre e maravilhosa linguagem de progeramação, que eu respondo!
+        Eu te ajudo a aprender python, poxa! É só me perguntar a sua duvida sobre a maravilhosa linguagem de programação, que eu respondo!
         E se você achar que já está sabendo, me pede um exercício sobre o conteúdo, ué! Vamos ver se você sabe mesmo. hahahaha
         Eu sou uma cabra bem inteligente, mas ainda estou aprendendo...
         Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
         Pode perguntar!
     - text: |
-        Como me usar? Pra que eu srivo? Deixa eu te explicar:
+        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
           Eu sou uma cabra super inteligente que sabe tudo sobre Python!
           Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
           Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
@@ -115,7 +115,7 @@ templates:
           Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
           Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
           Pode perguntar!
-          
+
   utter_curiosidades_python:
     - text: |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
@@ -165,7 +165,7 @@ templates:
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
-        
+
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
   utter_sobre_inteiros:
@@ -173,28 +173,28 @@ templates:
         Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
         Isto éee, todos números positivos e negatios sem casas decimais.
         Você pode contar seus fenos com inteiros!! 20 fenos, 30 fenos...
-        
+
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
-        
+
         Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
 
   utter_sobre_caracteres:
     - text: |
         As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
-        
+
         Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
 
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
         Eu gosto muito de feno é uma afirmação verdadeira!!
-        
+
         Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
 
   utter_sobre_condicionais:
@@ -203,7 +203,7 @@ templates:
         É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
-        
+
         Quer outro exemplo? Me peça exemplos de estruturas condicionais!
 
   utter_sobre_repeticao:
@@ -213,23 +213,16 @@ templates:
         Quer ver os loops em ação? Me peça um exemplo!
 
     - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR. 
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
 
         Quer saber mais sobre eles? Me pergunte por exemplos!
 
   utter_exemplo_variaveis:
-    - text: |
-        Então você quer ver como as variáveis funcionam...
-        Não é fácil igual comer capim, mas vou te dar alguns exemplos e você vai entender!!!
-        Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
-        Num código ficaria mais ou menos assim:
-          # nome da variável = conteúdo da variável
-          username = "username@email.com"
-          senha = "digitos1234"
-        Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
-        
-        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!
-    
+    - text: "Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
+# nome da variável = conteúdo da variável; username = "username@email.com"; senha = "digitos1234". Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!"
+      image: "https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png"  
+      text: "Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!"
+
     - text: |
         Outro exemplo possível é uma equação, onde você já tem variáveis!!
         A Fórmula de Bhaskara poderia ser escrita desse jeito:
@@ -242,32 +235,18 @@ templates:
         Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
-        
+
         Que saber mais? Me peça conteúdo extra de variáveis!
 
   utter_exemplo_condicionais:
-    - text: |
-        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa!
-        Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
-        caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
-        que seja printado "amo a Aix" :
-
-          if x == 2:
-            print("amo feno")
-          elif x == 5:
-            print("amo python")
-          else:
-            print("amo a Aix")
-
-        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!
+    - text: "Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")"
+      image: "https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png"
+      text: "Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!"
 
   utter_exemplo_repeticao:
-    - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-      image: |
-        https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
-
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!
+    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
+      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
+      text: "Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!"
 
   utter_exercicios_variaveis:
     - text: |
@@ -290,8 +269,8 @@ templates:
           Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
           Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
           Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
-        
-        Deu um bug no exercício? Só pedir que eu procuro por ele no StackOverflow! 
+
+        Deu um bug no exercício? Só pedir que eu procuro por ele no StackOverflow!
 
   utter_exercicios_repeticao:
     - text: |
