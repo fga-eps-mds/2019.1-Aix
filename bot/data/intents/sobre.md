@@ -133,3 +133,14 @@
 - booleano
 - booleana
 - verdadeira e falsa
+
+## intent:sobre_hello_world
+- primeiro programa em python
+- como fazer um hello world
+- printar texto
+- mostrar texto
+- fazer ola mundo
+- como mostrar texto no terminal
+- fazer print
+- printar no terminal
+- imprimir

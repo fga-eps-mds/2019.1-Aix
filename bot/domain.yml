@@ -34,6 +34,8 @@ intents:
   - pesquisa_stackoverflow
   - pesquisar
 
+  - sobre_hello_world
+
 templates:
   utter_cumprimentar:
     - text: |
@@ -272,6 +274,17 @@ templates:
     - text : |
         Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
+  
+  utter_hello_world:
+    - text : |
+        Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
+        O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
+        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto.
+        Temos então:
+            print("Hello World!")
+      image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
+
+
 
 actions:
   - utter_cumprimentar
@@ -308,3 +321,5 @@ actions:
   - action_otrs
   - action_pesquisa_stackoverflow
   - utter_pesquisar
+
+  - utter_sobre_hello_world
