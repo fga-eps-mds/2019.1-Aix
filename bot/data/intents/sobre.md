@@ -144,3 +144,12 @@
 - fazer print
 - printar no terminal
 - imprimir
+
+## intent:sobre_importar_bibliotecas
+- como importar bibliotecas
+- import
+- library
+- importar lib
+- adicionar funções
+- funcoes extras
+- funcao nao encontrada
