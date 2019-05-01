@@ -1,3 +1,7 @@
+## intent:start
+- /start
+- start
+
 ## intent:cumprimentar
 - /start
 - oi tudo bem

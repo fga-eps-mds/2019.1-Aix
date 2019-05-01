@@ -1,4 +1,5 @@
 intents:
+  - start
   - cumprimentar
   - despedir
   - tudo_bem
@@ -35,6 +36,19 @@ intents:
   - pesquisar
 
 templates:
+  utter_start:
+    - text: |
+        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Mostrar links extras sobre o conteúdo;
+        4. Indicar exercícios;
+        5. Pesquisar no StackOverflow.
+
+        Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
+
+        Pegue sua água, tempere seu capim e vamos começar a aprender!!!
+
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
@@ -218,10 +232,17 @@ templates:
         Quer saber mais sobre eles? Me pergunte por exemplos!
 
   utter_exemplo_variaveis:
-    - text: "Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
-# nome da variável = conteúdo da variável; username = "username@email.com"; senha = "digitos1234". Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!"
-      image: "https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png"  
-      text: "Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!"
+    - text: |
+        Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
+         # nome da variável = conteúdo da variável
+         username = "username@email.com"
+         senha = "digitos1234"
+        Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        
+        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!
+
+      image: |
+        https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
 
     - text: |
         Outro exemplo possível é uma equação, onde você já tem variáveis!!
@@ -239,14 +260,22 @@ templates:
         Que saber mais? Me peça conteúdo extra de variáveis!
 
   utter_exemplo_condicionais:
-    - text: "Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")"
-      image: "https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png"
-      text: "Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!"
+    - text: |
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")
+        
+        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!
+
+      image: 
+        https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
 
   utter_exemplo_repeticao:
-    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
-      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
-      text: "Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!"
+    - text: |
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+      
+        Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!
+        
+      image: 
+        https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
   utter_exercicios_variaveis:
     - text: |
@@ -316,6 +345,7 @@ templates:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
 actions:
+  - utter_start
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
