@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/fga-eps-mds/2019.1-Aix.svg?branch=master)](https://travis-ci.org/fga-eps-mds/2019.1-Aix) [![Test Coverage](https://api.codeclimate.com/v1/badges/c3a5a7adf2839266bf1c/test_coverage)](https://codeclimate.com/github/fga-eps-mds/2019.1-Aix/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/c3a5a7adf2839266bf1c/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.1-Aix/maintainability) [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+
+<br/><br/><br/>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png" alt="Logo">
 </p>
@@ -10,6 +14,7 @@
     Converse com a Aix no <a href="https://t.me/Aix_chatbodebot">Telegram</a> ou em nossa instância do <a href="http://aixbot.me">Jupyter.</a>
   </p>
 </p>
+
 
 ### Sobre o projeto
 
