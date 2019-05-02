@@ -60,4 +60,7 @@
 - exemplo importar bibliotecas
 - importando uma library
 - exemplo importar lib
-- exemplo como importar bibliotecas
+- exemplo de como importar bibliotecas
+- exemplifique bibliotecas
+- exemplifique library
+- exemplifique lib

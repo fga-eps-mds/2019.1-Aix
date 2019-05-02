@@ -291,7 +291,7 @@ templates:
         Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
-        Caso não tenha entendido perfeitamente, peça-me um exemplo Bée.
+        Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée. 
   
   utter_exemplo_importar_bibliotecas:
     - text : |
@@ -300,6 +300,7 @@ templates:
         Para utilizar as funções em seu código basta colocar math.funcao()
         Segundo passo: math.sqrt(9)
         Caso haja alguma dúvida você pode solicitar por uma pesquisa.
+        Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
 
 actions:
   - utter_cumprimentar

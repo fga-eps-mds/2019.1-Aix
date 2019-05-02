@@ -147,6 +147,7 @@
 
 ## intent:sobre_importar_bibliotecas
 - como importar bibliotecas
+- como utilizar bibliotecas
 - import
 - library
 - importar lib
