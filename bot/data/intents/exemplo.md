@@ -1,57 +1,105 @@
 ## intent:exemplo_condicionais
-- me dê exemplo de if else
-- exemplo if else
-- como fazer um if else
-- fazer if else
-- montar if else
-- sintaxe if else
-- sintaxe condicionais
-- exemplo de condicionais
-- if else na prática
-- funcionamento condicional
-- funcionamento if else
+- exemplo de if
+- exemplo de else
+- exemplos de estrutura condicioal
+- exemplos de estruturas condicionais
+- exemplos de if
+- exemplos de else
+- exemplo de condição
+- exemplo condiçoes
+- exemplos de condições
+- modelos de if
+- modelos de else
+- modelos de condiçoes
+- sintaxe de if
+- sintaxe de else
+- modelos de estruturas condicionais
+- modelos de estrutura condicional
+- modelo de if else
+- sintaxe de estrutura condicional
+- sintaxe de estruturas condicionais
+- sintaxe de condição
+- sintaxe de condições
+- como fazer uma condição
+- exemplifique if
+- exemplifique estruturas condicionais
+- exemplifique estrutura condicional
+- exemplifique else
+- exemplifique condicional
+- exemplo de estruturas condicionais
+- exemplos de estrutura condicional
+- exemplo de condiçoes
+- exemplo de condições
+- exemplos condicionais
+- como executar uma condição
+- if na pratica
+- else na pratica
+- condicional na pratica
 
 ## intent:exemplo_repeticao
 - exemplo de laços
 - exemplo de estruturas de repetição
 - exemplos de laços
-- exemplos de estruturas de repetiçao
+- exemplos de estruturas de repetição
 - exemplos de while
 - exemplos de for
 - exemplo de repetições
 - exemplo de iteração
-- exemplos de iteraçoes
+- exemplos de iterações
 - modelos de laços
 - sintaxe de laços
-- sintaxe de iteraçao
-- modelos de estruturas de repetiçao
+- sintaxe de iteração
+- modelos de estruturas de repetição
 - modelo de while
 - sintaxe de while
 - sintaxe de for
+- sintaxe de iteraçao
 - como repetir ação
 - exemplifique laço
 - exemplifique estruturas de repetição
-- exemplifique while
 - exemplifique for
+- exemplifique while
+- exemplo de estruturas de repetiçao
+- exemplos de estruturas de repetiçao
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- modelos de estruturas de repetiçao
+- repetir açao
+- exemplifique estruturas de repetiçao
+- laços na pratica
+- for na pratica
+- while na pratica
+
 
 ## intent:exemplo_variaveis
-- me dê exemplos de variaveis
-- como usar essas variaveis?
-- não entendi como usa a variável
-- mas e eu faço como com variáveis?
-- e como que uso?
-- exemplos variáveis
-- exemplos de variáveis
-- me explica como usa essas variaveis
-- me ajuda com exemplos de variáveis
-- voce pode me ajudar com exemplos de variaveis?
-- como variaveis funcionam
-- exemplos variáveis
-- exemplo variável
-- exemplos python variáveis
-- exemplo variável python
-- como fazer uma variavel em python
-- como funciona as variaveis
-- funcionamento variaveis
-- variáveis na prática
-- código de exemplo de variaveis
+- exemplo de variaveis
+- exemplo de variavel
+- exemplos variavel
+- exemplos variaveis
+- exemplos variável
+- exemplos de int double float
+- modelos de int
+- modelos de double
+- modelos de variavies
+- sintaxe de int
+- sintaxe de double
+- modelos de variavel
+- sintaxe de variaveis
+- sintaxe de variavel
+- sintaxe de variável
+- sintaxe de float
+- como declarar variavel
+- como declarar variaveis
+- exemplifique variaveis
+- exemplifique variavel
+- exemplifique int
+- exemplifique float
+- exemplifique double
+- exemplo de bool
+- variaveis na pratica
+- variavel na pratica
+- int na pratica
+- double na pratica
+- bool na pratica
+- float na pratica

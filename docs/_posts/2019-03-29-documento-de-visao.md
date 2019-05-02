@@ -31,6 +31,7 @@ Em seguida, as informações técnicas do programa também serão bem delineadas
 Estarão listadas neste tópico definições, acrônimos e abreviações para garantir uma maior proximidade para com o leitor e o público interessado no projeto.</p>
 
 **Chatbot:** programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.
+
 **API:** Application Programming Interface. Em português significa Interface de Programação de Aplicações. São formas de integrar sistemas.
 
 ### 1.4  Referências
@@ -118,8 +119,8 @@ Dessa forma, no momento atual, é necessário para o usuário apenas um disposit
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas da parte interessada
 
 Critérios de Sucesso|Envolvimento|Entregas|
-|--|--|--|
-|Maior adesão ao serviço da parte interessada, graças aos bons resultados alcançados através de programas inovadores de ensino e grandes profissionais que podem ser formados por estas entidades que darão nome a essas instituições.|Revisor de requisitos. Confere se é abordado no projeto todos os temas que a entidade busca propagar aos usuários, todo o conteúdo necessário para o pupilo em determinado período. Em caso de ausência de algum tema, contacta a equipe para que o tópico seja implementado.|Entregas adicionais que podem ser requeridas pela parte interessada serão os temas não abordados pela equipe mas que carecem na hora da revisão da parte interessada. Conteúdos relacionados ao estudo da linguagem Python.|
+|--|--|--|--|
+|Maior adesão ao serviço da parte interessada, graças aos bons resultados alcançados através de programas inovadores de ensino e grandes profissionais que podem ser formados por estas entidades que darão nome a essas instituições.|Revisor de requisitos. Confere se é abordado no projeto todos os temas que a entidade busca propagar aos usuários, todo o conteúdo necessário para o pupilo em determinado período. Em caso de ausência de algum tema, contacta a equipe para que o tópico seja implementado.|Entregas adicionais que podem ser requeridas pela parte interessada serão os temas não abordados pela equipe mas que carecem na hora da revisão da parte interessada. Conteúdos relacionados ao estudo da linguagem Python.
 
 
 ### 3.6 Perfis do Usuário
@@ -133,8 +134,8 @@ Critérios de Sucesso|Envolvimento|Entregas|
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas do usuário
 
 Critérios de Sucesso|Envolvimento|Entregas|
-|--|--|--|
-|Reconhecimento pelo usuário de noções básicas da linguagem, identificação pelo beneficente de capítulos recorrentes de conteúdos bibliográficos, capacidade de solucionar problemas propostos pela Aix e outros demais empecilhos. | Construtor das dúvidas e receptor de conhecimento. Dialoga com o simulador de maneira informal e envia interrogações para que assim o chatbot retorne uma explicação correspondente.|As entregas do usuário são as dúvidas enviadas que deverão ser elaboradas por ele durante o processo de aprendizagem.|
+|--|--|--|--|
+|Reconhecimento pelo usuário de noções básicas da linguagem, identificação pelo beneficente de capítulos recorrentes de conteúdos bibliográficos, capacidade de solucionar problemas propostos pela Aix e outros demais empecilhos. | Construtor das dúvidas e receptor de conhecimento. Dialoga com o simulador de maneira informal e envia interrogações para que assim o chatbot retorne uma explicação correspondente.|As entregas do usuário são as dúvidas enviadas que deverão ser elaboradas por ele durante o processo de aprendizagem.
 
 
 ### 3.7 Principais Necessidades da Parte Interessada e do Usuário
