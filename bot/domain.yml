@@ -1,4 +1,5 @@
 intents:
+  - start
   - cumprimentar
   - despedir
   - tudo_bem
@@ -39,6 +40,19 @@ intents:
   - pesquisar
 
 templates:
+  utter_start:
+    - text: |
+        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Mostrar links extras sobre o conteúdo;
+        4. Indicar exercícios;
+        5. Pesquisar no StackOverflow.
+
+        Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
+
+        Pegue sua água, tempere seu capim e vamos começar a aprender!!!
+
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
@@ -94,20 +108,32 @@ templates:
         Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
         Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
         Me pergunta ai sobre algum erro, no seu código, sobre alguma estrutura de python... Qualquer coisa!
+        Mas olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+        É só perguntar!
     - text: |
         Sabia que você pode me perguntar o que te der na telha? Talvez eu peça um pouco de feno em troca hein....
         Brincaderia! hahahahaha
         E se eu te explicar de um modo que não ficou muito claro, você pode me pedir um link externo sobre o conteúdo que eu te mando!
+        Olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+        É só perguntar!
     - text: |
-        Eu te ajudo a aprender python, poxa! É só me perguntar a sua duvida sobre e maravilhosa linguagem de progeramação, que eu respondo!
+        Eu te ajudo a aprender python, poxa! É só me perguntar a sua duvida sobre a maravilhosa linguagem de programação, que eu respondo!
         E se você achar que já está sabendo, me pede um exercício sobre o conteúdo, ué! Vamos ver se você sabe mesmo. hahahaha
+        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo...
+        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+        Pode perguntar!
     - text: |
-        Como me usar? Pra que eu srivo? Deixa eu te explicar:
+          Como me usar? Pra que eu sirvo? Deixa eu te explicar:
           Eu sou uma cabra super inteligente que sabe tudo sobre Python!
           Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
           Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
-          Vamos começar?
-          
+          Olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+          É só perguntar!
+    - text: |
+          Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
+          Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+          Pode perguntar!
+
   utter_curiosidades_python:
     - text: |
         O nome Python não foi inspirado no réptil, mas sim no grupo humorístico britânico Monty Python.
@@ -158,26 +184,36 @@ templates:
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
 
+        Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
+
   utter_sobre_inteiros:
     - text: |
         Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
         Isto éee, todos números positivos e negatios sem casas decimais.
         Você pode contar seus fenos com inteiros!! 20 fenos, 30 fenos...
 
+        Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
+
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
+
+        Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
 
   utter_sobre_caracteres:
     - text: |
         As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
 
+        Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
+
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
         Eu gosto muito de feno é uma afirmação verdadeira!!
+
+        Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
 
   utter_sobre_condicionais:
     - text: |
@@ -186,58 +222,89 @@ templates:
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
+        Quer outro exemplo? Me peça exemplos de estruturas condicionais!
+
   utter_sobre_repeticao:
     - text: |
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos os repeticao for e while da linguagem Python. Ficou béem claro?
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos as estruturas de repeticao for e while da linguagem Python.
+
+        Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
 
     - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR. Quer saber mais sobre eles? Posso te dar alguns exemplos, se desejar!
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
+
+        Quer saber mais sobre eles? Me pergunte por exemplos de estruturas de repetição!
+  
   utter_sobre_vetores:
     - text: |
         Um vetor é um conjunto de elementos consecutivos que podem ser acessados por um mesmo nome. Isto ééé várias regiões na memória em sequência!     
         
         Um vetor também pode ser chamado de Array Unidimensional.
 
+        Que tal ver na prática? Me peça um exemplo de vetor!
+
   utter_exemplo_variaveis:
     - text: |
-        Então você quer ver como as variáveis funcionam...
-        Não é fácil igual comer capim, mas vou te dar alguns exemplos e você vai entender!!!
-        Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
-        Num código ficaria mais ou menos assim:
-          # nome da variável = conteúdo da variável
-          username = "username@email.com"
-          senha = "digitos1234"
+        Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
+         # nome da variável = conteúdo da variável
+         username = "username@email.com"
+         senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        
+        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
+
+      image: |
+        https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
+
+    - text: |
+        Outro exemplo possível é uma equação, onde você já tem variáveis!!
+        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+          y1 = (-b + delta**1/2)/(2*a)
+          y2 = (-b - delta**1/2)/(2*a)
+        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
+        a, b, c, delta, y1 e y2
+        Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
+
+        Que saber mais? Me peça conteúdo extra de variáveis!
 
   utter_exemplo_condicionais:
     - text: |
-        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa!
-        Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python"
-        caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer
-        que seja printado "amo a Aix" :
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")
+        
+        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
 
-          if x == 2:
-            print("amo feno")
-          elif x == 5:
-            print("amo python")
-          else:
-            print("amo a Aix")
+      image: 
+        https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
 
   utter_exemplo_repeticao:
-    - text: "Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!"
-      image: "https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png"
+    - text: |
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+      
+        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
+        
+      image: 
+        https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
   utter_exemplo_vetores:
     - text: |
           Béeem, um exemplo de vetor? Imagine que eu quero contar quantos fenos eu comi na semana. Como eu faria isso? Com um vetor de fenos por dia!! Ficaria mais ou menos assim:
             fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
-      image: |
-          https://i.imgur.com/soiRg1i.png 
-         
+
           E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
             print(fenos_por_dia[0])
             # 4
+            
           Lembrando que as posições começam a ser contadas a partir 0.
+
+          Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
+      image: |
+          https://i.imgur.com/soiRg1i.png 
+         
+          
 
   utter_exercicios_variaveis:
     - text: |
@@ -250,6 +317,8 @@ templates:
         Se você preferir, também achei esse exercício resolvido no YouTube,
         Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
+        Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+
   utter_exercicios_condicionais:
     - text: |
         Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
@@ -258,7 +327,9 @@ templates:
           Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
           Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
           Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
-          
+
+        Deu um bug no exercício? Só pedir que eu procuro por ele no StackOverflow!
+
   utter_exercicios_repeticao:
     - text: |
         Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
@@ -268,14 +339,17 @@ templates:
           Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
           Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
 
+        Não esqueça que qualquer probléema é só pedir que eu faço pesquisas no StackOverflow para você!
+
   utter_exercicios_vetores:
     - text: |
         Então você se sente pronto para praticar?! Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, mas tome cuidado que é mais difícil que comer capim!    
-        
-        Substituição em Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1172)
-        Preenchimento de Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1173)
-        Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
-        Exercício Python #080 - Lista ordenada sem repetições(https://www.youtube.com/watch?v=QDpwjBYRcVE&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=13&t=0s)
+          Substituição em Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1172)
+          Preenchimento de Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1173)
+          Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
+          Exercício Python #080 - Lista ordenada sem repetições(https://www.youtube.com/watch?v=QDpwjBYRcVE&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=13&t=0s)
+
+        E qualquer erro, só me dizer que quer fazer uma pesquisa que te ajudo a fazê-la!
 
   utter_conteudo_extra_variaveis:
     - text: |
@@ -285,6 +359,8 @@ templates:
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
+        Que tal tentar uns exercícios agora? Pois béem, tenho alguns links de exercício para você, só pedir!
+
   utter_conteudo_extra_condicionais:
     - text: |
         Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
@@ -292,11 +368,15 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
+        Vamos por o conhecimento em prática? Só me pedir que te passo uns exercícios bem legais sobre estruturas condicionais!
+
   utter_conteudo_extra_repeticao:
     - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
+
+        Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
 
   utter_conteudo_extra_vetores:
     - text: |
@@ -306,12 +386,15 @@ templates:
         Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
 
+        Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
+
   utter_pesquisar:
     - text : |
-        Pois béem, vou me conectar na internet!! Escreva sua pesquisa da seguinte forma:
+        Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
 actions:
+  - utter_start
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem

@@ -1,3 +1,9 @@
+## path 1
+* start
+    - utter_start
+* menu_ajuda
+    - utter_menu_ajuda
+
 ## path 2
 * cumprimentar
     - utter_cumprimentar
