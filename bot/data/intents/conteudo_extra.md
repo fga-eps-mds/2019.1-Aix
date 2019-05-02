@@ -15,12 +15,30 @@
 - conteúdo extra estrutura de repetição
 - mais sobre sobre laços
 - mais sobre for while
-- exemplo for
-- exemplo while
-- exemplos for
-- exemplos while
 - outra fonte estrutura repetição
 - outra fonte for while
+- complemente while
+- complemente for
+- complementar for
+- complementar while
+- suplementar for
+- suplementar while
+- suplementar estrutura de repeticao
+- suplementar estrutura de repetição
+- complemenar estrutura de repeticao
+- mais informações sobre for
+- mais informações sobre while
+- mais informações sobre estrutura de repetiçao
+- conteúdo mais aprofundado for
+- conteúdo mais aprofundado while
+- conteúdo mais aprofundado estrutura de repetição
+- link extra for
+- link extra while
+- link extra estrutura repetição
+- site extra for
+- site extra while
+- site extra estrutura repetição
+
 
 ## intent:conteudo_extra_condicionais
 - extra if
@@ -36,55 +54,71 @@
 - conteúdo extra condicional
 - conteudo extra estruturas condicionais
 - conteúdo extra estrutura condicional
-- mais sobre sobre condição
+- mais sobre condição
 - mais sobre if else
-- exemplo if
-- exemplo else
-- exemplos if
-- exemplos else
 - outra fonte estrutura condicional
 - outra fonte if else
+- complemente if
+- complemente else
+- complementar if
+- complementar else
+- suplementar if
+- suplementar else
+- suplementar estrutura condicional
+- suplementar estruturas condicionais
+- complementar estrutura condicional
+- mais informações sobre if
+- mais informações sobre else
+- mais informações sobre estrutura condicional
+- conteúdo mais aprofundado if
+- conteúdo mais aprofundado else
+- conteúdo mais aprofundado estruturas condicionais
+- conteúdo mais aprofundado estrutura condicional
+- link extra if
+- link extra else
+- link extra estruturas condicionais
+- link extra estrutura condicional
+- site extra if
+- site extra else
+- site extra estruturas condicionais
+- site extra estrutura condicional
 
 ## intent:conteudo_extra_variaveis
 - tem algum link pra entender variáveis?
-- mais conteúdo sobre variaveis
-- links externos para variáveis
-- links sobre variaveis
-- mais informações sobre variáveis
-- conteudo aprofundado de variaveis
-- mais sobre variáveis
-- tem links sobre variaveis?
-- me manda algum site falando sobre variáveis
-- sites variaveis
-- link variável
-- conteúdo extra variável
-- conteúdos extra variáveis
-- nao entendi variável, algum site?
-- me dá mais conteúdo sobre variáveis, pf
-- tem algum link pra entender variaveis?
-- links externos para variaveis
-- links sobre variáveis
-- mais sobre variaveis
-- tem links sobre variáveis?
-- me manda algum site falando sobre variaveis
-- sites variáveis
-- link variavel
-- nao entendi variavel, algum site?
+- extra variavel
+- extra variaveis
+- extra int
+- extra double
+- extra float
+- extra variaveis em python
+- conteúdo adicional variavel
+- conteúdo adicional variaveis
+- conteudo adicional int
+- conteudo adicional double
+- conteudo adicional float
+- conteudo extra variaveis
 - conteúdo extra variavel
-- conteúdos extra variaveis
-- me dá mais conteúdo sobre variaveis, pf
+- mais sobre variaveis
+- mais sobre variavel
+- outra fonte variaveis
+- outra fonte variavel
+- complemente variaveis
+- complemente variavel
+- complementar int double float
+- suplementar variável
+- suplementar variavel
+- suplementar variaveis
+- suplementar int double float
+- complementar variaveis
 - mais informações sobre variaveis
-- conteudo aprofundado de variáveis
-- mais conteúdo sobre variáveis
-- conteúdo extra variável
-- conteúdos extra variáveis
-- me da mais conteúdo sobre variáveis, pf
-- mais informações sobre variáveis
-- conteúdo aprofundado de variáveis
-- mais conteúdo sobre variáveis
-- conteudo extra variavel
-- conteudos extra variaveis
-- me da mais conteudo sobre variaveis, pf
-- mais informaçoes sobre variaveis
-- conteudo aprofundado de variaveis
-- mais conteudo sobre variaveis
+- mais informações sobre variavel
+- mais informações sobre int float double
+- conteúdo mais aprofundado variaveis
+- conteúdo mais aprofundado variavel
+- conteúdo mais aprofundado variável
+- link extra variavel
+- link extra variaveis
+- link extra variável
+- site extra variavel
+- site extra variaveis
+- site extra variável

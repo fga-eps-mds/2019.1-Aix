@@ -44,6 +44,9 @@
 - modelos de estruturas de repetiçao
 - como repetir açao
 - exemplifique estruturas de repetiçao
+- explique laços
+- explicação laços
+- explicaçao laços
 
 ## intent:exemplo_variaveis
 - me dê exemplos de variaveis
@@ -66,7 +69,6 @@
 - funcionamento variaveis
 - variáveis na prática
 - código de exemplo de variaveis
-
 - me dê exemplos de variáveis
 - como usar essas variáveis?
 - não entendi como usa a variavel

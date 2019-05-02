@@ -7,8 +7,8 @@
 - treinar if else
 - saber se aprendi if else
 - saber se aprendi condicionais
-- uri if else
-- uri condicionais
+- uri online judge if else
+- uri online judge  condicionais
 - testar conhecimentos if else
 - testar conhecimentos condicionais
 
@@ -28,6 +28,7 @@
 - me envie links com exercicios sobre variáveis
 - onde faço exercícios sobre variáveis
 - exercício sobre variavel
+- uri online judge variaveis
 
 ## intent:exercicios_repeticao
 - exercício laço de repeticao
@@ -39,7 +40,7 @@
 - treinar for while
 - saber se aprendi for while
 - saber se aprendi repetição
-- uri for while
-- uri repeticao
+- uri online judge  for while
+- uri online judge  repeticao
 - testar conhecimentos for while
 - testar conhecimentos repeticao

@@ -239,7 +239,7 @@ templates:
          senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
         
-        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo, só me pedir!
+        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
 
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
@@ -263,7 +263,7 @@ templates:
     - text: |
         Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")
         
-        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links!
+        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
 
       image: 
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -272,7 +272,7 @@ templates:
     - text: |
         Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
       
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra que eu te passo!
+        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
         
       image: 
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
