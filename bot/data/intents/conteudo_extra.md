@@ -1,47 +1,124 @@
+
 ## intent:conteudo_extra_repeticao
-- mais conteúdo for
-- mais conteudo while
-- link extra sobre repetição
-- outras fontes repetição
-- outras fontes for while
-- quero saber mais sobre loop for while
-- ensinar mais cobre loop for while
-- link sobre estrutura condicional
-- conteúdo extra condicionais loop
-- site com loop
-- site sobre loop while for
+- extra for
+- extra while
+- extra laços
+- extra repetição
+- extra repetição
+- conteúdo adicional for
+- conteúdo adicional while
+- conteudo adicional for
+- conteudo adicional while
+- conteudo extra laços
+- conteúdo extra laços
+- conteudo extra estrutura de repetiçao
+- conteúdo extra estrutura de repetição
+- mais sobre sobre laços
+- mais sobre for while
+- outra fonte estrutura repetição
+- outra fonte for while
+- complemente while
+- complemente for
+- complementar for
+- complementar while
+- suplementar for
+- suplementar while
+- suplementar estrutura de repeticao
+- suplementar estrutura de repetição
+- complemenar estrutura de repeticao
+- mais informações sobre for
+- mais informações sobre while
+- mais informações sobre estrutura de repetiçao
+- conteúdo mais aprofundado for
+- conteúdo mais aprofundado while
+- conteúdo mais aprofundado estrutura de repetição
+- link extra for
+- link extra while
+- link extra estrutura repetição
+- site extra for
+- site extra while
+- site extra estrutura repetição
+
 
 ## intent:conteudo_extra_condicionais
-- link sobre condicionais
-- link sobre if
-- link sobre else
-- link sobre condicional
-- mais estruturas condicionais
-- mais if
-- mais else
-- exemplos if
-- conteúdo if
-- exemplos else
-- conteudo else
-- conteúdo if
-- me de um exemplo if else
-- não entendi if else
-- saber mais if else
-- outros exemplos if else
+- extra if
+- extra else
+- extra condicional
+- extra estrutura condicional
+- extra estruturas condicionais
+- conteúdo adicional if
+- conteúdo adicional else
+- conteudo adicional if
+- conteudo adicional else
+- conteudo extra condicionais
+- conteúdo extra condicional
+- conteudo extra estruturas condicionais
+- conteúdo extra estrutura condicional
+- mais sobre condição
+- mais sobre if else
+- outra fonte estrutura condicional
+- outra fonte if else
+- complemente if
+- complemente else
+- complementar if
+- complementar else
+- suplementar if
+- suplementar else
+- suplementar estrutura condicional
+- suplementar estruturas condicionais
+- complementar estrutura condicional
+- mais informações sobre if
+- mais informações sobre else
+- mais informações sobre estrutura condicional
+- conteúdo mais aprofundado if
+- conteúdo mais aprofundado else
+- conteúdo mais aprofundado estruturas condicionais
+- conteúdo mais aprofundado estrutura condicional
+- link extra if
+- link extra else
+- link extra estruturas condicionais
+- link extra estrutura condicional
+- site extra if
+- site extra else
+- site extra estruturas condicionais
+- site extra estrutura condicional
 
 ## intent:conteudo_extra_variaveis
 - tem algum link pra entender variáveis?
-- mais conteúdo sobre variaveis
-- links externos para variáveis
-- links sobre variaveis
-- mais informações sobre variáveis
-- conteudo aprofundado de variaveis
-- mais sobre variáveis
-- tem links sobre variaveis?
-- me manda algum site falando sobre variáveis
-- sites variaveis
-- link variável
-- conteúdo extra variável
-- conteúdos extra variáveis
-- nao entendi variável, algum site?
-- me dá mais conteúdo sobre variáveis, pf
+- extra variavel
+- extra variaveis
+- extra int
+- extra double
+- extra float
+- extra variaveis em python
+- conteúdo adicional variavel
+- conteúdo adicional variaveis
+- conteudo adicional int
+- conteudo adicional double
+- conteudo adicional float
+- conteudo extra variaveis
+- conteúdo extra variavel
+- mais sobre variaveis
+- mais sobre variavel
+- outra fonte variaveis
+- outra fonte variavel
+- complemente variaveis
+- complemente variavel
+- complementar int double float
+- suplementar variável
+- suplementar variavel
+- suplementar variaveis
+- suplementar int double float
+- complementar variaveis
+- mais informações sobre variaveis
+- mais informações sobre variavel
+- mais informações sobre int float double
+- conteúdo mais aprofundado variaveis
+- conteúdo mais aprofundado variavel
+- conteúdo mais aprofundado variável
+- link extra variavel
+- link extra variaveis
+- link extra variável
+- site extra variavel
+- site extra variaveis
+- site extra variável
