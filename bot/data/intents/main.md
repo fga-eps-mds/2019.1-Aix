@@ -141,11 +141,24 @@
 - era so isso
 
 ## intent:menu_ajuda
+- o que vc faz
+- o que você faz
+- como te usar
+- o que você sabe
+- com o que voce pode me ajudar
+- como você funciona
+- me ajuda
 - help
+- me da um help
+- como te perguntar algo
+- estou com uma duvida
 - menu
-- ajuda 
+- você possui menu
 - usabilidade
-
+- como tirar dúvida
+- quero estudar
+- como estudar com você
+- quero aprender
 
 ## intent:curiosidades_python
 - zen do python
