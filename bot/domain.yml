@@ -270,6 +270,10 @@ templates:
         Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
 
         Quer saber mais sobre eles? Me pergunte por exemplos!
+    
+  utter_sobre_arquivos:
+    - text: |
+        
 
   utter_exemplo_variaveis:
     - text: |
@@ -317,6 +321,12 @@ templates:
       image: 
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
+  utter_exemplo_arquivos:
+    - text: |
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+      
+        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
+        
   utter_exercicios_variaveis:
     - text: |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
@@ -352,6 +362,10 @@ templates:
 
         Não esqueça que qualquer probléema é só pedir que eu faço pesquisas no StackOverflow para você!
 
+  utter_exercicios_arquivos:
+    - text: |
+        Ahh, então você quer praticar arquivos Fico tãããoo feliz em saber disso
+        
   utter_conteudo_extra_variaveis:
     - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -378,6 +392,11 @@ templates:
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
         Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
+        
+  utter_conteudo_extra_arquivos:
+      - text : |
+          Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
+          
 
   utter_pesquisar:
     - text : |
