@@ -5,6 +5,12 @@
     - utter_menu_ajuda
 
 ## path 2
+* help
+    - utter_help
+* menu_ajuda
+    - utter_menu_ajuda
+
+## path 3
 * cumprimentar
     - utter_cumprimentar
 
