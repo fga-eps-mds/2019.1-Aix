@@ -1,5 +1,6 @@
 intents:
   - start
+  - help
   - cumprimentar
   - despedir
   - tudo_bem
@@ -52,8 +53,43 @@ templates:
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
+        Sou a Aix, a chatBode e estou aqui para te ensinar Python!
 
-        Sou Aix, como posso te ajudar?
+        Olha, eu sou uma cabra, e não um robô! Então pode conversar normal comigo, poxa! Eu te entendo, pode deixar!
+        Se estiver curioso, pergunte sobre mim, o que sei fazer ou como me usar que eu te conto!
+        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+
+
+  utter_help:
+   - text: |
+        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos..
+
+        Beleza! Aqui estão minhas informações:
+        Ações que posso fazer:
+          1. Explicar um conteúdo;
+          2. Citar exemplos;
+          3. Mostrar links extras sobre o conteúdo;
+          4. Indicar exercícios;
+          5. Pesquisar no StackOverflow.
+
+        Conteúdos mapeados:
+          -Variaveis
+          -Estruturas Condicionais
+          -Estrutura de repetição
+
+        *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
+          Como? Escreva algo do tipo:
+            Quero saber o que é [Nome do conteúdo]
+            Me dê exercícios sobre [Nome do conteúdo]
+            Quero saber mais sobre [Nome do conteúdo]
+            Quero um exemplo sobre [Nome do conteúdo]
+          OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provavel que eu entenda!
+          
+        *Para pesquisar no StackOverflow voce deve digitar:
+          pesquise sobre [conteúdo que você quer saber]
+
+        
+        
 
   utter_despedir:
     - text: |
@@ -346,6 +382,7 @@ templates:
 
 actions:
   - utter_start
+  - utter_help
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
