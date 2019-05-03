@@ -123,4 +123,4 @@
 - site extra variaveis
 - site extra variável
 
-## intent:conteudo_extra_arquivos
+## intent:conteudo_extra_funcao

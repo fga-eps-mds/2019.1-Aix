@@ -19,22 +19,22 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
-  - sobre_arquivos
+  - sobre_funcao
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
-  - exemplo_arquivos
+  - exemplo_funcao
 
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
-  - exercicios_arquivos
+  - exercicios_funcao
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
-  - conteudo_extra_arquivos
+  - conteudo_extra_funcao
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -271,7 +271,7 @@ templates:
 
         Quer saber mais sobre eles? Me pergunte por exemplos!
     
-  utter_sobre_arquivos:
+  utter_sobre_funcao:
     - text: |
         
 
@@ -321,7 +321,7 @@ templates:
       image: 
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
-  utter_exemplo_arquivos:
+  utter_exemplo_funcao:
     - text: |
         Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
       
@@ -362,9 +362,9 @@ templates:
 
         Não esqueça que qualquer probléema é só pedir que eu faço pesquisas no StackOverflow para você!
 
-  utter_exercicios_arquivos:
+  utter_exercicios_funcao:
     - text: |
-        Ahh, então você quer praticar arquivos Fico tãããoo feliz em saber disso
+        Ahh, então você quer praticar funçoes Fico tãããoo feliz em saber disso
         
   utter_conteudo_extra_variaveis:
     - text: |
@@ -424,22 +424,22 @@ actions:
   - utter_sobre_booleanos
   - utter_sobre_condicionais
   - utter_sobre_repeticao
-  - utter_sobre_arquivos
+  - utter_sobre_funcao
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
-  - utter_exemplo_arquivos
+  - utter_exemplo_funcao
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
-  - utter_exercicios_arquivos
+  - utter_exercicios_funcao
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
-  - utter_conteudo_extra_arquivos
+  - utter_conteudo_extra_funcao
 
   - action_otrs
   - action_pesquisa_stackoverflow
