@@ -273,6 +273,9 @@ templates:
     
   utter_sobre_arquivos:
     - text: |
+        O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
+
+	      Quer um exemplo para entender melhor? Peça um 'exemplo de arquivos'.
         
 
   utter_exemplo_variaveis:
