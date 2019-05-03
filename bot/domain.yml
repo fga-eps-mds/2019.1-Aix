@@ -19,18 +19,22 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
+  - sobre_arquivos
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
+  - exemplo_arquivos
 
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
+  - exercicios_arquivos
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
+  - conteudo_extra_arquivos
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -401,18 +405,22 @@ actions:
   - utter_sobre_booleanos
   - utter_sobre_condicionais
   - utter_sobre_repeticao
+  - utter_sobre_arquivos
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_arquivos
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_arquivos
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_arquivos
 
   - action_otrs
   - action_pesquisa_stackoverflow

@@ -27,3 +27,7 @@
     - utter_exercicios_variaveis
 * conteudo_extra_variaveis
     - utter_conteudo_extra_variaveis
+
+## exercicios_arquivos
+* exercicios_arquivos
+    - utter_exercicios_arquivos

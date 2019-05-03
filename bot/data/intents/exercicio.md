@@ -148,3 +148,5 @@
 - pratica for
 - atividade while
 - treinamento for
+
+## intent:exercicios_arquivos

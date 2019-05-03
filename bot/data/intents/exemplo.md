@@ -103,3 +103,5 @@
 - double na pratica
 - bool na pratica
 - float na pratica
+
+## intent:exemplo_arquivos

@@ -472,3 +472,5 @@
 - resuma booleanos
 - resumo booleanos
 - resume booleanos
+
+## intent:sobre_arquivos
