@@ -37,3 +37,5 @@
 - desejo pesquisar algo
 - desejo verificar um erro
 - desejo pesquisar algo
+- apareceu um bug aqui
+- tive um problema no código

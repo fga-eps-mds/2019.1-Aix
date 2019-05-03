@@ -1,34 +1,70 @@
-## intent:cumprimentar
+## intent:start
 - /start
-- oi tudo bem
-- como vai
-- oi como vai voce
-- como vão as coisas
+- start
+
+## intent:start
+- /help
+- help
+
+
+## intent:cumprimentar
+- fala ff
+- oi
 - com licenca
-- tudo bom
 - posso falar com você
 - pode me tirar uma dúvida
 - gostaria de tirar uma dúvida
-- to bem
 - tranquilo
-- estou bem
-- otimo
-- muito bem
+- blz
 - bom dia
 - boa tarde
 - boa noite
+- good morning
+- mornin
+- good afternoon
+- good evening
 - ola
 - oie
 - opa
 - eae
+- eaí
+- eai
 - opa meu bom
 - olá
 - hola
 - hello
 - hi
 - hey
+- bom ver você
+- bom ver voce
+- legal ver você
+- namastê
+- namaste
+- saudações
+- saudação
+- saudaçoes
+- saudaçao
+- salve
 
 ## intent:tudo_bem
+- hey there
+- what's up
+- sup
+- como está tudo
+- vai bem
+- como estao as coisas
+- como estão as coisas
+- howdy
+- wotcha
+- hiya
+- how you doin'
+- como voce esta
+- tudo bom
+- tudo bem
+- como vão as coisas
+- como vai
+- como vai voce
+- tudo bem
 - Tudo bem
 - Como você está
 - como vc ta
@@ -36,7 +72,7 @@
 - joinha
 - tudo bom
 - bom dia flor do dia
-- Tudo bem e você
+- Tudo bem e você- tudo certo
 - tudo bem
 - beleza
 - bom
@@ -66,8 +102,29 @@
 - obrigada
 - obrigado
 - abraços
+- flw
+- partiu
+- vou embora
+- adeus
+- adeusinho
+- ate a proxima
+- até a próxima
+- até à próxima
+- até depois
+- ate depois
+- até a vista
+- até logo
 
 ## intent:manter_conversa
+- de acordo
+- compreendido
+- está bem
+- tudo certo
+- td certo
+- positivo
+- exato
+- correto
+- foi definido
 - certo
 - beleza
 - perfeito
@@ -79,7 +136,6 @@
 - okay
 - justo
 - foi esclarecido
-- tudo certo
 - foi de grande ajuda
 - muito util
 - ajudou bastante
@@ -97,8 +153,6 @@
 - com o que voce pode me ajudar
 - como você funciona
 - me ajuda
-- help
-- me da um help
 - como te perguntar algo
 - estou com uma duvida
 - menu
@@ -107,7 +161,7 @@
 - como tirar dúvida
 - quero estudar
 - como estudar com você
-- quero aprender 
+- quero aprender
 
 ## intent:curiosidades_python
 - zen do python
@@ -119,17 +173,17 @@
 - saber mais de python
 - tenho interesse em python
 - curiosidades python
-- curiosidade
-- curiosidades
+- curiosidade python
+- curiosidades python
 - poema
-- novidade
-- curiosity
-- bisbilhotice
-- inusitado
-- curiosos
-- dados curiosos
-- fatos curiosos
-- fatos desconhecidos
+- novidade python
+- curiosity python
+- bisbilhotice python
+- inusitado python
+- curiosos python
+- dados curiosos python
+- fatos curiosos python
+- fatos desconhecidos python
 
 ## intent:out_of_scope
 - você sabe sobre grafos
