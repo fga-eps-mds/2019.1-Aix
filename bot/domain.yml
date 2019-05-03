@@ -398,7 +398,11 @@ templates:
         
   utter_conteudo_extra_arquivos:
       - text : |
-          Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
+          Então você quer virar o mago dos arquivos, néee!?
+          Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
+          https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
+          https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
+          http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
           
 
   utter_pesquisar:
