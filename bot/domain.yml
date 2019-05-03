@@ -1,5 +1,6 @@
 intents:
   - start
+  - help
   - cumprimentar
   - despedir
   - tudo_bem
@@ -19,11 +20,14 @@ intents:
   - sobre_condicionais
   - sobre_repeticao
   - sobre_vetores
+  - sobre_hello_world
+  - sobre_importar_bibliotecas
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
   - exemplo_vetores
+  - exemplo_importar_bibliotecas
 
   - exercicios_variaveis
   - exercicios_condicionais
@@ -56,8 +60,40 @@ templates:
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
+        Sou a Aix, a chatBode e estou aqui para te ensinar Python!
 
-        Sou Aix, como posso te ajudar?
+        Olha, eu sou uma cabra, e não um robô! Então pode conversar normal comigo, poxa! Eu te entendo, pode deixar!
+        Se estiver curioso, pergunte sobre mim, o que sei fazer ou como me usar que eu te conto!
+        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+
+
+  utter_help:
+   - text: |
+        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos..
+
+        Beleza! Aqui estão minhas informações:
+        Ações que posso fazer:
+          1. Explicar um conteúdo;
+          2. Citar exemplos;
+          3. Mostrar links extras sobre o conteúdo;
+          4. Indicar exercícios;
+          5. Pesquisar no StackOverflow.
+
+        Conteúdos mapeados:
+          -Variaveis
+          -Estruturas Condicionais
+          -Estrutura de repetição
+
+        *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
+          Como? Escreva algo do tipo:
+            Quero saber o que é [Nome do conteúdo]
+            Me dê exercícios sobre [Nome do conteúdo]
+            Quero saber mais sobre [Nome do conteúdo]
+            Quero um exemplo sobre [Nome do conteúdo]
+          OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provavel que eu entenda!
+          
+        *Para pesquisar no StackOverflow voce deve digitar:
+          pesquise sobre [conteúdo que você quer saber]
 
   utter_despedir:
     - text: |
@@ -243,6 +279,23 @@ templates:
 
         Que tal ver na prática? Me peça um exemplo de vetor!
 
+  utter_sobre_hello_world:
+    - text : |
+        Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
+        O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
+        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas duplas.
+        Temos então:
+            print("Hello World!")
+      image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
+
+  utter_sobre_importar_bibliotecas:
+    - text : |
+        Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
+        Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
+        No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
+        Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
+        Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée. 
+
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
@@ -302,9 +355,16 @@ templates:
 
           Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
       image: |
-          https://i.imgur.com/soiRg1i.png 
-         
-          
+          https://i.imgur.com/soiRg1i.png         
+
+  utter_exemplo_importar_bibliotecas:
+    - text : |
+        Vamos importar a biblioteca math, útil para funções matemáticas. Bée
+        Primeiro passo: import math
+        Para utilizar as funções em seu código basta colocar math.funcao()
+        Segundo passo: math.sqrt(9)
+        Caso haja alguma dúvida você pode solicitar por uma pesquisa.
+        Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
 
   utter_exercicios_variaveis:
     - text: |
@@ -395,6 +455,7 @@ templates:
 
 actions:
   - utter_start
+  - utter_help
   - utter_cumprimentar
   - utter_despedir
   - utter_tudo_bem
@@ -414,11 +475,15 @@ actions:
   - utter_sobre_condicionais
   - utter_sobre_repeticao
   - utter_sobre_vetores
+  - utter_sobre_hello_world
+  - utter_sobre_importar_bibliotecas
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
   - utter_exemplo_vetores
+  - utter_exemplo_importar_bibliotecas
+  
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais

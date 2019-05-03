@@ -2,6 +2,11 @@
 - /start
 - start
 
+## intent:start
+- /help
+- help
+
+
 ## intent:cumprimentar
 - fala ff
 - oi
@@ -148,8 +153,6 @@
 - com o que voce pode me ajudar
 - como você funciona
 - me ajuda
-- help
-- me da um help
 - como te perguntar algo
 - estou com uma duvida
 - menu

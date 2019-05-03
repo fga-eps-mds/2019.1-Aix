@@ -130,3 +130,12 @@
 - vetores na pratica
 - arrays na pratica
 - array unidimensional na pratica
+
+## intent:exemplo_importar_bibliotecas
+- exemplo importar bibliotecas
+- importando uma library
+- exemplo importar lib
+- exemplo de como importar bibliotecas
+- exemplifique bibliotecas
+- exemplifique library
+- exemplifique lib
