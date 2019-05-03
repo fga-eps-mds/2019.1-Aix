@@ -30,15 +30,15 @@ Segundo a mitologia romana, a cabra Aix, por ser tão detestável, foi requisita
 ## 1.4 Arte Visual
 * LOGO:
 
-![](https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/arte_revisionada_05.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/arte_revisionada_05.png)
 
 * IMAGEM PARA O CHATBOT:
 
-![](https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/arte_revisionada_02.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/arte_revisionada_02.png)
 
 * IMAGEM SECUNDÁRIA:
 
-![](https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/issue_38_identidade_visual/assets/img/arte_secundaria_Prancheta%201.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/arte_secundaria_Prancheta%201.png)
 
 
 # 2. Paleta de Cores

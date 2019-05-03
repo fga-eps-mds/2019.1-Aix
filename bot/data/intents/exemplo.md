@@ -1,38 +1,75 @@
 ## intent:exemplo_condicionais
-- me dê exemplo de if else
-- exemplo if else
-- como fazer um if else
-- fazer if else
-- montar if else
-- sintaxe if else
-- sintaxe condicionais
-- exemplo de condicionais
-- if else na prática
-- funcionamento condicional
-- funcionamento if else
+- exemplo de if
+- exemplo de else
+- exemplos de estrutura condicioal
+- exemplos de estruturas condicionais
+- exemplos de if
+- exemplos de else
+- exemplo de condição
+- exemplo condiçoes
+- exemplos de condições
+- modelos de if
+- modelos de else
+- modelos de condiçoes
+- sintaxe de if
+- sintaxe de else
+- modelos de estruturas condicionais
+- modelos de estrutura condicional
+- modelo de if else
+- sintaxe de estrutura condicional
+- sintaxe de estruturas condicionais
+- sintaxe de condição
+- sintaxe de condições
+- como fazer uma condição
+- exemplifique if
+- exemplifique estruturas condicionais
+- exemplifique estrutura condicional
+- exemplifique else
+- exemplifique condicional
+- exemplo de estruturas condicionais
+- exemplos de estrutura condicional
+- exemplo de condiçoes
+- exemplo de condições
+- exemplos condicionais
+- como executar uma condição
+- if na pratica
+- else na pratica
+- condicional na pratica
 
 ## intent:exemplo_repeticao
 - exemplo de laços
 - exemplo de estruturas de repetição
 - exemplos de laços
-- exemplos de estruturas de repetiçao
+- exemplos de estruturas de repetição
 - exemplos de while
 - exemplos de for
 - exemplo de repetições
 - exemplo de iteração
-- exemplos de iteraçoes
+- exemplos de iterações
 - modelos de laços
 - sintaxe de laços
-- sintaxe de iteraçao
-- modelos de estruturas de repetiçao
+- sintaxe de iteração
+- modelos de estruturas de repetição
 - modelo de while
 - sintaxe de while
 - sintaxe de for
+- sintaxe de iteraçao
 - como repetir ação
 - exemplifique laço
 - exemplifique estruturas de repetição
-- exemplifique while
 - exemplifique for
+- exemplifique while
+- exemplo de estruturas de repetiçao
+- exemplos de estruturas de repetiçao
+- exemplo de repetiçoes
+- exemplo de iteraçao
+- exemplos de iteraçoes
+- modelos de estruturas de repetiçao
+- repetir açao
+- exemplifique estruturas de repetiçao
+- laços na pratica
+- for na pratica
+- while na pratica
 
 ## intent:exemplo_variaveis
 - me dê exemplos de variaveis
@@ -55,16 +92,61 @@
 - funcionamento variaveis
 - variáveis na prática
 - código de exemplo de variaveis
+- exemplo de variaveis
+- exemplo de variavel
+- exemplos variavel
+- exemplos variaveis
+- exemplos variável
+- exemplos de int double float
+- modelos de int
+- modelos de double
+- modelos de variavies
+- sintaxe de int
+- sintaxe de double
+- modelos de variavel
+- sintaxe de variaveis
+- sintaxe de variavel
+- sintaxe de variável
+- sintaxe de float
+- como declarar variavel
+- como declarar variaveis
+- exemplifique variaveis
+- exemplifique variavel
+- exemplifique int
+- exemplifique float
+- exemplifique double
+- exemplo de bool
+- variaveis na pratica
+- variavel na pratica
+- int na pratica
+- double na pratica
+- bool na pratica
+- float na pratica
 
 ## intent:exemplo_matrizes
-- gostaria de ver exemplos sobre matriz
+- exemplo de matriz
+- exemplo de matrizes
+- exemplo de arrays bidimensionais
+- exemplo array bidimensional
+- exemplos de matriz
 - exemplos de matrizes
-- você tem algum exemplo de matrizes
-- código usando matriz
-- exemplo prático de matriz
-- como fica um array na prática
+- exemplos de arrays bidimensionais
+- exemplos de array bidimensional
+- modelos de matriz
+- modelos de matrizes
+- modelos de arrays bidimensionais
+- modelos de array bidimensional
+- sintaxe de matriz
+- sintaxe de matrizes
+- sintaxe de arrays bidimensionais
+- sintaxe de array bidimensional
+- exemplifique matriz
 - exemplifique matrizes
-- poderia me mostrar um exemplo de matriz
-- desejo ver exemplos de matrizes
-- quero exemplos de array bidimensional 
-- me dê um exemplo de matriz
+- exemplifique arrays bidimensionais
+- exemplifique array bidimensional
+- como executar um matriz
+- como fazer um arrays bidimensionais
+- matriz na pratica
+- matrizes na pratica
+- arrays bidimensionais na pratica
+- array bidimensional na pratica

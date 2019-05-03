@@ -42,7 +42,9 @@ parser.add_argument(
     help='Bot password at RocketChat'
 )
 parser.add_argument(
-    '--bot-avatar', '-ba', type=str, default='https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png',
+    '--bot-avatar', '-ba', type=str,
+    default='https://raw.githubusercontent.com/'+
+            'fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png',
     help='Bot avatar photo link (default: bot\'s github avatar)'
 )
 parser.add_argument(
@@ -88,6 +90,7 @@ admin_password = args.admin_password
 rasa_url = args.rasa_url
 user_header = None
 
+
 def api(endpoint, values=None, is_post=True):
     if endpoint[0] == '/':
         endpoint = endpoint[1:]
@@ -110,8 +113,10 @@ def api(endpoint, values=None, is_post=True):
 
     return response.json()
 
+
 def api_post(endpoint, values=None):
     return api(endpoint, values)
+
 
 def api_get(endpoint, values=None):
     return api(endpoint, values, False)
@@ -198,8 +203,7 @@ def configure_webhooks():
             logger.info('Intergration {} already exists!'.format(name))
             return
 
-    api_post('integrations.create',
-        {
+    api_post('integrations.create', {
             'name': name,
             'type': 'webhook-outgoing',
             'enabled': True,
@@ -249,6 +253,7 @@ def create_department(bot_agent_id):
                 'order': 0
             }]
         })
+
 
 if __name__ == '__main__':
     logger.info('===== Automatic env configuration =====')

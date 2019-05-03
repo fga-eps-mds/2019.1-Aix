@@ -1,21 +1,40 @@
 ## intent:sobre_python
+- sobre python
+- acerca de python
+- definição python
+- definiçao python
+- explique python
+- explicação python
+- explicaçao pythons
+- descreva python
+- descrição python
+- significado python
+- conceito python
 - o que é python
-- me defina python
-- me explique o que é python
+- o que e python
+- defina pyhton
 - quando python foi criado
-- em qual ano python surgiu
 - quem é o criador do python
-- voce sabe quem é o pai do python
+- pai do python
+- ano python surgiu
+- resuma python
+- resumo python
+- resume python
+
 
 ## intent:sobre_aix
 - quem é você
-- sobre o chatbot
+- quem e voce
+- sobre chatbot
 - diga sobre chatbot
 - quem é aix
+- quem e aix
 - o que e aix
+- o que é aix
 - quais suas funcionalidades
 - qual seu proposito
 - quem é vc
+- quem e vc
 - como você me ajuda
 - sobre o chatbode
 - descreva voce
@@ -25,27 +44,68 @@
 - chatbode
 - chatbot
 - conheço
-- curiosidade
+- curiosidade aix
 - cabrita
 - bode
 
 ## intent:sobre_condicionais
-- o que é if
-- o que é else
-- o que é condicional
 - básico sobre if
-- basico sobre else
+- básico sobre else
 - básico sobre condicional
-- condicionais
-- condição
-- fazer um if
-- fazer um else
+- basico sobre if
+- basico sobre else
+- basico sobre condicional
 - elsif
 - condicional
 - estrutura condicional
 - montar um if
 - montar um else
 - estruturas condicionais
+- condiçao
+- condição
+- condicionais
+- o que é if
+- o que é else
+- o que é condicional
+- o que e if
+- o que e else
+- o que e condicional
+- sobre condicionais
+- acerca de condicionais
+- defina condicionais
+- defina condicional
+- definição condicionais
+- definiçao condicionais
+- explique condicionais
+- explicação condicionais
+- explicaçao condicionais
+- descreva condicionais
+- descrição condicionais
+- significado condicionais
+- conceito condicionais
+- o que são condicionais
+- o que sao condicionais
+- defina condicionais
+- resuma condicionais
+- resumo condicionais
+- resume condicionais
+- sobre condicional
+- acerca de condicional
+- definição condicional
+- definiçao condicional
+- explique condicional
+- explicação condicional
+- explicaçao condicional
+- descreva condicional
+- descrição condicional
+- significado condicional
+- conceito condicional
+- o que são condicional
+- o que sao condicional
+- defina condicional
+- resuma condicional
+- resumo condicional
+- resume condicional
 
 ## intent:sobre_repeticao
 - reproduzir uma ação
@@ -64,32 +124,213 @@
 - iterador
 - while
 - for
-- enquanto
 - laço
+- básico sobre while
+- básico sobre for
+- básico sobre laços
+- basico sobre while
+- basico sobre for
+- basico sobre laços
+- faz um while
+- faz um for
+- estrutura de repetição
+- estrutura de repetiçao
+- estrutura de repetições
+- estrutura de repetiçoes
+- montar um while
+- montar um for
+- monte um while
+- monte um for
+- o que é while
+- o que é for
+- o que são laços
+- o que e while
+- o que e for
+- o que sao laços
+- sobre laços
+- sobre estrutura de repetição
+- sobre estrutura de repetiçao
+- sobre estrutura de repetições
+- sobre estrutura de repetiçoes
+- acerca de laços
+- defina laços
+- definição laços
+- definiçao laços
+- explique laços
+- explicação laços
+- explicaçao laços
+- descreva laços
+- descrição laços
+- significado laços
+- conceito laços
+- o que são laços
+- o que sao laços
+- defina laços
+- resuma laços
+- resumo laços
+- resume laços
+- acerca de estrutura de repetição
+- definição estrutura de repetição
+- definiçao estrutura de repetição
+- explique estrutura de repetição
+- explicação estrutura de repetição
+- explicaçao estrutura de repetição
+- descreva estrutura de repetição
+- descrição estrutura de repetição
+- significado estrutura de repetição
+- conceito estrutura de repetição
+- o que são estrutura de repetição
+- o que sao estrutura de repetiçao
+- defina estrutura de repetição
+- resuma estrutura de repetição
+- resumo estrutura de repetição
+- resume estrutura de repetição
 
 ## intent:sobre_variaveis
-- o que sao variáveis
-- variáveis python
-- variaveis geral
-- variáveis basico
+- declarar
+- declaração
+- declaraçao
+- atribuir valor
+- o que são variáveis
+- o que sao variaveis
+- variáveis básico
+- como uso variáveis
 - como uso variaveis
-- Variáveis
+- variáveis
+- variaveis
 - variaveis primitivas
-- que que é variavel
-- variável em python
+- variável
 - variavel
+- definiçao variáveis
+- definir variáveis
+- o que são variáveis
+- explique variáveis
+- básico sobre variáveis
+- basico sobre variaveis
+- básico sobre variável
+- basico sobre variavel
+- o que é variável
+- o que é variável
+- o que são variáveis
+- o que e variavel
+- o que e variavel
+- o que sao variaveis
+- sobre variável
+- sobre variavel
+- sobre variáveis
+- sobre variaveis
+- acerca de variável
+- defina variável
+- definição variável
+- definiçao variável
+- explique variável
+- explicação variável
+- explicaçao variável
+- descreva variável
+- descrição variável
+- significado variável
+- conceito variável
+- o que são variável
+- o que sao variável
+- defina variável
+- resuma variável
+- resumo variável
+- resume variável
+- acerca de variáveis
+- definição variáveis
+- definiçao variáveis
+- explique variáveis
+- explicação variáveis
+- explicaçao variaveis
+- descreva variáveis
+- descrição variáveis
+- significado variáveis
+- conceito variáveis
+- o que são variáveis
+- o que sao variaveis
+- defina variáveis
+- resuma variáveis
+- resumo variáveis
+- resume variáveis
+- acerca de variavel
+- defina variavel
+- definição variavel
+- definiçao variavel
+- explique variavel
+- explicação variavel
+- explicaçao variavel
+- descreva variavel
+- descrição variavel
+- significado variavel
+- conceito variavel
+- o que é variável
+- o que e variável
+- defina variavel
+- resuma variavel
+- resumo variavel
+- resume variavel
+- acerca de variaveis
+- definição variaveis
+- definiçao variaveis
+- explique variaveis
+- descreva variaveis
+- descrição variaveis
+- significado variaveis
+- conceito variaveis
+- defina variaveis
+- resuma variaveis
+- resumo variaveis
+- resume variaveis
 
 ## intent:sobre_inteiros
-- o que sao inteiros
 - inteiros
 - int
-- que que é inteiro
 - inteiro
 - integer
 - números inteiros
-- numeros positivos
+- números positivos
 - números negativos
+- numeros inteiros
+- numeros positivos
+- numeros negativos
 - numeros sem precisão decimal
+- o que são inteiros
+- o que sao inteiros
+- inteiros básico
+- como uso inteiros
+- como uso inteiro
+- inteiros
+- inteiro
+- definiçao inteiros
+- definir inteiros
+- o que são inteiros
+- explique inteiros
+- básico sobre inteiros
+- basico sobre inteiros
+- o que sao inteiros
+- o que é inteiro
+- o que são inteiros
+- o que e inteiro
+- sobre inteiros
+- sobre inteiro
+- acerca de inteiros
+- defina inteiros
+- definição inteiro
+- definiçao inteiro
+- definir inteiro
+- explique inteiro
+- explicação inteiro
+- explicaçao inteiro
+- descreva inteiro
+- descrição inteiro
+- significado inteiro
+- conceito inteiro
+- o que são inteiro
+- o que sao inteiro
+- defina inteiro
+- resuma inteiro
+- resumo inteiro
+- resume inteiro
 
 ## intent:sobre_pontos_flutuantes
 - o que são pontos flutuantes
@@ -102,12 +343,50 @@
 - double
 - pontos flutuantes com o dobro de precisão
 - números com casas decimais
+- numeros com casas decimais
 - numeros fracionados
 - frações
+- fraçoes
 - números racionais
+- numeros racionais
 - racionais
 - casas decimais
 - fração
+- o que sao pontos flutuantes
+- float básico
+- double básico
+- como uso float
+- como uso double
+- definiçao pontos flutuantes
+- definir pontos flutuantes
+- o que são pontos flutuantes
+- explique pontos flutuantes
+- básico sobre pontos flutuantes
+- basico sobre pontos flutuantes
+- o que sao pontos flutuantes
+- o que é ponto flutuante
+- o que são pontos flutuantes
+- o que e ponto flutuante
+- sobre ponto flutuante
+- sobre pontos flutuantes
+- acerca de pontos flutuantes
+- defina pontos flutuantes
+- definição pontos flutuantes
+- definiçao pontos flutuantes
+- definir pontos flutuantes
+- explique pontos flutuantes
+- explicação pontos flutuantes
+- explicaçao pontos flutuantes
+- descreva pontos flutuantes
+- descrição pontos flutuantes
+- significado pontos flutuantes
+- conceito pontos flutuantes
+- o que são pontos flutuantes
+- o que sao pontos flutuantes
+- defina pontos flutuantes
+- resuma pontos flutuantes
+- resumo pontos flutuantes
+- resume pontos flutuantes
 
 ## intent:sobre_caracteres
 - o que são caracteres
@@ -120,29 +399,112 @@
 - alfanuméricos e caracteres especiais
 - caracteres
 - caractéres
-- Letras
-- Como uma variável guarda letras
+- letras
+- como uma variável guarda letras
+- o que sao caracteres
+- caracteres básico
+- caracteres básico
+- como uso caracteres
+- como uso caracter
+- definiçao caracteres
+- definir caracteres
+- explique caracteres
+- básico sobre caracteres
+- basico sobre caracteres
+- o que é caractere
+- o que e caractere
+- sobre caracteres
+- sobre caractere
+- acerca de caracteres
+- defina caracteres
+- definição caracteres
+- definiçao caracteres
+- definir caracteres
+- explique caracteres
+- explicação caracteres
+- explicaçao caracteres
+- descreva caracteres
+- descrição caracteres
+- significado caracteres
+- conceito caracteres
+- defina caracteres
+- resuma caracteres
+- resumo caracteres
+- resume caracteres
 
 ## intent:sobre_booleanos
 - o que são booleanos
 - bool
 - true e false
-- verdadeiro e falso
+- verdadeiro ou falso
 - o que é um booleano
 - variável booleana
 - booleano
 - booleana
 - verdadeira e falsa
+- verdadeira ou falsa
+- booleanos
+- números booleanos
+- numeros booleanos
+- o que são booleanos
+- o que sao booleanos
+- booleanos básico
+- como uso booleanos
+- como uso booleanos
+- definiçao booleanos
+- definir booleanos
+- explique booleanos
+- básico sobre booleanos
+- basico sobre booleanos
+- sobre booleanos
+- acerca de booleanos
+- defina booleanos
+- definição booleanos
+- definiçao booleanos
+- definir booleanos
+- explique booleanos
+- explicação booleanos
+- explicaçao booleanos
+- descreva booleanos
+- descrição booleanos
+- significado booleanos
+- conceito booleanos
+- defina booleanos
+- resuma booleanos
+- resumo booleanos
+- resume booleanos
 
 ## intent:sobre_matrizes
 - o que são matrizes
-- me fale sobre matriz
-- quero saber o que é um array bidimensional
-- explique o que é um array bidimensional
-- desejo saber o que é um matriz
-- matrizes
+- matriz
+- arrays bidimensionais
 - array bidimensional
-- discorra a respeito de matriz
-- quero que me diga algo sobre matriz
-- poderia me explicar sobre matrizes
-- você sabe o que são matrizes
+- matrizes
+- o que é um matriz
+- o que são matrizes
+- o que sao arrays bidimensionais
+- matrizes básico
+- como uso array bidimensional
+- como uso arrays bidimensionais
+- definiçao matrizes
+- definir matriz
+- explique matrizes
+- básico sobre arrays bidimensionais
+- basico sobre array bidimensional
+- sobre array bidimensional
+- acerca de matriz
+- defina matrizes
+- definição arrays bidimensionais
+- definiçao matriz
+- definir array bidimensional
+- explique matriz
+- explicação matrizes
+- explicaçao arrays bidimensionais
+- descreva matriz
+- descrição matrizes
+- significado array bidimensional
+- conceito matriz
+- defina array bidimensional
+- resuma arrays bidimensionais
+- resumo matrizes
+- resume matriz

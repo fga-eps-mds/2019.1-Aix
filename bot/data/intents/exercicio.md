@@ -1,38 +1,139 @@
 ## intent:exercicios_condicionais
 - exercício condicionais
-- exercicio if else
+- exercício if else
 - exercícios condicionais
+- exercícios if else
+- exercicio condicionais
+- exercicio if else
+- exercicios condicionais
 - exercicios if else
 - treinar condicionais
 - treinar if else
-- saber se aprendi if else
-- saber se aprendi condicionais
-- uri if else
-- uri condicionais
+- treinamento condicionais
+- treinamento if else
+- testar conhecimento condicionais
+- testar conhecimento if else
+- uri online judge if else
+- uri online judge condicionais
 - testar conhecimentos if else
 - testar conhecimentos condicionais
+- tarefa condicionais
+- tarefa if else
+- dever condicionais
+- dever if else
+- execução condicionais
+- execução if else
+- prática condicionais
+- prática if else
+- pratica condicionais
+- pratica if else
+- atividade condicionais
+- atividade if else
+- treinamento condicionais
+- treinamento if else
+- exercício condicional
+- exercícios condicional
+- exercicios condicional
+- exercicio condicional
+- treinar condicional
+- treinamento condicional
+- testar conhecimento condicional
+- uri online judge condicional
+- testar conhecimentos condicional
+- tarefa condicional
+- dever condicional
+- execução condicional
+- prática condicional
+- pratica condicional
+- atividade condicional
+- treinamento condicional
+
 
 ## intent:exercicios_variaveis
-- exercícios sobre variáveis
-- exercicios sobre inteiros
+- exercício variáveis
+- exercício variável
+- exercícios variáveis
 - exercícios variável
+- exercicio variaveis
+- exercicio variavel
+- exercicios variaveis
+- exercicios variavel
+- treinar variáveis
+- treinar variável
+- treinamento variáveis
+- treinamento variável
+- testar conhecimento variáveis
+- testar conhecimento variável
+- uri online judge variável
+- uri online judge variáveis
+- testar conhecimentos variável
+- testar conhecimentos variáveis
+- tarefa variáveis
+- tarefa variável
+- dever variáveis
+- dever variável
+- execução variáveis
+- execução variável
+- prática variáveis
+- prática variável
+- pratica variáveis
+- pratica variável
+- atividade variáveis
+- atividade variável
+- treinamento variáveis
+- treinamento variável
+- exercício variáveis
+- exercícios int
 - exercicios float
-- exercício de variaveis
-- exercicio de booleanos
-- link exercicios sobre variaveis
-- treinar sobre variáveis
-- treinar sobre caracteres
-- testar variaveis
-- aprender exercicios variáveis
-- aprender exercicios inteiros
-- me envie links com exercicios sobre variáveis
-- onde faço exercícios sobre variáveis
-- exercício sobre variavel
+- exercicio booleano
+- treinar double
+- treinamento float
+- testar conhecimento int
+- uri online judge float
+- testar conhecimentos booleano
+- tarefa float
+- dever double
+- execução int
+- prática int
+- pratica double
+- atividade float
+- treinamento double
 
 ## intent:exercicios_repeticao
-- exercício laço de repeticao
-- exercicios laços de repetição
-- exercício for
+- exercício laços
+- exercício estruturas de repetição
+- exercícios laços
+- exercícios estruturas de repetição
+- exercicio estruturas de repetiçao
+- exercicio laços
+- exercicios laços
+- exercicios estruturas de repetiçao
+- treinar laços
+- treinar estruturas de repetição
+- treinamento laços
+- treinamento estruturas de repetição
+- testar conhecimento laços
+- testar conhecimento estruturas de repetição
+- uri online judge laços
+- uri online judge estruturas de repetição
+- testar conhecimentos laços
+- testar conhecimentos estruturas de repetição
+- tarefa laços
+- tarefa estruturas de repetição
+- dever laços
+- dever estruturas de repetição
+- execução laços
+- execução estruturas de repetição
+- prática laços
+- prática estruturas de repetição
+- pratica laços
+- pratica estruturas de repetição
+- atividade laços
+- atividade estruturas de repetição
+- treinamento laços
+- treinamento estruturas de repetição
+- exercício while
+- exercícios for
 - exercicios while
 - exercícios for while
 - treinar repeticao
@@ -43,16 +144,50 @@
 - uri repeticao
 - testar conhecimentos for while
 - testar conhecimentos repeticao
+- exercicio for
+- treinar while
+- treinamento for
+- testar conhecimento while
+- uri online judge for
+- testar conhecimentos while
+- tarefa for
+- dever while
+- execução for
+- prática while
+- pratica for
+- atividade while
+- treinamento for
 
 ## intent:exercicios_matrizes
-- desejo fazer exercícios sobre matrizes
 - exercício matriz
-- link de exercícios sobre arrays bidimensionais
-- quero exercicios de matrizes
-- questões sobre matrizes
-- treinar arrays bidimensionais
-- atividades de matriz
-- URI array bidimensinal
-- me mostra exercícios sobre array bidimensional
-- poderia me passar questões sobre matrizes
-- gostaria de fazer exercícios sobre matriz
+- exercício matrizes
+- exercícios arrays bidimensionais
+- exercícios array bidimensional
+- exercicio matriz
+- exercicio matrizes
+- exercicios arrays bidimensionais
+- exercicios array bidimensional
+- treinar matriz
+- treinar matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional
+- testar conhecimento matriz
+- testar conhecimento matrizes
+- uri online judge arrays bidimensionais
+- uri online judge array bidimensional
+- testar conhecimentos matriz
+- testar conhecimentos matrizes
+- tarefa arrays bidimensionais
+- tarefa array bidimensional
+- dever matriz
+- dever matrizes
+- execução arrays bidimensionais
+- execução array bidimensional
+- prática matriz
+- prática matrizes
+- pratica arrays bidimensionais
+- pratica array bidimensional
+- atividade matriz
+- atividade matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional
