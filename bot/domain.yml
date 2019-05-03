@@ -326,9 +326,9 @@ templates:
 
   utter_exemplo_arquivos:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-      
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
+        Seu programa gera o horário que ele foi executado para usar em relatórios. Caso grave esse valor numa variável, ela se perderá assim q o programa for fechado! A solução é criar um arquivo de texto no mode de escrita ('w'), gravar aquele horário e salvá-lo!
+
+	      Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um 'exercício de arquivos'!
         
   utter_exercicios_variaveis:
     - text: |
