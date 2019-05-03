@@ -326,10 +326,15 @@ templates:
 
   utter_exemplo_funcao:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-      
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
-        
+        Imagine que eu preciso mostrar a frase "Oi, " e dizer o nome da pessoa: "Oi, Nelson!". É possível fazer uma função que receba como parâmetro o nome e dentro dela, ela 	monte e retorne essa frase!
+	
+        def oi(nome)
+          return "Oi, " + nome;
+
+	      A palavra reservada 'def', é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função 'oi' é o nome único que havia falado, e 'nome' é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
+
+	      Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
+  
   utter_exercicios_variaveis:
     - text: |
         Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
