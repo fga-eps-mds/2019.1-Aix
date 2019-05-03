@@ -273,6 +273,9 @@ templates:
     
   utter_sobre_funcao:
     - text: |
+        Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
+	
+	      Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
         
 
   utter_exemplo_variaveis:
