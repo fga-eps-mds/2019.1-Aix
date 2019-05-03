@@ -472,3 +472,24 @@
 - resuma booleanos
 - resumo booleanos
 - resume booleanos
+
+## intent:sobre_hello_world
+- primeiro programa em python
+- como fazer um hello world
+- printar texto
+- mostrar texto
+- fazer ola mundo
+- como mostrar texto no terminal
+- fazer print
+- printar no terminal
+- imprimir
+
+## intent:sobre_importar_bibliotecas
+- como importar bibliotecas
+- como utilizar bibliotecas
+- import
+- library
+- importar lib
+- adicionar funções
+- funcoes extras
+- funcao nao encontrada
