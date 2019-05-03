@@ -401,10 +401,12 @@ templates:
 
         Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
         
-  utter_conteudo_extra_arquivos:
+  utter_conteudo_extra_funcao:
       - text : |
-          Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
-          
+          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!	
+
+	        https://www.devmedia.com.br/funcoes-em-python/37340
+	        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
   utter_pesquisar:
     - text : |
