@@ -76,7 +76,6 @@
 * sobre_booleanos
     - utter_sobre_booleanos
 
-<<<<<<< HEAD
 ## sobre_vetores
 * sobre_vetores
     - utter_sobre_vetores
@@ -86,7 +85,7 @@
     - utter_sobre_vetores
 * exemplo_vetores
     - utter_exemplo_vetores
-=======
+
 ## sobre_hello_world
 * sobre_hello_world
     - utter_sobre_hello_world
@@ -96,4 +95,3 @@
     - utter_sobre_importar_bibliotecas
 * exemplo_importar_bibliotecas
     - utter_exemplo_importar_bibliotecas
->>>>>>> cce0ea564b26b54c6129ab9213a6a206b159af6e
