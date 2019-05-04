@@ -46,6 +46,22 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
+## exemplo_vetores
+* exemplo_vetores
+    - utter_exemplo_vetores
+
+## exemplo_vetores2
+* exemplo_vetores
+    - utter_exemplo_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+
+## exemplo_vetores3
+* exemplo_vetores
+    - utter_exemplo_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
+
 ## exemplo_importar_bibliotecas
 * exemplo_importar_bibliotecas
     - utter_exemplo_importar_bibliotecas

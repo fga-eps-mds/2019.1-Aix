@@ -1,11 +1,11 @@
 FROM python:3.6-slim
 
-RUN apt-get update && apt-get install -y git gcc make curl
+RUN apt-get update -qq && apt-get -q -y -o Dpkg::Use-Pty=0 install git gcc make curl
 
 ADD ./bot/requirements.txt /tmp
 
 RUN pip install --upgrade pip && \
-    pip install -r /tmp/requirements.txt && \
+    pip install --quiet --progress-bar off -r /tmp/requirements.txt && \
     python -c "import nltk; nltk.download('stopwords');"
 
 RUN apt-get -yq remove --purge --auto-remove -y ${BUILD_PACKAGES}; \

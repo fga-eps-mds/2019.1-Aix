@@ -41,3 +41,15 @@
     - utter_exercicios_variaveis
 * manter_conversa
 	- utter_manter_conversa
+
+##full_path_vetores
+* sobre_vetores
+    - utter_sobre_vetores
+* exemplo_vetores
+    - utter_exemplo_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
+* manter_conversa
+    - utter_manter_conversa

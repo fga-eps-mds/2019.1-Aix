@@ -2,7 +2,7 @@
 - /start
 - start
 
-## intent:start
+## intent:help
 - /help
 - help
 

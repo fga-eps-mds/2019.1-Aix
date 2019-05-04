@@ -71,7 +71,6 @@
 - for na pratica
 - while na pratica
 
-
 ## intent:exemplo_variaveis
 - exemplo de variaveis
 - exemplo de variavel
@@ -103,6 +102,34 @@
 - double na pratica
 - bool na pratica
 - float na pratica
+
+## intent:exemplo_vetores
+- exemplo de vetor
+- exemplo de vetores
+- exemplo de arrays
+- exemplo array unidimensional
+- exemplos de vetor
+- exemplos de vetores
+- exemplos de arrays
+- exemplos de array unidimensional
+- modelos de vetor
+- modelos de vetores
+- modelos de arrays
+- modelos de array unidimensional
+- sintaxe de vetor
+- sintaxe de vetores
+- sintaxe de arrays
+- sintaxe de array unidimensional
+- exemplifique vetor
+- exemplifique vetores
+- exemplifique arrays
+- exemplifique array unidimensional
+- como executar um vetor
+- como fazer um arrays
+- vetor na pratica
+- vetores na pratica
+- arrays na pratica
+- array unidimensional na pratica
 
 ## intent:exemplo_importar_bibliotecas
 - exemplo importar bibliotecas

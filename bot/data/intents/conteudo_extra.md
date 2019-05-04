@@ -1,4 +1,3 @@
-
 ## intent:conteudo_extra_repeticao
 - extra for
 - extra while
@@ -84,7 +83,6 @@
 - site extra estrutura condicional
 
 ## intent:conteudo_extra_variaveis
-- tem algum link pra entender variáveis?
 - extra variavel
 - extra variaveis
 - extra int
@@ -122,3 +120,53 @@
 - site extra variavel
 - site extra variaveis
 - site extra variável
+
+## intent:conteudo_extra_vetores
+- extra vetor
+- extra vetores
+- extra arrays
+- extra array unidimensional
+- conteúdo adicional vetor
+- conteúdo adicional vetores
+- conteudo adicional arrays
+- conteudo adicional array unidimensional
+- conteudo extra vetor
+- conteúdo extra vetores
+- conteudo extra arrays
+- conteúdo extra array unidimensional
+- mais sobre vetor
+- mais sobre vetores
+- mais sobre arrays
+- mais sobre array unidimensional
+- outra fonte vetor
+- outra fonte vetores
+- outra fonte arrays
+- outra fonte array unidimensional
+- complemente vetor
+- complemente vetores
+- complemente arrays
+- complemente array unidimensional
+- complementar vetor
+- complementar vetores
+- complementar arrays
+- complementar array unidimensional
+- suplementar vetor
+- suplementar vetores
+- suplementar arrays
+- suplementar array unidimensional
+- mais informações sobre vetor
+- mais informações sobre vetores
+- mais informações sobre arrays
+- mais informações sobrearray unidimensional
+- conteúdo mais aprofundado vetor
+- conteúdo mais aprofundado vetores
+- conteúdo mais aprofundado arrays
+- conteúdo mais aprofundado array unidimensional
+- link extra vetor
+- link extra vetores
+- link extra arrays
+- link extra array unidimensional
+- site extra vetor
+- site extra vetores
+- site extra arrays
+- site extra array unidimensional
