@@ -76,6 +76,18 @@
 * sobre_booleanos
     - utter_sobre_booleanos
 
+
 ## sobre_funcao
 * sobre_funcao
     - utter_sobre_funcao
+
+## sobre_hello_world
+* sobre_hello_world
+    - utter_sobre_hello_world
+
+## sobre_importar_bibliotecas
+* sobre_importar_bibliotecas
+    - utter_sobre_importar_bibliotecas
+* exemplo_importar_bibliotecas
+    - utter_exemplo_importar_bibliotecas
+

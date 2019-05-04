@@ -46,6 +46,12 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
+
 ## exemplo_funcao
 * exemplo_funcao
     - utter_exemplo_funcao
+
+## exemplo_importar_bibliotecas
+* exemplo_importar_bibliotecas
+    - utter_exemplo_importar_bibliotecas
+
