@@ -7,6 +7,7 @@ intents:
   - manter_conversa
   - out_of_scope
   - assuntos_inapropriados
+  - sobre_programaçao
 
   - menu_ajuda
   - curiosidades_python
@@ -167,6 +168,23 @@ templates:
 
     - text: |
         Respeito é bom e conserva os dentes!!
+
+  utter_sobre_programaçao:
+    - text: |
+        Então você quer aprender a programar? Sabia que a base para criar várias coisas legais, como jogos e aplicativos é aprender uma linguagem de programação? E uma das linguagens mais fáceis é o Python, e eu posso te ensinar!
+
+        Pode me perguntar sobre o Python que eu te contarei mais coisas importantes a respeito!
+
+    - text: |
+        Béem, então você quer fazer coisas grandes, ser um programador!! O processo não é tão simples, mas eu posso garantir que você é capaz.
+
+        Primeiro, você terá que aprender uma linguagem de programação... E eu estou aqui para te ajudar a explorar a linguagem Python!!! Por que você não me pergunta mais sobre ela?
+
+    - text: |
+        Você quer ser um programador, né... Para isso acontecer, não vamos colocar a carroça na frente dos bois: antes você precisa aprender Python, e eu posso te ajudar com isso!! Que tal me perguntar sobre Python?
+
+    - text: |
+        Sabe aquele ditado que diz "apressado como cru"? Pois é... Para ser um programador, antes é necessário um conhecimento em linguagens de programação! E eu posso te ensinar uma delas: o Python. Tente me perguntar a respeito dessa matéria!
 
   utter_default:
     - text: |
@@ -633,6 +651,8 @@ actions:
   - utter_tudo_bem
   - utter_manter_conversa
   - utter_default
+  - utter_assuntos_inapropriados
+  - utter_sobre_programaçao
 
   - utter_menu_ajuda
   - utter_curiosidades_python
