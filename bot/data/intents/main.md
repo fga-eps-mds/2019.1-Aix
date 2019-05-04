@@ -200,9 +200,373 @@
 - C é uma boa linguagem
 - torce pra qual time
 - joga algum jogo
-- gosta de ouvir música 
+- gosta de ouvir música
 - me indique uma playlist para estudar
 - qual seu signo
 - o que é stackoverflow
 - o que é uma lista
 - oq e uma lista
+
+## intent:assuntos_inapropriados
+- porra
+- caralho
+- merda
+- tomar no cu
+- tnc
+- fdp
+- crlh
+- vsf
+- foda-se
+- carai
+- fuck
+- bosta
+- desgraça
+- rola
+- piroca
+- pinto
+- pau
+- droga
+- disgraca
+- cacete
+- cú
+- buceta
+- pênis
+- penis
+- bilau
+- piru
+- pica
+- fodido
+- caraí
+- carai
+- puta merda
+- puta
+- puta que pariu
+- tomar no cú
+- foda-se
+- foda se
+- filho da puta
+- fuder
+- foder
+- pqp
+- fudido
+- desgraça
+- disgrama
+- dane-se
+- te odeio
+- otaria
+- vagabunda
+- abestado
+- anus
+- ânus
+- babaca
+- babaovo
+- baba-ovo
+- baitola
+- baranga
+- bebum
+- besta
+- bicha
+- bixa
+- boazuda
+- boba
+- boboca
+- bobao
+- bobinha
+- boceta
+- boco
+- bocó
+- boiola
+- boquete
+- bosseta
+- bostana
+- brioco
+- brocha
+- bronha
+- broxa
+- buceta
+- bunda
+- bunduda
+- burra
+- busseta
+- cabeça chata
+- cachorra
+- cadela
+- caga
+- cagado
+- cagao
+- cagão
+- cagona
+- canalha
+- cara de pau
+- caralho
+- caraio
+- carniça
+- casseta
+- cassete
+- charlatanismo
+- charlatao
+- charlatão
+- chatice
+- chato
+- chato demais
+- checheca
+- chereca
+- chifruda
+- chochota
+- chota
+- chupada
+- cocaina
+- cocaína
+- coco
+- cocô
+- corna
+- cornuda
+- cornudo
+- cretina
+- cretino
+- cu
+- cú
+- cu
+- culhao
+- culhão
+- culhões
+- curalho
+- cuzao
+- cuzão
+- cuzuda
+- cuzudo
+- debil
+- debiloide
+- demonio
+- demônio
+- desgracado
+- desgraçada
+- desgracados
+- desgraçados
+- doida
+- egua
+- égua
+- embromation
+- enganação
+- enganosa
+- escrota
+- escroto
+- esporrada
+- esporrado
+- esporro
+- estupida
+- estúpida
+- estupidez
+- estupido
+- estúpido
+- fdp
+- fedida
+- fedido
+- fedor
+- fedorenta
+- feia
+- feio
+- feiosa
+- feioso
+- feioza
+- feiozo
+- fela
+- filho da puta
+- fiofó
+- foda
+- fodao
+- fodão
+- fode
+- fodida
+- fodido
+- fudecao
+- fudeção
+- fudendo
+- fudida
+- fudido
+- fulera
+- fuleragem
+- golpista
+- gonorrea
+- gonorreia
+- idiota
+- idiotas
+- idiotice
+- imbecil
+- inferno
+- iscrota
+- iscroto
+- kenga
+- ladra
+- ladroeira
+- ladrona
+- leprosa
+- leproso
+- macaca
+- machona
+- malandragem
+- malandro
+- masturba
+- meleca
+- merda
+- miserável
+- mocrea
+- mocréa
+- mocreia
+- mocréia
+- nadega
+- nojenta
+- nojento
+- nojo
+- otaria
+- otária
+- otario
+- otário
+- otarios
+- otários
+- paspalha
+- paspalhao
+- paspalhão
+- paspalho
+- páu
+- pau
+- peido
+- penis
+- pênis
+- perereca
+- peru
+- perú
+- pica
+- picao
+- picão
+- picareta
+- picareta!
+- pilantra
+- pilantragem
+- piranha
+- piroca
+- piroco
+- piru
+- porra
+- pqp
+- prostibulo
+- prostíbulo
+- prostituta
+- prostituto
+- punheta
+- punhetao
+- punhetão
+- puta
+- puto
+- puxasaco
+- puxa-saco
+- quenga
+- rabao
+- rabão
+- rabo
+- rabuda
+- rabudao
+- rabudão
+- rabudo
+- rapariga
+- retardada
+- retardado
+- ridicula
+- ridícula
+- ridículo
+- rola
+- rolinha
+- rosca
+- sacana
+- sacanagem
+- saco
+- safada
+- safado
+- safados
+- salafrario
+- salafrário
+- sapatao
+- sapatão
+- sifilis
+- sífilis
+- siririca
+- tarada
+- tarado
+- testuda
+- tezao
+- tezão
+- tezuda
+- tezudo
+- toma no cu
+- tomar no cu
+- troucha
+- trouchas
+- trouxa
+- trouxas
+- troxa
+- vaca
+- vagabunda
+- vagabundo
+- veada
+- veadao
+- veadão
+- veado
+- verme
+- viada
+- viadao
+- viadão
+- viado
+- viados
+- xana
+- xaninha
+- xavasca
+- xerereca
+- xexeca
+- xochota
+- xota
+- xoxota
+
+## intent:sobre_programaçao
+- não sei programar
+- quero aprender programação
+- nao sei programar
+- quero aprender programaçao
+- como programar
+- quero fazer jogos
+- quero criar um jogo
+- quero criar jogos
+- como faço um jogo
+- quero fazer um app
+- quero fazer um aplicativo
+- n sei programar
+- qro aprender programação
+- n sei programar
+- qro aprender programaçao
+- como programar
+- qro fazer jogos
+- qro criar um jogo
+- qro criar jogos
+- como faço um jogo
+- qro fazer um app
+- qro fazer um aplicativo
+- pretendo fazer um aplicativo
+- pretendo fazer um app
+- pretendo fazer um jogo
+- preciso aprender programaçao
+- preciso programar
+- preciso fazer jogos
+- preciso criar um jogo
+- preciso criar jogos
+- preciso fazer um app
+- preciso fazer um aplicativo
+- preciso aprender programação
+- preciso aprender programaçao
+- quero ser igual ao bill gates
+- quero ser igual ao steve jobs
+- quero ser um programador
+- programar
+- programador
+- jogos
+- jogo
+- app
+- aplicativos

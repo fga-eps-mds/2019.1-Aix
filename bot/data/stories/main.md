@@ -55,9 +55,17 @@
 ## curiosidades_python
 * curiosidades_python
     - utter_curiosidades_python
-    
+
 ## curiosidades_python2
 * curiosidades_python
     - utter_curiosidades_python
 * manter_conversa
     - utter_manter_conversa
+
+## assuntos_inapropriados
+* assuntos_inapropriados
+    - utter_assuntos_inapropriados
+
+## sobre_programaçao
+* sobre_programaçao
+    - utter_sobre_programaçao
