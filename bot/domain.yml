@@ -19,6 +19,7 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
+  - sobre_funcao
   - sobre_arquivos
   - sobre_vetores
   - sobre_matrizes
@@ -29,6 +30,7 @@ intents:
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
+  - exemplo_funcao
   - exemplo_arquivos
   - exemplo_vetores
   - exemplo_matrizes
@@ -38,6 +40,7 @@ intents:
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
+  - exercicios_funcao
   - exercicios_arquivos
   - exercicios_vetores
   - exercicios_matrizes
@@ -46,9 +49,11 @@ intents:
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
+  - conteudo_extra_funcao
   - conteudo_extra_arquivos
   - conteudo_extra_vetores
   - conteudo_extra_matrizes
+
 
 
   - action_otrs
@@ -326,6 +331,13 @@ templates:
         Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée. 
 
 
+  utter_sobre_funcao:
+    - text: |
+        Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
+	
+	      Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
+        
+
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
@@ -371,6 +383,19 @@ templates:
         
       image: 
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
+
+
+  utter_exemplo_funcao:
+    - text: |
+        Imagine que eu preciso mostrar a frase "Oi, " e dizer o nome da pessoa: "Oi, Nelson!". É possível fazer uma função que receba como parâmetro o nome e dentro dela, ela 	monte e retorne essa frase!
+	
+        def oi(nome)
+          return "Oi, " + nome;
+
+	      A palavra reservada 'def', é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função 'oi' é o nome único que havia falado, e 'nome' é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
+
+	      Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
+  
 
 
   utter_exemplo_arquivos:
@@ -429,6 +454,7 @@ templates:
         Segundo passo: math.sqrt(9)
         Caso haja alguma dúvida você pode solicitar por uma pesquisa.
         Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
+
 
 
   utter_exercicios_variaveis:
@@ -493,7 +519,17 @@ templates:
 
         Seria intetessante se você abrisse um arquivo no modo 'w', de escrita, e escrevesse seu nome completo nele.
 
+
+  utter_exercicios_funcao:
+    - text: |
+        Ahh, então você quer praticar funçoes? Beleza!
+        Olha, não existem exercícios só de função, então tente fazer esses exercicios aqui usando funções!
+        (Por exemplo, fazendo uma função que soma dois argumentos passados)
+        Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
+        Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+
         E caso queira mais referências boas para estudar mais a fundo, é só me pedir 'links para conteúdo sobre arquivos'!
+
         
   utter_conteudo_extra_variaveis:
     - text: |
@@ -522,6 +558,14 @@ templates:
 
         Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
         
+
+  utter_conteudo_extra_funcao:
+      - text : |
+          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!	
+
+	        https://www.devmedia.com.br/funcoes-em-python/37340
+	        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
+
   utter_conteudo_extra_arquivos:
       - text : |
           Então você quer virar o mago dos arquivos, néee!?
@@ -538,6 +582,7 @@ templates:
         Curso Python #17 - Listas (Parte 1)(https://www.youtube.com/watch?v=N1hTsbW50eM&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=10&t=0s)
         Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
+
 
         Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
 
@@ -579,6 +624,7 @@ actions:
   - utter_sobre_condicionais
   - utter_sobre_arquivos
   - utter_sobre_repeticao
+  - utter_sobre_funcao
   - utter_sobre_vetores
   - utter_sobre_matrizes
   - utter_sobre_hello_world
@@ -588,6 +634,7 @@ actions:
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_funcao
   - utter_exemplo_arquivos
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
@@ -599,6 +646,7 @@ actions:
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_funcao
   - utter_exercicios_arquivos
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
@@ -610,6 +658,7 @@ actions:
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_funcao
   - utter_conteudo_extra_arquivos
   - utter_conteudo_extra_vetores
   - utter_conteudo_extra_matrizes

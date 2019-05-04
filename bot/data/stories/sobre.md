@@ -78,6 +78,10 @@
 
 
 
+## sobre_funcao
+* sobre_funcao
+    - utter_sobre_funcao
+
 ## sobre_arquivos
 * sobre_arquivos
     - utter_sobre_arquivos

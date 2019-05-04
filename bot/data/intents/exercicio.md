@@ -157,6 +157,61 @@
 - atividade while
 - treinamento for
 
+## intent:exercicios_funcao
+- exercício função
+- exercício funcao
+- exercícios funcoes
+- exercícios funcao
+- exercicio função
+- exercicio funções
+- exercicios função
+- exercicios funcao
+- treinar função funcao
+- treinar funcoes funções
+- treinamento funçoes
+- treinamento funções
+- treinamento função
+- treinamento funcao
+- testar função
+- testar funcao
+- testar funções
+- testar funcoes
+- uri online judge função
+- uri online judge funcao
+- uri online judge função
+- uri online judge funções
+- testar conhecimentos função
+- testar conhecimentos funcao
+- testar conhecimentos funções
+- testar conhecimentos funcoes
+- tarefa funçoes
+- tarefa funções
+- tarefa função
+- tarefa funcao
+- dever função
+- dever funcao
+- dever funçoes
+- dever funções
+- práticar função
+- práticar funções
+- praticar funcao
+- praticar função
+- praticar funções
+- praticar funcoes
+- atividade função
+- atividade funcao
+- atividade funções
+- atividade funcoes
+- treinamento funcao
+- treinamento função
+- treinamento funçoes
+- treinar funcao funçoes função
+- testar conhecimento função funcao
+- testar conhecimentos função funcao
+- tarefa funçoes função funções
+- dever função funcao funções funcoes
+- atividade função funcao funções funcoes
+
 
 ## intent:exercicios_arquivos
 - exercício arquivo
@@ -261,3 +316,4 @@
 - atividade matrizes
 - treinamento arrays bidimensionais
 - treinamento array bidimensional
+
