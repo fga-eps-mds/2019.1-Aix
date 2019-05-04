@@ -473,4 +473,4 @@
 - resumo booleanos
 - resume booleanos
 
-## intent:sobre_funcao
+## intent:sobre_arquivos

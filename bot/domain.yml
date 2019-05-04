@@ -19,22 +19,22 @@ intents:
   - sobre_booleanos
   - sobre_condicionais
   - sobre_repeticao
-  - sobre_funcao
+  - sobre_arquivos
 
   - exemplo_variaveis
   - exemplo_condicionais
   - exemplo_repeticao
-  - exemplo_funcao
+  - exemplo_arquivos
 
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
-  - exercicios_funcao
+  - exercicios_arquivos
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
-  - conteudo_extra_funcao
+  - conteudo_extra_arquivos
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -271,12 +271,12 @@ templates:
 
         Quer saber mais sobre eles? Me pergunte por exemplos!
     
-  utter_sobre_funcao:
+  utter_sobre_arquivos:
     - text: |
-        O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
+          O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
-	      Quer um exemplo para entender melhor? Peça um 'exemplo de arquivos'.
-        
+          Quer um exemplo para entender melhor? Peça um 'exemplo de arquivos'.
+          
 
   utter_exemplo_variaveis:
     - text: |
@@ -324,24 +324,24 @@ templates:
       image: 
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
-  utter_exemplo_funcao:
+  utter_exemplo_arquivos:
     - text: |
-        Seu programa gera o horário que ele foi executado para usar em relatórios. Caso grave esse valor numa variável, ela se perderá assim q o programa for fechado! A solução é criar um arquivo de texto no mode de escrita ('w'), gravar aquele horário e salvá-lo!
+          Seu programa gera o horário que ele foi executado para usar em relatórios. Caso grave esse valor numa variável, ela se perderá assim q o programa for fechado! A solução é criar um arquivo de texto no mode de escrita ('w'), gravar aquele horário e salvá-lo!
 
-	      Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um 'exercício de arquivos'!
-        
+          Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um 'exercício de arquivos'!
+          
   utter_exercicios_variaveis:
     - text: |
-        Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
-        Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
-          Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
-          Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
-          Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
-        Não esquece que para acessar o URI você precisa criar uma conta antes!!
-        Se você preferir, também achei esse exercício resolvido no YouTube,
-        Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
+          Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
+          Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
+            Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
+            Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
+            Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+          Não esquece que para acessar o URI você precisa criar uma conta antes!!
+          Se você preferir, também achei esse exercício resolvido no YouTube,
+          Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-        Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+          Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
 
   utter_exercicios_condicionais:
     - text: |
@@ -365,7 +365,7 @@ templates:
 
         Não esqueça que qualquer probléema é só pedir que eu faço pesquisas no StackOverflow para você!
 
-  utter_exercicios_funcao:
+  utter_exercicios_arquivos:
     - text: |
         Ahh, então você quer praticar funçoes Fico tãããoo feliz em saber disso
         
@@ -431,22 +431,22 @@ actions:
   - utter_sobre_booleanos
   - utter_sobre_condicionais
   - utter_sobre_repeticao
-  - utter_sobre_funcao
+  - utter_sobre_arquivos
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
-  - utter_exemplo_funcao
+  - utter_exemplo_arquivos
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
-  - utter_exercicios_funcao
+  - utter_exercicios_arquivos
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
-  - utter_conteudo_extra_funcao
+  - utter_conteudo_extra_arquivos
 
   - action_otrs
   - action_pesquisa_stackoverflow
