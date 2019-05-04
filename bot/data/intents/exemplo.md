@@ -104,4 +104,36 @@
 - bool na pratica
 - float na pratica
 
-## intent:exemplo_arquivos
+## intent:exemplo_funcao
+- exemplos de função
+- exemplos de funções
+- exemplo função
+- exemplo funcao
+- exemplo funções
+- exemplo funcoes
+- exemplo funcoes
+- exemplo bloco de codigo
+- modelo função
+- modelo funcao
+- modelo funções
+- modelos funcoes
+- modelos de bloco de codigo
+- sintaxe de funçoes
+- sintaxe de função
+- sintaxe de funcoes
+- sintaxe de funcao
+- como declarar uma função
+- como declarar funções
+- exemplifique função
+- exemplifique funções
+- exemplifique funcao
+- exemplifique funcoes
+- exemplifique bloco de codigo
+- exemplo de função
+- exemplo de funcao
+- exemplo de funcoes
+- funcao na pratica
+- função na pratica
+- funções na pratica
+- funcoes na pratica
+- bloco de codigo na pratica

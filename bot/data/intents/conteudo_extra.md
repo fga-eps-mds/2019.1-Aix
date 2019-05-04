@@ -124,3 +124,46 @@
 - site extra variável
 
 ## intent:conteudo_extra_funcao
+- tem algum link pra entender função?
+- tem algum link pra entender funçoes?
+- tem algum link pra entender funções?
+- extra funcao
+- extra função
+- extra funçoes
+- extra funcoes
+- extra funções
+- extra funções em python
+- extra função em python
+- conteúdo adicional funcao
+- conteúdo adicional função
+- conteudo adicional funçoes
+- conteudo adicional funcoes
+- conteudo adicional funções
+- conteudo extra funcao
+- conteúdo extra função
+- mais sobre funçoes
+- mais sobre função
+- mais sobre funcoes
+- mais sobre funcao
+- outra fonte funçoes
+- outra fonte funcoes
+- complemente função
+- complemente funções
+- complementar função
+- suplementar funções
+- suplementar função
+- suplementar funcoes
+- suplementar funcao
+- complementar funções
+- mais informações sobre funções
+- mais informações sobre função
+- mais informações sobre funcao
+- conteúdo mais aprofundado funções
+- conteúdo mais aprofundado função
+- conteúdo mais aprofundado funcao
+- link extra funções
+- link extra variaveis
+- link extra função
+- site extra funcao
+- site extra função
+- site extra funções

@@ -474,3 +474,76 @@
 - resume booleanos
 
 ## intent:sobre_funcao
+- reproduzir uma função
+- definiçao função
+- definiçao funcao
+- definiçao funções
+- definiçao funcoes
+- bloco de funções
+- bloco de funcao
+- bloco de código
+- definir funcao
+- definir funções
+- definir função
+- o que são funções
+- o que são funcoes
+- explique função
+- explique funcao
+- explique funçoes
+- explique funções
+- argumento
+- retorno
+- retornar
+- básico sobre função
+- básico sobre funções
+- básico sobre funcoes
+- basico sobre funcao
+- basico sobre bloco de código
+- basico sobre repetição de codigo
+- repetição de codigo
+- fazer uma função
+- fazer uma funcao
+- fazer funções
+- fazer funcoes
+- montar uma função
+- montar uma funcao
+- montar funções
+- montar funcoes
+- o que é função
+- o que é funcao
+- o que são funções
+- o que sao funcoes
+- sobre funções
+- sobre função
+- sobre funcoes
+- sobre funcao
+- sobre repeticao de codigo
+- sobre repetição de código
+- acerca de funcao
+- acerca de função
+- acerca de funções
+- acerca de funções
+- defina função funcao
+- definição função
+- definiçao funcao
+- definiçao funções
+- definiçao funcoes
+- explicação funcao
+- explicaçao função
+- explicaçao funções funcoes
+- descreva função funcao
+- descreva funções funcao
+- descrição funções funcao
+- significado função
+- significado funcao
+- significado funções funcoes
+- conceito função
+- conceito funcao
+- conceito funções funcoes
+- defina função
+- defina funcao
+- defina funções
+- defina funcoes
+- resuma função
+- resumo funcao
+

@@ -41,3 +41,15 @@
     - utter_exercicios_variaveis
 * manter_conversa
 	- utter_manter_conversa
+
+##full_path_funcao
+* sobre_funcao
+    - utter_sobre_funcao
+* exemplo_funcao
+	- utter_exemplo_funcao
+* conteudo_extra_funcao
+    - utter_conteudo_extra_funcao
+* exercicios_funcao
+    - utter_exercicios_funcao
+* manter_conversa
+	- utter_manter_conversa

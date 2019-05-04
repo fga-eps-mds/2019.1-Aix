@@ -372,7 +372,11 @@ templates:
 
   utter_exercicios_funcao:
     - text: |
-        Ahh, então você quer praticar funçoes Fico tãããoo feliz em saber disso
+        Ahh, então você quer praticar funçoes? Beleza!
+        Olha, não existem exercícios só de função, então tente fazer esses exercicios aqui usando funções!
+        (Por exemplo, fazendo uma função que soma dois argumentos passados)
+        Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
+        Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
         
   utter_conteudo_extra_variaveis:
     - text: |
@@ -450,7 +454,7 @@ actions:
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
   - utter_conteudo_extra_funcao
-
+  
   - action_otrs
   - action_pesquisa_stackoverflow
   - utter_pesquisar
