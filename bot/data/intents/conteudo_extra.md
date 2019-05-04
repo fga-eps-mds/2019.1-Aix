@@ -1,4 +1,3 @@
-
 ## intent:conteudo_extra_repeticao
 - extra for
 - extra while
@@ -38,7 +37,6 @@
 - site extra for
 - site extra while
 - site extra estrutura repetição
-
 
 ## intent:conteudo_extra_condicionais
 - extra if
@@ -85,6 +83,20 @@
 
 ## intent:conteudo_extra_variaveis
 - tem algum link pra entender variáveis?
+- mais conteúdo sobre variaveis
+- links externos para variáveis
+- links sobre variaveis
+- mais informações sobre variáveis
+- conteudo aprofundado de variaveis
+- mais sobre variáveis
+- tem links sobre variaveis?
+- me manda algum site falando sobre variáveis
+- sites variaveis
+- link variável
+- conteúdo extra variável
+- conteúdos extra variáveis
+- nao entendi variável, algum site?
+- me dá mais conteúdo sobre variáveis, pf
 - extra variavel
 - extra variaveis
 - extra int
@@ -123,6 +135,7 @@
 - site extra variaveis
 - site extra variável
 
+
 ## intent:conteudo_extra_arquivos
 - tem algum link pra entender arquivos?
 - extra arquivo
@@ -159,3 +172,104 @@
 - site extra arquivo
 - site extra arquivos
 - site extra ler escrever arquivo arquivos
+
+## intent:conteudo_extra_vetores
+- extra vetor
+- extra vetores
+- extra arrays
+- extra array unidimensional
+- conteúdo adicional vetor
+- conteúdo adicional vetores
+- conteudo adicional arrays
+- conteudo adicional array unidimensional
+- conteudo extra vetor
+- conteúdo extra vetores
+- conteudo extra arrays
+- conteúdo extra array unidimensional
+- mais sobre vetor
+- mais sobre vetores
+- mais sobre arrays
+- mais sobre array unidimensional
+- outra fonte vetor
+- outra fonte vetores
+- outra fonte arrays
+- outra fonte array unidimensional
+- complemente vetor
+- complemente vetores
+- complemente arrays
+- complemente array unidimensional
+- complementar vetor
+- complementar vetores
+- complementar arrays
+- complementar array unidimensional
+- suplementar vetor
+- suplementar vetores
+- suplementar arrays
+- suplementar array unidimensional
+- mais informações sobre vetor
+- mais informações sobre vetores
+- mais informações sobre arrays
+- mais informações sobrearray unidimensional
+- conteúdo mais aprofundado vetor
+- conteúdo mais aprofundado vetores
+- conteúdo mais aprofundado arrays
+- conteúdo mais aprofundado array unidimensional
+- link extra vetor
+- link extra vetores
+- link extra arrays
+- link extra array unidimensional
+- site extra vetor
+- site extra vetores
+- site extra arrays
+- site extra array unidimensional
+
+## intent:conteudo_extra_matrizes
+- extra matriz
+- extra matrizes
+- extra arrays bidimensionais
+- extra array bidimensional
+- conteúdo adicional matriz
+- conteúdo adicional matrizes
+- conteudo adicional arrays bidimensionais
+- conteudo adicional array bidimensional
+- conteudo extra matriz
+- conteúdo extra matrizes
+- conteudo extra arrays bidimensionais
+- conteúdo extra array bidimensional
+- mais sobre matriz
+- mais sobre matrizes
+- mais sobre arrays bidimensionais
+- mais sobre array bidimensional
+- outra fonte matriz
+- outra fonte matrizes
+- outra fonte arrays bidimensionais
+- outra fonte array bidimensional
+- complemente matriz
+- complemente matrizes
+- complemente arrays bidimensionais
+- complemente array bidimensional
+- complementar matriz
+- complementar matrizes
+- complementar arrays bidimensionais
+- complementar array bidimensional
+- suplementar matriz
+- suplementar matrizes
+- suplementar arrays bidimensionais
+- suplementar array bidimensional
+- mais informações sobre matriz
+- mais informações sobre matrizes
+- mais informações sobre arrays bidimensionais
+- mais informações sobrearray bidimensional
+- conteúdo mais aprofundado matriz
+- conteúdo mais aprofundado matrizes
+- conteúdo mais aprofundado arrays bidimensionais
+- conteúdo mais aprofundado array bidimensional
+- link extra matriz
+- link extra matrizes
+- link extra arrays bidimensionais
+- link extra array bidimensional
+- site extra matriz
+- site extra matrizes
+- site extra arrays bidimensionais
+- site extra array bidimensional
+
