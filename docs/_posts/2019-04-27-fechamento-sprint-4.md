@@ -28,7 +28,7 @@ category: Sprint
 
 ### Pontos Negativos
 
-- Não vai mais usa Flask, rasa atrapalhou essa parte
+- Não vai mais usar Flask, rasa atrapalhou essa parte
 - Falta de autonomia no bot
 - Passou muito tempo tentando integrar Telegram com Flask, e não usou
 - Docker tem que mudar toda hora
