@@ -326,10 +326,16 @@ templates:
 
   utter_exemplo_arquivos:
     - text: |
-          Seu programa gera o horário que ele foi executado para usar em relatórios. Caso grave esse valor numa variável, ela se perderá assim q o programa for fechado! A solução é criar um arquivo de texto no mode de escrita ('w'), gravar aquele horário e salvá-lo!
+         arquivo = open('bodes-mais-legais.txt', 'w')
+          texto = "Aix Chatbot"
+          arquivo.write(texto)
+          arquivo.close()
+
+          Nesse exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, e o objeto gerado por essa função é atribuído a variável 'arquivo'.
+          A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto, por fim, o arquivo é fechado com a função 'close'!!
 
           Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um 'exercício de arquivos'!
-          
+
   utter_exercicios_variaveis:
     - text: |
           Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
@@ -367,7 +373,11 @@ templates:
 
   utter_exercicios_arquivos:
     - text: |
-        Ahh, então você quer praticar funçoes Fico tãããoo feliz em saber disso
+        Como não encontrei exercícios no URI para resolução deste tipo de exercício, vamos fazer um aqui mesmo!
+
+        Eu quero que você abra um arquivo no modo 'w', de escrita, e escreva seu nome completo nele.
+
+        E caso queira mais referências boas para estudar mais a fundo, é só me pedir 'links para conteúdo sobre arquivos'!
         
   utter_conteudo_extra_variaveis:
     - text: |

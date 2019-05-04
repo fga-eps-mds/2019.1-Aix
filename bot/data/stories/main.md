@@ -61,4 +61,3 @@
     - utter_curiosidades_python
 * manter_conversa
     - utter_manter_conversa
-

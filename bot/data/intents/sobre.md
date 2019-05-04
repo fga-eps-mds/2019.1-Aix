@@ -474,3 +474,39 @@
 - resume booleanos
 
 ## intent:sobre_arquivos
+- básico sobre arquivo
+- básico sobre arquivos
+- básico sobre ler arquivos
+- basico sobre esquever arquivo
+- basico sobre escrever em arquivos
+- basico sobre ler arquvios
+- montar um arquvio
+- montar um arquvios
+- o que é arquivo
+- o que são arquivos
+- sobre arquivos
+- sobre arquivo
+- acerca arquivo
+- acerca arquivos
+- defina arquivo
+- defina arquivos
+- definição arquivos
+- definiçao arquivo
+- explique arquivo
+- explique arquivos
+- explique como ler arquivos
+- explicação arquivos
+- explicaçao arquivo
+- descreva arquivos
+- descrição arquivo
+- significado arquivo
+- conceito arquivo
+- resuma arquivo
+- resuma arquivos
+- resume arquivos
+- resume arquivo
+- descreva arquivos
+- descrição arquivos
+- significado arquivo
+- significado arquivos
+- conceito arquivos
