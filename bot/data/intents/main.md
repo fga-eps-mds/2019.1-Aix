@@ -525,3 +525,48 @@
 - xochota
 - xota
 - xoxota
+
+## intent:sobre_programaçao
+- não sei programar
+- quero aprender programação
+- nao sei programar
+- quero aprender programaçao
+- como programar
+- quero fazer jogos
+- quero criar um jogo
+- quero criar jogos
+- como faço um jogo
+- quero fazer um app
+- quero fazer um aplicativo
+- n sei programar
+- qro aprender programação
+- n sei programar
+- qro aprender programaçao
+- como programar
+- qro fazer jogos
+- qro criar um jogo
+- qro criar jogos
+- como faço um jogo
+- qro fazer um app
+- qro fazer um aplicativo
+- pretendo fazer um aplicativo
+- pretendo fazer um app
+- pretendo fazer um jogo
+- preciso aprender programaçao
+- preciso programar
+- preciso fazer jogos
+- preciso criar um jogo
+- preciso criar jogos
+- preciso fazer um app
+- preciso fazer um aplicativo
+- preciso aprender programação
+- preciso aprender programaçao
+- quero ser igual ao bill gates
+- quero ser igual ao steve jobs
+- quero ser um programador
+- programar
+- programador
+- jogos
+- jogo
+- app
+- aplicativos
