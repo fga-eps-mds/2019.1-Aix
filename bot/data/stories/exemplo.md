@@ -46,6 +46,6 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
-## exemplo_funcao
-* exemplo_funcao
-    - utter_exemplo_funcao
+## exemplo_arquivos
+* exemplo_arquivos
+    - utter_exemplo_arquivos

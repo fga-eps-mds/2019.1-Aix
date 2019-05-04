@@ -105,3 +105,17 @@
 - float na pratica
 
 ## intent:exemplo_arquivos
+- exemplo de arquivos
+- exemplo de arquivo
+- exemplos escrever arquivos
+- exemplos arquivos
+- exemplos de arquivos
+- modelos de como escrever em arquivos
+- modelos de como escrever em arquivo
+- sintaxe de arquivo
+- sintaxe de arquivos
+- como escrever em arquivos
+- como escrever em arquivo
+- exemplifique arquivo
+- exemplifique arquivos
+- arquivos na pratica
