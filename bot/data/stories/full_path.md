@@ -42,6 +42,19 @@
 * manter_conversa
 	- utter_manter_conversa
 
+
+##full_path_arquivos
+* sobre_arquivos
+    - utter_sobre_arquivos
+* exemplo_arquivos
+	- utter_exemplo_arquivos
+* conteudo_extra_arquivos
+    - utter_conteudo_extra_arquivos
+* exercicios_arquivos
+    - utter_exercicios_arquivos
+* manter_arquivos
+	- utter_manter_arquivos
+
 ##full_path_vetores
 * sobre_vetores
     - utter_sobre_vetores
@@ -65,3 +78,4 @@
     - utter_exercicios_matrizes
 * manter_conversa
     - utter_manter_conversa
+

@@ -46,6 +46,10 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
+## exemplo_arquivos
+* exemplo_arquivos
+    - utter_exemplo_arquivos
+
 ## exemplo_vetores
 * exemplo_vetores
     - utter_exemplo_vetores

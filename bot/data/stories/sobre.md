@@ -76,6 +76,12 @@
 * sobre_booleanos
     - utter_sobre_booleanos
 
+
+
+## sobre_arquivos
+* sobre_arquivos
+    - utter_sobre_arquivos
+
 ## sobre_vetores
 * sobre_vetores
     - utter_sobre_vetores

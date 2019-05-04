@@ -28,6 +28,10 @@
 * conteudo_extra_variaveis
     - utter_conteudo_extra_variaveis
 
+## exercicios_arquivos
+* exercicios_arquivos
+    - utter_exercicios_arquivos
+
 ## exercicios_vetores
 * exercicios_vetores
     - utter_exercicios_vetores

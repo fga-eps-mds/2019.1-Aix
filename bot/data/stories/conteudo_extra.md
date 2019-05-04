@@ -28,6 +28,10 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
+## conteudo_extra_arquivos
+* conteudo_extra_arquivos
+    - utter_conteudo_extra_arquivos
+
 ## conteudo_extra_vetores
 * conteudo_extra_vetores
     - utter_conteudo_extra_vetores
@@ -47,3 +51,4 @@
     - utter_conteudo_extra_matrizes
 * exercicios_matrizes
     - utter_exercicios_matrizes
+   
