@@ -150,3 +150,37 @@
 - treinamento for
 
 ## intent:exercicios_arquivos
+- exercício arquivo
+- exercício arquivos
+- exercícios arquivo
+- exercícios arquivo
+- exercicio arquivos
+- exercicio arquivo
+- exercicios arquivos
+- exercicios arquivo
+- treinar arquivo
+- treinar arquivos
+- treinamento arquivo
+- treinamento arquivos
+- testar conhecimento arquivo
+- testar conhecimento arquivos
+- uri online judge arquivo
+- uri online judge arquivos
+- tarefa arquivo
+- tarefa arquivos
+- dever arquivo
+- dever arquivos
+- execução arquivo
+- execução arquivos
+- prática arquivo
+- prática arquivos
+- pratica arquivo
+- pratica arquivos
+- atividade arquivo
+- atividade arquivos
+- tarefa arquivo arquivos
+- dever arquivo arquivos
+- sobre como escrever em arquivo
+- sobre como escrever em arquivos
+- sobre como ler arquivos
+- sobre como ler arquivo

@@ -124,3 +124,38 @@
 - site extra variável
 
 ## intent:conteudo_extra_arquivos
+- tem algum link pra entender arquivos?
+- extra arquivo
+- extra arquivos
+- extra escrever arquivos
+- extra ler arquivos
+- conteúdo adicional arquivo
+- conteúdo adicional arquivos
+- conteudo adicional ler arquivos
+- conteudo adicional ler arquivo
+- conteudo adicional escrever arquivo
+- conteudo extra arquivo
+- conteúdo extra arquivos
+- mais sobre arquivos
+- mais sobre arquivo
+- outra fonte arquivo
+- outra fonte arquivos
+- complemente arquivo
+- complemente arquivos
+- complementar ler e escrever arquivo arquivos
+- suplementar arquivo
+- suplementar arquivos
+- suplementar ler arquivo arquivos
+- suplementar escrever arquivo arquivos
+- mais informações sobre arquivos
+- mais informações sobre arquivo
+- mais informações sobre ler escrever arquivo
+- conteúdo mais aprofundado arquivo
+- conteúdo mais aprofundado arquivos
+- conteúdo mais aprofundado ler escrever arquivo arquivos
+- link extra arquivo
+- link extra arquivos
+- link extra ler escrever arquivo arquivos
+- site extra arquivo
+- site extra arquivos
+- site extra ler escrever arquivo arquivos

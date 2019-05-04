@@ -375,7 +375,7 @@ templates:
     - text: |
         Como não encontrei exercícios no URI para resolução deste tipo de exercício, vamos fazer um aqui mesmo!
 
-        Eu quero que você abra um arquivo no modo 'w', de escrita, e escreva seu nome completo nele.
+        Seria intetessante se você abrisse um arquivo no modo 'w', de escrita, e escrevesse seu nome completo nele.
 
         E caso queira mais referências boas para estudar mais a fundo, é só me pedir 'links para conteúdo sobre arquivos'!
         
