@@ -283,6 +283,7 @@
 - resume variaveis
 
 ## intent:sobre_inteiros
+- o que são pontos inteiros
 - inteiros
 - int
 - inteiro
@@ -474,6 +475,41 @@
 - resumo booleanos
 - resume booleanos
 
+## intent:sobre_vetores
+- o que são vetores
+- vetor
+- arrays
+- array unidimensional
+- vetores
+- o que é um vetor
+- o que são vetores
+- o que sao arrays
+- vetores básico
+- como uso array unidimensional
+- como uso arrays
+- definiçao vetores
+- definir vetor
+- explique vetores
+- básico sobre arrays
+- basico sobre array unidimensional
+- sobre array unidimensional
+- acerca de vetor
+- defina vetores
+- definição arrays
+- definiçao vetor
+- definir array unidimensional
+- explique vetor
+- explicação vetores
+- explicaçao arrays
+- descreva vetor
+- descrição vetores
+- significado array unidimensional
+- conceito vetor
+- defina array unidimensional
+- resuma arrays
+- resumo vetores
+- resume vetor
+
 ## intent:sobre_matrizes
 - o que são matrizes
 - matriz
@@ -508,3 +544,24 @@
 - resuma arrays bidimensionais
 - resumo matrizes
 - resume matriz
+
+## intent:sobre_hello_world
+- primeiro programa em python
+- como fazer um hello world
+- printar texto
+- mostrar texto
+- fazer ola mundo
+- como mostrar texto no terminal
+- fazer print
+- printar no terminal
+- imprimir
+
+## intent:sobre_importar_bibliotecas
+- como importar bibliotecas
+- como utilizar bibliotecas
+- import
+- library
+- importar lib
+- adicionar funções
+- funcoes extras
+- funcao nao encontrada

@@ -48,7 +48,6 @@
 - atividade condicional
 - treinamento condicional
 
-
 ## intent:exercicios_variaveis
 - exercício variáveis
 - exercício variável
@@ -157,6 +156,40 @@
 - pratica for
 - atividade while
 - treinamento for
+
+## intent:exercicios_vetores
+- exercício vetor
+- exercício vetores
+- exercícios arrays
+- exercícios array unidimensional
+- exercicio vetor
+- exercicio vetores
+- exercicios arrays
+- exercicios array unidimensional
+- treinar vetor
+- treinar vetores
+- treinamento arrays
+- treinamento array unidimensional
+- testar conhecimento vetor
+- testar conhecimento vetores
+- uri online judge arrays
+- uri online judge array unidimensional
+- testar conhecimentos vetor
+- testar conhecimentos vetores
+- tarefa arrays
+- tarefa array unidimensional
+- dever vetor
+- dever vetores
+- execução arrays
+- execução array unidimensional
+- prática vetor
+- prática vetores
+- pratica arrays
+- pratica array unidimensional
+- atividade vetor
+- atividade vetores
+- treinamento arrays
+- treinamento array unidimensional
 
 ## intent:exercicios_matrizes
 - exercício matriz

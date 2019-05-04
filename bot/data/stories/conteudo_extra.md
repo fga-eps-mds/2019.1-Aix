@@ -28,6 +28,16 @@
 * exercicios_variaveis
     - utter_exercicios_variaveis
 
+## conteudo_extra_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+
+## conteudo_extra_vetores2
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
+
 ## conteudo_extra_matrizes
 * conteudo_extra_matrizes
     - utter_conteudo_extra_matrizes
