@@ -6,6 +6,7 @@ intents:
   - tudo_bem
   - manter_conversa
   - out_of_scope
+  - assuntos_inapropriados
 
   - menu_ajuda
   - curiosidades_python
@@ -108,7 +109,7 @@ templates:
             Quero saber mais sobre [Nome do conteúdo]
             Quero um exemplo sobre [Nome do conteúdo]
           OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provavel que eu entenda!
-          
+
         *Para pesquisar no StackOverflow voce deve digitar:
           pesquise sobre [conteúdo que você quer saber]
 
@@ -144,6 +145,28 @@ templates:
 
     - text: |
         Em que mais eu posso ser útil? Bée
+
+  utter_assuntos_inapropriados:
+    - text: |
+        Não fale assim comigo!! Eu só quero te ajudar :(
+
+    - text: |
+        Você está me deixando béem triste... Não me trate mal, por favor.
+
+    - text: |
+        Por que você está me tratando desse jeito? Achei que éramos camaradas :(
+
+    - text: |
+        Quanta beésteira!! Não fale assim comigo!
+
+    - text: |
+        Se comporte, para que eu possa te ajudar!
+
+    - text: |
+        Ora, quanta audácia! Não me faça lavar sua boca com sabão! Ops... seus dedos!
+
+    - text: |
+        Respeito é bom e conserva os dentes!!
 
   utter_default:
     - text: |
@@ -286,21 +309,21 @@ templates:
     - text: |
         Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
         Quer saber mais sobre eles? Me pergunte por exemplos de estruturas de repetição!
-        
 
-    
+
+
   utter_sobre_arquivos:
     - text: |
           O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
           Quer um exemplo para entender melhor? Peça um 'exemplo de arquivos'.
-          
-        
-  
+
+
+
   utter_sobre_vetores:
     - text: |
-        Um vetor é um conjunto de elementos consecutivos que podem ser acessados por um mesmo nome. Isto ééé várias regiões na memória em sequência!     
-        
+        Um vetor é um conjunto de elementos consecutivos que podem ser acessados por um mesmo nome. Isto ééé várias regiões na memória em sequência!
+
         Um vetor também pode ser chamado de Array Unidimensional.
 
         Que tal ver na prática? Me peça um exemplo de vetor!
@@ -308,7 +331,7 @@ templates:
   utter_sobre_matrizes:
     - text: |
         Uma matriz pode ser representada como um vetor de vetores, ou seja, ela também é uma coleção de variáveis acessíveis com um único nome e armazenados contiguamente na memória.
-          
+
         Um matriz também pode ser chamado de Array Bidimensional.
 
         Que tal um exemplo de matriz? Só me pedir por exemplos de matrizes que te mostro!
@@ -328,15 +351,15 @@ templates:
         Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
-        Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée. 
+        Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée.
 
 
   utter_sobre_funcao:
     - text: |
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
-	
+
 	      Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
-        
+
 
   utter_exemplo_variaveis:
     - text: |
@@ -345,7 +368,7 @@ templates:
          username = "username@email.com"
          senha = "digitos1234"
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
-        
+
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
 
       image: |
@@ -369,33 +392,33 @@ templates:
   utter_exemplo_condicionais:
     - text: |
         Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")
-        
+
         Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
 
-      image: 
+      image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
 
   utter_exemplo_repeticao:
     - text: |
         Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-      
+
         Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
-        
-      image: 
+
+      image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
 
   utter_exemplo_funcao:
     - text: |
         Imagine que eu preciso mostrar a frase "Oi, " e dizer o nome da pessoa: "Oi, Nelson!". É possível fazer uma função que receba como parâmetro o nome e dentro dela, ela 	monte e retorne essa frase!
-	
+
         def oi(nome)
           return "Oi, " + nome;
 
 	      A palavra reservada 'def', é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função 'oi' é o nome único que havia falado, e 'nome' é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
 	      Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
-  
+
 
 
   utter_exemplo_arquivos:
@@ -418,27 +441,27 @@ templates:
           E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
             print(fenos_por_dia[0])
             # 4
-            
+
           Lembrando que as posições começam a ser contadas a partir 0.
 
           Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
       image: |
-          https://i.imgur.com/soiRg1i.png         
+          https://i.imgur.com/soiRg1i.png
 
   utter_exemplo_matrizes:
     - text: |
         Você quer ver uma matriz na prática? Vou te dar um exemplo!
-        
+
         Digamos que eu queira marcar quantas dúvidas eu tirei em um mês, para isso poderia fazer uma matriz de dúvidas por dia, separando por semanas para ficar mais fácil de ler.
           duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
                     [0, 0, 2, 4, 3, 2, 2],
                     [1, 2, 4, 3, 7, 1, 1],
                     [0, 5, 6, 7, 7, 5, 0] ]
-    
-        Sendo as linhas referentes as semanas e as colunas os dias! E para acessar as dúvidas de segunda da primeira semana seria: 
+
+        Sendo as linhas referentes as semanas e as colunas os dias! E para acessar as dúvidas de segunda da primeira semana seria:
           print(duvidas_por_mes[0][1])
           # 4
-        
+
         Lembrando que as posições começam a ser contadas a partir 0.
 
         Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
@@ -494,7 +517,7 @@ templates:
 
   utter_exercicios_vetores:
     - text: |
-        Então você se sente pronto para praticar?! Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, mas tome cuidado que é mais difícil que comer capim!    
+        Então você se sente pronto para praticar?! Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, mas tome cuidado que é mais difícil que comer capim!
           Substituição em Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1172)
           Preenchimento de Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1173)
           Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
@@ -505,12 +528,12 @@ templates:
   utter_exercicios_matrizes:
     - text: |
         Quer praticar seus conhecimentos sobre matriz..? Tenho uns exercícios béem legais para você!!
-        
+
         Exercício Python #086 - Matriz em Python(https://www.youtube.com/watch?v=EGmlFdwD4C4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=20&t=0s)
         Exercício Python #087 - Mais sobre Matriz em Python(https://www.youtube.com/watch?v=QhS829x6up4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=21&t=0s)
         Linha na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1181)
         Coluna na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1182)
-        
+
         Deu um erro aí? Só me falar que quer pesquisar que te ajudo nisso!
 
   utter_exercicios_arquivos:
@@ -530,7 +553,7 @@ templates:
 
         E caso queira mais referências boas para estudar mais a fundo, é só me pedir 'links para conteúdo sobre arquivos'!
 
-        
+
   utter_conteudo_extra_variaveis:
     - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -557,11 +580,11 @@ templates:
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
         Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
-        
+
 
   utter_conteudo_extra_funcao:
       - text : |
-          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!	
+          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
 
 	        https://www.devmedia.com.br/funcoes-em-python/37340
 	        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
@@ -573,12 +596,12 @@ templates:
           https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
           https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
           http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
-          
+
 
   utter_conteudo_extra_vetores:
     - text: |
-        Não entendeu muito béem? Pesquisei um links muito legais para você! Tem uma vídeo aula e duas explicações escritas.       
-          
+        Não entendeu muito béem? Pesquisei um links muito legais para você! Tem uma vídeo aula e duas explicações escritas.
+
         Curso Python #17 - Listas (Parte 1)(https://www.youtube.com/watch?v=N1hTsbW50eM&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=10&t=0s)
         Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
@@ -589,14 +612,14 @@ templates:
   utter_conteudo_extra_matrizes:
     - text: |
         Olha esse links sobre matrizes que eu achei! Neles explica muito béem!!! Tem três aulas em texto para você e uma vídeo aula, se preferir.
-        
+
         Curso Python #17 - Listas (Parte 2)(https://www.youtube.com/watch?v=YV_JQmZNFsk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=17&t=0s)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
         Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
-  
+
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
@@ -640,7 +663,7 @@ actions:
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
   - utter_exemplo_importar_bibliotecas
-  
+
 
 
   - utter_exercicios_variaveis
