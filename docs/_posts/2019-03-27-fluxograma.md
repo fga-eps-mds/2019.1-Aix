@@ -20,3 +20,6 @@ category: Produto
 
 ![fluxograma_Versao_1.1]({{ site.url }}/2019.1-Aix/assets/img/fluxograma_Versao_1.1.png)
 
+## Versão 1.2
+
+![fluxograma_Versao_1.2]({{ site.url }}/2019.1-Aix/assets/img/fluxograma_Versao_1.2.png)

@@ -104,6 +104,7 @@
 - bool na pratica
 - float na pratica
 
+
 ## intent:exemplo_arquivos
 - exemplo de arquivos
 - exemplo de arquivo
@@ -119,3 +120,13 @@
 - exemplifique arquivo
 - exemplifique arquivos
 - arquivos na pratica
+
+## intent:exemplo_importar_bibliotecas
+- exemplo importar bibliotecas
+- importando uma library
+- exemplo importar lib
+- exemplo de como importar bibliotecas
+- exemplifique bibliotecas
+- exemplifique library
+- exemplifique lib
+
