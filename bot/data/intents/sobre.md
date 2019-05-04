@@ -443,6 +443,7 @@
 - booleano
 - booleana
 - verdadeira e falsa
+- verdadeira ou falsa
 - booleanos
 - números booleanos
 - numeros booleanos
@@ -508,6 +509,41 @@
 - resuma arrays
 - resumo vetores
 - resume vetor
+
+## intent:sobre_matrizes
+- o que são matrizes
+- matriz
+- arrays bidimensionais
+- array bidimensional
+- matrizes
+- o que é um matriz
+- o que são matrizes
+- o que sao arrays bidimensionais
+- matrizes básico
+- como uso array bidimensional
+- como uso arrays bidimensionais
+- definiçao matrizes
+- definir matriz
+- explique matrizes
+- básico sobre arrays bidimensionais
+- basico sobre array bidimensional
+- sobre array bidimensional
+- acerca de matriz
+- defina matrizes
+- definição arrays bidimensionais
+- definiçao matriz
+- definir array bidimensional
+- explique matriz
+- explicação matrizes
+- explicaçao arrays bidimensionais
+- descreva matriz
+- descrição matrizes
+- significado array bidimensional
+- conceito matriz
+- defina array bidimensional
+- resuma arrays bidimensionais
+- resumo matrizes
+- resume matriz
 
 ## intent:sobre_hello_world
 - primeiro programa em python

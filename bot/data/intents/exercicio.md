@@ -48,7 +48,6 @@
 - atividade condicional
 - treinamento condicional
 
-
 ## intent:exercicios_variaveis
 - exercício variáveis
 - exercício variável
@@ -191,3 +190,37 @@
 - atividade vetores
 - treinamento arrays
 - treinamento array unidimensional
+
+## intent:exercicios_matrizes
+- exercício matriz
+- exercício matrizes
+- exercícios arrays bidimensionais
+- exercícios array bidimensional
+- exercicio matriz
+- exercicio matrizes
+- exercicios arrays bidimensionais
+- exercicios array bidimensional
+- treinar matriz
+- treinar matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional
+- testar conhecimento matriz
+- testar conhecimento matrizes
+- uri online judge arrays bidimensionais
+- uri online judge array bidimensional
+- testar conhecimentos matriz
+- testar conhecimentos matrizes
+- tarefa arrays bidimensionais
+- tarefa array bidimensional
+- dever matriz
+- dever matrizes
+- execução arrays bidimensionais
+- execução array bidimensional
+- prática matriz
+- prática matrizes
+- pratica arrays bidimensionais
+- pratica array bidimensional
+- atividade matriz
+- atividade matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional

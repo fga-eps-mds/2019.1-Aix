@@ -38,7 +38,6 @@
 - site extra while
 - site extra estrutura repetição
 
-
 ## intent:conteudo_extra_condicionais
 - extra if
 - extra else
@@ -83,6 +82,21 @@
 - site extra estrutura condicional
 
 ## intent:conteudo_extra_variaveis
+- tem algum link pra entender variáveis?
+- mais conteúdo sobre variaveis
+- links externos para variáveis
+- links sobre variaveis
+- mais informações sobre variáveis
+- conteudo aprofundado de variaveis
+- mais sobre variáveis
+- tem links sobre variaveis?
+- me manda algum site falando sobre variáveis
+- sites variaveis
+- link variável
+- conteúdo extra variável
+- conteúdos extra variáveis
+- nao entendi variável, algum site?
+- me dá mais conteúdo sobre variáveis, pf
 - extra variavel
 - extra variaveis
 - extra int
@@ -170,3 +184,53 @@
 - site extra vetores
 - site extra arrays
 - site extra array unidimensional
+
+## intent:conteudo_extra_matrizes
+- extra matriz
+- extra matrizes
+- extra arrays bidimensionais
+- extra array bidimensional
+- conteúdo adicional matriz
+- conteúdo adicional matrizes
+- conteudo adicional arrays bidimensionais
+- conteudo adicional array bidimensional
+- conteudo extra matriz
+- conteúdo extra matrizes
+- conteudo extra arrays bidimensionais
+- conteúdo extra array bidimensional
+- mais sobre matriz
+- mais sobre matrizes
+- mais sobre arrays bidimensionais
+- mais sobre array bidimensional
+- outra fonte matriz
+- outra fonte matrizes
+- outra fonte arrays bidimensionais
+- outra fonte array bidimensional
+- complemente matriz
+- complemente matrizes
+- complemente arrays bidimensionais
+- complemente array bidimensional
+- complementar matriz
+- complementar matrizes
+- complementar arrays bidimensionais
+- complementar array bidimensional
+- suplementar matriz
+- suplementar matrizes
+- suplementar arrays bidimensionais
+- suplementar array bidimensional
+- mais informações sobre matriz
+- mais informações sobre matrizes
+- mais informações sobre arrays bidimensionais
+- mais informações sobrearray bidimensional
+- conteúdo mais aprofundado matriz
+- conteúdo mais aprofundado matrizes
+- conteúdo mais aprofundado arrays bidimensionais
+- conteúdo mais aprofundado array bidimensional
+- link extra matriz
+- link extra matrizes
+- link extra arrays bidimensionais
+- link extra array bidimensional
+- site extra matriz
+- site extra matrizes
+- site extra arrays bidimensionais
+- site extra array bidimensional

@@ -20,6 +20,7 @@ intents:
   - sobre_condicionais
   - sobre_repeticao
   - sobre_vetores
+  - sobre_matrizes
   - sobre_hello_world
   - sobre_importar_bibliotecas
 
@@ -27,17 +28,20 @@ intents:
   - exemplo_condicionais
   - exemplo_repeticao
   - exemplo_vetores
+  - exemplo_matrizes
   - exemplo_importar_bibliotecas
 
   - exercicios_variaveis
   - exercicios_condicionais
   - exercicios_repeticao
   - exercicios_vetores
+  - exercicios_matrizes
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
   - conteudo_extra_repeticao
   - conteudo_extra_vetores
+  - conteudo_extra_matrizes
 
   - action_otrs
   - pesquisa_stackoverflow
@@ -279,6 +283,14 @@ templates:
 
         Que tal ver na prática? Me peça um exemplo de vetor!
 
+  utter_sobre_matrizes:
+    - text: |
+        Uma matriz pode ser representada como um vetor de vetores, ou seja, ela também é uma coleção de variáveis acessíveis com um único nome e armazenados contiguamente na memória.
+          
+        Um matriz também pode ser chamado de Array Bidimensional.
+
+        Que tal um exemplo de matriz? Só me pedir por exemplos de matrizes que te mostro!
+
   utter_sobre_hello_world:
     - text : |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
@@ -357,6 +369,27 @@ templates:
       image: |
           https://i.imgur.com/soiRg1i.png         
 
+  utter_exemplo_matrizes:
+    - text: |
+        Você quer ver uma matriz na prática? Vou te dar um exemplo!
+        
+        Digamos que eu queira marcar quantas dúvidas eu tirei em um mês, para isso poderia fazer uma matriz de dúvidas por dia, separando por semanas para ficar mais fácil de ler.
+          duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
+                    [0, 0, 2, 4, 3, 2, 2],
+                    [1, 2, 4, 3, 7, 1, 1],
+                    [0, 5, 6, 7, 7, 5, 0] ]
+    
+        Sendo as linhas referentes as semanas e as colunas os dias! E para acessar as dúvidas de segunda da primeira semana seria: 
+          print(duvidas_por_mes[0][1])
+          # 4
+        
+        Lembrando que as posições começam a ser contadas a partir 0.
+
+        Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
+
+      image: |
+        https://i.imgur.com/7c8UasQ.png
+
   utter_exemplo_importar_bibliotecas:
     - text : |
         Vamos importar a biblioteca math, útil para funções matemáticas. Bée
@@ -399,7 +432,7 @@ templates:
           Maior e Posição - https://www.urionlinejudge.com.br/judge/pt/problems/view/1080
           Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
 
-        Não esqueça que qualquer probléema é só pedir que eu faço pesquisas no StackOverflow para você!
+        Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
 
   utter_exercicios_vetores:
     - text: |
@@ -410,6 +443,17 @@ templates:
           Exercício Python #080 - Lista ordenada sem repetições(https://www.youtube.com/watch?v=QDpwjBYRcVE&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=13&t=0s)
 
         E qualquer erro, só me dizer que quer fazer uma pesquisa que te ajudo a fazê-la!
+
+  utter_exercicios_matrizes:
+    - text: |
+        Quer praticar seus conhecimentos sobre matriz..? Tenho uns exercícios béem legais para você!!
+        
+        Exercício Python #086 - Matriz em Python(https://www.youtube.com/watch?v=EGmlFdwD4C4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=20&t=0s)
+        Exercício Python #087 - Mais sobre Matriz em Python(https://www.youtube.com/watch?v=QhS829x6up4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=21&t=0s)
+        Linha na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1181)
+        Coluna na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1182)
+        
+        Deu um erro aí? Só me falar que quer pesquisar que te ajudo nisso!
 
   utter_conteudo_extra_variaveis:
     - text: |
@@ -448,6 +492,17 @@ templates:
 
         Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
 
+  utter_conteudo_extra_matrizes:
+    - text: |
+        Olha esse links sobre matrizes que eu achei! Neles explica muito béem!!! Tem três aulas em texto para você e uma vídeo aula, se preferir.
+        
+        Curso Python #17 - Listas (Parte 2)(https://www.youtube.com/watch?v=YV_JQmZNFsk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=17&t=0s)
+        Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
+        Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
+        Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
+
+        Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
+  
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
@@ -475,6 +530,7 @@ actions:
   - utter_sobre_condicionais
   - utter_sobre_repeticao
   - utter_sobre_vetores
+  - utter_sobre_matrizes
   - utter_sobre_hello_world
   - utter_sobre_importar_bibliotecas
 
@@ -482,18 +538,20 @@ actions:
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
   - utter_exemplo_vetores
+  - utter_exemplo_matrizes
   - utter_exemplo_importar_bibliotecas
   
-
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
   - utter_exercicios_vetores
+  - utter_exercicios_matrizes
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
   - utter_conteudo_extra_vetores
+  - utter_conteudo_extra_matrizes
 
   - action_otrs
   - action_pesquisa_stackoverflow

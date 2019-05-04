@@ -53,3 +53,15 @@
     - utter_exercicios_vetores
 * manter_conversa
     - utter_manter_conversa
+
+##full_path_matrizes
+* sobre_matrizes
+    - utter_sobre_matrizes
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+* conteudo_extra_matrizes
+    - utter_conteudo_extra_matrizes
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+* manter_conversa
+    - utter_manter_conversa
