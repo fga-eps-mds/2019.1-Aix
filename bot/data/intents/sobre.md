@@ -283,6 +283,7 @@
 - resume variaveis
 
 ## intent:sobre_inteiros
+- o que são pontos inteiros
 - inteiros
 - int
 - inteiro
@@ -441,6 +442,7 @@
 - variável booleana
 - booleano
 - booleana
+- verdadeira e falsa
 - verdadeira ou falsa
 - booleanos
 - números booleanos
@@ -472,6 +474,7 @@
 - resuma booleanos
 - resumo booleanos
 - resume booleanos
+
 
 ## intent:sobre_funcao
 - reproduzir uma função
@@ -547,6 +550,115 @@
 - resuma função
 - resumo funcao
 
+
+## intent:sobre_arquivos
+- básico sobre arquivo
+- básico sobre arquivos
+- básico sobre ler arquivos
+- basico sobre esquever arquivo
+- basico sobre escrever em arquivos
+- basico sobre ler arquvios
+- montar um arquvio
+- montar um arquvios
+- o que é arquivo
+- o que são arquivos
+- sobre arquivos
+- sobre arquivo
+- acerca arquivo
+- acerca arquivos
+- defina arquivo
+- defina arquivos
+- definição arquivos
+- definiçao arquivo
+- explique arquivo
+- explique arquivos
+- explique como ler arquivos
+- explicação arquivos
+- explicaçao arquivo
+- descreva arquivos
+- descrição arquivo
+- significado arquivo
+- conceito arquivo
+- resuma arquivo
+- resuma arquivos
+- resume arquivos
+- resume arquivo
+- descreva arquivos
+- descrição arquivos
+- significado arquivo
+- significado arquivos
+- conceito arquivos
+
+## intent:sobre_vetores
+- o que são vetores
+- vetor
+- arrays
+- array unidimensional
+- vetores
+- o que é um vetor
+- o que são vetores
+- o que sao arrays
+- vetores básico
+- como uso array unidimensional
+- como uso arrays
+- definiçao vetores
+- definir vetor
+- explique vetores
+- básico sobre arrays
+- basico sobre array unidimensional
+- sobre array unidimensional
+- acerca de vetor
+- defina vetores
+- definição arrays
+- definiçao vetor
+- definir array unidimensional
+- explique vetor
+- explicação vetores
+- explicaçao arrays
+- descreva vetor
+- descrição vetores
+- significado array unidimensional
+- conceito vetor
+- defina array unidimensional
+- resuma arrays
+- resumo vetores
+- resume vetor
+
+## intent:sobre_matrizes
+- o que são matrizes
+- matriz
+- arrays bidimensionais
+- array bidimensional
+- matrizes
+- o que é um matriz
+- o que são matrizes
+- o que sao arrays bidimensionais
+- matrizes básico
+- como uso array bidimensional
+- como uso arrays bidimensionais
+- definiçao matrizes
+- definir matriz
+- explique matrizes
+- básico sobre arrays bidimensionais
+- basico sobre array bidimensional
+- sobre array bidimensional
+- acerca de matriz
+- defina matrizes
+- definição arrays bidimensionais
+- definiçao matriz
+- definir array bidimensional
+- explique matriz
+- explicação matrizes
+- explicaçao arrays bidimensionais
+- descreva matriz
+- descrição matrizes
+- significado array bidimensional
+- conceito matriz
+- defina array bidimensional
+- resuma arrays bidimensionais
+- resumo matrizes
+- resume matriz
+
 ## intent:sobre_hello_world
 - primeiro programa em python
 - como fazer um hello world
@@ -567,3 +679,4 @@
 - adicionar funções
 - funcoes extras
 - funcao nao encontrada
+

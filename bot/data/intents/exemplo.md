@@ -71,8 +71,27 @@
 - for na pratica
 - while na pratica
 
-
 ## intent:exemplo_variaveis
+- me dê exemplos de variaveis
+- como usar essas variaveis?
+- não entendi como usa a variável
+- mas e eu faço como com variáveis?
+- e como que uso?
+- exemplos variáveis
+- exemplos de variáveis
+- me explica como usa essas variaveis
+- me ajuda com exemplos de variáveis
+- voce pode me ajudar com exemplos de variaveis?
+- como variaveis funcionam
+- exemplos variáveis
+- exemplo variável
+- exemplos python variáveis
+- exemplo variável python
+- como fazer uma variavel em python
+- como funciona as variaveis
+- funcionamento variaveis
+- variáveis na prática
+- código de exemplo de variaveis
 - exemplo de variaveis
 - exemplo de variavel
 - exemplos variavel
@@ -138,6 +157,81 @@
 - funções na pratica
 - funcoes na pratica
 - bloco de codigo na pratica
+
+
+## intent:exemplo_arquivos
+- exemplo de arquivos
+- exemplo de arquivo
+- exemplos escrever arquivos
+- exemplos arquivos
+- exemplos de arquivos
+- modelos de como escrever em arquivos
+- modelos de como escrever em arquivo
+- sintaxe de arquivo
+- sintaxe de arquivos
+- como escrever em arquivos
+- como escrever em arquivo
+- exemplifique arquivo
+- exemplifique arquivos
+- arquivos na pratica
+
+
+## intent:exemplo_vetores
+- exemplo de vetor
+- exemplo de vetores
+- exemplo de arrays
+- exemplo array unidimensional
+- exemplos de vetor
+- exemplos de vetores
+- exemplos de arrays
+- exemplos de array unidimensional
+- modelos de vetor
+- modelos de vetores
+- modelos de arrays
+- modelos de array unidimensional
+- sintaxe de vetor
+- sintaxe de vetores
+- sintaxe de arrays
+- sintaxe de array unidimensional
+- exemplifique vetor
+- exemplifique vetores
+- exemplifique arrays
+- exemplifique array unidimensional
+- como executar um vetor
+- como fazer um arrays
+- vetor na pratica
+- vetores na pratica
+- arrays na pratica
+- array unidimensional na pratica
+
+## intent:exemplo_matrizes
+- exemplo de matriz
+- exemplo de matrizes
+- exemplo de arrays bidimensionais
+- exemplo array bidimensional
+- exemplos de matriz
+- exemplos de matrizes
+- exemplos de arrays bidimensionais
+- exemplos de array bidimensional
+- modelos de matriz
+- modelos de matrizes
+- modelos de arrays bidimensionais
+- modelos de array bidimensional
+- sintaxe de matriz
+- sintaxe de matrizes
+- sintaxe de arrays bidimensionais
+- sintaxe de array bidimensional
+- exemplifique matriz
+- exemplifique matrizes
+- exemplifique arrays bidimensionais
+- exemplifique array bidimensional
+- como executar um matriz
+- como fazer um arrays bidimensionais
+- matriz na pratica
+- matrizes na pratica
+- arrays bidimensionais na pratica
+- array bidimensional na pratica
+
 
 ## intent:exemplo_importar_bibliotecas
 - exemplo importar bibliotecas

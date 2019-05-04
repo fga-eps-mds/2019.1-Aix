@@ -48,7 +48,6 @@
 - atividade condicional
 - treinamento condicional
 
-
 ## intent:exercicios_variaveis
 - exercício variáveis
 - exercício variável
@@ -135,6 +134,15 @@
 - exercício while
 - exercícios for
 - exercicios while
+- exercícios for while
+- treinar repeticao
+- treinar for while
+- saber se aprendi for while
+- saber se aprendi repetição
+- uri for while
+- uri repeticao
+- testar conhecimentos for while
+- testar conhecimentos repeticao
 - exercicio for
 - treinar while
 - treinamento for
@@ -203,3 +211,109 @@
 - tarefa funçoes função funções
 - dever função funcao funções funcoes
 - atividade função funcao funções funcoes
+
+
+## intent:exercicios_arquivos
+- exercício arquivo
+- exercício arquivos
+- exercícios arquivo
+- exercícios arquivo
+- exercicio arquivos
+- exercicio arquivo
+- exercicios arquivos
+- exercicios arquivo
+- treinar arquivo
+- treinar arquivos
+- treinamento arquivo
+- treinamento arquivos
+- testar conhecimento arquivo
+- testar conhecimento arquivos
+- uri online judge arquivo
+- uri online judge arquivos
+- tarefa arquivo
+- tarefa arquivos
+- dever arquivo
+- dever arquivos
+- execução arquivo
+- execução arquivos
+- prática arquivo
+- prática arquivos
+- pratica arquivo
+- pratica arquivos
+- atividade arquivo
+- atividade arquivos
+- tarefa arquivo arquivos
+- dever arquivo arquivos
+- sobre como escrever em arquivo
+- sobre como escrever em arquivos
+- sobre como ler arquivos
+- sobre como ler arquivo
+
+## intent:exercicios_vetores
+- exercício vetor
+- exercício vetores
+- exercícios arrays
+- exercícios array unidimensional
+- exercicio vetor
+- exercicio vetores
+- exercicios arrays
+- exercicios array unidimensional
+- treinar vetor
+- treinar vetores
+- treinamento arrays
+- treinamento array unidimensional
+- testar conhecimento vetor
+- testar conhecimento vetores
+- uri online judge arrays
+- uri online judge array unidimensional
+- testar conhecimentos vetor
+- testar conhecimentos vetores
+- tarefa arrays
+- tarefa array unidimensional
+- dever vetor
+- dever vetores
+- execução arrays
+- execução array unidimensional
+- prática vetor
+- prática vetores
+- pratica arrays
+- pratica array unidimensional
+- atividade vetor
+- atividade vetores
+- treinamento arrays
+- treinamento array unidimensional
+
+## intent:exercicios_matrizes
+- exercício matriz
+- exercício matrizes
+- exercícios arrays bidimensionais
+- exercícios array bidimensional
+- exercicio matriz
+- exercicio matrizes
+- exercicios arrays bidimensionais
+- exercicios array bidimensional
+- treinar matriz
+- treinar matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional
+- testar conhecimento matriz
+- testar conhecimento matrizes
+- uri online judge arrays bidimensionais
+- uri online judge array bidimensional
+- testar conhecimentos matriz
+- testar conhecimentos matrizes
+- tarefa arrays bidimensionais
+- tarefa array bidimensional
+- dever matriz
+- dever matrizes
+- execução arrays bidimensionais
+- execução array bidimensional
+- prática matriz
+- prática matrizes
+- pratica arrays bidimensionais
+- pratica array bidimensional
+- atividade matriz
+- atividade matrizes
+- treinamento arrays bidimensionais
+- treinamento array bidimensional
+
