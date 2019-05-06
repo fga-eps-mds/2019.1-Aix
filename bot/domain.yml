@@ -97,9 +97,9 @@ templates:
           5. Pesquisar no StackOverflow.
 
         Conteúdos mapeados:
-          -Variaveis
+          -Variáveis
           -Estruturas Condicionais
-          -Estrutura de repetição
+          -Estrutura de Repetição
 
         *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
           Como? Escreva algo do tipo:
@@ -277,6 +277,9 @@ templates:
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
 
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
+        Como? Escreva assim:
+        o que é [nome do tipo]? ("o que é inteiro?", por exemplo)
+        me dê exemplos de variáveis
 
   utter_sobre_inteiros:
     - text: |
