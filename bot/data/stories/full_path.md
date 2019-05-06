@@ -64,8 +64,8 @@
     - utter_conteudo_extra_arquivos
 * exercicios_arquivos
     - utter_exercicios_arquivos
-* manter_arquivos
-	- utter_manter_arquivos
+* manter_conversa
+	- utter_manter_conversa
 
 ##full_path_vetores
 * sobre_vetores

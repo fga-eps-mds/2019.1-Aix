@@ -679,7 +679,6 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
-  - utter_exemplo_importar_bibliotecas
 
 
 
@@ -688,9 +687,6 @@ actions:
   - utter_exercicios_repeticao
   - utter_exercicios_funcao
   - utter_exercicios_arquivos
-  - utter_exercicios_variaveis
-  - utter_exercicios_condicionais
-  - utter_exercicios_repeticao
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
 
