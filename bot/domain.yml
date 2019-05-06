@@ -277,6 +277,7 @@ templates:
         Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
 
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
+
         Como? Escreva assim:
         o que é [nome do tipo]? ("o que é inteiro?", por exemplo)
         me dê exemplos de variáveis
@@ -289,12 +290,18 @@ templates:
 
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
+        Como? Escreva assim:
+        me dê um exemplo de variáveis
+
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
 
         Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
+
+        Como? Escreva assim:
+        me dê um exemplo de variáveis
 
   utter_sobre_caracteres:
     - text: |
@@ -303,12 +310,18 @@ templates:
 
         Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
 
+        Como? Escreva assim:
+        me dê um exemplo de variáveis
+
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
         Eu gosto muito de feno é uma afirmação verdadeira!!
 
         Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
+
+        Como? Escreva assim:
+        me dê um exemplo de variáveis
 
   utter_sobre_condicionais:
     - text: |
@@ -317,7 +330,10 @@ templates:
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
-        Quer outro exemplo? Me peça exemplos de estruturas condicionais!
+        Quer um exemplo? Um conteúdo extra? Exercícios?
+        Peça assim:
+        me dê um exemplo de estruturas condicionais
+        quero saber mais sobre estruturas condicionais
 
   utter_sobre_repeticao:
     - text: |
@@ -327,7 +343,12 @@ templates:
 
     - text: |
         Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-        Quer saber mais sobre eles? Me pergunte por exemplos de estruturas de repetição!
+
+        Quer saber mais? Um exemplo ou alguns exercícios?
+        Peça assim:
+        quero saber mais sobre estruturas de repetição
+        me dê um exemplo de estruturas de repetição
+        quero treinar estruturas de repetição
 
 
 
@@ -335,7 +356,9 @@ templates:
     - text: |
           O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
-          Quer um exemplo para entender melhor? Peça um 'exemplo de arquivos'.
+          Quer um exemplo para entender melhor? 
+          Peça assim:
+          me dê um exemplo sobre arquivos
 
 
 
@@ -345,7 +368,7 @@ templates:
 
         Um vetor também pode ser chamado de Array Unidimensional.
 
-        Que tal ver na prática? Me peça um exemplo de vetor!
+        Que tal ver na prática? Peça assim: me dê um exemplo de vetor
 
   utter_sobre_matrizes:
     - text: |
@@ -354,6 +377,7 @@ templates:
         Um matriz também pode ser chamado de Array Bidimensional.
 
         Que tal um exemplo de matriz? Só me pedir por exemplos de matrizes que te mostro!
+        Peça assim: me dê um exemplo de matrizes
 
   utter_sobre_hello_world:
     - text : |
@@ -370,14 +394,16 @@ templates:
         Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
-        Caso não tenha entendido perfeitamente, peça-me um exemplo ("exemplo de como importar bibliotecas") Bée.
+        Caso não tenha entendido perfeitamente, peça-me um exemplo. Bée.
+        Peça assim: me dê um exemplo de como importar bibliotecas
 
 
   utter_sobre_funcao:
     - text: |
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
         
-        Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
+        Caso ainda esteja muito abstrato, me peça um exemplo que eu te mostro uma na prática!
+        Peça assim: me dê um exemplo de função
         
   utter_exemplo_variaveis:
     - text: |
