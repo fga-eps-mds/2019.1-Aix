@@ -3,27 +3,6 @@ import requests
 import json
 
 
-class ActionOTRS(Action):
-    def name(self):
-        return "action_otrs"
-
-    def run(self, dispatcher, tracker, domain):
-        try:
-            dispatcher.utter_message(
-                "Mensagem enviada por uma custom action!!"
-            )
-        except ValueError:
-            dispatcher.utter_message(ValueError)
-
-    def createTicket(self, dispatcher, tracker, domain):
-        # TODO
-        return
-
-    def closeTicket(self, dispatcher, tracker, domain):
-        # TODO
-        return
-
-
 class ActionPesquisaStackoverflow(Action):
     def name(self):
         return "action_pesquisa_stackoverflow"
