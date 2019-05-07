@@ -4,4 +4,7 @@ rocketchat-py-sdk==0.0.8
 elasticsearch==6.3.1
 sklearn-crfsuite==0.3.6
 nltk==3.3
-flake8
+flake8==3.7.7
+coverage==4.5.3
+pytest==4.4.1
+pytest-cov==2.7.1
