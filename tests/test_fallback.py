@@ -1,24 +1,22 @@
 import logging
 import os
 
-import unittest 
+import pytest 
 
 from bot.fallback import CustomFallbackPolicy
 
 
+@pytest.fixture
+def custom_fallback():
+    return CustomFallbackPolicy()
 
 
-class TestFallback(unittest.TestCase):
-
-    def test_standard_featurizer(self):
-        response = CustomFallbackPolicy()._standard_featurizer()
-        assert response == None
+def test_standard_featurizer(custom_fallback):
+    response = custom_fallback._standard_featurizer()
+    assert response == None
 
 
-    def test_should_fallback(self):
-        response = CustomFallbackPolicy().should_fallback(1, "2")
-        assert response == False
+def test_should_fallback(custom_fallback):
+    response = custom_fallback.should_fallback(1, "2")
+    assert response == False
 
-
-if __name__ == '__main__':
-    unittest.main()
