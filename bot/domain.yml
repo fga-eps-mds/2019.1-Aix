@@ -59,6 +59,14 @@ intents:
 
   - pesquisa_stackoverflow
   - pesquisar
+  - test_slot
+
+slots:
+  pesquisa:
+    type: unfeaturized
+
+entities:
+  - pesquisa
 
 templates:
   utter_start:
@@ -702,3 +710,4 @@ actions:
 
   - action_pesquisa_stackoverflow
   - utter_pesquisar
+  - action_test_slot

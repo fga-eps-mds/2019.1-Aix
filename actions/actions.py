@@ -56,3 +56,13 @@ class ActionPesquisaStackoverflow(Action):
         dispatcher.utter_message(action_message);
         dictionary = self.stackoverflow_request(research)
         self.dispatch_links(dictionary, dispatcher)
+
+
+class TestSlot(Action):
+    def name(self):
+        return "action_test_slot"
+
+    def run(self, dispatcher, tracker, domain):
+        slot = tracker.get_slot('pesquisa')
+        dispatcher.utter_message('Mensagem da custom action de teste')
+        dispatcher.utter_message(slot)
