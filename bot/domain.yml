@@ -345,6 +345,7 @@ templates:
         Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
 
         Quer saber mais? Um exemplo ou alguns exercícios?
+
         Peça assim:
         quero saber mais sobre estruturas de repetição
         me dê um exemplo de estruturas de repetição
@@ -357,6 +358,7 @@ templates:
           O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
           Quer um exemplo para entender melhor? 
+
           Peça assim:
           me dê um exemplo sobre arquivos
 
@@ -377,6 +379,7 @@ templates:
         Um matriz também pode ser chamado de Array Bidimensional.
 
         Que tal um exemplo de matriz? Só me pedir por exemplos de matrizes que te mostro!
+
         Peça assim: me dê um exemplo de matrizes
 
   utter_sobre_hello_world:
@@ -395,6 +398,7 @@ templates:
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
         Caso não tenha entendido perfeitamente, peça-me um exemplo. Bée.
+
         Peça assim: me dê um exemplo de como importar bibliotecas
 
 
@@ -403,6 +407,7 @@ templates:
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
         
         Caso ainda esteja muito abstrato, me peça um exemplo que eu te mostro uma na prática!
+
         Peça assim: me dê um exemplo de função
         
   utter_exemplo_variaveis:
@@ -415,12 +420,14 @@ templates:
 
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
 
+        Peça assim: quero saber mais sobre variáveis
+
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
 
     - text: |
-        Outro exemplo possível é uma equação, onde você já tem variáveis!!
-        A Fórmula de Bhaskara poderia ser escrita desse jeito:
+        Então você quer ver como as variáveis funcionam... um ótima forma de visualizar variáveis é em uma equação onde você já tem variáveis!!
+        A Fórmula de Bháskara poderia ser escrita desse jeito:
           a = -5
           b = 4
           c = 1
@@ -433,11 +440,21 @@ templates:
 
         Que saber mais? Me peça conteúdo extra de variáveis!
 
+        Peça assim: quero saber mais sobre variáveis
+
   utter_exemplo_condicionais:
     - text: |
-        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : if x == 2: print("amo feno") elif x == 5: print("amo python") else: print("amo a Aix")
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : 
+        if x == 2:
+          print("amo feno")
+        elif x == 5: 
+          print("amo python") 
+        else: 
+          print("amo a Aix")
 
         Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
+
+        Peça assim: quero saber mais sobre estruturas condicionais
 
       image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -447,6 +464,8 @@ templates:
         Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
 
         Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
+
+        Peça assim: quero saber mais sobre laços de repetição
 
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
@@ -498,9 +517,9 @@ templates:
 
         Digamos que eu queira marcar quantas dúvidas eu tirei em um mês, para isso poderia fazer uma matriz de dúvidas por dia, separando por semanas para ficar mais fácil de ler.
           duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
-                    [0, 0, 2, 4, 3, 2, 2],
-                    [1, 2, 4, 3, 7, 1, 1],
-                    [0, 5, 6, 7, 7, 5, 0] ]
+                            [0, 0, 2, 4, 3, 2, 2],
+                            [1, 2, 4, 3, 7, 1, 1],
+                            [0, 5, 6, 7, 7, 5, 0] ]
 
         Sendo as linhas referentes as semanas e as colunas os dias! E para acessar as dúvidas de segunda da primeira semana seria:
           print(duvidas_por_mes[0][1])
@@ -509,6 +528,8 @@ templates:
         Lembrando que as posições começam a ser contadas a partir 0.
 
         Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
+
+        Peça assim: quero saber mais sobre matrizes
 
       image: |
         https://i.imgur.com/7c8UasQ.png
@@ -536,6 +557,8 @@ templates:
           Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
           Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+          Para solicitar uma pesquisa peça assim: quero pesquisar
+          ..que te explico como pesquisar
 
   utter_exercicios_condicionais:
     - text: |
@@ -546,7 +569,8 @@ templates:
           Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
           Intervalo - https://www.urionlinejudge.com.br/judge/pt/problems/view/1037
 
-        Deu um bug no exercício? Só pedir que eu procuro por ele no StackOverflow!
+        Deu algum erro no código? Só pedir que eu procuro por ele no StackOverflow!
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
   utter_exercicios_repeticao:
     - text: |
@@ -558,6 +582,7 @@ templates:
           Sequência IJ 4 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1098
 
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
   utter_exercicios_vetores:
     - text: |
@@ -567,7 +592,8 @@ templates:
           Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
           Exercício Python #080 - Lista ordenada sem repetições(https://www.youtube.com/watch?v=QDpwjBYRcVE&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=13&t=0s)
 
-        E qualquer erro, só me dizer que quer fazer uma pesquisa que te ajudo a fazê-la!
+        E qualquer erro, só me dizer que posso pesquisar e te ajudar.
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
   utter_exercicios_matrizes:
     - text: |
@@ -578,7 +604,8 @@ templates:
         Linha na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1181)
         Coluna na Matriz(https://www.urionlinejudge.com.br/judge/pt/problems/view/1182)
 
-        Deu um erro aí? Só me falar que quer pesquisar que te ajudo nisso!
+        Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
   utter_exercicios_arquivos:
     - text: |
@@ -586,6 +613,8 @@ templates:
 
         Seria intetessante se você abrisse um arquivo no modo 'w', de escrita, e escrevesse seu nome completo nele.
 
+        Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
   utter_exercicios_funcao:
     - text: |
@@ -594,8 +623,9 @@ templates:
         (Por exemplo, fazendo uma função que soma dois argumentos passados)
         Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
         Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
-
-        E caso queira mais referências boas para estudar mais a fundo, é só me pedir 'links para conteúdo sobre arquivos'!
+        
+        Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro. 
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
 
   utter_conteudo_extra_variaveis:
@@ -607,6 +637,7 @@ templates:
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
         Que tal tentar uns exercícios agora? Pois béem, tenho alguns links de exercício para você, só pedir!
+        Peça assim: quero fazer uns exercicios sobre variaveis
 
   utter_conteudo_extra_condicionais:
     - text: |
@@ -616,6 +647,7 @@ templates:
               https://www.w3schools.com/python/python_conditions.asp
 
         Vamos por o conhecimento em prática? Só me pedir que te passo uns exercícios bem legais sobre estruturas condicionais!
+        Peça assim: quero fazer uns exercicios sobre estruturas condicionais
 
   utter_conteudo_extra_repeticao:
     - text : |
@@ -652,6 +684,7 @@ templates:
 
 
         Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
+        Peça assim: quero fazer uns exercicios sobre vetores
 
   utter_conteudo_extra_matrizes:
     - text: |
@@ -663,6 +696,7 @@ templates:
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
+        Peça assim: gostaria de fazer uns exercicios sobre matrizes
 
   utter_pesquisar:
     - text : |
