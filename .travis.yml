@@ -19,8 +19,8 @@ before_install:
   - gem install "rubygems-update:<3.0.0" --no-document
   - gem install bundler:2.0.1
 
-  - docker build -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
-  - docker build -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
+  - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
+  - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
 
 script:
   - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
@@ -34,4 +34,3 @@ script:
   # remover comentário antes de abrir o pull request
   # on:
   #  branch: master
-
