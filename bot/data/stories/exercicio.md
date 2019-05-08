@@ -27,3 +27,32 @@
     - utter_exercicios_variaveis
 * conteudo_extra_variaveis
     - utter_conteudo_extra_variaveis
+
+
+## exercicios_funcao
+* exercicios_funcao
+    - utter_exercicios_funcao
+
+## exercicios_arquivos
+* exercicios_arquivos
+    - utter_exercicios_arquivos
+
+## exercicios_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
+
+## exercicios_vetores2
+* exercicios_vetores
+    - utter_exercicios_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+
+## exercicios_matrizes
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+
+## exercicios_matrizes2
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+* conteudo_extra_matrizes
+    - utter_conteudo_extra_matrizes

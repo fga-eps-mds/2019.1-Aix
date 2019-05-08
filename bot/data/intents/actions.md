@@ -1,10 +1,3 @@
-## intent:action_otrs
-- crie um ticket
-- abrir um ticket
-- por favor abra o ticket
-- criar chamado
-- abrir um chamado
-
 ## intent:pesquisa_stackoverflow
 - pesquise sobre: C++
 - pesquise sobre: python

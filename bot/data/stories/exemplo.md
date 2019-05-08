@@ -45,3 +45,50 @@
     - utter_exemplo_variaveis
 * exercicios_variaveis
     - utter_exercicios_variaveis
+
+
+## exemplo_funcao
+* exemplo_funcao
+    - utter_exemplo_funcao
+
+## exemplo_arquivos
+* exemplo_arquivos
+    - utter_exemplo_arquivos
+
+## exemplo_vetores
+* exemplo_vetores
+    - utter_exemplo_vetores
+
+## exemplo_vetores2
+* exemplo_vetores
+    - utter_exemplo_vetores
+* conteudo_extra_vetores
+    - utter_conteudo_extra_vetores
+
+## exemplo_vetores3
+* exemplo_vetores
+    - utter_exemplo_vetores
+* exercicios_vetores
+    - utter_exercicios_vetores
+
+## exemplo_matrizes
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+
+## exemplo_matrizes2
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+* conteudo_extra_matrizes
+    - utter_conteudo_extra_matrizes
+
+## exemplo_matrizes3
+* exemplo_matrizes
+    - utter_exemplo_matrizes
+* exercicios_matrizes
+    - utter_exercicios_matrizes
+
+
+## exemplo_importar_bibliotecas
+* exemplo_importar_bibliotecas
+    - utter_exemplo_importar_bibliotecas
+

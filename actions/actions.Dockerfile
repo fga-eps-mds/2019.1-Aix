@@ -1,11 +1,11 @@
 FROM rasa/rasa_core_sdk:0.13.1
 
-RUN apt update && apt install -y git curl
+RUN apt update -qq && apt -q -y -o Dpkg::Use-Pty=0 install -y git curl
 
 ADD actions.requirements.txt /tmp/
 
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r /tmp/actions.requirements.txt
+    pip install --quiet --progress-bar off --no-cache-dir -r /tmp/actions.requirements.txt
 
 
 COPY . /app/actions
