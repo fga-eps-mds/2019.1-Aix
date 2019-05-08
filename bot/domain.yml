@@ -61,19 +61,6 @@ intents:
   - pesquisar
 
 templates:
-  utter_start:
-    - text: |
-        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
-        1. Explicar um conteúdo;
-        2. Citar exemplos;
-        3. Mostrar links extras sobre o conteúdo;
-        4. Indicar exercícios;
-        5. Pesquisar no StackOverflow.
-
-        Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
-
-        Pegue sua água, tempere seu capim e vamos começar a aprender!!!
-
   utter_cumprimentar:
     - text: |
         Oiieee, tudo Bééem?
@@ -166,6 +153,32 @@ templates:
 
     - text: |
         Respeito é bom e conserva os dentes!!
+  
+  utter_default:
+    - text: |
+        Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
+        Você pode perguntar de novo?
+    - text: |
+        Hummmm... Acho que não sou uma cabra tão inteligente assim... Pode escrever de outra forma, não entendi tão béem?
+    - text: |
+        Deve ter caído um pouco de capim nos meus olhos, você pode me perguntar de novo usando outras palavras?
+    - text: |
+        Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
+
+
+  # ============================ NAVEGAÇÃO PRINCIPAL ============================ #
+  utter_start:
+    - text: |
+        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Mostrar links extras sobre o conteúdo;
+        4. Indicar exercícios;
+        5. Pesquisar no StackOverflow.
+
+        Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
+
+        Pegue sua água, tempere seu capim e vamos começar a aprender!!!
 
   utter_sobre_programaçao:
     - text: |
@@ -184,16 +197,6 @@ templates:
     - text: |
         Sabe aquele ditado que diz "apressado como cru"? Pois é... Para ser um programador, antes é necessário um conhecimento em linguagens de programação! E eu posso te ensinar uma delas: o Python. Tente me perguntar a respeito dessa matéria!
 
-  utter_default:
-    - text: |
-        Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
-        Você pode perguntar de novo?
-    - text: |
-        Hummmm... Acho que não sou uma cabra tão inteligente assim... Pode escrever de outra forma, não entendi tão béem?
-    - text: |
-        Deve ter caído um pouco de capim nos meus olhos, você pode me perguntar de novo usando outras palavras?
-    - text: |
-        Vamos tentar mais uma vez? Eu não consegui te entender direito, mas vou fazer o possível para entender béem se me pergunta de outro jeito!
 
   utter_menu_ajuda:
     - text: |
@@ -264,6 +267,7 @@ templates:
     - text: |
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
+  # ============================ SOBRE ============================ #      
   utter_sobre_python:
     - text: |
         O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender!
@@ -351,8 +355,6 @@ templates:
         me dê um exemplo de estruturas de repetição
         quero treinar estruturas de repetição
 
-
-
   utter_sobre_arquivos:
     - text: |
           O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
@@ -361,8 +363,6 @@ templates:
 
           Peça assim:
           me dê um exemplo sobre arquivos
-
-
 
   utter_sobre_vetores:
     - text: |
@@ -401,7 +401,6 @@ templates:
 
         Peça assim: me dê um exemplo de como importar bibliotecas
 
-
   utter_sobre_funcao:
     - text: |
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
@@ -410,6 +409,7 @@ templates:
 
         Peça assim: me dê um exemplo de função
         
+  # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
@@ -482,8 +482,6 @@ templates:
 
             Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
 
-
-
   utter_exemplo_arquivos:
     - text: |
          arquivo = open('bodes-mais-legais.txt', 'w')
@@ -543,8 +541,7 @@ templates:
         Caso haja alguma dúvida você pode solicitar por uma pesquisa.
         Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
 
-
-
+  # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
     - text: |
           Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
@@ -627,7 +624,7 @@ templates:
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro. 
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-
+  # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
     - text: |
         Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
@@ -698,6 +695,7 @@ templates:
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
         Peça assim: gostaria de fazer uns exercicios sobre matrizes
 
+  # ============================ PESQUISAR ============================ #
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
