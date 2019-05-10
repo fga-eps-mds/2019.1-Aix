@@ -94,7 +94,7 @@ templates:
             Me dê exercícios sobre [Nome do conteúdo]
             Quero saber mais sobre [Nome do conteúdo]
             Quero um exemplo sobre [Nome do conteúdo]
-          OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provavel que eu entenda!
+          OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provável que eu entenda!
 
         *Para pesquisar no StackOverflow voce deve digitar:
           pesquise sobre [conteúdo que você quer saber]
@@ -105,7 +105,7 @@ templates:
 
         Qualquer dúvida conta comigo, beleza?
 
-        Até logo meu pequeno jupiter!
+        Até logo meu pequeno júpiter!
 
   utter_tudo_bem:
     - text: |
@@ -282,9 +282,7 @@ templates:
 
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
-        Como? Escreva assim:
-        o que é [nome do tipo]? ("o que é inteiro?", por exemplo)
-        me dê exemplos de variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: o que é, [nome do tipo] (inteiro, por exemplo), exemplo, variáveis
 
   utter_sobre_inteiros:
     - text: |
@@ -294,8 +292,7 @@ templates:
 
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
-        Como? Escreva assim:
-        me dê um exemplo de variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, variáveis
 
   utter_sobre_pontos_flutuantes:
     - text: |
@@ -304,8 +301,7 @@ templates:
 
         Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
 
-        Como? Escreva assim:
-        me dê um exemplo de variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, variáveis
 
   utter_sobre_caracteres:
     - text: |
@@ -314,8 +310,7 @@ templates:
 
         Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
 
-        Como? Escreva assim:
-        me dê um exemplo de variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, variáveis
 
   utter_sobre_booleanos:
     - text: |
@@ -324,8 +319,7 @@ templates:
 
         Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
 
-        Como? Escreva assim:
-        me dê um exemplo de variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, variáveis
 
   utter_sobre_condicionais:
     - text: |
@@ -335,9 +329,8 @@ templates:
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
         Quer um exemplo? Um conteúdo extra? Exercícios?
-        Peça assim:
-        me dê um exemplo de estruturas condicionais
-        quero saber mais sobre estruturas condicionais
+
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, condicionais, saber mais, conteudo extra
 
   utter_sobre_repeticao:
     - text: |
@@ -350,10 +343,7 @@ templates:
 
         Quer saber mais? Um exemplo ou alguns exercícios?
 
-        Peça assim:
-        quero saber mais sobre estruturas de repetição
-        me dê um exemplo de estruturas de repetição
-        quero treinar estruturas de repetição
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, repetição, for, while, treinar, exercicios
 
   utter_sobre_arquivos:
     - text: |
@@ -361,8 +351,7 @@ templates:
 
           Quer um exemplo para entender melhor? 
 
-          Peça assim:
-          me dê um exemplo sobre arquivos
+          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, arquivos
 
   utter_sobre_vetores:
     - text: |
@@ -370,7 +359,8 @@ templates:
 
         Um vetor também pode ser chamado de Array Unidimensional.
 
-        Que tal ver na prática? Peça assim: me dê um exemplo de vetor
+        Que tal ver na prática? Bée..é só pedir!
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, vetores
 
   utter_sobre_matrizes:
     - text: |
@@ -380,7 +370,7 @@ templates:
 
         Que tal um exemplo de matriz? Só me pedir por exemplos de matrizes que te mostro!
 
-        Peça assim: me dê um exemplo de matrizes
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, matrizes
 
   utter_sobre_hello_world:
     - text : |
@@ -399,7 +389,7 @@ templates:
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
         Caso não tenha entendido perfeitamente, peça-me um exemplo. Bée.
 
-        Peça assim: me dê um exemplo de como importar bibliotecas
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender:exemplo, importar bibliotecas
 
   utter_sobre_funcao:
     - text: |
@@ -407,7 +397,7 @@ templates:
         
         Caso ainda esteja muito abstrato, me peça um exemplo que eu te mostro uma na prática!
 
-        Peça assim: me dê um exemplo de função
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exemplo, função
         
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
@@ -420,7 +410,7 @@ templates:
 
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
 
-        Peça assim: quero saber mais sobre variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
 
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
@@ -440,7 +430,7 @@ templates:
 
         Que saber mais? Me peça conteúdo extra de variáveis!
 
-        Peça assim: quero saber mais sobre variáveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
 
   utter_exemplo_condicionais:
     - text: |
@@ -454,7 +444,7 @@ templates:
 
         Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
 
-        Peça assim: quero saber mais sobre estruturas condicionais
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, estruturas condicionais
 
       image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -465,7 +455,7 @@ templates:
 
         Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
 
-        Peça assim: quero saber mais sobre laços de repetição
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, repetição, for, while
 
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
@@ -480,7 +470,9 @@ templates:
         
             A palavra reservada "def", é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
-            Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
+            Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir, que te enviareis alguns com todo prazer!!!
+            
+            Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, funções
 
   utter_exemplo_arquivos:
     - text: |
@@ -492,7 +484,8 @@ templates:
           Nesse exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, e o objeto gerado por essa função é atribuído a variável 'arquivo'.
           A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto, por fim, o arquivo é fechado com a função 'close'!!
 
-          Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um 'exercício de arquivos'!
+          Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um!
+          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, arquivos
 
   utter_exemplo_vetores:
     - text: |
@@ -506,6 +499,7 @@ templates:
           Lembrando que as posições começam a ser contadas a partir 0.
 
           Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
+          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: conteudo extra, saber mais, vetores
       image: |
           https://i.imgur.com/soiRg1i.png
 
@@ -527,7 +521,7 @@ templates:
 
         Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
 
-        Peça assim: quero saber mais sobre matrizes
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, matrizes
 
       image: |
         https://i.imgur.com/7c8UasQ.png
@@ -554,8 +548,7 @@ templates:
           Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
           Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
-          Para solicitar uma pesquisa peça assim: quero pesquisar
-          ..que te explico como pesquisar
+          Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar
 
   utter_exercicios_condicionais:
     - text: |
@@ -634,7 +627,7 @@ templates:
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
         Que tal tentar uns exercícios agora? Pois béem, tenho alguns links de exercício para você, só pedir!
-        Peça assim: quero fazer uns exercicios sobre variaveis
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, variaveis
 
   utter_conteudo_extra_condicionais:
     - text: |
@@ -644,7 +637,7 @@ templates:
               https://www.w3schools.com/python/python_conditions.asp
 
         Vamos por o conhecimento em prática? Só me pedir que te passo uns exercícios bem legais sobre estruturas condicionais!
-        Peça assim: quero fazer uns exercicios sobre estruturas condicionais
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, condicionais
 
   utter_conteudo_extra_repeticao:
     - text : |
@@ -653,6 +646,7 @@ templates:
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
         Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, repetição, while, for
 
 
   utter_conteudo_extra_funcao:
@@ -681,7 +675,7 @@ templates:
 
 
         Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
-        Peça assim: quero fazer uns exercicios sobre vetores
+         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, vetores
 
   utter_conteudo_extra_matrizes:
     - text: |
@@ -693,7 +687,7 @@ templates:
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
-        Peça assim: gostaria de fazer uns exercicios sobre matrizes
+         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios, treinar, matrizes
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
