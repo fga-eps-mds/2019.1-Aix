@@ -21,11 +21,11 @@ category: Sprint
 |ISSUE|[#217 Adicionar tópico com exemplos de utilização de funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/217)|Fechado|1|
 |ISSUE|[#218 Adicionar tópico com linkagem estática para conteúdo extra sobre funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/218)|Fechado|1|
 |ISSUE|[#219 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/219)|Fechado|1|
-|ISSUE|[#222 Evoluir intents de acordo com feedback dos usuários](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/222)|Fechado|1|
-|ISSUE|[#223 Evolução de cumprimento da Aix](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/223)|Fechado|1|
-|ISSUE|[#225 Ampliar conteúdos gerais abordados pelo bot](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/225)|Fechado|1|
-|ISSUE|[#226 Construir hello world](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/226)|Fechado|1|
-|ISSUE|[#227 Criar fluxograma versão 1.2](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/227)|Fechado|1|
+|ISSUE|[#222 Evoluir intents de acordo com feedback dos usuários](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/222)|Fechado|5|
+|ISSUE|[#223 Evolução de cumprimento da Aix](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/223)|Fechado|3|
+|ISSUE|[#225 Ampliar conteúdos gerais abordados pelo bot](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/225)|Fechado|3|
+|ISSUE|[#226 Construir hello world](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/226)|Fechado|5|
+|ISSUE|[#227 Criar fluxograma versão 1.2](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/227)|Fechado|5|
 |ISSUE|[#228 Adicionar tópico com a definição do que são arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/228)|Fechado|1|
 |ISSUE|[#229 Adicionar tópico com exemplos de utilização de arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/229)|Fechado|1|
 |ISSUE|[#230 Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/230)|Fechado|1|
