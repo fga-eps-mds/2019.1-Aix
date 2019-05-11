@@ -5,8 +5,76 @@ tags: estudo slots customAction mds
 category: Estudo
 ---
 
+
+# Slots: o que são, de onde vem e o que fazem?
+
+Segundo a documentação do [Rasa](https://rasa.com/docs/core/slots/), segue a descrição:
+
+	
+  
+
+       "Slots são a memória do seu bot. Eles agem como um 
+        armazenamento de valor-chave que pode ser usado
+        para armazenar informações fornecidas pelo usuário 
+        (por exemplo, sua cidade natal), bem como informações
+        coletadas sobre o mundo exterior (por exemplo, o 
+        resultado de uma consulta ao banco de dados)."
+
+
+Caso aja a necessidade de retornar ao usuário a previsão do tempo em sua localidade, por exemplo, como faz o projeto  [Gaia](https://github.com/BotGaia), seria interessante usarmos os slots para captar a região correspondente primeiramente, para que possamos, posteriormente, usar esse dado coletado para procurarmos as informações necessárias de retorno ao usuário. Afinal, para que possamos responder sobre o clima de um lugar, é necessário antes saber de qual local se trata.
+
+## Tipos
+
+<p align="justify"> &emsp;&emsp;
+Existem diversos tipos de slots. Há os que influenciam no fluxo do bot, e os que não influenciam.</p>
+
+**Temos as categorias:**
+* **text:** preferências do usuário
+* **bool:** valores binários. 
+* **categorical:** opções de valores.
+* **float:** para valores contínuos.
+* **list:** armazena uma lista de valores.
+* **unfeaturized:** não influencia o fluxo.
+
+<p align="justify"> &emsp;&emsp;
+Categóricos e booleanos são as categorias recomendadas para os slots importantes para o fluxo de conversa. Por outro lado, caso você queira apenas armazenar alguns dados, mas não quiser que isso afete o diálogo, use um unfeaturized slot.</p>
+
+## Colocando a mão na massa
+Para usarmos a ferramenta, é necessário seguirmos os seguintes passos:
+
+**1.** adicionar no domain.yml a categoria slots.
+**2.** adicionar o slot a lista de entidades.
+**3.** criar as intents com exemplos de entidade.
+**4.** criar as utters.
+**5.** criar as stories.
+
+### Exemplificando:
+
+**Passo 1.** -domain.yml
+
+    slots: 
+      nome: 
+	    type:
+**P.S.:** em type será definido os tipos citados acima.
+
+**Passo 2.** -domain.yml
+
+    entities:
+    	 - nome
+**Passo 3.** -intents.md
+
+    ## intent:preparo_r1
+	    - o que a [Gabriela Lemos](nome) preparou para a R1
+	    - o que o [Iuri Severo](nome) preparou para a R1
+	    - o que o [Pedro Igor](nome) fez para a R1
+	    - o que o [André](nome) fez para a R1
+		- o que o [Gustavo](nome) criou para a R1
+	
+Já o **Passo 4.** e o **Passo 5.** são usuais, de construção de utters e stories nos arquivos domain.yml e stories.md. Não tem segredo nenhum!
+
+
 # Teste de Slot
-## Teste de nomes captados pela função **ActionIntegranteHorario** do **Lappisudo**
+## Teste de nomes captados pela função **ActionIntegranteHorario** do **[Lappisudo](https://github.com/lappis-unb/lappisudo)**
 * Bruna Nayara
 ```
 Iuri Severo, [06.05.19 18:34]
