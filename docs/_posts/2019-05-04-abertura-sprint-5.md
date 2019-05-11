@@ -67,3 +67,8 @@ Fim: 28/04/2019
 [#164 Refatorar Branch master e devel](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/164)<br>
 [#171 Refatorar Epoch](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/171)<br>
 [#160 Refatorar TAP](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/160)
+
+## Débito Técnico Adicionado
+
+[#126 Elaborar documento de qualidade](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/126)<br>
+[#137 Comunicação da Aix com a API do StackOverflow](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/137)<br>
