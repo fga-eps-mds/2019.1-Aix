@@ -69,3 +69,8 @@ Fim: 06/04/2019
 [#44 Adicionar tópico: Menu ajuda](https://github.com/fga-eps-mds/2019.1-aix/issues/40)<br>
 [#55 Realizar Fork do Boilerplate para Aix](https://github.com/fga-eps-mds/2019.1-aix/issues/55)<br>
 [#59 Resolver conflitos com o boilerplate](https://github.com/fga-eps-mds/2019.1-aix/issues/59)<br>
+
+
+## Débito Técnico Adicionado
+
+Não houveram débitos técnicos adicionados a esta sprint.
