@@ -28,7 +28,7 @@ category: Sprint
 
 ### Pontos Negativos
 
-- Não vai mais usa Flask, rasa atrapalhou essa parte
+- Não vai mais usar Flask, rasa atrapalhou essa parte
 - Falta de autonomia no bot
 - Passou muito tempo tentando integrar Telegram com Flask, e não usou
 - Docker tem que mudar toda hora
@@ -69,7 +69,7 @@ category: Sprint
 | Risco  | Ação Preventiva  | Ação Reativa  |
 |---|---|---|
 | Problemas de saúde em integrante da equipe |Issues pequenas e executáveis dentro do tempo da sprint, o que permite replanejamento de horas |Planejamento de pareamento por sprint |
-| Maior dificuldade para a euipe de desenvolvimento |Indicação de material de apoio para facilitar o desenvolvimento das atividades |Pareamento em grupo para resolução de grandes empecilhos |
+| Maior dificuldade para a equipe de desenvolvimento |Indicação de material de apoio para facilitar o desenvolvimento das atividades |Pareamento em grupo para resolução de grandes empecilhos |
 | Arquiteto e DevOps com provas na semana |Sprint mais leve para esses papéis |Substituição desses papéis pelo Scrum Master e P.O |
 
 ## Burndown de Riscos
@@ -78,6 +78,6 @@ category: Sprint
 
 ## Resumo pelo Scrum Master
 
-A sprint foi crucial para o projeto, com integração com Telegram e busca na API do stackOverflow. Que são issues de extrema impotância para demonstrar a viabilidade do projeto. A busca na API do stackOverflow não foi concluída, apesar de ter chegado próxima a isso.
+A sprint foi crucial para o projeto, com integração com Telegram e busca na API do stackOverflow. Que são issues de extrema importância para demonstrar a viabilidade do projeto. A busca na API do stackOverflow não foi concluída, apesar de ter chegado próxima a isso.
 
 Em resumo, a sprint foi falha em entregar todos os pontos planejadas, e as dívidas serão mapeadas e replanejadas para a próxima Sprint.
