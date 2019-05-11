@@ -60,3 +60,8 @@ Fim: 30/03/2019
 [#17 Elaborar documento de arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/17)<br>
 [#18 Criar fluxograma versão 1.0](https://github.com/fga-eps-mds/2019.1-aix/issues/18)<br>
 [#19 Dockerizar o ambiente](https://github.com/fga-eps-mds/2019.1-aix/issues/19)
+
+
+## Débito Técnico Adicionado
+
+Não houveram débitos técnicos adicionados a esta sprint.
