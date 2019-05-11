@@ -43,9 +43,13 @@ Categóricos e booleanos são as categorias recomendadas para os slots important
 Para usarmos a ferramenta, é necessário seguirmos os seguintes passos:
 
 **1.** adicionar no domain.yml a categoria slots.
+
 **2.** adicionar o slot a lista de entidades.
+
 **3.** criar as intents com exemplos de entidade.
+
 **4.** criar as utters.
+
 **5.** criar as stories.
 
 ### Exemplificando:
