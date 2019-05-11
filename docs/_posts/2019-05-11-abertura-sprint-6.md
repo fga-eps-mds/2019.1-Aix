@@ -74,5 +74,5 @@ Fim: 04/05/2019
 
 ## Débito Técnico Adicionado
 
-[#232 Definir estratégia para viabilização do deploy contínuo](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/232)<br>
-[#234 Adicionar cobertura de testes no projeto.](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/234)<br>
+[#126 Elaborar documento de qualidade](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/126)<br>
+[#232 Definir estratégia para viabilização do deploy contínuo](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/137)<br>
