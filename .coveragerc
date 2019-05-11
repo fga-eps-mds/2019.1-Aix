@@ -1,4 +1,4 @@
 [run]
 branch = True
-source =  bot, actions
-omit = */apps.py, */migrations/*, */__init__.py, jupyter/, notebooks/, scripts/, analytics/, docs/
+source =  /bot
+omit = */apps.py, */migrations/*, */__init__.py, jupyter/, notebooks/, scripts/, analytics/, docs/, **/tests

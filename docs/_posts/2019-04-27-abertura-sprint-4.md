@@ -63,3 +63,7 @@ Fim: 20/04/2019
 [#133 Documentar Sprint 3](https://github.com/fga-eps-mds/2019.1-aix/issues/133)<br>
 [#135 Atualizar README](https://github.com/fga-eps-mds/2019.1-aix/issues/135)<br>
 [#136 Integrar a Aix ao Telegram](https://github.com/fga-eps-mds/2019.1-aix/issues/136)
+
+## Débito Técnico Adicionado
+
+Não houveram débitos técnicos adicionados a esta sprint.

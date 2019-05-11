@@ -55,8 +55,6 @@ Fim: 13/04/2019
 
 ## Sprint Backlog
 
-[#37 Elaborar o roadmap de papeis](https://github.com/fga-eps-mds/2019.1-aix/issues/37)<br>
-[#46 Configurar ferramentas de CI](https://github.com/fga-eps-mds/2019.1-aix/issues/46)<br>
 [#66 Adicionar tópico sobre Curiosidades de Python](https://github.com/fga-eps-mds/2019.1-aix/issues/66)<br>
 [#68 Adicionar tópico para que o bot seja capaz de Manter uma conversa](https://github.com/fga-eps-mds/2019.1-aix/issues/68)<br>
 [#69 Adicionar tópico com a definição de variável](https://github.com/fga-eps-mds/2019.1-aix/issues/69)<br>
@@ -80,3 +78,9 @@ Fim: 13/04/2019
 [#98 Refatorar Documento de Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/98)<br>
 [#99 Refatorar plano de comunicação](https://github.com/fga-eps-mds/2019.1-aix/issues/99)<br>
 [#106 Refatorar Backlog do produto](https://github.com/fga-eps-mds/2019.1-aix/issues/106)<br>
+
+
+## Débito Técnico Adicionado
+
+[#37 Elaborar o roadmap de papeis](https://github.com/fga-eps-mds/2019.1-aix/issues/37)<br>
+[#46 Configurar ferramentas de CI](https://github.com/fga-eps-mds/2019.1-aix/issues/46)<br>
