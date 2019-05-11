@@ -5,6 +5,47 @@ tags: sprint abertura eps
 category: Sprint
 ---
 
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#28 Estudo de tecnologia (Boilerplate)](https://github.com/fga-eps-mds/2019.1-aix/issues/28)|Fechado|-|
+|ISSUE|[#29 Elaborar o roadmap do projeto](https://github.com/fga-eps-mds/2019.1-aix/issues/29)|Fechado|-|
+|ISSUE|[#30 Elaborar Backlog de Prduto](https://github.com/fga-eps-mds/2019.1-aix/issues/30)|Fechado|-|
+|ISSUE|[#31 Elaborar canvas do projeto](https://github.com/fga-eps-mds/2019.1-aix/issues/31)|Fechado|-|
+|ISSUE|[#32 Documentar riscos](https://github.com/fga-eps-mds/2019.1-aix/issues/32)|Fechado|-|
+|ISSUE|[#33 Documentar custos](https://github.com/fga-eps-mds/2019.1-aix/issues/33)|Fechado|-|
+|ISSUE|[#34 Elaborar plano de comunincação](https://github.com/fga-eps-mds/2019.1-aix/issues/34)|Fechado|-|
+|ISSUE|[#35 Documentar sprint 1](https://github.com/fga-eps-mds/2019.1-aix/issues/35)|Fechado|-|
+|ISSUE|[#36 Configurar github pages](https://github.com/fga-eps-mds/2019.1-aix/issues/36)|Fechado|-|
+|ISSUE|[#38 Criar identidade visual](https://github.com/fga-eps-mds/2019.1-aix/issues/38)|Fechado|-|
+|ISSUE|[#39 Personalidade do bot](https://github.com/fga-eps-mds/2019.1-aix/issues/39)|Fechado|-|
+|ISSUE|[#40 Criar e documentar folha de estilo](https://github.com/fga-eps-mds/2019.1-aix/issues/40)|Fechado|-|
+|ISSUE|[#41 Adicionar tópico: Cumprimentar](https://github.com/fga-eps-mds/2019.1-aix/issues/41)|Fechado|-|
+|ISSUE|[#43 Adicionar tópico: Sobre Aix](https://github.com/fga-eps-mds/2019.1-aix/issues/43)|Fechado|-|
+|ISSUE|[#44 Adicionar tópico: Menu ajuda](https://github.com/fga-eps-mds/2019.1-aix/issues/44)|Fechado|-|
+|ISSUE|[#45 Adicionar tópico: Despedir](https://github.com/fga-eps-mds/2019.1-aix/issues/45)|Fechado|-|
+|ISSUE|[#44 Adicionar tópico: Menu ajuda](https://github.com/fga-eps-mds/2019.1-aix/issues/40)|Fechado|-|
+|ISSUE|[#55 Realizar Fork do Boilerplate para Aix](https://github.com/fga-eps-mds/2019.1-aix/issues/55)|Fechado|-|
+|ISSUE|[#59 Resolver conflitos com o boilerplate](https://github.com/fga-eps-mds/2019.1-aix/issues/59)|Fechado|-|
+
+### Pontuação Final
+
+* __Pontuação Total:__ - Pontos Planejados
+* __Débitos Técnicos Adicionados:__ - Pontos 
+* __Pontos Concluídos:__ - Pontos Concluídos
+* __Pontos Não Agregados:__ - Pontos Não Agregados Nessa Sprint
+
+### Débitos Técnicos de Sprints Anteriores
+
+* Não houveram débitos técnicos para pagar nesta sprint
+
+### Débitos Técnicos Gerados
+
+* [#37 Elaborar o roadmap de papeis](https://github.com/fga-eps-mds/2019.1-aix/issues/37)
+* [#46 Configurar ferramentas de CI](https://github.com/fga-eps-mds/2019.1-aix/issues/46)
+* [#42 Deploy do servidor de homologação](https://github.com/fga-eps-mds/2019.1-aix/issues/42)
+
 ## Retrospectiva
 
 ### Pontos Positivos

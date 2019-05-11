@@ -4,6 +4,40 @@ title: Fechamento da Sprint 1
 tags: sprint fechamento eps
 category: Sprint
 ---
+## Fechamento da _Sprint_
+
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#8 Treinamento de tecnologias](https://github.com/fga-eps-mds/2019.1-aix/issues/8)|Fechado|-|
+|ISSUE|[#9 Treinamento de Chatbot](https://github.com/fga-eps-mds/2019.1-aix/issues/9)| Fechado | - |
+|ISSUE|[#10 Elaboração do TAP](https://github.com/fga-eps-mds/2019.1-aix/issues/10)|Fechado| - |
+|ISSUE|[#11 Elaboração do EAP](https://github.com/fga-eps-mds/2019.1-aix/issues/11)|Fechado| - |
+|ISSUE|[#12 Definir tecnologias a serem utilizadas](https://github.com/fga-eps-mds/2019.1-aix/issues/12)|Fechado| - |
+|ISSUE|[#13 Criar documento de Metodologia](https://github.com/fga-eps-mds/2019.1-aix/issues/13)|Fechado| - |
+|ISSUE|[#14 Documentar Sprint 0](https://github.com/fga-eps-mds/2019.1-aix/issues/14)|Fechado| - |
+|ISSUE|[#15 Definição da arquitetura inicial](https://github.com/fga-eps-mds/2019.1-aix/issues/15)|Fechado| - |
+|ISSUE|[#16 Elaborar documento de visão](https://github.com/fga-eps-mds/2019.1-aix/issues/16)|Fechado| - |
+|ISSUE|[#17 Elaborar documento de arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/17)|Fechado| - |
+|ISSUE|[#18 Criar fluxograma versão 1.0](https://github.com/fga-eps-mds/2019.1-aix/issues/18)|Fechado| - |
+|ISSUE|[#19 Dockerizar o ambiente](https://github.com/fga-eps-mds/2019.1-aix/issues/19)|Fechado| - |
+
+
+### Pontuação Final
+
+* __Pontuação Total:__ - Pontos Planejados
+* __Débitos Técnicos Adicionados:__ - Pontos 
+* __Pontos Concluídos:__ - Pontos Concluídos
+* __Pontos Não Agregados:__ - Pontos Não Agregados Nessa Sprint
+
+### Débitos Técnicos de Sprints Anteriores
+
+* Não houveram débitos técnicos para pagar nesta sprint
+
+### Débitos Técnicos Gerados
+
+* Não foram gerados débitos nesta sprint
 
 ## Retrospectiva
 

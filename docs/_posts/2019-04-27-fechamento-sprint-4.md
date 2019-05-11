@@ -5,6 +5,38 @@ tags: sprint abertura eps
 category: Sprint
 ---
 
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#124 Configurar informações do bot no Rocketchat](https://github.com/fga-eps-mds/2019.1-aix/issues/124)|Fechado|-|
+|ISSUE|[#125 Elaborar documento de levantamento de métricas](https://github.com/fga-eps-mds/2019.1-aix/issues/125)|Fechado|-|
+|ISSUE|[#127 Definir testes de acordo com a arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/127)|Fechado|-|
+|ISSUE|[#128 Elaborar NFR](https://github.com/fga-eps-mds/2019.1-aix/issues/128)|Fechado|-|
+|ISSUE|[#129 Adicionar tópico com exemplos de utilização de estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/129)|Fechado|-|
+|ISSUE|[#130 Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/130)|Fechado|-|
+|ISSUE|[#131 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/131)|Fechado|-|
+|ISSUE|[#132 Adicionar tópico de Fallback](https://github.com/fga-eps-mds/2019.1-aix/issues/132)|Fechado|-|
+|ISSUE|[#133 Documentar Sprint 3](https://github.com/fga-eps-mds/2019.1-aix/issues/133)|Fechado|-|
+|ISSUE|[#135 Atualizar README](https://github.com/fga-eps-mds/2019.1-aix/issues/135)|Fechado|-|
+|ISSUE|[#136 Integrar a Aix ao Telegram](https://github.com/fga-eps-mds/2019.1-aix/issues/136)|Fechado|-|
+
+### Pontuação Final
+
+* __Pontuação Total:__ - Pontos Planejados
+* __Débitos Técnicos Adicionados:__ - Pontos 
+* __Pontos Concluídos:__ - Pontos Concluídos
+* __Pontos Não Agregados:__ - Pontos Não Agregados Nessa Sprint
+
+### Débitos Técnicos de Sprints Anteriores
+
+* Não houveram débitos técnicos para pagar nesta sprint
+
+### Débitos Técnicos Gerados
+
+* [#126 Elaborar documento de qualidade](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/126)
+* [#137 Comunicação da Aix com a API do StackOverflow](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/137)
+
 ## Retrospectiva
 
 ### Pontos Positivos
