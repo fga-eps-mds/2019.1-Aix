@@ -15,11 +15,10 @@ notifications:
 
 jobs:
   include:
-    - stage: Build Bot
+    - stage: Bot
       env: SERVICE_NAME=aix-bot
       script:
-        - echo "Checking for changes in bot/, scripts/ or .travis.yml"
-        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot/|\.travis.yml|scripts/)'  || exit(0)
+        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|scripts\/)'  || exit 0
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
         - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
         - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
@@ -28,11 +27,10 @@ jobs:
         script: bash ./deploy.sh
         on:
           branch: master
-    - stage: Build Actions
+    - stage: Actions
       env: SERVICE_NAME=aix-actions
       script:
-        - echo "Checking for changes in actions/ or travis.yml"
-        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions/|\.travis.yml|scripts/)'  || exit(0)
+        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude=__pycache__ actions
       deploy:
