@@ -72,7 +72,7 @@ Para usarmos a ferramenta, é necessário seguirmos os seguintes passos:
 	    - o que o [Iuri Severo](nome) preparou para a R1
 	    - o que o [Pedro Igor](nome) fez para a R1
 	    - o que o [André](nome) fez para a R1
-		- o que o [Gustavo](nome) criou para a R1
+	    - o que o [Gustavo](nome) criou para a R1
 	
 Já o **Passo 4.** e o **Passo 5.** são usuais, de construção de utters e stories nos arquivos domain.yml e stories.md. Não tem segredo nenhum!
 
