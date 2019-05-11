@@ -84,21 +84,21 @@ templates:
           5. Pesquisar no StackOverflow.
 
         Conteúdos mapeados:
-          -Variáveis
-          -Estruturas Condicionais
-          -Estrutura de Repetição
-          -Arquivos
-          -Bibliotecas
-          -Vetores
-          -Matrizes
+          - Variáveis
+          - Estruturas Condicionais
+          - Estrutura de Repetição
+          - Arquivos
+          - Bibliotecas
+          - Vetores
+          - Matrizes
 
         *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
-          Como? Escreva algo do tipo:
-            Quero saber o que é [Nome do conteúdo]
-            Me dê exercícios sobre [Nome do conteúdo]
-            Quero saber mais sobre [Nome do conteúdo]
-            Quero um exemplo sobre [Nome do conteúdo]
-          OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provável que eu entenda!
+        Como? Escreva algo do tipo:
+          Quero saber o que é [Nome do conteúdo]
+          Me dê exercícios sobre [Nome do conteúdo]
+          Quero saber mais sobre [Nome do conteúdo]
+          Quero um exemplo sobre [Nome do conteúdo]
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provável que eu entenda!
 
         *Para pesquisar no StackOverflow voce deve digitar:
           pesquise sobre [conteúdo que você quer saber]
@@ -222,16 +222,16 @@ templates:
         Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
         Pode perguntar!
     - text: |
-          Como me usar? Pra que eu sirvo? Deixa eu te explicar:
-          Eu sou uma cabra super inteligente que sabe tudo sobre Python!
-          Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
-          Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
-          Olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
-          É só perguntar!
+        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
+        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
+        Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
+        Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
+        Olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+        É só perguntar!
     - text: |
-          Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
-          Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
-          Pode perguntar!
+        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
+        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Estruturas Condicionais e ainda consigo procurar coisas no StackOverflow!
+        Pode perguntar!
 
   utter_curiosidades_python:
     - text: |
@@ -365,11 +365,11 @@ templates:
 
   utter_sobre_arquivos:
     - text: |
-          O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
+        O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
-          Quer um exemplo para entender melhor? 
+        Quer um exemplo para entender melhor? 
 
-          Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo de arquivos, exemplos de escrever arquivos
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo de arquivos, exemplos de escrever arquivos
         Simples como comer capim! 
 
   utter_sobre_vetores:
@@ -401,10 +401,10 @@ templates:
         Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas duplas.
         Temos então:
             print("Hello World!")
-      image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-
+      
+      image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
   utter_sobre_importar_bibliotecas:
     - text : |
@@ -518,7 +518,9 @@ templates:
 
   utter_exemplo_arquivos:
     - text: |
-         arquivo = open('bodes-mais-legais.txt', 'w')
+        Que tal um exemplo?
+          
+          arquivo = open('bodes-mais-legais.txt', 'w')
           texto = "Aix Chatbot"
           arquivo.write(texto)
           arquivo.close()
@@ -527,26 +529,27 @@ templates:
         A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto, por fim, o arquivo é fechado com a função 'close'!!
 
         Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um!
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos arquivo, praticar arquivo
+        Bée... Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos arquivo, praticar arquivo
         Simples como comer capim!
-        Vocễ sente que ja aprendeu béem sobre arquvios? Você pode pular para o próximo conteúdo! É só me pedir para falar sobre bibliotecas!
+        Você sente que ja aprendeu béem sobre arquvios? Você pode pular para o próximo conteúdo! É só me pedir para falar sobre bibliotecas!
 
   utter_exemplo_vetores:
     - text: |
-          Béeem, um exemplo de vetor? Imagine que eu quero contar quantos fenos eu comi na semana. Como eu faria isso? Com um vetor de fenos por dia!! Ficaria mais ou menos assim:
-            fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
+        Béeem, um exemplo de vetor? Imagine que eu quero contar quantos fenos eu comi na semana. Como eu faria isso? Com um vetor de fenos por dia!! Ficaria mais ou menos assim:
+          fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
 
-          E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
-            print(fenos_por_dia[0])
-            # 4
+        E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
+          print(fenos_por_dia[0])
+          # 4
 
-          Lembrando que as posições começam a ser contadas a partir 0.
+        Lembrando que as posições começam a ser contadas a partir 0.
 
-          Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
-          Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos vetores, exercicios vetores
-          Ou se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
-      image: |
+        Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos vetores, exercicios vetores
+        Ou se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
         Simples como comer capim!
+
+      image: |
           https://i.imgur.com/soiRg1i.png
 
   utter_exemplo_matrizes:
@@ -587,19 +590,19 @@ templates:
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
     - text: |
-          Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
-          Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
-            Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
-            Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
-            Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
-          Não esquece que para acessar o URI você precisa criar uma conta antes!!
-          Se você preferir, também achei esse exercício resolvido no YouTube,
-          Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
+        Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
+        Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
+          Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
+          Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
+          Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+        Não esquece que para acessar o URI você precisa criar uma conta antes!!
+        Se você preferir, também achei esse exercício resolvido no YouTube,
+        Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-          Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
-          Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
+        Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+        Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
 
-          O programa rodou direitinho? Vamos estudar sobre 'Hello World', é um tema básico mais muito recorrente no aprendizado de uma nova linguagem de programação!
+        O programa rodou direitinho? Vamos estudar sobre 'Hello World', é um tema básico mais muito recorrente no aprendizado de uma nova linguagem de programação!
 
   utter_exercicios_condicionais:
     - text: |
@@ -751,7 +754,7 @@ templates:
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
-         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios matrizes, treinar matrizes
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios matrizes, treinar matrizes
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
