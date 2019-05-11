@@ -273,6 +273,7 @@ templates:
         O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender!
         Possui uma sintaxe bastante organizada, como meus fenos, e permite a fácil leitura do código.
         O Python foi criado por Guido van Rossum, no ano de 1991, béem antes de eu nascer.
+        Agora que sabe sobre o Python, por que não me pergunta sobre variáveis? É um ótimo conteúdo para começar a aprender a linguagem!
 
   utter_sobre_variaveis:
     - text: |
@@ -294,6 +295,8 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
+
+        Caso já tenha entendido tudinho sobre inteiros, por que não aprender agora sobre o 'Hello World'? É só me perguntar sobre este tema, que te explico direitinho!
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
@@ -303,6 +306,8 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
+
+        E aí, entendeu tudo direitinho sobre pontos flutuantes? Agora seria muuuito legal você aprender sobre o 'Hello World'!
 
   utter_sobre_caracteres:
     - text: |
@@ -314,6 +319,8 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
+        Mas caso já tenha entendido, e não precise dos exercícios, vamos logo pro próximo conteúdo, ele é béem legal de aprender, se chama 'Hello World' só me pedir pra te ensiná-lo que te ajudarei com prazer!
+
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
@@ -323,6 +330,8 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
+
+        Se for verdadeiro que você aprendeu sobre booleanos, me peça para te ensinar 'Hello World', hahah!
 
   utter_sobre_condicionais:
     - text: |
@@ -420,6 +429,9 @@ templates:
 
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
 
+        Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
+        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
+
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
 
       image: |
@@ -438,7 +450,8 @@ templates:
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
-        Que saber mais? Me peça conteúdo extra de variáveis!
+        Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
+        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: links externos para variaveis, mais conteudo sobre variaveis
         Simples como comer capim!
@@ -565,7 +578,9 @@ templates:
           Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
           Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
-          Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar
+          Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
+
+          O programa rodou direitinho? Vamos estudar sobre 'Hello World', é um tema básico mais muito recorrente no aprendizado de uma nova linguagem de programação!
 
   utter_exercicios_condicionais:
     - text: |
