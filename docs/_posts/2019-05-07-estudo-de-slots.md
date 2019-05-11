@@ -2,7 +2,7 @@
 layout: post
 title: Estudo de Slots
 tags: estudo slots customAction mds 
-category: Estudo
+category: Projeto
 ---
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
@@ -78,6 +78,35 @@ Para usarmos a ferramenta, é necessário seguirmos os seguintes passos:
 	
 Já o **Passo 4.** e o **Passo 5.** são usuais, de construção de utters e stories nos arquivos domain.yml e stories.md. Não tem segredo nenhum!
 
+### Slots em uma Custom Action
+&emsp;&emsp;
+Por fim, outro modo de utilizar os slots é com uma Custom Action, a partir dos comandos ```SetSlot``` e ```tracker.get_slot```, como pode ser visto nos exemplos abaixo.
+```
+from rasa_core_sdk import Action
+
+class TestSlot(Action):
+    def name(self):
+        return "action_test_slot"
+
+    def run(self, dispatcher, tracker, domain):
+        slot = tracker.get_slot('pesquisa')
+        dispatcher.utter_message('Mensagem da custom action de teste')
+        dispatcher.utter_message(slot)
+```
+```
+from rasa_core_sdk.actions import Action
+from rasa_core_sdk.events import SlotSet
+import requests
+
+class FetchProfileAction(Action):
+    def name(self):
+        return "fetch_profile"
+
+    def run(self, dispatcher, tracker, domain):
+        url = "http://myprofileurl.com"
+        data = requests.get(url).json
+        return [SlotSet("account_type", data["account_type"])]
+```
 
 # Teste de Slot
 ## Teste de nomes captados pela função **ActionIntegranteHorario** do **[Lappisudo](https://github.com/lappis-unb/lappisudo)**
