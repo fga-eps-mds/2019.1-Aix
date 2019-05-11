@@ -454,9 +454,12 @@ templates:
           print("amo a Aix")
 
         Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
-
+        
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional if, conteudo extra condicionais
         Simples como comer capim!
+
+        E caso você queria seguir na sua carreira de desenvolver python, você pode perguntar pra mim sobre vetores!
+
 
       image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -469,6 +472,8 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional for while, conteudo extra estruturas de repetição
         Simples como comer capim!
+
+        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o proximo conteúdo!
 
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
@@ -488,6 +493,8 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios função, praticar funções
         Simples como comer capim!
 
+        Sabia que você também pode começar a estudar para o proximo conteúdo? É só me pedir para falar sobre arquivos!
+
   utter_exemplo_arquivos:
     - text: |
          arquivo = open('bodes-mais-legais.txt', 'w')
@@ -501,6 +508,7 @@ templates:
         Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um!
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos arquivo, praticar arquivo
         Simples como comer capim!
+        Vocễ sente que ja aprendeu béem sobre arquvios? Você pode pular para o próximo conteúdo! É só me pedir para falar sobre bibliotecas!
 
   utter_exemplo_vetores:
     - text: |
@@ -579,6 +587,8 @@ templates:
         Deu algum erro no código? Só pedir que eu procuro por ele no StackOverflow!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
+        ou agora que você já acabou todo o conteúdo de condicionais, que tal me perguntar sobre vetor?
+
   utter_exercicios_repeticao:
     - text: |
         Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
@@ -590,6 +600,7 @@ templates:
 
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
+        Também não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
 
   utter_exercicios_vetores:
     - text: |
@@ -601,6 +612,7 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        
 
   utter_exercicios_matrizes:
     - text: |
@@ -622,6 +634,7 @@ templates:
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        E oras, agora que você acabou o conteúdo de arquivos, que tal me perguntar sobre bibliotecas?
 
   utter_exercicios_funcao:
     - text: |
@@ -633,6 +646,7 @@ templates:
         
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro. 
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
