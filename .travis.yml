@@ -18,7 +18,7 @@ jobs:
     - stage: Bot
       env: SERVICE_NAME=aix-bot
       script:
-        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|scripts\/)'  || exit 0
+        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|\.travis.yml|scripts\/)'  || exit 0
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
         - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
         - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
