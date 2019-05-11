@@ -369,6 +369,7 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo de vetor, exemplo de array
         Simples como comer capim!
 
+
   utter_sobre_matrizes:
     - text: |
         Uma matriz pode ser representada como um vetor de vetores, ou seja, ela também é uma coleção de variáveis acessíveis com um único nome e armazenados contiguamente na memória.
@@ -388,6 +389,9 @@ templates:
         Temos então:
             print("Hello World!")
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
+
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+
 
   utter_sobre_importar_bibliotecas:
     - text : |
@@ -515,6 +519,7 @@ templates:
 
           Agora que você já viu na prática, por que não lê um pouco mais? Só me pedir por um conteúdo extra sobre vetores!
           Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos vetores, exercicios vetores
+          Ou se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
       image: |
         Simples como comer capim!
           https://i.imgur.com/soiRg1i.png
@@ -539,6 +544,8 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: treinar matrizes, exercicios matrizes
         Simples como comer capim!
+        Ou se preferir, podemos seguir pro próximo conteúdo sugerido: Laços de repetição. É só perguntar o que são laços de repetição que eu te explico.
+
 
       image: |
         https://i.imgur.com/7c8UasQ.png
@@ -601,6 +608,7 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
   utter_exercicios_matrizes:
     - text: |
@@ -613,6 +621,7 @@ templates:
 
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
+        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Laços de repetição. É só perguntar o que são laços de repetição que eu te explico.
 
   utter_exercicios_arquivos:
     - text: |
