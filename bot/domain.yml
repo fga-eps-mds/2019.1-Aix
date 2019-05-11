@@ -87,6 +87,10 @@ templates:
           -Variáveis
           -Estruturas Condicionais
           -Estrutura de Repetição
+          -Arquivos
+          -Bibliotecas
+          -Vetores
+          -Matrizes
 
         *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
           Como? Escreva algo do tipo:
