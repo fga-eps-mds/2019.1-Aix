@@ -3,31 +3,10 @@ import requests
 import json
 
 
-class ActionOTRS(Action):
-    def name(self):
-        return "action_otrs"
-
-    def run(self, dispatcher, tracker, domain):
-        try:
-            dispatcher.utter_message(
-                "Mensagem enviada por uma custom action!!"
-            )
-        except ValueError:
-            dispatcher.utter_message(ValueError)
-
-    def createTicket(self, dispatcher, tracker, domain):
-        # TODO
-        return
-
-    def closeTicket(self, dispatcher, tracker, domain):
-        # TODO
-        return
-
-
 class ActionPesquisaStackoverflow(Action):
     def name(self):
         return "action_pesquisa_stackoverflow"
-        
+
     def format_research(self, tracker):
         research = tracker.latest_message['text']
         research = research.lower()
@@ -50,7 +29,7 @@ class ActionPesquisaStackoverflow(Action):
 
         result = requests.get(link, params=payload)
         dictionary = json.loads(result.text)
-        
+
         return dictionary
 
     def dispatch_links(self, dictionary, dispatcher):
@@ -74,6 +53,6 @@ class ActionPesquisaStackoverflow(Action):
         research = self.format_research(tracker)
         action_message = 'Então você quer saber sobre ' + research
         action_message += '... Vou ver o que acho aqui entre meus fenos!!'
-        dispatcher.utter_message(action_message);
+        dispatcher.utter_message(action_message)
         dictionary = self.stackoverflow_request(research)
         self.dispatch_links(dictionary, dispatcher)

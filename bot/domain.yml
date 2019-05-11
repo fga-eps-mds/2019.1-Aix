@@ -57,8 +57,6 @@ intents:
   - conteudo_extra_matrizes
 
 
-
-  - action_otrs
   - pesquisa_stackoverflow
   - pesquisar
 
@@ -375,10 +373,9 @@ templates:
   utter_sobre_funcao:
     - text: |
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
-
-	      Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
-
-
+        
+        Caso ainda esteja muito abstrato, me peça um 'exemplo de funções', que eu te mostro uma na prática!
+        
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
@@ -428,14 +425,14 @@ templates:
 
   utter_exemplo_funcao:
     - text: |
-        Imagine que eu preciso mostrar a frase "Oi, " e dizer o nome da pessoa: "Oi, Nelson!". É possível fazer uma função que receba como parâmetro o nome e dentro dela, ela 	monte e retorne essa frase!
+        Imagine que eu preciso mostrar a frase "Oi, " e citar o nome da pessoa "Oi, Nelson!". É possível fazer uma função que receba como parâmetro o nome e dentro dela, ela 	monte e retorne essa frase!
 
-        def oi(nome)
-          return "Oi, " + nome;
+          def oi(nome)
+            return "Oi, " + nome;
+        
+            A palavra reservada "def", é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
-	      A palavra reservada 'def', é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função 'oi' é o nome único que havia falado, e 'nome' é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
-
-	      Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
+            Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir 'exercícios sobre funções' que te enviareis alguns com todo prazer!!!
 
 
 
@@ -604,8 +601,8 @@ templates:
       - text : |
           Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
 
-	        https://www.devmedia.com.br/funcoes-em-python/37340
-	        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
+          https://www.devmedia.com.br/funcoes-em-python/37340
+          https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
   utter_conteudo_extra_arquivos:
       - text : |
@@ -682,7 +679,6 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
-  - utter_exemplo_importar_bibliotecas
 
 
 
@@ -691,9 +687,6 @@ actions:
   - utter_exercicios_repeticao
   - utter_exercicios_funcao
   - utter_exercicios_arquivos
-  - utter_exercicios_variaveis
-  - utter_exercicios_condicionais
-  - utter_exercicios_repeticao
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
 
@@ -707,6 +700,5 @@ actions:
   - utter_conteudo_extra_matrizes
 
 
-  - action_otrs
   - action_pesquisa_stackoverflow
   - utter_pesquisar

@@ -1,7 +1,3 @@
-## action
-* action_otrs
-    - action_otrs
-
 ## pesquisar_no_stackoverflow
 * pesquisar
 	- utter_pesquisar
