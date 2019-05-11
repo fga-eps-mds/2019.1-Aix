@@ -52,3 +52,7 @@ Fim: 23/03/2019
 [#4 Dojo: Licenças](https://github.com/fga-eps-mds/2019.1-aix/issues/4)<br>
 [#5 Dojo: Documento de Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/5)<br>
 [#6 Formulário para a coleta de requisitos](https://github.com/fga-eps-mds/2019.1-aix/issues/6)
+
+## Débito Técnico Adicionado
+
+Devido ao fato de esta ser a primeiro Sprint do projeto, não exitem débitos técnicos adicionados

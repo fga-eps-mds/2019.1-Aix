@@ -5,6 +5,37 @@ tags: sprint abertura eps
 category: Sprint
 ---
 
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#124 Configurar informações do bot no Rocketchat](https://github.com/fga-eps-mds/2019.1-aix/issues/124)|Fechado|1|
+|ISSUE|[#125 Elaborar documento de levantamento de métricas](https://github.com/fga-eps-mds/2019.1-aix/issues/125)|Fechado|3|
+|ISSUE|[#127 Definir testes de acordo com a arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/127)|Fechado|5|
+|ISSUE|[#128 Elaborar NFR](https://github.com/fga-eps-mds/2019.1-aix/issues/128)|Fechado|3|
+|ISSUE|[#129 Adicionar tópico com exemplos de utilização de estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/129)|Fechado|2|
+|ISSUE|[#130 Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/130)|Fechado|1|
+|ISSUE|[#131 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas de repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/131)|Fechado|1|
+|ISSUE|[#132 Adicionar tópico de Fallback](https://github.com/fga-eps-mds/2019.1-aix/issues/132)|Fechado|1|
+|ISSUE|[#133 Documentar Sprint 3](https://github.com/fga-eps-mds/2019.1-aix/issues/133)|Fechado|2|
+|ISSUE|[#135 Atualizar README](https://github.com/fga-eps-mds/2019.1-aix/issues/135)|Fechado|1|
+|ISSUE|[#136 Integrar a Aix ao Telegram](https://github.com/fga-eps-mds/2019.1-aix/issues/136)|Fechado|8|
+
+### Pontuação Final
+
+* __Pontuação Total:__ 33 Pontos Planejados
+* __Débitos Técnicos Adicionados:__ 0 Pontos 
+* __Pontos Concluídos:__ 33 Pontos Concluídos
+
+### Débitos Técnicos de Sprints Anteriores
+
+* Não houveram débitos técnicos para pagar nesta sprint
+
+### Débitos Técnicos Gerados
+
+* [#126 Elaborar documento de qualidade](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/126)
+* [#137 Comunicação da Aix com a API do StackOverflow](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/137)
+
 ## Retrospectiva
 
 ### Pontos Positivos

@@ -5,6 +5,50 @@ tags: sprint abertura eps
 category: Sprint
 ---
 
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#66 Adicionar tópico sobre Curiosidades de Python](https://github.com/fga-eps-mds/2019.1-aix/issues/66)|Fechado|1|
+|ISSUE|[#68 Adicionar tópico para que o bot seja capaz de Manter uma conversa](https://github.com/fga-eps-mds/2019.1-aix/issues/68)|Fechado|2|
+|ISSUE|[#69 Adicionar tópico com a definição de variável](https://github.com/fga-eps-mds/2019.1-aix/issues/69)|Fechado|2|
+|ISSUE|[#70 Adicionar tópico com exemplos de usos de variáveis em python](https://github.com/fga-eps-mds/2019.1-aix/issues/70)|Fechado|2|
+|ISSUE|[#71 Adicionar tópico com linkagem estática para conteúdo extra sobre variáveis](https://github.com/fga-eps-mds/2019.1-aix/issues/71)|Fechado|1|
+|ISSUE|[#72 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de variáveis](https://github.com/fga-eps-mds/2019.1-aix/issues/72)|Fechado|1|
+|ISSUE|[#73 Adicionar tópico com a definição do que são estruturas condicionais](https://github.com/fga-eps-mds/2019.1-aix/issues/73)|Fechado|2|
+|ISSUE|[#74 Adicionar tópico com exemplos de utilização de estruturas condicionais](https://github.com/fga-eps-mds/2019.1-aix/issues/74)|Fechado|2|
+|ISSUE|[#75 Adicionar tópico com linkagem estática para conteúdo extra sobre estruturas condicionais](https://github.com/fga-eps-mds/2019.1-aix/issues/75)|Fechado|1|
+|ISSUE|[#76 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de estruturas condicionais](https://github.com/fga-eps-mds/2019.1-aix/issues/76)|Fechado|1|
+|ISSUE|[#77 Refatorar EAP de acordo com Backlog](https://github.com/fga-eps-mds/2019.1-aix/issues/77)|Fechado|1|
+|ISSUE|[#78 Refatorar modelagem da Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/78)|Fechado|2|
+|ISSUE|[#79 Documento de elicitação de requisitos](https://github.com/fga-eps-mds/2019.1-aix/issues/79)|Fechado|1|
+|ISSUE|[#80 Elaborar fluxograma versão 1.1 da Aix](https://github.com/fga-eps-mds/2019.1-aix/issues/80)|Fechado|1|
+|ISSUE|[#81 Documentar Sprint 2](https://github.com/fga-eps-mds/2019.1-aix/issues/81)|Fechado|1|
+|ISSUE|[#82 Dojo: Arquitetura de microsserviços](https://github.com/fga-eps-mds/2019.1-aix/issues/82)|Fechado|3|
+|ISSUE|[#84 Refatorar conteúdo do boilerplate](https://github.com/fga-eps-mds/2019.1-aix/issues/84)|Fechado|1|
+|ISSUE|[#87 Adicionar tópico com a definição de Estruturas de Repetição](https://github.com/fga-eps-mds/2019.1-aix/issues/87)|Fechado|2|
+|ISSUE|[#91 Criar cronograma de lançamento de release](https://github.com/fga-eps-mds/2019.1-aix/issues/91)|Fechado|1|
+|ISSUE|[#96 Refatorar estrutura do Github Pages](https://github.com/fga-eps-mds/2019.1-aix/issues/96)|Fechado|2|
+|ISSUE|[#98 Refatorar Documento de Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/98)|Fechado|1|
+|ISSUE|[#99 Refatorar plano de comunicação](https://github.com/fga-eps-mds/2019.1-aix/issues/99)|Fechado|1|
+|ISSUE|[#106 Refatorar Backlog do produto](https://github.com/fga-eps-mds/2019.1-aix/issues/106)|Fechado|2|
+
+### Pontuação Final
+
+* __Pontuação Total:__ 40 Pontos Planejados
+* __Débitos Técnicos Adicionados:__ 14 Pontos 
+* __Pontos Concluídos:__ 40 Pontos Concluídos
+
+### Débitos Técnicos de Sprints Anteriores
+
+* [#37 Elaborar o roadmap de papeis](https://github.com/fga-eps-mds/2019.1-aix/issues/37)
+* [#46 Configurar ferramentas de CI](https://github.com/fga-eps-mds/2019.1-aix/issues/46)
+* [#42 Deploy do servidor de homologação](https://github.com/fga-eps-mds/2019.1-aix/issues/42)
+
+### Débitos Técnicos Gerados
+
+* [#42 Deploy do servidor de homologação](https://github.com/fga-eps-mds/2019.1-aix/issues/42)
+
 ## Retrospectiva
 
 ### Pontos Positivos
