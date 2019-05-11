@@ -4,7 +4,9 @@ title: Estudo de Slots
 tags: estudo slots customAction mds 
 category: Estudo
 ---
-
+| Data       | Versão | Descrição                                   | Autor            |
+| :--------: | :----: | :-----------------------------------------: | :--------------: |
+| 11/05/2019 | 0.0.1  | Criação do documento             | Gabriela, Iuri   |
 
 # Slots: o que são, de onde vem e o que fazem?
 
