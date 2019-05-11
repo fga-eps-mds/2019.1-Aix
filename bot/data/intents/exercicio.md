@@ -47,6 +47,7 @@
 - pratica condicional
 - atividade condicional
 - treinamento condicional
+- gostaria de fazer uns exercicios sobre estruturas condicionais
 
 ## intent:exercicios_variaveis
 - exercício variáveis
@@ -97,6 +98,7 @@
 - pratica double
 - atividade float
 - treinamento double
+- gostaria de fazer uns exercicios sobre variaveis
 
 ## intent:exercicios_repeticao
 - exercício laços
@@ -156,6 +158,7 @@
 - pratica for
 - atividade while
 - treinamento for
+- gostaria de fazer uns exercicios sobre estruturas de repetição
 
 ## intent:exercicios_funcao
 - exercício função
@@ -211,6 +214,7 @@
 - tarefa funçoes função funções
 - dever função funcao funções funcoes
 - atividade função funcao funções funcoes
+- gostaria de fazer uns exercicios sobre funções
 
 
 ## intent:exercicios_arquivos
@@ -248,6 +252,7 @@
 - sobre como escrever em arquivos
 - sobre como ler arquivos
 - sobre como ler arquivo
+- gostaria de fazer uns exercicios sobre arquivos
 
 ## intent:exercicios_vetores
 - exercício vetor
@@ -282,6 +287,7 @@
 - atividade vetores
 - treinamento arrays
 - treinamento array unidimensional
+- gostaria de fazer uns exercicios sobre vetores
 
 ## intent:exercicios_matrizes
 - exercício matriz
@@ -316,4 +322,4 @@
 - atividade matrizes
 - treinamento arrays bidimensionais
 - treinamento array bidimensional
-
+- gostaria de fazer uns exercicios sobre matrizes

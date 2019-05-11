@@ -5,6 +5,32 @@ tags: sprint revisão eps
 category: Sprint
 ---
 
+### Backlog da Sprint
+
+| ID | História | Status | Pontos |
+|:--:| ------- | :----: | :----: |
+|ISSUE|[#1 Dojo: Git](https://github.com/fga-eps-mds/2019.1-aix/issues/1)|Fechado|3|
+|ISSUE|[#2 Dojo: Documento de Visão](https://github.com/fga-eps-mds/2019.1-aix/issues/2)|Fechado|2|
+|ISSUE|[#3 Dojo: Metodologias e práticas ágeis](https://github.com/fga-eps-mds/2019.1-aix/issues/3)|Fechado|2|
+|ISSUE|[#4 Dojo: Licenças](https://github.com/fga-eps-mds/2019.1-aix/issues/4)|Fechado|2|
+|ISSUE|[#5 Dojo: Documento de Arquitetura](https://github.com/fga-eps-mds/2019.1-aix/issues/5)|Fechado|2|
+|ISSUE|[#6 Formulário para a coleta de requisitos](https://github.com/fga-eps-mds/2019.1-aix/issues/6)|Fechado|3|
+
+
+### Pontuação Final
+
+* __Pontuação Total:__ 14 Pontos Planejados
+* __Débitos Técnicos Adicionados:__ 0 Pontos 
+* __Pontos Concluídos:__ 14 Pontos Concluídos
+
+### Débitos Técnicos de Sprints Anteriores
+
+* Não houveram débitos técnicos para pagar nesta sprint
+
+### Débitos Técnicos Gerados
+
+* Não foram gerados débitos nesta sprint
+
 ## Retrospectiva
 
 ### Pontos Positivos

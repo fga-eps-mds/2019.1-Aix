@@ -23,7 +23,7 @@ RUN apt-get -yq remove --purge --auto-remove -y ${BUILD_PACKAGES}; \
 
 ADD ./bot /bot
 ADD ./scripts /scripts
-
+ADD ./tests /bot/tests
 
 WORKDIR /bot
 
