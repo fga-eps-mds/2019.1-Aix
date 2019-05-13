@@ -12,7 +12,7 @@
 - conteúdo extra laços
 - conteudo extra estrutura de repetiçao
 - conteúdo extra estrutura de repetição
-- mais sobre sobre laços
+- mais sobre laços
 - mais sobre for while
 - outra fonte estrutura repetição
 - outra fonte for while
