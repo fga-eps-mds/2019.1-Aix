@@ -8,30 +8,33 @@ sudo: required
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
-env:
- - DOCKER_COMPOSE_VERSION=1.23.2
+# before_install:
+#   - sudo apt-get install ruby
+#   - gem install "rubygems-update:<3.0.0" --no-document
+#   - gem install bundler:2.0.1
 
-
-before_install:
-  - sudo rm /usr/local/bin/docker-compose
-  - curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` > docker-compose
-  - chmod +x docker-compose
-  - sudo mv docker-compose /usr/local/bin
-  - sudo apt-get install ruby
-  - gem install "rubygems-update:<3.0.0" --no-document
-  - gem install bundler:2.0.1
-
-  - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
-  - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
-
-script:
-  - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
-  - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude=__pycache__ actions
-  - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
-
-# deploy:
-#   provider: script
-#   script: bash ./deploy.sh
-  # remover comentário antes de abrir o pull request
-  # on:
-  #  branch: master
+jobs:
+  include:
+    - stage: Bot
+      env: SERVICE_NAME=aix-bot
+      script:
+        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|\.travis.yml|scripts\/)'  || exit 0
+        - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
+        - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude=__pycache__ --ignore=F821, F841
+        - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
+      deploy:
+        provider: script
+        script: bash ./deploy.sh
+        on:
+          branch: master
+    - stage: Actions
+      env: SERVICE_NAME=aix-actions
+      script:
+        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
+        - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
+        - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude=__pycache__ actions
+      deploy:
+        provider: script
+        script: bash ./deploy.sh
+        on:
+         branch: master
