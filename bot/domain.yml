@@ -12,53 +12,20 @@ intents:
   - menu_ajuda
   - curiosidades_python
 
-  - sobre_aix
-  - sobre_python
-  - sobre_variaveis
-  - sobre_inteiros
-  - sobre_pontos_flutuantes
-  - sobre_caracteres
-  - sobre_booleanos
-  - sobre_condicionais
-  - sobre_repeticao
-  - sobre_funcao
-  - sobre_arquivos
-  - sobre_vetores
-  - sobre_matrizes
-  - sobre_hello_world
-  - sobre_importar_bibliotecas
-
-
-  - exemplo_variaveis
-  - exemplo_condicionais
-  - exemplo_repeticao
-  - exemplo_funcao
-  - exemplo_arquivos
-  - exemplo_vetores
-  - exemplo_matrizes
-  - exemplo_importar_bibliotecas
-
-
-  - exercicios_variaveis
-  - exercicios_condicionais
-  - exercicios_repeticao
-  - exercicios_funcao
-  - exercicios_arquivos
-  - exercicios_vetores
-  - exercicios_matrizes
-
-
-  - conteudo_extra_variaveis
-  - conteudo_extra_condicionais
-  - conteudo_extra_repeticao
-  - conteudo_extra_funcao
-  - conteudo_extra_arquivos
-  - conteudo_extra_vetores
-  - conteudo_extra_matrizes
 
 
   - pesquisa_stackoverflow
   - pesquisar
+
+  - action_sobre_intent
+
+entities:
+  - conteudo
+
+slots:
+  conteudo:
+    type: text
+    initial_value: "erro"
 
 templates:
   utter_cumprimentar:
@@ -824,3 +791,5 @@ actions:
 
   - action_pesquisa_stackoverflow
   - utter_pesquisar
+
+  - action_sobre

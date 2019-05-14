@@ -32,3 +32,22 @@
 - desejo pesquisar algo
 - apareceu um bug aqui
 - tive um problema no código
+
+## intent:action_sobre_intent
+- sobre for
+- acerca de variaveis
+- definição estruturas de repeticao
+- definiçao estruturas condicionais
+- explique vetores
+- explicação matrizes
+- explicaçao arquivos
+- descreva funcoes
+- descrição bibliotecas
+- significado booleano
+- conceito bool
+- o que é inteiro
+- o que e float
+- defina ponto flutuante
+- resuma char
+- resumo if
+- resume else

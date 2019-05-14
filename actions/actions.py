@@ -1,4 +1,5 @@
 from rasa_core_sdk import Action
+from rasa_core_sdk.events import SlotSet
 import requests
 import json
 
@@ -56,3 +57,36 @@ class ActionPesquisaStackoverflow(Action):
         dispatcher.utter_message(action_message)
         dictionary = self.stackoverflow_request(research)
         self.dispatch_links(dictionary, dispatcher)
+
+class ActionSobre(Action):
+  def name(self):
+    return "action_sobre"
+
+  def run(self, dispatcher, tracker, domain):
+    text = tracker.latest_message['text']
+    if('ariave' in text):
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Variaveis')
+        # return SlotSet('conteudo', 'Variavel')
+    elif('epetic' in text or 'epetiç' in text):    
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Repetição')
+        # return SlotSet('conteudo', 'Repetição')
+    elif('atriz' in text):
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Matrizes')
+        # return SlotSet('conteudo', 'Matriz')
+    elif('etor' in text):
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Vetores')
+        # return SlotSet('conteudo', 'Vetor')
+    elif('ondic' in text):
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Condicionais')
+        # return SlotSet('conteudo', 'Condicional')
+    elif('unc' in text or 'unç' in text):
+        dispatcher.utter_message(text)
+        dispatcher.utter_message(' Funções')
+        # return SlotSet('conteudo', 'Função')
+    else:
+        dispatcher.utter_message('Erro')
