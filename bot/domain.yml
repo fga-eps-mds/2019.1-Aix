@@ -12,8 +12,6 @@ intents:
   - menu_ajuda
   - curiosidades_python
 
-
-
   - pesquisa_stackoverflow
   - pesquisar
 
