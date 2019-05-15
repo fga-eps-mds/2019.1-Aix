@@ -62,14 +62,17 @@ class ActionSobre(Action):
   def name(self):
     return "action_sobre"
 
-
-
   def run(self, dispatcher, tracker, domain):
     text = tracker.latest_message['text']
     text.lower()
     slot_value = tracker.get_slot('conteudo')
 
-    if('aix' in text):
+    repeticao = ['repetic', 'repetiç', 'laço', 'laco', 'while', 'for', 'itera']
+    condicional = ['condic', 'if', 'else', 'switch', 'case']
+    ponto_flutuante = ['flutuante', 'float', 'double', 'com vírgula', 'com virgula',
+     'decimal', 'fraç', 'frac']
+
+    if('aix' in text or 'bode' in text or 'cabr' in text or 'bot' in text):
         dispatcher.utter_template('utter_sobre_aix', tracker)
         return [SlotSet('conteudo', 'aix')]
 
@@ -81,15 +84,15 @@ class ActionSobre(Action):
         dispatcher.utter_template('utter_sobre_variaveis', tracker)
         return [SlotSet('conteudo', 'variaveis')]
 
-    elif('inteiro' in text):
+    elif('inteiro' in text or 'int' in text):
         dispatcher.utter_template('utter_sobre_inteiros', tracker)
         return [SlotSet('conteudo', 'inteiros')]
 
-    elif('flutuante' in text or 'float' in text or 'double' in text):
+    elif any(word in text for word in ponto_flutuante):
         dispatcher.utter_template('utter_sobre_pontos_flutuantes', tracker)
         return [SlotSet('conteudo', 'pontos_flutuantes')]
 
-    elif('caracter' in text or 'char' in text):
+    elif('caracter' in text or 'char' in text or 'letra' in text):
         dispatcher.utter_template('utter_sobre_caracteres', tracker)
         return [SlotSet('conteudo', 'caracteres')]
 
@@ -97,7 +100,7 @@ class ActionSobre(Action):
         dispatcher.utter_template('utter_sobre_booleanos', tracker)
         return [SlotSet('conteudo', 'booleanos')]
 
-    elif('condic' in text):
+    elif any(word in text for word in condicional):
         dispatcher.utter_template('utter_sobre_condicionais', tracker)
         return [SlotSet('conteudo', 'condicionais')]
 
@@ -105,7 +108,7 @@ class ActionSobre(Action):
         dispatcher.utter_template('utter_sobre_arquivos', tracker)
         return [SlotSet('conteudo', 'arquivos')]
 
-    elif('repetic' in text or 'repetiç' in text):    
+    elif any(word in text for word in repeticao):  
         dispatcher.utter_template('utter_sobre_repeticao', tracker)
         return [SlotSet('conteudo', 'repeticao')]
 
@@ -113,18 +116,20 @@ class ActionSobre(Action):
         dispatcher.utter_template('utter_sobre_funcao', tracker)
         return [SlotSet('conteudo', 'funcao')]
 
-    elif('vetor' in text):
+    elif('vetor' in text or 'array' in text or 'unidimensional' in text):
         dispatcher.utter_template('utter_sobre_vetores', tracker)
         return [SlotSet('conteudo', 'vetores')]
 
-    elif('matriz' in text):
+    elif('matriz' in text or 'bidimensional' in text):
         dispatcher.utter_template('utter_sobre_matrizes', tracker)
         return [SlotSet('conteudo', 'matrizes')]
 
+    # possivelmente será removido da função
     elif('world' in text):
         dispatcher.utter_template('utter_sobre_hello_world', tracker)
         return [SlotSet('conteudo', 'hello_world')]
     
+    # possivelmente será removido da função
     elif('biblioteca' in text):
         dispatcher.utter_template('utter_sobre_importar_bibliotecas', tracker)
         return [SlotSet('conteudo', 'importar_bibliotecas')]
@@ -135,3 +140,5 @@ class ActionSobre(Action):
     else:
         utter_text = 'utter_sobre_' + slot_value
         dispatcher.utter_template(utter_text, tracker)
+
+
