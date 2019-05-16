@@ -15,6 +15,7 @@ logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
 
+
 def str2bool(v):
     if v.lower() in ('yes', 'true', 't', 'y', '1'):
         return True
@@ -22,6 +23,7 @@ def str2bool(v):
         return False
     else:
         raise argparse.ArgumentTypeError('Boolean value expected.')
+
 
 parser.add_argument(
     '--domain', type=str, default='domain.yml',
@@ -58,6 +60,7 @@ parser.add_argument(
     help='Run validations to domain'
 )
 
+
 class Validator:
     domain = ''
     intents = []
@@ -91,7 +94,8 @@ class Validator:
                              if isfile(join(stories_path, f))]
             for file in stories_files:
                 self.stories.append(stories_path + file)
-                
+
+
     def verify_domain(self):
         schema = """
         type: object
@@ -252,7 +256,8 @@ class Validator:
             if not found:
                 logger.error('The utter ' + utter +
                              ' is not listed in actions')
-                
+
+
     def verify_utters_in_stories(self):
         if self.valid_utters == []:
             self.verify_utters()
@@ -304,6 +309,7 @@ class Validator:
         self.verify_utters()
         self.verify_utters_in_stories()
         self.verify_utters_being_used()
+
 
 if __name__ == '__main__':
     domain = parser.parse_args().domain

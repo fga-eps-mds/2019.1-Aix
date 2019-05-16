@@ -33,6 +33,7 @@ bot = {
 
 logged_in = False
 
+
 def connect_bot():
     def login_callback(error, data):
         global logged_in
@@ -53,6 +54,7 @@ def connect_bot():
     bot['driver'].login(user=bot['username'],
                         password=bot['password'],
                         callback=login_callback)
+
 
 def get_user_rooms():
     def rooms_callback(error, data):
@@ -121,6 +123,7 @@ def replay_room(error, data):
                 print('!!! The current answer differ ' +
                       'from the given on the chat')
                 print('Should I proceed?')
+
 
 if __name__ == '__main__':
     while not logged_in:
