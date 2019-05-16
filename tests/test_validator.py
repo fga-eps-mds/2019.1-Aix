@@ -22,5 +22,5 @@ def test_str2bool(validator):
 
 #function search in Validator class
 def test_search(validator):
-    assert validator.search(validator(), ['este','é','um', 'teste', 'unitário'], 'teste') == True
-    assert validator.search(validator(),['este','é','um', 'teste', 'unitário'], 'opa') == False
+    assert validator.search(validator, ['este','é','um', 'teste', 'unitário'], 'teste') == True
+    assert validator.search(validator, ['este','é','um', 'teste', 'unitário'], 'opa') == False
