@@ -29,7 +29,7 @@ checks:
   method-complexity:
     enabled: false
   method-count:
-    enabled: false
+    enabled: true
   method-lines:
     enabled: true
   nested-control-flow:
