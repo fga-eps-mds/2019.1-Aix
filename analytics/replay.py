@@ -72,6 +72,8 @@ def get_user_rooms():
     logger.info('Getting rooms from ' + bot['username'])
     bot['driver'].call('rooms/get', [], rooms_callback)
 
+
+
 def get_rooms_history(rooms):
     for room in rooms:
         room_id = room['_id']
@@ -82,6 +84,8 @@ def get_rooms_history(rooms):
             [room_id, None, 1000, None],
             replay_room
         )
+
+
 
 def replay_room(error, data):
     if error:
