@@ -95,7 +95,6 @@ class Validator:
             for file in stories_files:
                 self.stories.append(stories_path + file)
 
-
     def verify_domain(self):
         schema = """
         type: object

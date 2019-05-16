@@ -23,21 +23,18 @@ settings = {
     "mappings": {
         "message": {
             "properties": {
-                "environment":       {"type": "keyword"},
-                "version":           {"type": "keyword"},
-                "user_id":           {"type": "keyword"},
-                "is_bot":            {"type": "boolean"},
-                "text":              {"type": "text"},
-                "tags":              {"type": "keyword"},
-                "timestamp":         {
-                                      "type": "date", 
-                                      "format": "yyyy/MM/dd HH:mm:ss"
-                                     },
-                "intent_name":       {"type": "keyword"},
-                "intent_confidence": {"type": "double"},
-                "entities":          {"type": "keyword"},
-                "utter_name":        {"type": "keyword"},
-                "is_fallback":       {"type": "boolean"},
+                "environment": {"type": "keyword"}, 
+                "version": {"type": "keyword"}, 
+                "user_id": {"type": "keyword"}, 
+                "is_bot": {"type": "boolean"}, 
+                "text": {"type": "text"}, 
+                "tags": {"type": "keyword"}, 
+                "timestamp": {"type": "date", "format": "yyyy/MM/dd HH:mm:ss"}, 
+                "intent_name": {"type": "keyword"}, 
+                "intent_confidence": {"type": "double"}, 
+                "entities": {"type": "keyword"}, 
+                "utter_name": {"type": "keyword"}, 
+                "is_fallback": {"type": "boolean"}, 
             }
         }
     }

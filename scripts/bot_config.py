@@ -43,12 +43,12 @@ parser.add_argument(
 )
 parser.add_argument(
     '--bot-avatar', '-ba', type=str, 
-    default='https://raw.githubusercontent.com/'+
-            'fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png',
+    default='https://raw.githubusercontent.com/' + 
+    'fga-eps-mds/2019.1-Aix/master/docs/assets/img/cabracinza.png', 
     help='Bot avatar photo link (default: bot\'s github avatar)'
 )
 parser.add_argument(
-    '--admin-name', '-an', type=str,
+    '--admin-name', '-an', type=str, 
     help='Admin username at RocketChat'
 )
 parser.add_argument(
@@ -204,15 +204,15 @@ def configure_webhooks():
             return
 
     api_post('integrations.create', {
-            'name': name,
-            'type': 'webhook-outgoing',
-            'enabled': True,
-            'scriptEnabled': False,
-            'event': 'sendMessage',
-            'urls': [rasa_url],
-            'username': bot['username'],
-            'channel': '@' + bot['username'],
-        }
+        'name': name,
+        'type': 'webhook-outgoing',
+        'enabled': True,
+        'scriptEnabled': False,
+        'event': 'sendMessage',
+        'urls': [rasa_url],
+        'username': bot['username'],
+        'channel': '@' + bot['username'],
+    }
     )
 
 
