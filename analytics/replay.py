@@ -23,7 +23,6 @@ ch.setFormatter(formatter)
 
 logger.addHandler(ch)
 
-
 bot = {
     'bot_url': os.getenv('BOT_URL', 'http://bot:5005/webhooks/rest/webhook'),
     'rocketchat_url': os.getenv('ROCKETCHAT_URL', 'rocketchat:3000'),
@@ -33,7 +32,6 @@ bot = {
 }
 
 logged_in = False
-
 
 def connect_bot():
     def login_callback(error, data):
@@ -56,7 +54,6 @@ def connect_bot():
                         password=bot['password'],
                         callback=login_callback)
 
-
 def get_user_rooms():
     def rooms_callback(error, data):
         if error:
@@ -72,7 +69,6 @@ def get_user_rooms():
 
     logger.info('Getting rooms from ' + bot['username'])
     bot['driver'].call('rooms/get', [], rooms_callback)
-
 
 def get_rooms_history(rooms):
     for room in rooms:
@@ -126,9 +122,7 @@ def replay_room(error, data):
                       'from the given on the chat')
                 print('Should I proceed?')
 
-
 if __name__ == '__main__':
-
     while not logged_in:
         connect_bot()
         time.sleep(10)
