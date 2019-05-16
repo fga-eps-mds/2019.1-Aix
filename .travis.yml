@@ -8,11 +8,6 @@ sudo: required
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
-# before_install:
-#   - sudo apt-get install ruby
-#   - gem install "rubygems-update:<3.0.0" --no-document
-#   - gem install bundler:2.0.1
-
 jobs:
   include:
     - stage: Bot
