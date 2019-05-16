@@ -256,7 +256,6 @@ class Validator:
                 logger.error('The utter ' + utter +
                              ' is not listed in actions')
 
-
     def verify_utters_in_stories(self):
         if self.valid_utters == []:
             self.verify_utters()
