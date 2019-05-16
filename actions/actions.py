@@ -7,8 +7,8 @@ class ActionPesquisaStackoverflow(Action):
     def name(self):
         return "action_pesquisa_stackoverflow"
 
-    def format_research(self, tracker):
-        research = tracker.latest_message['text']
+    def format_research(self, last_message):
+        research = last_message
         research = research.lower()
         research = research.replace('pesquise', '')
         research = research.replace('sobre', '')
@@ -32,13 +32,26 @@ class ActionPesquisaStackoverflow(Action):
 
         return dictionary
 
-    def dispatch_links(self, dictionary, dispatcher):
+    def validate_links(self, dictionary):
         links = []
         for item in dictionary['items']:
             if str(item['is_answered']) == 'True':
                 links.append(item['link'])
             if len(links) == 5:
                 break
+        
+        return links
+        
+
+    def run(self, dispatcher, tracker, domain):
+        last_message = tracker.latest_message['text']
+        research = self.format_research(last_message)
+        action_message = 'Então você quer saber sobre ' + research
+        action_message += '... Vou ver o que acho aqui entre meus fenos!!'
+        dispatcher.utter_message(action_message)
+        dictionary = self.stackoverflow_request(research)
+        links = self.validate_links(dictionary)
+
         if links:
             for link in links:
                 dispatcher.utter_message(link)
@@ -48,11 +61,3 @@ class ActionPesquisaStackoverflow(Action):
                 'sobre isso em minhas pesquisas. ' +
                 'Poderia me perguntar com outras palavras?'
             )
-
-    def run(self, dispatcher, tracker, domain):
-        research = self.format_research(tracker)
-        action_message = 'Então você quer saber sobre ' + research
-        action_message += '... Vou ver o que acho aqui entre meus fenos!!'
-        dispatcher.utter_message(action_message)
-        dictionary = self.stackoverflow_request(research)
-        self.dispatch_links(dictionary, dispatcher)
