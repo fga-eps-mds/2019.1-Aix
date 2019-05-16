@@ -6,7 +6,7 @@ from elasticsearch import Elasticsearch
 
 parser = argparse.ArgumentParser(description='configures elastic')
 parser.add_argument('--task', '-t', 
-                    default='setup',
+                    default='setup', 
                     choices=['setup', 'delete'],)
 args = parser.parse_args()
 
@@ -35,7 +35,7 @@ settings = {
                                      },
                 "intent_name":       {"type": "keyword"},
                 "intent_confidence": {"type": "double"},
-                "entities" :         {"type": "keyword"},
+                "entities":          {"type": "keyword"},
                 "utter_name":        {"type": "keyword"},
                 "is_fallback":       {"type": "boolean"},
             }
