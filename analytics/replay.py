@@ -23,7 +23,6 @@ ch.setFormatter(formatter)
 
 logger.addHandler(ch)
 
-
 bot = {
     'bot_url': os.getenv('BOT_URL', 'http://bot:5005/webhooks/rest/webhook'),
     'rocketchat_url': os.getenv('ROCKETCHAT_URL', 'rocketchat:3000'),
@@ -85,6 +84,7 @@ def get_rooms_history(rooms):
             replay_room
         )
 
+
 def replay_room(error, data):
     if error:
         logger.error(error)
@@ -128,11 +128,9 @@ def replay_room(error, data):
 
 
 if __name__ == '__main__':
-
     while not logged_in:
         connect_bot()
         time.sleep(10)
 
     while True:
         time.sleep(10)
-

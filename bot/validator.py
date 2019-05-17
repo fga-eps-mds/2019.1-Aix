@@ -95,7 +95,6 @@ class Validator:
             for file in stories_files:
                 self.stories.append(stories_path + file)
 
-
     def verify_domain(self):
         schema = """
         type: object
@@ -109,7 +108,6 @@ class Validator:
         except Exception as e:
             logger.error('There is an error in ' + self.domain + ' ' + str(e))
 
-
     def search(self, vector, searched_value):
         vector.append(searched_value)
         count = 0
@@ -119,7 +117,6 @@ class Validator:
             return False
         else:
             return True
-
 
     def verify_intents(self):
         # Adds intents in domain to the list
@@ -167,7 +164,6 @@ class Validator:
                              ' is in the intent files but was' +
                              ' not found in the domain file')
 
-
     def verify_intents_in_stories(self):
         if self.valid_intents == []:
             self.verify_intents()
@@ -192,7 +188,6 @@ class Validator:
                                      str(stories_lines.index(line)+1) +
                                      ') but it\'s not a valid intent.')
 
-
     def verify_intents_being_used(self):
         if self.valid_intents == []:
             self.verify_intents()
@@ -216,7 +211,6 @@ class Validator:
             if not found:
                 logger.warning('The intent ' + intent +
                                ' is not being used in any story')
-
 
     def verify_utters(self):
         file = open(self.domain, 'r')
@@ -262,7 +256,6 @@ class Validator:
                 logger.error('The utter ' + utter +
                              ' is not listed in actions')
 
-
     def verify_utters_in_stories(self):
         if self.valid_utters == []:
             self.verify_utters()
@@ -283,7 +276,6 @@ class Validator:
                                      ' story file ' + file + ' (line: ' +
                                      str(stories_lines.index(line)+1) +
                                      ') but it\'s not a valid utter.')
-
 
     def verify_utters_being_used(self):
         if self.valid_utters == []:
@@ -306,7 +298,6 @@ class Validator:
             if not found:
                 logger.warning('The utter ' + utter +
                                ' is not being used in any story')
-
 
     def run_verifications(self):
         self.verify_domain()

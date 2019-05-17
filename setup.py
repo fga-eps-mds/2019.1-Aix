@@ -8,4 +8,4 @@ setup(name='Aix ChatBod',
       author='Guilherme Marques',
       packages=find_packages(),
       test_suite="tests",
-)
+      )
