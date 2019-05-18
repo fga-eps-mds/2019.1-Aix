@@ -680,3 +680,14 @@
 - funcoes extras
 - funcao nao encontrada
 
+## intent:sobre_instalar_python
+- como instalar o python
+- como saber se tenho o python instalado
+- qual a versão do meu python
+- qual a versao do meu python
+- meu so é de quantos bits
+- qual os bits do meu sistema operacional
+- como configurar para programar em python
+- configurar o ambiente
+- instalar dependencias python
+- instalar dependências python

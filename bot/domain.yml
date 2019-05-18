@@ -27,6 +27,7 @@ intents:
   - sobre_matrizes
   - sobre_hello_world
   - sobre_importar_bibliotecas
+  - sobre_instalar_python
 
 
   - exemplo_variaveis
