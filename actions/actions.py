@@ -13,7 +13,6 @@ class ActionPesquisaStackoverflow(Action):
         research = research.replace('pesquise', '')
         research = research.replace('sobre', '')
         research = research.strip()
-
         return research
 
     def stackoverflow_request(self, research):
@@ -29,7 +28,6 @@ class ActionPesquisaStackoverflow(Action):
 
         result = requests.get(link, params=payload)
         dictionary = json.loads(result.text)
-
         return dictionary
 
     def validate_links(self, dictionary):
@@ -39,10 +37,8 @@ class ActionPesquisaStackoverflow(Action):
                 links.append(item['link'])
             if len(links) == 5:
                 break
-        
         return links
-        
-
+ 
     def run(self, dispatcher, tracker, domain):
         last_message = tracker.latest_message['text']
         research = self.format_research(last_message)
