@@ -10,7 +10,8 @@ notifications:
 
 jobs:
   include:
-    - stage: Bot
+    - stage: Build
+      name: Bot
       env: SERVICE_NAME=aix-bot
       script:
         - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|\.travis.yml|scripts\/)'  || exit 0
@@ -22,7 +23,8 @@ jobs:
         script: bash ./deploy.sh
         on:
           branch: master
-    - stage: Actions
+    - stage: Build
+      name: Actions
       env: SERVICE_NAME=aix-actions
       script:
         - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
