@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
   echo "Logging in to Dockerhub..."
-  docker login --username=$DOCKERHUB_ID --password=$DOCKERHUB_PASSWORD
+  echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_ID" --password-stdin
   echo "Pushing images..."
   docker push $DOCKERHUB_ID/$SERVICE_NAME:latest
   if [ "$SERVICE_NAME" = "aix-bot" ]; then
