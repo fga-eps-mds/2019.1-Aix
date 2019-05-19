@@ -38,7 +38,7 @@ class ActionPesquisaStackoverflow(Action):
             if len(links) == 5:
                 break
         return links
- 
+
     def run(self, dispatcher, tracker, domain):
         last_message = tracker.latest_message['text']
         research = self.format_research(last_message)
