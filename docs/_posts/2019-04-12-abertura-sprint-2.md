@@ -48,6 +48,10 @@ Fim: 06/04/2019
 
 <!--more-->
 
+## Pareamentos
+
+![Pareamentos]({{ site.url }}/2019.1-Aix/assets/img/Pareamento_sprint_2.png)
+
 ## Sprint Backlog
 
 [#28 Estudo de tecnologia (Boilerplate)](https://github.com/fga-eps-mds/2019.1-aix/issues/28)<br>

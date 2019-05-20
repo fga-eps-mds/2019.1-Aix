@@ -9,28 +9,28 @@ category: Sprint
 
 | ID | História | Status | Pontos |
 |:--:| ------- | :----: | :----: |
-|ISSUE|[#207 Adicionar tópico com a definição do que são vetores](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/207)|Fechado|1|
-|ISSUE|[#208 Adicionar tópico com exemplos de utilização de vetores](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/208)|Fechado|1|
-|ISSUE|[#210 Adicionar tópico com linkagem estática para conteúdo extra sobre vetores](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/210)|Fechado|1|
-|ISSUE|[#211 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de vetores](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/211)|Fechado|1|
-|ISSUE|[#212 Adicionar tópico com a definição do que são matrizes](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/212)|Fechado|1|
-|ISSUE|[#213 Adicionar tópico com exemplos de utilização de matrizes](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/213)|Fechado|1|
-|ISSUE|[#214 Adicionar tópico com linkagem estática para conteúdo extra sobre matrizes](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/214)|Fechado|1|
-|ISSUE|[#215 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de matrizes](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/215)|Fechado|1|
-|ISSUE|[#216 Adicionar tópico com a definição do que são funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/216)|Fechado|1|
-|ISSUE|[#217 Adicionar tópico com exemplos de utilização de funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/217)|Fechado|1|
-|ISSUE|[#218 Adicionar tópico com linkagem estática para conteúdo extra sobre funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/218)|Fechado|1|
-|ISSUE|[#219 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/219)|Fechado|1|
-|ISSUE|[#222 Evoluir intents de acordo com feedback dos usuários](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/222)|Fechado|5|
-|ISSUE|[#223 Evolução de cumprimento da Aix](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/223)|Fechado|3|
-|ISSUE|[#225 Ampliar conteúdos gerais abordados pelo bot](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/225)|Fechado|3|
-|ISSUE|[#226 Construir hello world](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/226)|Fechado|5|
-|ISSUE|[#227 Criar fluxograma versão 1.2](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/227)|Fechado|5|
-|ISSUE|[#228 Adicionar tópico com a definição do que são arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/228)|Fechado|1|
-|ISSUE|[#229 Adicionar tópico com exemplos de utilização de arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/229)|Fechado|1|
-|ISSUE|[#230 Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/230)|Fechado|1|
-|ISSUE|[#231 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de arquivos](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/231)|Fechado|1|
-|ISSUE|[#233 Documentar abertura e fechamento da sprint 5](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/233)|Fechado|1|
+|ISSUE|[#207 Adicionar tópico com a definição do que são vetores](https://github.com/fga-eps-mds/2019.1-Aix/issues/207)|Fechado|1|
+|ISSUE|[#208 Adicionar tópico com exemplos de utilização de vetores](https://github.com/fga-eps-mds/2019.1-Aix/issues/208)|Fechado|1|
+|ISSUE|[#210 Adicionar tópico com linkagem estática para conteúdo extra sobre vetores](https://github.com/fga-eps-mds/2019.1-Aix/issues/210)|Fechado|1|
+|ISSUE|[#211 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de vetores](https://github.com/fga-eps-mds/2019.1-Aix/issues/211)|Fechado|1|
+|ISSUE|[#212 Adicionar tópico com a definição do que são matrizes](https://github.com/fga-eps-mds/2019.1-Aix/issues/212)|Fechado|1|
+|ISSUE|[#213 Adicionar tópico com exemplos de utilização de matrizes](https://github.com/fga-eps-mds/2019.1-Aix/issues/213)|Fechado|1|
+|ISSUE|[#214 Adicionar tópico com linkagem estática para conteúdo extra sobre matrizes](https://github.com/fga-eps-mds/2019.1-Aix/issues/214)|Fechado|1|
+|ISSUE|[#215 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de matrizes](https://github.com/fga-eps-mds/2019.1-Aix/issues/215)|Fechado|1|
+|ISSUE|[#216 Adicionar tópico com a definição do que são funções](https://github.com/fga-eps-mds/2019.1-Aix/issues/216)|Fechado|1|
+|ISSUE|[#217 Adicionar tópico com exemplos de utilização de funções](https://github.com/fga-eps-mds/2019.1-Aix/issues/217)|Fechado|1|
+|ISSUE|[#218 Adicionar tópico com linkagem estática para conteúdo extra sobre funções](https://github.com/fga-eps-mds/2019.1-Aix/issues/218)|Fechado|1|
+|ISSUE|[#219 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de funções](https://github.com/fga-eps-mds/2019.1-Aix/issues/219)|Fechado|1|
+|ISSUE|[#222 Evoluir intents de acordo com feedback dos usuários](https://github.com/fga-eps-mds/2019.1-Aix/issues/222)|Fechado|5|
+|ISSUE|[#223 Evolução de cumprimento da Aix](https://github.com/fga-eps-mds/2019.1-Aix/issues/223)|Fechado|3|
+|ISSUE|[#225 Ampliar conteúdos gerais abordados pelo bot](https://github.com/fga-eps-mds/2019.1-Aix/issues/225)|Fechado|3|
+|ISSUE|[#226 Construir hello world](https://github.com/fga-eps-mds/2019.1-Aix/issues/226)|Fechado|5|
+|ISSUE|[#227 Criar fluxograma versão 1.2](https://github.com/fga-eps-mds/2019.1-Aix/issues/227)|Fechado|5|
+|ISSUE|[#228 Adicionar tópico com a definição do que são arquivos](https://github.com/fga-eps-mds/2019.1-Aix/issues/228)|Fechado|1|
+|ISSUE|[#229 Adicionar tópico com exemplos de utilização de arquivos](https://github.com/fga-eps-mds/2019.1-Aix/issues/229)|Fechado|1|
+|ISSUE|[#230 Adicionar tópico com linkagem estática para conteúdo extra sobre arquivos](https://github.com/fga-eps-mds/2019.1-Aix/issues/230)|Fechado|1|
+|ISSUE|[#231 Adicionar tópico com linkagem estática para sugestão de exercício sobre uso de arquivos](https://github.com/fga-eps-mds/2019.1-Aix/issues/231)|Fechado|1|
+|ISSUE|[#233 Documentar abertura e fechamento da sprint 5](https://github.com/fga-eps-mds/2019.1-Aix/issues/233)|Fechado|1|
 
 ### Pontuação Final
 
@@ -44,8 +44,8 @@ category: Sprint
 
 ### Débitos Técnicos Gerados
 
-* [#232 Definir estratégia para viabilização do deploy contínuo](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/232)
-* [#234 Adicionar cobertura de testes no projeto.](https://api.github.com/repos/fga-eps-mds/2019.1-Aix/issues/234)
+* [#232 Definir estratégia para viabilização do deploy contínuo](https://github.com/fga-eps-mds/2019.1-Aix/issues/232)
+* [#234 Adicionar cobertura de testes no projeto.](https://github.com/fga-eps-mds/2019.1-Aix/issues/234)
 
 
 ## Retrospectiva
