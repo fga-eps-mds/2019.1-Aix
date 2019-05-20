@@ -27,6 +27,7 @@ intents:
   - sobre_matrizes
   - sobre_hello_world
   - sobre_importar_bibliotecas
+  - sobre_instalar_python
 
 
   - exemplo_variaveis
@@ -157,7 +158,7 @@ templates:
 
     - text: |
         Respeito é bom e conserva os dentes!!
-  
+
   utter_default:
     - text: |
         Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
@@ -271,7 +272,7 @@ templates:
     - text: |
         Quer saber uma curiosidade sobre mim? Sabia que meu nome veio da mitologia romana? Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix. Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome! Quanta imaginação, não?
 
-  # ============================ SOBRE ============================ #      
+  # ============================ SOBRE ============================ #
   utter_sobre_python:
     - text: |
         O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender!
@@ -361,16 +362,16 @@ templates:
         Quer saber mais? Um exemplo ou alguns exercícios?
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
-        Simples como comer capim! 
+        Simples como comer capim!
 
   utter_sobre_arquivos:
     - text: |
         O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
-        Quer um exemplo para entender melhor? 
+        Quer um exemplo para entender melhor?
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo de arquivos, exemplos de escrever arquivos
-        Simples como comer capim! 
+        Simples como comer capim!
 
   utter_sobre_vetores:
     - text: |
@@ -403,7 +404,7 @@ templates:
             print("Hello World!")
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-      
+
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
   utter_sobre_importar_bibliotecas:
@@ -417,15 +418,37 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo importar bibliotecas, importando uma library
         Simples como comer capim!
 
+  utter_sobre_instalar_python:
+    - text : |
+        Instalar o Python no sistema Linux é beém fácil! Antes, cheque se você já tem Python instalado com o seguinte comando no terminal:
+
+        python -V
+
+        É importante que você tenha a versão atualizada, o Python3 no caso. Caso você ainda não tenha o python já instalado, digite no prompt:
+
+        sudo apt-get install python3.6
+
+        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt: 
+
+        uname -m
+
+        para verificar se você deve usar o comando para 32 bits:
+
+        wget "https://go.microsoft.com/fwlink/?LinkID=760681" -O vscode.rpm
+
+        ou de 64 bits:
+
+        wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
+
   utter_sobre_funcao:
     - text: |
         Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
-        
+
         Caso ainda esteja muito abstrato, me peça um exemplo que eu te mostro uma na prática!
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos de função, como declarar uma função
         Simples como comer capim!
-        
+
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
@@ -466,16 +489,16 @@ templates:
 
   utter_exemplo_condicionais:
     - text: |
-        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" : 
+        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" :
         if x == 2:
           print("amo feno")
-        elif x == 5: 
-          print("amo python") 
-        else: 
+        elif x == 5:
+          print("amo python")
+        else:
           print("amo a Aix")
 
         Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
-        
+
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional if, conteudo extra condicionais
         Simples como comer capim!
 
@@ -506,11 +529,11 @@ templates:
 
           def oi(nome)
             return "Oi, " + nome;
-        
+
         A palavra reservada "def", é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
         Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir, que te enviareis alguns com todo prazer!!!
-        
+
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios função, praticar funções
         Simples como comer capim!
 
@@ -519,7 +542,7 @@ templates:
   utter_exemplo_arquivos:
     - text: |
         Que tal um exemplo?
-          
+
           arquivo = open('bodes-mais-legais.txt', 'w')
           texto = "Aix Chatbot"
           arquivo.write(texto)
@@ -641,7 +664,7 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-        
+
         Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
 
@@ -675,8 +698,8 @@ templates:
         (Por exemplo, fazendo uma função que soma dois argumentos passados)
         Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
         Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
-        
-        Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro. 
+
+        Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
@@ -791,7 +814,7 @@ actions:
   - utter_sobre_matrizes
   - utter_sobre_hello_world
   - utter_sobre_importar_bibliotecas
-
+  - utter_sobre_instalar_python
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
