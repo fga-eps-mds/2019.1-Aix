@@ -58,6 +58,7 @@ class ActionPesquisaStackoverflow(Action):
                 'Poderia me perguntar com outras palavras?'
             )
 
+
 class ActionSetSlotValue(Action):
     def name(self):
         return "action_set_slot_value"

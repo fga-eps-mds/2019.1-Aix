@@ -9,8 +9,10 @@ intents:
   - assuntos_inapropriados
   - sobre_programaçao
 
+
   - menu_ajuda
   - curiosidades_python
+
 
   - sobre_aix
   - sobre_python
@@ -61,11 +63,20 @@ intents:
   - pesquisa_stackoverflow
   - pesquisar
 
+
   - intent_utter_sobre_vaga
   - intent_utter_exemplo_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
 
+
+entities:
+  - conteudo
+
+slots:
+  conteudo:
+    type: text
+    initial_value: "erro"
 
 templates:
   utter_cumprimentar:
@@ -802,8 +813,10 @@ actions:
   - utter_assuntos_inapropriados
   - utter_sobre_programaçao
 
+
   - utter_menu_ajuda
   - utter_curiosidades_python
+
 
   - utter_sobre_aix
   - utter_sobre_python
@@ -822,6 +835,7 @@ actions:
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
 
+
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
@@ -830,7 +844,6 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
-
 
 
   - utter_exercicios_variaveis
