@@ -56,6 +56,11 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>Primeiro Programa
    </td>
   </tr>
+  <td>EP06
+   </td>
+   <td>Compilação
+   </td>
+  </tr>
 </table>
 
 <!--more-->
@@ -206,6 +211,20 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>Programando o primeiro Hello World
    </td>
    <td>EP05
+   </td>
+  </tr>
+   <td>FT18
+   </td>
+   <td>Integração com UVA online judge
+   </td>
+   <td>EP06
+   </td>
+  </tr>
+   <td>FT19
+   </td>
+   <td>Compilação de exercício
+   </td>
+   <td>EP06
    </td>
   </tr>
 </table>
@@ -606,6 +625,34 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>Eu, como usuário, desejo ser auxiliado na construção do meu primeiro programa ‘Hello Word’
    </td>
    <td>FT17
+   </td>
+  </tr>
+   <td>IS49
+   </td>
+   <td>Eu, como usuário, desejo me cadastrar no UVA por meio do bot
+   </td>
+   <td>FT18
+   </td>
+  </tr>
+   <td>IS50
+   </td>
+   <td>Eu, como usuário, desejo receber exercícios propostos pelo UVA
+   </td>
+   <td>FT18
+   </td>
+  </tr>
+   <td>IS51
+   </td>
+   <td>Eu, como usuário, desejo submeter exercício para correção no UVA online judge
+   </td>
+   <td>FT19
+   </td>
+  </tr>
+   <td>IS52
+   </td>
+   <td>Eu, como usuário, desejo receber feedback do exercício enviado no UVA online judge
+   </td>
+   <td>FT19
    </td>
   </tr>
 </table>
