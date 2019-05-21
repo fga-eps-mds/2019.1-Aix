@@ -75,18 +75,18 @@ class ActionSetSlotValue(Action):
         return [SlotSet('conteudo', slot_content)]
 
     def verify_if_is_variable(self, slot_content):
-        variable_types = ['inteiros', 'pontos_flutuantes', 'booleanos', 
-        'caracteres', 'strings']
+        variable_types = ['inteiros', 'pontos_flutuantes', 'booleanos',
+                          'caracteres', 'strings']
         if any(word == slot_content for word in variable_types):
             return 'variaveis'
         else:
             return slot_content
-        
+
 
 class ActionUtterVaga(Action):
     def name(self):
-        return "action_utter_vaga"  
-        
+        return "action_utter_vaga"
+
     def run(self, dispatcher, tracker, domain):
         pass
 
@@ -101,9 +101,10 @@ class ActionUtterVaga(Action):
         if(is_valid):
             dispatcher.utter_template(desired_subject, tracker)
         else:
-            dispatcher.utter_message('Santo capim! Acho que ainda não sei falar' +
-            ' sobre esse conteúdo! Pois béem, tente me perguntar' +
-            ' outra coisa')
+            dispatcher.utter_message('Santo capim! Acho que ainda' +
+                                     'não sei falar sobre esse conteúdo!' +
+                                     ' Pois béem, tente me perguntar outra' +
+                                     'coisa')
 
 
 class ActionUtterSobreVaga(ActionUtterVaga):
@@ -113,12 +114,15 @@ class ActionUtterSobreVaga(ActionUtterVaga):
     def run(self, dispatcher, tracker, domain):
         slot_content = tracker.get_slot('conteudo')
         if(slot_content == 'erro'):
-            dispatcher.utter_message('Estou confusa, bée... Você ainda não perguntou' +
-            ' sobre nada! Defina um assunto primeiro!')
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
         else:
             desired_subject = 'utter_sobre_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
-            self.dispatch_message(tracker, dispatcher, is_valid, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
 
 
 class ActionUtterExemploVaga(ActionUtterVaga):
@@ -128,12 +132,15 @@ class ActionUtterExemploVaga(ActionUtterVaga):
     def run(self, dispatcher, tracker, domain):
         slot_content = tracker.get_slot('conteudo')
         if(slot_content == 'erro'):
-            dispatcher.utter_message('Estou confusa, bée... Você ainda não perguntou' +
-            ' sobre nada! Defina um assunto primeiro!')
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
         else:
             desired_subject = 'utter_exemplo_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
-            self.dispatch_message(tracker, dispatcher, is_valid, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
 
 
 class ActionUtterExerciciosVaga(ActionUtterVaga):
@@ -143,12 +150,15 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
     def run(self, dispatcher, tracker, domain):
         slot_content = tracker.get_slot('conteudo')
         if(slot_content == 'erro'):
-            dispatcher.utter_message('Estou confusa, bée... Você ainda não perguntou' +
-            ' sobre nada! Defina um assunto primeiro!')
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
         else:
             desired_subject = 'utter_exercicios_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
-            self.dispatch_message(tracker, dispatcher, is_valid, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
 
 
 class ActionUtterConteudoExtraVaga(ActionUtterVaga):
@@ -158,9 +168,12 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
     def run(self, dispatcher, tracker, domain):
         slot_content = tracker.get_slot('conteudo')
         if(slot_content == 'erro'):
-            dispatcher.utter_message('Estou confusa, bée... Você ainda não perguntou' +
-            ' sobre nada! Defina um assunto primeiro!')
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
         else:
             desired_subject = 'utter_conteudo_extra_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
-            self.dispatch_message(tracker, dispatcher, is_valid, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
