@@ -61,6 +61,12 @@ intents:
   - pesquisa_stackoverflow
   - pesquisar
 
+  - intent_utter_sobre_vaga
+  - intent_utter_exemplo_vaga
+  - intent_utter_exercicios_vaga
+  - intent_utter_conteudo_extra_vaga
+
+
 templates:
   utter_cumprimentar:
     - text: |
@@ -847,3 +853,11 @@ actions:
 
   - action_pesquisa_stackoverflow
   - utter_pesquisar
+
+
+  - action_set_slot_value
+  - action_utter_vaga
+  - action_utter_sobre_vaga
+  - action_utter_exemplo_vaga
+  - action_utter_exercicios_vaga
+  - action_utter_conteudo_extra_vaga
