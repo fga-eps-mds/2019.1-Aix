@@ -78,3 +78,22 @@ Além do formulário, foram anotadas questões que foram feitas de forma verbal 
 ## Conclusões
 
 Com a aplicação deste teste foi possível constatar que temos um bom guia num passo a passo do usuário dentro do conteúdo básico presente no bot, e que a realização das tarefas foi relativamente simples, pois a maioria dos participantes as concluiu sem grandes problemas, além disso, 75% dos participantes descreveu a maneira como as informações são apresentadas como ótima ou boa. Por outro lado, ficou evidente a necessidade de aumento do vocabulário do bot, inserção de conteúdos mais básicos, explicação de algumas features, e a criação de um roteiro que possa guiar de forma eficaz um usuário dentro da aplicação.
+
+## Melhorias
+
+Ao analisar as respostas dos usuários foi possível identificar melhorias a serem feitas nas próximas sprints. São elas:
+
+- Deixar as informações dispostas no bot mais objetivas.
+- Exemplificar com a sintaxe de python alguns conceitos.
+- Explicar as diferentes estruturas de repetição e suas diferenças.
+- Disponibilizar um cronograma de conteúdos a serem seguidos para usuários totalmente iniciantes. (Aula 1, Aula 2...)
+- Melhorar a função de pesquisa para se obter uma maior variedade de informações.
+- Melhorar precisão na detecção do conteúdo a ser apresentado.
+- Permitir que conteúdos já mapeados estejam, também, sujeitos a pesquisas.
+- Ser capaz de reconhecer mais "termos" (maior variedade de vocabulário).
+- Adicionar exemplos em python em todas as respostas.
+- Explicar o que é o stackoverflow
+- Inserir conteúdo sobre strings.
+- Um roteiro guiando o usuário.
+
+Observações: Nem todas as melhorias identificadas no teste de usabilidade são coerentes com o escopo do projeto além de nem todas serem viáveis. Os gerentes do projeto analisarão o que e como cada melhoria deve ser implementada.
