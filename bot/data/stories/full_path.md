@@ -14,6 +14,19 @@
 * manter_conversa
 	- utter_manter_conversa
 
+##full_path_condicionais_vaga
+* sobre_condicionais
+    - action_set_slot_value
+    - utter_sobre_condicionais
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa
+
 ##full_path_repeticao
 * sobre_repeticao
     - action_set_slot_value
@@ -29,6 +42,19 @@
     - utter_exercicios_repeticao
 * manter_conversa
 	- utter_manter_conversa
+
+##full_path_repeticao_vaga
+* sobre_repeticao
+    - action_set_slot_value
+    - utter_sobre_repeticao
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa
 
 ##full_path_variaveis
 * sobre_variaveis
@@ -58,6 +84,18 @@
 * manter_conversa
 	- utter_manter_conversa
 
+##full_path_variaveis_vaga
+* sobre_variaveis
+    - action_set_slot_value
+    - utter_sobre_variaveis
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa
 
 ##full_path_funcao
 * sobre_funcao
@@ -75,6 +113,19 @@
 * manter_conversa
 	- utter_manter_conversa
 
+##full_path_funcao_vaga
+* sobre_funcao
+    - action_set_slot_value
+    - utter_sobre_funcao
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa
+
 ##full_path_arquivos
 * sobre_arquivos
     - action_set_slot_value
@@ -91,6 +142,19 @@
 * manter_conversa
 	- utter_manter_conversa
 
+##full_path_arquivos_vaga
+* sobre_arquivos
+    - action_set_slot_value
+    - utter_sobre_arquivos
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa
+
 ##full_path_vetores
 * sobre_vetores
     - action_set_slot_value
@@ -104,6 +168,19 @@
 * exercicios_vetores
     - action_set_slot_value
     - utter_exercicios_vetores
+* manter_conversa
+    - utter_manter_conversa
+
+##full_path_vetores_vaga
+* sobre_vetores
+    - action_set_slot_value
+    - utter_sobre_vetores
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
 * manter_conversa
     - utter_manter_conversa
 
@@ -123,3 +200,15 @@
 * manter_conversa
     - utter_manter_conversa
 
+##full_path_matrizes_vaga
+* sobre_matrizes
+    - action_set_slot_value
+    - utter_sobre_matrizes
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_exercicios_vaga
+    - action_utter_exercicios_vaga
+* manter_conversa
+    - utter_manter_conversa

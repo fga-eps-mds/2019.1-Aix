@@ -31,6 +31,13 @@
     - action_set_slot_value
 	- utter_exemplo_condicionais
 
+## sobre_condicionais3
+* sobre_condicionais
+    - action_set_slot_value
+    - utter_sobre_condicionais
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
 ## sobre_repeticao
 * sobre_repeticao
     - action_set_slot_value
@@ -43,6 +50,13 @@
 * exemplo_repeticao
     - action_set_slot_value
 	- utter_exemplo_repeticao
+
+## sobre_repeticao3
+* sobre_repeticao
+    - action_set_slot_value
+    - utter_sobre_repeticao
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
 
 ## sobre_variaveis
 * sobre_variaveis
@@ -78,6 +92,13 @@
 	- utter_exemplo_variaveis
 
 ## sobre_variaveis3
+* sobre_variaveis
+    - action_set_slot_value
+    - utter_sobre_variaveis
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
+## sobre_variaveis4
 * sobre_variaveis
     - action_set_slot_value
     - utter_sobre_variaveis
@@ -117,6 +138,13 @@
     - action_set_slot_value
     - utter_exemplo_vetores
 
+## sobre_vetores3
+* sobre_vetores
+    - action_set_slot_value
+    - utter_sobre_vetores
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
 ## sobre_matrizes
 * sobre_matrizes
     - action_set_slot_value
@@ -130,6 +158,13 @@
     - action_set_slot_value
     - utter_exemplo_matrizes
 
+## sobre_matrizes3
+* sobre_matrizes
+    - action_set_slot_value
+    - utter_sobre_matrizes
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
 ## sobre_hello_world
 * sobre_hello_world
     - utter_sobre_hello_world
@@ -141,6 +176,13 @@
 * exemplo_importar_bibliotecas
     - action_set_slot_value
     - utter_exemplo_importar_bibliotecas
+
+## sobre_importar_bibliotecas2
+* sobre_importar_bibliotecas
+    - action_set_slot_value
+    - utter_sobre_importar_bibliotecas
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
 
 ## sobre_instalar_python
 * sobre_instalar_python
