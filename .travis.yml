@@ -10,10 +10,6 @@ sudo: required
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
-env:
-  global:
-    - CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
-
 jobs:
   include:
     - stage: Build
@@ -22,13 +18,10 @@ jobs:
       script:
         # - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|\.travis.yml|scripts\/)'  || exit 0
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
-        - docker run aixchatbot/aix-bot mkdir /tests/
-        - docker run aixchatbot/aix-bot curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > /tests/cc-test-reporter
-        - docker run aixchatbot/aix-bot chmod +x /tests/cc-test-reporter
-        - docker run aixchatbot/aix-bot /tests/cc-test-reporter before-build
+        - docker run aixchatbot/aix-bot tests-codeclimate-set.sh
         - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
         - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
-        - docker run aixchatbot/aix-bot /tests/cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+        - docker run aixchatbot/aix-bot tests-codeclimate-send.sh
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -40,13 +33,10 @@ jobs:
       script:
         # - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
-        - docker run aixchatbot/aix-actions run mkdir /tests/
-        - docker run aixchatbot/aix-actions run curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > /tests/cc-test-reporter
-        - docker run aixchatbot/aix-actions run chmod +x /tests/cc-test-reporter
-        - docker run aixchatbot/aix-actions run /tests/cc-test-reporter before-build
+        - docker run aixchatbot/aix-actions run tests-codeclimate-set.sh
         - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
         - docker run aixchatbot/aix-actions run pytest --cov-config=.coveragerc --cov=.
-        - docker run aixchatbot/aix-actions run /tests/cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+        - docker run aixchatbot/aix-actions run tests-codeclimate-send.sh
       deploy:
         provider: script
         script: bash ./deploy.sh
