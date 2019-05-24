@@ -86,14 +86,14 @@ def make_submission(url, code, language):
 def sumbit_problem(usr, pswrd, lang, problem_url, file_name, path=os.getcwd()):
     total_path = os.path.join(path, file_name)
     if not os.path.isfile(total_path):
-        print 'Not a file'
+        print('Not a file')
         return
     code = get_code(total_path)
     login = make_login(usr, pswrd)
     if login:
         make_submission(problem_url, code, lang)
     else:
-        print 'Error while submitting'
+        print('Error while submitting')
 
 
 def sumbit_problem_with_id(username, password, language, problem_id, file_name, path=os.getcwd()):
@@ -106,7 +106,7 @@ def sumbit_problem_with_id(username, password, language, problem_id, file_name, 
 def sumbit_problem_with_number(username, password, lang, problem_number, filename, path=os.getcwd()):
     problem = apiServices.get_problem_by_number(problem_number)
     if problem == {}:
-        print 'Wrong problem number'
+        print('Wrong problem number')
         return
     else:
         problem_id = str(problem[u'pid'])
@@ -115,25 +115,25 @@ def sumbit_problem_with_number(username, password, lang, problem_number, filenam
 
 def submit(username, password, lang, problem_number, filename, mode):
     if mode == 1:
-        print '(C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5)'
+        print('(C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5)')
         lang = raw_input("Language: ")
         problem_number = raw_input("Problem's number: ")
         filename = raw_input("File name: ")
         if lang and problem_number and filename:
             if lang not in [str(i) for i in range(1, 6)]:
-                print 'Wrong language.'
+                print('Wrong language.')
                 return
             if not problem_number.isdigit():
-                print 'Wrong problem.'
+                print('Wrong problem.')
                 return
             if '.' not in filename:
-                print 'You must specify the file extension.'
+                print('You must specify the file extension.')
                 return
             sumbit_problem_with_number(
                 username, password, lang, problem_number, filename)
 
         else:
-            print 'Wrong input.'
+            print('Wrong input.')
             return
     else:
         pass

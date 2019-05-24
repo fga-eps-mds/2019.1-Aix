@@ -1,6 +1,6 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from rasa_sdk.forms import FormAction
+from rasa_core_sdk.forms import FormAction
 import requests
 import json
 
@@ -61,11 +61,12 @@ class ActionPesquisaStackoverflow(Action):
             )
 
 ############################  Form Action  #################################
+
 class UserForm(FormAction):
     def name(self):
         return "user_form"
 
-    def required_slots(tracker):
+    def required_slots(self, tracker):
         return ['username', 'password']
 
     def submit(self, dispatcher, tracker, domain):
@@ -74,6 +75,7 @@ class UserForm(FormAction):
         password = tracker.get_slot('password')
         dispatcher.utter_message('Username: ' + username +
             '\nPassword: ' + password)
+        return []
 
 ############################  Intents Vagas  ###############################
 
