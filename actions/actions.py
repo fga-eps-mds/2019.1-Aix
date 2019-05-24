@@ -61,7 +61,6 @@ class ActionPesquisaStackoverflow(Action):
                 'Poderia me perguntar com outras palavras?'
             )
 
-############################  Form Action  #################################
 
 class UserForm(FormAction):
     def name(self):
@@ -81,14 +80,13 @@ class UserForm(FormAction):
             reset_slots = []
             reset_slots.append(SlotSet('username', None))
             reset_slots.append(SlotSet('password', None))
-            dispatcher.utter_message('Falha ao tentar logar.\n' + 
+            dispatcher.utter_message('Falha ao tentar logar.\n' +
                                      'Verifique o username e o' +
                                      ' password!')
             return reset_slots
 
         return []
 
-############################  Intents Vagas  ###############################
 
 class ActionSetSlotValue(Action):
     def name(self):
@@ -207,4 +205,3 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-
