@@ -6,11 +6,13 @@ services:
   - docker
 
 sudo: required
+
+notifications:
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
+
 env:
   global:
     - CC_TEST_REPORTER_ID=${CC_TEST_REPORTER_ID}
-notifications:
-  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
 jobs:
   include:
