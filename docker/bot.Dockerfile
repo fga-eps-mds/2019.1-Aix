@@ -24,8 +24,8 @@ RUN apt-get -yq remove --purge --auto-remove -y ${BUILD_PACKAGES}; \
 ADD ./bot /bot
 ADD ./scripts /scripts
 
-ADD ./tests-codeclimate-send.sh /bot
 ADD ./tests-codeclimate-set.sh /bot
+ADD ./tests-codeclimate-send.sh /bot
 
 WORKDIR /bot
 
