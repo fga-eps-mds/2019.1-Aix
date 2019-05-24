@@ -21,7 +21,8 @@ jobs:
         - docker run aixchatbot/aix-bot sh tests-codeclimate-set.sh
         - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
         - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
-        - docker run aixchatbot/aix-bot sh tests-codeclimate-send.sh
+      after_script:
+        - docker run aixchatbot/aix-bot sh tests-codeclimate-send.sh && ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -33,10 +34,11 @@ jobs:
       script:
         # - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
-        - docker run aixchatbot/aix-actions run sh tests-codeclimate-set.sh
+        - docker run aixchatbot/aix-actions run sh actions/tests-codeclimate-set.sh
         - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
         - docker run aixchatbot/aix-actions run pytest --cov-config=.coveragerc --cov=.
-        - docker run aixchatbot/aix-actions run sh tests-codeclimate-send.sh
+      after_script:
+        - docker run aixchatbot/aix-actions run sh actions/tests-codeclimate-send.sh && ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
       deploy:
         provider: script
         script: bash ./deploy.sh
