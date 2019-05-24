@@ -1,6 +1,7 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
+from actions import api_uva
 import requests
 import json
 
@@ -70,11 +71,21 @@ class UserForm(FormAction):
         return ['username', 'password']
 
     def submit(self, dispatcher, tracker, domain):
-        dispatcher.utter_message('Consegui o login e a senha')
+        dispatcher.utter_message('Consegui receber os dados!')
         username = tracker.get_slot('username')
         password = tracker.get_slot('password')
-        dispatcher.utter_message('Username: ' + username +
-            '\nPassword: ' + password)
+        login = api_uva.make_login(username, password)
+        if(login):
+            dispatcher.utter_message('Login realizado com sucesso!')
+        else:
+            reset_slots = []
+            reset_slots.append(SlotSet('username', None))
+            reset_slots.append(SlotSet('password', None))
+            dispatcher.utter_message('Falha ao tentar logar.\n' + 
+                                     'Verifique o username e o' +
+                                     ' password!')
+            return reset_slots
+
         return []
 
 ############################  Intents Vagas  ###############################
