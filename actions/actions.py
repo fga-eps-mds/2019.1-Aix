@@ -1,5 +1,6 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
+from rasa_sdk.forms import FormAction
 import requests
 import json
 
@@ -59,6 +60,22 @@ class ActionPesquisaStackoverflow(Action):
                 'Poderia me perguntar com outras palavras?'
             )
 
+############################  Form Action  #################################
+class UserForm(FormAction):
+    def name(self):
+        return "user_form"
+
+    def required_slots(tracker):
+        return ['username', 'password']
+
+    def submit(self, dispatcher, tracker, domain):
+        dispatcher.utter_message('Consegui o login e a senha')
+        username = tracker.get_slot('username')
+        password = tracker.get_slot('password')
+        dispatcher.utter_message('Username: ' + username +
+            '\nPassword: ' + password)
+
+############################  Intents Vagas  ###############################
 
 class ActionSetSlotValue(Action):
     def name(self):
@@ -177,3 +194,4 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+
