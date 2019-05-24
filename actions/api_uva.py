@@ -54,11 +54,6 @@ def make_login(username, password, url=HOME):
     else:
         return True
 
-
-def check_login(username, password, url=HOME):
-    return make_login(username, password, url)
-
-
 def get_code(path):
     code = ''
     in_file = open(path, 'r')
@@ -66,7 +61,6 @@ def get_code(path):
         code += line
     in_file.close()
     return code
-
 
 def process_submission(form, code, language):
     url = HOME + form['action']
@@ -76,12 +70,10 @@ def process_submission(form, code, language):
     params['language'] = language
     get_soup(url, action=POST, params=params)
 
-
 def make_submission(url, code, language):
     soup = get_soup(url)
     form = soup.find_all('form')[1]
     process_submission(form, code, language)
-
 
 def sumbit_problem(usr, pswrd, lang, problem_url, file_name, path=os.getcwd()):
     total_path = os.path.join(path, file_name)
@@ -95,64 +87,11 @@ def sumbit_problem(usr, pswrd, lang, problem_url, file_name, path=os.getcwd()):
     else:
         print 'Error while submitting'
 
-
 def sumbit_problem_with_id(username, password, language, problem_id, file_name, path=os.getcwd()):
     base_url = 'http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=submit_problem&problemid='
     base_url += str(problem_id)
     base_url += '&category='
     sumbit_problem(username, password, language, base_url, file_name, path)
-
-
-def sumbit_problem_with_number(username, password, lang, problem_number, filename, path=os.getcwd()):
-    problem = apiServices.get_problem_by_number(problem_number)
-    if problem == {}:
-        print 'Wrong problem number'
-        return
-    else:
-        problem_id = str(problem[u'pid'])
-        sumbit_problem_with_id(username, password, lang, problem_id, filename)
-
-
-def submit(username, password, lang, problem_number, filename, mode):
-    if mode == 1:
-        print '(C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5)'
-        lang = raw_input("Language: ")
-        problem_number = raw_input("Problem's number: ")
-        filename = raw_input("File name: ")
-        if lang and problem_number and filename:
-            if lang not in [str(i) for i in range(1, 6)]:
-                print 'Wrong language.'
-                return
-            if not problem_number.isdigit():
-                print 'Wrong problem.'
-                return
-            if '.' not in filename:
-                print 'You must specify the file extension.'
-                return
-            sumbit_problem_with_number(
-                username, password, lang, problem_number, filename)
-
-        else:
-            print 'Wrong input.'
-            return
-    else:
-        pass
-
-
-def username_to_id(username):
-
-    url = 'http://uhunt.felix-halim.net/api/uname2uid/' + str(username)
-    resp = requests.get(url)
-    data = json.loads(resp.text)
-    return str(data)
-
-
-def problem_list():
-    url = 'http://uhunt.felix-halim.net/api/p'
-    resp = requests.get(url)
-    data = json.loads(resp.text)
-    return data
-
 
 def get_problem(problem_id, problem_number, by_id, by_number):
     url = ''
@@ -169,16 +108,13 @@ def get_problem(problem_id, problem_number, by_id, by_number):
         data = json.loads(resp.text)
     return data
 
-
 def get_problem_by_id(problem_id):
 
     return get_problem(problem_id, None, True, False)
 
-
 def get_problem_by_number(problem_number):
 
     return get_problem(None, problem_number, False, True)
-
 
 def get_submissions(user_id):
     url = 'http://uhunt.felix-halim.net/api/subs-user/' + str(user_id)
@@ -186,19 +122,16 @@ def get_submissions(user_id):
     data = json.loads(resp.text)
     return data
 
-
 def SubmeterUmProblema(username, password, idproblema, path):
     login = make_login(username, password)
     urldoproblema = URLPROBLEMA + idproblema
-    print(urldoproblema)
     soup = get_soup(urldoproblema)
-    print(soup)
     form = soup.find_all('form')[1]
     params = get_params(form)
-
     code = get_code(path)
     params['code'] = code
     params['language'] = '6'
     action = form['action']
-    resultado = get_soup(HOME+action, action='1', params=params)
+    resultado = get_soup('https://uva.onlinejudge.org/'+action, action = '1', params = params)
     return resultado
+
