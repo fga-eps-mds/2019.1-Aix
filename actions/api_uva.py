@@ -109,5 +109,3 @@ def submeter_um_problema(username, password, problem_num, path):
     resultado = get_soup('https://uva.onlinejudge.org/'+action,
                          action='1', params=params)
     return resultado
-
-submeter_um_problema('iuri_severo', '159877iu', '11459', '/home/iuri/Área de Trabalho/Faculdade/semestre_4/TEP - Geometria/exercicios/11459UVA.cpp')
