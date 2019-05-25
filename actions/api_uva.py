@@ -130,17 +130,17 @@ def resultado_ultima_submissao(username):
 
     dct =   {   10 : 'Submission error',
                 15 : 'Can\'t be judged',
-                20 : 'In queue',
-                30 : 'Compile error',
+                20 : 'A sua submissão está na fila para ser julgada, espere um pocuo!',
+                30 : 'O código-fonte foi submetido com erro de compilação, tente rodar no jupyter antes de me mandar!',
                 35 : 'Restricted function',
-                40 : 'Runtime error',
+                40 : 'Deu Runtime error, um erro típico quando você define um vetor ou array com menos capacidade do que o necessário para o problema, ou quando você tenta acessar uma de memória inválida.',
                 45 : 'Output limit',
-                50 : 'Time limit Exceeded',
+                50 : 'A solução que você submeteu demorou mais tempo do que o permitido para rodar todos os testes dos juízes.',
                 60 : 'Memory limit',
-                70 : 'Wrong answer',
-                80 : 'PresentationE',
-                90 : 'Accepted'
+                70 : 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!',
+                80 : 'Olha, sua respostas está praticamente correta, apenas há erro na quantidade de espaços ou letras inversão de letras maiúsculas / minúsculas. Arrume e tente de novo! ',
+                90 : 'A submissão passou por todos os casos de teste, Parabéns!'
             }
     veredito = dct[veredito]
     return veredito
-
+Accepted
