@@ -7,6 +7,7 @@ URLPROBLEMA = 'https://uva.onlinejudge.org/index.php?option'
 URLPROBLEMA += '=com_onlinejudge&Itemid=25&page=submit_problem'
 URLPROBLEMA += '&problemid='
 URLSUBMISSAO = "https://uhunt.onlinejudge.org/api/subs-user/"
+URLUNAMETOID = "http://uhunt.felix-halim.net/api/uname2uid/"
 GET = '0'
 POST = '1'
 
@@ -88,13 +89,6 @@ def get_problem_by_number(problem_number):
     return get_problem(None, problem_number, False, True)
 
 
-def get_submissions(user_id):
-    url = 'http://uhunt.felix-halim.net/api/subs-user/' + str(user_id)
-    resp = requests.get(url)
-    data = json.loads(resp.text)
-    return data
-
-
 def submeter_um_problema(username, password,
                          problem_num, lang,
                          path='', codigo=''):
@@ -117,7 +111,15 @@ def submeter_um_problema(username, password,
     response = resultado.title.text
     return response
 
-def resultado_ultima_submissao(user_id):
+def username_para_userid(username):
+    url = URLUNAMETOID+str(username)
+    resp = requests.get(url)
+    data = json.loads(resp.text)
+    return str(data)
+
+
+def resultado_ultima_submissao(username):
+    user_id = username_para_userid(username)
     url = URLSUBMISSAO + str(user_id)
     resp = requests.get(url)
     data = json.loads(resp.text)
@@ -140,4 +142,5 @@ def resultado_ultima_submissao(user_id):
                 90 : 'Accepted'
             }
     veredito = dct[veredito]
-    print(veredito)
+    return veredito
+

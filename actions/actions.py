@@ -87,6 +87,17 @@ class UserForm(FormAction):
 
         return []
 
+class ActionFeedbackSubmissao(Action):
+    def name(self):
+        return "action_feedback_submissao_stackoverflow"
+
+    def run(self, dispatcher, tracker, domain):
+        username = tracker.get_slot('username')
+        dictionary = self.stackoverflow_request(research)
+        links = self.validate_links(dictionary)
+
+
+
 class CodeForm(FormAction):
     def name(self):
         return "code_form"
