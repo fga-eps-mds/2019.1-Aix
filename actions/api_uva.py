@@ -143,4 +143,3 @@ def resultado_ultima_submissao(username):
             }
     veredito = dct[veredito]
     return veredito
-Accepted
