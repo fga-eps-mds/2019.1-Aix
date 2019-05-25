@@ -10,6 +10,7 @@ intents:
   - sobre_programaçao
 
 
+
   - menu_ajuda
   - curiosidades_python
 
@@ -73,6 +74,7 @@ intents:
   - login_no_uva
   - inform
   - submissao_de_exercicio
+  - feedback_uva
 
 forms:
   - user_form
@@ -924,6 +926,7 @@ actions:
   - action_utter_exemplo_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+  - action_feedback_submissao_uva
 
   - utter_ask_username
   - utter_ask_password
