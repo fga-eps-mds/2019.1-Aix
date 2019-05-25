@@ -73,7 +73,7 @@ class UserForm(FormAction):
         dispatcher.utter_message('Consegui receber os dados!')
         username = tracker.get_slot('username')
         password = tracker.get_slot('password')
-        login = True #api_uva.make_login(username, password)
+        login = api_uva.make_login(username, password)
         if(login):
             dispatcher.utter_message('Login realizado com sucesso!')
         else:
@@ -116,8 +116,8 @@ class CodeForm(FormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        response = api_uva.submeter_um_problema(username='iuri_severo',
-                                               password='159877iu',
+        response = api_uva.submeter_um_problema(username=username,
+                                               password=password,
                                                problem_num=str(problema),
                                                lang=str(linguagem),
                                                codigo=str(codigo))
