@@ -6,6 +6,7 @@ HOME = 'http://uva.onlinejudge.org/'
 URLPROBLEMA = 'https://uva.onlinejudge.org/index.php?option'
 URLPROBLEMA += '=com_onlinejudge&Itemid=25&page=submit_problem'
 URLPROBLEMA += '&problemid='
+URLSUBMISSAO = "https://uhunt.onlinejudge.org/api/subs-user/"
 GET = '0'
 POST = '1'
 
@@ -115,3 +116,8 @@ def submeter_um_problema(username, password,
                          action='1', params=params)
     response = resultado.title.text
     return response
+
+def resultado_ultima_submissao():
+    url = URLSUBMISSAO + str(user_id)
+	resp = requests.get(url)
+	data = json.loads(resp.text)
