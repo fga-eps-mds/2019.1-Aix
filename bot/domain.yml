@@ -70,13 +70,27 @@ intents:
   - intent_utter_conteudo_extra_vaga
 
 
+  - login_no_uva
+  - inform
+
+forms:
+  - user_form
+
 entities:
   - conteudo
+  - username
+  - password
 
 slots:
   conteudo:
     type: text
     initial_value: "erro"
+  username:
+    type: unfeaturized
+    auto_fill: false
+  password:
+    type: unfeaturized
+    auto_fill: false
 
 templates:
   utter_cumprimentar:
@@ -756,19 +770,19 @@ templates:
 
 
   utter_conteudo_extra_funcao:
-      - text : |
-          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
+    - text : |
+        Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
 
-          https://www.devmedia.com.br/funcoes-em-python/37340
-          https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
+        https://www.devmedia.com.br/funcoes-em-python/37340
+        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
   utter_conteudo_extra_arquivos:
-      - text : |
-          Então você quer virar o mago dos arquivos, néee!?
-          Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
-          https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
-          https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
-          http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
+    - text : |
+        Então você quer virar o mago dos arquivos, néee!?
+        Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
+        https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
+        https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
+        http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
 
 
   utter_conteudo_extra_vetores:
@@ -801,6 +815,15 @@ templates:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
+
+  # =========================== LOGIN NO UVA =========================== #
+  utter_ask_username:
+    - text: |
+        Bée, qual o seu username?
+
+  utter_ask_password:
+    - text: |
+        Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
 
 actions:
   - utter_start
@@ -874,3 +897,6 @@ actions:
   - action_utter_exemplo_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+
+  - utter_ask_username
+  - utter_ask_password

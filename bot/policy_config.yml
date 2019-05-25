@@ -11,3 +11,4 @@ policies:
     core_threshold: 0.6
   - name: MemoizationPolicy
     max_history: 3
+  - name: FormPolicy
