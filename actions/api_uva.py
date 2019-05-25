@@ -94,7 +94,9 @@ def get_submissions(user_id):
     return data
 
 
-def submeter_um_problema(username, password, problem_num, lang, path='', codigo=''):
+def submeter_um_problema(username, password,
+                         problem_num, lang,
+                         path='', codigo=''):
     make_login(username, password)
     problem = get_problem_by_number(problem_num)
     problem_id = str(problem[u'pid'])
