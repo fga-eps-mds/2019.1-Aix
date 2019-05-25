@@ -72,14 +72,19 @@ intents:
 
   - login_no_uva
   - inform
+  - submissao_de_exercicio
 
 forms:
   - user_form
+  - code_form
 
 entities:
   - conteudo
   - username
   - password
+  - codigo
+  - problema
+  - linguagem
 
 slots:
   conteudo:
@@ -89,6 +94,15 @@ slots:
     type: unfeaturized
     auto_fill: false
   password:
+    type: unfeaturized
+    auto_fill: false
+  codigo:
+    type: unfeaturized
+    auto_fill: false
+  problema:
+    type: unfeaturized
+    auto_fill: false
+  linguagem:
     type: unfeaturized
     auto_fill: false
 
@@ -825,6 +839,19 @@ templates:
     - text: |
         Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
 
+  utter_ask_codigo:
+    - text: |
+        Bée, pode mandar seu código!!!
+
+  utter_ask_problema:
+    - text: |
+        Qual questão você quer submeter?
+
+  utter_ask_linguagem:
+    - text: |
+        Em qual linguagem você deseja submeter?
+        (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
+
 actions:
   - utter_start
   - utter_help
@@ -900,3 +927,6 @@ actions:
 
   - utter_ask_username
   - utter_ask_password
+  - utter_ask_codigo
+  - utter_ask_problema
+  - utter_ask_linguagem
