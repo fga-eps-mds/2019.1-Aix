@@ -94,7 +94,9 @@ def get_submissions(user_id):
     return data
 
 
-def submeter_um_problema(username, password, problem_num, path):
+def submeter_um_problema(username, password,
+                         problem_num, lang,
+                         path='', codigo=''):
     make_login(username, password)
     problem = get_problem_by_number(problem_num)
     problem_id = str(problem[u'pid'])
@@ -102,10 +104,14 @@ def submeter_um_problema(username, password, problem_num, path):
     soup = get_soup(urldoproblema)
     form = soup.find_all('form')[1]
     params = get_params(form)
-    code = get_code(path)
+    if(path != ''):
+        code = get_code(path)
+    else:
+        code = codigo
     params['code'] = code
-    params['language'] = '5'
+    params['language'] = lang
     action = form['action']
     resultado = get_soup('https://uva.onlinejudge.org/'+action,
                          action='1', params=params)
-    return resultado
+    response = resultado.title.text
+    return response

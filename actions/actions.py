@@ -87,6 +87,42 @@ class UserForm(FormAction):
 
         return []
 
+class CodeForm(FormAction):
+    def name(self):
+        return "code_form"
+
+    def required_slots(self, tracker):
+        return ['problema', 'linguagem', 'codigo']
+
+    def submit(self, dispatcher, tracker, domain):
+        dispatcher.utter_message('Consegui receber o código!')
+        username = tracker.get_slot('username')
+        password = tracker.get_slot('password')
+        if(username == None):
+            dispatcher.utter_message('Você esquece de fazer' +
+                                     'login no UVa! Se conecte' +
+                                     ' antes de submeter algo!')
+            return []
+        codigo = tracker.get_slot('codigo')
+        problema = tracker.get_slot('problema')
+        linguagem = tracker.get_slot('linguagem')
+        response = api_uva.submeter_um_problema(username='iuri_severo',
+                                               password='159877iu',
+                                               problem_num=str(problema),
+                                               lang=str(linguagem),
+                                               codigo=str(codigo))
+        if(response == 'UVa Online Judge'):
+            dispatcher.utter_message('Submissão realizada!')
+        else:
+            dispatcher.utter_message('Béeeee, algo deu errado!!!' +
+                                     ' Por favor tente novamente!')
+        reset_slots = []
+        reset_slots.append(SlotSet('codigo', None))
+        reset_slots.append(SlotSet('problema', None))
+        reset_slots.append(SlotSet('linguagem', None))
+
+        return reset_slots
+
 
 class ActionSetSlotValue(Action):
     def name(self):

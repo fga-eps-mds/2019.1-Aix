@@ -7,6 +7,17 @@
 - conectar ao UVa
 - logar no uva
 
+## intent:submissao_de_exercicio
+- quero submeter um exercicio
+- enviar questão para o UVA
+- submeter uma questão
+- enviar meu código para o uva
+- dar submit numa questão
+- enviar exercicio
+- finalizar questão do UVA
+- submeter exercicio no uva
+- submeter exercício
+
 ## intent:inform
 - meu usuário é [iuri_severo](username)
 - meu login [hey_listen](username)
@@ -40,3 +51,21 @@
 - [algo123interessante456](password)
 - [1337LeeT](password)
 - [123$asd@fff&](password)
+- esse é meu código [asdsadhbfgahsd](codigo)
+- [asjdhaudh](codigo)
+- meu código [smmn nafdasdf](codigo)
+- submeta esse código [meu código](codigo)
+- codigo para submissão [codigo em python](codigo)
+- submeter [sdhahsbafgg](codigo)
+- problema número [11459](problema)
+- [12345](problema)
+- questão [54321](problema)
+- número da questão [9876](problema)
+- problema [4456](problema)
+- exercicio [5674](problema)
+- linguagem [1](linguagem)
+- linguagem [2](linguagem)
+- linguagem [3](linguagem)
+- linguagem [4](linguagem)
+- linguagem [5](linguagem)
+- linguagem [6](linguagem)
