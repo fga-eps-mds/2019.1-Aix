@@ -117,7 +117,27 @@ def submeter_um_problema(username, password,
     response = resultado.title.text
     return response
 
-def resultado_ultima_submissao():
+def resultado_ultima_submissao(user_id):
     url = URLSUBMISSAO + str(user_id)
-	resp = requests.get(url)
-	data = json.loads(resp.text)
+    resp = requests.get(url)
+    data = json.loads(resp.text)
+    data = data[u'subs']
+    data.sort(key = lambda x : x[0], reverse = True)
+    data = data[0]
+    veredito = data[2]
+
+    dct =   {   10 : 'Submission error',
+                15 : 'Can\'t be judged',
+                20 : 'In queue',
+                30 : 'Compile error',
+                35 : 'Restricted function',
+                40 : 'Runtime error',
+                45 : 'Output limit',
+                50 : 'Time limit Exceeded',
+                60 : 'Memory limit',
+                70 : 'Wrong answer',
+                80 : 'PresentationE',
+                90 : 'Accepted'
+            }
+    veredito = dct[veredito]
+    print(veredito)
