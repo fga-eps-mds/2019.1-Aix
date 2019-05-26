@@ -9,8 +9,10 @@ intents:
   - assuntos_inapropriados
   - sobre_programaçao
 
+
   - menu_ajuda
   - curiosidades_python
+
 
   - sobre_aix
   - sobre_python
@@ -28,6 +30,7 @@ intents:
   - sobre_hello_world
   - sobre_importar_bibliotecas
   - sobre_instalar_python
+  - sobre_strings
 
 
   - exemplo_variaveis
@@ -288,7 +291,7 @@ templates:
 
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings me dê exemplos de variaveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings, me dê exemplos de variaveis
         Simples como comer capim!
   utter_sobre_inteiros:
     - text: |
@@ -448,14 +451,25 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos de função, como declarar uma função
         Simples como comer capim!
+  utter_sobre_strings:
+    - text: |
+        Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
+        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né? 
+        Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
+        (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
+        Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
+        Simples como comer capim!
 
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
-         # nome da variável = conteúdo da variável
-         username = "username@email.com"
-         senha = "digitos1234"
+        (entre parêntesis estará o tipo de cada variável)
+          # nome da variável = conteúdo da variável
+         username = "username@email.com" (string)
+         senha = "digitos1234" (string)
+         senha[5] (caractere, nesse caso o caractere 'o')
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
 
         Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
@@ -470,13 +484,14 @@ templates:
 
     - text: |
         Então você quer ver como as variáveis funcionam... um ótima forma de visualizar variáveis é em uma equação onde você já tem variáveis!!
+        (entre parêntesis estará o tipo de cada variável)
         A Fórmula de Bháskara poderia ser escrita desse jeito:
-          a = -5
-          b = 4
-          c = 1
-          delta = b*b - 4*a*c
-          y1 = (-b + delta**1/2)/(2*a)
-          y2 = (-b - delta**1/2)/(2*a)
+          a = -5 (inteiro)
+          b = 4 (inteiro)
+          c = 1 (inteiro)
+          delta = b*b - 4*a*c (inteiro)
+          y1 = (-b + delta**1/2)/(2*a) (ponto flutuante)
+          y2 = (-b - delta**1/2)/(2*a) (ponto flutuante)
         Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
@@ -796,8 +811,10 @@ actions:
   - utter_assuntos_inapropriados
   - utter_sobre_programaçao
 
+
   - utter_menu_ajuda
   - utter_curiosidades_python
+
 
   - utter_sobre_aix
   - utter_sobre_python
@@ -815,6 +832,8 @@ actions:
   - utter_sobre_hello_world
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
+  - utter_sobre_strings
+
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
@@ -824,7 +843,6 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
-
 
 
   - utter_exercicios_variaveis

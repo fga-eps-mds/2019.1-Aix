@@ -73,6 +73,8 @@
     - utter_sobre_pontos_flutuantes
 * sobre_caracteres
     - utter_sobre_caracteres
+* sobre_strings
+    - utter_sobre_strings
 * sobre_booleanos
     - utter_sobre_booleanos
 
@@ -119,3 +121,7 @@
 ## sobre_instalar_python
 * sobre_instalar_python
     - utter_sobre_instalar_python
+
+## sobre_strings
+* sobre_strings
+    - utter_sobre_strings
