@@ -111,6 +111,7 @@ def submeter_um_problema(username, password,
     response = resultado.title.text
     return response
 
+
 def username_para_userid(username):
     url = URLUNAMETOID+str(username)
     resp = requests.get(url)
@@ -124,22 +125,34 @@ def resultado_ultima_submissao(username):
     resp = requests.get(url)
     data = json.loads(resp.text)
     data = data[u'subs']
-    data.sort(key = lambda x : x[0], reverse = True)
+    data.sort(key=lambda x: x[0], reverse=True)
     data = data[0]
     veredito = data[2]
 
-    dct =   {   10 : 'Submission error',
-                15 : 'Can\'t be judged',
-                20 : 'A sua submissão está na fila para ser julgada, espere um pocuo!',
-                30 : 'O código-fonte foi submetido com erro de compilação, tente rodar no jupyter antes de me mandar!',
-                35 : 'Restricted function',
-                40 : 'Deu Runtime error, um erro típico quando você define um vetor ou array com menos capacidade do que o necessário para o problema, ou quando você tenta acessar uma de memória inválida.',
-                45 : 'Output limit',
-                50 : 'A solução que você submeteu demorou mais tempo do que o permitido para rodar todos os testes dos juízes.',
-                60 : 'Memory limit',
-                70 : 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!',
-                80 : 'Olha, sua respostas está praticamente correta, apenas há erro na quantidade de espaços ou letras inversão de letras maiúsculas / minúsculas. Arrume e tente de novo! ',
-                90 : 'A submissão passou por todos os casos de teste, Parabéns!'
-            }
+    dct = {10: 'Submission error',
+           15: 'Can\'t be judged',
+           20: 'A sua submissão está na fila para ser julgada,' +
+               ' espere um pouco!',
+           30: 'O código-fonte foi submetido com erro' +
+               ' de compilação, tente rodar no jupyter antes' +
+               'de me mandar!',
+           35: 'Restricted function',
+           40: 'Deu Runtime error, um erro típico quando' +
+               'você define um vetor ou array com menos capacidade' +
+               ' do que o necessário para o problema, ou quando você' +
+               ' tenta acessar uma de memória inválida.',
+           45: 'Output limit',
+           50: 'A solução que você submeteu demorou mais tempo' +
+               ' do que o permitido para rodar todos os testes dos juízes.',
+           60: 'Memory limit',
+           70: 'Olha, o código rodou, mas sua solução não apresenta' +
+               ' o resultado esperado para todos os casos de testes dos' +
+               ' juízes, arrume e tente de novo!',
+           80: 'Olha, sua respostas está praticamente correta,' +
+               ' apenas há erro na quantidade de espaços ou letras' +
+               ' inversão de letras maiúsculas / minúsculas.' +
+               ' Arrume e tente de novo! ',
+           90: 'A submissão passou por todos os casos de teste, Parabéns!'
+           }
     veredito = dct[veredito]
     return veredito

@@ -7,6 +7,7 @@ category: Projeto
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
 | 11/05/2019 | 0.0.1  | Criação do documento             | Gabriela, Iuri   |
+| 11/05/2019 | 0.0.2  | Adição de FormActions no conteúdo             | Gabriela, Iuri, Pedro, Gustavo, André   |
 
 # Slots: o que são, de onde vem e o que fazem?
 
@@ -22,6 +23,7 @@ Segundo a documentação do [Rasa](https://rasa.com/docs/core/slots/), segue a d
         coletadas sobre o mundo exterior (por exemplo, o 
         resultado de uma consulta ao banco de dados)."
 
+<!--more-->
 
 Caso aja a necessidade de retornar ao usuário a previsão do tempo em sua localidade, por exemplo, como faz o projeto  [Gaia](https://github.com/BotGaia), seria interessante usarmos os slots para captar a região correspondente primeiramente, para que possamos, posteriormente, usar esse dado coletado para procurarmos as informações necessárias de retorno ao usuário. Afinal, para que possamos responder sobre o clima de um lugar, é necessário antes saber de qual local se trata.
 
