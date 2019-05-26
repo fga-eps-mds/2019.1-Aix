@@ -87,6 +87,17 @@ class UserForm(FormAction):
 
         return []
 
+
+class ActionFeedbackSubmissao(Action):
+    def name(self):
+        return "action_feedback_submissao_uva"
+
+    def run(self, dispatcher, tracker, domain):
+        username = tracker.get_slot('username')
+        resposta = api_uva.resultado_ultima_submissao(username)
+        dispatcher.utter_message(resposta)
+
+
 class CodeForm(FormAction):
     def name(self):
         return "code_form"
@@ -98,7 +109,7 @@ class CodeForm(FormAction):
         dispatcher.utter_message('Consegui receber o código!')
         username = tracker.get_slot('username')
         password = tracker.get_slot('password')
-        if(username == None):
+        if username is None:
             dispatcher.utter_message('Você esquece de fazer' +
                                      'login no UVa! Se conecte' +
                                      ' antes de submeter algo!')
@@ -106,11 +117,11 @@ class CodeForm(FormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        response = api_uva.submeter_um_problema(username='iuri_severo',
-                                               password='159877iu',
-                                               problem_num=str(problema),
-                                               lang=str(linguagem),
-                                               codigo=str(codigo))
+        response = api_uva.submeter_um_problema(username=username,
+                                                password=password,
+                                                problem_num=str(problema),
+                                                lang=str(linguagem),
+                                                codigo=str(codigo))
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
         else:
