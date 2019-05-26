@@ -162,6 +162,9 @@
 - quero estudar
 - como estudar com você
 - quero aprender
+- o que você pode fazer?
+- quais as suas capidades?
+- o que você sabe?
 
 ## intent:curiosidades_python
 - zen do python
