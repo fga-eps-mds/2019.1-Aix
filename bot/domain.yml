@@ -50,6 +50,11 @@ intents:
   - exercicios_vetores
   - exercicios_matrizes
 
+  - desafio_hello_world
+  - desafio_repeticao
+  - desafio_funcao
+  - desafio_vetores
+  - desafio_matrizes
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -448,10 +453,18 @@ templates:
         Temos então:
             print("Hello World!")
 
-        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
+  utter_desafio_hello_world:
+    - text : |
+      Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+      está certo ou não! Começaremos com o nível 1:
+
+      NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+
+      Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+      
   utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
@@ -473,7 +486,7 @@ templates:
 
         sudo apt-get install python3.6
 
-        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt: 
+        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt:
 
         uname -m
 
@@ -697,7 +710,16 @@ templates:
 
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
-        Também não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
+
+   utter_desafio_repeticao:
+    - text: |
+        Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
+        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
+        a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
+
+        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
 
   utter_exercicios_vetores:
     - text: |
@@ -709,6 +731,13 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+
+utter_desafio_vetores:
+    - text: |
+        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
 
         Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
@@ -724,7 +753,15 @@ templates:
 
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
-        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Laços de repetição. É só perguntar o que são laços de repetição que eu te explico.
+
+utter_desafio_matrizes:
+    - text: |
+        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+
+        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.
 
   utter_exercicios_arquivos:
     - text: |
@@ -746,6 +783,14 @@ templates:
 
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+
+  utter_desafio_funcao:
+    - text: |
+        Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
+        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! Vamos tentar?
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
+
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
   # ============================ CONTEÚDO EXTRA ============================ #
@@ -895,7 +940,6 @@ actions:
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
 
-
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
@@ -904,6 +948,11 @@ actions:
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
 
+  - utter_desafio_hello_world
+  - utter_desafio_repeticao
+  - utter_desafio_funcao
+  - utter_desafio_vetores
+  - utter_desafio_matrizes
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
