@@ -1,19 +1,19 @@
-## desafios_hello_world
+## desafio_hello_world
 * desafios_condicionais
-    - utter_desafios_condicionais
+    - utter_desafio_condicionais
 
-## desafios_repeticao
+## desafio_repeticao
 * desafios_condicionais
-      - utter_desafios_condicionais
+      - utter_desafio_condicionais
 
-## desafios_funcao
+## desafio_funcao
 * desafios_condicionais
-      - utter_desafios_condicionais
+      - utter_desafio_condicionais
 
-## desafios_vetores
-* desafios_condicionais
-      - utter_desafios_condicionais
+## desafio_vetores
+* desafio_condicionais
+      - utter_desafio_condicionais
 
-## desafios_matrizes
-* desafios_condicionais
-      - utter_desafios_condicionais
+## desafio_matrizes
+* desafio_condicionais
+      - utter_desafio_condicionais
