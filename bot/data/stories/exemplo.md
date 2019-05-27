@@ -92,3 +92,6 @@
 * exemplo_importar_bibliotecas
     - utter_exemplo_importar_bibliotecas
 
+## exemplo_strings
+* exemplo_strings
+    - utter_exemplo_strings

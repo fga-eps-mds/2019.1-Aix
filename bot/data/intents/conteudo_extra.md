@@ -317,3 +317,36 @@
 - site extra arrays bidimensionais
 - site extra array bidimensional
 
+## intent:conteudo_extra_strings
+- conteudo extra sobre strings
+- quero saber mais sobre strings
+- como manipular strings
+- funções avançadas sobre strings
+- funcoes avancadas sobre strings
+- aprender mais sobre strings
+- link extra strings
+- site extra strings
+- site extra strings
+- site string
+- link strings
+- mais informacoes sobre strings
+- informações extras sobre strings
+- me fale mais sobre strings
+- documentação sobre strings
+- documentacao sobre strings
+- conteudo extra sobre string
+- quero saber mais sobre string
+- como manipular string
+- funções avançadas sobre string
+- funcoes avancadas sobre string
+- aprender mais sobre string
+- link extra string
+- site extra string
+- site extra string
+- site string
+- link string
+- mais informacoes sobre string
+- informações extras sobre string
+- me fale mais sobre string
+- documentação sobre string
+- documentacao sobre string

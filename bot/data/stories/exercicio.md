@@ -56,3 +56,13 @@
     - utter_exercicios_matrizes
 * conteudo_extra_matrizes
     - utter_conteudo_extra_matrizes
+  
+## exercicios_strings
+* exercicios_strings
+  - utter_exercicios_strings
+  
+## exercicios_strings2
+* exercicios_strings
+  - utter_exercicios_strings
+* conteudo_extra_strings
+  - utter_conteudo_extra_strings 

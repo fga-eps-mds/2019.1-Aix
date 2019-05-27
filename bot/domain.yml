@@ -41,6 +41,7 @@ intents:
   - exemplo_vetores
   - exemplo_matrizes
   - exemplo_importar_bibliotecas
+  - exemplo_strings
 
 
   - exercicios_variaveis
@@ -50,6 +51,7 @@ intents:
   - exercicios_arquivos
   - exercicios_vetores
   - exercicios_matrizes
+  - exercicios_strings
 
 
   - conteudo_extra_variaveis
@@ -59,6 +61,7 @@ intents:
   - conteudo_extra_arquivos
   - conteudo_extra_vetores
   - conteudo_extra_matrizes
+  - conteudo_extra_strings
 
 
   - pesquisa_stackoverflow
@@ -622,6 +625,20 @@ templates:
         Caso haja alguma dúvida você pode solicitar por uma pesquisa.
         Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
 
+  utter_exemplo_strings:
+    - text: |
+        Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
+        Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas. Pode ser aspas simples ou duplas :D
+        Como lhe disse anteriormente, uma string é um vetor de caracteres. 
+        Logo, podemos acessar um caractere específico de uma string apenas adicionando um número entre '[]' após o nome da string
+        Veja um exemplo:
+          minha_string = "olá, bom dia! como vai você?" (string)
+          print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
+
+        Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
+        Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
+        Bée..se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo strings, strings na prática, strings na pratica, exercicios strings
+
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
     - text: |
@@ -714,6 +731,18 @@ templates:
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+  utter_exercicios_strings:
+    - text: |
+        Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.
+        Tá aqui alguns exercícios por ordem de dificuldade, Béee:
+          Combinador - https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
+          Cifra de César - https://www.urionlinejudge.com.br/judge/pt/problems/view/1253
+          Array Hash - https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
+
+          Obteve algum erro de compilação? Podemos pesquisar sobre ele!
+          Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+          E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
+          
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
@@ -790,6 +819,13 @@ templates:
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios matrizes, treinar matrizes
+  utter_conteudo_extra_strings:
+    - text: |
+        Olha que legal esse conteúdo extra sobre strings:
+          https://www.w3schools.com/python/python_strings.asp
+        Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
+        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, é só pedir!
+        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios strings, treinar strings
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
@@ -840,6 +876,7 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
+  - utter_exemplo_strings
 
 
   - utter_exercicios_variaveis
@@ -849,6 +886,7 @@ actions:
   - utter_exercicios_arquivos
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
+  - utter_exercicios_strings
 
 
   - utter_conteudo_extra_variaveis
@@ -858,6 +896,7 @@ actions:
   - utter_conteudo_extra_arquivos
   - utter_conteudo_extra_vetores
   - utter_conteudo_extra_matrizes
+  - utter_conteudo_extra_strings
 
 
   - action_pesquisa_stackoverflow
