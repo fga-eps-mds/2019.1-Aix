@@ -528,12 +528,9 @@ templates:
          senha[5] (caractere, nesse caso o caractere 'o')
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
 
-        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
-
         Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
-        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
-
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
+        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
 
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
