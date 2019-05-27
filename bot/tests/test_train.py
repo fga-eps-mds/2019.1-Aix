@@ -49,4 +49,4 @@ def test_train_dialogue():
 #     agent_to_compare.train(training_data, **kwargs)
 #     agent_to_compare.persist('models/dialogue', False)
     
-    assert True == not(False)
+    assert True
