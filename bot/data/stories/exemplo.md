@@ -188,3 +188,6 @@
     - action_set_slot_value
     - utter_exemplo_importar_bibliotecas
 
+## exemplo_strings
+* exemplo_strings
+    - utter_exemplo_strings

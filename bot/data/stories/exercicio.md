@@ -107,3 +107,13 @@
     - utter_exercicios_matrizes
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
+  
+## exercicios_strings
+* exercicios_strings
+  - utter_exercicios_strings
+  
+## exercicios_strings2
+* exercicios_strings
+  - utter_exercicios_strings
+* conteudo_extra_strings
+  - utter_conteudo_extra_strings 
