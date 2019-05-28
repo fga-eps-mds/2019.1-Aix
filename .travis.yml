@@ -16,15 +16,16 @@ jobs:
       name: Bot
       env: SERVICE_NAME=aix-bot
       before_script:
-        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-        - chmod +x ./cc-test-reporter
-        - ./cc-test-reporter before-build
+        - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./bot/cc-test-reporter
+        - chmod +x ./bot/cc-test-reporter
+        - ./bot/cc-test-reporter before-build
       script:
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
-        - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
-        - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
+        - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
+        - docker exec aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
+        - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
       after_script:
-        - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+        - cd bot && ./cc-test-reporter after-build --prefix $(pwd)/bot --exit-code $TRAVIS_TEST_RESULT
       deploy:
         provider: script
         script: bash ./deploy.sh
