@@ -9,8 +9,10 @@ intents:
   - assuntos_inapropriados
   - sobre_programaçao
 
+
   - menu_ajuda
   - curiosidades_python
+
 
   - sobre_aix
   - sobre_python
@@ -48,6 +50,11 @@ intents:
   - exercicios_vetores
   - exercicios_matrizes
 
+  - desafio_hello_world
+  - desafio_repeticao
+  - desafio_funcao
+  - desafio_vetores
+  - desafio_matrizes
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -60,6 +67,50 @@ intents:
 
   - pesquisa_stackoverflow
   - pesquisar
+
+
+  - intent_utter_sobre_vaga
+  - intent_utter_exemplo_vaga
+  - intent_utter_exercicios_vaga
+  - intent_utter_conteudo_extra_vaga
+
+
+  - login_no_uva
+  - inform
+  - submissao_de_exercicio
+  - feedback_uva
+
+forms:
+  - user_form
+  - code_form
+
+entities:
+  - conteudo
+  - username
+  - password
+  - codigo
+  - problema
+  - linguagem
+
+slots:
+  conteudo:
+    type: text
+    initial_value: "erro"
+  username:
+    type: unfeaturized
+    auto_fill: false
+  password:
+    type: unfeaturized
+    auto_fill: false
+  codigo:
+    type: unfeaturized
+    auto_fill: false
+  problema:
+    type: unfeaturized
+    auto_fill: false
+  linguagem:
+    type: unfeaturized
+    auto_fill: false
 
 templates:
   utter_cumprimentar:
@@ -352,15 +403,13 @@ templates:
 
   utter_sobre_repeticao:
     - text: |
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos as estruturas de repeticao for e while da linguagem Python.
-
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! 
+        Como? Béem... você vai utilizar as estruturas de repetição, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! 
+        Para conseguir fazer isso, temos as estruturas de repetição for e while da linguagem Python.
+        O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações. Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
+        Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
-
-    - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-
-        Quer saber mais? Um exemplo ou alguns exercícios?
-
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
         Simples como comer capim!
 
@@ -403,10 +452,18 @@ templates:
         Temos então:
             print("Hello World!")
 
-        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
+  utter_desafio_hello_world:
+    - text : |
+      Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+      está certo ou não! Começaremos com o nível 1:
+
+      NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+
+      Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+      
   utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
@@ -428,7 +485,7 @@ templates:
 
         sudo apt-get install python3.6
 
-        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt: 
+        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt:
 
         uname -m
 
@@ -510,15 +567,12 @@ templates:
 
   utter_exemplo_repeticao:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional for while, conteudo extra estruturas de repetição
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. 
+        Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+        Quer ver como ficaria o código disso? Só pedir por um exemplo em código que eu te mostro um!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: código, for, while, exemplo prático, estruturas de repetição
         Simples como comer capim!
-
-        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o proximo conteúdo!
-
+        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o próximo conteúdo!
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
@@ -652,7 +706,16 @@ templates:
 
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
-        Também não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
+
+   utter_desafio_repeticao:
+    - text: |
+        Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
+        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
+        a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
+
+        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
 
   utter_exercicios_vetores:
     - text: |
@@ -664,6 +727,13 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+
+utter_desafio_vetores:
+    - text: |
+        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
 
         Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
@@ -679,7 +749,15 @@ templates:
 
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
-        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Laços de repetição. É só perguntar o que são laços de repetição que eu te explico.
+
+utter_desafio_matrizes:
+    - text: |
+        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+
+        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.
 
   utter_exercicios_arquivos:
     - text: |
@@ -701,6 +779,14 @@ templates:
 
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+
+  utter_desafio_funcao:
+    - text: |
+        Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
+        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! Vamos tentar?
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
+
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
   # ============================ CONTEÚDO EXTRA ============================ #
@@ -739,19 +825,19 @@ templates:
 
 
   utter_conteudo_extra_funcao:
-      - text : |
-          Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
+    - text : |
+        Béem, vou te mandar alguns links com conteúdo sobre funções para você ter mais referências!
 
-          https://www.devmedia.com.br/funcoes-em-python/37340
-          https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
+        https://www.devmedia.com.br/funcoes-em-python/37340
+        https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
   utter_conteudo_extra_arquivos:
-      - text : |
-          Então você quer virar o mago dos arquivos, néee!?
-          Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
-          https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
-          https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
-          http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
+    - text : |
+        Então você quer virar o mago dos arquivos, néee!?
+        Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
+        https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
+        https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
+        http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
 
 
   utter_conteudo_extra_vetores:
@@ -785,6 +871,28 @@ templates:
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
+  # =========================== LOGIN NO UVA =========================== #
+  utter_ask_username:
+    - text: |
+        Bée, qual o seu username?
+
+  utter_ask_password:
+    - text: |
+        Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
+
+  utter_ask_codigo:
+    - text: |
+        Bée, pode mandar seu código!!!
+
+  utter_ask_problema:
+    - text: |
+        Qual questão você quer submeter?
+
+  utter_ask_linguagem:
+    - text: |
+        Em qual linguagem você deseja submeter?
+        (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
+
 actions:
   - utter_start
   - utter_help
@@ -796,8 +904,10 @@ actions:
   - utter_assuntos_inapropriados
   - utter_sobre_programaçao
 
+
   - utter_menu_ajuda
   - utter_curiosidades_python
+
 
   - utter_sobre_aix
   - utter_sobre_python
@@ -816,6 +926,7 @@ actions:
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
 
+
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
@@ -825,8 +936,6 @@ actions:
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
 
-
-
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
@@ -835,6 +944,11 @@ actions:
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
 
+  - utter_desafio_hello_world
+  - utter_desafio_repeticao
+  - utter_desafio_funcao
+  - utter_desafio_vetores
+  - utter_desafio_matrizes
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
@@ -847,3 +961,18 @@ actions:
 
   - action_pesquisa_stackoverflow
   - utter_pesquisar
+
+
+  - action_set_slot_value
+  - action_utter_vaga
+  - action_utter_sobre_vaga
+  - action_utter_exemplo_vaga
+  - action_utter_exercicios_vaga
+  - action_utter_conteudo_extra_vaga
+  - action_feedback_submissao_uva
+
+  - utter_ask_username
+  - utter_ask_password
+  - utter_ask_codigo
+  - utter_ask_problema
+  - utter_ask_linguagem
