@@ -42,3 +42,12 @@
 - quero aumentar a dificuldade de matrizes
 - dificulte os exercícios de matrizes
 - me desafie em matrizes
+
+## intent:desafio_input_dados
+- desafie-me input de dados
+- quero desafios de input de dados
+- desejo desafios de input de dados
+- gostaria de desafios de input de dados
+- quero aumentar a dificuldade de input de dados
+- dificulte os exercícios de input de dados
+- me desafie em input de dados

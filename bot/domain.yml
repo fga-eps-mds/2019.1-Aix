@@ -57,6 +57,7 @@ intents:
   - desafio_funcao
   - desafio_vetores
   - desafio_matrizes
+  - desafio_input_dados
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -468,7 +469,14 @@ templates:
       NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
       Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-      
+
+  utter_desafio_input_dados:
+    - text : |
+      Que tal um desafio sobre importar dados?
+      Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+      Depois printe tudo formatando do jeito que quiser!
+      Caso queira o gabarito, me pergunte sobre o código python de input de dados!
+
   utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
@@ -1004,6 +1012,7 @@ actions:
   - utter_desafio_funcao
   - utter_desafio_vetores
   - utter_desafio_matrizes
+  - utter_desafio_input_dados
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
