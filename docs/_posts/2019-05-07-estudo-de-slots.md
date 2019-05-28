@@ -2,7 +2,7 @@
 layout: post
 title: Estudo de Slots
 tags: estudo slots customAction mds 
-category: Projeto
+category: Estudo
 ---
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |

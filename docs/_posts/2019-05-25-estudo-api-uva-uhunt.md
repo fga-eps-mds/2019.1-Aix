@@ -2,7 +2,7 @@
 layout: post
 title: Estudo da API do UVa/uHunt
 tags: estudo api uva webService 
-category: Projeto
+category: Estudo
 ---
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
