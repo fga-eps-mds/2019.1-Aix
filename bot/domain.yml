@@ -525,8 +525,8 @@ templates:
           "a = input()
           b = input('digite o valor de b:')" (neste caso será printado o texto ao usuário e simultaneamente será lido o valor de b)
 
-        Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar. Basta me pedir. Ou se já se sente seguro, podemos partir para o próximo conteúdo: 
-        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: desafio entrada de dados, desafio leitura de dados, o que é
+        Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar. Basta me pedir.
+        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: desafio entrada de dados, desafio leitura de dados
 
         
   # ============================ EXEMPLO ============================ #
