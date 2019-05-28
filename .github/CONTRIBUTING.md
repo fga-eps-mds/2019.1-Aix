@@ -20,9 +20,9 @@ Todos os contribuidores do projeto devem seguir os seguintes passos:
 
   1. Clone o repositório
   ```bash
-  git clone https://github.com/fga-eps-mds/2019.1-Grupo-9.git
+  git clone https://github.com/fga-eps-mds/2019.1-Aix.git
   ```
-  2. Abra o projeto [2019.1-Grupo-9](https://github.com/fga-eps-mds/2019.1-Grupo-9/tree/master)
+  2. Abra o projeto [2019.1-Aix](https://github.com/fga-eps-mds/2019.1-Aix/tree/master)
   3. Faça as suas contribuições
 
 
@@ -30,7 +30,7 @@ Todos os contribuidores do projeto devem seguir os seguintes passos:
 
 ### Por questões de padronização recomendamos que sigam nosso estilo de _commit_:
 
-* Os _commits_ devem ser todos em __inglês__;
+* Os _commits_ devem ser todos em __português__;
 
 * Ele deve conter um título curto e objetivo do que foi feito naquele _commit_;
 
@@ -38,7 +38,7 @@ Todos os contribuidores do projeto devem seguir os seguintes passos:
 
 __Exemplo:__
 
-      Creating files X (Título curto e objetivo)
+      Criando arquivos X (Título curto e objetivo)
       Co-authored-by: KahCosta <kamillacosta.unb@gmail.com> (Assinatura do participante)
 
 
@@ -48,11 +48,11 @@ Mais documentação é sempre apreciada e é algo que você pode contribuir de f
 
   1. Clone o repositório
   ```bash
-  git clone https://github.com/fga-eps-mds/2019.1-Grupo-1.git
+  git clone https://github.com/fga-eps-mds/2019.1-Aix.git
   ```  
   2. Acesse a pasta docs
   ```bash
-  cd 2019.1-Grupo-9/docs
+  cd 2019.1-Aix/docs
   ```
   3. Edite ou crie novas documentações e salve-as na pasta correspondente
 
