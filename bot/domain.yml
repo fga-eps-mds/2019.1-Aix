@@ -996,7 +996,10 @@ actions:
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
   - utter_exemplo_strings
+<<<<<<< HEAD
 
+=======
+>>>>>>> 102c7a5a4e10b790be1db17d4982c5173068f048
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
@@ -1025,6 +1028,7 @@ actions:
 
 
   - action_pesquisa_stackoverflow
+
   - utter_pesquisar
 
 
