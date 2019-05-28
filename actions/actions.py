@@ -219,7 +219,7 @@ class ActionUtterExemploVaga(ActionUtterVaga):
                                   is_valid, desired_subject)
 
 
-class ActionUtterExemploVaga(ActionUtterVaga):
+class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
     def name(self):
         return "action_utter_codigo_em_python_vaga"
 
