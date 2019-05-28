@@ -143,6 +143,7 @@ class ActionSetSlotValue(Action):
         last_intent_name = tracker.latest_message['intent'].get('name')
         slot_content = last_intent_name.replace('sobre_', '')
         slot_content = slot_content.replace('exemplo_', '')
+        slot_content = slot_content.replace('codigo_em_python_', '')
         slot_content = slot_content.replace('exercicios_', '')
         slot_content = slot_content.replace('conteudo_extra_', '')
 
