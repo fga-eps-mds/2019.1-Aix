@@ -30,6 +30,7 @@ intents:
   - sobre_hello_world
   - sobre_importar_bibliotecas
   - sobre_instalar_python
+  - sobre_strings
 
 
   - exemplo_variaveis
@@ -40,6 +41,7 @@ intents:
   - exemplo_vetores
   - exemplo_matrizes
   - exemplo_importar_bibliotecas
+  - exemplo_strings
 
 
   - exercicios_variaveis
@@ -49,6 +51,7 @@ intents:
   - exercicios_arquivos
   - exercicios_vetores
   - exercicios_matrizes
+  - exercicios_strings
 
   - desafio_hello_world
   - desafio_repeticao
@@ -63,6 +66,7 @@ intents:
   - conteudo_extra_arquivos
   - conteudo_extra_vetores
   - conteudo_extra_matrizes
+  - conteudo_extra_strings
 
 
   - pesquisa_stackoverflow
@@ -335,11 +339,11 @@ templates:
     - text: |
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações ou os dados de um programa por um determinado tempo.
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
-        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char) e booleano (bool).
+        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char), booleano (bool) e strings.
 
         Quer saber mais? Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, me dê exemplos de variaveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings, me dê exemplos de variaveis
         Simples como comer capim!
   utter_sobre_inteiros:
     - text: |
@@ -457,12 +461,12 @@ templates:
 
   utter_desafio_hello_world:
     - text : |
-      Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
-      está certo ou não! Começaremos com o nível 1:
+        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+        está certo ou não! Começaremos com o nível 1:
 
-      NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
-      Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
       
   utter_sobre_importar_bibliotecas:
     - text : |
@@ -505,35 +509,44 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos de função, como declarar uma função
         Simples como comer capim!
+  utter_sobre_strings:
+    - text: |
+        Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
+        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né? 
+        Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
+        (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
+        Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
+        Simples como comer capim!
 
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
-         # nome da variável = conteúdo da variável
-         username = "username@email.com"
-         senha = "digitos1234"
+        (entre parêntesis estará o tipo de cada variável)
+          # nome da variável = conteúdo da variável
+         username = "username@email.com" (string)
+         senha = "digitos1234" (string)
+         senha[5] (caractere, nesse caso o caractere 'o')
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
 
-        Que tal ler um pouco mais sobre isso na internet? Tenho vários links de conteúdo extra sobre variáveis, só me pedir!
-
         Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
-        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
-
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
+        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
 
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
 
     - text: |
         Então você quer ver como as variáveis funcionam... um ótima forma de visualizar variáveis é em uma equação onde você já tem variáveis!!
+        (entre parêntesis estará o tipo de cada variável)
         A Fórmula de Bháskara poderia ser escrita desse jeito:
-          a = -5
-          b = 4
-          c = 1
-          delta = b*b - 4*a*c
-          y1 = (-b + delta**1/2)/(2*a)
-          y2 = (-b - delta**1/2)/(2*a)
+          a = -5 (inteiro)
+          b = 4 (inteiro)
+          c = 1 (inteiro)
+          delta = b*b - 4*a*c (inteiro)
+          y1 = (-b + delta**1/2)/(2*a) (ponto flutuante)
+          y2 = (-b - delta**1/2)/(2*a) (ponto flutuante)
         Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
@@ -664,6 +677,20 @@ templates:
         Caso haja alguma dúvida você pode solicitar por uma pesquisa.
         Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
 
+  utter_exemplo_strings:
+    - text: |
+        Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
+        Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas. Pode ser aspas simples ou duplas :D
+        Como lhe disse anteriormente, uma string é um vetor de caracteres. 
+        Logo, podemos acessar um caractere específico de uma string apenas adicionando um número entre '[]' após o nome da string
+        Veja um exemplo:
+          minha_string = "olá, bom dia! como vai você?" (string)
+          print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
+
+        Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
+        Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
+        Bée..se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo strings, strings na prática, strings na pratica, exercicios strings
+
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
     - text: |
@@ -707,7 +734,7 @@ templates:
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-   utter_desafio_repeticao:
+  utter_desafio_repeticao:
     - text: |
         Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
         você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
@@ -728,7 +755,7 @@ templates:
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-utter_desafio_vetores:
+  utter_desafio_vetores:
     - text: |
         Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
         apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
@@ -750,7 +777,7 @@ utter_desafio_vetores:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-utter_desafio_matrizes:
+  utter_desafio_matrizes:
     - text: |
         Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
         Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
@@ -788,6 +815,19 @@ utter_desafio_matrizes:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+  
+  utter_exercicios_strings:
+    - text: |
+        Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.
+        Tá aqui alguns exercícios por ordem de dificuldade, Béee:
+          Combinador - https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
+          Cifra de César - https://www.urionlinejudge.com.br/judge/pt/problems/view/1253
+          Array Hash - https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
+
+          Obteve algum erro de compilação? Podemos pesquisar sobre ele!
+          Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+          E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
+          
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
@@ -864,6 +904,13 @@ utter_desafio_matrizes:
 
         Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios matrizes, treinar matrizes
+  utter_conteudo_extra_strings:
+    - text: |
+        Olha que legal esse conteúdo extra sobre strings:
+          https://www.w3schools.com/python/python_strings.asp
+        Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
+        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, é só pedir!
+        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios strings, treinar strings
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
@@ -925,6 +972,8 @@ actions:
   - utter_sobre_hello_world
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
+  - utter_sobre_strings
+
 
 
   - utter_exemplo_variaveis
@@ -935,6 +984,7 @@ actions:
   - utter_exemplo_importar_bibliotecas
   - utter_exemplo_vetores
   - utter_exemplo_matrizes
+  - utter_exemplo_strings
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
@@ -943,6 +993,7 @@ actions:
   - utter_exercicios_arquivos
   - utter_exercicios_vetores
   - utter_exercicios_matrizes
+  - utter_exercicios_strings
 
   - utter_desafio_hello_world
   - utter_desafio_repeticao
@@ -957,9 +1008,11 @@ actions:
   - utter_conteudo_extra_arquivos
   - utter_conteudo_extra_vetores
   - utter_conteudo_extra_matrizes
+  - utter_conteudo_extra_strings
 
 
   - action_pesquisa_stackoverflow
+
   - utter_pesquisar
 
 

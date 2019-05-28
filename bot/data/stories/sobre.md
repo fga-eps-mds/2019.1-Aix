@@ -111,6 +111,8 @@
 * sobre_caracteres
     - action_set_slot_value
     - utter_sobre_caracteres
+* sobre_strings
+    - utter_sobre_strings
 * sobre_booleanos
     - action_set_slot_value
     - utter_sobre_booleanos
@@ -187,3 +189,7 @@
 ## sobre_instalar_python
 * sobre_instalar_python
     - utter_sobre_instalar_python
+
+## sobre_strings
+* sobre_strings
+    - utter_sobre_strings

@@ -691,3 +691,26 @@
 - configurar o ambiente
 - instalar dependencias python
 - instalar dependências python
+
+## intent:sobre_strings
+- o que são strings
+- o que sao strings
+- strings
+- me ajude com strings
+- dúvidas sobre strings
+- duvidas sobre strings
+- pra que serve strings
+- qual a utilidade de uma string
+- tipo primitivo string
+- definicao de string
+- definição de string
+- definicão de string
+- definiçao de string
+- não sei o que é string
+- nao sei o que e string
+- em qual variavel devo guardar um texto
+- como armazenar texto no python
+- salvar texto em python
+- str python
+- o que é str
+- o que e str
