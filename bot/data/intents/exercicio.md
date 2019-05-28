@@ -323,3 +323,35 @@
 - treinamento arrays bidimensionais
 - treinamento array bidimensional
 - gostaria de fazer uns exercicios sobre matrizes
+
+## intent:exercicios_strings
+- exercicios strings
+- treinar strings
+- testar conhecimentos strings
+- link para exercicios strings
+- uri strings
+- quero treinar strings
+- atividade strings
+- atividade pratica strings
+- exercicio strings
+- contest strings
+- responder pergunstas strings
+- estudar strings
+- dever strings
+- exercicios string
+- treinar string
+- testar conhecimentos string
+- link para exercicios string
+- uri string
+- quero treinar string
+- atividade string
+- atividade pratica string
+- exercicio string
+- contest string
+- responder pergunstas string
+- estudar string
+- dever string
+- gostaria de treinar strings
+- gostaria de treinar string
+- me de alguns exercicios sobre string
+- me de alguns exercicios sobre strings

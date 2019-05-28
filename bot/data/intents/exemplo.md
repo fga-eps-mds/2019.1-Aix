@@ -242,3 +242,26 @@
 - exemplifique library
 - exemplifique lib
 
+## intent:exemplo_strings
+- exemplo de strings
+- como usar strings em python
+- exemplo prático de strings
+- como declarar uma strings
+- usar tipo strings
+- pratica strings
+- strings na prática
+- strings na pratica
+-  exemplo de string
+- como usar string em python
+- exemplo prático de string
+- como declarar uma string
+- usar tipo string
+- pratica string
+- string na prática
+- string na pratica
+- me de alguns exemplos de string
+- me de alguns de strings
+- quero alguns exemplos de strings
+- quero alguns exemplos de string
+- me de um exemplo de string
+- me de um exemplo de strings
