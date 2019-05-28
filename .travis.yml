@@ -39,8 +39,14 @@ jobs:
       env: SERVICE_NAME=aix-actions
       script:
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
-        - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker run aixchatbot/aix-actions run pytest --cov-config=.coveragerc --cov=.
+        - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions tail -F /dev/null
+        - docker exec aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
+        - docker run aix-actions run pytest --cov-config=.coveragerc --cov=/app/actions
+        - docker exec aix-actions coverage xml
+      after_script:
+        - cd actions
+        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - ./cc-test-reporter upload-coverage
       deploy:
         provider: script
         script: bash ./deploy.sh
