@@ -31,6 +31,30 @@
 - mostre a sintaxe
 - mostre um exemplo
 
+## intent:intent_utter_codigo_em_python_vaga
+- código
+- códipo python
+- me mostre em python
+- exemplo prático
+- exemplo pratico
+- no python
+- em código
+- em codigo
+- código em python
+- codigo em python
+- implementação
+- implementacao
+- exemplifique em código
+- exemplifique em codigo
+- como funciona no código
+- como funcionam no codigo
+- implemente um código
+- implemente um exemplo
+- me mostre um código
+- demonstre na prática
+- demonstre na pratica
+- demonstre um código em python
+
 ## intent:intent_utter_exercicios_vaga
 - exercícios disso
 - exercicio disso

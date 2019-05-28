@@ -52,11 +52,13 @@ intents:
   - exercicios_matrizes
   - exercicios_strings
 
+
   - desafio_hello_world
   - desafio_repeticao
   - desafio_funcao
   - desafio_vetores
   - desafio_matrizes
+
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -74,6 +76,7 @@ intents:
 
   - intent_utter_sobre_vaga
   - intent_utter_exemplo_vaga
+  - intent_utter_codigo_em_python_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
 
@@ -955,7 +958,6 @@ actions:
   - utter_assuntos_inapropriados
   - utter_sobre_programaçao
 
-
   - utter_menu_ajuda
   - utter_curiosidades_python
 
@@ -979,7 +981,6 @@ actions:
   - utter_sobre_strings
 
 
-
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
@@ -990,6 +991,7 @@ actions:
   - utter_exemplo_matrizes
   - utter_exemplo_strings
 
+
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
@@ -999,11 +1001,13 @@ actions:
   - utter_exercicios_matrizes
   - utter_exercicios_strings
 
+
   - utter_desafio_hello_world
   - utter_desafio_repeticao
   - utter_desafio_funcao
   - utter_desafio_vetores
   - utter_desafio_matrizes
+
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
@@ -1016,7 +1020,6 @@ actions:
 
 
   - action_pesquisa_stackoverflow
-
   - utter_pesquisar
 
 
@@ -1024,8 +1027,10 @@ actions:
   - action_utter_vaga
   - action_utter_sobre_vaga
   - action_utter_exemplo_vaga
+  - action_utter_codigo_em_python_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+
   - action_feedback_submissao_uva
 
   - utter_ask_username
