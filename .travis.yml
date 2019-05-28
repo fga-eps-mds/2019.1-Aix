@@ -24,8 +24,11 @@ jobs:
         - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
         - docker exec aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
         - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
+        - docker exec aix-bot coverage xml
       after_script:
-        - cd bot && ./cc-test-reporter after-build --prefix $(pwd)/bot --exit-code $TRAVIS_TEST_RESULT
+        - cd bot
+        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - ./cc-test-reporter upload-coverage
       deploy:
         provider: script
         script: bash ./deploy.sh
