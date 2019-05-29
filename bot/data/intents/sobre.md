@@ -714,3 +714,27 @@
 - str python
 - o que é str
 - o que e str
+
+## intent:sobre_input_dados
+- como ler dado do usuário
+- como ler dado do usuario
+- como ler uma informação do usuário
+- como ler uma informacao do usuario
+- leitura de texto
+- entrada de dados
+- como ler string
+- como ler inteiro
+- como ler float
+- input em python
+- scanf em python
+- cin em python
+- in data python
+- ler um numero
+- ler um inteiro
+- ler um float
+- entrada do usuario
+- solicitar valor do usuario
+- solicitar dado do usuario
+- ler no terminal
+- pegar texto do usuario
+- pegar texto do terminal
