@@ -41,7 +41,7 @@ jobs:
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
         - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=/app/actions tests/
+        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions 
         - docker exec aix-actions coverage xml
       after_script:
         - cd actions
