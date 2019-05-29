@@ -460,7 +460,6 @@ templates:
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
-<<<<<<< HEAD
   utter_desafio_hello_world:
     - text : |
         Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
@@ -476,8 +475,6 @@ templates:
       Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
       Depois printe tudo formatando do jeito que quiser!
       Caso queira o gabarito, me pergunte sobre o código python de input de dados!
-=======
->>>>>>> 3937ee7a4314294455745d56a6dc325f1fd87904
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
