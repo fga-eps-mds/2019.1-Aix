@@ -10,5 +10,7 @@ RUN pip install --upgrade pip && \
 
 COPY . /app/actions
 
+WORKDIR /app/actions
+
 HEALTHCHECK --interval=300s --timeout=60s --retries=5 \
 CMD curl -f http://0.0.0.0:5055/health || exit 1
