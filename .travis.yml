@@ -43,9 +43,10 @@ jobs:
         - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
         - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions 
         - docker exec aix-actions coverage xml
+        - docker exec aix-actions cp coverage.xml actions/
       after_script:
-        - cd actions
-        - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - cp actions/coverage.xml .
+        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
         # - .././cc-test-reporter upload-coverage upload coverage
       deploy:
         provider: script
