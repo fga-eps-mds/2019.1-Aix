@@ -12,16 +12,13 @@ notifications:
 
 before_script:
  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-
+ - chmod +x ./cc-test-reporter
+ - ./cc-test-reporter before-build
 jobs:
   include:
     - stage: Build
       name: Bot
       env: SERVICE_NAME=aix-bot
-      before_script:
-        - cp -r ./cc-test-reporter /bot
-        - chmod +x ./bot/cc-test-reporter
-        - ./bot/cc-test-reporter before-build
       script:
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
         - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
@@ -30,8 +27,8 @@ jobs:
         - docker exec aix-bot coverage xml
       after_script:
         - cd bot
-        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - ./cc-test-reporter upload-coverage
+        - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
+        # - ./cc-test-reporter upload-coverage
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -40,21 +37,22 @@ jobs:
     - stage: Build
       name: Actions
       env: SERVICE_NAME=aix-actions
-      before_script:
-        - cp -r ./cc-test-reporter actions
-        - chmod +x ./actions/cc-test-reporter
       script:
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
-        - docker exec aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker run aix-actions run pytest --cov-config=.coveragerc --cov=/actions tests/
-        - docker exec aix-actions run coverage xml
+        - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
+        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=/app/actions tests/
+        - docker exec aix-actions coverage xml
       after_script:
         - cd actions
-        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - ./cc-test-reporter upload-coverage
+        - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
+        # - .././cc-test-reporter upload-coverage upload coverage
       deploy:
         provider: script
         script: bash ./deploy.sh
         on:
          branch: master
+
+# after-success:
+#   - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2
+#   - ./cc-test-reporter upload-coverage
