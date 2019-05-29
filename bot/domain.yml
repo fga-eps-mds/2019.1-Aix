@@ -9,6 +9,7 @@ intents:
   - assuntos_inapropriados
   - sobre_programaçao
 
+
   - menu_ajuda
   - curiosidades_python
 
@@ -407,15 +408,13 @@ templates:
 
   utter_sobre_repeticao:
     - text: |
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos as estruturas de repeticao for e while da linguagem Python.
-
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! 
+        Como? Béem... você vai utilizar as estruturas de repetição, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! 
+        Para conseguir fazer isso, temos as estruturas de repetição for e while da linguagem Python.
+        O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações. Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
+        Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
-
-    - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-
-        Quer saber mais? Um exemplo ou alguns exercícios?
-
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
         Simples como comer capim!
 
@@ -463,10 +462,10 @@ templates:
 
   utter_desafio_hello_world:
     - text : |
-      Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
-      está certo ou não! Começaremos com o nível 1:
+        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+        está certo ou não! Começaremos com o nível 1:
 
-      NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
       Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
@@ -476,6 +475,8 @@ templates:
       Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
       Depois printe tudo formatando do jeito que quiser!
       Caso queira o gabarito, me pergunte sobre o código python de input de dados!
+
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
   utter_sobre_importar_bibliotecas:
     - text : |
@@ -589,15 +590,12 @@ templates:
 
   utter_exemplo_repeticao:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional for while, conteudo extra estruturas de repetição
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. 
+        Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+        Quer ver como ficaria o código disso? Só pedir por um exemplo em código que eu te mostro um!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: código, for, while, exemplo prático, estruturas de repetição
         Simples como comer capim!
-
-        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o proximo conteúdo!
-
+        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o próximo conteúdo!
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
@@ -746,7 +744,7 @@ templates:
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-   utter_desafio_repeticao:
+  utter_desafio_repeticao:
     - text: |
         Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
         você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
@@ -767,7 +765,7 @@ templates:
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-utter_desafio_vetores:
+  utter_desafio_vetores:
     - text: |
         Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
         apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
@@ -789,7 +787,7 @@ utter_desafio_vetores:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-utter_desafio_matrizes:
+  utter_desafio_matrizes:
     - text: |
         Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
         Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
@@ -827,6 +825,7 @@ utter_desafio_matrizes:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+  
   utter_exercicios_strings:
     - text: |
         Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.

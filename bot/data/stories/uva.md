@@ -2,7 +2,7 @@
 * login_no_uva
 	- user_form
 	- form{"name": "user_form"}
-	- form{"name": "null"}
+	- form{"name": null}
 
 ## login_no_uva_2
 * cumprimentar
@@ -10,13 +10,13 @@
 * login_no_uva
 	- user_form
 	- form{"name": "user_form"}
-	- form{"name": "null"}
+	- form{"name": null}
 
 ## submeter_exercicio
 * submissao_de_exercicio
 	- code_form
 	- form{"name": "code_form"}
-	- form{"name": "null"}
+	- form{"name": null}
 
 ## submeter_exercicio_2
 * cumprimentar
@@ -24,7 +24,7 @@
 * submissao_de_exercicio
 	- code_form
 	- form{"name": "code_form"}
-	- form{"name": "null"}
+	- form{"name": null}
 
 ## feedback_uva
 * cumprimentar
