@@ -12,6 +12,7 @@ intents:
 
   - menu_ajuda
   - curiosidades_python
+  - cronograma
 
 
   - sobre_aix
@@ -308,6 +309,26 @@ templates:
     - text: |
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
 
+  utter_cronograma:
+    - text: |
+        Vamos iniciar nossa jornada em aprender python! Veja um cronograma de conteúdos para que você aprenda de forma simples e divertida:
+          1º - Conhecer o python. Me envie "o que é python?" ou algo do tipo e te explico..bée
+          2º - Instalar ou verificar a versão do python. Me envie "como instalar o python?" ou algo do tipo que te ensino
+          3º - Aprender a fazer seu primeiro programa. Me envie "quero fazer meu primeiro programa" ou algo relacionado e então aprenderemos..
+          4º - Aprender o que são variáveis e seus tipos. Me envie "o que são variaveis?" ou algo relacionado e você irá entender..
+          5º - Aprender a ler dados do usuário. Me envie "como ler dados do usuario?" ou algo assim que te mostro..bée
+          6º - Aprender sobre estruturas condicionais. Me envie "o que sao estruturas condicionais?" ou algo do tipo e te explico
+          7º - Aprender sobre estruturas de repetição. Me envie "o que sao estrutuas de repeticao?" ou algo relacionado que lhe faço entender
+          8º - Aprender sobre vetores. Me envie "o que sao vetores" ou algo assim que te ensino..bée
+          9º - Aprender sobre strings. Me envie "o que sao strings" ou algo do tipo que explico certinho..
+          10º - Aprender sobre matrizes. Me envie "o que sao matrizes" ou algo do genero que te explico direitinho..
+          11º - Aprender sobre bibliotecas. Me envie "como usar bibliotecas em python" ou algo assim que te mostro certinho..
+          12º - Aprender sobre funções. Me envie "como fazer uma função em python" ou algo relacionado que te ensino
+          13º - Aprender sobre arquivos. Me envie "como usar arquivos em python" ou algo assim que te mostro.
+          14º - Aprender sobre o stackoverflow. Me envie "o que é stackoverflow" que te ensino e mostro como pesquisar lá..bée
+          Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
+          Fácil como comer capim! Não perca tempo e vamos aprender python!
+
   utter_sobre_aix:
     - text: |
         Você ainda não me conhece?! Por onde é que você navegava esse tempo todo? Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir sua nota 10 quando o assunto é linguagem de programação Python!
@@ -452,7 +473,7 @@ templates:
     - text : |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
         O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
-        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas duplas.
+        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas (simples ou duplas).
         Temos então:
             print("Hello World!")
 
@@ -954,6 +975,7 @@ actions:
 
   - utter_menu_ajuda
   - utter_curiosidades_python
+  - utter_cronograma
 
 
   - utter_sobre_aix

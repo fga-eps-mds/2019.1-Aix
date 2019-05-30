@@ -570,3 +570,20 @@
 - jogo
 - app
 - aplicativos
+
+## intent: cronograma:
+- /cronograma
+- me de um cronograma de estudos
+- gostaria de um cronograma de estudos
+- qua conteudo devo aprender primeiro
+- quais conteudos devo aprender primeiro
+- qual o conteudo mais facil
+- cronograma aprender python do zero
+- entender python do zero
+- todos os conteudos de python
+- me ensine python na ordem
+- como aprender python
+- em qual ordem devo aprender python
+- qual a ordem de conteudos
+- o que aprender agora
+- o que você pode me ensinar
