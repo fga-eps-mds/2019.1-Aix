@@ -193,3 +193,13 @@
 ## sobre_strings
 * sobre_strings
     - utter_sobre_strings
+
+## sobre_stack_overflow_sem_pesquisa
+* sobre_stack_overflow
+    - utter_sobre_stack_overflow
+
+## sobre_stack_overflow_com_pesquisa
+* sobre_stack_overflow
+    - utter_sobre_stack_overflow
+* pesquisar
+    - utter_pesquisar

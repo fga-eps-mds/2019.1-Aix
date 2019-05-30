@@ -714,3 +714,12 @@
 - str python
 - o que é str
 - o que e str
+
+## intent:sobre_stack_overflow
+- o que é stack overflow
+- sobre stack overflow
+- o que o stack oveflow faz
+- fórum de dúvidas
+- não sei sobre stack overflow
+- como usar o stack overflow
+- fórum de perguntas e respostas

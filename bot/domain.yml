@@ -510,6 +510,7 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos de função, como declarar uma função
         Simples como comer capim!
+
   utter_sobre_strings:
     - text: |
         Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
@@ -525,6 +526,8 @@ templates:
         O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
         Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
         E para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
+        Digite "quero pesquisar" que te ajudo com isso!
 
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
