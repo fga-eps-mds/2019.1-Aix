@@ -28,7 +28,7 @@ jobs:
       after_script:
         - cd bot
         - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then .././cc-test-reporter upload-coverage; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
