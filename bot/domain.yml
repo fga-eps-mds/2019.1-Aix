@@ -55,12 +55,14 @@ intents:
   - exercicios_matrizes
   - exercicios_strings
 
+
   - desafio_hello_world
   - desafio_repeticao
   - desafio_funcao
   - desafio_vetores
   - desafio_matrizes
   - desafio_input_dados
+
 
   - conteudo_extra_variaveis
   - conteudo_extra_condicionais
@@ -78,6 +80,7 @@ intents:
 
   - intent_utter_sobre_vaga
   - intent_utter_exemplo_vaga
+  - intent_utter_codigo_em_python_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
 
@@ -86,6 +89,17 @@ intents:
   - inform
   - submissao_de_exercicio
   - feedback_uva
+
+  - codigo_em_python_variaveis
+  - codigo_em_python_condicionais
+  - codigo_em_python_repeticao
+  - codigo_em_python_funcao
+  - codigo_em_python_arquivos
+  - codigo_em_python_vetores
+  - codigo_em_python_matrizes
+  - codigo_em_python_importar_bibliotecas
+  - codigo_em_python_input_dados
+
 
 forms:
   - user_form
@@ -473,7 +487,7 @@ templates:
         Simples como comer capim!
 
   utter_sobre_hello_world:
-    - text : |
+    - text: |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
         O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
         Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas (simples ou duplas).
@@ -483,26 +497,9 @@ templates:
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
-  utter_desafio_hello_world:
-    - text : |
-        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
-        está certo ou não! Começaremos com o nível 1:
-
-        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
-
-      Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-
-  utter_desafio_input_dados:
-    - text : |
-      Que tal um desafio sobre importar dados?
-      Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
-      Depois printe tudo formatando do jeito que quiser!
-      Caso queira o gabarito, me pergunte sobre o código python de input de dados!
-
-        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
   utter_sobre_importar_bibliotecas:
-    - text : |
+    - text: |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
         Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
@@ -513,7 +510,7 @@ templates:
         Simples como comer capim!
 
   utter_sobre_instalar_python:
-    - text : |
+    - text: |
         Instalar o Python no sistema Linux é beém fácil! Antes, cheque se você já tem Python instalado com o seguinte comando no terminal:
 
         python -V
@@ -956,6 +953,196 @@ templates:
         Em qual linguagem você deseja submeter?
         (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
 
+#================================= CODIGO EM PYTHON ===============================================#
+  utter_codigo_em_python_variaveis:
+    - text: |
+       Então você quer um exemplo mais palpável de variáveis?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          # Fórmula de Bháskara
+          # Equação: -5x^2 + 4x + 1 = 0
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
+
+          # a operação ** no python representa
+          # exponencial, ou seja x**2 == x*x
+          x1 = (-b + delta**1/2)/(2*a)
+          x2 = (-b - delta**1/2)/(2*a)
+
+          print("x' =", x1)
+          print("x'' =", x2)
+
+          # nome da variável = conteúdo da variável
+          username = "username@email.com"
+          senha = "digitos1234"
+
+          print('Meu username é:', username, 'e minha senha... É segredo!')
+
+  utter_codigo_em_python_condicionais:
+    - text: |
+       Então você quer um exemplo mais palpável de condicionais?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          # Veja como a estrutura condicional
+          # responde aos diferentes valores de x
+
+          x = 2
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+          x = 5
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+          x = 10
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+  utter_codigo_em_python_repeticao:
+    - text: |
+       Então você quer um exemplo mais palpável de repetição?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código tanto para for, quanto para while:
+        For:
+
+          distancia_do_feno_para_celeiro = 5
+          quantidade_de_passos = 0
+
+          # a função range() cria um intervalo de 
+          # 0 até o valor passado para ela,
+          # sem contar com o próprio valor
+          for i in range(distancia_do_feno_para_celeiro):
+            quantidade_de_passos = quantidade_de_passos + 1
+
+            print(quantidade_de_passos)
+
+        While:
+
+          distancia_do_feno_para_celeiro = 5
+          quantidade_de_passos = 0
+
+          while(distancia_do_feno_para_celeiro > 0):
+            distancia_do_feno_para_celeiro = distancia_do_feno_para_celeiro - 1
+            quantidade_de_passos = quantidade_de_passos + 1
+
+          print(quantidade_de_passos)
+
+
+  utter_codigo_em_python_funcao:
+    - text: |
+       Então você quer um exemplo mais palpável de função?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+        def oi(nome):
+          return 'Oi, ' + nome + '!'
+
+        nome = 'João'
+        cumprimento = oi(nome)
+        print(cumprimento)
+
+
+  utter_codigo_em_python_arquivos:
+    - text: |
+       Então você quer um exemplo mais palpável de arquivos?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          # Para escrever em um arquivo
+          arquivo = open('bodes-mais-legais.txt', 'w')
+          texto = "Aix Chatbot"
+          arquivo.write(texto)
+          arquivo.close()
+
+          # Para ler um arquivo
+          arquivo = open('bodes-mais-legais.txt', 'r')
+
+          # É necessário fazer um loop no arquivo
+          # para passar por todas suas linhas
+          for linha in arquivo:
+            print(linha)
+
+
+  utter_codigo_em_python_vetores:
+    - text: |
+       Então você quer um exemplo mais palpável de vetores?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
+          # Quantos fenos comi no domingo
+          print(fenos_por_dia[0])
+
+          # Passar por todos dias da semana
+          for feno in fenos_por_dia:
+          print('Eu comi', feno, 'fenos esse dia!')
+
+
+  utter_codigo_em_python_matrizes:
+    - text: |
+       Então você quer um exemplo mais palpável de matrizes?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
+                             [0, 0, 2, 4, 3, 2, 2],
+                             [1, 2, 4, 3, 7, 1, 1],
+                             [0, 5, 6, 7, 7, 5, 0] ]
+
+          # Quantas dúvidas eu tirei na
+          # segunda-feira da primeira semana
+          print(duvidas_por_mes[0][1])
+
+          # Para ver todos os dias do mês
+          for semana in duvidas_por_mes:
+            for duvida in semana:
+              print('Esse dia eu tirei', duvida, 'dúvidas!')
+
+  utter_codigo_em_python_importar_bibliotecas:
+    - text: |
+       Então você quer um exemplo mais palpável de como importar bibliotecas?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          import math
+          valor = 9
+
+          # A função sqrt é uma função da
+          # biblioteca 'math', por isso
+          # é necessário colocar o 'math.'
+          # antes de chamá-la
+          raiz_quadrada = math.sqrt(valor)
+
+          print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
+
+  utter_codigo_em_python_input_dados:
+    - text: |
+       Então você quer um exemplo mais palpável de como receber dados do usuário?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          NOME = input("Digite o nome: ")
+          IDADE = input("Digite a idade: ")
+          MEDIA_ESCOLAR= input("Digite a media escolar: ")
+          print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " + str(MEDIA_ESCOLAR))
+
 # =========================== DESAFIOS =========================== #
   utter_desafio_repeticao:
     - text: |
@@ -986,7 +1173,7 @@ templates:
           Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.        
   
   utter_desafio_hello_world:
-    - text : |
+    - text: |
         Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
         está certo ou não! Começaremos com o nível 1:
 
@@ -1004,11 +1191,13 @@ templates:
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
   utter_desafio_input_dados:
-    - text : |
-        Que tal um desafio sobre importar dados?
-        Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
-        Depois printe tudo formatando do jeito que quiser!
-        Caso queira o gabarito, me pergunte sobre o código python de input de dados!
+    - text: |
+          Que tal um desafio sobre importar dados?
+          Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+          Depois printe tudo formatando do jeito que quiser!
+          Caso queira o gabarito, me pergunte sobre o código python de input de dados!
+
+          Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
 actions:
   - utter_start
@@ -1046,7 +1235,6 @@ actions:
   - utter_sobre_strings
   - utter_sobre_input_dados
 
-
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
@@ -1076,6 +1264,7 @@ actions:
   - utter_desafio_input_dados
 
 
+
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
@@ -1087,7 +1276,6 @@ actions:
 
 
   - action_pesquisa_stackoverflow
-
   - utter_pesquisar
 
 
@@ -1095,8 +1283,10 @@ actions:
   - action_utter_vaga
   - action_utter_sobre_vaga
   - action_utter_exemplo_vaga
+  - action_utter_codigo_em_python_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+
   - action_feedback_submissao_uva
 
   - utter_ask_username
@@ -1104,3 +1294,14 @@ actions:
   - utter_ask_codigo
   - utter_ask_problema
   - utter_ask_linguagem
+
+  - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
+  - utter_codigo_em_python_input_dados
+
