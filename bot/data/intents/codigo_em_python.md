@@ -187,4 +187,31 @@
 - me mostre um código com matrizes
 - demonstre matrizes na prática
 - demonstre matriz na pratica
-- demonstre um código em python que possua matrizes matriz
+- demonstre um código em python que possua matrizes
+
+##intent:codigo_em_python_importar_bibliotecas
+- código importar bibliotecas
+- códipo python importar biblioteca
+- importar bibliotecas em python
+- código que importa bibliotecas
+- codigo que importa biblioteca
+- exemplo prático para importar bibliotecas
+- exemplo pratico para importar biblioteca
+- importar biblioteca no python
+- importar bibliotecas no python
+- importar bibliotecas em código
+- importar biblioteca em codigo
+- código em python para importar bibliotecas
+- codigo em python que importa biblioteca
+- implementação que importa bibliotecas
+- implementacao para importar biblioteca
+- exemplifique em código como importar bibliotecas
+- exemplifique em codigo importação biblioteca
+- como funcionam bibliotecas no código
+- como funciona importar biblioteca no codigo
+- implemente um código que importe bibliotecas
+- implemente um exemplo que importe uma biblioteca
+- me mostre um código para importar bibliotecas
+- demonstre como importar bibliotecas na prática
+- demonstre bibliotecas na pratica
+- demonstre um código em python que possua bibliotecas

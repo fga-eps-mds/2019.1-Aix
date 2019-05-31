@@ -93,6 +93,7 @@ intents:
   - codigo_em_python_arquivos
   - codigo_em_python_vetores
   - codigo_em_python_matrizes
+  - codigo_em_python_importar_bibliotecas
 
 
 forms:
@@ -1022,7 +1023,7 @@ templates:
        Então você quer um exemplo mais palpável de repetição?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
-       código tnato para for, quanto para while:
+       código tanto para for, quanto para while:
         For:
 
           distancia_do_feno_para_celeiro = 5
@@ -1104,7 +1105,7 @@ templates:
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
        código:
-         duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
+          duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
                              [0, 0, 2, 4, 3, 2, 2],
                              [1, 2, 4, 3, 7, 1, 1],
                              [0, 5, 6, 7, 7, 5, 0] ]
@@ -1118,6 +1119,22 @@ templates:
             for duvida in semana:
               print('Esse dia eu tirei', duvida, 'dúvidas!')
 
+  utter_codigo_em_python_importar_bibliotecas:
+    - text: |
+       Então você quer um exemplo mais palpável de como importar bibliotecas?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+       código:
+          import math
+          valor = 9
+
+          # A função sqrt é uma função da
+          # biblioteca 'math', por isso
+          # é necessário colocar o 'math.'
+          # antes de chamá-la
+          raiz_quadrada = math.sqrt(valor)
+
+          print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
 
 actions:
   - utter_start
@@ -1219,4 +1236,5 @@ actions:
   - utter_codigo_em_python_arquivos
   - utter_codigo_em_python_vetores
   - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
 
