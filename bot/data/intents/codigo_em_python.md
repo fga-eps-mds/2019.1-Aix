@@ -1,4 +1,4 @@
-##intent:codigo_em_python_variaveis
+## intent:codigo_em_python_variaveis
 - código variáveis
 - códipo python variáveis
 - variáveis em python
@@ -25,7 +25,7 @@
 - demonstre strings na pratica
 - demonstre um código em python que possua variáveis
 
-##intent:codigo_em_python_condicionais
+## intent:codigo_em_python_condicionais
 - código condicionais
 - códipo python condicionais
 - condicional condicionais em python
@@ -52,7 +52,7 @@
 - demonstre condicionais na pratica
 - demonstre um código em python que possua condicional condicionais
 
-##intent:codigo_em_python_repeticao
+## intent:codigo_em_python_repeticao
 - código for while repetição
 - códipo python repetição
 - códipo python for while
@@ -81,7 +81,7 @@
 - demonstre for while na pratica
 - demonstre um código em python que possua loops
 
-##intent:codigo_em_python_funcao
+## intent:codigo_em_python_funcao
 - código função
 - códipo python função
 - funções em python
@@ -108,7 +108,7 @@
 - demonstre funções na pratica
 - demonstre um código em python que possua função funções
 
-##intent:codigo_em_python_arquivos
+## intent:codigo_em_python_arquivos
 - código arquivo
 - códipo python arquivo
 - arquivo em python
@@ -135,7 +135,7 @@
 - demonstre arquivos na pratica
 - demonstre um código em python que possua arquivo
 
-##intent:codigo_em_python_vetores
+## intent:codigo_em_python_vetores
 - código vetores vetor
 - códipo python vetores
 - vetores em python
@@ -162,7 +162,7 @@
 - demonstre vetor na pratica
 - demonstre um código em python que possua vetores vetor
 
-##intent:codigo_em_python_matrizes
+## intent:codigo_em_python_matrizes
 - código matrizes
 - códipo python matrizes
 - matriz em python
@@ -189,7 +189,7 @@
 - demonstre matriz na pratica
 - demonstre um código em python que possua matrizes
 
-##intent:codigo_em_python_importar_bibliotecas
+## intent:codigo_em_python_importar_bibliotecas
 - código importar bibliotecas
 - códipo python importar biblioteca
 - importar bibliotecas em python
@@ -215,3 +215,30 @@
 - demonstre como importar bibliotecas na prática
 - demonstre bibliotecas na pratica
 - demonstre um código em python que possua bibliotecas
+
+## intent:codigo_em_python_input_dados
+- código input de dados
+- códipo python receber dados do usuário
+- receber dados em python
+- código de input de dados
+- codigo de recepção de dados
+- exemplo prático de input de dados
+- exemplo pratico de recebimento de dados
+- receber dados no python
+- input de dados no python
+- receber input em código
+- input em codigo
+- código em python de leitura de dados
+- codigo em python de receber dados
+- implementação com input de dados
+- implementacao de como ler dados
+- exemplifique em código input de dados
+- exemplifique em codigo como receber dados
+- como funcionam inputs no código
+- como funciona ler dados no codigo
+- implemente um código com leitura de dados
+- implemente um exemplo de recepção de input
+- me mostre um código com input de dados
+- demonstre leitura de dados na prática
+- demonstre recebimento de dados na pratica
+- demonstre um código em python que possua leitura de input

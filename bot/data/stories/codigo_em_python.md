@@ -137,3 +137,13 @@
     - utter_codigo_em_python_matrizes
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
+
+## codigo_em_python_importar_bibliotecas
+* codigo_em_python_importar_bibliotecas
+    - action_set_slot_value
+    - utter_codigo_em_python_importar_bibliotecas
+    
+## codigo_em_python_input_dados
+* codigo_em_python_input_dados
+    - action_set_slot_value
+    - utter_codigo_em_python_input_dados
