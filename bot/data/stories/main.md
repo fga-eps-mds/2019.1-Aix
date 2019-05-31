@@ -69,3 +69,7 @@
 ## sobre_programaçao
 * sobre_programaçao
     - utter_sobre_programaçao
+
+## cronograma
+* cronograma
+    - utter_cronograma
