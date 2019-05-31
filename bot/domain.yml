@@ -962,20 +962,90 @@ templates:
        Então você quer um exemplo mais palpável de variáveis?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+          # Fórmula de Bháskara
+          # Equação: -5x^2 + 4x + 1 = 0
+          a = -5
+          b = 4
+          c = 1
+          delta = b*b - 4*a*c
 
+          # a operação ** no python representa
+          # exponencial, ou seja x**2 == x*x
+          x1 = (-b + delta**1/2)/(2*a)
+          x2 = (-b - delta**1/2)/(2*a)
+
+          print("x' =", x1)
+          print("x'' =", x2)
+
+          # nome da variável = conteúdo da variável
+          username = "username@email.com"
+          senha = "digitos1234"
+
+          print('Meu username é:', username, 'e minha senha... É segredo!')
 
   utter_codigo_em_python_condicionais:
     - text: |
        Então você quer um exemplo mais palpável de condicionais?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+          # Veja como a estrutura condicional
+          # responde aos diferentes valores de x
 
+          x = 2
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+          x = 5
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
+
+          x = 10
+          if x == 2:
+            print("amo feno")
+          elif x == 5:
+            print("amo python")
+          else:
+            print("amo a Aix")
 
   utter_codigo_em_python_repeticao:
     - text: |
        Então você quer um exemplo mais palpável de repetição?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código tnato para for, quanto para while:
+        For:
+
+          distancia_do_feno_para_celeiro = 5
+          quantidade_de_passos = 0
+
+          # a função range() cria um intervalo de 
+          # 0 até o valor passado para ela,
+          # sem contar com o próprio valor
+          for i in range(distancia_do_feno_para_celeiro):
+            quantidade_de_passos = quantidade_de_passos + 1
+
+            print(quantidade_de_passos)
+
+        While:
+
+          distancia_do_feno_para_celeiro = 5
+          quantidade_de_passos = 0
+
+          while(distancia_do_feno_para_celeiro > 0):
+            distancia_do_feno_para_celeiro = distancia_do_feno_para_celeiro - 1
+            quantidade_de_passos = quantidade_de_passos + 1
+
+          print(quantidade_de_passos)
 
 
   utter_codigo_em_python_funcao:
@@ -983,6 +1053,13 @@ templates:
        Então você quer um exemplo mais palpável de função?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+        def oi(nome):
+          return 'Oi, ' + nome + '!'
+
+        nome = 'João'
+        cumprimento = oi(nome)
+        print(cumprimento)
 
 
   utter_codigo_em_python_arquivos:
@@ -990,12 +1067,35 @@ templates:
        Então você quer um exemplo mais palpável de arquivos?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+          # Para escrever em um arquivo
+          arquivo = open('bodes-mais-legais.txt', 'w')
+          texto = "Aix Chatbot"
+          arquivo.write(texto)
+          arquivo.close()
+
+          # Para ler um arquivo
+          arquivo = open('bodes-mais-legais.txt', 'r')
+
+          # É necessário fazer um loop no arquivo
+          # para passar por todas suas linhas
+          for linha in arquivo:
+            print(linha)
+
 
   utter_codigo_em_python_vetores:
     - text: |
        Então você quer um exemplo mais palpável de vetores?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+          fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
+          # Quantos fenos comi no domingo
+          print(fenos_por_dia[0])
+
+          # Passar por todos dias da semana
+          for feno in fenos_por_dia:
+          print('Eu comi', feno, 'fenos esse dia!')
 
 
   utter_codigo_em_python_matrizes:
@@ -1003,8 +1103,20 @@ templates:
        Então você quer um exemplo mais palpável de matrizes?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+       código:
+         duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
+                             [0, 0, 2, 4, 3, 2, 2],
+                             [1, 2, 4, 3, 7, 1, 1],
+                             [0, 5, 6, 7, 7, 5, 0] ]
 
+          # Quantas dúvidas eu tirei na
+          # segunda-feira da primeira semana
+          print(duvidas_por_mes[0][1])
 
+          # Para ver todos os dias do mês
+          for semana in duvidas_por_mes:
+            for duvida in semana:
+              print('Esse dia eu tirei', duvida, 'dúvidas!')
 
 
 actions:
