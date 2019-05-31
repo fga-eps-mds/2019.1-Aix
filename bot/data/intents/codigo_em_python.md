@@ -24,3 +24,167 @@
 - demonstre inteiros na prática
 - demonstre strings na pratica
 - demonstre um código em python que possua variáveis
+
+##intent:codigo_em_python_condicionais
+- código condicionais
+- códipo python condicionais
+- condicional condicionais em python
+- código de condicional condicionais
+- codigo de condicional condicionais
+- exemplo prático de condicional condicionais
+- exemplo pratico de condicional condicionais
+- condicional no python
+- condicionais no python
+- condicional em código
+- condicionais em codigo
+- código em python condicional
+- codigo em python de condicionais
+- implementação com condicioanis
+- implementacao com condicional
+- exemplifique em código condicional
+- exemplifique em codigo condicionais
+- como funcionam condicionais no código
+- como funcionam condições no codigo
+- implemente um código com condicioanis
+- implemente um exemplo de condicional
+- me mostre um código com condicional condicionais
+- demonstre condicional na prática
+- demonstre condicionais na pratica
+- demonstre um código em python que possua condicional condicionais
+
+##intent:codigo_em_python_repeticao
+- código for while repetição
+- códipo python repetição
+- códipo python for while
+- repetição em python
+- for while em python
+- código de repettição repeticao
+- codigo de for while
+- exemplo prático de for while
+- exemplo pratico de repetição
+- for while no python
+- repetição no python
+- for while em código
+- repetição em codigo
+- código em python de repetição
+- codigo em python de for while
+- implementação com for while
+- implementacao com repetição
+- exemplifique em código for e while
+- exemplifique em codigo repetição
+- como funcionam repetições no código
+- como funcionam for e while no codigo
+- implemente um código com repetição
+- implemente um exemplo de for e while
+- me mostre um código com loops
+- demonstre loops na prática
+- demonstre for while na pratica
+- demonstre um código em python que possua loops
+
+##intent:codigo_em_python_funcao
+- código função
+- códipo python função
+- funções em python
+- código de função
+- codigo de funcao
+- exemplo prático de função
+- exemplo pratico de função
+- função no python
+- funções no python
+- funções em código
+- char em codigo
+- código em python de função
+- codigo em python de funções
+- implementação com função
+- implementacao com funções
+- exemplifique em código função
+- exemplifique em codigo funções
+- como funcionam funções no código
+- como funciona função no codigo
+- implemente um código com funções
+- implemente um exemplo de função
+- me mostre um código com funções
+- demonstre função na prática
+- demonstre funções na pratica
+- demonstre um código em python que possua função funções
+
+##intent:codigo_em_python_arquivos
+- código arquivo
+- códipo python arquivo
+- arquivo em python
+- código de arquivo
+- codigo de arquivos
+- exemplo prático de arquivos
+- exemplo pratico de arquivo
+- arquivo no python
+- arquivos no python
+- variaveis em código
+- arquivo em codigo
+- código em python de arquivo
+- codigo em python de arquivos
+- implementação com arquivo
+- implementacao com arquivos
+- exemplifique em código arquivo
+- exemplifique em codigo arquivos
+- como funcionam arquivos no código
+- como funciona arquivo no codigo
+- implemente um código com arquivo
+- implemente um exemplo de arquivo
+- me mostre um código com arquivo
+- demonstre arquivo na prática
+- demonstre arquivos na pratica
+- demonstre um código em python que possua arquivo
+
+##intent:codigo_em_python_vetores
+- código variáveis
+- códipo python variáveis
+- variáveis em python
+- código de variáveis
+- codigo de inteiros
+- exemplo prático de variáveis
+- exemplo pratico de pontos flutuantes
+- variáveis no python
+- double no python
+- variaveis em código
+- char em codigo
+- código em python de variáveis
+- codigo em python de booleanos
+- implementação com variaveis
+- implementacao com strings
+- exemplifique em código variáveis
+- exemplifique em codigo int
+- como funcionam variáveis no código
+- como funcionam float no codigo
+- implemente um código com booleanos
+- implemente um exemplo de variáveis
+- me mostre um código com variáveis
+- demonstre inteiros na prática
+- demonstre strings na pratica
+- demonstre um código em python que possua variáveis
+
+##intent:codigo_em_python_matrizes
+- código variáveis
+- códipo python variáveis
+- variáveis em python
+- código de variáveis
+- codigo de inteiros
+- exemplo prático de variáveis
+- exemplo pratico de pontos flutuantes
+- variáveis no python
+- double no python
+- variaveis em código
+- char em codigo
+- código em python de variáveis
+- codigo em python de booleanos
+- implementação com variaveis
+- implementacao com strings
+- exemplifique em código variáveis
+- exemplifique em codigo int
+- como funcionam variáveis no código
+- como funcionam float no codigo
+- implemente um código com booleanos
+- implemente um exemplo de variáveis
+- me mostre um código com variáveis
+- demonstre inteiros na prática
+- demonstre strings na pratica
+- demonstre um código em python que possua variáveis
