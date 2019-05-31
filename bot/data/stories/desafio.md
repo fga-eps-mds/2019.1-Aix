@@ -15,11 +15,9 @@
       - utter_desafio_vetores
 
 ## desafio_matrizes
-* desafio_condicionais
-      - utter_desafio_condicionais
+* desafio_matrizes
+      - utter_desafio_matrizes
 
 ## desafio_input_dados
 * desafio_input_dados
       - utter_desafio_input_dados
-* desafio_matrizes
-      - utter_desafio_matrizes

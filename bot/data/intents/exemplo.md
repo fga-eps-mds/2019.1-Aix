@@ -251,7 +251,7 @@
 - pratica strings
 - strings na prática
 - strings na pratica
--  exemplo de string
+- exemplo de string
 - como usar string em python
 - exemplo prático de string
 - como declarar uma string

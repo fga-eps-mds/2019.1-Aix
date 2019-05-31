@@ -32,6 +32,7 @@ intents:
   - sobre_importar_bibliotecas
   - sobre_instalar_python
   - sobre_strings
+  - sobre_input_dados
 
 
   - exemplo_variaveis
@@ -60,6 +61,7 @@ intents:
   - desafio_funcao
   - desafio_vetores
   - desafio_matrizes
+  - desafio_input_dados
 
 
   - conteudo_extra_variaveis
@@ -473,7 +475,6 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo de vetor, exemplo de array
         Simples como comer capim!
 
-
   utter_sobre_matrizes:
     - text: |
         Uma matriz pode ser representada como um vetor de vetores, ou seja, ela também é uma coleção de variáveis acessíveis com um único nome e armazenados contiguamente na memória.
@@ -502,6 +503,15 @@ templates:
         está certo ou não! Começaremos com o nível 1:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+
+      Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+
+  utter_desafio_input_dados:
+    - text : |
+      Que tal um desafio sobre importar dados?
+      Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+      Depois printe tudo formatando do jeito que quiser!
+      Caso queira o gabarito, me pergunte sobre o código python de input de dados!
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
@@ -546,6 +556,7 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos de função, como declarar uma função
         Simples como comer capim!
+
   utter_sobre_strings:
     - text: |
         Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
@@ -556,6 +567,21 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
         Simples como comer capim!
 
+  utter_sobre_input_dados:
+    - text: |
+        Então você quer aprender a ler informações do usuário? Deixa que eu te ensino, béee
+        É bem simples, você precisa chamar a função "entrada", mas claro, em inglês. Em python para dizer que uma expressão é uma função (ou método), coloca-se parênteses após o nome.
+        Algumas funções necessitam de parâmetros que são passados dentro desses parênteses (o print por exemplo).
+        No nosso caso, o parâmetro é opcional. Você pode passar entre aspas um texto que será mostrado ao usuário antes que ele digite algo. Tudo o que for digitado pelo usuário será guardado em uma variável até que ele digite ENTER.
+        Fica assim então:
+
+          "a = input()
+          b = input('digite o valor de b:')" (neste caso será printado o texto ao usuário e simultaneamente será lido o valor de b)
+
+        Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar. Basta me pedir.
+        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: desafio entrada de dados, desafio leitura de dados
+
+        
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
@@ -771,15 +797,6 @@ templates:
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-  utter_desafio_repeticao:
-    - text: |
-        Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
-        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
-        a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
-
-        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
-
-        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções!
 
   utter_exercicios_vetores:
     - text: |
@@ -791,15 +808,6 @@ templates:
 
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-
-  utter_desafio_vetores:
-    - text: |
-        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
-        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
-
-        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
-
-        Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
 
   utter_exercicios_matrizes:
@@ -814,14 +822,6 @@ templates:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-  utter_desafio_matrizes:
-    - text: |
-        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
-        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
-
-        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
-
-        Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.
 
   utter_exercicios_arquivos:
     - text: |
@@ -843,13 +843,6 @@ templates:
 
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-
-  utter_desafio_funcao:
-    - text: |
-        Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
-        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! Vamos tentar?
-
-        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
 
@@ -1167,6 +1160,60 @@ templates:
           MEDIA_ESCOLAR= input("Digite a media escolar: ")
           print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " + str(MEDIA_ESCOLAR))
 
+# =========================== DESAFIOS =========================== #
+  utter_desafio_repeticao:
+    - text: |
+        Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
+        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
+        a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
+
+        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções! 
+
+  utter_desafio_vetores:
+    - text: |
+        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
+
+        Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
+
+  utter_desafio_matrizes:
+      - text: |
+          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+          Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+
+          NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+
+          Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.        
+  
+  utter_desafio_hello_world:
+    - text : |
+        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+        está certo ou não! Começaremos com o nível 1:
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
+
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+  
+  utter_desafio_funcao:
+    - text: |
+        Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
+        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! Vamos tentar?
+
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
+
+        E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+
+  utter_desafio_input_dados:
+    - text : |
+        Que tal um desafio sobre importar dados?
+        Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+        Depois printe tudo formatando do jeito que quiser!
+        Caso queira o gabarito, me pergunte sobre o código python de input de dados!
+
 actions:
   - utter_start
   - utter_help
@@ -1201,7 +1248,7 @@ actions:
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
   - utter_sobre_strings
-
+  - utter_sobre_input_dados
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
@@ -1229,6 +1276,8 @@ actions:
   - utter_desafio_funcao
   - utter_desafio_vetores
   - utter_desafio_matrizes
+  - utter_desafio_input_dados
+
 
 
   - utter_conteudo_extra_variaveis
@@ -1270,3 +1319,4 @@ actions:
   - utter_codigo_em_python_matrizes
   - utter_codigo_em_python_importar_bibliotecas
   - utter_codigo_em_python_input_dados
+
