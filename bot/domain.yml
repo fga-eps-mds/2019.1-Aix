@@ -87,6 +87,12 @@ intents:
   - feedback_uva
 
   - codigo_em_python_variaveis
+  - codigo_em_python_condicionais
+  - codigo_em_python_repeticao
+  - codigo_em_python_funcao
+  - codigo_em_python_arquivos
+  - codigo_em_python_vetores
+  - codigo_em_python_matrizes
 
 
 forms:
@@ -951,6 +957,55 @@ templates:
         (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
 
 #================================= CODIGO EM PYTHON ===============================================#
+  utter_codigo_em_python_variaveis:
+    - text: |
+       Então você quer um exemplo mais palpável de variáveis?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+  utter_codigo_em_python_condicionais:
+    - text: |
+       Então você quer um exemplo mais palpável de condicionais?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+  utter_codigo_em_python_repeticao:
+    - text: |
+       Então você quer um exemplo mais palpável de repetição?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+  utter_codigo_em_python_funcao:
+    - text: |
+       Então você quer um exemplo mais palpável de função?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+  utter_codigo_em_python_arquivos:
+    - text: |
+       Então você quer um exemplo mais palpável de arquivos?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+  utter_codigo_em_python_vetores:
+    - text: |
+       Então você quer um exemplo mais palpável de vetores?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+  utter_codigo_em_python_matrizes:
+    - text: |
+       Então você quer um exemplo mais palpável de matrizes?
+       Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
+       você colar ele no terminal e ver como fica!!!
+
+
+
 
 actions:
   - utter_start
@@ -1046,4 +1101,10 @@ actions:
   - utter_ask_linguagem
 
   - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
 
