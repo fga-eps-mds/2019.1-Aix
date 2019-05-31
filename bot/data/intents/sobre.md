@@ -549,6 +549,16 @@
 - defina funcoes
 - resuma função
 - resumo funcao
+- como fazer uma função em python
+- como fazer um funcao em python
+- como criar uma funcao
+- como criar uma função
+- como fazer funcoes em python
+- como criar funcoes
+- o que sao funcoes
+- o que e funcao
+- como utilizar funcoes
+- como utilizar funcoes no python
 
 
 ## intent:sobre_arquivos
@@ -588,6 +598,9 @@
 - significado arquivo
 - significado arquivos
 - conceito arquivos
+- como usar arquivos em python
+- como abrir arquivos em python
+- como usar arquivos
 
 ## intent:sobre_vetores
 - o que são vetores

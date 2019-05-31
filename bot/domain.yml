@@ -9,8 +9,10 @@ intents:
   - assuntos_inapropriados
   - sobre_programaçao
 
+
   - menu_ajuda
   - curiosidades_python
+  - cronograma
 
 
   - sobre_aix
@@ -136,8 +138,9 @@ templates:
 
         Olha, eu sou uma cabra, e não um robô! Então pode conversar normal comigo, poxa! Eu te entendo, pode deixar!
         Se estiver curioso, pergunte sobre mim, o que sei fazer ou como me usar que eu te conto!
-        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
 
+        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+        Sugiro tambéem dar uma olhada no nosso cronograma de estudos!
 
   utter_help:
    - text: |
@@ -249,6 +252,7 @@ templates:
         5. Pesquisar no StackOverflow.
 
         Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
+        Qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o crongrama de estudos!
 
         Pegue sua água, tempere seu capim e vamos começar a aprender!!!
 
@@ -319,6 +323,26 @@ templates:
 
     - text: |
         Você sabia que o Python foi considerado a 3ª linguagem "mais amada" segundo a pesquisa conduzida pelo Stack Overflow em 2018?!
+
+  utter_cronograma:
+    - text: |
+        Vamos iniciar nossa jornada em aprender python! Veja um cronograma de conteúdos para que você aprenda de forma simples e divertida:
+          1º - Conhecer o python. Me envie "o que é python?" ou algo do tipo e te explico..bée
+          2º - Instalar ou verificar a versão do python. Me envie "como instalar o python?" ou algo do tipo que te ensino
+          3º - Aprender a fazer seu primeiro programa. Me envie "quero fazer meu primeiro programa" ou algo relacionado e então aprenderemos..
+          4º - Aprender o que são variáveis e seus tipos. Me envie "o que são variaveis?" ou algo relacionado e você irá entender..
+          5º - Aprender a ler dados do usuário. Me envie "como ler dados do usuario?" ou algo assim que te mostro..bée
+          6º - Aprender sobre estruturas condicionais. Me envie "o que sao estruturas condicionais?" ou algo do tipo e te explico
+          7º - Aprender sobre estruturas de repetição. Me envie "o que sao estrutuas de repeticao?" ou algo relacionado que lhe faço entender
+          8º - Aprender sobre vetores. Me envie "o que sao vetores" ou algo assim que te ensino..bée
+          9º - Aprender sobre strings. Me envie "o que sao strings" ou algo do tipo que explico certinho..
+          10º - Aprender sobre matrizes. Me envie "o que sao matrizes" ou algo do genero que te explico direitinho..
+          11º - Aprender sobre bibliotecas. Me envie "como usar bibliotecas em python" ou algo assim que te mostro certinho..
+          12º - Aprender sobre funções. Me envie "como fazer uma função em python" ou algo relacionado que te ensino
+          13º - Aprender sobre arquivos. Me envie "como usar arquivos em python" ou algo assim que te mostro.
+          14º - Aprender sobre o stackoverflow. Me envie "o que é stackoverflow" que te ensino e mostro como pesquisar lá..bée
+          Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
+          Fácil como comer capim! Não perca tempo e vamos aprender python!
 
   utter_sobre_aix:
     - text: |
@@ -419,15 +443,13 @@ templates:
 
   utter_sobre_repeticao:
     - text: |
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! Mas não seja béesta, tenha cuidado, pois você pode cair em um loop infinito! Assim, para conseguir fazer isso, temos as estruturas de repeticao for e while da linguagem Python.
-
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print!
+        Como? Béem... você vai utilizar as estruturas de repetição, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja!
+        Para conseguir fazer isso, temos as estruturas de repetição for e while da linguagem Python.
+        O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações. Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
+        Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
-
-    - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! Como? Béem... você vai utilizar os repeticao, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-
-        Quer saber mais? Um exemplo ou alguns exercícios?
-
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
         Simples como comer capim!
 
@@ -466,7 +488,7 @@ templates:
     - text : |
         Quer aprender a fazer seu primeiro programa? Xá comigo! Bée
         O primeiro programa em qualquer linguagem é uma saudação a este novo mundo. Diremos então: "Hello World!"
-        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas duplas.
+        Em python, basta utilizar a função 'print()'. Dentro dos parênteses colocamos nosso texto entre aspas (simples ou duplas).
         Temos então:
             print("Hello World!")
 
@@ -481,7 +503,7 @@ templates:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-      
+
   utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
@@ -526,7 +548,7 @@ templates:
   utter_sobre_strings:
     - text: |
         Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
-        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né? 
+        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né?
         Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
         (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
@@ -594,15 +616,12 @@ templates:
 
   utter_exemplo_repeticao:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-
-        Quer saber mais sobre loops? Só pedir por um conteúdo extra mais aprofundado que eu te passo!
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional for while, conteudo extra estruturas de repetição
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos.
+        Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+        Quer ver como ficaria o código disso? Só pedir por um exemplo em código que eu te mostro um!
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: código, for, while, exemplo prático, estruturas de repetição
         Simples como comer capim!
-
-        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o proximo conteúdo!
-
+        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o próximo conteúdo!
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
@@ -698,7 +717,7 @@ templates:
     - text: |
         Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
         Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas. Pode ser aspas simples ou duplas :D
-        Como lhe disse anteriormente, uma string é um vetor de caracteres. 
+        Como lhe disse anteriormente, uma string é um vetor de caracteres.
         Logo, podemos acessar um caractere específico de uma string apenas adicionando um número entre '[]' após o nome da string
         Veja um exemplo:
           minha_string = "olá, bom dia! como vai você?" (string)
@@ -1150,6 +1169,7 @@ actions:
 
   - utter_menu_ajuda
   - utter_curiosidades_python
+  - utter_cronograma
 
 
   - utter_sobre_aix
