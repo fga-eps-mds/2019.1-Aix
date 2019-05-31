@@ -571,7 +571,7 @@
 - app
 - aplicativos
 
-## intent: cronograma:
+## intent:cronograma:
 - /cronograma
 - me de um cronograma de estudos
 - gostaria de um cronograma de estudos
