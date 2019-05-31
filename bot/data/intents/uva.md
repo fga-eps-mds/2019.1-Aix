@@ -18,6 +18,11 @@
 - submeter exercicio no uva
 - submeter exercício
 
+## intent:feedback_uva
+- ultima submissao
+- resposta do exercicio
+- ultima resposta
+
 ## intent:inform
 - meu usuário é [iuri_severo](username)
 - meu login [hey_listen](username)
@@ -69,3 +74,4 @@
 - linguagem [4](linguagem)
 - linguagem [5](linguagem)
 - linguagem [6](linguagem)
+

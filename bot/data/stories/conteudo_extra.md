@@ -108,3 +108,12 @@
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
    
+## conteudo_extra_strings
+* conteudo_extra_strings
+    - utter_conteudo_extra_strings
+
+## conteudo_extra_strings2
+* conteudo_extra_strings
+    - utter_conteudo_extra_strings
+* exercicios_strings
+    - utter_exercicios_strings
