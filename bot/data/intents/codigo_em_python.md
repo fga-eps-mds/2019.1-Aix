@@ -136,55 +136,55 @@
 - demonstre um código em python que possua arquivo
 
 ##intent:codigo_em_python_vetores
-- código variáveis
-- códipo python variáveis
-- variáveis em python
-- código de variáveis
-- codigo de inteiros
-- exemplo prático de variáveis
-- exemplo pratico de pontos flutuantes
-- variáveis no python
-- double no python
-- variaveis em código
-- char em codigo
-- código em python de variáveis
-- codigo em python de booleanos
-- implementação com variaveis
-- implementacao com strings
-- exemplifique em código variáveis
-- exemplifique em codigo int
-- como funcionam variáveis no código
-- como funcionam float no codigo
-- implemente um código com booleanos
-- implemente um exemplo de variáveis
-- me mostre um código com variáveis
-- demonstre inteiros na prática
-- demonstre strings na pratica
-- demonstre um código em python que possua variáveis
+- código vetores vetor
+- códipo python vetores
+- vetores em python
+- código de vetores
+- codigo de vetor
+- exemplo prático de vetores
+- exemplo pratico de vetor
+- vetores no python
+- vetor no python
+- vetores em código
+- vetor em codigo
+- código em python de vetor
+- codigo em python de vetores
+- implementação com vetores
+- implementacao com vetor
+- exemplifique em código vetores
+- exemplifique em codigo vetor
+- como funcionam vetores no código
+- como funciona vetor no codigo
+- implemente um código com vetores
+- implemente um exemplo de vetor
+- me mostre um código com vetores
+- demonstre vetores na prática
+- demonstre vetor na pratica
+- demonstre um código em python que possua vetores vetor
 
 ##intent:codigo_em_python_matrizes
-- código variáveis
-- códipo python variáveis
-- variáveis em python
-- código de variáveis
-- codigo de inteiros
-- exemplo prático de variáveis
-- exemplo pratico de pontos flutuantes
-- variáveis no python
-- double no python
-- variaveis em código
-- char em codigo
-- código em python de variáveis
-- codigo em python de booleanos
-- implementação com variaveis
-- implementacao com strings
-- exemplifique em código variáveis
-- exemplifique em codigo int
-- como funcionam variáveis no código
-- como funcionam float no codigo
-- implemente um código com booleanos
-- implemente um exemplo de variáveis
-- me mostre um código com variáveis
-- demonstre inteiros na prática
-- demonstre strings na pratica
-- demonstre um código em python que possua variáveis
+- código matrizes
+- códipo python matrizes
+- matriz em python
+- código de matrizes
+- codigo de matriz
+- exemplo prático de matrizes
+- exemplo pratico de matriz
+- matriz no python
+- matrizes no python
+- matrizes em código
+- matriz em codigo
+- código em python de matrizes
+- codigo em python de matriz
+- implementação com matrizes
+- implementacao com matriz
+- exemplifique em código matrizes
+- exemplifique em codigo matriz
+- como funcionam matrizes no código
+- como funciona matriz no codigo
+- implemente um código com matrizes
+- implemente um exemplo de matrizes
+- me mostre um código com matrizes
+- demonstre matrizes na prática
+- demonstre matriz na pratica
+- demonstre um código em python que possua matrizes matriz
