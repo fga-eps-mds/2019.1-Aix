@@ -125,8 +125,9 @@ templates:
 
         Olha, eu sou uma cabra, e não um robô! Então pode conversar normal comigo, poxa! Eu te entendo, pode deixar!
         Se estiver curioso, pergunte sobre mim, o que sei fazer ou como me usar que eu te conto!
-        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
 
+        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+        Sugiro tambéem dar uma olhada no nosso cronograma de estudos!
 
   utter_help:
    - text: |
@@ -238,6 +239,7 @@ templates:
         5. Pesquisar no StackOverflow.
 
         Infelizmente eu não sei tudo, ainda tenho muito a aprender, mas por enquanto sei falar sobre variáveis, estruturas condicionais e de repetição!
+        Qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o crongrama de estudos!
 
         Pegue sua água, tempere seu capim e vamos começar a aprender!!!
 
@@ -428,9 +430,9 @@ templates:
 
   utter_sobre_repeticao:
     - text: |
-        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print! 
+        Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print!
         Como? Béem... você vai utilizar as estruturas de repetição, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja! 
+        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja!
         Para conseguir fazer isso, temos as estruturas de repetição for e while da linguagem Python.
         O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações. Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
         Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
@@ -488,7 +490,7 @@ templates:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
-      
+
   utter_sobre_importar_bibliotecas:
     - text : |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
@@ -533,7 +535,7 @@ templates:
   utter_sobre_strings:
     - text: |
         Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
-        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né? 
+        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né?
         Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
         (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
@@ -601,7 +603,7 @@ templates:
 
   utter_exemplo_repeticao:
     - text: |
-        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos. 
+        Imagine que eu, Aix, estou no celeiro e meu feno do lado de fora, no campado. Para chegar lá, precisarei de alguns passos.
         Cada passo será uma ação minha. No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
         Quer ver como ficaria o código disso? Só pedir por um exemplo em código que eu te mostro um!
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: código, for, while, exemplo prático, estruturas de repetição
@@ -702,7 +704,7 @@ templates:
     - text: |
         Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
         Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas. Pode ser aspas simples ou duplas :D
-        Como lhe disse anteriormente, uma string é um vetor de caracteres. 
+        Como lhe disse anteriormente, uma string é um vetor de caracteres.
         Logo, podemos acessar um caractere específico de uma string apenas adicionando um número entre '[]' após o nome da string
         Veja um exemplo:
           minha_string = "olá, bom dia! como vai você?" (string)
@@ -836,7 +838,7 @@ templates:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
-  
+
   utter_exercicios_strings:
     - text: |
         Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.
@@ -848,7 +850,7 @@ templates:
           Obteve algum erro de compilação? Podemos pesquisar sobre ele!
           Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
           E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
-          
+
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
