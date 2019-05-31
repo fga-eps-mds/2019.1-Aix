@@ -7,6 +7,7 @@ category: Estudo
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
 | 29/05/2019 | 0.0.1  | Criação do documento             |  Iuri   |
+| 31/05/2019 | 0.0.2  | Inserção de dos sobre a implementação do FormAction             |  André, Iuri   |
 
 
 ## FormActions
@@ -80,3 +81,47 @@ Após alguns testes, foi validado que é possível usar mais de um Form na inten
 **7.** Caso nada seja extraido do slot, será acionada a action ```ActionExecutionRejection```
 
 Para mais informações sobre FormActions, o Rasa disponibiliza sua documentação na página de [Form](https://rasa.com/docs/rasa/core/forms/) deles.
+
+
+### Implementação dos FormActions
+&emsp;&emsp;
+A implementação dos Forms pode ser encontrada no github do [Rasa](https://github.com/RasaHQ/rasa-sdk), tendo a base do Form e o FormValidation no arquivo ```events.py``` e a implementação no arquivo ```forms.py```.
+&emsp;&emsp;
+Dentro do arquivo ```forms.py``` tem a classe ```FormAction```, que possui herança da classe ```Action```, e que é a base desse estudo. Logo no início do arquivo também ser visto a variável ```REQUESTED_SLOT``` que possui o valor ```"requested_slot"```, sendo ela uma constate para o nome do slot que guarda a lista de slots que o formulário irá utilizar.
+
+A classe possui as seguintes funções:
+* ```name(self)```: Por padrão do Rasa, é uma função obrigatória em todas Actions é define o nome da mesma.
+* ```required_slots(tracker)```: Retorna a lista de slots que o formulário deve preencher, sendo essa uma função obrigatória em todos os FormActions.
+* ```from_entity(self, entity, intent=None, not_intent=None)``` : Retorna um dicionário para mapear o modo de extração dos slots.
+* ```from_trigger_intent(self, value, intent=None, not_intent=None)``` : Retorna um dicionário para mapear o modo de extração dos slots.
+* ```from_intent(self, value, intent=None, not_intent=None)``` : Retorna um dicionário para mapear o modo de extração dos slots.
+* ```from_text(self, intent=None, not_intent=None)``` : Retorna um dicionário para mapear o modo de extração dos slots.
+* ```slot_mappings(self)```: Retorna um dicionário que mapeia os slots requeridos pelo forms.
+* ```get_mappings_for_slot(self, slot_to_fill)```: Retorna uma lista de dicionários que mapeia os slots requeridos com o modo como devem ser extraídos.
+* ```intent_is_desired(requested_slot_mapping, tracker)```: Valida se a intent do usuário combina com as condições de intent do formulário.
+* ```get_entity_value(name, tracker)```: Verfica se uma entidade específica já está preenchida e, caso esteja, extrai seu valor.
+* ```extract_other_slots(self, dispatcher, tracker, domain)```: Extrai o valor dos slots definidos pelo usuário como "subslots" de algum slot listado entre os requeridos.
+* ```extract_requested_slot(self, dispatcher, tracker, domain)```: Extrai o valor dos slots necessário para o formulário. Utiliza o mapa gerado pelas outras funções para válidar os slots desejados e como extraí-los. Retorna um dicionário com os valores.
+* ```validate_slots(self, slot_dict, dispatcher, tracker, domain)```: Valida os slots utilizando as funções de ajuda de validação. Chama a função ```validade_{slot}``` para cada um dos slots e, caso a função não esteja implementada, define o slot com o valor mapeado.
+* ```validate(self, dispatcher, tracker, domain)```: Extrai e valida o valor de cada slot. Caso nenhum valor seja extraído, retorna a execução de rejeição da FormAction.
+    * Pode ser sobrescrita para customizar a validação e o retorno.
+* ```request_next_slot(self, dispatcher, tracker, domain)```: Solicita o próximo slot listado e o template da utter, se necessário. Caso não haja mais slots, retorna ``None```.
+* ```deactivate(self)```: Retorna um evento `Form` com nome ```None``` para desativar o formulário e resetar os slots.
+* ```submit(self, dispatcher, tracker, domain)```: Define quais ações serão tomadas após a extração dos valores dos slots.
+* ```_to_list(x)```: Converte um objeto para uma lista, caso seja algo do tipo ```None```, retorna uma lista vazia.
+* ```_list_intents(self, intent=None,     not_intent=None)```: Verifica se uma intent pode ou não ser acessada durante o preenchimento do formulário.
+* ```_log_form_slots(self, tracker)```: Registra os valores de todos os slots necessários antes de enviar o formulário.
+* ```_activate_if_required(self, dispatcher, tracker, domain)```: Ativa o formulário caso ele tenha sido chamado pela primeira vez. Se ativado, valida os slots necessários que foram preenchidos antes da ativação do formulário e retorna o evento `Form` com o nome do formulário, bem como qualquer evento `SlotSet` da validação de slots pré-preenchidos.
+* ```_validate_if_required(self, dispatcher, tracker, domain)```: Retorna uma lista de eventos do tipo ```self.validate(...)``` e se a validação é requerida:
+    * o formulário é ativado;
+    * o formulário é chamado após a `action_listen`;
+    * a validação do formulário não é cancelada.
+* ``` _should_request_slot(tracker, slot_name)```: Verifica se a ação do formulário deve solicitar o slot fornecido
+* ```run(self, dispatcher, tracker, domain)```: Executa os efeitos colaterais do formulário. Passos:
+    * Ativa o ```Form```, se necessário;
+    * Valida a entrada do usuário, se necessário;
+    * Define os slots validados;
+    * Template utter_ask_{slot} ativada para o próximo slot;
+    * Entra na função ```submit``` caso os slots estejam preenchidos;
+    * Desativa o formulário.
+* ```__str__(self)```: Define o modo como o formulário é printado.
