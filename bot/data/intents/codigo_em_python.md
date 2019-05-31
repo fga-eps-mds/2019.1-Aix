@@ -1,0 +1,26 @@
+##intent:codigo_em_python_variaveis
+- código variáveis
+- códipo python variáveis
+- variáveis em python
+- código de variáveis
+- codigo de inteiros
+- exemplo prático de variáveis
+- exemplo pratico de pontos flutuantes
+- variáveis no python
+- double no python
+- variaveis em código
+- char em codigo
+- código em python de variáveis
+- codigo em python de booleanos
+- implementação com variaveis
+- implementacao com strings
+- exemplifique em código variáveis
+- exemplifique em codigo int
+- como funcionam variáveis no código
+- como funcionam float no codigo
+- implemente um código com booleanos
+- implemente um exemplo de variáveis
+- me mostre um código com variáveis
+- demonstre inteiros na prática
+- demonstre strings na pratica
+- demonstre um código em python que possua variáveis

@@ -86,6 +86,9 @@ intents:
   - submissao_de_exercicio
   - feedback_uva
 
+  - codigo_em_python_variaveis
+
+
 forms:
   - user_form
   - code_form
@@ -822,7 +825,7 @@ templates:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
         E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
-  
+
   utter_exercicios_strings:
     - text: |
         Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.
@@ -834,7 +837,7 @@ templates:
           Obteve algum erro de compilação? Podemos pesquisar sobre ele!
           Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
           E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
-          
+
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
@@ -947,6 +950,8 @@ templates:
         Em qual linguagem você deseja submeter?
         (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
 
+#================================= CODIGO EM PYTHON ===============================================#
+
 actions:
   - utter_start
   - utter_help
@@ -957,6 +962,7 @@ actions:
   - utter_default
   - utter_assuntos_inapropriados
   - utter_sobre_programaçao
+
 
   - utter_menu_ajuda
   - utter_curiosidades_python
@@ -1038,3 +1044,6 @@ actions:
   - utter_ask_codigo
   - utter_ask_problema
   - utter_ask_linguagem
+
+  - utter_codigo_em_python_variaveis
+
