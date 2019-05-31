@@ -28,7 +28,7 @@ jobs:
       after_script:
         - cd bot
         - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
-        # - ./cc-test-reporter upload-coverage
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -47,13 +47,10 @@ jobs:
       after_script:
         - cp actions/coverage.xml .
         - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
-        # - .././cc-test-reporter upload-coverage upload coverage
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
         on:
          branch: master
 
-# after-success:
-#   - ./cc-test-reporter sum-coverage coverage/codeclimate.*.json -p 2
-#   - ./cc-test-reporter upload-coverage
