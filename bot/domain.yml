@@ -685,6 +685,9 @@ templates:
         Ou se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
         Simples como comer capim!
 
+        Quer ver um código parecido com este funcionando aí no seu computador?
+        Só me pedir por um código em python sobre vetores!
+
       image: |
           https://i.imgur.com/soiRg1i.png
 
@@ -795,6 +798,9 @@ templates:
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
+        Com os três exercícios feitos e acertados, se você quiser se aprofundar ainda mais nesse conteúdo de vetores, só me pedir.
+        Me peça por 'conteúdo extra sobre vetores' que te mandarei alguns links úteis!
+
 
   utter_exercicios_matrizes:
     - text: |
@@ -878,9 +884,9 @@ templates:
         sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
-        Tenho uns links bem legais para treinar na prática sobre loops, que tal? Só me pedir, quando estiver pronto!
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios laço de repetição, treinar while for
-        Simples como comer capim!
+        Pronto, você é o mestre das estruturas de repetição!
+        Béem, por que você agora não testa todo este conhecimento em desafios ainda mais intrigantes e legais?!
+        Só me pedir 'desafio de estruturas de repetição' que te passarei alguns!
 
 
   utter_conteudo_extra_funcao:
@@ -907,10 +913,8 @@ templates:
         Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
 
-
-        Que tal tentar uns exercícios depois de ver esse conteúdo extra? Me peça por exercícios de vetores que te atenderei!
-         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios vetores, treinar vetores
-        Simples como comer capim!
+        Agora que você é o mestre dos vetores, te desafio a passar por alguns desafios com essa temática!
+        Se quiser mostrar coragem, só me pedir 'desafios de vetores'!
 
   utter_conteudo_extra_matrizes:
     - text: |
@@ -1105,6 +1109,9 @@ templates:
           # Passar por todos dias da semana
           for feno in fenos_por_dia:
           print('Eu comi', feno, 'fenos esse dia!')
+      
+      Agora que pegou um código para ver de perto como funciona, por que não fazer você mesmo um?
+      Me peça por 'exercícios com vetores' que tenho alguns prontinhos para você!
 
 
   utter_codigo_em_python_matrizes:
@@ -1164,7 +1171,7 @@ templates:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
 
-        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre funções! 
+        Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre vetores! 
 
   utter_desafio_vetores:
     - text: |
