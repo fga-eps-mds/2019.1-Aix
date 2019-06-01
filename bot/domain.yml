@@ -143,7 +143,7 @@ templates:
         Se estiver curioso, pergunte sobre mim, o que sei fazer ou como me usar que eu te conto!
 
         Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
-        Sugiro tambéem dar uma olhada no nosso cronograma de estudos!
+        Sugiro tambéem dar uma olhada no nosso cronograma de estudos! Digite /cronograma para acessá-lo.
 
   utter_help:
    - text: |
@@ -153,30 +153,38 @@ templates:
         Ações que posso fazer:
           1. Explicar um conteúdo;
           2. Citar exemplos;
-          3. Mostrar links extras sobre o conteúdo;
+          3. Enviar um exemplo prático;
           4. Indicar exercícios;
-          5. Pesquisar no StackOverflow.
+          5. Enviar links extras sobre o conteúdo;
+          6. Sugerir desafios para cada conteúdo;
+          7. Pesquisar no StackOverflow.
+          8. Informar um cronograma de conteúdos de python.
 
         Conteúdos mapeados:
+          - Entrada e saída de dados
           - Variáveis
           - Estruturas Condicionais
           - Estruturas de Repetição
-          - Arquivos
-          - Bibliotecas
           - Vetores
-          - Matrizes
           - Strings
+          - Matrizes
+          - Bibliotecas
+          - Funções
+          - Arquivos
 
-        *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
         Como? Escreva algo do tipo:
           Quero saber o que é [Nome do conteúdo]
+          Quero um exemplo sobre [Nome do conteúdo]
+          Quero um exemplo em código de [Nome do conteúdo]
           Me dê exercícios sobre [Nome do conteúdo]
           Quero saber mais sobre [Nome do conteúdo]
-          Quero um exemplo sobre [Nome do conteúdo]
-        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
-
-        *Para pesquisar no StackOverflow voce deve digitar:
+          Quero um desafio de [Nome do conteúdo]
+          *Para pesquisar no StackOverflow voce deve digitar:
           pesquise sobre [conteúdo que você quer saber]
+          *Para acessar o cronograma:
+            /cronograma
+          
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
 
   utter_despedir:
     - text: |
