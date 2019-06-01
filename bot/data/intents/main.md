@@ -10,6 +10,7 @@
 ## intent:cumprimentar
 - fala ff
 - oi
+- oii
 - com licenca
 - posso falar com você
 - pode me tirar uma dúvida
@@ -19,6 +20,7 @@
 - bom dia
 - boa tarde
 - boa noite
+- boa madrugada
 - good morning
 - mornin
 - good afternoon
@@ -29,12 +31,17 @@
 - eae
 - eaí
 - eai
+- e ae
 - opa meu bom
 - olá
 - hola
 - hello
 - hi
 - hey
+- ei
+- hello there
+- hey
+- hallo
 - bom ver você
 - bom ver voce
 - legal ver você
@@ -68,12 +75,16 @@
 - Tudo bem
 - Como você está
 - como vc ta
+- como estão as coisas
+- como está sendo seu dia
 - joia
 - joinha
 - tudo bom
-- bom dia flor do dia
 - Tudo bem e você- tudo certo
 - tudo bem
+- turu bom
+- bele e vc
+- suave e vc
 - beleza
 - bom
 - esta bem
@@ -85,6 +96,7 @@
 - Tchau
 - tchau obg
 - até logo
+- bis bald
 - xau
 - bye bye
 - cya
@@ -95,6 +107,13 @@
 - flw vlw
 - bon voyage
 - arrivederci
+- vou pegar o beco
+- to indo ali, flw
+- beijinho beijinho tchau tchau
+- abraços
+- abraço hétero
+- beijos
+- beijos de luz
 - até mais ver
 - adeus
 - hasta la vista, baby
@@ -131,10 +150,17 @@
 - ótimo
 - perfect
 - legal
+- massa
+- curti
 - cool
 - ok
 - okay
 - justo
+- bele
+- entendi
+- consegui
+- cool cool cool cool
+- consegui, top
 - foi esclarecido
 - foi de grande ajuda
 - muito util
@@ -162,6 +188,9 @@
 - quero estudar
 - como estudar com você
 - quero aprender
+- suas capacidades
+- sua habilidades
+- quais conteúdos consigo aprender com voce
 
 ## intent:curiosidades_python
 - zen do python
@@ -184,6 +213,7 @@
 - dados curiosos python
 - fatos curiosos python
 - fatos desconhecidos python
+- trivia
 
 ## intent:out_of_scope
 - você sabe sobre grafos
@@ -206,13 +236,17 @@
 - o que é stackoverflow
 - o que é uma lista
 - oq e uma lista
+- quanto rende o fgts
+- o que achou do final de game of thrones
+- cotação do dólar hoje
+- me ensina estrutura de dados
 
 ## intent:assuntos_inapropriados
 - porra
 - caralho
 - merda
 - tomar no cu
-- tnc
+- tncbis bald
 - fdp
 - crlh
 - vsf
@@ -463,3 +497,5 @@
 - qual a ordem de conteudos
 - o que aprender agora
 - o que você pode me ensinar
+- planejamento dos estudos
+- ordem do que devo aprender
