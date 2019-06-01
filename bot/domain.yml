@@ -581,6 +581,8 @@ templates:
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
+      Vamos para o próximo conteúdo agora: aprender a ler os conteúdos do usuário!
+      É só me perguntar sobre o input de dados :)
 
   utter_sobre_importar_bibliotecas:
     - text: |
@@ -648,8 +650,8 @@ templates:
           "a = input()
           b = input('digite o valor de b:')" (neste caso será printado o texto ao usuário e simultaneamente será lido o valor de b)
 
-        Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar. Basta me pedir.
-        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: desafio entrada de dados, desafio leitura de dados
+        Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar.
+        Basta me pedir algum desafio entrada de dados, desafio leitura de dados
 
 
   # ============================ EXEMPLO ============================ #
