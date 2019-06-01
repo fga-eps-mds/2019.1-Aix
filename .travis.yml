@@ -11,9 +11,14 @@ notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
 before_script:
- - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
- - chmod +x ./cc-test-reporter
- - ./cc-test-reporter before-build
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+  - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+  - unzip awscli-bundle.zip
+  - ./awscli-bundle/install -b ~/bin/aws
+  - export PATH=~/bin:$PATH
+
 jobs:
   include:
     - stage: Build
@@ -28,7 +33,10 @@ jobs:
       after_script:
         - cd bot
         - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then .././cc-test-reporter upload-coverage; fi
+        - mkdir coverage
+        - cp coverage.xml coverage/coverage.bot.xml
+        - aws s3 sync coverage/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
+        # - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then .././cc-test-reporter upload-coverage; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -47,10 +55,18 @@ jobs:
       after_script:
         - cp actions/coverage.xml .
         - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
+        - mkdir coverage
+        - cp coverage.xml coverage/coverage.actions.xml
+        - aws s3 sync coverage/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
+        # - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter upload-coverage; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
         on:
          branch: master
 
+after_success:
+  - mkdir coverage-final/
+  - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
+  - cd coverage-final
+  - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output - --parts 2 coverage/codeclimate.*.xml | ./cc-test-reporter upload-coverage --input -; fi
