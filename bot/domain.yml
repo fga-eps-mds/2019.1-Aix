@@ -263,21 +263,33 @@ templates:
 
   utter_sobre_programaçao:
     - text: |
-        Então você quer aprender a programar? Sabia que a base para criar várias coisas legais, como jogos e aplicativos é aprender uma linguagem de programação? E uma das linguagens mais fáceis é o Python, e eu posso te ensinar!
+        Então você quer aprender a programar née... Sabia que a base para criar váarias coisas legais,
+        como jogos e aplicativos é aprender uma linguagem de programação?
+        E uma das linguagens mais fáceis é o Python, e eu posso te ensinar!
 
         Pode me perguntar sobre o Python que eu te contarei mais coisas importantes a respeito!
 
     - text: |
-        Béem, então você quer fazer coisas grandes, ser um programador!! O processo não é tão simples, mas eu posso garantir que você é capaz.
+        Béem, então você quer fazer coisas grandes, ser um programador!! O processo não é tão simples,
+        mas eu posso garantir que você é capaz.
 
-        Primeiro, você terá que aprender uma linguagem de programação... E eu estou aqui para te ajudar a explorar a linguagem Python!!! Por que você não me pergunta mais sobre ela?
+        Primeiro, você terá que aprender uma linguagem de programação...
+        E eu estou aqui para te ajudar a explorar a linguagem Python!!!
+
+        Por que você não me pergunta mais sobre ela?
 
     - text: |
-        Você quer ser um programador, né... Para isso acontecer, não vamos colocar a carroça na frente dos bois: antes você precisa aprender Python, e eu posso te ajudar com isso!! Que tal me perguntar sobre Python?
+        Você quer ser um programador, né... Para isso acontecer, não vamos colocar a carroça na
+        frente dos bois: antes você precisa aprender Python, e eu posso te ajudar com isso!!
+
+        Que tal me perguntar sobre Python?
 
     - text: |
-        Sabe aquele ditado que diz "apressado como cru"? Pois é... Para ser um programador, antes é necessário um conhecimento em linguagens de programação! E eu posso te ensinar uma delas: o Python. Tente me perguntar a respeito dessa matéria!
+        Sabe aquele ditado que diz "apressado como cru"? Pois é...
+        Para ser um programador, antes é necessário um conhecimento
+        em linguagens de programação! E eu posso te ensinar uma delas: o Python.
 
+        Tente me perguntar a respeito dessa matéria!
 
   utter_menu_ajuda:
     - text: |
@@ -356,7 +368,8 @@ templates:
         Eu sou a cabra Aix e estou aqui para te auxiliar nos seus estudos e garantir
         sua nota 10 quando o assunto é linguagem de programação Python!
 
-        Para isso é só me pedir, que eu te ensino a programar!
+        Mas antes, acho melhor tirar todas suas duvidas de funcionamento comigo antes...
+        Me peça o menu ajuda para isso!
 
     - text: |
         Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília?
@@ -364,8 +377,8 @@ templates:
         Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz
         de criar uma ferramenta de estudo tão maneira quanto essa!
 
-        Então para isso acontecer, você tem que começar a entender um pouco mais de programação.
-        Eu posso te ajudar com isso, é só me pedir!
+        Então para isso acontecer, você tem que começar a entender um pouco mais sobre meu funcionamento.
+        É só me pedir o menu ajuda!
 
     - text: |
         Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas
@@ -374,7 +387,7 @@ templates:
         Béem, se você falou seu professor, você acertou...
         Mas sabia que eu também posso te ajudar com isso?
 
-        É só me pedir ajuda com programação, que estou ao seu dispor para qualquer questão que eu já souber!
+        Sugiro me pedir o menu ajuda, caso qualquer dúvida do meu funcionamento!
 
     - text: |
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim!
@@ -385,7 +398,8 @@ templates:
 
         Ah!! E agora também estou no telegram!
 
-        Que tal começarmos a aprender? É só me pedir ajuda em programação
+        Que tal começarmos a aprender? Mas antes, eu sugiro que me peça o menu ajuda para saber
+        como eu funciono!
 
     - text: |
         A cabra que manda exercícios na hora...
@@ -398,7 +412,8 @@ templates:
         não perde tempo e te chama:
         pro próximo conteúdo do fluxograma!
 
-        Afinal, eu sei que você quer aprender a programar... É só me pedir, não se acanhe!!
+        Afinal, eu sei que você quer aprender como eu funciono...
+        É só me pedir o menu ajuda, não se acanhe!!
 
 
     - text: |
@@ -408,8 +423,8 @@ templates:
         Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome!
         Quanta imaginação, não?
 
-        Mas chega de papo furado... Você quer é aprender programação, né..
-        Beém, tente me perguntar sobre esse tópico então!
+        Mas chega de papo furado... Você quer é aprender como funciono né..
+        Beém, tente me perguntar sobre menu ajuda então!
 
   # ============================ SOBRE ============================ #
   utter_sobre_python:
