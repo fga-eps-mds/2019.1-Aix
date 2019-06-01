@@ -6,6 +6,10 @@
 - quero aumentar a dificuldade de hello world
 - dificulte os exercícios de hello world
 - me desafie em hello world
+- challenge accepted hello world
+- me mostra o desafio de hello world
+- desafio hello world
+- me desafia a fazer hello world
 
 ## intent:desafio_repeticao
 - desafie-me sobre laços
@@ -15,6 +19,10 @@
 - quero aumentar a dificuldade de laços
 - dificulte os exercícios de laços
 - me desafie em laços
+- challenge accepted laços de repetição
+- me mostra o desafio de estrutura de repetição
+- desafio laços
+- me desafia a fazer laços de repetição
 
 ## intent:desafio_funcao
 - desafie-me sobre função
@@ -24,6 +32,10 @@
 - quero aumentar a dificuldade de função
 - dificulte os exercícios de função
 - me desafie em função
+- challenge accepted funções
+- me mostra o desafio de funções
+- desafio funções
+- me desafia a fazer funções
 
 ## intent:desafio_vetores
 - desafie-me sobre vetores
@@ -33,6 +45,10 @@
 - quero aumentar a dificuldade de vetores
 - dificulte os exercícios de vetores
 - me desafie em vetores
+- challenge accepted vetores
+- me mostra o desafio de vetor
+- desafio vetor
+- me desafia a fazer vetores
 
 ## intent:desafio_matrizes
 - desafie-me sobre matrizes
@@ -42,6 +58,10 @@
 - quero aumentar a dificuldade de matrizes
 - dificulte os exercícios de matrizes
 - me desafie em matrizes
+- challenge accepted matriz
+- me mostra o desafio matriz
+- desafio matriz
+- me desafia a fazer matrizes
 
 ## intent:desafio_input_dados
 - desafie-me input de dados
@@ -72,3 +92,7 @@
 - exercicio ler informação do terminal
 - exercicio scanf
 - exercicio cin
+- challenge accepted cin scanf
+- me mostra o desafio input de dados
+- desafio entrada de dados
+- me desafia a fazer input de dados
