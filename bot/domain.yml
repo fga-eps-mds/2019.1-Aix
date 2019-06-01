@@ -617,7 +617,8 @@ templates:
 
         wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
 
-        Agora vamos começar a programar!! E para isso, nada melhor que aprender o famoso
+        Agora pegue sua água, tempere seu capim e vamos começar a aprender!!!
+        E para isso, nada melhor que aprender o famoso
         "Hello World"! É só pedir :)
 
   utter_sobre_funcao:
@@ -1265,6 +1266,9 @@ templates:
           MEDIA_ESCOLAR= input("Digite a media escolar: ")
           print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " + str(MEDIA_ESCOLAR))
 
+       Espero que tenha entendido o conteúdo! Caso tenha, você está pronto para o próximo conteúdo: variáveis!
+       Se quiser saber a respeito desse tema, é só me pedir :)
+       
 # =========================== DESAFIOS =========================== #
   utter_desafio_repeticao:
     - text: |
@@ -1323,9 +1327,9 @@ templates:
           Que tal um desafio sobre importar dados?
           Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
           Depois printe tudo formatando do jeito que quiser!
-          Caso queira o gabarito, me pergunte sobre o código python de input de dados!
 
-          Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+          Caso queira o gabarito para conferir, me peça o código python em python de input de dados!
+
 
 actions:
   - utter_start
