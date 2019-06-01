@@ -529,10 +529,8 @@ templates:
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
-        Quer um exemplo? Um conteúdo extra? Exercícios?
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo, condicionais, saber mais, conteudo extra
-        Simples como comer capim!
+        Quer um exemplo? Bée..Se seu pedido tiver essas palavras específicas me
+        ajudaria bastante a te entender: exemplo, condicionais. Simples como comer capim!
 
   utter_sobre_repeticao:
     - text: |
@@ -675,7 +673,6 @@ templates:
         Quer saber mais? Caso queira entender ainda melhor me peça exemplos na prática do código!
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: código em python de variáveis.
 
-
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
 
@@ -693,10 +690,8 @@ templates:
         a, b, c, delta, y1 e y2
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
-        Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
-        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: links externos para variaveis, mais conteudo sobre variaveis
+        Quer saber mais? Caso queira entender ainda melhor me peça exemplos na prática do código!
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: código em python de variáveis.
         Simples como comer capim!
 
   utter_exemplo_condicionais:
@@ -709,13 +704,13 @@ templates:
         else:
           print("amo a Aix")
 
-        Quer ler mais a respeito de condicionais? Só pedir, tenho alguns links de conteúdos extras!
+        Quer ver mais a respeito de condicionais? Só pedir, posso te mostrar esse exemplo na prática!
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: conteudo adicional if, conteudo extra condicionais
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender:
+        código em python de condicionais.
         Simples como comer capim!
 
-        E caso você queria seguir na sua carreira de desenvolver python, você pode perguntar pra mim sobre vetores!
-
+        E caso você queria seguir na sua carreira de desenvolver python, você pode perguntar pra mim sobre nosso cronograma de estudos!
 
       image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -857,7 +852,7 @@ templates:
         Deu algum erro no código? Só pedir que eu procuro por ele no StackOverflow!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        Ou agora que você já acabou todo o conteúdo de condicionais, que tal me perguntar sobre vetor?
+        Ou agora que você já sabe o básico sobre condicionais, vamos aprofundar nesse tema: me peça links extras desse conteúdo!
 
   utter_exercicios_repeticao:
     - text: |
@@ -1103,6 +1098,10 @@ templates:
        Então você quer um exemplo mais palpável de condicionais?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+
+       Depois disso, você pode me pedir alguns exercícios de condicionais, para testar
+       seu conhecimento!
+
        código:
           # Veja como a estrutura condicional
           # responde aos diferentes valores de x
