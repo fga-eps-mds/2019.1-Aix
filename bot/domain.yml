@@ -703,9 +703,8 @@ templates:
 
         Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: treinar matrizes, exercicios matrizes
-        Simples como comer capim!
-        Ou se preferir, podemos seguir pro próximo conteúdo sugerido: Laços de repetição. É só perguntar o que são laços de repetição que eu te explico.
+        Posso te mandar um código prontinho para você testar aí no seu PC.
+        Caso queira, só pedir um 'código em python sobre matrizes';
 
 
       image: |
@@ -807,6 +806,10 @@ templates:
 
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
+
+        Agora posso te enviar alguns links com conteúdo mais aprofundado ou podemos já começar o próximo conteúdo!
+        Caso queira aprender mais sobre matrizes, me peça por 'conteúdo extra de matrizes'.
+        Ou, me pergunte sobre 'como importar bibliotecas' que te ensino feliz e contente!
 
 
   utter_exercicios_arquivos:
@@ -926,8 +929,9 @@ templates:
         Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
-        Que tal praticar um pouco agora? Me peça por exercícios sobre matrizes que te recomendo alguns!
-        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios matrizes, treinar matrizes
+        Agora que entendeu na teoria tudo sobre matrizes, vamos por na prática mais desafiadora que você já fez?
+        Só me pedir pelo 'desafio sobre matrizes';
+
   utter_conteudo_extra_strings:
     - text: |
         Olha que legal esse conteúdo extra sobre strings:
@@ -1139,6 +1143,9 @@ templates:
             for duvida in semana:
               print('Esse dia eu tirei', duvida, 'dúvidas!')
 
+      Deu pra entender, néee? Agora por que não testar suas habilidades com 'exercícios sobre matrizes'?
+      Só me pedir!
+
   utter_codigo_em_python_importar_bibliotecas:
     - text: |
        Então você quer um exemplo mais palpável de como importar bibliotecas?
@@ -1198,7 +1205,9 @@ templates:
 
           Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
           Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar
+          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
+
+          Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
   
   utter_desafio_hello_world:
     - text: |
