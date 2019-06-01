@@ -449,10 +449,14 @@ templates:
   # ============================ SOBRE ============================ #
   utter_sobre_python:
     - text: |
-        O Python é uma linguagem de programação de alto nível, muito usada no Linux por ser béem rápida de aprender!
+        O Python é uma linguagem de programação de alto nível, muito usada no
+        Linux por ser béem rápida de aprender!
+
         Possui uma sintaxe bastante organizada, como meus fenos, e permite a fácil leitura do código.
         O Python foi criado por Guido van Rossum, no ano de 1991, béem antes de eu nascer.
-        Agora que sabe sobre o Python, por que não me pergunta sobre variáveis? É um ótimo conteúdo para começar a aprender a linguagem!
+
+        Agora que sabe sobre o que é o Python, por que não me pede pra te ensinar a instalá-lo?
+
 
   utter_sobre_variaveis:
     - text: |
@@ -610,6 +614,9 @@ templates:
         ou de 64 bits:
 
         wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
+
+        Agora vamos começar a programar!! E para isso, nada melhor que aprender o famoso
+        "Hello World"! É só pedir :)
 
   utter_sobre_funcao:
     - text: |
