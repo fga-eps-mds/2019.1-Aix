@@ -549,6 +549,16 @@
 - defina funcoes
 - resuma função
 - resumo funcao
+- como fazer uma função em python
+- como fazer um funcao em python
+- como criar uma funcao
+- como criar uma função
+- como fazer funcoes em python
+- como criar funcoes
+- o que sao funcoes
+- o que e funcao
+- como utilizar funcoes
+- como utilizar funcoes no python
 
 
 ## intent:sobre_arquivos
@@ -588,6 +598,9 @@
 - significado arquivo
 - significado arquivos
 - conceito arquivos
+- como usar arquivos em python
+- como abrir arquivos em python
+- como usar arquivos
 
 ## intent:sobre_vetores
 - o que são vetores
@@ -732,3 +745,26 @@
 - não entendi o que é stackoverflow
 - ensine sobre stack overflow
 - onde tirar dúvidas
+## intent:sobre_input_dados
+- como ler dado do usuário
+- como ler dado do usuario
+- como ler uma informação do usuário
+- como ler uma informacao do usuario
+- leitura de texto
+- entrada de dados
+- como ler string
+- como ler inteiro
+- como ler float
+- input em python
+- scanf em python
+- cin em python
+- in data python
+- ler um numero
+- ler um inteiro
+- ler um float
+- entrada do usuario
+- solicitar valor do usuario
+- solicitar dado do usuario
+- ler no terminal
+- pegar texto do usuario
+- pegar texto do terminal

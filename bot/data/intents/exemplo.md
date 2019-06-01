@@ -167,10 +167,10 @@
 - exemplos de arquivos
 - modelos de como escrever em arquivos
 - modelos de como escrever em arquivo
-- sintaxe de arquivo
-- sintaxe de arquivos
-- como escrever em arquivos
-- como escrever em arquivo
+- exemplo sintaxe de arquivo
+- exemplo sintaxe de arquivos
+- exemplo de como escrever em arquivos
+- exemplo de como escrever em arquivo
 - exemplifique arquivo
 - exemplifique arquivos
 - arquivos na pratica
@@ -251,7 +251,7 @@
 - pratica strings
 - strings na prática
 - strings na pratica
--  exemplo de string
+- exemplo de string
 - como usar string em python
 - exemplo prático de string
 - como declarar uma string

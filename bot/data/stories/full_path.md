@@ -20,6 +20,8 @@
     - utter_sobre_condicionais
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -49,6 +51,8 @@
     - utter_sobre_repeticao
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -90,6 +94,8 @@
     - utter_sobre_variaveis
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -119,6 +125,8 @@
     - utter_sobre_funcao
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -148,6 +156,8 @@
     - utter_sobre_arquivos
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -177,6 +187,8 @@
     - utter_sobre_vetores
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
@@ -206,6 +218,8 @@
     - utter_sobre_matrizes
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga

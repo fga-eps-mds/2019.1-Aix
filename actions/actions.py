@@ -143,6 +143,7 @@ class ActionSetSlotValue(Action):
         last_intent_name = tracker.latest_message['intent'].get('name')
         slot_content = last_intent_name.replace('sobre_', '')
         slot_content = slot_content.replace('exemplo_', '')
+        slot_content = slot_content.replace('codigo_em_python_', '')
         slot_content = slot_content.replace('exercicios_', '')
         slot_content = slot_content.replace('conteudo_extra_', '')
 
@@ -213,6 +214,24 @@ class ActionUtterExemploVaga(ActionUtterVaga):
                                      ' primeiro!')
         else:
             desired_subject = 'utter_exemplo_' + slot_content
+            is_valid = self.validate_subject(domain, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
+
+
+class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
+    def name(self):
+        return "action_utter_codigo_em_python_vaga"
+
+    def run(self, dispatcher, tracker, domain):
+        slot_content = tracker.get_slot('conteudo')
+        if(slot_content == 'erro'):
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
+        else:
+            desired_subject = 'utter_codigo_em_python_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
