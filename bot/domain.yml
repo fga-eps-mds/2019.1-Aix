@@ -631,7 +631,7 @@ templates:
         Quer ver como ficaria o código disso? Só pedir por um exemplo em código que eu te mostro um!
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: código, for, while, exemplo prático, estruturas de repetição
         Simples como comer capim!
-        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre funções, que é o próximo conteúdo!
+        E olha, se você estiver se sentindo confiante nesse conteúdo, você pode me pedir para falar sobre vetores, que é o próximo conteúdo!
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
@@ -766,7 +766,7 @@ templates:
         Deu algum erro no código? Só pedir que eu procuro por ele no StackOverflow!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        ou agora que você já acabou todo o conteúdo de condicionais, que tal me perguntar sobre vetor?
+        Ou agora que você já acabou todo o conteúdo de condicionais, que tal me perguntar sobre vetor?
 
   utter_exercicios_repeticao:
     - text: |
@@ -779,6 +779,9 @@ templates:
 
         Não esqueça que qualquer probléema é só me falar que quer fazer uma pesquisa que eu te ajudo!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
+
+        E agora que fez todos esses exercícios, porque não dar uma aprofundada ainda maior no conteúdo?
+        É só me pedir por 'conteúdos extras sobre estruturas de repetição'!
 
 
   utter_exercicios_vetores:
@@ -862,9 +865,12 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-        Vamos por o conhecimento em prática? Só me pedir que te passo uns exercícios bem legais sobre estruturas condicionais!
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios estruturas condicionais, treinar if
-        Simples como comer capim!
+        Agora que está melhor em condicionais do que eu comendo feno, por que não me pergunta sobre estruturas de repetição?
+        É um conteúdo importantíiiissimo para um programador, e você vai aprender rapidinho!
+        Para me ajudar a entender melhor, me peça uma explicação sobre estruturas de repetição.
+
+        # Eai, agora quer exercícios desafiadores para por a prova tudo que acabou de aprender?
+        # Bée.. É só me pedir por 'desafios de condicionais'!
 
   utter_conteudo_extra_repeticao:
     - text : |
@@ -1046,6 +1052,9 @@ templates:
             quantidade_de_passos = quantidade_de_passos + 1
 
           print(quantidade_de_passos)
+      
+      Entendeu direitinho o código e como ele funciona?
+      Agora vamos por a mão na massa? Basta me pedir por 'exercícios de laços de repetição'!
 
 
   utter_codigo_em_python_funcao:
