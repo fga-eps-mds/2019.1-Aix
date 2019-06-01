@@ -1,6 +1,6 @@
 ## intent:codigo_em_python_variaveis
 - código variáveis
-- códipo python variáveis
+- código python variáveis
 - variáveis em python
 - código de variáveis
 - codigo de inteiros
@@ -27,7 +27,7 @@
 
 ## intent:codigo_em_python_condicionais
 - código condicionais
-- códipo python condicionais
+- código python condicionais
 - condicional condicionais em python
 - código de condicional condicionais
 - codigo de condicional condicionais
@@ -54,8 +54,8 @@
 
 ## intent:codigo_em_python_repeticao
 - código for while repetição
-- códipo python repetição
-- códipo python for while
+- código python repetição
+- código python for while
 - repetição em python
 - for while em python
 - código de repettição repeticao
@@ -83,7 +83,7 @@
 
 ## intent:codigo_em_python_funcao
 - código função
-- códipo python função
+- código python função
 - funções em python
 - código de função
 - codigo de funcao
@@ -110,7 +110,7 @@
 
 ## intent:codigo_em_python_arquivos
 - código arquivo
-- códipo python arquivo
+- código python arquivo
 - arquivo em python
 - código de arquivo
 - codigo de arquivos
@@ -137,7 +137,7 @@
 
 ## intent:codigo_em_python_vetores
 - código vetores vetor
-- códipo python vetores
+- código python vetores
 - vetores em python
 - código de vetores
 - codigo de vetor
@@ -164,7 +164,7 @@
 
 ## intent:codigo_em_python_matrizes
 - código matrizes
-- códipo python matrizes
+- código python matrizes
 - matriz em python
 - código de matrizes
 - codigo de matriz
@@ -191,7 +191,7 @@
 
 ## intent:codigo_em_python_importar_bibliotecas
 - código importar bibliotecas
-- códipo python importar biblioteca
+- código python importar biblioteca
 - importar bibliotecas em python
 - código que importa bibliotecas
 - codigo que importa biblioteca
@@ -218,7 +218,7 @@
 
 ## intent:codigo_em_python_input_dados
 - código input de dados
-- códipo python receber dados do usuário
+- código python receber dados do usuário
 - receber dados em python
 - código de input de dados
 - codigo de recepção de dados

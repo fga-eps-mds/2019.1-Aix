@@ -645,12 +645,8 @@ templates:
 
         A palavra reservada "def", é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
-        Quer uns exercícios para treinar e ter certeza se entendeu? Só mée pedir, que te enviareis alguns com todo prazer!!!
-
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios função, praticar funções
-        Simples como comer capim!
-
-        Sabia que você também pode começar a estudar para o proximo conteúdo? É só me pedir para falar sobre arquivos!
+       Gostaria de testar isso na prática? Se quiser é só pedir que te mando um código pronto disso ;)
+       Se seu pedido tiver essas expressões facilitaria meu trabalho em ter certeza do que você precisa: código função, implementação com função
 
   utter_exemplo_arquivos:
     - text: |
@@ -664,10 +660,8 @@ templates:
         Nesse exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, e o objeto gerado por essa função é atribuído a variável 'arquivo'.
         A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto, por fim, o arquivo é fechado com a função 'close'!!
 
-        Se precisar de um exercício para por em prática e não sair mais da sua cabeça, só me pedir um!
-        Bée... Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: testar conhecimentos arquivo, praticar arquivo
-        Simples como comer capim!
-        Você sente que ja aprendeu béem sobre arquvios? Você pode pular para o próximo conteúdo! É só me pedir para falar sobre bibliotecas!
+        Se quiser posso te mandar um código pronto pra você testar aí no seu pc, é só pedir.
+        Bée..seu pedido tiver essas palavras me ajudaria a te entender: código arquivo, demonstre arquivos na prática
 
   utter_exemplo_vetores:
     - text: |
@@ -723,8 +717,8 @@ templates:
         Primeiro passo: import math
         Para utilizar as funções em seu código basta colocar math.funcao()
         Segundo passo: math.sqrt(9)
-        Caso haja alguma dúvida você pode solicitar por uma pesquisa.
-        Bée, me envie "quero pesquisar algo" e te ensinarei como pesquisar por aqui mesmo!
+        Caso queira um código pra você testar em seu programa é só pedir.
+        Se seu pedido tiver essas palavras: código importar bibliotecas, exemplo prático para importar bibliotecas. Iria me ajudar bastante a te entender :)
 
   utter_exemplo_strings:
     - text: |
@@ -823,7 +817,8 @@ templates:
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-        E oras, agora que você acabou o conteúdo de arquivos, que tal me perguntar sobre bibliotecas?
+        Que tal aprendermos um pouco mais sobre arquivos? É só pedir um conteúdo extra!
+        Se seu pedido tiver essas expressões eu ficaria muito feliz: conteúdo adicional arquivo, mais sobre arquivos
 
   utter_exercicios_funcao:
     - text: |
@@ -836,7 +831,8 @@ templates:
         Encontrou algum erro de compilação? Só me falar que pesquiso pelo erro.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+        E aí, gostou dos exercícios? Se quiser posso te mandar um conteúdo extra sobre função, é só solicitar.
+        Se sua solicitação tiver essas expressẽs me ajudaria: link extra funções, mais informações sobre funções
 
   utter_exercicios_strings:
     - text: |
@@ -896,6 +892,9 @@ templates:
         https://www.devmedia.com.br/funcoes-em-python/37340
         https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
+        Agora que você está craque, que tal ser desafiado? É só pedir!
+        Bée..Se seu pedido tiver essas palavras me ajudaria a te entender: quero desafios de função, me desafie em função
+
   utter_conteudo_extra_arquivos:
     - text : |
         Então você quer virar o mago dos arquivos, néee!?
@@ -903,6 +902,8 @@ templates:
         https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
         https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
         http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
+
+        Muito bem! Já podemos aprender mais assuntos. Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
 
 
   utter_conteudo_extra_vetores:
@@ -1073,6 +1074,9 @@ templates:
         nome = 'João'
         cumprimento = oi(nome)
         print(cumprimento)
+      
+      Que tal partimos pra uns exercícios? É só pedir!
+      Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade: exercicios funções, praticar funções
 
 
   utter_codigo_em_python_arquivos:
@@ -1094,7 +1098,8 @@ templates:
           # para passar por todas suas linhas
           for linha in arquivo:
             print(linha)
-
+        Que tal treinar um pouco? É só pedir uns exercícios!
+        Se seu pedido tiver essas expressões eu ficaria muito grata: exercicios arquivos, treinar arquivos. ;)
 
   utter_codigo_em_python_vetores:
     - text: |
@@ -1150,6 +1155,8 @@ templates:
           raiz_quadrada = math.sqrt(valor)
 
           print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
+
+        Muito bem! Já podemos partir para o próximo conteúdo. É só pedir o cronograma para se localizar rs
 
   utter_codigo_em_python_input_dados:
     - text: |
