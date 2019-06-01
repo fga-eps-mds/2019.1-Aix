@@ -934,6 +934,9 @@ templates:
   # =========================== LOGIN NO UVA =========================== #
   utter_ask_username:
     - text: |
+        Para fazer submissão de um exercício é necessária uma conta no juiz online UVA.
+        Caso ainda não tenha basta criar por meio desse link: https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
+        Agora que você tem uma conta, podemos prosseguir.
         Bée, qual o seu username?
 
   utter_ask_password:
@@ -1170,7 +1173,9 @@ templates:
 
           NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
-          Se você já entendeu certinho, podemos seguir pro próximo conteúdo sugerido: Arquivos. É só perguntar o que são arquivos que eu te explico.        
+          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar
   
   utter_desafio_hello_world:
     - text: |
@@ -1188,7 +1193,9 @@ templates:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
-        E oras, agora que você acabou o conteúdo de funções, que tal me perguntar sobre arquivos?
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+        Não se preocupe se ainda não tem uma conta, é só pedir para se conectar que te ensino ;)
 
   utter_desafio_input_dados:
     - text: |
