@@ -468,6 +468,7 @@ templates:
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings, me dê exemplos de variaveis
         Simples como comer capim!
+
   utter_sobre_inteiros:
     - text: |
         Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
@@ -476,21 +477,25 @@ templates:
 
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender:
+        exemplo variáveis
         Simples como comer capim!
 
-        Caso já tenha entendido tudinho sobre inteiros, por que não aprender agora sobre o 'Hello World'? É só me perguntar sobre este tema, que te explico direitinho!
+        Caso já tenha entendido tudinho sobre inteiros,
+        por que não aprender agora sobre caracteres, booleanos, pontos flutuantes ou strings?
+        É só me perguntar sobre esses temas, que te explico direitinho!
+
   utter_sobre_pontos_flutuantes:
     - text: |
         A "evolução" do tipo inteiro é o tipo Ponto Flutuante, ele armazena valores numéricos, porém com casas decimais.
         Então 3.14150, -1.5, 61.884 são possíveis de serem armazenados numa variável deste tipo, assim como 1,5 kilos de capim.
 
-        Ainda ficou uma dúvida? Que tal me pedir um exemplo de variáveis então?
+        Ainda ficou uma dúvida? Lembrando que você pode me pedir alguns exemplos!
 
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
-        E aí, entendeu tudo direitinho sobre pontos flutuantes? Agora seria muuuito legal você aprender sobre o 'Hello World'!
+        E aí, entendeu tudo direitinho sobre pontos flutuantes? Agora seria muuuito legal você aprender sobre: caracteres, booleanos, inteiros ou strings!
 
   utter_sobre_caracteres:
     - text: |
@@ -502,7 +507,8 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
-        Mas caso já tenha entendido, e não precise dos exercícios, vamos logo pro próximo conteúdo, ele é béem legal de aprender, se chama 'Hello World' só me pedir pra te ensiná-lo que te ajudarei com prazer!
+        Mas caso já tenha entendido, e não precise dos exercícios, vamos logo pros próximos conteúdos,
+        ele é béem legal de aprender: booleanos, inteiros, strings ou pontos flutuantes!
 
   utter_sobre_booleanos:
     - text: |
@@ -514,7 +520,7 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
-        Se for verdadeiro que você aprendeu sobre booleanos, me peça para te ensinar 'Hello World', hahah!
+        Se você sentir que já sabe booleanos, me peça para te ensinar sobre os outros tipos de variáveis!
 
   utter_sobre_condicionais:
     - text: |
@@ -659,16 +665,16 @@ templates:
   utter_exemplo_variaveis:
     - text: |
         Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
-        (entre parêntesis estará o tipo de cada variável)
+        (entre parênteses estará o tipo de cada variável)
           # nome da variável = conteúdo da variável
          username = "username@email.com" (string)
          senha = "digitos1234" (string)
          senha[5] (caractere, nesse caso o caractere 'o')
         Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
 
-        Quer saber mais? Caso queira entender ainda melhor peça conteúdo extra de variáveis!
-        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: saber mais, conteudo extra, variáveis
-        Se já está entendendo tudo direitinho, você pode me perguntar sobre 'Hello World!'!
+        Quer saber mais? Caso queira entender ainda melhor me peça exemplos na prática do código!
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: código em python de variáveis.
+
 
       image: |
         https://user-images.githubusercontent.com/43069991/57011190-e58e6a80-6bd6-11e9-9fd9-c8c91e6d1210.png
@@ -831,14 +837,13 @@ templates:
           Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
           Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
           Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
+
         Não esquece que para acessar o URI você precisa criar uma conta antes!!
+
         Se você preferir, também achei esse exercício resolvido no YouTube,
         Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-        Teve algum erro ou quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
-        Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
-
-        O programa rodou direitinho? Vamos estudar sobre 'Hello World', é um tema básico mais muito recorrente no aprendizado de uma nova linguagem de programação!
+        O programa rodou direitinho? Vamos aprofundar no tema! Me peça conteúdos extras de variáveis!
 
   utter_exercicios_condicionais:
     - text: |
@@ -949,9 +954,10 @@ templates:
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
-        Que tal tentar uns exercícios agora? Pois béem, tenho alguns links de exercício para você, só pedir!
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exercicios variaveis, treinar variaveis
-        Simples como comer capim!
+        Teve algum dúvida e quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+        Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
+
+        Sugiro olhar o cronograma para se localizar na matéria e ver o que temos adiante!
 
   utter_conteudo_extra_condicionais:
     - text: |
@@ -1067,6 +1073,9 @@ templates:
        Então você quer um exemplo mais palpável de variáveis?
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+
+       Depois, pode me pedir alguns exercícios de variáveis :)
+
        código:
           # Fórmula de Bháskara
           # Equação: -5x^2 + 4x + 1 = 0
@@ -1268,7 +1277,11 @@ templates:
 
        Espero que tenha entendido o conteúdo! Caso tenha, você está pronto para o próximo conteúdo: variáveis!
        Se quiser saber a respeito desse tema, é só me pedir :)
-       
+
+       Qualquer coisa também, verifique o nosso cronograma!
+       Ele irá te ajudar a se localizar nos nossos conteúdos!
+
+
 # =========================== DESAFIOS =========================== #
   utter_desafio_repeticao:
     - text: |
