@@ -582,11 +582,11 @@ templates:
         Temos então:
             print("Hello World!")
 
+        Vamos para o próximo conteúdo agora: aprender a ler os conteúdos do usuário!
+        É só me perguntar sobre o input de dados :)
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
-      Vamos para o próximo conteúdo agora: aprender a ler os conteúdos do usuário!
-      É só me perguntar sobre o input de dados :)
 
   utter_sobre_importar_bibliotecas:
     - text: |
@@ -736,8 +736,8 @@ templates:
 
         A palavra reservada "def", é a abreviação de define, serve para explicitar que aquela função será definida naquele trecho do código. O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. Tudo que vem depois do return, na mesma linha, é a resposta da função!
 
-       Gostaria de testar isso na prática? Se quiser é só pedir que te mando um código pronto disso ;)
-       Se seu pedido tiver essas expressões facilitaria meu trabalho em ter certeza do que você precisa: código função, implementação com função
+        Gostaria de testar isso na prática? Se quiser é só pedir que te mando um código pronto disso ;)
+        Se seu pedido tiver essas expressões facilitaria meu trabalho em ter certeza do que você precisa: código função, implementação com função
 
   utter_exemplo_arquivos:
     - text: |
@@ -1160,8 +1160,8 @@ templates:
 
           print(quantidade_de_passos)
 
-      Entendeu direitinho o código e como ele funciona?
-      Agora vamos por a mão na massa? Basta me pedir por 'exercícios de laços de repetição'!
+       Entendeu direitinho o código e como ele funciona?
+       Agora vamos por a mão na massa? Basta me pedir por 'exercícios de laços de repetição'!
 
 
   utter_codigo_em_python_funcao:
@@ -1177,8 +1177,8 @@ templates:
         cumprimento = oi(nome)
         print(cumprimento)
 
-      Que tal partimos pra uns exercícios? É só pedir!
-      Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade: exercicios funções, praticar funções
+       Que tal partimos pra uns exercícios? É só pedir!
+       Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade: exercicios funções, praticar funções
 
 
   utter_codigo_em_python_arquivos:
@@ -1200,8 +1200,8 @@ templates:
           # para passar por todas suas linhas
           for linha in arquivo:
             print(linha)
-        Que tal treinar um pouco? É só pedir uns exercícios!
-        Se seu pedido tiver essas expressões eu ficaria muito grata: exercicios arquivos, treinar arquivos. ;)
+       Que tal treinar um pouco? É só pedir uns exercícios!
+       Se seu pedido tiver essas expressões eu ficaria muito grata: exercicios arquivos, treinar arquivos. ;)
 
   utter_codigo_em_python_vetores:
     - text: |
@@ -1217,8 +1217,8 @@ templates:
           for feno in fenos_por_dia:
           print('Eu comi', feno, 'fenos esse dia!')
 
-      Agora que pegou um código para ver de perto como funciona, por que não fazer você mesmo um?
-      Me peça por 'exercícios com vetores' que tenho alguns prontinhos para você!
+       Agora que pegou um código para ver de perto como funciona, por que não fazer você mesmo um?
+       Me peça por 'exercícios com vetores' que tenho alguns prontinhos para você!
 
 
   utter_codigo_em_python_matrizes:
@@ -1241,8 +1241,8 @@ templates:
             for duvida in semana:
               print('Esse dia eu tirei', duvida, 'dúvidas!')
 
-      Deu pra entender, néee? Agora por que não testar suas habilidades com 'exercícios sobre matrizes'?
-      Só me pedir!
+       Deu pra entender, néee? Agora por que não testar suas habilidades com 'exercícios sobre matrizes'?
+       Só me pedir!
 
   utter_codigo_em_python_importar_bibliotecas:
     - text: |
@@ -1261,7 +1261,7 @@ templates:
 
           print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
 
-        Muito bem! Já podemos partir para o próximo conteúdo. É só pedir o cronograma para se localizar rs
+       Muito bem! Já podemos partir para o próximo conteúdo. É só pedir o cronograma para se localizar rs
 
   utter_codigo_em_python_input_dados:
     - text: |
