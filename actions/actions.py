@@ -95,7 +95,9 @@ class ActionFeedbackSubmissao(Action):
     def run(self, dispatcher, tracker, domain):
         username = tracker.get_slot('username')
         resposta = api_uva.resultado_ultima_submissao(username)
+        next_content = "Se conseguiu: muito bem! Se não: tente encontrar seu erro e tente novamente. Você vai conseguir!\nSe você quiser, eu posso pesquisar alguma dúvida restante em um site de referência chamado StackOverflow!\nAinda não conhece o StackOverflow? Posso te explicar, é só me pedir!\nOu caso você ache que já esteja pronto pro próximo conteúdo, me peça o cronograma e você poderá visualizar o próximo conteúdo.\n"
         dispatcher.utter_message(resposta)
+        dispatcher.utter_message(next_content)
 
 
 class CodeForm(FormAction):
