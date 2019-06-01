@@ -31,13 +31,17 @@ jobs:
         - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
         - docker exec aix-bot coverage xml
       after_script:
-        - ./cc-test-reporter format-coverage -t coverage.py bot/coverage.xml
-        - mkdir coverage
-        - cp bot/coverage.xml coverage/codeclimate.bot.xml
-        - aws s3 sync coverage/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
-        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage/
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output - --parts 2 coverage/codeclimate.*.xml | ./cc-test-reporter upload-coverage --input -; fi
+        - cd bot
+        - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - cd ..
+        - mkdir coverage-final
+        - cp bot/coverage/codeclimate.json coverage-final/codeclimate.bot.json
+        - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
+        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output coverage-final/codeclimate.json --parts 2 coverage-final/codeclimate.*.json | ./cc-test-reporter upload-coverage --input coverage-final/codeclimate.json; fi
       deploy:
+      ./cc-test-reporter sum-coverage --output coverage-final/codeclimate.json --parts 2 coverage-final/codeclimate.*.json
+
         provider: script
         script: bash ./deploy.sh
         on:
@@ -55,9 +59,9 @@ jobs:
       after_script:
         - cp actions/coverage.xml .
         - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
-        - mkdir coverage
+        - mkdir coverage-final
         - cp coverage.xml coverage/codeclimate.actions.xml
-        - aws s3 sync coverage/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
+        - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
       deploy:
         provider: script
         script: bash ./deploy.sh
