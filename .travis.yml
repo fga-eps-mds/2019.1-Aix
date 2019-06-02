@@ -38,7 +38,7 @@ jobs:
         - cp bot/coverage/codeclimate.json coverage-final/codeclimate.bot.json
         - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
         - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output coverage-final/codeclimate.json --parts 2 coverage-final/codeclimate.*.json | ./cc-test-reporter upload-coverage --input coverage-final/codeclimate.json; fi
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
