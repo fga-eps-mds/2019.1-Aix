@@ -1,4 +1,5 @@
 [run]
 branch = True
-source =  /bot
-omit = */apps.py, */migrations/*, */__init__.py, jupyter/, notebooks/, scripts/, analytics/, docs/, **/tests
+source = /bot
+output = "coverage.xml"
+omit = */apps.py, */migrations/*, */__init__.py, jupyter/, notebooks/, scripts/, analytics/, docs/, **/tests, tests, __init__.py

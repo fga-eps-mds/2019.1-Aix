@@ -192,6 +192,10 @@
 - sua habilidades
 - quais conteúdos consigo aprender com voce
 - menu ajuda
+- o que você pode fazer?
+- quais as suas capidades?
+- o que você sabe?
+
 
 ## intent:curiosidades_python
 - zen do python

@@ -1,5 +1,7 @@
 dist: xenial
 
+language: ruby
+
 services:
   - docker
 
@@ -8,16 +10,37 @@ sudo: required
 notifications:
   webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
 
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+  - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+  - unzip awscli-bundle.zip
+  - ./awscli-bundle/install -b ~/bin/aws
+  - export PATH=~/bin:$PATH
+
 jobs:
   include:
     - stage: Build
       name: Bot
-      env: SERVICE_NAME=aix-bot
+      env:
+        - SERVICE_NAME=aix-bot
+        - REGEX='^(bot\/|\.travis.yml|scripts\/)'
       script:
-        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(bot\/|\.travis.yml|scripts\/)'  || exit 0
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
-        - docker run aixchatbot/aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
-        - docker run aixchatbot/aix-bot pytest --cov-config=.coveragerc --cov=.
+        - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
+        - docker exec aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
+        - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
+        - docker exec aix-bot coverage xml
+      after_script:
+        - cd bot
+        - .././cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - cd ..
+        - mkdir coverage-final
+        - cp bot/coverage/codeclimate.json coverage-final/codeclimate.bot.json
+        - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
+        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
@@ -25,14 +48,25 @@ jobs:
           branch: master
     - stage: Build
       name: Actions
-      env: SERVICE_NAME=aix-actions
+      env:
+        - SERVICE_NAME=aix-actions
+        - REGEX='^(actions\/|\.travis.yml)'
       script:
-        - git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE '^(actions\/|\.travis.yml)'  || exit 0
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
-        - docker run aixchatbot/aix-actions run flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker run aixchatbot/aix-actions run pytest --cov-config=.coveragerc --cov=.
+        - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
+        - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
+        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions 
+        - docker exec aix-actions coverage xml
+        - docker exec aix-actions cp coverage.xml actions/
+      after_script:
+        - cp actions/coverage.xml .
+        - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
+        - mkdir coverage-final
+        - cp coverage/codeclimate.json coverage-final/codeclimate.actions.json
+        - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
       deploy:
         provider: script
         script: bash ./deploy.sh
         on:
          branch: master
+
