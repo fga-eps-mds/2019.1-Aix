@@ -1,5 +1,6 @@
 #!/bin/bash
 if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+  git diff --name-only $TRAVIS_COMMIT_RANGE | grep -qE $REGEX || exit 0
   echo "Logging in to Dockerhub..."
   echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_ID" --password-stdin
   echo "Pushing images..."

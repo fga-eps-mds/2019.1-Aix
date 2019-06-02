@@ -32,6 +32,7 @@ intents:
   - sobre_importar_bibliotecas
   - sobre_instalar_python
   - sobre_strings
+  - sobre_stack_overflow
   - sobre_input_dados
 
 
@@ -141,6 +142,8 @@ templates:
 
         Se estiver curioso, pergunte mais sobre mim, o que sei fazer ou como me usar que eu te conto!
 
+        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+        Sugiro tambéem dar uma olhada no nosso cronograma de estudos! Digite /cronograma para acessá-lo.
 
   utter_help:
    - text: |
@@ -150,29 +153,38 @@ templates:
         Ações que posso fazer:
           1. Explicar um conteúdo;
           2. Citar exemplos;
-          3. Mostrar links extras sobre o conteúdo;
+          3. Enviar um exemplo prático;
           4. Indicar exercícios;
-          5. Pesquisar no StackOverflow.
+          5. Enviar links extras sobre o conteúdo;
+          6. Sugerir desafios para cada conteúdo;
+          7. Pesquisar no StackOverflow.
+          8. Informar um cronograma de conteúdos de python.
 
         Conteúdos mapeados:
+          - Entrada e saída de dados
           - Variáveis
           - Estruturas Condicionais
-          - Estrutura de Repetição
-          - Arquivos
-          - Bibliotecas
+          - Estruturas de Repetição
           - Vetores
+          - Strings
           - Matrizes
+          - Bibliotecas
+          - Funções
+          - Arquivos
 
-        *Para cada conteúdo, você pode me pedir uma explicação, um exemplo, um link com uma explicação sobre o conteúdo e um link com um exercicio sobre o conteúdo
         Como? Escreva algo do tipo:
           Quero saber o que é [Nome do conteúdo]
+          Quero um exemplo sobre [Nome do conteúdo]
+          Quero um exemplo em código de [Nome do conteúdo]
           Me dê exercícios sobre [Nome do conteúdo]
           Quero saber mais sobre [Nome do conteúdo]
-          Quero um exemplo sobre [Nome do conteúdo]
-        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você que e SOBRE o que você quer, é provável que eu entenda!
-
-        *Para pesquisar no StackOverflow voce deve digitar:
+          Quero um desafio de [Nome do conteúdo]
+          *Para pesquisar no StackOverflow voce deve digitar:
           pesquise sobre [conteúdo que você quer saber]
+          *Para acessar o cronograma:
+            /cronograma
+          
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
 
   utter_despedir:
     - text: |
@@ -234,7 +246,7 @@ templates:
         Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
         Você pode perguntar de novo?
     - text: |
-        Hummmm... Acho que não sou uma cabra tão inteligente assim... Pode escrever de outra forma, não entendi tão béem?
+        Hummmm... Acho que não sou uma cabra tão inteligente assim... Pode escrever de outra forma, não entendi tão béem..
     - text: |
         Deve ter caído um pouco de capim nos meus olhos, você pode me perguntar de novo usando outras palavras?
     - text: |
@@ -312,6 +324,9 @@ templates:
         E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
         Ele vai te ajudar a se localizar no conteúdo!!
 
+        Mas olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
+        É só perguntar!
+
     - text: |
         Eu te ajudo a aprender python, poxa!
         É só me perguntar a sua duvida sobre a maravilhosa linguagem de programação, que eu respondo!
@@ -341,6 +356,20 @@ templates:
 
         E se quiser começar a aprender, me peça antes o nosso cronograma de estudos!
         Ele vai te ajudar a se localizar no conteúdo!!
+
+        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
+        Pode perguntar!
+    - text: |
+        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
+        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
+        Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
+        Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
+        Olha, eu já estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
+        É só perguntar!
+    - text: |
+        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
+        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
+        Pode perguntar!
 
   utter_curiosidades_python:
     - text: |
@@ -643,6 +672,14 @@ templates:
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
         Simples como comer capim!
+
+  utter_sobre_stack_overflow:
+    - text: |
+        O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
+        Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
+        E para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
+        Digite "quero pesquisar" que te ajudo com isso!
 
   utter_sobre_input_dados:
     - text: |
@@ -1377,6 +1414,8 @@ actions:
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
   - utter_sobre_strings
+  - utter_sobre_stack_overflow
+
   - utter_sobre_input_dados
 
   - utter_exemplo_variaveis
