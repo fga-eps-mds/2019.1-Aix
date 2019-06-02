@@ -58,7 +58,7 @@ jobs:
         - cp actions/coverage.xml .
         - ./cc-test-reporter format-coverage -t coverage.py coverage.xml
         - mkdir coverage-final
-        - cp coverage.xml coverage-final/codeclimate.actions.xml
+        - cp coverage/codeclimate.json coverage-final/codeclimate.actions.json
         - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
       deploy:
         provider: script
