@@ -40,8 +40,6 @@ jobs:
         - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
         - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output coverage-final/codeclimate.json --parts 2 coverage-final/codeclimate.*.json | ./cc-test-reporter upload-coverage --input coverage-final/codeclimate.json; fi
       deploy:
-      ./cc-test-reporter sum-coverage --output coverage-final/codeclimate.json --parts 2 coverage-final/codeclimate.*.json
-
         provider: script
         script: bash ./deploy.sh
         on:
