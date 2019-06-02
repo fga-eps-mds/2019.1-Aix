@@ -10,6 +10,7 @@
 ## intent:cumprimentar
 - fala ff
 - oi
+- oii
 - com licenca
 - posso falar com você
 - pode me tirar uma dúvida
@@ -19,6 +20,7 @@
 - bom dia
 - boa tarde
 - boa noite
+- boa madrugada
 - good morning
 - mornin
 - good afternoon
@@ -29,12 +31,17 @@
 - eae
 - eaí
 - eai
+- e ae
 - opa meu bom
 - olá
 - hola
 - hello
 - hi
 - hey
+- ei
+- hello there
+- hey
+- hallo
 - bom ver você
 - bom ver voce
 - legal ver você
@@ -45,6 +52,10 @@
 - saudaçoes
 - saudaçao
 - salve
+- oiii
+- oiee
+- iai
+- oiiiii
 
 ## intent:tudo_bem
 - hey there
@@ -60,20 +71,20 @@
 - how you doin'
 - como voce esta
 - tudo bom
-- tudo bem
+- tudo bem?
 - como vão as coisas
 - como vai
 - como vai voce
-- tudo bem
-- Tudo bem
 - Como você está
 - como vc ta
+- como estão as coisas
+- como está sendo seu dia
 - joia
 - joinha
 - tudo bom
-- bom dia flor do dia
-- Tudo bem e você- tudo certo
-- tudo bem
+- turu bom
+- bele e vc
+- suave e vc
 - beleza
 - bom
 - esta bem
@@ -85,6 +96,7 @@
 - Tchau
 - tchau obg
 - até logo
+- bis bald
 - xau
 - bye bye
 - cya
@@ -95,6 +107,13 @@
 - flw vlw
 - bon voyage
 - arrivederci
+- vou pegar o beco
+- to indo ali, flw
+- beijinho beijinho tchau tchau
+- abraços
+- abraço hétero
+- beijos
+- beijos de luz
 - até mais ver
 - adeus
 - hasta la vista, baby
@@ -131,10 +150,17 @@
 - ótimo
 - perfect
 - legal
+- massa
+- curti
 - cool
 - ok
 - okay
 - justo
+- bele
+- entendi
+- consegui
+- cool cool cool cool
+- consegui, top
 - foi esclarecido
 - foi de grande ajuda
 - muito util
@@ -162,9 +188,14 @@
 - quero estudar
 - como estudar com você
 - quero aprender
+- suas capacidades
+- sua habilidades
+- quais conteúdos consigo aprender com voce
+- menu ajuda
 - o que você pode fazer?
 - quais as suas capidades?
 - o que você sabe?
+
 
 ## intent:curiosidades_python
 - zen do python
@@ -187,6 +218,7 @@
 - dados curiosos python
 - fatos curiosos python
 - fatos desconhecidos python
+- trivia python
 
 ## intent:out_of_scope
 - você sabe sobre grafos
@@ -209,13 +241,17 @@
 - o que é stackoverflow
 - o que é uma lista
 - oq e uma lista
+- quanto rende o fgts
+- o que achou do final de game of thrones
+- cotação do dólar hoje
+- me ensina estrutura de dados
 
 ## intent:assuntos_inapropriados
 - porra
 - caralho
 - merda
 - tomar no cu
-- tnc
+- tncbis bald
 - fdp
 - crlh
 - vsf
@@ -258,32 +294,17 @@
 - te odeio
 - otaria
 - vagabunda
-- abestado
 - anus
 - ânus
 - babaca
-- babaovo
-- baba-ovo
 - baitola
-- baranga
-- bebum
-- besta
 - bicha
 - bixa
-- boazuda
-- boba
-- boboca
-- bobao
-- bobinha
 - boceta
 - boco
 - bocó
 - boiola
 - boquete
-- bosseta
-- bostana
-- brioco
-- brocha
 - bronha
 - broxa
 - buceta
@@ -291,7 +312,6 @@
 - bunduda
 - burra
 - busseta
-- cabeça chata
 - cachorra
 - cadela
 - caga
@@ -304,36 +324,20 @@
 - caralho
 - caraio
 - carniça
-- casseta
-- cassete
-- charlatanismo
-- charlatao
-- charlatão
 - chatice
 - chato
-- chato demais
 - checheca
 - chereca
 - chifruda
 - chochota
 - chota
-- chupada
-- cocaina
-- cocaína
-- coco
-- cocô
 - corna
 - cornuda
 - cornudo
 - cretina
 - cretino
-- cu
 - cú
 - cu
-- culhao
-- culhão
-- culhões
-- curalho
 - cuzao
 - cuzão
 - cuzuda
@@ -346,36 +350,15 @@
 - desgraçada
 - desgracados
 - desgraçados
-- doida
-- egua
-- égua
-- embromation
-- enganação
-- enganosa
 - escrota
 - escroto
-- esporrada
-- esporrado
-- esporro
 - estupida
 - estúpida
 - estupidez
 - estupido
 - estúpido
 - fdp
-- fedida
-- fedido
-- fedor
-- fedorenta
-- feia
-- feio
-- feiosa
-- feioso
-- feioza
-- feiozo
-- fela
 - filho da puta
-- fiofó
 - foda
 - fodao
 - fodão
@@ -387,11 +370,6 @@
 - fudendo
 - fudida
 - fudido
-- fulera
-- fuleragem
-- golpista
-- gonorrea
-- gonorreia
 - idiota
 - idiotas
 - idiotice
@@ -399,61 +377,23 @@
 - inferno
 - iscrota
 - iscroto
-- kenga
-- ladra
-- ladroeira
-- ladrona
-- leprosa
-- leproso
-- macaca
-- machona
-- malandragem
-- malandro
 - masturba
-- meleca
 - merda
-- miserável
-- mocrea
-- mocréa
-- mocreia
-- mocréia
-- nadega
-- nojenta
-- nojento
-- nojo
 - otaria
 - otária
 - otario
 - otário
 - otarios
 - otários
-- paspalha
-- paspalhao
-- paspalhão
-- paspalho
 - páu
 - pau
-- peido
 - penis
 - pênis
 - perereca
-- peru
-- perú
 - pica
-- picao
-- picão
-- picareta
-- picareta!
-- pilantra
-- pilantragem
-- piranha
 - piroca
-- piroco
-- piru
 - porra
 - pqp
-- prostibulo
-- prostíbulo
 - prostituta
 - prostituto
 - punheta
@@ -461,37 +401,17 @@
 - punhetão
 - puta
 - puto
-- puxasaco
-- puxa-saco
-- quenga
-- rabao
-- rabão
-- rabo
-- rabuda
-- rabudao
-- rabudão
-- rabudo
-- rapariga
 - retardada
 - retardado
-- ridicula
-- ridícula
-- ridículo
 - rola
-- rolinha
 - rosca
 - sacana
 - sacanagem
-- saco
 - safada
 - safado
 - safados
-- salafrario
-- salafrário
 - sapatao
 - sapatão
-- sifilis
-- sífilis
 - siririca
 - tarada
 - tarado
@@ -502,8 +422,6 @@
 - tezudo
 - toma no cu
 - tomar no cu
-- troucha
-- trouchas
 - trouxa
 - trouxas
 - troxa
@@ -511,18 +429,12 @@
 - vagabunda
 - vagabundo
 - veada
-- veadao
-- veadão
-- veado
-- verme
 - viada
 - viadao
 - viadão
 - viado
 - viados
 - xana
-- xaninha
-- xavasca
 - xerereca
 - xexeca
 - xochota
@@ -576,17 +488,23 @@
 
 ## intent:cronograma
 - /cronograma
-- me de um cronograma de estudos
-- gostaria de um cronograma de estudos
-- qua conteudo devo aprender primeiro
+- cronograma de estudos
+- cronograma
+- qual conteudo devo aprender primeiro
+- qual conteúdo devo aprender primeiro
 - quais conteudos devo aprender primeiro
-- qual o conteudo mais facil
+- quais conteúdos devo aprender primeiro
 - cronograma aprender python do zero
 - entender python do zero
 - todos os conteudos de python
-- me ensine python na ordem
+- python na ordem
 - como aprender python
 - em qual ordem devo aprender python
 - qual a ordem de conteudos
 - o que aprender agora
 - o que você pode me ensinar
+- planejamento dos estudos
+- ordem do que devo aprender
+- indice de estudos
+- indice
+- indíce

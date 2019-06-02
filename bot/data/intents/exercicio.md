@@ -47,7 +47,31 @@
 - pratica condicional
 - atividade condicional
 - treinamento condicional
-- gostaria de fazer uns exercicios sobre estruturas condicionais
+- gostaria de uns exercicios sobre estruturas condicionais
+- dever estruturas condicionais
+- deveres estruturas condicionais
+- atividades estruturas condicionais
+- dever if else
+- deveres if else
+- atividades if else
+- atividade if else
+- atividade estruturas condicionais
+- dever estrutura condicional
+- deveres estrutura condicional
+- atividades estrutura condicional
+- atividade estrutura condicional
+- lições if else
+- lição if else
+- lições estruturas condicionais
+- lição estruturas condicionais
+- lições estrutura condicional
+- lição estrutura condicional
+- liçoes if else
+- liçao if else
+- liçoes estruturas condicionais
+- liçao estruturas condicionais
+- liçoes estrutura condicional
+- liçao estrutura condicional
 
 ## intent:exercicios_variaveis
 - exercício variáveis
@@ -99,6 +123,27 @@
 - atividade float
 - treinamento double
 - gostaria de fazer uns exercicios sobre variaveis
+- dever variaveis
+- deveres variaveis
+- atividades variaveis
+- atividade variaveis
+- atividade variavel
+- dever variavel
+- deveres variavel
+- atividades variavel
+- atividade variavel
+- lições variavel
+- lição variavel
+- lições variaveis
+- lição variaveis
+- lições variaveis
+- lição variaveis
+- liçoes variaveis
+- liçao variaveis
+- liçoes variável
+- liçao variável
+- liçoes variáveis
+- liçao variáveis
 
 ## intent:exercicios_repeticao
 - exercício laços
@@ -159,6 +204,30 @@
 - atividade while
 - treinamento for
 - gostaria de fazer uns exercicios sobre estruturas de repetição
+- dever estruturas de repetiçao
+- deveres estruturas de repetiçao
+- atividades repetiçao
+- dever repetição
+- deveres repetição
+- atividades for
+- atividade while
+- atividade for
+- dever repetiçao
+- deveres repetiçao
+- atividades laços
+- atividade laço
+- lições estruturas de repetição
+- lição estruturas de repetição
+- lições estruturas de repetiçao
+- lição estruturas de repetiçao
+- lições while
+- lição for
+- liçoes while
+- liçao for
+- liçoes laços
+- liçao laços
+- liçoes estruturas de repetiçao
+- liçao estruturas de repetiçao
 
 ## intent:exercicios_funcao
 - exercício função
@@ -215,7 +284,30 @@
 - dever função funcao funções funcoes
 - atividade função funcao funções funcoes
 - gostaria de fazer uns exercicios sobre funções
-
+- dever funções
+- deveres funções
+- atividades funçoes
+- dever função
+- deveres função
+- atividades funçao
+- atividade funçao
+- atividade funções
+- dever funçao
+- deveres funçao
+- atividades funçoes
+- atividade funçoes
+- lições função
+- lição funções
+- lições funções
+- lição função
+- lições funçao
+- lição funçao
+- liçoes funçao
+- liçao funçao
+- liçoes funçoes
+- liçao funçoes
+- liçoes funçoes
+- liçao funçoes
 
 ## intent:exercicios_arquivos
 - exercício arquivo
@@ -253,6 +345,29 @@
 - sobre como ler arquivos
 - sobre como ler arquivo
 - gostaria de fazer uns exercicios sobre arquivos
+- dever arquivos
+- deveres arquivos
+- atividades arquivos
+- dever arquivo
+- deveres arquivo
+- atividades arquivo
+- atividade arquivos
+- atividade arquivo
+- dever arquivos
+- deveres arquivos
+- atividades arquivos
+- lições arquivos
+- lição arquivos
+- lições arquivo
+- lição arquivo
+- lições arqv
+- lição arqv
+- liçoes arquivos
+- liçao arquivos
+- liçoes arquivo
+- liçao arquivo
+- liçoes arqv
+- liçao arqv
 
 ## intent:exercicios_vetores
 - exercício vetor
@@ -288,6 +403,31 @@
 - treinamento arrays
 - treinamento array unidimensional
 - gostaria de fazer uns exercicios sobre vetores
+- dever vetor
+- deveres vetor
+- atividades vetor
+- dever vetores
+- deveres vetores
+- atividades vetores
+- atividade vetor
+- atividade vetores
+- dever array
+- deveres array
+- atividades array
+- atividade array
+- lições vetores
+- lição vetores
+- lições vetor
+- lição vetor
+- lições array
+- lição array
+- liçoes vetores
+- liçao vetores
+- liçoes vetor
+- liçao vetor
+- liçoes array
+- liçao array
+
 
 ## intent:exercicios_matrizes
 - exercício matriz
@@ -323,6 +463,30 @@
 - treinamento arrays bidimensionais
 - treinamento array bidimensional
 - gostaria de fazer uns exercicios sobre matrizes
+- dever matriz
+- deveres matriz
+- atividades matriz
+- dever matrizes
+- deveres matrizes
+- atividades matrizes
+- atividade matriz
+- atividade matrizes
+- dever array bidimensional
+- deveres array bidimensional
+- atividades array bidimensional
+- atividade array bidimensional
+- lições matriz
+- lição matriz
+- lições matrizes
+- lição matrizes
+- lições array bidimensional
+- lição array bidimensional
+- liçoes matriz
+- liçao matriz
+- liçoes matrizes
+- liçao matrizes
+- liçoes array bidimensional
+- liçao array bidimensional
 
 ## intent:exercicios_strings
 - exercicios strings
@@ -348,10 +512,26 @@
 - atividade pratica string
 - exercicio string
 - contest string
-- responder pergunstas string
+- responder perguntas string
 - estudar string
 - dever string
 - gostaria de treinar strings
 - gostaria de treinar string
 - me de alguns exercicios sobre string
 - me de alguns exercicios sobre strings
+- dever strings
+- deveres strings
+- atividades strings
+- dever string
+- deveres string
+- atividades string
+- atividade string
+- atividade strings
+- lições string
+- lição string
+- lições strings
+- lição strings
+- liçoes string
+- liçao string
+- liçoes strings
+- liçao strings

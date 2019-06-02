@@ -37,6 +37,10 @@
 - site extra for
 - site extra while
 - site extra estrutura repetição
+- site confiavel para aprender loops
+- site confiavel para estrutura de repetição
+- site confiavel para estruturas de repetição
+- site confiavel extra para estruturas de repetição
 
 ## intent:conteudo_extra_condicionais
 - extra if
@@ -80,6 +84,9 @@
 - site extra else
 - site extra estruturas condicionais
 - site extra estrutura condicional
+- site confiavel para aprender estruturas condicionais
+- site confiavel para estruturas condicionais
+- site confiavel extra para estrutura condicional
 
 ## intent:conteudo_extra_variaveis
 - tem algum link pra entender variáveis?
@@ -134,6 +141,9 @@
 - site extra variavel
 - site extra variaveis
 - site extra variável
+- site confiavel para aprender variáveis
+- site confiavel para variáveis
+- site confiavel extra para variavel
 
 ## intent:conteudo_extra_funcao
 - tem algum link pra entender função?
@@ -179,6 +189,9 @@
 - site extra funcao
 - site extra função
 - site extra funções
+- site confiavel para aprender funções
+- site confiavel para funções
+- site confiavel extra para função
 
 ## intent:conteudo_extra_arquivos
 - tem algum link pra entender arquivos?
@@ -216,6 +229,9 @@
 - site extra arquivo
 - site extra arquivos
 - site extra ler escrever arquivo arquivos
+- site confiavel para aprender arquivos
+- site confiavel para arquivos
+- site confiavel extra para arquivo
 
 ## intent:conteudo_extra_vetores
 - extra vetor
@@ -266,6 +282,10 @@
 - site extra vetores
 - site extra arrays
 - site extra array unidimensional
+- site confiavel para aprender arrays
+- site confiavel para vetores
+- site confiavel extra para vetor
+
 
 ## intent:conteudo_extra_matrizes
 - extra matriz
@@ -316,6 +336,10 @@
 - site extra matrizes
 - site extra arrays bidimensionais
 - site extra array bidimensional
+- site confiavel para aprender matrizes
+- site confiavel para array bidimensional
+- site confiavel extra para matriz
+
 
 ## intent:conteudo_extra_strings
 - conteudo extra sobre strings
@@ -350,3 +374,6 @@
 - me fale mais sobre string
 - documentação sobre string
 - documentacao sobre string
+- site confiavel para aprender strings
+- site confiavel para string
+- site confiavel extra para string

@@ -35,6 +35,9 @@
 - if na pratica
 - else na pratica
 - condicional na pratica
+- demonstração de if
+- demonstração de else
+- demonstração de condicional
 
 ## intent:exemplo_repeticao
 - exemplo de laços
@@ -70,6 +73,10 @@
 - laços na pratica
 - for na pratica
 - while na pratica
+- demonstração de laços de repetição
+- demonstração de estruturas de repetição
+- demonstração de for
+- demonstração de while
 
 ## intent:exemplo_variaveis
 - me dê exemplos de variaveis
@@ -122,6 +129,12 @@
 - double na pratica
 - bool na pratica
 - float na pratica
+- demonstração de variáveis
+- demonstração de variável
+- demonstração de int
+- demonstração de double
+- demonstração de bool
+- demonstração de float
 
 
 ## intent:exemplo_funcao
@@ -157,6 +170,8 @@
 - funções na pratica
 - funcoes na pratica
 - bloco de codigo na pratica
+- demonstração de funções
+- demonstração de função
 
 
 ## intent:exemplo_arquivos
@@ -174,6 +189,9 @@
 - exemplifique arquivo
 - exemplifique arquivos
 - arquivos na pratica
+- demonstração de arquivos
+- demonstração de files
+- demonstração de arquivo
 
 
 ## intent:exemplo_vetores
@@ -203,6 +221,9 @@
 - vetores na pratica
 - arrays na pratica
 - array unidimensional na pratica
+- demonstração de vetores
+- demonstração de array
+- demonstração de array unidimensional
 
 ## intent:exemplo_matrizes
 - exemplo de matriz
@@ -231,6 +252,9 @@
 - matrizes na pratica
 - arrays bidimensionais na pratica
 - array bidimensional na pratica
+- demonstração de matrizes
+- demonstração de matriz
+- demonstração de array bidimensional
 
 
 ## intent:exemplo_importar_bibliotecas
@@ -241,6 +265,10 @@
 - exemplifique bibliotecas
 - exemplifique library
 - exemplifique lib
+- demonstração de lib
+- demonstração de import
+- demonstração de importar biblioteca
+- demonstração de importação de library
 
 ## intent:exemplo_strings
 - exemplo de strings
@@ -265,3 +293,5 @@
 - quero alguns exemplos de string
 - me de um exemplo de string
 - me de um exemplo de strings
+- demonstração de strings
+- demonstração de string

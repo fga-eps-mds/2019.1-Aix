@@ -3,110 +3,123 @@
 - código python variáveis
 - variáveis em python
 - código de variáveis
-- codigo de inteiros
 - exemplo prático de variáveis
-- exemplo pratico de pontos flutuantes
 - variáveis no python
-- double no python
 - variaveis em código
-- char em codigo
 - código em python de variáveis
-- codigo em python de booleanos
 - implementação com variaveis
-- implementacao com strings
 - exemplifique em código variáveis
-- exemplifique em codigo int
 - como funcionam variáveis no código
-- como funcionam float no codigo
-- implemente um código com booleanos
 - implemente um exemplo de variáveis
 - me mostre um código com variáveis
-- demonstre inteiros na prática
-- demonstre strings na pratica
+- demonstre variaveis na prática
 - demonstre um código em python que possua variáveis
+- codigo de inteiros
+- exemplo pratico de pontos flutuantes
+- double no python
+- char em codigo
+- codigo em python de booleanos
+- implementacao com strings
+- exemplifique em codigo int
+- como funcionam float no codigo
+- demonstre strings na pratica
+- implemente um código com booleanos
 
 ## intent:codigo_em_python_condicionais
 - código condicionais
 - código python condicionais
-- condicional condicionais em python
+- código python condicional
+- condicionais em python
+- condicional em python
+- código de condicional
+- código de condicionais
+- exemplo prático de condicional
+- exemplo prático de condicionais
+- código python condicionais
+- condicional código em python
 - código de condicional condicionais
 - codigo de condicional condicionais
 - exemplo prático de condicional condicionais
 - exemplo pratico de condicional condicionais
 - condicional no python
 - condicionais no python
-- condicional em código
-- condicionais em codigo
-- código em python condicional
-- codigo em python de condicionais
-- implementação com condicioanis
-- implementacao com condicional
+- condicional no python
+- condicionais em código
+- condicional no python
+- código em python de condicionais
+- código em python de condicional
+- implementação com condicionais
+- implementação com condicional
+- exemplifique em código condicionais
 - exemplifique em código condicional
-- exemplifique em codigo condicionais
 - como funcionam condicionais no código
-- como funcionam condições no codigo
-- implemente um código com condicioanis
-- implemente um exemplo de condicional
-- me mostre um código com condicional condicionais
+- como funcionam condicional no código
+- implemente um exemplo de condicionais
+- me mostre um código com condicionais
+- demonstre condicionais na prática
 - demonstre condicional na prática
-- demonstre condicionais na pratica
-- demonstre um código em python que possua condicional condicionais
+- demonstre um código em python que possua condicional
+- demonstre um código em python que possua condicionais
 
 ## intent:codigo_em_python_repeticao
+- código repetição
 - código for while repetição
 - código python repetição
+- codigo python repetição
 - código python for while
 - repetição em python
 - for while em python
-- código de repettição repeticao
 - codigo de for while
-- exemplo prático de for while
-- exemplo pratico de repetição
+- código de repetição
+- exemplo prático de for e while
+- exemplo prático de repetição
 - for while no python
+- for no python
+- while no python
+- for python
+- while python
 - repetição no python
+- repetição em código
 - for while em código
-- repetição em codigo
 - código em python de repetição
-- codigo em python de for while
-- implementação com for while
-- implementacao com repetição
-- exemplifique em código for e while
-- exemplifique em codigo repetição
-- como funcionam repetições no código
-- como funcionam for e while no codigo
-- implemente um código com repetição
-- implemente um exemplo de for e while
-- me mostre um código com loops
-- demonstre loops na prática
-- demonstre for while na pratica
+- código em python com loop
+- implementação com repetição
+- implementação com for e while
+- exemplifique em código repetição
+- exemplifique em código for while
+- como funcionam repetição no código
+- implemente um exemplo de repetição
+- me mostre um código com repetição
+- demonstre repetição na prática
 - demonstre um código em python que possua loops
+- demonstre um código em python que possua repetição
 
 ## intent:codigo_em_python_funcao
 - código função
 - código python função
+- função em python
+- codigo python função
 - funções em python
 - código de função
-- codigo de funcao
+- exemplo prático de funções
 - exemplo prático de função
-- exemplo pratico de função
 - função no python
 - funções no python
 - funções em código
-- char em codigo
+- função em código
+- código em python de funções
 - código em python de função
-- codigo em python de funções
+- implementação com funções
 - implementação com função
-- implementacao com funções
 - exemplifique em código função
-- exemplifique em codigo funções
 - como funcionam funções no código
-- como funciona função no codigo
-- implemente um código com funções
+- como funcionam função no código
+- implemente um exemplo de funções
 - implemente um exemplo de função
 - me mostre um código com funções
+- me mostre um código com função
 - demonstre função na prática
-- demonstre funções na pratica
-- demonstre um código em python que possua função funções
+- demonstre um código em python que possua função
 
 ## intent:codigo_em_python_arquivos
 - código arquivo
@@ -147,14 +160,14 @@
 - vetor no python
 - vetores em código
 - vetor em codigo
-- código em python de vetor
-- codigo em python de vetores
-- implementação com vetores
-- implementacao com vetor
 - exemplifique em código vetores
 - exemplifique em codigo vetor
 - como funcionam vetores no código
 - como funciona vetor no codigo
+- código em python de vetor
+- codigo em python de vetores
+- implementação com vetores
+- implementacao com vetor
 - implemente um código com vetores
 - implemente um exemplo de vetor
 - me mostre um código com vetores
@@ -174,16 +187,16 @@
 - matrizes no python
 - matrizes em código
 - matriz em codigo
-- código em python de matrizes
-- codigo em python de matriz
-- implementação com matrizes
-- implementacao com matriz
 - exemplifique em código matrizes
 - exemplifique em codigo matriz
 - como funcionam matrizes no código
 - como funciona matriz no codigo
 - implemente um código com matrizes
 - implemente um exemplo de matrizes
+- código em python de matrizes
+- codigo em python de matriz
+- implementação com matrizes
+- implementacao com matriz
 - me mostre um código com matrizes
 - demonstre matrizes na prática
 - demonstre matriz na pratica
