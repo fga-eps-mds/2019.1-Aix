@@ -52,6 +52,10 @@
 - saudaçoes
 - saudaçao
 - salve
+- oiii
+- oiee
+- iai
+- oiiiii
 
 ## intent:tudo_bem
 - hey there
@@ -67,12 +71,10 @@
 - how you doin'
 - como voce esta
 - tudo bom
-- tudo bem
+- tudo bem?
 - como vão as coisas
 - como vai
 - como vai voce
-- tudo bem
-- Tudo bem
 - Como você está
 - como vc ta
 - como estão as coisas
@@ -80,8 +82,6 @@
 - joia
 - joinha
 - tudo bom
-- Tudo bem e você- tudo certo
-- tudo bem
 - turu bom
 - bele e vc
 - suave e vc
@@ -191,6 +191,7 @@
 - suas capacidades
 - sua habilidades
 - quais conteúdos consigo aprender com voce
+- menu ajuda
 
 ## intent:curiosidades_python
 - zen do python
@@ -213,7 +214,7 @@
 - dados curiosos python
 - fatos curiosos python
 - fatos desconhecidos python
-- trivia
+- trivia python
 
 ## intent:out_of_scope
 - você sabe sobre grafos
@@ -483,15 +484,16 @@
 
 ## intent:cronograma
 - /cronograma
-- me de um cronograma de estudos
-- gostaria de um cronograma de estudos
-- qua conteudo devo aprender primeiro
+- cronograma de estudos
+- cronograma
+- qual conteudo devo aprender primeiro
+- qual conteúdo devo aprender primeiro
 - quais conteudos devo aprender primeiro
-- qual o conteudo mais facil
+- quais conteúdos devo aprender primeiro
 - cronograma aprender python do zero
 - entender python do zero
 - todos os conteudos de python
-- me ensine python na ordem
+- python na ordem
 - como aprender python
 - em qual ordem devo aprender python
 - qual a ordem de conteudos
@@ -499,3 +501,6 @@
 - o que você pode me ensinar
 - planejamento dos estudos
 - ordem do que devo aprender
+- indice de estudos
+- indice
+- indíce
