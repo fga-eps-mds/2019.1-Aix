@@ -728,6 +728,23 @@
 - o que é str
 - o que e str
 
+## intent:sobre_stack_overflow
+- o que é stack overflow
+- sobre stack overflow
+- o que o stack overflow faz
+- fórum de dúvidas
+- não sei sobre stack overflow
+- como usar o stack overflow
+- fórum de perguntas e respostas
+- stack overflow
+- stackoverflow
+- stack over flow
+- me explique o que é stackoverflow
+- como funciona o stack overflow
+- dúvidas stack overflow
+- não entendi o que é stackoverflow
+- ensine sobre stack overflow
+- onde tirar dúvidas
 ## intent:sobre_input_dados
 - como ler dado do usuário
 - como ler dado do usuario

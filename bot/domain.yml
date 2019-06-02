@@ -32,6 +32,7 @@ intents:
   - sobre_importar_bibliotecas
   - sobre_instalar_python
   - sobre_strings
+  - sobre_stack_overflow
   - sobre_input_dados
 
 
@@ -549,6 +550,14 @@ templates:
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
         Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
         Simples como comer capim!
+
+  utter_sobre_stack_overflow:
+    - text: |
+        O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
+        Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
+        E para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
+        Digite "quero pesquisar" que te ajudo com isso!
 
   utter_sobre_input_dados:
     - text: |
@@ -1233,6 +1242,8 @@ actions:
   - utter_sobre_importar_bibliotecas
   - utter_sobre_instalar_python
   - utter_sobre_strings
+  - utter_sobre_stack_overflow
+
   - utter_sobre_input_dados
 
   - utter_exemplo_variaveis
