@@ -14,6 +14,33 @@
 * cumprimentar
     - utter_cumprimentar
 
+## path 4 
+* cumprimentar
+    - utter_cumprimentar
+* help
+    - utter_help
+  
+## path 5
+* cumprimentar
+    - utter_cumprimentar
+* cronograma
+    - utter_cronograma
+## path 6
+* cumprimentar
+    - utter_cumprimentar
+* cronograma
+    - utter_cronograma
+* help
+    - utter_help
+  
+## path 7
+* cumprimentar
+    - utter_cumprimentar
+* help
+    - utter_help
+* cronograma
+    - utter_cronograma
+
 ## Tudo Bem
 * tudo_bem
     - utter_tudo_bem
@@ -69,3 +96,11 @@
 ## sobre_programaçao
 * sobre_programaçao
     - utter_sobre_programaçao
+
+## cronograma
+* cronograma
+    - utter_cronograma
+
+## help
+* help
+    - utter_help

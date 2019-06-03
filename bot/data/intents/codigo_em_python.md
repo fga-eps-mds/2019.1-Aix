@@ -1,0 +1,257 @@
+## intent:codigo_em_python_variaveis
+- código variáveis
+- código python variáveis
+- variáveis em python
+- código de variáveis
+- exemplo prático de variáveis
+- variáveis no python
+- variaveis em código
+- código em python de variáveis
+- implementação com variaveis
+- exemplifique em código variáveis
+- como funcionam variáveis no código
+- implemente um exemplo de variáveis
+- me mostre um código com variáveis
+- demonstre variaveis na prática
+- demonstre um código em python que possua variáveis
+- codigo de inteiros
+- exemplo pratico de pontos flutuantes
+- double no python
+- char em codigo
+- codigo em python de booleanos
+- implementacao com strings
+- exemplifique em codigo int
+- como funcionam float no codigo
+- demonstre strings na pratica
+- implemente um código com booleanos
+
+## intent:codigo_em_python_condicionais
+- código condicionais
+- código python condicionais
+- código python condicional
+- condicionais em python
+- condicional em python
+- código de condicional
+- código de condicionais
+- exemplo prático de condicional
+- exemplo prático de condicionais
+- código python condicionais
+- condicional código em python
+- código de condicional condicionais
+- codigo de condicional condicionais
+- exemplo prático de condicional condicionais
+- exemplo pratico de condicional condicionais
+- condicional no python
+- condicionais no python
+- condicional no python
+- condicionais em código
+- condicional no python
+- código em python de condicionais
+- código em python de condicional
+- implementação com condicionais
+- implementação com condicional
+- exemplifique em código condicionais
+- exemplifique em código condicional
+- como funcionam condicionais no código
+- como funcionam condicional no código
+- implemente um exemplo de condicionais
+- me mostre um código com condicionais
+- demonstre condicionais na prática
+- demonstre condicional na prática
+- demonstre um código em python que possua condicional
+- demonstre um código em python que possua condicionais
+
+## intent:codigo_em_python_repeticao
+- código repetição
+- código for while repetição
+- código python repetição
+- codigo python repetição
+- código python for while
+- repetição em python
+- for while em python
+- codigo de for while
+- código de repetição
+- exemplo prático de for e while
+- exemplo prático de repetição
+- for while no python
+- for no python
+- while no python
+- for python
+- while python
+- repetição no python
+- repetição em código
+- for while em código
+- código em python de repetição
+- código em python com loop
+- implementação com repetição
+- implementação com for e while
+- exemplifique em código repetição
+- exemplifique em código for while
+- como funcionam repetição no código
+- implemente um exemplo de repetição
+- me mostre um código com repetição
+- demonstre repetição na prática
+- demonstre um código em python que possua loops
+- demonstre um código em python que possua repetição
+
+## intent:codigo_em_python_funcao
+- código função
+- código python função
+- função em python
+- codigo python função
+- funções em python
+- código de função
+- exemplo prático de funções
+- exemplo prático de função
+- função no python
+- funções no python
+- funções em código
+- função em código
+- código em python de funções
+- código em python de função
+- implementação com funções
+- implementação com função
+- exemplifique em código função
+- como funcionam funções no código
+- como funcionam função no código
+- implemente um exemplo de funções
+- implemente um exemplo de função
+- me mostre um código com funções
+- me mostre um código com função
+- demonstre função na prática
+- demonstre um código em python que possua função
+
+## intent:codigo_em_python_arquivos
+- código arquivo
+- código python arquivo
+- arquivo em python
+- código de arquivo
+- codigo de arquivos
+- exemplo prático de arquivos
+- exemplo pratico de arquivo
+- arquivo no python
+- arquivos no python
+- variaveis em código
+- arquivo em codigo
+- código em python de arquivo
+- codigo em python de arquivos
+- implementação com arquivo
+- implementacao com arquivos
+- exemplifique em código arquivo
+- exemplifique em codigo arquivos
+- como funcionam arquivos no código
+- como funciona arquivo no codigo
+- implemente um código com arquivo
+- implemente um exemplo de arquivo
+- me mostre um código com arquivo
+- demonstre arquivo na prática
+- demonstre arquivos na pratica
+- demonstre um código em python que possua arquivo
+
+## intent:codigo_em_python_vetores
+- código vetores vetor
+- código python vetores
+- vetores em python
+- código de vetores
+- codigo de vetor
+- exemplo prático de vetores
+- exemplo pratico de vetor
+- vetores no python
+- vetor no python
+- vetores em código
+- vetor em codigo
+- exemplifique em código vetores
+- exemplifique em codigo vetor
+- como funcionam vetores no código
+- como funciona vetor no codigo
+- código em python de vetor
+- codigo em python de vetores
+- implementação com vetores
+- implementacao com vetor
+- implemente um código com vetores
+- implemente um exemplo de vetor
+- me mostre um código com vetores
+- demonstre vetores na prática
+- demonstre vetor na pratica
+- demonstre um código em python que possua vetores vetor
+
+## intent:codigo_em_python_matrizes
+- código matrizes
+- código python matrizes
+- matriz em python
+- código de matrizes
+- codigo de matriz
+- exemplo prático de matrizes
+- exemplo pratico de matriz
+- matriz no python
+- matrizes no python
+- matrizes em código
+- matriz em codigo
+- exemplifique em código matrizes
+- exemplifique em codigo matriz
+- como funcionam matrizes no código
+- como funciona matriz no codigo
+- implemente um código com matrizes
+- implemente um exemplo de matrizes
+- código em python de matrizes
+- codigo em python de matriz
+- implementação com matrizes
+- implementacao com matriz
+- me mostre um código com matrizes
+- demonstre matrizes na prática
+- demonstre matriz na pratica
+- demonstre um código em python que possua matrizes
+
+## intent:codigo_em_python_importar_bibliotecas
+- código importar bibliotecas
+- código python importar biblioteca
+- importar bibliotecas em python
+- código que importa bibliotecas
+- codigo que importa biblioteca
+- exemplo prático para importar bibliotecas
+- exemplo pratico para importar biblioteca
+- importar biblioteca no python
+- importar bibliotecas no python
+- importar bibliotecas em código
+- importar biblioteca em codigo
+- código em python para importar bibliotecas
+- codigo em python que importa biblioteca
+- implementação que importa bibliotecas
+- implementacao para importar biblioteca
+- exemplifique em código como importar bibliotecas
+- exemplifique em codigo importação biblioteca
+- como funcionam bibliotecas no código
+- como funciona importar biblioteca no codigo
+- implemente um código que importe bibliotecas
+- implemente um exemplo que importe uma biblioteca
+- me mostre um código para importar bibliotecas
+- demonstre como importar bibliotecas na prática
+- demonstre bibliotecas na pratica
+- demonstre um código em python que possua bibliotecas
+
+## intent:codigo_em_python_input_dados
+- código input de dados
+- código python receber dados do usuário
+- receber dados em python
+- código de input de dados
+- codigo de recepção de dados
+- exemplo prático de input de dados
+- exemplo pratico de recebimento de dados
+- receber dados no python
+- input de dados no python
+- receber input em código
+- input em codigo
+- código em python de leitura de dados
+- codigo em python de receber dados
+- implementação com input de dados
+- implementacao de como ler dados
+- exemplifique em código input de dados
+- exemplifique em codigo como receber dados
+- como funcionam inputs no código
+- como funciona ler dados no codigo
+- implemente um código com leitura de dados
+- implemente um exemplo de recepção de input
+- me mostre um código com input de dados
+- demonstre leitura de dados na prática
+- demonstre recebimento de dados na pratica
+- demonstre um código em python que possua leitura de input

@@ -21,7 +21,6 @@
 - resumo python
 - resume python
 
-
 ## intent:sobre_aix
 - quem é você
 - quem e voce
@@ -475,7 +474,6 @@
 - resumo booleanos
 - resume booleanos
 
-
 ## intent:sobre_funcao
 - reproduzir uma função
 - definiçao função
@@ -549,6 +547,16 @@
 - defina funcoes
 - resuma função
 - resumo funcao
+- como fazer uma função em python
+- como fazer um funcao em python
+- como criar uma funcao
+- como criar uma função
+- como fazer funcoes em python
+- como criar funcoes
+- o que sao funcoes
+- o que e funcao
+- como utilizar funcoes
+- como utilizar funcoes no python
 
 
 ## intent:sobre_arquivos
@@ -588,6 +596,9 @@
 - significado arquivo
 - significado arquivos
 - conceito arquivos
+- como usar arquivos em python
+- como abrir arquivos em python
+- como usar arquivos
 
 ## intent:sobre_vetores
 - o que são vetores
@@ -669,6 +680,40 @@
 - fazer print
 - printar no terminal
 - imprimir
+- hello world
+- básico hello world
+- basico hello world
+- basico sobre hello world
+- basico sobre hello world
+- basico sobre print
+- print
+- montar um hello world
+- montar um print
+- fazer o programa escrever
+- o que é hello world
+- o que é print
+- o que e hello world
+- o que e print
+- o que e printar
+- sobre hello world
+- acerca hello world
+- defina hello world
+- defina print
+- definição hello world
+- definiçao hello world
+- explique hello world
+- explicação hello world
+- explicaçao hello world
+- descreva hello world
+- descrição hello world
+- significado hello world
+- conceito hello world
+- defina hello world
+- resuma hello world
+- resumo hello world
+- resume hello world
+- sobre hello world
+- acerca de hello world
 
 ## intent:sobre_importar_bibliotecas
 - como importar bibliotecas
@@ -679,6 +724,49 @@
 - adicionar funções
 - funcoes extras
 - funcao nao encontrada
+- fazer biblioteca
+- biblioteca
+- básico biblioteca
+- basico biblioteca
+- basico sobre biblioteca
+- básico sobre biblioteca
+- basico sobre funçao extra
+- montar uma biblioteca
+- montar uma função
+- o que é biblioteca
+- o que e biblioteca
+- sobre biblioteca
+- acerca biblioteca
+- defina biblioteca
+- definição biblioteca
+- definiçao biblioteca
+- explique biblioteca
+- explicação biblioteca
+- explicaçao biblioteca
+- descreva biblioteca
+- descrição biblioteca
+- significado biblioteca
+- conceito biblioteca
+- resuma biblioteca
+- resumo biblioteca
+- resume biblioteca
+- acerca de biblioteca
+- sobre bibliotecas
+- acerca bibliotecas
+- defina bibliotecas
+- definição bibliotecas
+- definiçao bibliotecas
+- explique bibliotecas
+- explicação bibliotecas
+- explicaçao bibliotecas
+- descreva bibliotecas
+- descrição bibliotecas
+- significado bibliotecas
+- conceito bibliotecas
+- resuma bibliotecas
+- resumo bibliotecas
+- resume bibliotecas
+- acerca de bibliotecas
 
 ## intent:sobre_instalar_python
 - como instalar o python
@@ -691,6 +779,28 @@
 - configurar o ambiente
 - instalar dependencias python
 - instalar dependências python
+- instalar python
+- instalação python
+- instalaçao python
+- download python
+- montar ambiente python
+- sobre instalar python
+- sobre instalação python
+- sobre instalaçao python
+- acerca de instalaçao python
+- explique instalar python
+- explicação instalar python
+- explicaçao instalar python
+- IDE
+- ide
+- como instalar python
+- acerca de instalação python
+- descreva instalação python
+- descrição instalação python
+- passo a passo instalar python
+- resuma instalação python
+- resumo passo a passo python
+- resume instalaçao python
 
 ## intent:sobre_strings
 - o que são strings
@@ -714,3 +824,146 @@
 - str python
 - o que é str
 - o que e str
+- fazer uma frase
+- string
+- frase
+- definir string
+- como montar uma frase
+- explique strings
+- básico sobre strings
+- básico sobre string
+- básico sobre str
+- basico sobre strings
+- basico sobre string
+- basico sobre str
+- faz uma frase
+- faz uma string
+- montar uma string
+- montar umas strings
+- monte uma string
+- monte umas strings
+- o que é string
+- o que é str
+- o que são strings
+- o que e string
+- o que e str
+- o que sao strings
+- sobre strings
+- sobre string
+- sobre str
+- acerca strings
+- defina string
+- definição string
+- definiçao string
+- explique string
+- explicação strings
+- explicaçao strings
+- descreva strings
+- descrição strings
+- significado strings
+- conceito strings
+- defina strings
+- resuma strings
+- resumo strings
+- resume strings
+- acerca strings
+- definição strings
+- definiçao strings
+- explique strings
+- explicação string
+- explicaçao string
+- descreva string
+- descrição string
+- significado string
+- conceito string
+- defina string
+- resuma string
+- resumo string
+- resume string
+
+## intent:sobre_stack_overflow
+- o que é stack overflow
+- sobre stack overflow
+- o que o stack overflow faz
+- fórum de dúvidas
+- não sei sobre stack overflow
+- como usar o stack overflow
+- fórum de perguntas e respostas
+- stack overflow
+- stackoverflow
+- stack over flow
+- me explique o que é stackoverflow
+- como funciona o stack overflow
+- dúvidas stack overflow
+- não entendi o que é stackoverflow
+- ensine sobre stack overflow
+- onde tirar dúvidas
+
+## intent:sobre_input_dados
+- como ler dado do usuário
+- como ler dado do usuario
+- como ler uma informação do usuário
+- como ler uma informacao do usuario
+- leitura de texto
+- entrada de dados
+- como ler string
+- como ler inteiro
+- como ler float
+- input em python
+- scanf em python
+- cin em python
+- in data python
+- ler um numero
+- ler um inteiro
+- ler um float
+- entrada do usuario
+- solicitar valor do usuario
+- solicitar dado do usuario
+- ler no terminal
+- pegar texto do usuario
+- pegar texto do terminal
+- básico input
+- básico scanf
+- basico input
+- basico scanf
+- faz um input
+- faz um scanf
+- montar um input
+- montar um scanf
+- monte um input
+- monte um scanf
+- o que é input
+- o que é scanf
+- o que e input
+- o que e scanf
+- sobre scanf
+- sobre input
+- acerca de input
+- defina input
+- definição input
+- definiçao input
+- explique input
+- explicação input
+- explicaçao input
+- descreva input
+- descrição input
+- significado input
+- conceito input
+- defina scanf
+- resuma input
+- resumo input
+- resume input
+- acerca de scanf
+- definição scanf
+- definiçao scanf
+- explique scanf
+- explicação scanf
+- explicaçao scanf
+- descreva scanf
+- descrição scanf
+- significado scanf
+- conceito scanf
+- defina scanf
+- resuma scanf
+- resumo scanf
+- resume scanf
