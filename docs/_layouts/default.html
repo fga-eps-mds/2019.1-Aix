@@ -132,11 +132,24 @@
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
-                <h2>Gerência</h2>
+                <h2>Gerenciamento de Projeto</h2>
                 <ul>
                     {% assign posts = '' | split: '' %}
                     {% for post in site.posts %}
                     {% if post.category == 'Gerencia' %}
+                    {% assign posts = posts | push: post %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign posts = posts | sort: 'date' | reverse %}
+                    {% for post in posts %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                <h2>Estudos</h2>
+                <ul>
+                    {% assign posts = '' | split: '' %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'Estudo' %}
                     {% assign posts = posts | push: post %}
                     {% endif %}
                     {% endfor %}

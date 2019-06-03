@@ -2,7 +2,7 @@
 layout: post
 title: Estudo de Tecnologia Elastic Search e Kibana
 tags: estudo tecnologia elasticSearch kibana
-category: Projeto
+category: Estudo
 ---
 
 |Data|Versão|Descrição|Autor|
