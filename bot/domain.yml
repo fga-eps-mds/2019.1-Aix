@@ -338,20 +338,24 @@ templates:
   utter_cronograma:
     - text: |
         Vamos iniciar nossa jornada em aprender python! Veja um cronograma de conteúdos para que você aprenda de forma simples e divertida:
-          1º - Conhecer o python. Me envie "o que é python?" ou algo do tipo e te explico..bée
-          2º - Instalar ou verificar a versão do python. Me envie "como instalar o python?" ou algo do tipo que te ensino
-          3º - Aprender a fazer seu primeiro programa. Me envie "quero fazer meu primeiro programa" ou algo relacionado e então aprenderemos..
-          4º - Aprender o que são variáveis e seus tipos. Me envie "o que são variaveis?" ou algo relacionado e você irá entender..
-          5º - Aprender a ler dados do usuário. Me envie "como ler dados do usuario?" ou algo assim que te mostro..bée
-          6º - Aprender sobre estruturas condicionais. Me envie "o que sao estruturas condicionais?" ou algo do tipo e te explico
-          7º - Aprender sobre estruturas de repetição. Me envie "o que sao estrutuas de repeticao?" ou algo relacionado que lhe faço entender
-          8º - Aprender sobre vetores. Me envie "o que sao vetores" ou algo assim que te ensino..bée
-          9º - Aprender sobre strings. Me envie "o que sao strings" ou algo do tipo que explico certinho..
-          10º - Aprender sobre matrizes. Me envie "o que sao matrizes" ou algo do genero que te explico direitinho..
-          11º - Aprender sobre bibliotecas. Me envie "como usar bibliotecas em python" ou algo assim que te mostro certinho..
-          12º - Aprender sobre funções. Me envie "como fazer uma função em python" ou algo relacionado que te ensino
-          13º - Aprender sobre arquivos. Me envie "como usar arquivos em python" ou algo assim que te mostro.
-          14º - Aprender sobre o stackoverflow. Me envie "o que é stackoverflow" que te ensino e mostro como pesquisar lá..bée
+          1º - Conhecer o python.
+          2º - Instalar ou verificar a versão do python.
+          3º - Aprender a fazer seu primeiro programa.
+          4º - Aprender o que são variáveis e seus tipos.
+          5º - Aprender a ler dados do usuário.
+          6º - Aprender sobre estruturas condicionais.
+          7º - Aprender sobre estruturas de repetição.
+          8º - Aprender sobre vetores.
+          9º - Aprender sobre strings.
+          10º - Aprender sobre matrizes.
+          11º - Aprender sobre bibliotecas.
+          12º - Aprender sobre funções.
+          13º - Aprender sobre arquivos.
+          14º - Aprender sobre o stackoverflow.
+          
+          Bée..Para acessar um conteúdo específico basta me pedir assim: 
+          o que é [conteúdo], como fazer [conteúdo], o que são [conteúdo], como usar [contéudo]
+          
           Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
           Fácil como comer capim! Não perca tempo e vamos aprender python!
 
