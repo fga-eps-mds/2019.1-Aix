@@ -25,6 +25,7 @@
     - utter_cumprimentar
 * cronograma
     - utter_cronograma
+
 ## path 6
 * cumprimentar
     - utter_cumprimentar
@@ -40,6 +41,7 @@
     - utter_help
 * cronograma
     - utter_cronograma
+
 
 ## Tudo Bem
 * tudo_bem
@@ -69,6 +71,7 @@
 * out_of_scope
     - utter_default
 
+
 ## menu_ajuda
 * menu_ajuda
     - utter_menu_ajuda
@@ -78,6 +81,7 @@
     - utter_menu_ajuda
 * manter_conversa
     - utter_manter_conversa
+
 
 ## curiosidades_python
 * curiosidades_python
@@ -89,17 +93,33 @@
 * manter_conversa
     - utter_manter_conversa
 
+
 ## assuntos_inapropriados
 * assuntos_inapropriados
     - utter_assuntos_inapropriados
+
 
 ## sobre_programaçao
 * sobre_programaçao
     - utter_sobre_programaçao
 
+## sobre_programaçao2
+* sobre_programaçao
+    - utter_sobre_programaçao
+* sobre_python
+    - utter_sobre_python
+
+
 ## cronograma
 * cronograma
     - utter_cronograma
+
+## cronograma2
+* cronograma
+    - utter_cronograma
+* sobre_python
+    - utter_sobre_python
+    
 
 ## help
 * help
