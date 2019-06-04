@@ -1,11 +1,47 @@
 import re
 import copy
+excessoes_intents=[]
+excessoes_intents.append('out_of_scope')
+excessoes_intents.append('pesquisa_stackoverflow')
+excessoes_intents.append('utter_sobre_vaga')
+excessoes_intents.append('intent_utter_exemplo_vaga')
+excessoes_intents.append('intent_utter_codigo_em_python_vaga')
+excessoes_intents.append('intent_utter_exercicios_vaga')
+excessoes_intents.append('intent_utter_conteudo_extra_vaga')
+excessoes_intents.append('login_no_uva')
+excessoes_intents.append('inform')
+excessoes_intents.append('submissao_de_exercicio')
+excessoes_intents.append('feedback_uva')
+
+excessoes_actions = []
+excessoes_actions.append('utter_default')
+excessoes_actions.append('action_utter_vaga')
+excessoes_actions.append('action_utter_sobre_vaga')
+excessoes_actions.append('action_utter_exemplo_vaga')
+excessoes_actions.append('action_utter_codigo_em_python_vaga')
+excessoes_actions.append('action_utter_exercicios_vaga')
+excessoes_actions.append('action_utter_conteudo_extra_vaga')
+excessoes_actions.append('utter_ask_username')
+excessoes_actions.append('utter_ask_password')
+excessoes_actions.append('utter_ask_codigo')
+excessoes_actions.append('utter_ask_problema')
+excessoes_actions.append('utter_ask_linguagem')
+
+excessoes_utters = []
+excessoes_utters.append('action_utter_vaga')
+excessoes_utters.append('action_utter_sobre_vaga')
+excessoes_utters.append('action_utter_exemplo_vaga')
+excessoes_utters.append('action_utter_codigo_em_python_vaga')
+excessoes_utters.append('action_utter_exercicios_vaga')
+excessoes_utters.append('action_utter_conteudo_extra_vaga')
+
 with open('domain.yml') as arquivo:
     domain = arquivo.read()
 
 tudo = re.findall(r'\w+', domain) #regex que captura_todo o texto da domain
 
 utters = re.findall(r'utter_\w+:\n\s+-\stext\s*:\s\|', domain) #regex que captura todas as utters com conteúdo
+print(utters)
 
 intents = [] #lista que armazenará todas as intents declaradas na domain
 actions = [] #lista que armazenará todas as utters e actions declaradas na domain
