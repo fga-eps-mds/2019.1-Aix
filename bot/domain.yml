@@ -1377,7 +1377,7 @@ templates:
           Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
           Depois printe tudo formatando do jeito que quiser!
 
-          Caso queira o gabarito para conferir, me peça o código python em python de input de dados!
+          Caso queira o gabarito para conferir, me peça o código em python de input de dados!
 
 
 actions:
@@ -1415,7 +1415,6 @@ actions:
   - utter_sobre_instalar_python
   - utter_sobre_strings
   - utter_sobre_stack_overflow
-
   - utter_sobre_input_dados
 
   - utter_exemplo_variaveis

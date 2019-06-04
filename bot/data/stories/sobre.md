@@ -2,6 +2,18 @@
 * sobre_aix
     - utter_sobre_aix
 
+
+## sobre_stack_overflow_sem_pesquisa
+* sobre_stack_overflow
+    - utter_sobre_stack_overflow
+
+## sobre_stack_overflow_com_pesquisa
+* sobre_stack_overflow
+    - utter_sobre_stack_overflow
+* pesquisar
+    - utter_pesquisar
+
+
 ## sobre_python
 * sobre_python
     - utter_sobre_python
@@ -9,8 +21,8 @@
 ## sobre_python2
 * sobre_python
     - utter_sobre_python
-* manter_conversa
-	- utter_manter_conversa
+* sobre_instalar_python
+    - utter_sobre_instalar_python
 
 ## sobre_python3
 * sobre_python
@@ -18,45 +30,45 @@
 * curiosidades_python
     - utter_curiosidades_python
 
-## sobre_condicionais
-* sobre_condicionais
-    - action_set_slot_value
-    - utter_sobre_condicionais
 
-## sobre_condicionais2
-* sobre_condicionais
-    - action_set_slot_value
-    - utter_sobre_condicionais
-* exemplo_condicionais
-    - action_set_slot_value
-	- utter_exemplo_condicionais
+## sobre_instalar_python
+* sobre_instalar_python
+    - utter_sobre_instalar_python
 
-## sobre_condicionais3
-* sobre_condicionais
-    - action_set_slot_value
-    - utter_sobre_condicionais
-* intent_utter_exemplo_vaga
-    - action_utter_exemplo_vaga
+## sobre_instalar_python2
+* sobre_instalar_python
+    - utter_sobre_instalar_python
+* sobre_hello_world
+    - utter_sobre_hello_world
 
-## sobre_repeticao
-* sobre_repeticao
-    - action_set_slot_value
-    - utter_sobre_repeticao
+## sobre_instalar_python3
+* sobre_instalar_python
+    - utter_sobre_instalar_python
+* curiosidades_python
+    - utter_curiosidades_python
 
-## sobre_repeticao2
-* sobre_repeticao
-    - action_set_slot_value
-    - utter_sobre_repeticao
-* exemplo_repeticao
-    - action_set_slot_value
-	- utter_exemplo_repeticao
 
-## sobre_repeticao3
-* sobre_repeticao
-    - action_set_slot_value
-    - utter_sobre_repeticao
-* intent_utter_exemplo_vaga
-    - action_utter_exemplo_vaga
+## sobre_hello_world
+* sobre_hello_world
+    - utter_sobre_hello_world
+
+## sobre_hello_world2
+* sobre_hello_world
+    - utter_sobre_hello_world
+* sobre_input_dados
+    - utter_sobre_input_dados
+
+
+## sobre_input_dados
+* sobre_input_dados
+    - utter_sobre_input_dados
+
+## sobre_input_dados2
+* sobre_input_dados
+    - utter_sobre_input_dados
+* desafio_input_dados
+    - utter_desafio_input_dados
+
 
 ## sobre_variaveis
 * sobre_variaveis
@@ -83,13 +95,17 @@
     - action_set_slot_value
     - utter_sobre_booleanos
 
+## sobre_strings
+* sobre_strings
+    - utter_sobre_strings
+
 ## sobre_variaveis2
 * sobre_variaveis
     - action_set_slot_value
     - utter_sobre_variaveis
 * exemplo_variaveis
     - action_set_slot_value
-	- utter_exemplo_variaveis
+    - utter_exemplo_variaveis
 
 ## sobre_variaveis3
 * sobre_variaveis
@@ -112,20 +128,54 @@
     - action_set_slot_value
     - utter_sobre_caracteres
 * sobre_strings
+    - action_set_slot_value
     - utter_sobre_strings
 * sobre_booleanos
     - action_set_slot_value
     - utter_sobre_booleanos
 
-## sobre_funcao
-* sobre_funcao
-    - action_set_slot_value
-    - utter_sobre_funcao
 
-## sobre_arquivos
-* sobre_arquivos
+## sobre_condicionais
+* sobre_condicionais
     - action_set_slot_value
-    - utter_sobre_arquivos
+    - utter_sobre_condicionais
+
+## sobre_condicionais2
+* sobre_condicionais
+    - action_set_slot_value
+    - utter_sobre_condicionais
+* exemplo_condicionais
+    - action_set_slot_value
+	- utter_exemplo_condicionais
+
+## sobre_condicionais3
+* sobre_condicionais
+    - action_set_slot_value
+    - utter_sobre_condicionais
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
+
+## sobre_repeticao
+* sobre_repeticao
+    - action_set_slot_value
+    - utter_sobre_repeticao
+
+## sobre_repeticao2
+* sobre_repeticao
+    - action_set_slot_value
+    - utter_sobre_repeticao
+* exemplo_repeticao
+    - action_set_slot_value
+	- utter_exemplo_repeticao
+
+## sobre_repeticao3
+* sobre_repeticao
+    - action_set_slot_value
+    - utter_sobre_repeticao
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
+
 
 ## sobre_vetores
 * sobre_vetores
@@ -147,6 +197,7 @@
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
 
+
 ## sobre_matrizes
 * sobre_matrizes
     - action_set_slot_value
@@ -167,11 +218,13 @@
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
 
-## sobre_hello_world
-* sobre_hello_world
-    - utter_sobre_hello_world
 
 ## sobre_importar_bibliotecas
+* sobre_importar_bibliotecas
+    - action_set_slot_value
+    - utter_sobre_importar_bibliotecas
+
+## sobre_importar_bibliotecas2
 * sobre_importar_bibliotecas
     - action_set_slot_value
     - utter_sobre_importar_bibliotecas
@@ -179,36 +232,51 @@
     - action_set_slot_value
     - utter_exemplo_importar_bibliotecas
 
-## sobre_importar_bibliotecas2
+## sobre_importar_bibliotecas3
 * sobre_importar_bibliotecas
     - action_set_slot_value
     - utter_sobre_importar_bibliotecas
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
 
-## sobre_instalar_python
-* sobre_instalar_python
-    - utter_sobre_instalar_python
 
-## sobre_strings
-* sobre_strings
-    - utter_sobre_strings
+## sobre_funcao
+* sobre_funcao
+    - action_set_slot_value
+    - utter_sobre_funcao
 
-## sobre_stack_overflow_sem_pesquisa
-* sobre_stack_overflow
-    - utter_sobre_stack_overflow
+## sobre_funcao2
+* sobre_funcao
+    - action_set_slot_value
+    - utter_sobre_funcao
+* exemplo_funcao
+    - action_set_slot_value
+    - utter_exemplo_funcao
 
-## sobre_stack_overflow_com_pesquisa
-* sobre_stack_overflow
-    - utter_sobre_stack_overflow
-* pesquisar
-    - utter_pesquisar
-## sobre_input_dados
-* sobre_input_dados
-    - utter_sobre_input_dados
+## sobre_funcao3
+* sobre_funcao
+    - action_set_slot_value
+    - utter_sobre_funcao
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
 
-## sobre_input_dados2
-* sobre_input_dados
-    - utter_sobre_input_dados
-* desafio_input_dados
-    - utter_desafio_input_dados
+
+## sobre_arquivos
+* sobre_arquivos
+    - action_set_slot_value
+    - utter_sobre_arquivos
+
+## sobre_arquivos2
+* sobre_arquivos
+    - action_set_slot_value
+    - utter_sobre_arquivos
+* exemplo_arquivos
+    - action_set_slot_value
+    - utter_exemplo_arquivos
+
+## sobre_arquivos3
+* sobre_arquivos
+    - action_set_slot_value
+    - utter_sobre_arquivos
+* intent_utter_exemplo_vaga
+    - action_utter_exemplo_vaga
