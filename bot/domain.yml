@@ -1427,7 +1427,17 @@ actions:
   - utter_exemplo_matrizes
   - utter_exemplo_strings
 
+  - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
+  - utter_codigo_em_python_input_dados
 
+  
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
@@ -1444,7 +1454,6 @@ actions:
   - utter_desafio_vetores
   - utter_desafio_matrizes
   - utter_desafio_input_dados
-
 
 
   - utter_conteudo_extra_variaveis
@@ -1476,13 +1485,3 @@ actions:
   - utter_ask_codigo
   - utter_ask_problema
   - utter_ask_linguagem
-
-  - utter_codigo_em_python_variaveis
-  - utter_codigo_em_python_condicionais
-  - utter_codigo_em_python_repeticao
-  - utter_codigo_em_python_funcao
-  - utter_codigo_em_python_arquivos
-  - utter_codigo_em_python_vetores
-  - utter_codigo_em_python_matrizes
-  - utter_codigo_em_python_importar_bibliotecas
-  - utter_codigo_em_python_input_dados
