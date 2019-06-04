@@ -12,6 +12,8 @@
     - utter_sobre_stack_overflow
 * pesquisar
     - utter_pesquisar
+* pesquisa_stackoverflow
+    - action_pesquisa_stackoverflow
 
 
 ## sobre_python

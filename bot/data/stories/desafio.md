@@ -12,6 +12,13 @@
 	- form{"name": "user_form"}
 	- form{"name": null}
 
+## desafio_hello_world3
+* desafio_hello_world
+	- action_set_slot_value
+    - utter_desafio_hello_world
+* sobre_condicionais
+    - action_set_slot_value
+    - utter_sobre_condicionais
 
 ## desafio_input_dados
 * desafio_input_dados
@@ -22,10 +29,9 @@
 * desafio_input_dados
 	- action_set_slot_value
     - utter_desafio_input_dados
-* login_no_uva
-	- user_form
-	- form{"name": "user_form"}
-	- form{"name": null}
+* codigo_em_python_input_dados
+    - action_set_slot_value
+    - utter_codigo_em_python_input_dados
 
 
 ## desafio_repeticao
@@ -42,6 +48,13 @@
 	- form{"name": "user_form"}
 	- form{"name": null}
 
+## desafio_repeticao3
+* desafio_repeticao
+	- action_set_slot_value
+    - utter_desafio_repeticao
+* sobre_vetores
+    - action_set_slot_value
+    - utter_sobre_vetores
 
 ## desafio_vetores
 * desafio_vetores
@@ -57,6 +70,14 @@
 	- form{"name": "user_form"}
 	- form{"name": null}
 
+## desafio_vetores3
+* desafio_vetores
+	- action_set_slot_value
+    - utter_desafio_vetores
+* sobre_matrizes
+    - action_set_slot_value
+    - utter_sobre_matrizes
+
 
 ## desafio_matrizes
 * desafio_matrizes
@@ -71,6 +92,14 @@
 	- user_form
 	- form{"name": "user_form"}
 	- form{"name": null}
+
+## desafio_matrizes3
+* desafio_matrizes
+	- action_set_slot_value
+    - utter_desafio_matrizes
+* sobre_importar_bibliotecas
+    - action_set_slot_value
+    - utter_sobre_importar_bibliotecas
 
 
 ## desafio_funcao

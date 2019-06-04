@@ -1339,17 +1339,17 @@ templates:
         Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
   utter_desafio_matrizes:
-      - text: |
-          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
-          Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+    - text: |
+        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
 
-          NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
-          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
-          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+        Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
 
-          Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
+        Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
 
   utter_desafio_hello_world:
     - text: |
@@ -1373,11 +1373,11 @@ templates:
 
   utter_desafio_input_dados:
     - text: |
-          Que tal um desafio sobre importar dados?
-          Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
-          Depois printe tudo formatando do jeito que quiser!
+        Que tal um desafio sobre importar dados?
+        Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+        Depois printe tudo formatando do jeito que quiser!
 
-          Caso queira o gabarito para conferir, me peça o código em python de input de dados!
+        Caso queira o gabarito para conferir, me peça o código em python de input de dados!
 
 
 actions:
