@@ -1437,7 +1437,7 @@ actions:
   - utter_codigo_em_python_importar_bibliotecas
   - utter_codigo_em_python_input_dados
 
-  
+
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
@@ -1448,14 +1448,6 @@ actions:
   - utter_exercicios_strings
 
 
-  - utter_desafio_hello_world
-  - utter_desafio_repeticao
-  - utter_desafio_funcao
-  - utter_desafio_vetores
-  - utter_desafio_matrizes
-  - utter_desafio_input_dados
-
-
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
@@ -1464,6 +1456,14 @@ actions:
   - utter_conteudo_extra_vetores
   - utter_conteudo_extra_matrizes
   - utter_conteudo_extra_strings
+
+  
+  - utter_desafio_hello_world
+  - utter_desafio_repeticao
+  - utter_desafio_funcao
+  - utter_desafio_vetores
+  - utter_desafio_matrizes
+  - utter_desafio_input_dados
 
 
   - action_pesquisa_stackoverflow
