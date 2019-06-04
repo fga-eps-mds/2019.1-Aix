@@ -306,70 +306,15 @@ templates:
   utter_menu_ajuda:
     - text: |
         Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
-
-        Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
-        Me pergunta ai sobre algum erro, no seu código, sobre alguma estrutura de python... Qualquer coisa!
-
-        E se quiser começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-    - text: |
-        Sabia que você pode me perguntar o que te der na telha?
         Talvez eu peça um pouco de feno em troca hein....
         Brincaderia! hahaha
 
-        E se eu te explicar de um modo que não ficou muito claro, você pode me pedir um link externo
-        sobre o conteúdo que eu te mando!
+        Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
+        Me pergunta ai sobre alguma expressão ou estrutura em python, ou até mesmo como fazer um 'hello world'.. Qualquer coisa!
 
-        E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
+        E se quiser começar a aprender, é só pedir o cronograma de estudos!
         Ele vai te ajudar a se localizar no conteúdo!!
-
-        Mas olha, eu ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
-        É só perguntar!
-
-    - text: |
-        Eu te ajudo a aprender python, poxa!
-        É só me perguntar a sua duvida sobre a maravilhosa linguagem de programação, que eu respondo!
-
-        E se você achar que já está sabendo, me pede um exercício sobre o conteúdo, ué! Vamos ver se você sabe mesmo. hahahaha
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo...
-
-        E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-    - text: |
-        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
-        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
-
-        Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse
-        sua amiga e estivesse ai do seu lado!
-        Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes,
-        pode ser que eu te dê uma resposta diferente!
-
-        E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-    - text: |
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
-        Ah, e aí vai uma dica: as vezes se você perguntar a mesma coisa duas vezes,
-        pode ser que eu te dê uma resposta diferente!
-
-        E se quiser começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
-        Pode perguntar!
-    - text: |
-        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
-        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
-        Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
-        Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
-        Olha, eu já estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
-        É só perguntar!
-    - text: |
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
-        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
-        Pode perguntar!
+        Se seu pedido tiver essas palavras ou semelhantes me ajudaria a te entender: /cronograma, me de um cronograma de estudos de python
 
   utter_curiosidades_python:
     - text: |
