@@ -1397,67 +1397,69 @@ actions:
   - utter_cronograma
 
 
+  - utter_sobre_stack_overflow
   - utter_sobre_aix
   - utter_sobre_python
+  - utter_sobre_instalar_python
+  - utter_sobre_hello_world
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
-  - utter_sobre_condicionais
-  - utter_sobre_arquivos
-  - utter_sobre_repeticao
-  - utter_sobre_funcao
-  - utter_sobre_vetores
-  - utter_sobre_matrizes
-  - utter_sobre_hello_world
-  - utter_sobre_importar_bibliotecas
-  - utter_sobre_instalar_python
-  - utter_sobre_strings
-  - utter_sobre_stack_overflow
   - utter_sobre_input_dados
+  - utter_sobre_condicionais
+  - utter_sobre_repeticao
+  - utter_sobre_vetores
+  - utter_sobre_strings
+  - utter_sobre_matrizes
+  - utter_sobre_importar_bibliotecas
+  - utter_sobre_funcao
+  - utter_sobre_arquivos    
+
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_vetores
+  - utter_exemplo_strings
+  - utter_exemplo_matrizes
+  - utter_exemplo_importar_bibliotecas
   - utter_exemplo_funcao
   - utter_exemplo_arquivos
-  - utter_exemplo_importar_bibliotecas
-  - utter_exemplo_vetores
-  - utter_exemplo_matrizes
-  - utter_exemplo_strings
 
+
+  - utter_codigo_em_python_input_dados
   - utter_codigo_em_python_variaveis
   - utter_codigo_em_python_condicionais
   - utter_codigo_em_python_repeticao
-  - utter_codigo_em_python_funcao
-  - utter_codigo_em_python_arquivos
   - utter_codigo_em_python_vetores
   - utter_codigo_em_python_matrizes
   - utter_codigo_em_python_importar_bibliotecas
-  - utter_codigo_em_python_input_dados
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
 
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_vetores
+  - utter_exercicios_strings
+  - utter_exercicios_matrizes
   - utter_exercicios_funcao
   - utter_exercicios_arquivos
-  - utter_exercicios_vetores
-  - utter_exercicios_matrizes
-  - utter_exercicios_strings
-
+  
 
   - utter_conteudo_extra_variaveis
   - utter_conteudo_extra_condicionais
   - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_vetores
+  - utter_conteudo_extra_strings
+  - utter_conteudo_extra_matrizes
   - utter_conteudo_extra_funcao
   - utter_conteudo_extra_arquivos
-  - utter_conteudo_extra_vetores
-  - utter_conteudo_extra_matrizes
-  - utter_conteudo_extra_strings
 
-  
+
   - utter_desafio_hello_world
   - utter_desafio_repeticao
   - utter_desafio_funcao
