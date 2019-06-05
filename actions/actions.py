@@ -1,6 +1,7 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 from rasa_core_sdk.forms import FormAction
+from actions import forms
 from actions import api_uva
 import requests
 import json
@@ -62,7 +63,7 @@ class ActionPesquisaStackoverflow(Action):
             )
 
 
-class UserForm(FormAction):
+class UserForm(forms.CustomFormAction):
     def name(self):
         return "user_form"
 
@@ -109,7 +110,7 @@ class ActionFeedbackSubmissao(Action):
         dispatcher.utter_message(next_content)
 
 
-class CodeForm(FormAction):
+class CodeForm(forms.CustomFormAction):
     def name(self):
         return "code_form"
 
