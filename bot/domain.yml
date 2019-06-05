@@ -960,14 +960,15 @@ templates:
 
         Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
         Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
-        
+
         Bée..se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
          exemplo strings, strings na prática, strings na pratica, exercicios strings
 
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
     - text: |
-        Acha que já está pronto para alguns exercícios? Pois béem, vou ver o que tenho aqui....
+        Acha que já está pronto para alguns exercícios? 
+        Pois béem, vou ver o que tenho aqui....
         Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
           Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
           Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
@@ -978,11 +979,13 @@ templates:
         Se você preferir, também achei esse exercício resolvido no YouTube,
         Somando dois números (https://www.youtube.com/watch?v=PB254Cfjlyk&feature=youtu.be)!
 
-        O programa rodou direitinho? Vamos aprofundar no tema! Me peça conteúdos extras de variáveis!
+        O programa rodou direitinho? 
+        Vamos aprofundar no tema! Me peça conteúdos extras de variáveis!
 
   utter_exercicios_condicionais:
     - text: |
-        Ahh, então você quer praticar estruturas condicionais? Fico tãããoo feliz em saber disso
+        Ahh, então você quer praticar estruturas condicionais? 
+        Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
           Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
@@ -992,11 +995,13 @@ templates:
         Deu algum erro no código? Só pedir que eu procuro por ele no StackOverflow!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        Ou agora que você já sabe o básico sobre condicionais, vamos aprofundar nesse tema: me peça links extras desse conteúdo!
+        Ou agora que você já sabe o básico sobre condicionais, vamos aprofundar nesse tema!
+        Me peça links extras desse conteúdo!
 
   utter_exercicios_repeticao:
     - text: |
-        Ahh, então você quer praticar estruturas de repetição? Fico tãããoo feliz em saber disso
+        Ahh, então você quer praticar estruturas de repetição? 
+        Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
           Números Pares - https://www.urionlinejudge.com.br/judge/pt/problems/view/1059
@@ -1012,7 +1017,10 @@ templates:
 
   utter_exercicios_vetores:
     - text: |
-        Então você se sente pronto para praticar?! Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, mas tome cuidado que é mais difícil que comer capim!
+        Então você se sente pronto para praticar?! 
+        Muito béem, dê uma olhada nesses exercícios, tem em vídeo e em texto tambéem, 
+        mas tome cuidado que é mais difícil que comer capim!
+
           Substituição em Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1172)
           Preenchimento de Vetor I(https://www.urionlinejudge.com.br/judge/pt/problems/view/1173)
           Exercício Python #078 - Maior e Menor valores na Lista(https://www.youtube.com/watch?v=q8Z1cRdJnfk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=11&t=0s)
@@ -1021,13 +1029,15 @@ templates:
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        Com os três exercícios feitos e acertados, se você quiser se aprofundar ainda mais nesse conteúdo de vetores, só me pedir.
+        Com os três exercícios feitos e acertados, 
+        se você quiser se aprofundar ainda mais nesse conteúdo de vetores, só me pedir.
         Me peça por 'conteúdo extra sobre vetores' que te mandarei alguns links úteis!
 
 
   utter_exercicios_matrizes:
     - text: |
-        Quer praticar seus conhecimentos sobre matriz..? Tenho uns exercícios béem legais para você!!
+        Quer praticar seus conhecimentos sobre matriz..? 
+        Tenho uns exercícios béem legais para você!!
 
         Exercício Python #086 - Matriz em Python(https://www.youtube.com/watch?v=EGmlFdwD4C4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=20&t=0s)
         Exercício Python #087 - Mais sobre Matriz em Python(https://www.youtube.com/watch?v=QhS829x6up4&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=21&t=0s)
@@ -1037,21 +1047,26 @@ templates:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-        Agora posso te enviar alguns links com conteúdo mais aprofundado ou podemos já começar o próximo conteúdo!
+        Agora posso te enviar alguns links com conteúdo mais aprofundado ou 
+        podemos já começar o próximo conteúdo!
         Caso queira aprender mais sobre matrizes, me peça por 'conteúdo extra de matrizes'.
         Ou, me pergunte sobre 'como importar bibliotecas' que te ensino feliz e contente!
 
 
   utter_exercicios_arquivos:
     - text: |
-        Como não encontrei exercícios no URI para resolução deste tipo de exercício, vamos fazer um aqui mesmo!
+        Como não encontrei exercícios no URI para resolução deste tipo de exercício, 
+        vamos fazer um aqui mesmo!
 
-        Seria intetessante se você abrisse um arquivo no modo 'w', de escrita, e escrevesse seu nome completo nele.
+        Seria intetessante se você abrisse um arquivo no modo 'w', de escrita, 
+        e escrevesse seu nome completo nele.
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
         Que tal aprendermos um pouco mais sobre arquivos? É só pedir um conteúdo extra!
-        Se seu pedido tiver essas expressões eu ficaria muito feliz: conteúdo adicional arquivo, mais sobre arquivos
+
+        Se seu pedido tiver essas expressões eu ficaria muito feliz: 
+        conteúdo adicional arquivo, mais sobre arquivos
 
   utter_exercicios_funcao:
     - text: |
@@ -1065,7 +1080,9 @@ templates:
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
         E aí, gostou dos exercícios? Se quiser posso te mandar um conteúdo extra sobre função, é só solicitar.
-        Se sua solicitação tiver essas expressẽs me ajudaria: link extra funções, mais informações sobre funções
+
+        Se sua solicitação tiver essas expressẽs me ajudaria: 
+        link extra funções, mais informações sobre funções
 
   utter_exercicios_strings:
     - text: |
@@ -1077,41 +1094,48 @@ templates:
 
           Obteve algum erro de compilação? Podemos pesquisar sobre ele!
           Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-          E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
+          E oras, agora que você acabou o conteúdo de strings, 
+          que tal me perguntar sobre laços de repetição?
 
 
   # ============================ CONTEÚDO EXTRA ============================ #
   utter_conteudo_extra_variaveis:
     - text: |
-        Então você quer um conteúdo a mais... Béem, vou ver o que consigo para você!
+        Então você quer um conteúdo a mais... 
+        Béem, vou ver o que consigo para você!
         Tente esses aqui: O que é variável e constante?(https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem até uns exemplos nele!
-        Esse canal do YouTube parece ser melhor que feno! Ele tem uma aula onde ele resume o que são variáveis,
+        Esse canal do YouTube parece ser melhor que feno! 
+        Ele tem uma aula onde ele resume o que são variáveis,
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
-        Teve algum dúvida e quer pesquisar algo no StackOverflow? Só me falar, faço pesquisas para você!
+        Teve algum dúvida e quer pesquisar algo no StackOverflow? 
+        Só me falar, faço pesquisas para você!
         Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
 
         Sugiro olhar o cronograma para se localizar na matéria e ver o que temos adiante!
 
   utter_conteudo_extra_condicionais:
     - text: |
-        Ta querendo saber mais né? Beleza! Até preparei um código aqui para você
+        Ta querendo saber mais né? Beleza! 
+        Até preparei um código aqui para você
+
           if Aix_não_sanou_sua_duvida or Quer_mais_informações:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
               https://www.w3schools.com/python/python_conditions.asp
 
-        Agora que está melhor em condicionais do que eu comendo feno, por que não me pergunta sobre estruturas de repetição?
+        Agora que está melhor em condicionais do que eu comendo feno, 
+        por que não me pergunta sobre estruturas de repetição?
         É um conteúdo importantíiiissimo para um programador, e você vai aprender rapidinho!
+
         Para me ajudar a entender melhor, me peça uma explicação sobre estruturas de repetição.
 
-        # Eai, agora quer exercícios desafiadores para por a prova tudo que acabou de aprender?
-        # Bée.. É só me pedir por 'desafios de condicionais'!
 
   utter_conteudo_extra_repeticao:
     - text : |
-        Quer dizer que você quer aprender mais né? Béeem legal! Olha só esse link aqui que fala
-        sobre como fazer estruturas de repetição eficientes! Tem até alguns exemplos legais.
+        Quer dizer que você quer aprender mais né? Béeem legal! 
+        Olha só esse link aqui que fala sobre como fazer estruturas de repetição eficientes! 
+        Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
         Pronto, você é o mestre das estruturas de repetição!
@@ -1127,7 +1151,9 @@ templates:
         https://panda.ime.usp.br/pensepy/static/pensepy/05-Funcoes/funcoes.html
 
         Agora que você está craque, que tal ser desafiado? É só pedir!
-        Bée..Se seu pedido tiver essas palavras me ajudaria a te entender: quero desafios de função, me desafie em função
+
+        Bée..Se seu pedido tiver essas palavras me ajudaria a te entender: 
+        quero desafios de função, me desafie em função
 
   utter_conteudo_extra_arquivos:
     - text : |
@@ -1137,12 +1163,15 @@ templates:
         https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
         http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
 
-        Muito bem! Já podemos aprender mais assuntos. Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
+        Muito bem! Já podemos aprender mais assuntos. 
+        Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
 
 
   utter_conteudo_extra_vetores:
     - text: |
-        Não entendeu muito béem? Pesquisei um links muito legais para você! Tem uma vídeo aula e duas explicações escritas.
+        Não entendeu muito béem? 
+        Pesquisei um links muito legais para você! 
+        Tem uma vídeo aula e duas explicações escritas.
 
         Curso Python #17 - Listas (Parte 1)(https://www.youtube.com/watch?v=N1hTsbW50eM&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=10&t=0s)
         Vetores em Python(https://pt.stackoverflow.com/questions/202753/vetores-em-python)
@@ -1153,14 +1182,17 @@ templates:
 
   utter_conteudo_extra_matrizes:
     - text: |
-        Olha esse links sobre matrizes que eu achei! Neles explica muito béem!!! Tem três aulas em texto para você e uma vídeo aula, se preferir.
+        Olha esse links sobre matrizes que eu achei! 
+        Neles explica muito béem!!! 
+        Tem três aulas em texto para você e uma vídeo aula, se preferir.
 
         Curso Python #17 - Listas (Parte 2)(https://www.youtube.com/watch?v=YV_JQmZNFsk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=17&t=0s)
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
         Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
-        Agora que entendeu na teoria tudo sobre matrizes, vamos por na prática mais desafiadora que você já fez?
+        Agora que entendeu na teoria tudo sobre matrizes, 
+        vamos por na prática mais desafiadora que você já fez?
         Só me pedir pelo 'desafio sobre matrizes';
 
   utter_conteudo_extra_strings:
@@ -1168,20 +1200,25 @@ templates:
         Olha que legal esse conteúdo extra sobre strings:
           https://www.w3schools.com/python/python_strings.asp
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
-        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, é só pedir!
-        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: exercicios strings, treinar strings
+        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, 
+        é só pedir!
+
+        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: 
+        exercicios strings, treinar strings
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
     - text : |
-        Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! Escreva sua pesquisa da seguinte forma:
+        Pois béem, vou me conectar no StackOverflow para te ajudar nisso!! 
+        Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
   # =========================== LOGIN NO UVA =========================== #
   utter_ask_username:
     - text: |
         Para fazer submissão de um exercício é necessária uma conta no juiz online UVA.
-        Caso ainda não tenha basta criar por meio desse link: https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
+        Caso ainda não tenha basta criar por meio desse link: 
+        https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
         Agora que você tem uma conta, podemos prosseguir.
         Bée, qual o seu username?
 
@@ -1272,7 +1309,7 @@ templates:
 
   utter_codigo_em_python_repeticao:
     - text: |
-       Então você quer um exemplo mais palpável de repetição?
+       Quer dizer que você quer um exemplo mais palpável de repetição...
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
        código tanto para for, quanto para while:
@@ -1301,7 +1338,8 @@ templates:
           print(quantidade_de_passos)
 
        Entendeu direitinho o código e como ele funciona?
-       Agora vamos por a mão na massa? Basta me pedir por 'exercícios de laços de repetição'!
+       Agora vamos por a mão na massa!
+       Basta me pedir por 'exercícios de laços de repetição'!
 
 
   utter_codigo_em_python_funcao:
@@ -1318,7 +1356,9 @@ templates:
         print(cumprimento)
 
        Que tal partimos pra uns exercícios? É só pedir!
-       Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade: exercicios funções, praticar funções
+
+       Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade: 
+       exercicios funções, praticar funções
 
 
   utter_codigo_em_python_arquivos:
@@ -1341,7 +1381,9 @@ templates:
           for linha in arquivo:
             print(linha)
        Que tal treinar um pouco? É só pedir uns exercícios!
-       Se seu pedido tiver essas expressões eu ficaria muito grata: exercicios arquivos, treinar arquivos. ;)
+
+       Se seu pedido tiver essas expressões eu ficaria muito grata: 
+       exercicios arquivos, treinar arquivos. ;)
 
   utter_codigo_em_python_vetores:
     - text: |
@@ -1357,7 +1399,8 @@ templates:
           for feno in fenos_por_dia:
           print('Eu comi', feno, 'fenos esse dia!')
 
-       Agora que pegou um código para ver de perto como funciona, por que não fazer você mesmo um?
+       Agora que pegou um código para ver de perto como funciona, 
+       por que não fazer você mesmo um?
        Me peça por 'exercícios com vetores' que tenho alguns prontinhos para você!
 
 
@@ -1401,20 +1444,23 @@ templates:
 
           print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
 
-       Muito bem! Já podemos partir para o próximo conteúdo. É só pedir o cronograma para se localizar rs
+       Muito bem! Já podemos partir para o próximo conteúdo. 
+       É só pedir o cronograma para se localizar rs
 
   utter_codigo_em_python_input_dados:
     - text: |
-       Então você quer um exemplo mais palpável de como receber dados do usuário?
+       Então você quer um exemplo mais palpável de como receber dados do usuário...
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
        código:
           NOME = input("Digite o nome: ")
           IDADE = input("Digite a idade: ")
           MEDIA_ESCOLAR= input("Digite a media escolar: ")
-          print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " + str(MEDIA_ESCOLAR))
+          print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " 
+          + str(MEDIA_ESCOLAR))
 
-       Espero que tenha entendido o conteúdo! Caso tenha, você está pronto para o próximo conteúdo: variáveis!
+       Espero que tenha entendido o conteúdo! 
+       Caso tenha, você está pronto para o próximo conteúdo: variáveis!
        Se quiser saber a respeito desse tema, é só me pedir :)
 
        Qualquer coisa também, verifique o nosso cronograma!
@@ -1424,8 +1470,10 @@ templates:
 # =========================== DESAFIOS =========================== #
   utter_desafio_repeticao:
     - text: |
-        Então você quer um desafio pra testar todo o conhecimento já visto até então... Certo! Quero ver
-        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. Você pode me enviar
+        Então você quer um desafio pra testar todo o conhecimento já visto até então... 
+        Certo! Quero ver
+        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. 
+        Você pode me enviar
         a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
@@ -1434,50 +1482,68 @@ templates:
 
   utter_desafio_vetores:
     - text: |
-        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
-        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Lá vamos nós:
+        Béem vamos dificultar um pouco mais!! 
+        Quero ver você conseguir fazer essa questão aqui, lembrando que é
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! 
+        Lá vamos nós:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
 
-        Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
+        Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes! 
+        É só perguntar o que são matrizes que te explico.
 
   utter_desafio_matrizes:
       - text: |
-          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... 
+          Vamos começar pelo nível 1!
           Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
 
           NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
-          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
-          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
+          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. 
+          Para entrar é só pedir.
 
-          Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
+          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: 
+          login uva, conectar no uva
+
+          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, 
+          é só pedir pra se conectar.
+
+          Eai, resposta correta, né? 
+          Agora que você aprendeu 100% sobre matrizes, me peça, 
+          que te explico sobre como importar bibliotecas!
 
   utter_desafio_hello_world:
     - text: |
-        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
+        Vamos praticar o que foi ensinado agora, com um desafio! 
+        Você pode me mandar sua resposta que te direi se
         está certo ou não! Começaremos com o nível 1:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
-        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: 
+        Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
   utter_desafio_funcao:
     - text: |
         Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
-        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! Vamos tentar?
+        Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback! 
+        Vamos tentar?
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
-        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. 
+        Para entrar é só pedir.
+
         Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+
         Não se preocupe se ainda não tem uma conta, é só pedir para se conectar que te ensino ;)
 
   utter_desafio_input_dados:
     - text: |
           Que tal um desafio sobre importar dados?
-          Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+          Faça o um programinha em python que pega uma string NOME, 
+          um int IDADE e um double MEDIA_ESCOLAR.
           Depois printe tudo formatando do jeito que quiser!
 
           Caso queira o gabarito para conferir, me peça o código python em python de input de dados!
