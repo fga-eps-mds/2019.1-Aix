@@ -43,8 +43,13 @@ Para acessar o link do formulário basta clicar [Aqui](https://forms.gle/5xsgQah
 
 ## Atividades a serem executadas para realização do teste de usabilidade
 
-O teste de usabilidade será aplicado para voluntários iniciantes na programação.
+* Público: O teste de usabilidade será aplicado para voluntários iniciantes na programação. (Alunos da disciplina de Algorítmos de Programação)
 
+* Local: Laboratório da Universidade de Brasília - UnB.
+
+* Horário: 13h
+
+* Logistica de aplicação: Cada membro da equipe acompanhará a interação do participante com o bot a fim de anotar as observações resultantes.
 
 * Programação das Atividades:
 
