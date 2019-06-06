@@ -236,6 +236,7 @@ class ActionUtterSobreVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+        return slot_content
 
 
 class ActionUtterExemploVaga(ActionUtterVaga):
@@ -254,6 +255,7 @@ class ActionUtterExemploVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+        return slot_content
 
 
 class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
@@ -272,6 +274,7 @@ class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+        return slot_content
 
 
 class ActionUtterExerciciosVaga(ActionUtterVaga):
@@ -290,6 +293,7 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+        return slot_content
 
 
 class ActionUtterConteudoExtraVaga(ActionUtterVaga):
@@ -308,3 +312,23 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+        return slot_content
+
+
+class ActionUtterDesafioVaga(ActionUtterVaga):
+    def name(self):
+        return "action_utter_desafio_vaga"
+
+    def run(self, dispatcher, tracker, domain):
+        slot_content = tracker.get_slot('conteudo')
+        if(slot_content == 'erro'):
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
+        else:
+            desired_subject = 'utter_desafio_' + slot_content
+            is_valid = self.validate_subject(domain, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
+        return slot_content

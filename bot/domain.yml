@@ -1469,6 +1469,7 @@ actions:
   - action_utter_codigo_em_python_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+  - action_utter_desafio_vaga
 
   - action_feedback_submissao_uva
 
