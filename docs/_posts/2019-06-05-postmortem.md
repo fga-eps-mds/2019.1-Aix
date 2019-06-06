@@ -40,6 +40,14 @@ category: Gerencia
 # 3. Pontos Fracos
 * Equipe de EPS
 * Equipe de MDS
+- Cronograma da disciplina desalinhado, visto que a maioria dos conteúdos são explicados pela equipe de EPS
+- Ápice no qual as aulas já não abrangem mais as necessidades dos projetos ou não a mais conteúdo a ser ministrado na disciplina.
+- Falta de feedback constante em relação ao projeto
+- Chamada em aula
+- Sentiremos falta dessa rotina, pq eu me senti bastante produtiva durante a disciplina, vcs me ensinaram a ser mais disciplinada, obg todos by the way
+- cobrar chamada nas aulas que são utilizadas de forma geral pra tirar dúvidas. talvez esse tempo fosse melhor aproveitado trabalhando no projeto em casa ou fora de sala
+- Falta de um feedback individual na r1 pra saber como melhorar pra r2 de forma individual
+- Muitos projetos sobre bot
 
 # 4. Lições Aprendidas
 * Equipe de EPS
