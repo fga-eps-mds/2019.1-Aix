@@ -23,7 +23,14 @@ category: Gerencia
 <p align = "justify"> No decorrer do desenvolvimento da disciplina tanto em relação a equipe de MDS quanto de EPS foi possível identificar pontos positivos e negativos, assim como lições aprendidas baseado nas experiências vividas durante a execução do projeto. A proposta das duas disciplinas é expor os alunos a desafios que permita que o aluno se supere tanto em relação a novos aprendizado como a lidar com a resolução de problemas, de forma a exigir que o aluno tenha mais maturidade em relação a compreensão do valor do produto. Logo, a equipe enfrentou diversos desafios como assumir o papel de cliente durante a definição do escopo, elaboração da priorização quanto as funcionalidades que foram implementadas e estimar custos e compreender a tecnologia utilizada.
 
 # 2. Pontos Fortes
+
 * Equipe de EPS
+- Comprometimento de Equipe na entrega do produto
+- Papeis bem definidos
+- Complementação de conhecimento d equipe equilibrado
+- Integração e empenho da equipe
+- Crescimento da autonomia dos membros da equipe na busca de informações nas últimas sprints.
+ 
 * Equipe de MDS
 - Aulas diversas, tanto com slide, quanto apresentações e até aulas ministradas por outros alunos
 - Muitos conteúdos abrangidos, apresentando toda uma nova área da engenharia de software pros alunos 
@@ -38,7 +45,12 @@ category: Gerencia
 
 
 # 3. Pontos Fracos
+
 * Equipe de EPS
+- Consumo de tempo excessivo com relação a disciplina
+- alterações de emergencia nas datas de planejamento que algumas vezes resultavam em divida técnica.
+- pouca rotação de papeis dentro da equipe, o que por vezes pode atrapalhar a passagem de conhecimento.
+
 * Equipe de MDS
 - Cronograma da disciplina desalinhado, visto que a maioria dos conteúdos são explicados pela equipe de EPS
 - Ápice no qual as aulas já não abrangem mais as necessidades dos projetos ou não a mais conteúdo a ser ministrado na disciplina.
@@ -50,7 +62,13 @@ category: Gerencia
 - Muitos projetos sobre bot
 
 # 4. Lições Aprendidas
+
 * Equipe de EPS
+- Aprendizado quanto a saber se virar sem um cliente para formação de escopo
+- Aprendizado quanto a saber priorizar as funcionalidades a serem implementadas
+- Aprendizado quanto a saber sobre a importancia de se ter um MVP e a aplicar de forma correta
+- Aprendizados quanto ao gerenciamento de um projeto e suas etapa
+
 * Equipe de MDS
 - Manter repositório organizado por meio de issues e PRs
 - Métodos ágeis 
@@ -66,7 +84,11 @@ category: Gerencia
 - Amadurecimento p resolução de problemas
 
 # 5. Recomendações
+
 * Equipe de EPS
+- Disciplina possui número de créditos condizentes com o nível de esforço e exigência.
+- Recebimento de feedbacks de forma mais constante com relação ao andamento da equipe
+
 * Equipe de MDS
 - Maior abertura da banca pra abraçar ideias novas de projetos, sugestoes de clientes
 - Aproveitar a aula, quando atingir o conteudo todo e não tiver mais nada para passar, o examinador propor algumas reunioes com cada grupo em horario de aula, p propor sugestoes e ver se as equipes estão caminhando corretamente.
