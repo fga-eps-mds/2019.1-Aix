@@ -1,6 +1,6 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from rasa_core_sdk.forms import FormAction
+from actions import forms
 from actions import api_uva
 import requests
 import json
@@ -62,7 +62,7 @@ class ActionPesquisaStackoverflow(Action):
             )
 
 
-class UserForm(FormAction):
+class UserForm(forms.CustomFormAction):
     def name(self):
         return "user_form"
 
@@ -109,7 +109,7 @@ class ActionFeedbackSubmissao(Action):
         dispatcher.utter_message(next_content)
 
 
-class CodeForm(FormAction):
+class CodeForm(forms.CustomFormAction):
     def name(self):
         return "code_form"
 
@@ -128,11 +128,18 @@ class CodeForm(FormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        response = api_uva.submeter_um_problema(username=username,
-                                                password=password,
-                                                problem_num=str(problema),
-                                                lang=str(linguagem),
-                                                codigo=str(codigo))
+
+        linguagem = self.map_linguagem(linguagem)
+
+        if(linguagem != 'erro'):
+            response = api_uva.submeter_um_problema(username=username,
+                                                    password=password,
+                                                    problem_num=str(problema),
+                                                    lang=str(linguagem),
+                                                    codigo=str(codigo))
+        else:
+            response = 'erro'
+
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
         else:
@@ -144,6 +151,24 @@ class CodeForm(FormAction):
         reset_slots.append(SlotSet('linguagem', None))
 
         return reset_slots
+
+    def map_linguagem(self, linguagem):
+        linguagem = linguagem.lower()
+        if(linguagem == 'c'):
+            linguagem = '1'
+        elif(linguagem == 'java'):
+            linguagem = '2'
+        elif(linguagem == 'c++'):
+            linguagem = '3'
+        elif(linguagem == 'pascal'):
+            linguagem = '4'
+        elif(linguagem == 'c++11' or linguagem == 'c++ 11'):
+            linguagem = '5'
+        elif(linguagem == 'python'):
+            linguagem = '6'
+        else:
+            linguagem = 'erro'
+        return linguagem
 
 
 class ActionSetSlotValue(Action):
