@@ -203,10 +203,10 @@ class ActionUtterVaga(Action):
         pass
 
     def validate_subject(self, domain, desired_subject):
-        utter_index = domain['actions'].index(desired_subject)
-        if(type(utter_index) is int):
+        try:
+            utter_index = domain['actions'].index(desired_subject)
             return True
-        else:
+        except ValueError:
             return False
 
     def dispatch_message(self, tracker, dispatcher, is_valid, desired_subject):
@@ -217,6 +217,7 @@ class ActionUtterVaga(Action):
                                      'não sei falar sobre esse conteúdo!' +
                                      ' Pois béem, tente me perguntar outra' +
                                      'coisa')
+        return is_valid
 
 
 class ActionUtterSobreVaga(ActionUtterVaga):

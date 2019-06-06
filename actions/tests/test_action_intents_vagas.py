@@ -19,15 +19,12 @@ from rasa_core.dispatcher import Dispatcher
 from actions.actions import ActionSetSlotValue
 
 @pytest.fixture
-def custom_set_slot_value():
-    return ActionSetSlotValue()
-
-@pytest.fixture
 def custom_domain():
-    return Domain({}, [], [], {}, ['utter_sobre_vetores', 
-    			  'utter_exemplo_vetores', 'utter_exercicios_vetores',
-    			  'utter_conteudo_extra_vetores', 
-    			  'utter_codigo_em_python_vetores'], [])
+    return {'intent_properties' : {}, 'entities' : [],
+    		'slots' : [], 'templates' : {}, 'actions' :
+    		['utter_sobre_vetores', 'utter_exemplo_vetores',
+    		 'utter_exercicios_vetores', 'utter_conteudo_extra_vetores',
+    		 'utter_codigo_em_python_vetores'], 'form_names' : []}
 
 @pytest.fixture
 def custom_tracker():
@@ -36,7 +33,18 @@ def custom_tracker():
 
 @pytest.fixture
 def custom_dispatcher():
-    return Dispatcher('', OutputChannel(), NaturalLanguageGenerator())
+	class Dispatcher():
+		def utter_template(self, desired_subject, tracker):
+			pass
+		def utter_message(self, text=''):
+			pass
+
+	return Dispatcher()
+
+"""
+@pytest.fixture
+def custom_set_slot_value():
+    return ActionSetSlotValue()
 
 def test_name_action_set_slot_value(custom_set_slot_value):
 	name = custom_set_slot_value.name()
@@ -56,3 +64,37 @@ def test_run_action_set_slot_value(custom_set_slot_value, custom_dispatcher,
 									 custom_tracker, custom_domain)
 	assert slot == [{"event": "slot", "timestamp": None,
 					 "name": "conteudo", "value": "vetores"}]
+"""
+
+from actions.actions import ActionUtterVaga
+
+@pytest.fixture
+def custom_utter_vaga():
+    return ActionUtterVaga()
+
+@pytest.fixture
+def custom_desired_subject():
+	return 'utter_sobre_vetores'
+
+def test_name_utter_vaga(custom_utter_vaga):
+	name = custom_utter_vaga.name()
+	assert name == "action_utter_vaga"
+
+def test_validate_subject(custom_utter_vaga, custom_domain,
+						  custom_desired_subject):
+	assert (custom_utter_vaga.validate_subject(custom_domain,
+											   custom_desired_subject) ==
+		   True)
+	assert (custom_utter_vaga.validate_subject(custom_domain,
+											   'vetores') ==
+		   False)
+
+def test_dispatch_message(custom_utter_vaga, custom_dispatcher,
+						  custom_tracker, custom_desired_subject):
+	assert (custom_utter_vaga.dispatch_message(custom_tracker, custom_dispatcher,
+											  True, custom_desired_subject) ==	
+			True)
+	assert (custom_utter_vaga.dispatch_message(custom_tracker, custom_dispatcher,
+											  False, custom_desired_subject) ==	
+			False)
+
