@@ -1,3 +1,4 @@
+"""
 import re
 import copy
 excessoes_intents=[]
@@ -128,3 +129,22 @@ while i < len(utters):
 
 print(len(intents))
 print(len(actions))
+"""
+from lark import Lark
+with open('domain.yml') as arquivo:
+    domain = arquivo.read()
+
+l = Lark(r""" start: exp
+    ?exp: utter
+        | action
+        | intent
+        | form
+        | entities
+        | slots
+        | templates
+    templates: utter_d text
+    utter_d: /utter_\w+:$/
+    text: /-\stext:\s\|\s+(.\n?\n?)*\n/
+
+""")
+#o text está capturando o último caractere em outra expressão
