@@ -204,7 +204,7 @@ class ActionUtterVaga(Action):
 
     def validate_subject(self, domain, desired_subject):
         try:
-            utter_index = domain['actions'].index(desired_subject)
+            domain['actions'].index(desired_subject)
             return True
         except ValueError:
             return False
@@ -238,7 +238,6 @@ class ActionUtterSobreVaga(ActionUtterVaga):
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
             return slot_content
-        
 
 
 class ActionUtterExemploVaga(ActionUtterVaga):
