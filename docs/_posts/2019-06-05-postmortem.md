@@ -52,8 +52,23 @@ category: Gerencia
 # 4. Lições Aprendidas
 * Equipe de EPS
 * Equipe de MDS
+- Manter repositório organizado por meio de issues e PRs
+- Métodos ágeis 
+- Versionamento de projeto
+- Git (praticamente)
+- Testes (um básico pelo menos)
+- Trabalhar em grupo
+- Ambientação de projeto
+- Sobre software livre em geral
+- Desenvolvimento em software: tomei conhecimento de varias tecnologias como git, python, rasa, html, docker, etc
+- Trabalho em equipe, disciplina, desenvolvimento de produto
+- Desenvolvimento em design: tive que me virar pra aprender e desenvolver em varias ferramentas em design como illustator, photoshop, pixel edit, etc
+- Amadurecimento p resolução de problemas
 
 # 5. Recomendações
 * Equipe de EPS
 * Equipe de MDS
+- Maior abertura da banca pra abraçar ideias novas de projetos, sugestoes de clientes
+- Aproveitar a aula, quando atingir o conteudo todo e não tiver mais nada para passar, o examinador propor algumas reunioes com cada grupo em horario de aula, p propor sugestoes e ver se as equipes estão caminhando corretamente.
+- Dar um feedback durante a materia
 
