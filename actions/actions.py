@@ -200,7 +200,7 @@ class ActionUtterVaga(Action):
         return "action_utter_vaga"
 
     def run(self, dispatcher, tracker, domain):
-        pass
+        return ''
 
     def validate_subject(self, domain, desired_subject):
         try:
@@ -231,12 +231,14 @@ class ActionUtterSobreVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_sobre_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content
+        
 
 
 class ActionUtterExemploVaga(ActionUtterVaga):
@@ -250,12 +252,13 @@ class ActionUtterExemploVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_exemplo_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content
 
 
 class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
@@ -269,12 +272,13 @@ class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_codigo_em_python_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content
 
 
 class ActionUtterExerciciosVaga(ActionUtterVaga):
@@ -288,12 +292,13 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_exercicios_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content
 
 
 class ActionUtterConteudoExtraVaga(ActionUtterVaga):
@@ -307,12 +312,13 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_conteudo_extra_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content
 
 
 class ActionUtterDesafioVaga(ActionUtterVaga):
@@ -326,9 +332,10 @@ class ActionUtterDesafioVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_desafio_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
-        return slot_content
+            return slot_content

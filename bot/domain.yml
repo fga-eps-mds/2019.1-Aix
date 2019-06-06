@@ -84,6 +84,7 @@ intents:
   - intent_utter_codigo_em_python_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
+  - intent_utter_desafio_vaga
 
 
   - login_no_uva
