@@ -25,7 +25,7 @@ class CustomFormAction(Action):
     def name(self):
         # type: () -> Text
         """Unique identifier of the form"""
-
+        return "action_custom_form_action"
         raise NotImplementedError("A form must implement a name")
 
     @staticmethod

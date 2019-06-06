@@ -1487,3 +1487,5 @@ actions:
   - utter_codigo_em_python_matrizes
   - utter_codigo_em_python_importar_bibliotecas
   - utter_codigo_em_python_input_dados
+
+  - action_custom_form_action

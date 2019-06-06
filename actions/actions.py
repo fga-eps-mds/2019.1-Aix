@@ -115,7 +115,7 @@ class CodeForm(forms.CustomFormAction):
         return "code_form"
 
     def required_slots(self, tracker):
-        return ['problema', 'linguagem', 'codigo']
+        return ['problema', 'codigo', 'linguagem']
 
     def submit(self, dispatcher, tracker, domain):
         dispatcher.utter_message('Consegui receber o código!')
@@ -129,11 +129,17 @@ class CodeForm(forms.CustomFormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        response = api_uva.submeter_um_problema(username=username,
-                                                password=password,
-                                                problem_num=str(problema),
-                                                lang=str(linguagem),
-                                                codigo=str(codigo))
+        dispatcher.utter_message("Username: " + username)
+        dispatcher.utter_message("Password: " + password)
+        dispatcher.utter_message("Problema: " + str(problema))
+        dispatcher.utter_message("Codigo: " + str(codigo))
+        dispatcher.utter_message("Linguagem: " + str(linguagem))
+        
+        response = 'UVa Online Judge'#api_uva.submeter_um_problema(username=username,
+                                                #password=password,
+                                                #problem_num=str(problema),
+                                                #lang=str(linguagem),
+                                                #codigo=str(codigo))
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
         else:
