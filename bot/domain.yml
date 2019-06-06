@@ -1080,11 +1080,11 @@ templates:
         Para fazer submissão de um exercício é necessária uma conta no juiz online UVA.
         Caso ainda não tenha basta criar por meio desse link: https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
         Agora que você tem uma conta, podemos prosseguir.
-        Bée, qual o seu username?
+        Bée, qual o seu username? (Envie apenas ele!!!)
 
   utter_ask_password:
     - text: |
-        Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
+        Por favor, digite sua senha, só a senha,mas não se preocupe, eu não vou olhar!
 
   utter_ask_codigo:
     - text: |
@@ -1092,12 +1092,12 @@ templates:
 
   utter_ask_problema:
     - text: |
-        Qual questão você quer submeter?
+        Qual questão você quer submeter, só o número dela por favor?
 
   utter_ask_linguagem:
     - text: |
-        Em qual linguagem você deseja submeter?
-        (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
+        Em qual linguagem você deseja submeter? Pode escrever só o nome da linguagem que eu te entéendo!!
+        (C, Java, C++, Pascal, C++11, Python3)
 
 #================================= CODIGO EM PYTHON ===============================================#
   utter_codigo_em_python_variaveis:

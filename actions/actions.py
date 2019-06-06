@@ -1,6 +1,5 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from rasa_core_sdk.forms import FormAction
 from actions import forms
 from actions import api_uva
 import requests
@@ -115,7 +114,7 @@ class CodeForm(forms.CustomFormAction):
         return "code_form"
 
     def required_slots(self, tracker):
-        return ['problema', 'codigo', 'linguagem']
+        return ['problema', 'linguagem', 'codigo']
 
     def submit(self, dispatcher, tracker, domain):
         dispatcher.utter_message('Consegui receber o código!')
@@ -129,17 +128,18 @@ class CodeForm(forms.CustomFormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        dispatcher.utter_message("Username: " + username)
-        dispatcher.utter_message("Password: " + password)
-        dispatcher.utter_message("Problema: " + str(problema))
-        dispatcher.utter_message("Codigo: " + str(codigo))
-        dispatcher.utter_message("Linguagem: " + str(linguagem))
-        
-        response = 'UVa Online Judge'#api_uva.submeter_um_problema(username=username,
-                                                #password=password,
-                                                #problem_num=str(problema),
-                                                #lang=str(linguagem),
-                                                #codigo=str(codigo))
+
+        linguagem = self.map_linguagem(linguagem)
+
+        if(linguagem != 'erro'):
+            response = api_uva.submeter_um_problema(username=username,
+                                                    password=password,
+                                                    problem_num=str(problema),
+                                                    lang=str(linguagem),
+                                                    codigo=str(codigo))
+        else:
+            response = 'erro'
+
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
         else:
@@ -151,6 +151,24 @@ class CodeForm(forms.CustomFormAction):
         reset_slots.append(SlotSet('linguagem', None))
 
         return reset_slots
+
+    def map_linguagem(self, linguagem):
+        linguagem = linguagem.lower()
+        if(linguagem == 'c'):
+            linguagem = '1'
+        elif(linguagem == 'java'):
+            linguagem = '2'
+        elif(linguagem == 'c++'):
+            linguagem = '3'
+        elif(linguagem == 'pascal'):
+            linguagem = '4'
+        elif(linguagem == 'c++11' or linguagem == 'c++ 11'):
+            linguagem = '5'
+        elif(linguagem == 'python'):
+            linguagem = '6'
+        else:
+            linguagem = 'erro'
+        return linguagem
 
 
 class ActionSetSlotValue(Action):
