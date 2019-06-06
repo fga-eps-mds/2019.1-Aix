@@ -133,7 +133,8 @@ class CustomFormAction(Action):
 
         intent, not_intent = self._list_intents(intent, not_intent)
 
-        return {"type": "from_text", "intent": intent, "not_intent": not_intent}
+        return {"type": "from_text", "intent":
+                intent, "not_intent": not_intent}
 
     # noinspection PyMethodMayBeStatic
     def slot_mappings(self):
@@ -158,7 +159,8 @@ class CustomFormAction(Action):
         """
 
         requested_slot_mappings = self._to_list(
-            self.slot_mappings().get(slot_to_fill, self.from_entity(slot_to_fill))
+            self.slot_mappings().get(slot_to_fill,
+                                     self.from_entity(slot_to_fill))
         )
         # check provided slot mappings
         for requested_slot_mapping in requested_slot_mappings:
@@ -220,7 +222,6 @@ class CustomFormAction(Action):
                 other_slot_mappings = self.get_mappings_for_slot(slot)
 
                 for other_slot_mapping in other_slot_mappings:
-                    intent = tracker.latest_message.get("intent", {}).get("name")
                     # check whether the slot should be filled
                     # by entity with the same name
                     should_fill_entity_slot = (
@@ -266,7 +267,8 @@ class CustomFormAction(Action):
             else return None
         """
         slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
-        logger.debug("Trying to extract requested slot '{}' ...".format(slot_to_fill))
+        logger.debug("Trying to extract requested" +
+                     " slot '{}' ...".format(slot_to_fill))
 
         # get mapping for requested slot
         requested_slot_mappings = self.get_mappings_for_slot(slot_to_fill)
@@ -284,13 +286,16 @@ class CustomFormAction(Action):
                     )
                     return {slot_to_fill: value}
 
-        logger.debug("Failed to extract requested slot '{}'".format(slot_to_fill))
+        logger.debug("Failed to extract requested" +
+                     " slot '{}'".format(slot_to_fill))
         return {}
 
     def validate_slots(self, slot_dict, dispatcher, tracker, domain):
-        # type: (Dict[Text, Any], CollectingDispatcher, Tracker, Dict[Text, Any]) -> List[Dict]
+        #  noqa: F723 type: (Dict[Text, Any], CollectingDispatcher,
+        # Tracker, Dict[Text, Any]) -> List[Dict]
         """Validate slots using helper validation functions.
-        Call validate_{slot} function for each slot, value pair to be validated.
+        Call validate_{slot} function for each slot,
+        # value pair to be validated.
         If this function is not implemented, set the slot to the value.
         """
 
@@ -298,11 +303,14 @@ class CustomFormAction(Action):
             validate_func = getattr(
                 self, "validate_{}".format(slot), lambda *x: {slot: value}
             )
-            validation_output = validate_func(value, dispatcher, tracker, domain)
+            validation_output = validate_func(value, dispatcher,
+                                              tracker, domain)
             if not isinstance(validation_output, dict):
                 logger.warning(
-                    "Returning values in helper validation methods is deprecated. "
-                    + "Your `validate_{}()` method should return ".format(slot)
+                    "Returning values in helper validation" +
+                    " methods is deprecated. "
+                    + "Your `validate_{}()` method should" +
+                    " return ".format(slot)
                     + "a dict of {'slot_name': value} instead."
                 )
                 validation_output = {slot: validation_output}
@@ -325,7 +333,8 @@ class CustomFormAction(Action):
         # extract requested slot
         slot_to_fill = tracker.get_slot(REQUESTED_SLOT)
         if slot_to_fill:
-            slot_values.update(self.extract_requested_slot(dispatcher, tracker, domain))
+            slot_values.update(self.extract_requested_slot(dispatcher,
+                                                           tracker, domain))
 
             if not slot_values:
                 # reject to execute the form action
@@ -414,10 +423,12 @@ class CustomFormAction(Action):
 
         req_slots = self.required_slots(tracker)
         slot_values = "\n".join(
-            ["\t{}: {}".format(slot, tracker.get_slot(slot)) for slot in req_slots]
+            ["\t{}: {}".format(slot, tracker.get_slot(slot))
+             for slot in req_slots]
         )
         logger.debug(
-            "No slots left to request, all required slots are filled:\n{}".format(
+            "No slots left to request, all required" +
+            " slots are filled:\n{}".format(
                 slot_values
             )
         )
@@ -426,7 +437,8 @@ class CustomFormAction(Action):
         # type: (CollectingDispatcher, Tracker, Dict[Text, Any]) -> List[Dict]
         """Activate form if the form is called for the first time.
         If activating, validate any required slots that were filled before
-        form activation and return `Form` event with the name of the form, as well
+        form activation and return `Form` event
+        # with the name of the form, as well
         as any `SlotSet` events from validation of pre-filled slots.
         """
 
@@ -449,10 +461,12 @@ class CustomFormAction(Action):
 
             if prefilled_slots:
                 logger.debug(
-                    "Validating pre-filled required slots: {}".format(prefilled_slots)
+                    "Validating pre-filled required" +
+                    " slots: {}".format(prefilled_slots)
                 )
                 events.extend(
-                    self.validate_slots(prefilled_slots, dispatcher, tracker, domain)
+                    self.validate_slots(prefilled_slots,
+                                        dispatcher, tracker, domain)
                 )
             else:
                 logger.debug("No pre-filled required slots to validate.")
@@ -467,10 +481,10 @@ class CustomFormAction(Action):
             - the form is called after `action_listen`
             - form validation was not cancelled
         """
-        if tracker.latest_action_name == "action_listen" and tracker.active_form.get(
-            "validate", True
-        ):
-            logger.debug("Validating user input '{}'".format(tracker.latest_message))
+        if(tracker.latest_action_name == "action_listen" and
+           tracker.active_form.get("validate", True)):
+            logger.debug("Validating user input '{}'".format(
+                tracker.latest_message))
             return self.validate(dispatcher, tracker, domain)
         else:
             logger.debug("Skipping validation")
@@ -508,7 +522,8 @@ class CustomFormAction(Action):
                 if e["event"] == "slot":
                     temp_tracker.slots[e["name"]] = e["value"]
 
-            next_slot_events = self.request_next_slot(dispatcher, temp_tracker, domain)
+            next_slot_events = self.request_next_slot(dispatcher,
+                                                      temp_tracker, domain)
 
             if next_slot_events is not None:
                 # request next slot
