@@ -84,6 +84,7 @@ intents:
   - intent_utter_codigo_em_python_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
+  - intent_utter_desafio_vaga
 
 
   - login_no_uva
@@ -147,47 +148,37 @@ templates:
         Digite /cronograma para acessá-lo.
 
   utter_help:
-   - text: |
-        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos..
+    - text: |
+        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
+        É béem simples...
+        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
 
-        Beleza! Aqui estão minhas informações:
-        Ações que posso fazer:
-          1. Explicar um conteúdo;
-          2. Citar exemplos;
-          3. Enviar um exemplo prático;
-          4. Indicar exercícios;
-          5. Enviar links extras sobre o conteúdo;
-          6. Sugerir desafios para cada conteúdo;
-          7. Pesquisar no StackOverflow.
-          8. Informar um cronograma de conteúdos de python.
+        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
 
-        Conteúdos mapeados:
-          - Entrada e saída de dados
-          - Variáveis
-          - Estruturas Condicionais
-          - Estruturas de Repetição
-          - Vetores
-          - Strings
-          - Matrizes
-          - Bibliotecas
-          - Funções
-          - Arquivos
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios sobre [Nome do conteúdo]
+        Quero saber mais sobre [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
 
-        Como? Escreva algo do tipo:
-          Quero saber o que é [Nome do conteúdo]
-          Quero um exemplo sobre [Nome do conteúdo]
-          Quero um exemplo em código de [Nome do conteúdo]
-          Me dê exercícios sobre [Nome do conteúdo]
-          Quero saber mais sobre [Nome do conteúdo]
-          Quero um desafio de [Nome do conteúdo]
-          *Para pesquisar no StackOverflow voce deve digitar:
-          pesquise sobre [conteúdo que você quer saber]
-          *Para acessar o cronograma:
-            /cronograma
-          
-        OBS: Eu sei processar linguagem natural! 
-        Não perca tempo pensando se vou entender ou não. 
+        Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
+
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
         Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
+
+        Ah! E aqui estão minhas principais funções:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Enviar um exemplo prático;
+        4. Indicar exercícios;
+        5. Enviar links extras sobre o conteúdo;
+        6. Sugerir desafios para cada conteúdo;
+        7. Pesquisar no StackOverflow.
+        8. Informar um cronograma de conteúdos de python.
+
+        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
 
   utter_despedir:
     - text: |
@@ -262,23 +253,18 @@ templates:
   # ============================ NAVEGAÇÃO PRINCIPAL ============================ #
   utter_start:
     - text: |
-        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
-        1. Explicar um conteúdo;
-        2. Citar exemplos;
-        3. Mostrar links extras sobre o conteúdo;
-        4. Indicar exercícios;
-        5. Indicar desafios;
-        6. Pesquisar no StackOverflow.
+        Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado dessa linguagem de programação!
 
-        Infelizmente eu não sei tudo ainda... 
-        Mas qualquer coisa, para ver todo o conteúdo
-        já inserido, é só me pedir o cronograma de estudos!
-
+        Infelizmente eu não sei tudo ainda... Mas qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o cronograma de estudos!
         P.S: e, em caso de dúvida do meu funcionamento, digite o /help que vou te ensinar!
 
         E lembre-se: eu não sou um simples robô, poxa!!
         Não esqueça os bons modos comigo!
         Que tal me dar um oi para começarmos? :)
+
+        Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
+
+        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
 
 
   utter_sobre_programaçao:
@@ -315,87 +301,22 @@ templates:
 
   utter_menu_ajuda:
     - text: |
-        Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
+        Para me pedir algumas coisas, você tem que ser bem claro comigo!!
+        Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, ahhaha!!
 
-        Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
-        Me pergunta ai sobre algum erro no seu código, sobre alguma estrutura de python...
-        Qualquer coisa!
+        Me diga o que você deseja, e de qual conteúdo você quer aprender, béem assim olha:
 
-        E se quiser começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios sobre [Nome do conteúdo]
+        Quero saber mais sobre [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
+        *Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
 
-    - text: |
-        Sabia que você pode me perguntar o que te der na telha?
-        Talvez eu peça um pouco de feno em troca hein....
-        Brincaderia! hahaha
-
-        E se eu te explicar de um modo que não ficou muito claro,
-         você pode me pedir um link externo
-        sobre o conteúdo que eu te mando!
-
-        E se seu desejo for começar a aprender,
-        me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-        Mas olha, eu ja estudei tudo sobre Variáveis,
-        Estruturas de repetição, Strings, Estruturas Condicionais,
-        Arquivos, Bibliotecas, Vetores, Matrizes
-        e ainda consigo procurar coisas no StackOverflow!
-        É só perguntar!
-
-    - text: |
-        Eu te ajudo a aprender python, poxa!
-        É só me perguntar a sua duvida sobre a maravilhosa linguagem de programação, que eu respondo!
-
-        E se você achar que já está sabendo, me pede um exercício sobre o conteúdo, ué!
-        Vamos ver se você sabe mesmo. hahahaha
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo...
-
-        E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-    - text: |
-        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
-        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
-
-        Tem alguma duvida? É só me perguntar, oras! Só conversar comigo como se eu fosse
-        sua amiga e estivesse ai do seu lado!
-
-        Ah, e deixa eu te dar uma dica... As vezes se você perguntar a mesma coisa duas vezes,
-        pode ser que eu te dê uma resposta diferente!
-
-        E se seu desejo for começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-    - text: |
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
-        Ah, e aí vai uma dica: as vezes se você perguntar a mesma coisa duas vezes,
-        pode ser que eu te dê uma resposta diferente!
-
-        E se quiser começar a aprender, me peça antes o nosso cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-
-        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, 
-        Strings, Estruturas Condicionais, Arquivos, Bibliotecas, 
-        Vetores, Matrizes e ainda consigo procurar coisas no StackOverflow!
-        Pode perguntar!
-    - text: |
-        Como me usar? Pra que eu sirvo? Deixa eu te explicar:
-        Eu sou uma cabra super inteligente que sabe tudo sobre Python!
-        Tem alguma duvida? É só me perguntar, oras! 
-        Só conversar comigo como se eu fosse sua amiga e estivesse ai do seu lado!
-        Ah, e deixa eu te dar uma dica... 
-        As vezes se você perguntar a mesma coisa duas vezes, pode ser que eu te dê uma resposta diferente!
-        Olha, eu já estudei tudo sobre Variáveis, Estruturas de repetição, 
-        Strings, Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, 
-        Matrizes e ainda consigo procurar coisas no StackOverflow!
-        É só perguntar!
-    - text: |
-        Eu sou uma cabra bem inteligente, mas ainda estou aprendendo hahaha!
-        Mas ja estudei tudo sobre Variáveis, Estruturas de repetição, Strings, 
-        Estruturas Condicionais, Arquivos, Bibliotecas, Vetores, Matrizes 
-        e ainda consigo procurar coisas no StackOverflow!
-        Pode perguntar!
+        E se não souber por onde começar a aprender, é só pedir o cronograma de estudos, que o seu caminho já está todo trilhado, não se preocupe com isto!
+        Apenas digite: /cronograma . Ele vai te ajudar a se localizar quanto ao conteúdo!!
 
   utter_curiosidades_python:
     - text: |
@@ -420,52 +341,26 @@ templates:
   utter_cronograma:
     - text: |
         Vamos iniciar nossa jornada em aprender python! Veja um cronograma de conteúdos para que você aprenda de forma simples e divertida:
-          1º - Conhecer o python. 
-          Me envie "o que é python?" ou algo do tipo e te explico..bée
 
-          2º - Instalar ou verificar a versão do python. 
-          Me envie "como instalar o python?" ou algo do tipo que te ensino
+        1º - Conhecer o python.
+        2º - Instalar o python.
+        3º - Criando seu primeiro programa.
+        4º - Variáveis
+        5º - Aprender a ler dados do usuário.
+        6º - Estruturas condicionais.
+        7º - Estruturas de repetição.
+        8º - Vetores.
+        9º - Strings.
+        10º - Matrizes.
+        11º - Bibliotecas.
+        12º - Funções.
+        13º - Arquivos.
+        14º - Aprender sobre o StackOverflow.
 
-          3º - Aprender a fazer seu primeiro programa. 
-          Me envie "quero fazer meu primeiro programa" ou algo relacionado e então aprenderemos..
+        Bée..Para acessar um conteúdo específico basta me pedir como te ensinei no menu ajuda!
 
-          4º - Aprender o que são variáveis e seus tipos. 
-          Me envie "o que são variaveis?" ou algo relacionado e você irá entender..
-
-          5º - Aprender a ler dados do usuário. 
-          Me envie "como ler dados do usuario?" ou algo assim que te mostro..bée
-
-          6º - Aprender sobre estruturas condicionais. 
-          Me envie "o que sao estruturas condicionais?" ou algo do tipo e te explico
-
-          7º - Aprender sobre estruturas de repetição. 
-          Me envie "o que sao estrutuas de repeticao?" ou algo relacionado que lhe faço entender
-
-          8º - Aprender sobre vetores. 
-          Me envie "o que sao vetores" ou algo assim que te ensino..bée
-
-          9º - Aprender sobre strings. 
-          Me envie "o que sao strings" ou algo do tipo que explico certinho..
-
-          10º - Aprender sobre matrizes. 
-          Me envie "o que sao matrizes" ou algo do genero que te explico direitinho..
-
-          11º - Aprender sobre bibliotecas. 
-          Me envie "como usar bibliotecas em python" ou algo assim que te mostro certinho..
-
-          12º - Aprender sobre funções. 
-          Me envie "como fazer uma função em python" ou algo relacionado que te ensino
-
-          13º - Aprender sobre arquivos. 
-          Me envie "como usar arquivos em python" ou algo assim que te mostro.
-
-          14º - Aprender sobre o stackoverflow. 
-          Me envie "o que é stackoverflow" que te ensino e mostro como pesquisar lá..bée
-
-          Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, 
-          exercícios, desafios e alguns tem até subconteúdos!
-          Fácil como comer capim! 
-          Não perca tempo e vamos aprender python!
+        Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
+        Fácil como comer capim! Não perca tempo e vamos aprender python!
 
   utter_sobre_aix:
     - text: |
@@ -1220,11 +1115,11 @@ templates:
         Caso ainda não tenha basta criar por meio desse link: 
         https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
         Agora que você tem uma conta, podemos prosseguir.
-        Bée, qual o seu username?
+        Bée, qual o seu username? (Envie apenas ele!!!)
 
   utter_ask_password:
     - text: |
-        Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
+        Por favor, digite sua senha, só a senha,mas não se preocupe, eu não vou olhar!
 
   utter_ask_codigo:
     - text: |
@@ -1232,12 +1127,12 @@ templates:
 
   utter_ask_problema:
     - text: |
-        Qual questão você quer submeter?
+        Qual questão você quer submeter, só o número dela por favor?
 
   utter_ask_linguagem:
     - text: |
-        Em qual linguagem você deseja submeter?
-        (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
+        Em qual linguagem você deseja submeter? Pode escrever só o nome da linguagem que eu te entéendo!!
+        (C, Java, C++, Pascal, C++11, Python3)
 
 #================================= CODIGO EM PYTHON ===============================================#
   utter_codigo_em_python_variaveis:
@@ -1493,25 +1388,17 @@ templates:
         É só perguntar o que são matrizes que te explico.
 
   utter_desafio_matrizes:
-      - text: |
-          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... 
-          Vamos começar pelo nível 1!
-          Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+    - text: |
+        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
 
-          NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
-          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. 
-          Para entrar é só pedir.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+        Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
 
-          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: 
-          login uva, conectar no uva
-
-          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, 
-          é só pedir pra se conectar.
-
-          Eai, resposta correta, né? 
-          Agora que você aprendeu 100% sobre matrizes, me peça, 
-          que te explico sobre como importar bibliotecas!
+        Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
 
   utter_desafio_hello_world:
     - text: |
@@ -1541,12 +1428,11 @@ templates:
 
   utter_desafio_input_dados:
     - text: |
-          Que tal um desafio sobre importar dados?
-          Faça o um programinha em python que pega uma string NOME, 
-          um int IDADE e um double MEDIA_ESCOLAR.
-          Depois printe tudo formatando do jeito que quiser!
+        Que tal um desafio sobre importar dados?
+        Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+        Depois printe tudo formatando do jeito que quiser!
 
-          Caso queira o gabarito para conferir, me peça o código python em python de input de dados!
+        Caso queira o gabarito para conferir, me peça o código em python de input de dados!
 
 
 actions:
@@ -1566,46 +1452,67 @@ actions:
   - utter_cronograma
 
 
+  - utter_sobre_stack_overflow
   - utter_sobre_aix
   - utter_sobre_python
+  - utter_sobre_instalar_python
+  - utter_sobre_hello_world
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
-  - utter_sobre_condicionais
-  - utter_sobre_arquivos
-  - utter_sobre_repeticao
-  - utter_sobre_funcao
-  - utter_sobre_vetores
-  - utter_sobre_matrizes
-  - utter_sobre_hello_world
-  - utter_sobre_importar_bibliotecas
-  - utter_sobre_instalar_python
-  - utter_sobre_strings
-  - utter_sobre_stack_overflow
-
   - utter_sobre_input_dados
+  - utter_sobre_condicionais
+  - utter_sobre_repeticao
+  - utter_sobre_vetores
+  - utter_sobre_strings
+  - utter_sobre_matrizes
+  - utter_sobre_importar_bibliotecas
+  - utter_sobre_funcao
+  - utter_sobre_arquivos    
+
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_vetores
+  - utter_exemplo_strings
+  - utter_exemplo_matrizes
+  - utter_exemplo_importar_bibliotecas
   - utter_exemplo_funcao
   - utter_exemplo_arquivos
-  - utter_exemplo_importar_bibliotecas
-  - utter_exemplo_vetores
-  - utter_exemplo_matrizes
-  - utter_exemplo_strings
+
+
+  - utter_codigo_em_python_input_dados
+  - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
 
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_vetores
+  - utter_exercicios_strings
+  - utter_exercicios_matrizes
   - utter_exercicios_funcao
   - utter_exercicios_arquivos
-  - utter_exercicios_vetores
-  - utter_exercicios_matrizes
-  - utter_exercicios_strings
+  
+
+  - utter_conteudo_extra_variaveis
+  - utter_conteudo_extra_condicionais
+  - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_vetores
+  - utter_conteudo_extra_strings
+  - utter_conteudo_extra_matrizes
+  - utter_conteudo_extra_funcao
+  - utter_conteudo_extra_arquivos
 
 
   - utter_desafio_hello_world
@@ -1614,17 +1521,6 @@ actions:
   - utter_desafio_vetores
   - utter_desafio_matrizes
   - utter_desafio_input_dados
-
-
-
-  - utter_conteudo_extra_variaveis
-  - utter_conteudo_extra_condicionais
-  - utter_conteudo_extra_repeticao
-  - utter_conteudo_extra_funcao
-  - utter_conteudo_extra_arquivos
-  - utter_conteudo_extra_vetores
-  - utter_conteudo_extra_matrizes
-  - utter_conteudo_extra_strings
 
 
   - action_pesquisa_stackoverflow
@@ -1638,6 +1534,7 @@ actions:
   - action_utter_codigo_em_python_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+  - action_utter_desafio_vaga
 
   - action_feedback_submissao_uva
 
@@ -1647,12 +1544,4 @@ actions:
   - utter_ask_problema
   - utter_ask_linguagem
 
-  - utter_codigo_em_python_variaveis
-  - utter_codigo_em_python_condicionais
-  - utter_codigo_em_python_repeticao
-  - utter_codigo_em_python_funcao
-  - utter_codigo_em_python_arquivos
-  - utter_codigo_em_python_vetores
-  - utter_codigo_em_python_matrizes
-  - utter_codigo_em_python_importar_bibliotecas
-  - utter_codigo_em_python_input_dados
+  - action_custom_form_action

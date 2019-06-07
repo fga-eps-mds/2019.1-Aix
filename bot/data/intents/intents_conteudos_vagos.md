@@ -84,3 +84,17 @@
 - complementar assunto discutido
 - suplementar o assunto
 - suplementar isso
+
+## intent:intent_utter_desafio_vaga
+- desafie-me
+- quero desafios
+- desejo desafios
+- gostaria de desafios
+- quero aumentar a dificuldade
+- dificulte os exercícios
+- me desafie
+- challenge accepted
+- me mostra o desafio
+- me mostre o desafio
+- desafio
+- me desafia
