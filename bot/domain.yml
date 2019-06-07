@@ -256,21 +256,16 @@ templates:
   # ============================ NAVEGAÇÃO PRINCIPAL ============================ #
   utter_start:
     - text: |
-        Eu sou a Aix, você quer saber do que sou capaz? Pois béem, eu posso:
-        1. Explicar um conteúdo;
-        2. Citar exemplos;
-        3. Mostrar links extras sobre o conteúdo;
-        4. Indicar exercícios;
-        5. Indicar desafios;
-        6. Pesquisar no StackOverflow.
+        Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado dessa linguagem de programação!
 
-        Infelizmente eu não sei tudo ainda... Mas qualquer coisa, para ver todo o conteúdo
-        já inserido, é só me pedir o cronograma de estudos!
-
+        Infelizmente eu não sei tudo ainda... Mas qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o cronograma de estudos!
         P.S: e, em caso de dúvida do meu funcionamento, digite o /help que vou te ensinar!
 
         E lembre-se: eu não sou um simples robô, poxa!! Não esqueça os bons modos comigo!
         Que tal me dar um oi para começarmos? :)
+        
+        Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
+
 
 
   utter_sobre_programaçao:
