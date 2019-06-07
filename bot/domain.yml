@@ -1490,15 +1490,4 @@ actions:
   - utter_ask_problema
   - utter_ask_linguagem
 
-
-  - utter_codigo_em_python_variaveis
-  - utter_codigo_em_python_condicionais
-  - utter_codigo_em_python_repeticao
-  - utter_codigo_em_python_funcao
-  - utter_codigo_em_python_arquivos
-  - utter_codigo_em_python_vetores
-  - utter_codigo_em_python_matrizes
-  - utter_codigo_em_python_importar_bibliotecas
-  - utter_codigo_em_python_input_dados
-
   - action_custom_form_action
