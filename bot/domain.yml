@@ -344,26 +344,26 @@ templates:
   utter_cronograma:
     - text: |
         Vamos iniciar nossa jornada em aprender python! Veja um cronograma de conteúdos para que você aprenda de forma simples e divertida:
-          1º - Conhecer o python.
-          2º - Instalar ou verificar a versão do python.
-          3º - Aprender a fazer seu primeiro programa.
-          4º - Aprender o que são variáveis e seus tipos.
-          5º - Aprender a ler dados do usuário.
-          6º - Aprender sobre estruturas condicionais.
-          7º - Aprender sobre estruturas de repetição.
-          8º - Aprender sobre vetores.
-          9º - Aprender sobre strings.
-          10º - Aprender sobre matrizes.
-          11º - Aprender sobre bibliotecas.
-          12º - Aprender sobre funções.
-          13º - Aprender sobre arquivos.
-          14º - Aprender sobre o stackoverflow.
 
-          Bée..Para acessar um conteúdo específico basta me pedir assim:
-          o que é [conteúdo], como fazer [conteúdo], o que são [conteúdo], como usar [contéudo]
+        1º - Conhecer o python.
+        2º - Instalar o python.
+        3º - Criando seu primeiro programa.
+        4º - Variáveis
+        5º - Aprender a ler dados do usuário.
+        6º - Estruturas condicionais.
+        7º - Estruturas de repetição.
+        8º - Vetores.
+        9º - Strings.
+        10º - Matrizes.
+        11º - Bibliotecas.
+        12º - Funções.
+        13º - Arquivos.
+        14º - Aprender sobre o StackOverflow.
 
-          Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
-          Fácil como comer capim! Não perca tempo e vamos aprender python!
+        Bée..Para acessar um conteúdo específico basta me pedir como te ensinei no menu ajuda!
+
+        Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
+        Fácil como comer capim! Não perca tempo e vamos aprender python!
 
   utter_sobre_aix:
     - text: |
