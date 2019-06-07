@@ -146,7 +146,7 @@ templates:
         Sugiro tambéem dar uma olhada no nosso cronograma de estudos! Digite /cronograma para acessá-lo.
 
   utter_help:
-   - text: |
+    - text: |
         Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
         É béem simples...
         Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
@@ -176,7 +176,7 @@ templates:
         7. Pesquisar no StackOverflow.
         8. Informar um cronograma de conteúdos de python.
 
-      image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
+        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
 
   utter_despedir:
     - text: |
@@ -258,7 +258,7 @@ templates:
 
         Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
 
-      image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
+        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
 
 
   utter_sobre_programaçao:
