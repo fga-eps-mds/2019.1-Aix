@@ -37,10 +37,10 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
 * manter_conversa
     - utter_manter_conversa
 
@@ -72,12 +72,13 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
 * manter_conversa
     - utter_manter_conversa
+
 
 ##full_path_repeticao
 * sobre_repeticao
@@ -109,10 +110,12 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 * manter_conversa
     - utter_manter_conversa
 
@@ -147,10 +150,12 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 * manter_conversa
     - utter_manter_conversa
 
@@ -185,10 +190,12 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 * manter_conversa
     - utter_manter_conversa
 
@@ -223,12 +230,15 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 * manter_conversa
     - utter_manter_conversa
+
 
 ##full_path_arquivos
 * sobre_arquivos
@@ -257,9 +267,9 @@
     - action_utter_exemplo_vaga
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
 * intent_utter_exercicios_vaga
     - action_utter_exercicios_vaga
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
 * manter_conversa
     - utter_manter_conversa

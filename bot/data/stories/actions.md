@@ -55,3 +55,14 @@
 	- action_utter_conteudo_extra_vaga
 * manter_conversa
     - utter_manter_conversa
+
+
+## utter_desafio_vaga
+* intent_utter_desafio_vaga
+	- action_utter_desafio_vaga
+
+## utter_desafio_vaga2
+* intent_utter_desafio_vaga
+	- action_utter_desafio_vaga
+* manter_conversa
+    - utter_manter_conversa

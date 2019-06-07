@@ -84,6 +84,7 @@ intents:
   - intent_utter_codigo_em_python_vaga
   - intent_utter_exercicios_vaga
   - intent_utter_conteudo_extra_vaga
+  - intent_utter_desafio_vaga
 
 
   - login_no_uva
@@ -1080,11 +1081,11 @@ templates:
         Para fazer submissão de um exercício é necessária uma conta no juiz online UVA.
         Caso ainda não tenha basta criar por meio desse link: https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
         Agora que você tem uma conta, podemos prosseguir.
-        Bée, qual o seu username?
+        Bée, qual o seu username? (Envie apenas ele!!!)
 
   utter_ask_password:
     - text: |
-        Por favor, digite sua senha, mas não se preocupe, eu não vou olhar!
+        Por favor, digite sua senha, só a senha,mas não se preocupe, eu não vou olhar!
 
   utter_ask_codigo:
     - text: |
@@ -1092,12 +1093,12 @@ templates:
 
   utter_ask_problema:
     - text: |
-        Qual questão você quer submeter?
+        Qual questão você quer submeter, só o número dela por favor?
 
   utter_ask_linguagem:
     - text: |
-        Em qual linguagem você deseja submeter?
-        (C : 1, Java : 2, C++ : 3, Pascal : 4, C++ 11 : 5, Python3 : 6)
+        Em qual linguagem você deseja submeter? Pode escrever só o nome da linguagem que eu te entéendo!!
+        (C, Java, C++, Pascal, C++11, Python3)
 
 #================================= CODIGO EM PYTHON ===============================================#
   utter_codigo_em_python_variaveis:
@@ -1479,6 +1480,7 @@ actions:
   - action_utter_codigo_em_python_vaga
   - action_utter_exercicios_vaga
   - action_utter_conteudo_extra_vaga
+  - action_utter_desafio_vaga
 
   - action_feedback_submissao_uva
 
@@ -1487,3 +1489,16 @@ actions:
   - utter_ask_codigo
   - utter_ask_problema
   - utter_ask_linguagem
+
+
+  - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
+  - utter_codigo_em_python_input_dados
+
+  - action_custom_form_action
