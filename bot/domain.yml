@@ -147,44 +147,34 @@ templates:
 
   utter_help:
    - text: |
-        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos..
+        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
+        É béem simples...
+        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
 
-        Beleza! Aqui estão minhas informações:
-        Ações que posso fazer:
-          1. Explicar um conteúdo;
-          2. Citar exemplos;
-          3. Enviar um exemplo prático;
-          4. Indicar exercícios;
-          5. Enviar links extras sobre o conteúdo;
-          6. Sugerir desafios para cada conteúdo;
-          7. Pesquisar no StackOverflow.
-          8. Informar um cronograma de conteúdos de python.
+        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
 
-        Conteúdos mapeados:
-          - Entrada e saída de dados
-          - Variáveis
-          - Estruturas Condicionais
-          - Estruturas de Repetição
-          - Vetores
-          - Strings
-          - Matrizes
-          - Bibliotecas
-          - Funções
-          - Arquivos
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios sobre [Nome do conteúdo]
+        Quero saber mais sobre [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
 
-        Como? Escreva algo do tipo:
-          Quero saber o que é [Nome do conteúdo]
-          Quero um exemplo sobre [Nome do conteúdo]
-          Quero um exemplo em código de [Nome do conteúdo]
-          Me dê exercícios sobre [Nome do conteúdo]
-          Quero saber mais sobre [Nome do conteúdo]
-          Quero um desafio de [Nome do conteúdo]
-          *Para pesquisar no StackOverflow voce deve digitar:
-          pesquise sobre [conteúdo que você quer saber]
-          *Para acessar o cronograma:
-            /cronograma
+        Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
 
-        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
+        Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
+
+        Ah! E aqui estão minhas principais funções:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Enviar um exemplo prático;
+        4. Indicar exercícios;
+        5. Enviar links extras sobre o conteúdo;
+        6. Sugerir desafios para cada conteúdo;
+        7. Pesquisar no StackOverflow.
+        8. Informar um cronograma de conteúdos de python.
 
   utter_despedir:
     - text: |
@@ -263,7 +253,7 @@ templates:
 
         E lembre-se: eu não sou um simples robô, poxa!! Não esqueça os bons modos comigo!
         Que tal me dar um oi para começarmos? :)
-        
+
         Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
 
 
