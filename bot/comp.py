@@ -131,20 +131,38 @@ print(len(intents))
 print(len(actions))
 """
 from lark import Lark
-with open('domain.yml') as arquivo:
-    domain = arquivo.read()
-
+#with open('domain.yml') as arquivo:
+#    domain = arquivo.read()
+domain = """
+    utter_cumprimentar:
+        - text: |
+        Quer  
+        
+        
+    utter_exercicios_arquivos:
+    - text: |
+        Como
+        
+        
+    utter_cronograma:
+    - text: |
+        Vamos
+"""
 l = Lark(r""" start: exp
-    ?exp: utter
-        | action
-        | intent
-        | form
-        | entities
-        | slots
-        | templates
-    templates: utter_d text
-    utter_d: /utter_\w+:$/
-    text: /-\stext:\s\|\s+(.\n?\n?)*\n/
-
-""")
+    exp: templates
+        
+    templates: utter_def text
+            |   utter_def text templates
+        
+    text_mto: text text_mto
+    
+    utter_def: /\s*\n*utter_\w+:\s*/
+    
+    text: /\s*- text: \D(\n[^\n]+)\n/
+    
+    %import common.WS_INLINE
+    %ignore WS_INLINE
+    """)
 #o text está capturando o último caractere em outra expressão
+print(l.parse(domain).pretty())
+
