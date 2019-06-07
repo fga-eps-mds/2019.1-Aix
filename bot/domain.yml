@@ -1340,17 +1340,17 @@ templates:
         Você está evoluindo rápido! Se preferir podemos seguir pro próximo conteúdo sugerido: matrizes. É só perguntar o que são matrizes que te explico.
 
   utter_desafio_matrizes:
-      - text: |
-          Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
-          Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
+    - text: |
+        Agora que você já fez os exercícios mais fáceis, vou te dar alguns desafios... Vamos começar pelo nível 1!
+        Posso receber a sua submissão e te dizer se está certo ou não! Vamos nessa!
 
-          NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
+        NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
-          Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
-          Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-          Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+        Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
 
-          Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
+        Eai, resposta correta, né? Agora que você aprendeu 100% sobre matrizes, me peça, que te explico sobre como importar bibliotecas!
 
   utter_desafio_hello_world:
     - text: |
@@ -1374,11 +1374,11 @@ templates:
 
   utter_desafio_input_dados:
     - text: |
-          Que tal um desafio sobre importar dados?
-          Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
-          Depois printe tudo formatando do jeito que quiser!
+        Que tal um desafio sobre importar dados?
+        Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
+        Depois printe tudo formatando do jeito que quiser!
 
-          Caso queira o gabarito para conferir, me peça o código python em python de input de dados!
+        Caso queira o gabarito para conferir, me peça o código em python de input de dados!
 
 
 actions:
@@ -1398,46 +1398,67 @@ actions:
   - utter_cronograma
 
 
+  - utter_sobre_stack_overflow
   - utter_sobre_aix
   - utter_sobre_python
+  - utter_sobre_instalar_python
+  - utter_sobre_hello_world
   - utter_sobre_variaveis
   - utter_sobre_inteiros
   - utter_sobre_pontos_flutuantes
   - utter_sobre_caracteres
   - utter_sobre_booleanos
-  - utter_sobre_condicionais
-  - utter_sobre_arquivos
-  - utter_sobre_repeticao
-  - utter_sobre_funcao
-  - utter_sobre_vetores
-  - utter_sobre_matrizes
-  - utter_sobre_hello_world
-  - utter_sobre_importar_bibliotecas
-  - utter_sobre_instalar_python
-  - utter_sobre_strings
-  - utter_sobre_stack_overflow
-
   - utter_sobre_input_dados
+  - utter_sobre_condicionais
+  - utter_sobre_repeticao
+  - utter_sobre_vetores
+  - utter_sobre_strings
+  - utter_sobre_matrizes
+  - utter_sobre_importar_bibliotecas
+  - utter_sobre_funcao
+  - utter_sobre_arquivos    
+
 
   - utter_exemplo_variaveis
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
+  - utter_exemplo_vetores
+  - utter_exemplo_strings
+  - utter_exemplo_matrizes
+  - utter_exemplo_importar_bibliotecas
   - utter_exemplo_funcao
   - utter_exemplo_arquivos
-  - utter_exemplo_importar_bibliotecas
-  - utter_exemplo_vetores
-  - utter_exemplo_matrizes
-  - utter_exemplo_strings
+
+
+  - utter_codigo_em_python_input_dados
+  - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_condicionais
+  - utter_codigo_em_python_repeticao
+  - utter_codigo_em_python_vetores
+  - utter_codigo_em_python_matrizes
+  - utter_codigo_em_python_importar_bibliotecas
+  - utter_codigo_em_python_funcao
+  - utter_codigo_em_python_arquivos
 
 
   - utter_exercicios_variaveis
   - utter_exercicios_condicionais
   - utter_exercicios_repeticao
+  - utter_exercicios_vetores
+  - utter_exercicios_strings
+  - utter_exercicios_matrizes
   - utter_exercicios_funcao
   - utter_exercicios_arquivos
-  - utter_exercicios_vetores
-  - utter_exercicios_matrizes
-  - utter_exercicios_strings
+  
+
+  - utter_conteudo_extra_variaveis
+  - utter_conteudo_extra_condicionais
+  - utter_conteudo_extra_repeticao
+  - utter_conteudo_extra_vetores
+  - utter_conteudo_extra_strings
+  - utter_conteudo_extra_matrizes
+  - utter_conteudo_extra_funcao
+  - utter_conteudo_extra_arquivos
 
 
   - utter_desafio_hello_world
@@ -1446,17 +1467,6 @@ actions:
   - utter_desafio_vetores
   - utter_desafio_matrizes
   - utter_desafio_input_dados
-
-
-
-  - utter_conteudo_extra_variaveis
-  - utter_conteudo_extra_condicionais
-  - utter_conteudo_extra_repeticao
-  - utter_conteudo_extra_funcao
-  - utter_conteudo_extra_arquivos
-  - utter_conteudo_extra_vetores
-  - utter_conteudo_extra_matrizes
-  - utter_conteudo_extra_strings
 
 
   - action_pesquisa_stackoverflow
@@ -1479,15 +1489,5 @@ actions:
   - utter_ask_codigo
   - utter_ask_problema
   - utter_ask_linguagem
-
-  - utter_codigo_em_python_variaveis
-  - utter_codigo_em_python_condicionais
-  - utter_codigo_em_python_repeticao
-  - utter_codigo_em_python_funcao
-  - utter_codigo_em_python_arquivos
-  - utter_codigo_em_python_vetores
-  - utter_codigo_em_python_matrizes
-  - utter_codigo_em_python_importar_bibliotecas
-  - utter_codigo_em_python_input_dados
 
   - action_custom_form_action

@@ -1,3 +1,24 @@
+## exercicios_variaveis
+* exercicios_variaveis
+    - action_set_slot_value
+    - utter_exercicios_variaveis
+
+## exercicios_variaveis2
+* exercicios_variaveis
+    - action_set_slot_value
+    - utter_exercicios_variaveis
+* conteudo_extra_variaveis
+    - action_set_slot_value
+    - utter_conteudo_extra_variaveis
+
+## exercicios_variaveis3
+* exercicios_variaveis
+    - action_set_slot_value
+    - utter_exercicios_variaveis
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+
 ## exercicios_condicionais
 * exercicios_condicionais
     - action_set_slot_value
@@ -17,6 +38,7 @@
     - utter_exercicios_condicionais
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
+
 
 ## exercicios_repeticao
 * exercicios_repeticao
@@ -38,36 +60,6 @@
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 
-## exercicios_variaveis
-* exercicios_variaveis
-    - action_set_slot_value
-    - utter_exercicios_variaveis
-
-## exercicios_variaveis2
-* exercicios_variaveis
-    - action_set_slot_value
-    - utter_exercicios_variaveis
-* conteudo_extra_variaveis
-    - action_set_slot_value
-    - utter_conteudo_extra_variaveis
-
-## exercicios_variaveis3
-* exercicios_variaveis
-    - action_set_slot_value
-    - utter_exercicios_variaveis
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
-
-## exercicios_funcao
-* exercicios_funcao
-    - action_set_slot_value
-    - utter_exercicios_funcao
-
-## exercicios_arquivos
-* exercicios_arquivos
-    - action_set_slot_value
-    - utter_exercicios_arquivos
-
 ## exercicios_vetores
 * exercicios_vetores
     - action_set_slot_value
@@ -88,6 +80,28 @@
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 
+
+## exercicios_strings
+* exercicios_strings
+    - action_set_slot_value
+    - utter_exercicios_strings
+  
+## exercicios_strings2
+* exercicios_strings
+    - action_set_slot_value
+    - utter_exercicios_strings
+* conteudo_extra_strings
+    - action_set_slot_value
+    - utter_conteudo_extra_strings 
+
+## exercicios_strings3
+* exercicios_strings
+    - action_set_slot_value
+    - utter_exercicios_strings
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+
 ## exercicios_matrizes
 * exercicios_matrizes
     - action_set_slot_value
@@ -107,14 +121,49 @@
     - utter_exercicios_matrizes
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
+
+
+## exercicios_funcao
+* exercicios_funcao
+    - action_set_slot_value
+    - utter_exercicios_funcao
+
+## exercicios_funcao2
+* exercicios_funcao
+    - action_set_slot_value
+    - utter_exercicios_funcao
+* conteudo_extra_funcao
+    - action_set_slot_value
+    - utter_conteudo_extra_funcao
+    
+## exercicios_funcao3
+* exercicios_funcao
+    - action_set_slot_value
+    - utter_exercicios_funcao
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+
+## exercicios_arquivos
+* exercicios_arquivos
+    - action_set_slot_value
+    - utter_exercicios_arquivos
+
+## exercicios_arquivos2
+* exercicios_arquivos
+    - action_set_slot_value
+    - utter_exercicios_arquivos
+* conteudo_extra_arquivos
+    - action_set_slot_value
+    - utter_conteudo_extra_arquivos
+    
+## exercicios_arquivos3
+* exercicios_arquivos
+    - action_set_slot_value
+    - utter_exercicios_arquivos
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
   
     
-## exercicios_strings
-* exercicios_strings
-  - utter_exercicios_strings
-  
-## exercicios_strings2
-* exercicios_strings
-  - utter_exercicios_strings
-* conteudo_extra_strings
-  - utter_conteudo_extra_strings 
+
