@@ -183,7 +183,7 @@ templates:
           pesquise sobre [conteúdo que você quer saber]
           *Para acessar o cronograma:
             /cronograma
-          
+
         OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não. Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
 
   utter_despedir:
@@ -305,16 +305,22 @@ templates:
 
   utter_menu_ajuda:
     - text: |
-        Eu sou uma cabra béem inteligente e posso te ajudar com muitas coisas!
-        Talvez eu peça um pouco de feno em troca hein....
-        Brincaderia! hahaha
+        Para me pedir algumas coisas, você tem que ser bem claro comigo!!
+        Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, ahhaha!!
 
-        Você pode me perguntar tudo sobre essa maravilhosa cobrinha que chamamos de Python!
-        Me pergunta ai sobre alguma expressão ou estrutura em python, ou até mesmo como fazer um 'hello world'.. Qualquer coisa!
+        Me diga o que você deseja, e de qual conteúdo você quer aprender, béem assim olha:
 
-        E se quiser começar a aprender, é só pedir o cronograma de estudos!
-        Ele vai te ajudar a se localizar no conteúdo!!
-        Se seu pedido tiver essas palavras ou semelhantes me ajudaria a te entender: /cronograma, me de um cronograma de estudos de python
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios sobre [Nome do conteúdo]
+        Quero saber mais sobre [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
+        *Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
+
+        E se não souber por onde começar a aprender, é só pedir o cronograma de estudos, que o seu caminho já está todo trilhado, não se preocupe com isto!
+        Apenas digite: /cronograma . Ele vai te ajudar a se localizar quanto ao conteúdo!!
 
   utter_curiosidades_python:
     - text: |
@@ -352,10 +358,10 @@ templates:
           12º - Aprender sobre funções.
           13º - Aprender sobre arquivos.
           14º - Aprender sobre o stackoverflow.
-          
-          Bée..Para acessar um conteúdo específico basta me pedir assim: 
+
+          Bée..Para acessar um conteúdo específico basta me pedir assim:
           o que é [conteúdo], como fazer [conteúdo], o que são [conteúdo], como usar [contéudo]
-          
+
           Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
           Fácil como comer capim! Não perca tempo e vamos aprender python!
 
