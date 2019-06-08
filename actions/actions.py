@@ -107,6 +107,7 @@ class ActionFeedbackSubmissao(Action):
 
         dispatcher.utter_message(resposta)
         dispatcher.utter_message(next_content)
+        return username
 
 
 class CodeForm(forms.CustomFormAction):
@@ -164,7 +165,7 @@ class CodeForm(forms.CustomFormAction):
             linguagem = '4'
         elif(linguagem == 'c++11' or linguagem == 'c++ 11'):
             linguagem = '5'
-        elif(linguagem == 'python'):
+        elif(linguagem == 'python3' or linguagem == 'python 3'):
             linguagem = '6'
         else:
             linguagem = 'erro'
