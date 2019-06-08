@@ -70,7 +70,11 @@ Será aplicado um teste de usabilidade baseado no feedback de usuário da univer
 
 
     Atividade 2
-    - Executar tarefa a fim realizar um pesquisa no stackoverflow
+    - Executar tarefa a fim realizar um pesquisa no stackoverflow para fazer com que o bot execute uma pesquisa sobre determinado conteúdo relacionado a programação
+        - Analisar se o usuário consegue chegar até a utter de pesquisa no stackoverflow, se ele tem problemas para conseguir chegar nesta utter e se ele teve de executar muitos passos caso a intenção tenha sido apenas tirar uma dúvida específica.
+        - Analisar as formas como o usuário interage com o bot com relação ao desejo de realizar uma pesquisa
+        - Analisar insatisfações do usuário quanto a realização da tarefa
+        - Analisar quantos caminhos foram necessários até chegar no esclarecimento
 
 
     Atividade 3
