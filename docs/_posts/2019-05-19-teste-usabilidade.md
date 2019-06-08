@@ -1,16 +1,15 @@
 ---
 layout: post
-title: Resultados do Teste de usabilidade 1
+title: Teste de usabilidade
 tags: teste usabilidade 
-category: Teste de Usabilidade
+category: Produto
 ---
 |Data   |Versão   |Descrição   |Autor   |
 |---|---|---|---|
 |19/05/2019   | 1.0  |Criação do documento   |Lucas Vitor   |
 
-
 ## Introdução
-Afim de atestar a qualidade do produto Aix, foi realizado um teste de usabilidade com pessoas que se enquadram em nosso público-alvo (alunos e monitores de disciplinas de introdução à programação ou iniciantes em geral de programação) tanto em relação ao questionário online divulgado pela universidade quanto por um teste aplicado presencialmente.
+Afim de atestar a qualidade do produto Aix, foi realizado um teste de usabilidade com pessoas que se enquadram em nosso público-alvo (alunos e monitores de disciplinas de introdução à programação ou iniciantes em geral de programação).
 
 ## Metodologia
 

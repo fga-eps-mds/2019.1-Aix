@@ -2,7 +2,7 @@
 layout: post
 title: Pipeline de DevOps
 tags: devops
-category: Projeto
+category: devops
 ---
 ## Pipeline
 
