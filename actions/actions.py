@@ -164,7 +164,7 @@ class CodeForm(forms.CustomFormAction):
             linguagem = '4'
         elif(linguagem == 'c++11' or linguagem == 'c++ 11'):
             linguagem = '5'
-        elif(linguagem == 'python'):
+        elif(linguagem == 'python3' or linguagem == 'python 3'):
             linguagem = '6'
         else:
             linguagem = 'erro'
