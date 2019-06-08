@@ -134,6 +134,14 @@ from lark import Lark
 #with open('domain.yml') as arquivo:
 #    domain = arquivo.read()
 domain = """   
+entities:
+  - conteudo
+  - username
+  - password
+  - codigo
+  - problema
+  - linguagem
+
 slots:
     conteudo:
         type: text
@@ -213,10 +221,15 @@ actions:
   - utter_sobre_programaçao
 """
 l = Lark(r""" start: exp
-    exp: slots templates actions
+    exp: entities slots templates actions
         | comment
         | actions
         
+    entities: entities_text entitie_name entities
+            | entitie_name entities
+            | entitie_name
+                
+    
     slots: slots_text slot_name type slot_any slots
         | slot_name type slot_any slots
         | slot_name type slot_any
@@ -252,13 +265,17 @@ l = Lark(r""" start: exp
     
     templates_text: /\n*templates:\n?/
     
-    slots_text: /\n*slots:\n/
+    slots_text: /\n\s*slots:\n/
     
     slot_name: /\s*.*:\n?/
     
     type: /\s*.*\n/
     
     slot_any: /\s*([^\n])*\n/
+    
+    entities_text: /\n*\s*entities:\n/
+    
+    entitie_name: /\s*-\s[^\n]*\n/
     
     %import common.WS_INLINE
     %ignore WS_INLINE
