@@ -3,6 +3,9 @@ import os
 import sys
 import inspect
 import api_uva
+import requests
+import json
+from bs4 import BeautifulSoup
 from rasa_core_sdk import Tracker
 from actions.actions import UserForm
 from actions.actions import CodeForm
@@ -72,42 +75,63 @@ def test_submit_code_form(custom_code_form, custom_dispatcher,
     slots = custom_code_form.submit(custom_dispatcher, 
                                     custom_tracker, custom_domain)
     assert slots == []
-"""
+
+@pytest.fixture
+def custom_session():
+    session = requests.session()
+    return session
+
+@pytest.fixture
+def custom_url():
+    url = 'http://uva.onlinejudge.org/'
+    return url
+
 def test_get_params():
-    api_uva.get_params()
+    texto = "<body></body>"
+    form = BeautifulSoup(texto)
+    parametros = api_uva.get_params(form)
+    assert parametros == {}
 
+def test_get_soup(custom_session, custom_url):
+    request = custom_session.get(custom_url)
+    html = request.text
+    soup = api_uva.get_soup(custom_url)
+    custom_soup = BeautifulSoup(html, features="html.parser")
+    assert soup.title == custom_soup.title
 
-def test_get_soup():
-    api_uva.get_soup()
+def test_make_login(custom_url):
+    username = 'username'
+    password = 'password'
+    url_falso = 'https://www.google.com/'
+    resultado = api_uva.make_login(username, password, url_falso)
+    assert resultado == False
+    username = 'username'
+    password = 'password'
+    resultado = api_uva.make_login(username, password, custom_url)
+    assert resultado == False
+    username = 'usuario_teste'
+    password = '123456789'
+    resultado = api_uva.make_login(username, password, custom_url)
+    assert resultado == True
 
-
-def test_make_login():
-    api_uva.make_login()
-
-
+"""
 def test_get_code():
     api_uva.get_code()
-
 
 def test_get_problem():
     api_uva.get_problem()
 
-
 def test_get_problem_by_id():
     api_uva.get_problem_by_id()
-
 
 def test_get_problem_by_number():
     api_uva.get_problem_by_number()
 
-
 def test_submeter_um_problema():
     api_uva.submeter_um_problema()
 
-
 def test_username_para_userid():
     api_uva.username_para_userid()
-
 
 def test_resultado_ultima_submissao():
     api_uva.resultado_ultima_submissao()"""
