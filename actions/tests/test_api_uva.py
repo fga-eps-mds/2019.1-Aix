@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from rasa_core_sdk import Tracker
 from actions.actions import UserForm
 from actions.actions import CodeForm
-
+from actions.actions import ActionFeedbackSubmissao
 
 @pytest.fixture
 def custom_domain():
@@ -53,6 +53,7 @@ def test_submit_user_form(custom_user_form, custom_dispatcher,
 def custom_code_form():
     return CodeForm();
 
+
 def test_name_code_form(custom_code_form):
     name = custom_code_form.name()
     assert name == "code_form"
@@ -76,6 +77,7 @@ def test_submit_code_form(custom_code_form, custom_dispatcher,
                                     custom_tracker, custom_domain)
     assert slots == []
 
+
 @pytest.fixture
 def custom_session():
     session = requests.session()
@@ -86,16 +88,17 @@ def custom_url():
     url = 'http://uva.onlinejudge.org/'
     return url
 
+
 def test_get_params():
     texto = "<body></body>"
-    form = BeautifulSoup(texto, featrues='html.parser')
+    form = BeautifulSoup(texto, features="html.parser")
     parametros = api_uva.get_params(form)
     assert parametros == {}
 
 def test_get_soup(custom_session, custom_url):
+    soup = api_uva.get_soup(custom_url)
     request = custom_session.get(custom_url)
     html = request.text
-    soup = api_uva.get_soup(custom_url)
     custom_soup = BeautifulSoup(html, features="html.parser")
     assert soup.title == custom_soup.title
 
@@ -115,25 +118,55 @@ def test_make_login(custom_url):
     assert resultado == True
 
 def test_get_code():
-    path = './teste.txt'
+    path = 'actions/tests/teste.txt'
     resultado = api_uva.get_code(path)
     assert resultado == "testepytest"
 
 
-def test_get_problem():
-    api_uva.get_problem()
+@pytest.fixture
+def custom_data_by_id():
+    url = 'http://uhunt.felix-halim.net/api/p/id/2454'
+    resp = requests.get(url)
+    data = json.loads(resp.text)
+    return data
 
-def test_get_problem_by_id():
-    api_uva.get_problem_by_id()
+@pytest.fixture
+def custom_data_by_number():
+    url = 'http://uhunt.felix-halim.net/api/p/num/11459'
+    resp = requests.get(url)
+    data = json.loads(resp.text)
+    return data
 
-def test_get_problem_by_number():
-    api_uva.get_problem_by_number()
+
+def test_get_problem(custom_data_by_id, custom_data_by_number):
+    resultado = api_uva.get_problem(None, None, True, True)
+    assert resultado == None
+    resultado = api_uva.get_problem('2454', None, True, False)
+    assert resultado == custom_data_by_id
+    resultado = api_uva.get_problem(None, '11459', False, True)
+    assert resultado == custom_data_by_number
+    resultado = api_uva.get_problem(None, None, False, False)
+    assert resultado == None
+
+def test_get_problem_by_id(custom_data_by_id):
+    resultado = api_uva.get_problem_by_id('2454')
+    assert resultado == custom_data_by_id 
+
+def test_get_problem_by_number(custom_data_by_number):
+    resultado = api_uva.get_problem_by_number('11459')
+    assert resultado == custom_data_by_number
 
 def test_submeter_um_problema():
-    api_uva.submeter_um_problema()
+    resultado = api_uva.submeter_um_problema('username', 'password',
+                                             '11459', '5', '', 'codigo')
+    assert resultado == 'UVa Online Judge'
+    resultado = api_uva.submeter_um_problema('username', 'password',
+                                             '11459', '5', 'actions/tests/teste.txt',
+                                             'codigo')
+    assert resultado == 'UVa Online Judge'
 
 def test_username_para_userid():
-   assert api_uva.username_para_userid(usuario_teste) = '1057837'
+   assert api_uva.username_para_userid('usuario_teste') == '1057837'
 
 def test_resultado_ultima_submissao():
-    assert = api_uva.resultado_ultima_submissao('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
+    assert api_uva.resultado_ultima_submissao('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
