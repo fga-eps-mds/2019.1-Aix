@@ -229,7 +229,9 @@ domain = """
           14º - Aprender sobre o stackoverflow. Me envie "o que é stackoverflow" que te ensino e mostro como pesquisar lá..bée
           Obs: Cada um dos conteúdos possui explicação, exemplos teóricos e práticos, exercícios, desafios e alguns tem até subconteúdos!
           Fácil como comer capim! Não perca tempo e vamos aprender python!
-
+          
+    #        commnetsdfdsfds
+    
   utter_sobre_aix:
     - text: |
         Você ainda não me conhece?! Por onde é que você navegava esse tempo todo?
@@ -282,12 +284,17 @@ domain = """
 """
 l = Lark(r""" start: exp
     exp: templates
+        | comment
         
     templates: utter_def text_mto
             |   utter_def text_mto templates
+            | templates comment
+            | comment templates
         
     text_mto: text text_mto
             | text
+            
+    comment: /\n*\s*#[^\n]*\n/
     
     utter_def: /\s*\n*utter_\w+:\s*/
     
