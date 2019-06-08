@@ -107,6 +107,7 @@ class ActionFeedbackSubmissao(Action):
 
         dispatcher.utter_message(resposta)
         dispatcher.utter_message(next_content)
+        return username
 
 
 class CodeForm(forms.CustomFormAction):

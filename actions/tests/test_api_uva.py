@@ -20,6 +20,10 @@ def custom_tracker():
     return Tracker('', {}, {}, '', '', '', {}, '')
 
 @pytest.fixture
+def custom_tracker_feedback():
+    return Tracker('', {'username':'usuario_teste'}, {}, '', '', '', {}, '')
+
+@pytest.fixture
 def custom_dispatcher():
     class Dispatcher():
         def utter_message(self, text=''):
@@ -76,6 +80,23 @@ def test_submit_code_form(custom_code_form, custom_dispatcher,
     slots = custom_code_form.submit(custom_dispatcher, 
                                     custom_tracker, custom_domain)
     assert slots == []
+
+
+@pytest.fixture
+def custom_feedback_submissao():
+    return ActionFeedbackSubmissao()
+
+
+def test_name_feedback_submissao(custom_feedback_submissao):
+    name = custom_feedback_submissao.name()
+    assert name == "action_feedback_submissao_uva"
+
+def test_run_feedback_submissao(custom_feedback_submissao, custom_dispatcher,
+                                custom_tracker_feedback, custom_domain):
+    username = custom_feedback_submissao.run(custom_dispatcher,
+                                             custom_tracker_feedback,
+                                             custom_domain)
+    assert username == 'usuario_teste'
 
 
 @pytest.fixture
