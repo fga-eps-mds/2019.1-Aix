@@ -47,23 +47,29 @@ Será aplicado um teste de usabilidade baseado no feedback de usuário da univer
 * Programação das Atividades:
 
     Atividade 0
+    - Executar uma atividade em cima de um determinado conteúdo para colher informaçõẽs quanto a objetividade dos conteúdos do bot
+        * Deixar que o usuário converse de forma livre com o bot para colher a validação do usuário quanto a objetividade das informações oferecidas pelo bot.
+        * Colher dados como: 
+            - Se as respostas estão objetivas
+            - Se o usuário consegue ser respondido de acordo com a forma com que pergunta
+            - Se o usuário se sentiu perdido ou não soube o que ou como perguntar
+            - Se possui alguma sugestão de melhoria
 
 
     Atividade 1
+    - Executar tarefa a fim de percorrer todas as etapas de ensino da Aix assim como ter acesso a um código de exemplo
 
 
     Atividade 2
+    - Executar tarefa a fim realizar um pesquisa no stackoverflow
 
 
     Atividade 3
+    - Executar atividade baseando se no cronograma fornecido pelo bot
 
 
     Atividade 4 
+    - Executar uma tarefa referente a tirar submeter um exercício no Juiz Online
 
-
-    Atividade 5 
-
-
-    Atividade 6
 
 
