@@ -88,7 +88,7 @@ def custom_url():
 
 def test_get_params():
     texto = "<body></body>"
-    form = BeautifulSoup(texto)
+    form = BeautifulSoup(texto, featrues='html.parser')
     parametros = api_uva.get_params(form)
     assert parametros == {}
 
@@ -114,9 +114,11 @@ def test_make_login(custom_url):
     resultado = api_uva.make_login(username, password, custom_url)
     assert resultado == True
 
-"""
 def test_get_code():
-    api_uva.get_code()
+    path = './teste.txt'
+    resultado = api_uva.get_code(path)
+    assert resultado == "testepytest"
+
 
 def test_get_problem():
     api_uva.get_problem()
@@ -131,7 +133,7 @@ def test_submeter_um_problema():
     api_uva.submeter_um_problema()
 
 def test_username_para_userid():
-    api_uva.username_para_userid()
+   assert api_uva.username_para_userid(usuario_teste) = '1057837'
 
 def test_resultado_ultima_submissao():
-    api_uva.resultado_ultima_submissao()"""
+    assert = api_uva.resultado_ultima_submissao('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
