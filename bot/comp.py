@@ -133,7 +133,22 @@ print(len(actions))
 from lark import Lark
 #with open('domain.yml') as arquivo:
 #    domain = arquivo.read()
-domain = """   
+domain = """ 
+intents:
+  - start
+  - help
+  - cumprimentar
+  - despedir
+  - tudo_bem
+  - manter_conversa
+  - out_of_scope
+  - assuntos_inapropriados
+  - sobre_programaçao
+
+forms:
+  - user_form
+  - code_form
+  
 entities:
   - conteudo
   - username
@@ -221,9 +236,18 @@ actions:
   - utter_sobre_programaçao
 """
 l = Lark(r""" start: exp
-    exp: entities slots templates actions
+    exp: intents forms entities slots templates actions
         | comment
         | actions
+        
+    intents: intents_text intents
+            | intent_name intents
+            | intent_name
+    
+    forms: forms_text forms
+        | form_name forms
+        | form_name
+        
         
     entities: entities_text entitie_name entities
             | entitie_name entities
@@ -276,6 +300,14 @@ l = Lark(r""" start: exp
     entities_text: /\n*\s*entities:\n/
     
     entitie_name: /\s*-\s[^\n]*\n/
+    
+    forms_text: /\n*\s*forms:\n/
+    
+    form_name: /\s*-\s[^\n]*\n/
+    
+    intents_text: /\n*\s*intents:\n/
+    
+    intent_name: /\s*-\s[^\n]*\n/
     
     %import common.WS_INLINE
     %ignore WS_INLINE
