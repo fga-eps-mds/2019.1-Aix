@@ -87,7 +87,15 @@ Será aplicado um teste de usabilidade baseado no feedback de usuário da univer
 
 
     Atividade 4 
-    - Executar uma tarefa referente a tirar submeter um exercício no Juiz Online
+    - Executar uma tarefa referente a tirar submeter um exercício no Juiz Online. 
+      Pedir que o usuário inicie a conversa em cima de um determinado conteúdo disposto no bot
+        - Analisar se o usuário consegue chegar até a intent de sugestão de exercício
+        - Analisar se o usuário consegue submeter o exercício da forma correta
+        - Analisar se o usuário recebe o feedback de forma coerente
+        - Analisar se o usuário possui alguma duvida durante o processo de submissão
+        - Analisar se o usuário entende de fato no que está submetendo o exercicio e o que será retornado
+        - Colher sugestões de melhorias
+        - Colher dificuldades encontradas
 
 
 
