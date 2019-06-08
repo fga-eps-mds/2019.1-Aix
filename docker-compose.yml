@@ -47,14 +47,15 @@ services:
       - BOT_VERSION=0.1.0-alpha
 
       # Analytics config
-      - ENABLE_ANALYTICS=True
-      - ELASTICSEARCH_URL=http://elasticsearch
+      - ENABLE_ANALYTICS=False
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
 
       # HTTP login on elasticsearch
-      - ELASTICSEARCH_USER=elastic
-      - ELASTICSEARCH_PASSWORD=
-      - ELASTICSEARCH_HTTP_SCHEME=http
-      - ELASTICSEARCH_PORT=9200
+      # There's no need to run ES in development
+      # - ELASTICSEARCH_USER=elastic
+      # - ELASTICSEARCH_PASSWORD=
+      # - ELASTICSEARCH_HTTP_SCHEME=http
+      # - ELASTICSEARCH_PORT=9200
     ports:
       - 5005:5005
       # - 5002:5002
@@ -104,8 +105,6 @@ services:
     ports:
       - 9200:9200
       - 9300:9300
-    networks:
-      - docker-network
     environment:
       # - cluster.initial_master_nodes=elasticsearch
       - discovery.type=single-node
@@ -113,6 +112,8 @@ services:
       memlock:
         soft: -1
         hard: -1
+    volumes:
+      - ./esdata:/usr/share/elasticsearch/data
 
   kibana:
     image: kibana:7.1.0
@@ -123,10 +124,3 @@ services:
       - 5601:5601
     depends_on:
       - elasticsearch
-    networks:
-      - docker-network
-
-
-networks:
-  docker-network:
-    driver: bridge
