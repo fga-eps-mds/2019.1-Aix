@@ -79,6 +79,11 @@ Será aplicado um teste de usabilidade baseado no feedback de usuário da univer
 
     Atividade 3
     - Executar atividade baseando se no cronograma fornecido pelo bot
+        * Induzir usuário a iniciar uma conversa com o bot a fim de ter acesso ao cronograma sugerido pela Aix.
+            - Analisar se o usuário achou intuitivo o uso do cronograma
+            - Analisar se o cronograma de fato auxilia na tomada de decisão quanto a ordem de aprendizado de conteúdos no bot
+            - Analisar se o usuário de fato segue o cronograma
+            - Recolher sugestões de melhorias do usuário
 
 
     Atividade 4 
