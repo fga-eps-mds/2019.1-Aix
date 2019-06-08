@@ -58,6 +58,15 @@ Será aplicado um teste de usabilidade baseado no feedback de usuário da univer
 
     Atividade 1
     - Executar tarefa a fim de percorrer todas as etapas de ensino da Aix assim como ter acesso a um código de exemplo
+        * Sugerir que o usuário comece tirando uma dúvida sobre um conteúdo específico a fim de fazer com que ele percorra todas as etapas de ensino como:
+            Definição do Conteúdo
+            Linkagem de conteúdo extra
+            Exemplo de aplicação em Python
+        * Colher dados como:
+            - Se o usuário achou o fluxo intuitivo
+            - Se o usuário conseguiu compreender melhor tendo o código como exemplo
+            - Se o formato como o código foi fornecido auxilia ou dificulta
+            - Se o usuário possui alguma sugestão de melhoria
 
 
     Atividade 2
