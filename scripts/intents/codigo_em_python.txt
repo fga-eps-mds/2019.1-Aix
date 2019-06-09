@@ -1,15 +1,15 @@
-- código [CONTEUDO]
-- códipo python [CONTEUDO]
-- [CONTEUDO] em python
-- código de [CONTEUDO]
-- exemplo prático de [CONTEUDO]
-- [CONTEUDO] no python
-- [CONTEUDO] em código
-- código em python de [CONTEUDO]
-- implementação com [CONTEUDO]
-- exemplifique em código [CONTEUDO]
-- como funcionam [CONTEUDO] no código
-- implemente um exemplo de [CONTEUDO]
-- me mostre um código com [CONTEUDO]
-- demonstre [CONTEUDO] na prática
-- demonstre um código em python que possua [CONTEUDO]
+código [CONTEUDO]
+códipo python [CONTEUDO]
+[CONTEUDO] em python
+código de [CONTEUDO]
+exemplo prático de [CONTEUDO]
+[CONTEUDO] no python
+[CONTEUDO] em código
+código em python de [CONTEUDO]
+implementação com [CONTEUDO]
+exemplifique em código [CONTEUDO]
+como funcionam [CONTEUDO] no código
+implemente um exemplo de [CONTEUDO]
+me mostre um código com [CONTEUDO]
+demonstre [CONTEUDO] na prática
+demonstre um código em python que possua [CONTEUDO]
