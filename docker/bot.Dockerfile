@@ -29,9 +29,7 @@ WORKDIR /bot
 ENV TRAINING_EPOCHS=5                     \
     MAX_TYPING_TIME=4                      \
     MIN_TYPING_TIME=1                      \
-    WORDS_PER_SECOND_TYPING=5              \
-    ENABLE_ANALYTICS=False                 \
-    ELASTICSEARCH_URL=elasticsearch:9200
+    WORDS_PER_SECOND_TYPING=5
 
 
 CMD python /scripts/bot_config.py -r $ROCKETCHAT_URL -rasa $RASA_URL                      \

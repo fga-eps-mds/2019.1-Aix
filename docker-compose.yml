@@ -46,6 +46,16 @@ services:
       # Last commit hash using this command: git rev-parse HEAD
       - BOT_VERSION=0.1.0-alpha
 
+      # Analytics config
+      - ENABLE_ANALYTICS=False
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+
+      # HTTP login on elasticsearch
+      # There's no need to run ES in development
+      # - ELASTICSEARCH_USER=elastic
+      # - ELASTICSEARCH_PASSWORD=
+      # - ELASTICSEARCH_HTTP_SCHEME=http
+      # - ELASTICSEARCH_PORT=9200
     ports:
       - 5005:5005
       # - 5002:5002
@@ -88,3 +98,29 @@ services:
       dockerfile: ./jupyter.Dockerfile
     ports:
       - 8888:8888
+
+ # ========================== Analytics =======================================
+  elasticsearch:
+    image: elasticsearch:7.1.0
+    ports:
+      - 9200:9200
+      - 9300:9300
+    environment:
+      # - cluster.initial_master_nodes=elasticsearch
+      - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./esdata:/usr/share/elasticsearch/data
+
+  kibana:
+    image: kibana:7.1.0
+    environment:
+      - SERVER_NAME=localhost
+      - ELASTICSEARCH_URL=http://localhost:9200/
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch

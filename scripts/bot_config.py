@@ -30,7 +30,7 @@ parser.add_argument(
     help='Bot username at RocketChat'
 )
 parser.add_argument(
-    '--bot-email', '-be', type=str,
+    '--bot-email', '-be', type=str, default='aix@email.com',
     help='Bot email at RocketChat'
 )
 parser.add_argument(
@@ -243,8 +243,10 @@ def create_department(bot_agent_id):
             'department': {
                 'enabled': True,
                 'showOnRegistration': True,
+                'showOnOfflineForm': True,
                 'name': 'department',
-                'description': 'default department'
+                'description': 'default department',
+                'email': bot['email']
             },
             'agents': [{
                 'agentId': bot_agent_id,

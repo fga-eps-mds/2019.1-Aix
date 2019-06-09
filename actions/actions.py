@@ -1,6 +1,6 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
-from rasa_core_sdk.forms import FormAction
+from actions import forms
 from actions import api_uva
 import requests
 import json
@@ -62,7 +62,7 @@ class ActionPesquisaStackoverflow(Action):
             )
 
 
-class UserForm(FormAction):
+class UserForm(forms.CustomFormAction):
     def name(self):
         return "user_form"
 
@@ -107,9 +107,10 @@ class ActionFeedbackSubmissao(Action):
 
         dispatcher.utter_message(resposta)
         dispatcher.utter_message(next_content)
+        return username
 
 
-class CodeForm(FormAction):
+class CodeForm(forms.CustomFormAction):
     def name(self):
         return "code_form"
 
@@ -128,11 +129,18 @@ class CodeForm(FormAction):
         codigo = tracker.get_slot('codigo')
         problema = tracker.get_slot('problema')
         linguagem = tracker.get_slot('linguagem')
-        response = api_uva.submeter_um_problema(username=username,
-                                                password=password,
-                                                problem_num=str(problema),
-                                                lang=str(linguagem),
-                                                codigo=str(codigo))
+
+        linguagem = self.map_linguagem(linguagem)
+
+        if(linguagem != 'erro'):
+            response = api_uva.submeter_um_problema(username=username,
+                                                    password=password,
+                                                    problem_num=str(problema),
+                                                    lang=str(linguagem),
+                                                    codigo=str(codigo))
+        else:
+            response = 'erro'
+
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
         else:
@@ -144,6 +152,24 @@ class CodeForm(FormAction):
         reset_slots.append(SlotSet('linguagem', None))
 
         return reset_slots
+
+    def map_linguagem(self, linguagem):
+        linguagem = linguagem.lower()
+        if(linguagem == 'c'):
+            linguagem = '1'
+        elif(linguagem == 'java'):
+            linguagem = '2'
+        elif(linguagem == 'c++'):
+            linguagem = '3'
+        elif(linguagem == 'pascal'):
+            linguagem = '4'
+        elif(linguagem == 'c++11' or linguagem == 'c++ 11'):
+            linguagem = '5'
+        elif(linguagem == 'python3' or linguagem == 'python 3'):
+            linguagem = '6'
+        else:
+            linguagem = 'erro'
+        return linguagem
 
 
 class ActionSetSlotValue(Action):
@@ -175,13 +201,13 @@ class ActionUtterVaga(Action):
         return "action_utter_vaga"
 
     def run(self, dispatcher, tracker, domain):
-        pass
+        return ''
 
     def validate_subject(self, domain, desired_subject):
-        utter_index = domain['actions'].index(desired_subject)
-        if(type(utter_index) is int):
+        try:
+            domain['actions'].index(desired_subject)
             return True
-        else:
+        except ValueError:
             return False
 
     def dispatch_message(self, tracker, dispatcher, is_valid, desired_subject):
@@ -192,6 +218,7 @@ class ActionUtterVaga(Action):
                                      'não sei falar sobre esse conteúdo!' +
                                      ' Pois béem, tente me perguntar outra' +
                                      'coisa')
+        return is_valid
 
 
 class ActionUtterSobreVaga(ActionUtterVaga):
@@ -205,11 +232,13 @@ class ActionUtterSobreVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_sobre_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+            return slot_content
 
 
 class ActionUtterExemploVaga(ActionUtterVaga):
@@ -223,11 +252,13 @@ class ActionUtterExemploVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_exemplo_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+            return slot_content
 
 
 class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
@@ -241,11 +272,13 @@ class ActionUtterCodigoEmPythonVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_codigo_em_python_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+            return slot_content
 
 
 class ActionUtterExerciciosVaga(ActionUtterVaga):
@@ -259,11 +292,13 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_exercicios_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+            return slot_content
 
 
 class ActionUtterConteudoExtraVaga(ActionUtterVaga):
@@ -277,8 +312,30 @@ class ActionUtterConteudoExtraVaga(ActionUtterVaga):
                                      ' Você ainda não perguntou' +
                                      ' sobre nada! Defina um assunto' +
                                      ' primeiro!')
+            return slot_content
         else:
             desired_subject = 'utter_conteudo_extra_' + slot_content
             is_valid = self.validate_subject(domain, desired_subject)
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
+            return slot_content
+
+
+class ActionUtterDesafioVaga(ActionUtterVaga):
+    def name(self):
+        return "action_utter_desafio_vaga"
+
+    def run(self, dispatcher, tracker, domain):
+        slot_content = tracker.get_slot('conteudo')
+        if(slot_content == 'erro'):
+            dispatcher.utter_message('Estou confusa, bée...' +
+                                     ' Você ainda não perguntou' +
+                                     ' sobre nada! Defina um assunto' +
+                                     ' primeiro!')
+            return slot_content
+        else:
+            desired_subject = 'utter_desafio_' + slot_content
+            is_valid = self.validate_subject(domain, desired_subject)
+            self.dispatch_message(tracker, dispatcher,
+                                  is_valid, desired_subject)
+            return slot_content
