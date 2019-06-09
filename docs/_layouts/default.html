@@ -119,6 +119,19 @@
                     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
                     {% endfor %}
                 </ul>
+                <h2>Testes de Usabilidade</h2>
+                <ul>
+                    {% assign posts = '' | split: '' %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'Teste de Usabilidade' %}
+                    {% assign posts = posts | push: post %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign posts = posts | sort: 'date' | reverse %}
+                    {% for post in posts %}
+                    <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
                 <h2>Contribuição</h2>
                 <ul>
                     {% assign posts = '' | split: '' %}
