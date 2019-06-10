@@ -60,6 +60,7 @@ class ActionPesquisaStackoverflow(Action):
                 'sobre isso em minhas pesquisas. ' +
                 'Poderia me perguntar com outras palavras?'
             )
+        return last_message
 
 
 class UserForm(forms.CustomFormAction):
