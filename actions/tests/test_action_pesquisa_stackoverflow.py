@@ -51,10 +51,10 @@ def test_validate_links(custom_pesquisa_stackoverflow, request_stackoverflow):
     links = []
     dictionary = request_stackoverflow
     for item in dictionary['items']:
-            if str(item['is_answered']) == 'True':
-                links.append(item['link'])
-            if len(links) == 5:
-                break
+        if str(item['is_answered']) == 'True':
+            links.append(item['link'])
+        if len(links) == 5:
+            break
 
     assert links == test_links
    

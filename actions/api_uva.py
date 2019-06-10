@@ -33,6 +33,8 @@ def get_soup(url, action=GET, params={}):
 
     elif action == POST:
         request = session.post(url, params)
+    else:
+        return None
 
     html = request.text
     soup = BeautifulSoup(html, features="html.parser")
