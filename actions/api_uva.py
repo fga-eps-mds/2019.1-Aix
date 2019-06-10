@@ -3,10 +3,10 @@ import requests
 import json
 
 HOME = 'http://uva.onlinejudge.org/'
-URLPROBLEMA = 'https://uva.onlinejudge.org/index.php?option'
-URLPROBLEMA += '=com_onlinejudge&Itemid=25&page=submit_problem'
-URLPROBLEMA += '&problemid='
-URLSUBMISSAO = "https://uhunt.onlinejudge.org/api/subs-user/"
+PROBLEMURL = 'https://uva.onlinejudge.org/index.php?option'
+PROBLEMURL += '=com_onlinejudge&Itemid=25&page=submit_problem'
+PROBLEMURL += '&problemid='
+SUBMISSIONURL = "https://uhunt.onlinejudge.org/api/subs-user/"
 URLUNAMETOID = "http://uhunt.felix-halim.net/api/uname2uid/"
 GET = '0'
 POST = '1'
@@ -91,45 +91,45 @@ def get_problem_by_number(problem_number):
     return get_problem(None, problem_number, False, True)
 
 
-def submeter_um_problema(username, password,
-                         problem_num, lang,
-                         path='', codigo=''):
+def problem_submit(username, password,
+                   problem_num, lang,
+                   path='', user_code=''):
     make_login(username, password)
     problem = get_problem_by_number(problem_num)
     problem_id = str(problem[u'pid'])
-    urldoproblema = URLPROBLEMA + problem_id
-    soup = get_soup(urldoproblema)
+    problem_url = PROBLEMURL + problem_id
+    soup = get_soup(problem_url)
     form = soup.find_all('form')[1]
     params = get_params(form)
     if(path != ''):
         code = get_code(path)
     else:
-        code = codigo
+        code = user_code
     params['code'] = code
     params['language'] = lang
     action = form['action']
-    resultado = get_soup('https://uva.onlinejudge.org/'+action,
-                         action='1', params=params)
-    response = resultado.title.text
+    result = get_soup('https://uva.onlinejudge.org/'+action,
+                      action='1', params=params)
+    response = result.title.text
     return response
 
 
-def username_para_userid(username):
+def username_to_user_id(username):
     url = URLUNAMETOID+str(username)
     resp = requests.get(url)
     data = json.loads(resp.text)
     return str(data)
 
 
-def resultado_ultima_submissao(username):
-    user_id = username_para_userid(username)
-    url = URLSUBMISSAO + str(user_id)
+def last_submit_result(username):
+    user_id = username_to_user_id(username)
+    url = SUBMISSIONURL + str(user_id)
     resp = requests.get(url)
     data = json.loads(resp.text)
     data = data[u'subs']
     data.sort(key=lambda x: x[0], reverse=True)
     data = data[0]
-    veredito = data[2]
+    answer = data[2]
 
     dct = {10: 'Submission error',
            15: 'Can\'t be judged',
@@ -156,5 +156,5 @@ def resultado_ultima_submissao(username):
                ' Arrume e tente de novo! ',
            90: 'A submissão passou por todos os casos de teste, Parabéns!'
            }
-    veredito = dct[veredito]
-    return veredito
+    answer = dct[answer]
+    return answer
