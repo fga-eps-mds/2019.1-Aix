@@ -30,6 +30,27 @@ def custom_dispatcher():
             pass
     return Dispatcher()
 
+
+@pytest.fixture
+def custom_feedback_submissao():
+    return ActionFeedbackSubmissao()
+
+@pytest.fixture
+def custom_tracker_feedback():
+    return Tracker('', {'username':'usuario_teste'}, {}, '', '', '', {}, '')
+
+def test_name_feedback_submissao(custom_feedback_submissao):
+    name = custom_feedback_submissao.name()
+    assert name == "action_feedback_submissao_uva"
+
+def test_run_feedback_submissao(custom_feedback_submissao, custom_dispatcher,
+                                custom_tracker_feedback, custom_domain):
+    username = custom_feedback_submissao.run(custom_dispatcher,
+                                             custom_tracker_feedback,
+                                             custom_domain)
+    assert username == 'usuario_teste'
+
+
 @pytest.fixture
 def custom_user_form():
     return UserForm();
@@ -115,26 +136,6 @@ def test_submit_code_form(custom_code_form, custom_dispatcher,
                      "name": "problema", "value": None},
                      {"event": "slot", "timestamp": None,
                      "name": "linguagem", "value": None}]
-
-
-@pytest.fixture
-def custom_feedback_submissao():
-    return ActionFeedbackSubmissao()
-
-@pytest.fixture
-def custom_tracker_feedback():
-    return Tracker('', {'username':'usuario_teste'}, {}, '', '', '', {}, '')
-
-def test_name_feedback_submissao(custom_feedback_submissao):
-    name = custom_feedback_submissao.name()
-    assert name == "action_feedback_submissao_uva"
-
-def test_run_feedback_submissao(custom_feedback_submissao, custom_dispatcher,
-                                custom_tracker_feedback, custom_domain):
-    username = custom_feedback_submissao.run(custom_dispatcher,
-                                             custom_tracker_feedback,
-                                             custom_domain)
-    assert username == 'usuario_teste'
 
 
 @pytest.fixture
