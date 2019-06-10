@@ -27,16 +27,25 @@ def get_params(form):
 
 def get_soup(url, action=GET, params={}):
     request = None
-
+    sucess_request = True
     if action == GET:
-        request = session.get(url)
-
+        try:
+            request = session.get(url)
+        except requests.exceptions.RequestException:
+            sucess_request = False
     elif action == POST:
-        request = session.post(url, params)
+        try:
+            request = session.post(url, params)
+        except requests.exceptions.RequestException:
+            sucess_request = False
     else:
         return None
 
-    html = request.text
+    if sucess_request:
+        html = request.text
+    else:
+        html = ''
+
     soup = BeautifulSoup(html, features="html.parser")
     return soup
 
@@ -116,7 +125,10 @@ def problem_submit(username, password,
 
 def username_to_user_id(username):
     url = URLUNAMETOID+str(username)
-    resp = requests.get(url)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return '0'
     data = json.loads(resp.text)
     return str(data)
 
@@ -124,12 +136,18 @@ def username_to_user_id(username):
 def last_submit_result(username):
     user_id = username_to_user_id(username)
     url = SUBMISSIONURL + str(user_id)
-    resp = requests.get(url)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return 'Algo deu errado! Espere um pouco e tente novamente!'
     data = json.loads(resp.text)
     data = data[u'subs']
     data.sort(key=lambda x: x[0], reverse=True)
-    data = data[0]
-    answer = data[2]
+    try:
+        data = data[0]
+        answer = data[2]
+    except IndexError:
+        answer = -1
 
     dct = {10: 'Submission error',
            15: 'Can\'t be judged',
@@ -156,5 +174,9 @@ def last_submit_result(username):
                ' Arrume e tente de novo! ',
            90: 'A submissão passou por todos os casos de teste, Parabéns!'
            }
-    answer = dct[answer]
+    if answer in dct:
+        answer = dct[answer]
+    else:
+        answer = 'Bée, não encontrei sua submissão!'
+        answer += ' Espere um pouco e tente novamente.'
     return answer

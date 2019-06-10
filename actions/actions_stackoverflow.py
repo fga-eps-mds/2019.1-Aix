@@ -1,6 +1,7 @@
 from rasa_core_sdk import Action
 import requests
 import json
+import requests.exceptions
 
 
 class ActionPesquisaStackoverflow(Action):
@@ -26,17 +27,22 @@ class ActionPesquisaStackoverflow(Action):
             'order': order, 'sort': sort, 'intitle': intitle, 'site': site
         }
 
-        result = requests.get(link, params=payload)
+        try:
+            result = requests.get(link, params=payload)
+        except requests.exceptions.RequestException:
+            return {}
+
         dictionary = json.loads(result.text)
         return dictionary
 
     def validate_links(self, dictionary):
         links = []
-        for item in dictionary['items']:
-            if str(item['is_answered']) == 'True':
-                links.append(item['link'])
-            if len(links) == 5:
-                break
+        if 'items' in dictionary:
+            for item in dictionary['items']:
+                if str(item['is_answered']) == 'True':
+                    links.append(item['link'])
+                if len(links) == 5:
+                    break
         return links
 
     def run(self, dispatcher, tracker, domain):

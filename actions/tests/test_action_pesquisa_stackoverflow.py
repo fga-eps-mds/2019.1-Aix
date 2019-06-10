@@ -57,6 +57,10 @@ def test_validate_links(custom_pesquisa_stackoverflow, request_stackoverflow):
             break
 
     assert links == test_links
+    
+    test_links = custom_pesquisa_stackoverflow.validate_links({})
+    links = []
+    assert links == test_links
    
 
 @pytest.fixture

@@ -45,9 +45,9 @@ class ActionUtterVaga(Action):
             dispatcher.utter_template(desired_subject, tracker)
         else:
             dispatcher.utter_message('Santo capim! Acho que ainda' +
-                                     'não sei falar sobre esse conteúdo!' +
+                                     ' não sei falar sobre esse conteúdo!' +
                                      ' Pois béem, tente me perguntar outra' +
-                                     'coisa')
+                                     ' coisa')
         return is_valid
 
 

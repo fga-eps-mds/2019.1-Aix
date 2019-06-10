@@ -1,3 +1,4 @@
+# flake8: noqa
 from actions.actions_uva import UserForm
 from actions.actions_uva import CodeForm
 from actions.actions_uva import ActionFeedbackSubmissao

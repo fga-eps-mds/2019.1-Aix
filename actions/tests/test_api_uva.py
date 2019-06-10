@@ -171,6 +171,14 @@ def test_get_soup(custom_session, custom_url):
     soup = api_uva.get_soup('', action='3')
     assert soup == None
 
+    soup = api_uva.get_soup('')
+    custom_soup = BeautifulSoup('', features="html.parser")
+    assert soup.title == custom_soup.title
+
+    soup = api_uva.get_soup('', action='1')
+    custom_soup = BeautifulSoup('', features="html.parser")
+    assert soup.title == custom_soup.title
+
 def test_make_login(custom_url):
     username = 'username'
     password = 'password'
@@ -239,3 +247,4 @@ def test_username_to_user_id():
 
 def test_last_submit_result():
     assert api_uva.last_submit_result('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
+    assert api_uva.last_submit_result('none') == 'Bée, não encontrei sua submissão! Espere um pouco e tente novamente.'
