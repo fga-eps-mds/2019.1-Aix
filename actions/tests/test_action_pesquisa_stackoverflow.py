@@ -11,7 +11,7 @@ parentdir = os.path.dirname(currentdir)
 sys.path.insert(0,parentdir)
 
 from rasa_core_sdk import Tracker
-from actions.actions import ActionPesquisaStackoverflow
+from actions.actions_stackoverflow import ActionPesquisaStackoverflow
 
 @pytest.fixture
 def custom_pesquisa_stackoverflow():
@@ -86,8 +86,8 @@ def test_run(custom_pesquisa_stackoverflow, custom_dispatcher,
     result = custom_pesquisa_stackoverflow.run(custom_dispatcher,
                                                custom_tracker_with_no_message,
                                                custom_domain)
-    assert result == 'algo que não dará resultado'
+    assert result == []
     result = custom_pesquisa_stackoverflow.run(custom_dispatcher,
                                                custom_tracker_with_message,
                                                custom_domain)
-    assert result == 'cpp'
+    assert result == []

@@ -1,6 +1,7 @@
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 
+
 class ActionSetSlotValue(Action):
     def name(self):
         return "action_set_slot_value"
