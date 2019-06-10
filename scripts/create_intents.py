@@ -1,4 +1,4 @@
-tipo_de_intent = raw_input("Insira o tipo de intent:")
+tipo_de_intent = input("Insira o tipo de intent:")
 
 print("Insira o nome do conteudo e suas variacoes")
 print("Quando acabar, digite QQ para continuar a execucao")
@@ -7,7 +7,7 @@ conteudos = []
 content = ""
 
 while(content != "QQ"):
-    content = raw_input()
+    content = input()
     if content == "QQ":
         break
     conteudos.append(content)
