@@ -8,6 +8,7 @@ category: Produto
 | Data       | Versão | Descrição                                   | Autor            |
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
 | 09/06/2019 | 0.0.1  | Criação do script para automação de intent             |  Gabriela, Gustavo   |
+| 10/06/2019 | 0.0.2  | Refatoração devido a problemas de formatação       |  Gabriela, Gustavo   |
 
 ## O que é
 Script com vários modelos de intents mapeados para facilitar a criação de novas intents ou manuntenabilidade das existentes.
@@ -22,7 +23,3 @@ Script com vários modelos de intents mapeados para facilitar a criação de nov
 3. Digite "QQ" para finalizar a iteração pedindo o conteúdo e começar a criação do arquivo final.
 
 4. Será gerada um arquivo nomeado "result.txt", nele estará todas as intents mapeadas já com os conteúdos concatenados.
-
-## Observações
-É utilizada a função input() para receber os conteúdos e tipo de intent.
-Caso seu python esteja nas versões 2.x, é necessário trocar a função input() pela raw_input().

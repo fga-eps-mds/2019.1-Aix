@@ -1,4 +1,9 @@
-tipo_de_intent = input("Insira o tipo de intent:")
+import sys
+
+if sys.version_info.major == 2:
+    tipo_de_intent = raw_input("Insira o tipo de intent:")
+elif sys.version_info.major == 3:
+    tipo_de_intent = input("Insira o tipo de intent:")
 
 print("Insira o nome do conteudo e suas variacoes")
 print("Quando acabar, digite QQ para continuar a execucao")
@@ -7,7 +12,10 @@ conteudos = []
 content = ""
 
 while(content != "QQ"):
-    content = input()
+    if sys.version_info.major == 2:
+        content = raw_input()
+    elif sys.version_info.major == 3:
+        content = input()
     if content == "QQ":
         break
     conteudos.append(content)
@@ -27,4 +35,4 @@ for conteudo in conteudos:
 fileToWriteContent.sort()
 fileToWrite.writelines(fileToWriteContent)
 
-fileToWrite.close()    
+fileToWrite.close()   
