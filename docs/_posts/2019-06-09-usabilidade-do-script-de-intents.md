@@ -14,12 +14,19 @@ category: Produto
 Script com vários modelos de intents mapeados para facilitar a criação de novas intents ou manuntenabilidade das existentes.
 
 ## Como usar
-1. Digite o modelo de intent que você deseja gerar.
-    As opções são: codigo_em_python, conteudo_extra, desafio, exemplo, exercicio, sobre.
-
-2. Digite o conteúdo que deve ser concatenado com o modelo escolhido
-    Podem ser digitados todas as variações do conteúdo, exemplo: variavel, variaveis, variável, variáveis.
-
-3. Digite "QQ" para finalizar a iteração pedindo o conteúdo e começar a criação do arquivo final.
-
-4. Será gerada um arquivo nomeado "result.txt", nele estará todas as intents mapeadas já com os conteúdos concatenados.
+<ol>
+    <li>
+        <p>Digite o modelo de intent que você deseja gerar.</p>
+        <p>As opções são: codigo_em_python, conteudo_extra, desafio, exemplo, exercicio, sobre.</p>
+    </li>
+    <li>
+        <p>Digite o conteúdo que deve ser concatenado com o modelo escolhido</p>
+        <p>Podem ser digitados todas as variações do conteúdo, exemplo: variavel, variaveis, variável, variáveis.</p>
+    </li>
+    <li>
+        <p>Digite "QQ" para finalizar a iteração pedindo o conteúdo e começar a criação do arquivo final.</p>
+    </li>
+    <li>
+        <p>Será gerada um arquivo nomeado "result.txt", nele estará todas as intents mapeadas já com os conteúdos concatenados.</p>
+    </li>
+</ol>
