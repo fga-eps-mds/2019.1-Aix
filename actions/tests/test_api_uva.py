@@ -7,9 +7,9 @@ import requests
 import json
 from bs4 import BeautifulSoup
 from rasa_core_sdk import Tracker
-from actions.actions import UserForm
-from actions.actions import CodeForm
-from actions.actions import ActionFeedbackSubmissao
+from actions.actions_uva import UserForm
+from actions.actions_uva import CodeForm
+from actions.actions_uva import ActionFeedbackSubmissao
 
 @pytest.fixture
 def custom_domain():
@@ -48,7 +48,7 @@ def test_run_feedback_submissao(custom_feedback_submissao, custom_dispatcher,
     username = custom_feedback_submissao.run(custom_dispatcher,
                                              custom_tracker_feedback,
                                              custom_domain)
-    assert username == 'usuario_teste'
+    assert username == []
 
 
 @pytest.fixture
@@ -171,6 +171,14 @@ def test_get_soup(custom_session, custom_url):
     soup = api_uva.get_soup('', action='3')
     assert soup == None
 
+    soup = api_uva.get_soup('')
+    custom_soup = BeautifulSoup('', features="html.parser")
+    assert soup.title == custom_soup.title
+
+    soup = api_uva.get_soup('', action='1')
+    custom_soup = BeautifulSoup('', features="html.parser")
+    assert soup.title == custom_soup.title
+
 def test_make_login(custom_url):
     username = 'username'
     password = 'password'
@@ -225,17 +233,18 @@ def test_get_problem_by_number(custom_data_by_number):
     result = api_uva.get_problem_by_number('11459')
     assert result == custom_data_by_number
 
-def test_submeter_um_problema():
-    result = api_uva.submeter_um_problema('username', 'password',
-                                             '11459', '5', '', 'codigo')
+def test_problem_submit():
+    result = api_uva.problem_submit('username', 'password',
+                                    '11459', '5', '', 'codigo')
     assert result == 'UVa Online Judge'
-    result = api_uva.submeter_um_problema('username', 'password',
-                                             '11459', '5', 'actions/tests/teste.txt',
-                                             'codigo')
+    result = api_uva.problem_submit('username', 'password',
+                                    '11459', '5', 'actions/tests/teste.txt',
+                                    'codigo')
     assert result == 'UVa Online Judge'
 
-def test_username_para_userid():
-    assert api_uva.username_para_userid('usuario_teste') == '1057837'
+def test_username_to_user_id():
+    assert api_uva.username_to_user_id('usuario_teste') == '1057837'
 
-def test_resultado_ultima_submissao():
-    assert api_uva.resultado_ultima_submissao('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
+def test_last_submit_result():
+    assert api_uva.last_submit_result('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
+    assert api_uva.last_submit_result('none') == 'Bée, não encontrei sua submissão! Espere um pouco e tente novamente.'

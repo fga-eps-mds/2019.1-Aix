@@ -3,14 +3,14 @@ import os
 import sys
 import inspect
 from rasa_core_sdk import Tracker
-from actions.actions import ActionSetSlotValue
-from actions.actions import ActionUtterVaga
-from actions.actions import ActionUtterSobreVaga
-from actions.actions import ActionUtterExemploVaga
-from actions.actions import ActionUtterCodigoEmPythonVaga
-from actions.actions import ActionUtterExerciciosVaga
-from actions.actions import ActionUtterConteudoExtraVaga
-from actions.actions import ActionUtterDesafioVaga
+from actions.actions_intents_vagas import ActionSetSlotValue
+from actions.actions_intents_vagas import ActionUtterVaga
+from actions.actions_intents_vagas import ActionUtterSobreVaga
+from actions.actions_intents_vagas import ActionUtterExemploVaga
+from actions.actions_intents_vagas import ActionUtterCodigoEmPythonVaga
+from actions.actions_intents_vagas import ActionUtterExerciciosVaga
+from actions.actions_intents_vagas import ActionUtterConteudoExtraVaga
+from actions.actions_intents_vagas import ActionUtterDesafioVaga
 
 currentdir = os.path.dirname(os.path.abspath
 							(inspect.getfile(inspect.currentframe())))
@@ -118,7 +118,7 @@ def test_run_utter_vaga(custom_utter_vaga, custom_dispatcher,
 						custom_tracker, custom_domain):
 	run = custom_utter_vaga.run(custom_dispatcher, custom_tracker,
 								custom_domain)
-	assert run == ''
+	assert run == []
 
 
 @pytest.fixture
@@ -136,11 +136,11 @@ def test_run_sobre_vaga(custom_utter_sobre_vaga, custom_dispatcher,
 			 			custom_tracker_with_slot):
 	slot = custom_utter_sobre_vaga.run(custom_dispatcher, custom_tracker,
 									   custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_sobre_vaga.run(custom_dispatcher,
 									   custom_tracker_with_slot,
 									   custom_domain)
-	assert slot == 'vetores'
+	assert slot == []
 
 
 @pytest.fixture
@@ -158,11 +158,11 @@ def test_run_exemplo_vaga(custom_utter_exemplo_vaga, custom_dispatcher,
 			 			  custom_tracker_with_slot):
 	slot = custom_utter_exemplo_vaga.run(custom_dispatcher, custom_tracker,
 									   custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_exemplo_vaga.run(custom_dispatcher,
 										 custom_tracker_with_slot,
 									   	 custom_domain)
-	assert slot == 'vetores'
+	assert slot == []
 
 
 @pytest.fixture
@@ -180,11 +180,11 @@ def test_run_codigo_em_python_vaga(custom_utter_codigo_em_python_vaga,
 								   custom_domain, custom_tracker_with_slot):
 	slot = custom_utter_codigo_em_python_vaga.run(custom_dispatcher,
 												  custom_tracker, custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_codigo_em_python_vaga.run(custom_dispatcher,
 												  custom_tracker_with_slot,
 									   			  custom_domain)
-	assert slot == 'vetores'
+	assert slot == []
 
 
 @pytest.fixture
@@ -203,11 +203,11 @@ def test_run_exercicios_vaga(custom_utter_exercicios_vaga, custom_dispatcher,
 	slot = custom_utter_exercicios_vaga.run(custom_dispatcher,
 											custom_tracker,
 									   		custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_exercicios_vaga.run(custom_dispatcher,
 											custom_tracker_with_slot,
 									   		custom_domain)
-	assert slot == 'vetores'
+	assert slot == []
 
 
 @pytest.fixture
@@ -227,11 +227,11 @@ def test_run_conteudo_extra_vaga(custom_utter_conteudo_extra_vaga,
 	slot = custom_utter_conteudo_extra_vaga.run(custom_dispatcher,
 												custom_tracker,
 									     		custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_conteudo_extra_vaga.run(custom_dispatcher,
 												custom_tracker_with_slot,
 									     		custom_domain)
-	assert slot == 'vetores'
+	assert slot == []
 
 
 @pytest.fixture
@@ -249,8 +249,8 @@ def test_run_desafio_vaga(custom_utter_desafio_vaga, custom_dispatcher,
 			 			  custom_tracker_with_slot):
 	slot = custom_utter_desafio_vaga.run(custom_dispatcher, custom_tracker,
 									     custom_domain)
-	assert slot == 'erro'
+	assert slot == []
 	slot = custom_utter_desafio_vaga.run(custom_dispatcher,
 										 custom_tracker_with_slot,
 										 custom_domain)
-	assert (slot == 'vetores')
+	assert slot == []

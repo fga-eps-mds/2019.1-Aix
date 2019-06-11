@@ -3,10 +3,10 @@ import requests
 import json
 
 HOME = 'http://uva.onlinejudge.org/'
-URLPROBLEMA = 'https://uva.onlinejudge.org/index.php?option'
-URLPROBLEMA += '=com_onlinejudge&Itemid=25&page=submit_problem'
-URLPROBLEMA += '&problemid='
-URLSUBMISSAO = "https://uhunt.onlinejudge.org/api/subs-user/"
+PROBLEMURL = 'https://uva.onlinejudge.org/index.php?option'
+PROBLEMURL += '=com_onlinejudge&Itemid=25&page=submit_problem'
+PROBLEMURL += '&problemid='
+SUBMISSIONURL = "https://uhunt.onlinejudge.org/api/subs-user/"
 URLUNAMETOID = "http://uhunt.felix-halim.net/api/uname2uid/"
 GET = '0'
 POST = '1'
@@ -27,16 +27,25 @@ def get_params(form):
 
 def get_soup(url, action=GET, params={}):
     request = None
-
+    sucess_request = True
     if action == GET:
-        request = session.get(url)
-
+        try:
+            request = session.get(url)
+        except requests.exceptions.RequestException:
+            sucess_request = False
     elif action == POST:
-        request = session.post(url, params)
+        try:
+            request = session.post(url, params)
+        except requests.exceptions.RequestException:
+            sucess_request = False
     else:
         return None
 
-    html = request.text
+    if sucess_request:
+        html = request.text
+    else:
+        html = ''
+
     soup = BeautifulSoup(html, features="html.parser")
     return soup
 
@@ -91,45 +100,54 @@ def get_problem_by_number(problem_number):
     return get_problem(None, problem_number, False, True)
 
 
-def submeter_um_problema(username, password,
-                         problem_num, lang,
-                         path='', codigo=''):
+def problem_submit(username, password,
+                   problem_num, lang,
+                   path='', user_code=''):
     make_login(username, password)
     problem = get_problem_by_number(problem_num)
     problem_id = str(problem[u'pid'])
-    urldoproblema = URLPROBLEMA + problem_id
-    soup = get_soup(urldoproblema)
+    problem_url = PROBLEMURL + problem_id
+    soup = get_soup(problem_url)
     form = soup.find_all('form')[1]
     params = get_params(form)
     if(path != ''):
         code = get_code(path)
     else:
-        code = codigo
+        code = user_code
     params['code'] = code
     params['language'] = lang
     action = form['action']
-    resultado = get_soup('https://uva.onlinejudge.org/'+action,
-                         action='1', params=params)
-    response = resultado.title.text
+    result = get_soup('https://uva.onlinejudge.org/'+action,
+                      action='1', params=params)
+    response = result.title.text
     return response
 
 
-def username_para_userid(username):
+def username_to_user_id(username):
     url = URLUNAMETOID+str(username)
-    resp = requests.get(url)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return '0'
     data = json.loads(resp.text)
     return str(data)
 
 
-def resultado_ultima_submissao(username):
-    user_id = username_para_userid(username)
-    url = URLSUBMISSAO + str(user_id)
-    resp = requests.get(url)
+def last_submit_result(username):
+    user_id = username_to_user_id(username)
+    url = SUBMISSIONURL + str(user_id)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return 'Algo deu errado! Espere um pouco e tente novamente!'
     data = json.loads(resp.text)
     data = data[u'subs']
     data.sort(key=lambda x: x[0], reverse=True)
-    data = data[0]
-    veredito = data[2]
+    try:
+        data = data[0]
+        answer = data[2]
+    except IndexError:
+        answer = -1
 
     dct = {10: 'Submission error',
            15: 'Can\'t be judged',
@@ -156,5 +174,9 @@ def resultado_ultima_submissao(username):
                ' Arrume e tente de novo! ',
            90: 'A submissão passou por todos os casos de teste, Parabéns!'
            }
-    veredito = dct[veredito]
-    return veredito
+    if answer in dct:
+        answer = dct[answer]
+    else:
+        answer = 'Bée, não encontrei sua submissão!'
+        answer += ' Espere um pouco e tente novamente.'
+    return answer
