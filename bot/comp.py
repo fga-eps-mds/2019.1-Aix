@@ -1,4 +1,5 @@
 import yaml
-dict = yaml.load(open('domain.yml'))
-for i in dict:
-    print(dict[i])
+with open('domain.yml', 'r') as domain:
+    domain_data = yaml.safe_load(domain)
+for i in domain_data:
+    print(domain_data[i])
