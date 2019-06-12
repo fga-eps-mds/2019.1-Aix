@@ -147,7 +147,7 @@ templates:
         Sugiro tambéem dar uma olhada no nosso cronograma de estudos!
         Digite /cronograma para acessá-lo.
 
-  utter_help
+  utter_help:
     - text: |
         Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
         É béem simples...
@@ -252,7 +252,7 @@ templates:
 
   # ============================ NAVEGAÇÃO PRINCIPAL ============================ #
   utter_start:
-    - text |
+    - text: |
         Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado dessa linguagem de programação!
 
         Infelizmente eu não sei tudo ainda... Mas qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o cronograma de estudos!
