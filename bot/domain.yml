@@ -92,6 +92,7 @@ intents:
   - submissao_de_exercicio
   - feedback_uva
 
+
   - codigo_em_python_variaveis
   - codigo_em_python_condicionais
   - codigo_em_python_repeticao
@@ -143,7 +144,7 @@ templates:
 
         Se estiver curioso, pergunte mais sobre mim, o que sei fazer ou como me usar que eu te conto!
 
-        Caso queira saber como ir direto no assunto, digite /help para saber como funciono :)
+        Caso queira saber como ir direto ao assunto, digite /help :)
         Sugiro tambéem dar uma olhada no nosso cronograma de estudos!
         Digite /cronograma para acessá-lo.
 
@@ -239,23 +240,25 @@ templates:
     - text: |
         Eita, acho que ainda não aprendi sobre esse assunto ou não entendi a pergunta muito béeem.
         Você pode perguntar de novo?
+
     - text: |
         Hummmm... Acho que não sou uma cabra tão inteligente assim...
         Pode escrever de outra forma, não entendi tão béem..
+
     - text: |
         Deve ter caído um pouco de capim nos meus olhos,
         você pode me perguntar de novo usando outras palavras?
+
     - text: |
         Vamos tentar mais uma vez? Eu não consegui te entender direito,
         mas vou fazer o possível para entender béem se me pergunta de outro jeito!
 
-
   # ============================ NAVEGAÇÃO PRINCIPAL ============================ #
   utter_start:
     - text: |
-        Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado dessa linguagem de programação!
+        Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado desta linguagem de programação!
 
-        Infelizmente eu não sei tudo ainda... Mas qualquer coisa, para ver todo o conteúdo já inserido, é só me pedir o cronograma de estudos!
+        Infelizmente não consigo explicar sore tudo. Para ver o que posso lhe ensinar, é só me pedir o cronograma de estudos! Bée
         P.S: e, em caso de dúvida do meu funcionamento, digite o /help que vou te ensinar!
 
         E lembre-se: eu não sou um simples robô, poxa!!
@@ -277,8 +280,7 @@ templates:
 
     - text: |
         Béem, então você quer fazer coisas grandes, ser um programador!!
-        O processo não é tão simples,
-        mas eu posso garantir que você é capaz.
+        O processo não é tão simples, mas eu posso garantir que você é capaz.
 
         Primeiro, você terá que aprender uma linguagem de programação...
         E eu estou aqui para te ajudar a explorar a linguagem Python!!!
@@ -293,16 +295,16 @@ templates:
         Que tal me perguntar sobre Python?
 
     - text: |
-        Sabe aquele ditado que diz "apressado como cru"? Pois é...
+        Sabe aquele ditado que diz "apressado come cru"? Pois é...
         Para ser um programador, antes é necessário um conhecimento
         em linguagens de programação! E eu posso te ensinar uma delas: o Python.
 
-        Tente me perguntar a respeito dessa matéria!
+        Tente me perguntar a respeito dessa linguagem!
 
   utter_menu_ajuda:
     - text: |
         Para me pedir algumas coisas, você tem que ser bem claro comigo!!
-        Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, ahhaha!!
+        Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, hahaha!!
 
         Me diga o que você deseja, e de qual conteúdo você quer aprender, béem assim olha:
 
@@ -400,8 +402,7 @@ templates:
         Ah!! E agora também estou no telegram!
 
         Que tal começarmos a aprender? 
-        Mas antes, eu sugiro que me peça o menu ajuda para saber
-        como eu funciono!
+        Mas antes, eu sugiro que me peça o menu ajuda para saber como eu funciono!
 
     - text: |
         A cabra que manda exercícios na hora...
@@ -422,8 +423,7 @@ templates:
         Aí vai uma curiosidade sobre mim: o meu nome veio da mitologia romana!
 
         Acontece que há muito tempo atrás quem amamentou o deus Júpiter foi a cabra Aix.
-        Por eu ter sido criada integrada nessa plataforma Jupyter, 
-        nasceu a ideia do meu nome!
+        Por eu ter sido criada integrada nessa plataforma Jupyter, nasceu a ideia do meu nome!
         Quanta imaginação, não?
 
         Mas chega de papo furado... Você quer é aprender como funciono né..
@@ -449,13 +449,12 @@ templates:
         Pois béem, variável é o nome dado a uma área de memória reservada para guardar as informações 
         ou os dados de um programa por um determinado tempo.
         Existem vários tipos de variáveis, mas por hora, você vai precisar saber dos tipos primitivos.
-        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char), 
-        booleano (bool) e strings.
+        Esses tipos são inteiro(int), ponto flutuante(float), caractere(char), booleano (bool) e strings.
 
         Quer saber mais? 
         Por que não pergunta sobre cada um dos tipos ou quem sabe por exemplos de variáveis?
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings, me dê exemplos de variaveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: o que são inteiros, o que são caracteres, o que são booleanos, o que são strings, me dê exemplos de variaveis
         Simples como comer capim!
 
   utter_sobre_inteiros:
@@ -466,12 +465,10 @@ templates:
 
         Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
-        exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
-        Caso já tenha entendido tudinho sobre inteiros,
-        por que não aprender agora sobre caracteres, booleanos, pontos flutuantes ou strings?
+        Caso já tenha entendido tudinho sobre inteiros, por que não aprender agora sobre caracteres, booleanos, pontos flutuantes ou strings?
         É só me perguntar sobre esses temas, que te explico direitinho!
 
   utter_sobre_pontos_flutuantes:
@@ -481,7 +478,7 @@ templates:
 
         Ainda ficou uma dúvida? Lembrando que você pode me pedir alguns exemplos!
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
         Simples como comer capim!
 
         E aí, entendeu tudo direitinho sobre pontos flutuantes? Agora seria muuuito legal você aprender sobre: caracteres, booleanos, inteiros ou strings!
