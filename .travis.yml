@@ -31,6 +31,7 @@ jobs:
         - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
         - docker exec aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
         - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
+        - docker exec aix-bot python comp.py
         - docker exec aix-bot coverage xml
       after_script:
         - cd bot
@@ -55,7 +56,7 @@ jobs:
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
         - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions 
+        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions
         - docker exec aix-actions coverage xml
         - docker exec aix-actions cp coverage.xml actions/
       after_script:
@@ -69,4 +70,3 @@ jobs:
         script: bash ./deploy.sh
         on:
          branch: master
-
