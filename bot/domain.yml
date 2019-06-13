@@ -267,7 +267,8 @@ templates:
 
         Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
 
-        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
+      image: |
+        https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
 
   utter_sobre_programaçao:
@@ -485,7 +486,7 @@ templates:
 
   utter_sobre_caracteres:
     - text: |
-        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, então, letras, números, pontos, acentos, chaves, parênteses...
+        As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, ou seja, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
 
         Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
@@ -510,8 +511,7 @@ templates:
 
   utter_sobre_condicionais:
     - text: |
-        Bom, uma estrutura condicional são ações que podem ou não serem executadas no seu programa.
-        É necessário que uma condição seja testada para que que essas ações sejam executadas ou não.
+        Bom, estruturas condicionais testam uma condição para verificar se as ações seguintes vão ser executadas ou não.
 
         SE a condição é satisfeita, executamos o que foi definido. SE NÃO, pulamos e continuamos o programa.
 
@@ -522,17 +522,21 @@ templates:
     - text: |
         Você já tentou contar até 10 no python? Tenta aí! Se você utilizou uma função print para cada número, tenho que te contar um segredo: dá para fazer isso com um só print!
         Como? Béem... você vai utilizar as estruturas de repetição, que, basicamente são capazes de reproduzir determinada ação. Temos como estruturas do Python o WHILE e o FOR.
-        Estruturas de repetição são funções capazes de iterar determinada ação. Nelas, você pode determinar uma meta e uma instrução. Ou seja, você vai realizar determinada ação repetidas vezes até alcançar o resultado que deseja!
-        Para conseguir fazer isso, temos as estruturas de repetição for e while da linguagem Python.
-        O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações. Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
+
+        O for funciona da seguinte forma: para (for) <variável> no intervalo (in range()) realize o seguinte bloco de ações.
+        Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
+
         Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
+        
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
+        
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
         Simples como comer capim!
 
   utter_sobre_arquivos:
     - text: |
-        O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo livro tem um nome único, assim como os arquivos! Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
+        O arquivo é como um livro. Para usá-lo, você tem que abrí-lo. Depois de usar, você o fecha. Com ele aberto, você pode ler ou escrever nele. Todo arquivo tem um nome único, assim como os livros!
+        Para abrir um arquivo, você especifica o nome e indica se você quer ler ou escrever nele.
 
         Quer um exemplo para entender melhor?
 
@@ -577,7 +581,8 @@ templates:
   utter_sobre_importar_bibliotecas:
     - text: |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
-        Para utilizá-las é necessário adicioná-las ao nosso python. Vamos importar uma biblioteca Bée!
+        Para utilizá-las é necessário adicioná-las ao nosso código. Vamos importar uma biblioteca Bée!
+        
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
         Caso não tenha entendido perfeitamente, peça-me um exemplo. Bée.
@@ -613,7 +618,7 @@ templates:
 
   utter_sobre_funcao:
     - text: |
-        Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros. E pode ter um retorno, que nada mais é que uma resposta da função para o código principal.
+        Funções são blocos de código que realizam tarefas que normalmente precisam ser executadas várias vezes dentro do seu código. Essas tarefas têm seu resultado alterado por meio de parâmetros e podem ter um retorno, que nada mais é que uma resposta da função para o código principal.
 
         Caso ainda esteja muito abstrato, me peça um exemplo que eu te mostro uma na prática!
 
@@ -622,11 +627,14 @@ templates:
 
   utter_sobre_strings:
     - text: |
-        Uma string é a junção de vários caracteres. De forma geral uma string é um texto que pode ser formado por letras, números, sinais dentre outros caracteres.
-        Se você precisa armazenar o menu nome lindo: Aix, por exemplo. Você precisa então de uma string. Bem simples né?
+        Uma string é a junção de vários caracteres, de forma geral uma string é um texto.
+        Se você precisa armazenar o menu nome lindo: Aix, por exemplo, você precisará de uma string. Bem simples né?
+        
         Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
         (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
+        
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
+        
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
         Simples como comer capim!
 
@@ -634,19 +642,21 @@ templates:
     - text: |
         O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
         Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
-        E para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        E ,para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        
         Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
         Digite "quero pesquisar" que te ajudo com isso!
 
   utter_sobre_input_dados:
     - text: |
         Então você quer aprender a ler informações do usuário? Deixa que eu te ensino, béee
-        É bem simples, você precisa chamar a função "entrada", mas claro, em inglês. Em python para dizer que uma expressão é uma função (ou método), coloca-se parênteses após o nome.
-        Algumas funções necessitam de parâmetros que são passados dentro desses parênteses (o print por exemplo).
+        É bem simples, você precisa chamar a função "entrada", mas claro, em inglês.
+        
+        Algumas funções necessitam de parâmetros que são passados dentro de parênteses (o print por exemplo).
         No nosso caso, o parâmetro é opcional. Você pode passar entre aspas um texto que será mostrado ao usuário antes que ele digite algo. Tudo o que for digitado pelo usuário será guardado em uma variável até que ele digite ENTER.
         Fica assim então:
 
-          "a = input()
+          a = input()
           b = input('digite o valor de b:')" (neste caso será printado o texto ao usuário e simultaneamente será lido o valor de b)
 
         Este conteúdo é bastante útil, se quiser posso te mandar um desafio para treinar.
@@ -656,13 +666,7 @@ templates:
   # ============================ EXEMPLO ============================ #
   utter_exemplo_variaveis:
     - text: |
-        Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha. Num código ficaria mais ou menos assim:
-        (entre parênteses estará o tipo de cada variável)
-          # nome da variável = conteúdo da variável
-         username = "username@email.com" (string)
-         senha = "digitos1234" (string)
-         senha[5] (caractere, nesse caso o caractere 'o')
-        Lembrando que no Python não é preciso declarar o tipo da variável, apenas nomeá-la!
+        Então você quer ver como as variáveis funcionam... Digamos que você está entrando no seu e-mail, repare que no login existem duas variáveis, seu username e sua senha.
 
         Quer saber mais? Caso queira entender ainda melhor me peça exemplos na prática do código!
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: código em python de variáveis.
@@ -672,16 +676,8 @@ templates:
 
     - text: |
         Então você quer ver como as variáveis funcionam... um ótima forma de visualizar variáveis é em uma equação onde você já tem variáveis!!
-        (entre parêntesis estará o tipo de cada variável)
-        A Fórmula de Bháskara poderia ser escrita desse jeito:
-          a = -5 (inteiro)
-          b = 4 (inteiro)
-          c = 1 (inteiro)
-          delta = b*b - 4*a*c (inteiro)
-          y1 = (-b + delta**1/2)/(2*a) (ponto flutuante)
-          y2 = (-b - delta**1/2)/(2*a) (ponto flutuante)
-        Veja quantas variáveis!!! Vou listá-las para você conseguir ver béem melhor.
-        a, b, c, delta, y1 e y2
+        As variáveis seriam a, b, c, delta, y1 e y2!
+
         Repare que a varíavel e o countéudo que ela armazena são coisas diferentes!!
 
         Quer saber mais? Caso queira entender ainda melhor me peça exemplos na prática do código!
@@ -692,13 +688,9 @@ templates:
 
   utter_exemplo_condicionais:
     - text: |
-        Quer saber como escrever uma estrutura condicional em python? Xá comigo, nisso eu sou muito boa! Digamos que se você quer que seja printado "amo feno" caso uma variavel x seja igual a 2 e "amo python" caso essa variável seja igual 5. Caso x seja tanto diferente de 2 quanto de 5 você quer que seja printado "amo a Aix" :
-        if x == 2:
-          print("amo feno")
-        elif x == 5:
-          print("amo python")
-        else:
-          print("amo a Aix")
+        Quer saber como seria o uso de uma estrutura condicional? Xá comigo, nisso eu sou muito boa!
+        Digamos que se você quer que seja printado "amo feno", "amo python" e "amo a Aix", mas cada uma dessas palavras tem uma condição para acontecer!
+        Se uma variavel x for igual a 2 você printa a primera, caso essa variável seja igual 5, a segunda e ,por fim, se x não encaixar em nenhum dos casos, a terceira!
 
         Quer ver mais a respeito de condicionais? 
         Só pedir, posso te mostrar esse exemplo na prática!
@@ -720,6 +712,7 @@ templates:
         Cada passo será uma ação minha. 
         No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo. 
         Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
+        
         Quer ver como ficaria o código disso? 
         Só pedir por um exemplo em código que eu te mostro um!
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: 
@@ -735,17 +728,12 @@ templates:
 
   utter_exemplo_funcao:
     - text: |
-        Imagine que eu preciso mostrar a frase "Oi, " e citar o nome da pessoa "Oi, Nelson!". 
+        Imagine que eu preciso mostrar a frase "Oi, " e citar o nome da pessoa "Oi, Nelson!" toda vez que um usuário entrar no meu programa. 
         É possível fazer uma função que receba como parâmetro o nome e dentro dela, 
-        monte e retorne essa frase!
+        monte e retorne essa frase, evitando a repetição de código!
 
-          def oi(nome)
-            return "Oi, " + nome;
-
-        A palavra reservada "def", é a abreviação de define, 
-        serve para explicitar que aquela função será definida naquele trecho do código. 
-        O nome da função "oi" é o nome único que havia falado, e "nome" é o parâmetro. 
-        Tudo que vem depois do return, na mesma linha, é a resposta da função!
+        Para isso temos a palavra reservada "def", é a abreviação de define, que serve para explicitar que aquela função será definida naquele trecho do código.
+        Uma função deve sempre ter um nome e, as vezes, parâmetros de entrada e um retorno!
 
         Gostaria de testar isso na prática? 
         Se quiser é só pedir que te mando um código pronto disso ;)
@@ -756,13 +744,9 @@ templates:
   utter_exemplo_arquivos:
     - text: |
         Que tal um exemplo?
+        Digamos que você quer escrever "Aix Chatbot" num arquivo. Para isso você deverá ter uma variável abrindo o arquivo, depois deverá utilizar uma função para escrever seu texto nele e, por fim, fechá-lo!
 
-          arquivo = open('bodes-mais-legais.txt', 'w')
-          texto = "Aix Chatbot"
-          arquivo.write(texto)
-          arquivo.close()
-
-        Nesse exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, 
+        Por exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, 
         e o objeto gerado por essa função é atribuído a variável 'arquivo'.
         A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto, 
         por fim, o arquivo é fechado com a função 'close'!!
@@ -776,26 +760,18 @@ templates:
     - text: |
         Béeem, um exemplo de vetor? Imagine que eu quero contar quantos fenos eu comi na semana. 
         Como eu faria isso? Com um vetor de fenos por dia!! Ficaria mais ou menos assim:
-          fenos_por_dia = [4, 3, 3, 2, 3, 4, 5]
+          [4, 3, 3, 2, 3, 4, 5]
 
-        E se eu quiser saber quantos fenos eu comi no Domingo é só acessar o vetor na posição 0!
-          print(fenos_por_dia[0])
-          # 4
+        E se eu quiser saber quantos fenos eu comi no Domingo é só olhar o vetor na primeira posição!
+          [4, 3, 3, 2, 3, 4, 5]          
+           ^
+           1ª posição
 
-        Lembrando que as posições começam a ser contadas a partir 0.
+        Lembrando que em código as posições começam a ser contadas a partir 0.
 
-        Agora que você já viu na prática, por que não lê um pouco mais? 
-        Só me pedir por um conteúdo extra sobre vetores!
-
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: 
-        testar conhecimentos vetores, exercicios vetores
-
-        Ou se preferir podemos seguir pro próximo conteúdo sugerido: matrizes!
-        É só perguntar o que são matrizes que te explico.
+        Quer ver um código desse exemplo funcionando aí no seu computador?
+        Só me pedir por um código em python de vetores!
         Simples como comer capim!
-
-        Quer ver um código parecido com este funcionando aí no seu computador?
-        Só me pedir por um código em python sobre vetores!
 
       image: |
           https://i.imgur.com/soiRg1i.png
@@ -808,19 +784,22 @@ templates:
         para isso poderia fazer uma matriz de dúvidas por dia, 
         separando por semanas para ficar mais fácil de ler.
 
-          duvidas_por_mes = [ [0, 4, 7, 9, 5, 3, 1],
-                            [0, 0, 2, 4, 3, 2, 2],
-                            [1, 2, 4, 3, 7, 1, 1],
-                            [0, 5, 6, 7, 7, 5, 0] ]
+          [0, 4, 7, 9, 5, 3, 1]
+          [0, 0, 2, 4, 3, 2, 2]
+          [1, 2, 4, 3, 7, 1, 1]
+          [0, 5, 6, 7, 7, 5, 0]
 
         Sendo as linhas referentes as semanas e as colunas os dias! 
-        E para acessar as dúvidas de segunda da primeira semana seria:
-          print(duvidas_por_mes[0][1])
-          # 4
+        E para saber as dúvidas de segunda-feira da primeira semana basta olhar a tabela formada:
+              
+              | segunda-feira
+              v 
+          [0, 4, 7, 9, 5, 3, 1] 1ª semana
+          [0, 0, 2, 4, 3, 2, 2]
+          [1, 2, 4, 3, 7, 1, 1]
+          [0, 5, 6, 7, 7, 5, 0]     
 
         Lembrando que as posições começam a ser contadas a partir 0.
-
-        Quer saber mais? Só pedir um conteúdo extra de matrizes que te passo uns links!
 
         Posso te mandar um código prontinho para você testar aí no seu PC.
         Caso queira, só pedir um 'código em python sobre matrizes';
