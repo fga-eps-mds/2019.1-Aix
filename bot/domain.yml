@@ -814,7 +814,9 @@ templates:
         Primeiro passo: import math
         Para utilizar as funções em seu código basta colocar math.funcao()
         Segundo passo: math.sqrt(9)
+
         Caso queira um código pra você testar em seu programa é só pedir.
+        
         Se seu pedido tiver essas palavras fica melhor de eu entender!:
         código importar bibliotecas, exemplo prático para importar bibliotecas. Iria me ajudar bastante a te entender :)
 
@@ -823,8 +825,7 @@ templates:
         Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
         Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas. 
         Pode ser aspas simples ou duplas :D
-        Como lhe disse anteriormente, uma string é um vetor de caracteres.
-        Logo, podemos acessar um caractere específico de uma string apenas adicionando um número entre '[]' após o nome da string
+
         Veja um exemplo:
           minha_string = "olá, bom dia! como vai você?" (string)
           print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
@@ -840,6 +841,7 @@ templates:
     - text: |
         Acha que já está pronto para alguns exercícios? 
         Pois béem, vou ver o que tenho aqui....
+
         Por que você não tenta esses exercícios do URI (https://www.urionlinejudge.com.br/judge/en/login)?
           Extremamente Básico (https://www.urionlinejudge.com.br/judge/pt/problems/view/1001)
           Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
@@ -858,6 +860,7 @@ templates:
         Ahh, então você quer praticar estruturas condicionais? 
         Fico tãããoo feliz em saber disso
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
+
         Veja esses 3 exercícios:
           Mês - https://www.urionlinejudge.com.br/judge/pt/problems/view/1052
           Teste de seleção 1 - https://www.urionlinejudge.com.br/judge/pt/problems/view/1035
@@ -873,6 +876,7 @@ templates:
     - text: |
         Ahh, então você quer praticar estruturas de repetição? 
         Fico tãããoo feliz em saber disso
+
         A única forma dééé aprender uma linguagem de forma eficaz é treinando!
         Veja esses 3 exercícios:
           Números Pares - https://www.urionlinejudge.com.br/judge/pt/problems/view/1059
@@ -934,6 +938,7 @@ templates:
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        
         Que tal aprendermos um pouco mais sobre arquivos? É só pedir um conteúdo extra!
 
         Se seu pedido tiver essas expressões eu ficaria muito feliz: 
@@ -944,6 +949,7 @@ templates:
         Ahh, então você quer praticar funçoes? Beleza!
         Olha, não existem exercícios só de função, então tente fazer esses exercicios aqui usando funções!
         (Por exemplo, fazendo uma função que soma dois argumentos passados)
+        
         Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
         Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
 
@@ -959,14 +965,15 @@ templates:
     - text: |
         Bora treinar um pouco sobre strings? Exercícios são essenciais para entender um conteúdo.
         Tá aqui alguns exercícios por ordem de dificuldade, Béee:
+
           Combinador - https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
           Cifra de César - https://www.urionlinejudge.com.br/judge/pt/problems/view/1253
           Array Hash - https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
 
-          Obteve algum erro de compilação? Podemos pesquisar sobre ele!
-          Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-          E oras, agora que você acabou o conteúdo de strings, 
-          que tal me perguntar sobre laços de repetição?
+        Obteve algum erro de compilação? Podemos pesquisar sobre ele!
+        Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
+        
+        E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
 
 
   # ============================ CONTEÚDO EXTRA ============================ #
@@ -974,11 +981,13 @@ templates:
     - text: |
         Então você quer um conteúdo a mais... 
         Béem, vou ver o que consigo para você!
+
         Tente esses aqui: O que é variável e constante?(https://dicasdeprogramacao.com.br/o-que-e-variavel-e-constante/), tem até uns exemplos nele!
+        
         Esse canal do YouTube parece ser melhor que feno! 
         Ele tem uma aula onde ele resume o que são variáveis,
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
-        e uma aula exclusiva sobre Tipo Primitivos, Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
+        e uma aula exclusiva sobre Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
         Teve algum dúvida e quer pesquisar algo no StackOverflow? 
         Só me falar, faço pesquisas para você!
@@ -992,12 +1001,13 @@ templates:
         Até preparei um código aqui para você
 
           if Aix_não_sanou_sua_duvida or Quer_mais_informações:
-              Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno. hehehe
+              Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno.
               https://www.w3schools.com/python/python_conditions.asp
 
         Agora que está melhor em condicionais do que eu comendo feno, 
         por que não me pergunta sobre estruturas de repetição?
-        É um conteúdo importantíiiissimo para um programador, e você vai aprender rapidinho!
+        
+        É um conteúdo importantíiissimo para um programador, e você vai aprender rapidinho!
 
         Para me ajudar a entender melhor, me peça uma explicação sobre estruturas de repetição.
 
@@ -1006,10 +1016,12 @@ templates:
     - text : |
         Quer dizer que você quer aprender mais né? Béeem legal! 
         Olha só esse link aqui que fala sobre como fazer estruturas de repetição eficientes! 
+        
         Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
-        Pronto, você é o mestre das estruturas de repetição!
+        Você é o mestre das estruturas de repetição!
+        
         Béem, por que você agora não testa todo este conhecimento em desafios ainda mais intrigantes e legais?!
         Só me pedir 'desafio de estruturas de repetição' que te passarei alguns!
 
@@ -1029,6 +1041,7 @@ templates:
   utter_conteudo_extra_arquivos:
     - text : |
         Então você quer virar o mago dos arquivos, néee!?
+
         Aqui vai alguns links externos com explicações mais aprofundadas sobre o tema!
         https://aprendacompy.readthedocs.io/pt/latest/capitulo_11.html
         https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
@@ -1036,7 +1049,6 @@ templates:
 
         Muito bem! Já podemos aprender mais assuntos. 
         Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
-
 
   utter_conteudo_extra_vetores:
     - text: |
@@ -1049,6 +1061,7 @@ templates:
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
 
         Agora que você é o mestre dos vetores, te desafio a passar por alguns desafios com essa temática!
+        
         Se quiser mostrar coragem, só me pedir 'desafios de vetores'!
 
   utter_conteudo_extra_matrizes:
@@ -1064,18 +1077,22 @@ templates:
 
         Agora que entendeu na teoria tudo sobre matrizes, 
         vamos por na prática mais desafiadora que você já fez?
+       
         Só me pedir pelo 'desafio sobre matrizes';
 
   utter_conteudo_extra_strings:
     - text: |
         Olha que legal esse conteúdo extra sobre strings:
           https://www.w3schools.com/python/python_strings.asp
+
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
+        
         Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, 
         é só pedir!
 
         Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: 
         exercicios strings, treinar strings
+
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
@@ -1084,6 +1101,7 @@ templates:
         Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
+
   # =========================== LOGIN NO UVA =========================== #
   utter_ask_username:
     - text: |
@@ -1091,11 +1109,13 @@ templates:
         Caso ainda não tenha basta criar por meio desse link: 
         https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
         Agora que você tem uma conta, podemos prosseguir.
+        Caso não queira mais fazer o login, só me enviar uma mensagem qualquer!
         Bée, qual o seu username? (Envie apenas ele!!!)
 
   utter_ask_password:
     - text: |
         Por favor, digite sua senha, só a senha,mas não se preocupe, eu não vou olhar!
+        E se você tiver desistido de fazer login, só enviar uma mensagem qualquer!
 
   utter_ask_codigo:
     - text: |
@@ -1109,6 +1129,7 @@ templates:
     - text: |
         Em qual linguagem você deseja submeter? Pode escrever só o nome da linguagem que eu te entéendo!!
         (C, Java, C++, Pascal, C++11, Python3)
+
 
 #================================= CODIGO EM PYTHON ===============================================#
   utter_codigo_em_python_variaveis:
@@ -1147,8 +1168,7 @@ templates:
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
 
-       Depois disso, você pode me pedir alguns exercícios de condicionais, para testar
-       seu conhecimento!
+       Depois disso, você pode me pedir alguns exercícios de condicionais, para testar seu conhecimento!
 
        código:
           # Veja como a estrutura condicional
@@ -1183,6 +1203,7 @@ templates:
        Quer dizer que você quer um exemplo mais palpável de repetição...
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
+
        código tanto para for, quanto para while:
         For:
 
@@ -1324,13 +1345,14 @@ templates:
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
        código:
-          NOME = input("Digite o nome: ")
-          IDADE = input("Digite a idade: ")
-          MEDIA_ESCOLAR= input("Digite a media escolar: ")
-          print(str(NOME) + " tem " + str(IDADE) + " anos e possui a media escolar de " 
-          + str(MEDIA_ESCOLAR))
+          nome = input("Digite o nome: ")
+          idade = input("Digite a idade: ")
+          media_escolar = input("Digite a media escolar: ")
+          print(str(nome) + " tem " + str(idade) + " anos e possui a media escolar de " 
+          + str(media_escolar ))
 
        Espero que tenha entendido o conteúdo! 
+       
        Caso tenha, você está pronto para o próximo conteúdo: variáveis!
        Se quiser saber a respeito desse tema, é só me pedir :)
 

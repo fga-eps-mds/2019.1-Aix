@@ -18,6 +18,13 @@ class UserForm(forms.CustomFormAction):
         login = api_uva.make_login(username, password)
         if(login):
             dispatcher.utter_message('Login realizado com sucesso!')
+            dispatcher.utter_message('Agora você pode submeter' +
+                                     ' exercícios e ver o feedback' +
+                                     'de sua última submissão!')
+            dispatcher.utter_message('Para isso basta me pedir para' +
+                                     '"submeter exercicio do UVa"' +
+                                     ' ou por "feedback da ' +
+                                     'última submissão!')
         else:
             reset_slots = []
             reset_slots.append(SlotSet('username', None))
@@ -42,7 +49,7 @@ class CodeForm(forms.CustomFormAction):
         username = tracker.get_slot('username')
         password = tracker.get_slot('password')
         if username is None:
-            dispatcher.utter_message('Você esquece de fazer' +
+            dispatcher.utter_message('Você esqueceu de fazer' +
                                      'login no UVa! Se conecte' +
                                      ' antes de submeter algo!')
             return []
@@ -63,6 +70,9 @@ class CodeForm(forms.CustomFormAction):
 
         if(response == 'UVa Online Judge'):
             dispatcher.utter_message('Submissão realizada!')
+            dispatcher.utter_message('Que tal agora olhar se acertou' +
+                                     ' a questão? Só me pedir o ' +
+                                     '"feedback da última submissão"!')
         else:
             dispatcher.utter_message('Béeeee, algo deu errado!!!' +
                                      ' Por favor tente novamente!')
