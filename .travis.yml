@@ -57,7 +57,7 @@ jobs:
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
         - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions
+        - docker exec aix-actions pytest --cov-config=actions/.coveragerc --cov=actions
         - docker exec aix-actions coverage xml
         - docker exec aix-actions cp coverage.xml actions/
       after_script:
@@ -72,7 +72,7 @@ jobs:
         on:
          branch: master
 
-    # - stage: CodeClimate
-    #   - script:
-    #     - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
-    #     - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
+    - stage: CodeClimate
+      script:
+        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
