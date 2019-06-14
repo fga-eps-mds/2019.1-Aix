@@ -37,6 +37,7 @@ Para a realização do teste foram escolhidos 6 alunos, dentre os quais havia al
 - Exemplo de arquivos retornou "sobre arquivos" (mas ao testar eu msm, funcionou)
 - Conteúdo extra de variáveis tá com a intent zoada
 - Intents das actions do UVA tão zoadas
+- Usuário usou exemplos para perguntar sobre assuntos para chegar ao cronograma e não conseguiu (basta adicionar intents referentes)
 
 
 ## Conclusões
