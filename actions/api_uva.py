@@ -165,14 +165,14 @@ def last_submit_result(username):
            50: 'A solução que você submeteu demorou mais tempo' +
                ' do que o permitido para rodar todos os testes dos juízes.',
            60: 'Memory limit',
-           70: 'Olha, o código rodou, mas sua solução não apresenta' +
-               ' o resultado esperado para todos os casos de testes dos' +
-               ' juízes, arrume e tente de novo!',
+           70: 'Sua resposta está errada. Tente de novo! Mas se quiser,' +
+               'pode passar para o próximo conteúdo!',
            80: 'Olha, sua respostas está praticamente correta,' +
                ' apenas há erro na quantidade de espaços ou letras' +
                ' inversão de letras maiúsculas / minúsculas.' +
                ' Arrume e tente de novo! ',
-           90: 'A submissão passou por todos os casos de teste, Parabéns!'
+           90: 'Accepted, sua resposta está correta! Que tal agora' +
+               ' você continuar para o próximo conteúdo?'
            }
     if answer in dct:
         answer = dct[answer]
