@@ -25,6 +25,7 @@ Para a realização do teste foram escolhidos 6 alunos, dentre os quais havia al
 ## Tarefas que necessitaram da execução de mais de um passo
 - arquivos, onde foi necessário perguntar 3 vezes pra conseguir a resposta que queria
 - pesquisa no stack que precisou de 2 passos
+- sobre Stack Overflow demorou 3 passos para conseguir a resposta.
 
 ## Melhorias a serem implementadas
 
@@ -40,6 +41,8 @@ Para a realização do teste foram escolhidos 6 alunos, dentre os quais havia al
 - Usuário usou exemplos para perguntar sobre assuntos para chegar ao cronograma e não conseguiu (basta adicionar intents referentes)
 - Usuário sugeriu adicionarmos um exemplo próprio para cada tipo de variável (inteiros, pontos flutuantes, booleanos, caracteres e strings), tanto explicativo quanto em código
 - Usuário sugeriu a implementação de um comando que levasse automaticamente ao próximo conteúdo
+- Usuário sugeriu que fosse mais claro como acessar o cronograma
+- Definir o que é Stack Overflow antes de sugerir a pesquisa, já que nem todos os usuários já tiveram contato com a ferramenta.
 
 ## Conclusões
-Com a aplicação deste teste foi possível constatar que temos um bom guia num passo a passo do usuário dentro do conteúdo básico presente no bot e que o cronograma criado é de grande valia para que o usuário seja guiado durante sua interação com o bot, e que a realização das tarefas foi relativamente simples, pois a maioria dos participantes as concluiu sem grandes problemas. Por outro lado, ficou evidente a necessidade de refatoração de algumas utters e intents, melhorias em relação a pesquisa realizada no stackoverflow,adição da explicação sobre local para desenvolvimento do código entre outras sugestões de melhoria.
+Com a aplicação deste teste foi possível constatar que temos um bom guia num passo a passo do usuário dentro do conteúdo básico presente no bot e que o cronograma criado é de grande valia para que o usuário seja guiado durante sua interação com o bot, e que a realização das tarefas foi relativamente simples, pois a maioria dos participantes as concluiu sem grandes problemas. Por outro lado, ficou evidente a necessidade de refatoração de algumas utters e intents, melhorias em relação a pesquisa realizada no stackoverflow, adição da explicação sobre local para desenvolvimento do código entre outras sugestões de melhoria.
