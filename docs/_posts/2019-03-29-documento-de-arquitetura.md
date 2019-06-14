@@ -11,6 +11,7 @@ category: Projeto
 |09/04/2019|1.1|Adicionando tópicos 2 e 5 e arrumando a maneira de apresentar a arquitetura|Guilherme Marques|
 |25/04/2019|1.2|Criação do diagrama de pacotes, alterações no diagrama de casos de uso e revisão ortográfica.| Gabriela, Iuri, Pedro|
 |24/05/2019| 1.3 | Alteração do diagrama de fluxo e adição das ferramentas Rancher e Nginx | Guilherme Marques|
+|14/06/2019|1.4|Atualizando o documento de arquitetura|Guilherme Marques|
 
 # 1. Introdução
 ### 1.1 Finalidade
@@ -50,7 +51,77 @@ Esta obra será segmentada da seguinte forma:
 
 ### 2.1 Diagrama de Relações
 
-<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/diagrama_de_fluxo.png" alt="drawing" width="700px">
+<br>
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/diagrama_fluxo_ilustrado.png" alt="drawing" width="700px"> 
+<!-- Imagem HTML só funciona quando está na devel portanto poderá quebrar no PR  -->
+
+<br>
+<br>
+<p align="justify"> 
+A imagem acima mostra a relação entre os microsserviços. Abaixo será explicado quais são os microsserviços e suas relações com os outros começando pelos mais externos, o Jupyter Notebook e o Telegram, e finalizando com as <i>Analitics</i>, o <i>ElasticSearch</i> e o <i>Kibana</i>.
+</p>
+<!-- <i></i> -->
+
+
+#### 2.1.1 Jupyter
+<p align="justify"> 
+O Jupyter Notebook é uma ferramenta para código e para formatação de texto utilizada para ensino de conteúdo em Python com textos formatados para melhor aprendizado. 
+</p>
+
+<p align="justify">
+Esse container contém um Jupyter Notebook modificado com um <i>script</i> JavaScript para mostrar o chat do <i>RocketChat</i> para que o aluno possa praticar e para tirar dúvidas com a Aix.
+</p>
+
+
+#### 2.1.2 Telegram/Webhook
+<p align="justify"> 
+O Telegram é uma plataforma de mensagem simultanea para conversas. O Telegram por sua vez tem uma API para cadastro de bots para conversas simultaneas tanto de grupos quando apenas com o bot.
+</p>
+
+<p align="justify">
+O <i>Webhook</i> é um canal de comunicação entre a Aix, ou Rasa Core, para que seja estabelecida uma conversa entre o bot e o aluno. O <i>Webhook</i> funciona como um agente passivo que só agirá enviando requisições para o Rasa Core quando o agente, ou seja o Aluno, enviar uma mensagem para ele.
+</p>
+
+
+#### 2.1.3 RocketChat
+<p align="justify"> 
+O RocketChat é uma ferramenta para criação de Chats, <i>open source</i> e customizável. Ele é utilizado para criar iframe dentro do Jupyter Notebook onde está o chat para comunicação com a Aix. O seu container contém tanto um <i>Webhook</i> para comunicação quanto o sistema do RocketChat.
+</p>
+
+
+#### 2.1.4 Rasa Core/Actions
+<p align="justify"> 
+O Rasa é uma ferramenta <i>open source</i> para a criação de um uma AI de conversação, ela possui ferramentas do <i>Tensorflow</i> para interpretação de linguagem natural e interpretação da intenção do usuário para a escolha de uma resposta melhor.
+</p>
+
+<p align="justify"> 
+Por decisão de projeto o Rasa foi dividido em 2 containers, uma para as <i>intents</i>, <i>stories</i> e interpretação de linguagem natural, o <b>Rasa Core</b> e o outro para comunicação com APIs externas e execução de comandos mais complexos, o <b>Rasa Actions</b>.
+</p>
+
+
+
+#### 2.1.5 APIs Externas
+
+As APIs externas estão listadas com as setas vermelhas no diagrama acima elas são: 
+
+
+ - O _UHunt_  a API do [UVA Judge](https://uva.onlinejudge.org/),
+ - O _Stack Exchange_ a API do [Stack Overflow](https://stackoverflow.com/).
+
+#### 2.1.6 ElasticSearch/Kibana
+<p align="justify"> 
+Esse ultimo tópico é destinado as ferramentas de análise para de texto e das conversas com a Aix.
+</p>
+
+<p align="justify"> 
+Primeiro existe a ferramenta de análise que é o ElasticSearch que é um container para análise dos textos e geração de dados a partir das conversas com a Aix.
+</p>
+
+<p align="justify"> 
+Segundo tem-se o Kibana que é a ferramenta para visualização desses dados gerados pelo ElasticSearch e a criação de métricas, tabelas e outras maneiras para a melhora contínua do bot.
+</p>
+
+
 
 ### 2.2 Tecnologias
 <p align="justify"> 
@@ -70,7 +141,7 @@ O ChatBot Aix será uma ferramente que irá utilizar várias ferramentas como in
 * ElasticSearch: Ferramenta de análise de texto.
 * Kibana: Plugin do ElasticSearch para a visualização dos dados obtidos pelo mesmo.
 * Rancher: Gerenciador e orquestrador de containers Docker.
-* Nginx: Ferramenta de balanceamento de carga, reverse proxy e 
+* Nginx: Ferramenta de balanceamento de carga, reverse proxy.
 
 <p align="justify">
 O sistema deve garantir a privacidade dos dados inseridos em seu banco de dados, ele deve conseguir responder às requisições em poucos segundos e ter alta disponibilidade, aproximandamente 99% do tempo. Ela também deverá atender aos requisitos não funcionais, como disponibilidade, segurança, usabilidade, escalabilidade,e garantir a manutenibilidade do sistema.
