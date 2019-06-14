@@ -35,10 +35,11 @@ Para a realização do teste foram escolhidos 6 alunos, dentre os quais havia al
 - Exemplo de bibliotecas falhou (mas ao testar eu msm, funcionou)
 - Não tem nenhum retorno com exercícios (a não ser q seja escrito o nome corretamente)(não cai nem em fallback)
 - Exemplo de arquivos retornou "sobre arquivos" (mas ao testar eu msm, funcionou)
-- Conteúdo extra de variáveis tá com a intent zoada
-- Intents das actions do UVA tão zoadas
+- Conteúdo extra de variáveis tá com a intent mal elaborada
+- Intents das actions do UVA não estão funcionais, com poucas frases de exemplo
 - Usuário usou exemplos para perguntar sobre assuntos para chegar ao cronograma e não conseguiu (basta adicionar intents referentes)
-
+- Usuário sugeriu adicionarmos um exemplo próprio para cada tipo de variável (inteiros, pontos flutuantes, booleanos, caracteres e strings), tanto explicativo quanto em código
+- Usuário sugeriu a implementação de um comando que levasse automaticamente ao próximo conteúdo
 
 ## Conclusões
 Com a aplicação deste teste foi possível constatar que temos um bom guia num passo a passo do usuário dentro do conteúdo básico presente no bot e que o cronograma criado é de grande valia para que o usuário seja guiado durante sua interação com o bot, e que a realização das tarefas foi relativamente simples, pois a maioria dos participantes as concluiu sem grandes problemas. Por outro lado, ficou evidente a necessidade de refatoração de algumas utters e intents, melhorias em relação a pesquisa realizada no stackoverflow,adição da explicação sobre local para desenvolvimento do código entre outras sugestões de melhoria.
