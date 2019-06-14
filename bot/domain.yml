@@ -1364,10 +1364,8 @@ templates:
   utter_desafio_repeticao:
     - text: |
         Então você quer um desafio pra testar todo o conhecimento já visto até então... 
-        Certo! Quero ver
-        você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. 
-        Você pode me enviar
-        a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
+        Certo! Quero ver você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1. 
+        Você pode me enviar a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
 
@@ -1375,8 +1373,7 @@ templates:
 
   utter_desafio_vetores:
     - text: |
-        Béem vamos dificultar um pouco mais!! 
-        Quero ver você conseguir fazer essa questão aqui, lembrando que é
+        Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
         apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! 
         Lá vamos nós:
 
@@ -1400,12 +1397,14 @@ templates:
 
   utter_desafio_hello_world:
     - text: |
-        Vamos praticar o que foi ensinado agora, com um desafio! 
-        Você pode me mandar sua resposta que te direi se
+        Vamos praticar o que foi ensinado agora, com um desafio! Você pode me mandar sua resposta que te direi se
         está certo ou não! Começaremos com o nível 1:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=817&page=show_problem&problem=3922
 
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+        
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: 
         Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
 
