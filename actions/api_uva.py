@@ -166,7 +166,7 @@ def last_submit_result(username):
                ' do que o permitido para rodar todos os testes definidos.',
            60: 'Memory limit',
            70: 'Sua resposta está errada. Tente de novo! Caso queira,' +
-               'pode passar para o próximo conteúdo!',
+               ' pode passar para o próximo conteúdo!',
            80: 'Olha, sua resposta está praticamente correta,' +
                ' apenas há erro na quantidade de espaços ou letras' +
                ' inversão de letras maiúsculas / minúsculas.' +
