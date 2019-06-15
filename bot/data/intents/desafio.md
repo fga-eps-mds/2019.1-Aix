@@ -1,4 +1,5 @@
 ## intent:desafio_hello_world
+
 - desafie-me sobre hello world
 - quero desafios de hello world
 - desejo desafios de hello world
@@ -12,6 +13,7 @@
 - me desafia a fazer hello world
 
 ## intent:desafio_repeticao
+
 - desafie-me sobre laços
 - quero desafios de laços
 - desejo desafios de laços
@@ -25,6 +27,7 @@
 - me desafia a fazer laços de repetição
 
 ## intent:desafio_funcao
+
 - desafie-me sobre função
 - quero desafios de função
 - desejo desafios de função
@@ -38,6 +41,7 @@
 - me desafia a fazer funções
 
 ## intent:desafio_vetores
+
 - desafie-me sobre vetores
 - quero desafios de vetores
 - desejo desafios de vetores
@@ -51,6 +55,7 @@
 - me desafia a fazer vetores
 
 ## intent:desafio_matrizes
+
 - desafie-me sobre matrizes
 - quero desafios de matrizes
 - desejo desafios de matrizes
@@ -64,6 +69,7 @@
 - me desafia a fazer matrizes
 
 ## intent:desafio_input_dados
+
 - desafie-me input de dados
 - quero desafios de input de dados
 - desejo desafios de input de dados
