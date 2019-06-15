@@ -153,9 +153,9 @@ def last_submit_result(username):
            15: 'Can\'t be judged',
            20: 'A sua submissão está na fila para ser julgada,' +
                ' espere um pouco!',
-           30: 'O código-fonte foi submetido com erro' +
-               ' de compilação, tente rodar no jupyter antes' +
-               'de me mandar!',
+           30: 'Seu código fonte possui erros' +
+               ' de compilação, você pode rodar no jupyter' +
+               ' antes de me enviar!',
            35: 'Restricted function',
            40: 'Deu Runtime error, um erro típico quando' +
                'você define um vetor ou array com menos capacidade' +
@@ -163,14 +163,14 @@ def last_submit_result(username):
                ' tenta acessar uma de memória inválida.',
            45: 'Output limit',
            50: 'A solução que você submeteu demorou mais tempo' +
-               ' do que o permitido para rodar todos os testes dos juízes.',
+               ' do que o permitido para rodar todos os testes definidos.',
            60: 'Memory limit',
-           70: 'Sua resposta está errada. Tente de novo! Mas se quiser,' +
+           70: 'Sua resposta está errada. Tente de novo! Caso queira,' +
                'pode passar para o próximo conteúdo!',
-           80: 'Olha, sua respostas está praticamente correta,' +
+           80: 'Olha, sua resposta está praticamente correta,' +
                ' apenas há erro na quantidade de espaços ou letras' +
                ' inversão de letras maiúsculas / minúsculas.' +
-               ' Arrume e tente de novo! ',
+               ' Arruma aí e tenta mais uma vez! ',
            90: 'Accepted, sua resposta está correta! Que tal agora' +
                ' você continuar para o próximo conteúdo?'
            }
