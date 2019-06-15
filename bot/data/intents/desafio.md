@@ -102,3 +102,42 @@
 - me mostra o desafio input de dados
 - desafio entrada de dados
 - me desafia a fazer input de dados
+
+## intent:desafio_variaveis
+
+- desafie-me variaveis
+- quero desafios de variaveis
+- desejo desafios de variaveis
+- gostaria de desafios de variaveis
+- quero aumentar a dificuldade de variaveis
+- dificulte os exercícios de variaveis
+- me desafie em variaveis
+- desafio variaveis
+- desafio int
+- desafio bool
+- desafio float
+- desafio char
+- desafio string
+- exercicios bool
+- exercicios variaveis
+- exercicios int
+- exercicios booleanos
+- exercicio variavies
+- exercicio variáveis
+- me mostra o desafio variavies
+- desafio entrada de variaveis
+- me desafia a fazer variaveis
+
+## intent:desafio_condicionais
+
+- desafie-me sobre condicionais
+- quero desafios de condicionais
+- desejo desafios de condicionaisos
+- gostaria de desafios de condicionaisos
+- quero aumentar a dificuldade de condicionaisos
+- dificulte os exercícios de condicionais
+- me desafie em condicionais
+- challenge accepted condicionais
+- me mostra o desafio de condicionais
+- desafio condicionais
+- me desafia a fazer condicionais
