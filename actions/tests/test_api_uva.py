@@ -219,19 +219,19 @@ def test_get_problem(custom_data_by_id, custom_data_by_number):
     result = api_uva.get_problem(None, None, True, True)
     assert result == None
     result = api_uva.get_problem('2454', None, True, False)
-    assert result == custom_data_by_id
+    assert result['ac'] == custom_data_by_id['ac']
     result = api_uva.get_problem(None, '11459', False, True)
-    assert result == custom_data_by_number
+    assert result['ac'] == custom_data_by_number['ac']
     result = api_uva.get_problem(None, None, False, False)
     assert result == None
 
 def test_get_problem_by_id(custom_data_by_id):
     result = api_uva.get_problem_by_id('2454')
-    assert result == custom_data_by_id 
+    assert result['ac'] == custom_data_by_id['ac'] 
 
 def test_get_problem_by_number(custom_data_by_number):
     result = api_uva.get_problem_by_number('11459')
-    assert result == custom_data_by_number
+    assert result['ac'] == custom_data_by_number['ac']
 
 def test_problem_submit():
     result = api_uva.problem_submit('username', 'password',
@@ -246,5 +246,5 @@ def test_username_to_user_id():
     assert api_uva.username_to_user_id('usuario_teste') == '1057837'
 
 def test_last_submit_result():
-    assert api_uva.last_submit_result('andreabenf') == 'Olha, o código rodou, mas sua solução não apresenta o resultado esperado para todos os casos de testes dos juízes, arrume e tente de novo!'
+    assert api_uva.last_submit_result('andreabenf') == 'Sua resposta está errada. Tente de novo! Caso queira, pode passar para o próximo conteúdo!'
     assert api_uva.last_submit_result('none') == 'Bée, não encontrei sua submissão! Espere um pouco e tente novamente.'
