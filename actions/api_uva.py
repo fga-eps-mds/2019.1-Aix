@@ -3,10 +3,10 @@ import requests
 import json
 
 HOME = 'http://uva.onlinejudge.org/'
-URLPROBLEMA = 'https://uva.onlinejudge.org/index.php?option'
-URLPROBLEMA += '=com_onlinejudge&Itemid=25&page=submit_problem'
-URLPROBLEMA += '&problemid='
-URLSUBMISSAO = "https://uhunt.onlinejudge.org/api/subs-user/"
+PROBLEMURL = 'https://uva.onlinejudge.org/index.php?option'
+PROBLEMURL += '=com_onlinejudge&Itemid=25&page=submit_problem'
+PROBLEMURL += '&problemid='
+SUBMISSIONURL = "https://uhunt.onlinejudge.org/api/subs-user/"
 URLUNAMETOID = "http://uhunt.felix-halim.net/api/uname2uid/"
 GET = '0'
 POST = '1'
@@ -27,14 +27,25 @@ def get_params(form):
 
 def get_soup(url, action=GET, params={}):
     request = None
-
+    sucess_request = True
     if action == GET:
-        request = session.get(url)
-
+        try:
+            request = session.get(url)
+        except requests.exceptions.RequestException:
+            sucess_request = False
     elif action == POST:
-        request = session.post(url, params)
+        try:
+            request = session.post(url, params)
+        except requests.exceptions.RequestException:
+            sucess_request = False
+    else:
+        return None
 
-    html = request.text
+    if sucess_request:
+        html = request.text
+    else:
+        html = ''
+
     soup = BeautifulSoup(html, features="html.parser")
     return soup
 
@@ -89,53 +100,62 @@ def get_problem_by_number(problem_number):
     return get_problem(None, problem_number, False, True)
 
 
-def submeter_um_problema(username, password,
-                         problem_num, lang,
-                         path='', codigo=''):
+def problem_submit(username, password,
+                   problem_num, lang,
+                   path='', user_code=''):
     make_login(username, password)
     problem = get_problem_by_number(problem_num)
     problem_id = str(problem[u'pid'])
-    urldoproblema = URLPROBLEMA + problem_id
-    soup = get_soup(urldoproblema)
+    problem_url = PROBLEMURL + problem_id
+    soup = get_soup(problem_url)
     form = soup.find_all('form')[1]
     params = get_params(form)
     if(path != ''):
         code = get_code(path)
     else:
-        code = codigo
+        code = user_code
     params['code'] = code
     params['language'] = lang
     action = form['action']
-    resultado = get_soup('https://uva.onlinejudge.org/'+action,
-                         action='1', params=params)
-    response = resultado.title.text
+    result = get_soup('https://uva.onlinejudge.org/'+action,
+                      action='1', params=params)
+    response = result.title.text
     return response
 
 
-def username_para_userid(username):
+def username_to_user_id(username):
     url = URLUNAMETOID+str(username)
-    resp = requests.get(url)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return '0'
     data = json.loads(resp.text)
     return str(data)
 
 
-def resultado_ultima_submissao(username):
-    user_id = username_para_userid(username)
-    url = URLSUBMISSAO + str(user_id)
-    resp = requests.get(url)
+def last_submit_result(username):
+    user_id = username_to_user_id(username)
+    url = SUBMISSIONURL + str(user_id)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return 'Algo deu errado! Espere um pouco e tente novamente!'
     data = json.loads(resp.text)
     data = data[u'subs']
     data.sort(key=lambda x: x[0], reverse=True)
-    data = data[0]
-    veredito = data[2]
+    try:
+        data = data[0]
+        answer = data[2]
+    except IndexError:
+        answer = -1
 
     dct = {10: 'Submission error',
            15: 'Can\'t be judged',
            20: 'A sua submissão está na fila para ser julgada,' +
                ' espere um pouco!',
-           30: 'O código-fonte foi submetido com erro' +
-               ' de compilação, tente rodar no jupyter antes' +
-               'de me mandar!',
+           30: 'Seu código fonte possui erros' +
+               ' de compilação, você pode rodar no jupyter' +
+               ' antes de me enviar!',
            35: 'Restricted function',
            40: 'Deu Runtime error, um erro típico quando' +
                'você define um vetor ou array com menos capacidade' +
@@ -143,16 +163,20 @@ def resultado_ultima_submissao(username):
                ' tenta acessar uma de memória inválida.',
            45: 'Output limit',
            50: 'A solução que você submeteu demorou mais tempo' +
-               ' do que o permitido para rodar todos os testes dos juízes.',
+               ' do que o permitido para rodar todos os testes definidos.',
            60: 'Memory limit',
-           70: 'Olha, o código rodou, mas sua solução não apresenta' +
-               ' o resultado esperado para todos os casos de testes dos' +
-               ' juízes, arrume e tente de novo!',
-           80: 'Olha, sua respostas está praticamente correta,' +
+           70: 'Sua resposta está errada. Tente de novo! Caso queira,' +
+               ' pode passar para o próximo conteúdo!',
+           80: 'Olha, sua resposta está praticamente correta,' +
                ' apenas há erro na quantidade de espaços ou letras' +
                ' inversão de letras maiúsculas / minúsculas.' +
-               ' Arrume e tente de novo! ',
-           90: 'A submissão passou por todos os casos de teste, Parabéns!'
+               ' Arruma aí e tenta mais uma vez! ',
+           90: 'Accepted, sua resposta está correta! Que tal agora' +
+               ' você continuar para o próximo conteúdo?'
            }
-    veredito = dct[veredito]
-    return veredito
+    if answer in dct:
+        answer = dct[answer]
+    else:
+        answer = 'Bée, não encontrei sua submissão!'
+        answer += ' Espere um pouco e tente novamente.'
+    return answer

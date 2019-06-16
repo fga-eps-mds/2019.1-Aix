@@ -27,10 +27,12 @@ jobs:
         - SERVICE_NAME=aix-bot
         - REGEX='^(bot\/|\.travis.yml|scripts\/)'
       script:
+        - cp .coveragerc bot/
         - docker build -q -t aixchatbot/aix-bot -f ./docker/bot.Dockerfile .
         - docker run -d --name aix-bot -v $(pwd)/bot:/bot aixchatbot/aix-bot tail -F /dev/null
         - docker exec aix-bot flake8 --filename=*.py --exclude='__pycache__, tests' --ignore=F821, F841
         - docker exec aix-bot pytest --cov-config=.coveragerc --cov=/bot tests/
+        - docker exec aix-bot python comp.py
         - docker exec aix-bot coverage xml
       after_script:
         - cd bot
@@ -39,23 +41,23 @@ jobs:
         - mkdir coverage-final
         - cp bot/coverage/codeclimate.json coverage-final/codeclimate.bot.json
         - aws s3 sync coverage-final/ s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/
-        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
-        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
       deploy:
         provider: script
         script: bash ./deploy.sh
         on:
-          branch: master
+          branch: devel
+
     - stage: Build
       name: Actions
       env:
         - SERVICE_NAME=aix-actions
         - REGEX='^(actions\/|\.travis.yml)'
       script:
+        - cp .coveragerc actions
         - docker build -q -t aixchatbot/aix-actions -f ./actions/actions.Dockerfile ./actions
         - docker run -d --name aix-actions -v $(pwd)/actions:/app/actions aixchatbot/aix-actions run tail -F /dev/null
         - docker exec aix-actions flake8 --filename=*.py --exclude='__pycache__, tests' actions
-        - docker exec aix-actions pytest --cov-config=.coveragerc --cov=actions 
+        - docker exec aix-actions pytest --cov-config=actions/.coveragerc --cov=actions
         - docker exec aix-actions coverage xml
         - docker exec aix-actions cp coverage.xml actions/
       after_script:
@@ -68,5 +70,9 @@ jobs:
         provider: script
         script: bash ./deploy.sh
         on:
-         branch: master
+         branch: devel
 
+    - stage: CodeClimate
+      script:
+        - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
+        - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
