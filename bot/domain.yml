@@ -575,8 +575,8 @@ templates:
         Temos então:
             print("Hello World!")
 
-        Vamos para o próximo conteúdo agora: aprender a ler os conteúdos do usuário!
-        É só me perguntar sobre o input de dados :)
+        Vamos para o próximo conteúdo agora: aprender sobre variáveis!
+        É só me perguntar o que são variáveis :)
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
@@ -649,6 +649,8 @@ templates:
         
         Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
         Digite "quero pesquisar" que te ajudo com isso!
+
+        Ou então peça pelo cronograma, para lembrar onde havia parado!
 
   utter_sobre_input_dados:
     - text: |
@@ -990,11 +992,8 @@ templates:
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
-        Teve algum dúvida e quer pesquisar algo no StackOverflow?
-        Só me falar, faço pesquisas para você!
-        Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
-
-        Sugiro olhar o cronograma para se localizar na matéria e ver o que temos adiante!
+        Béem, por que você agora não testa todo este conhecimento em desafios ainda mais intrigantes e legais?!
+        Só me pedir 'desafio de variaveis' que te passarei alguns!
 
   utter_conteudo_extra_condicionais:
     - text: |
@@ -1005,12 +1004,8 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno.
               https://www.w3schools.com/python/python_conditions.asp
 
-        Agora que está melhor em condicionais do que eu comendo feno,
-        por que não me pergunta sobre estruturas de repetição?
-
-        É um conteúdo importantíiissimo para um programador, e você vai aprender rapidinho!
-
-        Para me ajudar a entender melhor, me peça uma explicação sobre estruturas de repetição.
+        Agora que você já sabe tudo de estruturas condicionais, por que não um desafio?
+        Me peça por "desafio de estruturas condicionais" e te passo um!
 
 
   utter_conteudo_extra_repeticao:
@@ -1047,8 +1042,9 @@ templates:
         https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
         http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
 
-        Muito bem! Já podemos aprender mais assuntos.
-        Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
+        Muito bem! Acho que já acabamos todos os conteúdos e, infelizmente, deve ser minha hora de partir... ;.;
+        Mas não se preocupe, sempre que precisar revisar estarei aqui!
+        E, béem, se quiser olhar tudo o que você estudou, me peça pelo cronograma para rever os conteúdos!
 
   utter_conteudo_extra_vetores:
     - text: |
@@ -1404,7 +1400,7 @@ templates:
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: 
-        Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+        Variáveis. É só perguntar o que são variáveis que eu te explico.
 
   utter_desafio_funcao:
     - text: |
@@ -1414,12 +1410,11 @@ templates:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
-        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA.
-        Para entrar é só pedir.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-
-        Não se preocupe se ainda não tem uma conta, é só pedir para se conectar que te ensino ;)
+        Já podemos seguir pro próximo conteúdo sugerido: Arquivos.
+        É só perguntar o que são arquivos!
 
   utter_desafio_input_dados:
     - text: |
@@ -1437,15 +1432,23 @@ templates:
 
         NÍVEL 2: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=1012
 
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+
+        Agora você já pode seguir para o próximo conteúdo: Estruturas condicionais!
+        Me pergunte "o que são estruturas condicionais?" que te explico rapidinho!
+
   utter_desafio_condicionais:
     - text : |
         Agora vamos testar em problemas mais complexos sobre variaveis!
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=635
 
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-
-
+        E o próximo conteúdo é referente a Estruturas de Repetição!
+        Me pergunte "o que são estruturas de repetição?" e eu te respondo num instante!
 
 
 actions:
