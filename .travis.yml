@@ -46,6 +46,9 @@ jobs:
         script: bash ./deploy.sh
         on:
           branch: devel
+      after_deploy:
+        - curl -X POST $PINGOUT_URL/$BOT_UUID/ping
+
 
     - stage: Build
       name: Actions
@@ -71,8 +74,10 @@ jobs:
         script: bash ./deploy.sh
         on:
          branch: devel
+      after_deploy:
+        - curl -X POST $PINGOUT_URL/$ACTIONS_UUID/ping
 
-    - stage: CodeClimate
+    - stage: TestReport
       script:
         - aws s3 sync s3://eps-tests/coverage/$TRAVIS_BUILD_NUMBER/ coverage-final/
         - if [[ "$TRAVIS_TEST_RESULT" == 0 ]]; then ./cc-test-reporter sum-coverage --output codeclimate.json --parts 2 coverage-final/codeclimate.*.json && ./cc-test-reporter upload-coverage --input codeclimate.json; fi
