@@ -58,7 +58,7 @@ Foram aplicados mais dois testes de usabilidade documentados no repositório.
 A aplicação de testes unitários se dá por meio da implementação de testes da menor parte testável de um programa. Em nosso contexto, como entrega para a release 1 foi aplicado o teste unitário na função da custom action responsável pela integração do bot com a API do stackoverflow por meio da utilização do framework Pytest.
 
 
-![]({{ site.url }}/2019.1-Aix/assets/img/teste.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/teste1.png)
 
 
 ## Testes Estáticos
