@@ -18,6 +18,86 @@
 * intent_utter_codigo_em_python_vaga
     - action_utter_codigo_em_python_vaga
 
+## exemplo_inteiros
+* exemplo_inteiros
+    - action_set_slot_value
+    - utter_exemplo_inteiros
+
+## exemplo_inteiros2
+* exemplo_inteiros
+    - action_set_slot_value
+    - utter_exemplo_inteiros
+* codigo_em_python_inteiros
+    - action_set_slot_value
+    - utter_codigo_em_python_inteiros
+
+## exemplo_inteiros3
+* exemplo_inteiros
+    - action_set_slot_value
+    - utter_exemplo_inteiros
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
+
+## exemplo_pontos_flutuantes
+* exemplo_pontos_flutuantes
+    - action_set_slot_value
+    - utter_exemplo_pontos_flutuantes
+
+## exemplo_pontos_flutuantes2
+* exemplo_pontos_flutuantes
+    - action_set_slot_value
+    - utter_exemplo_pontos_flutuantes
+* codigo_em_python_pontos_flutuantes
+    - action_set_slot_value
+    - utter_codigo_em_python_pontos_flutuantes
+
+## exemplo_pontos_flutuantes3
+* exemplo_pontos_flutuantes
+    - action_set_slot_value
+    - utter_exemplo_pontos_flutuantes
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
+
+## exemplo_caracteres
+* exemplo_caracteres
+    - action_set_slot_value
+    - utter_exemplo_caracteres
+
+## exemplo_caracteres2
+* exemplo_caracteres
+    - action_set_slot_value
+    - utter_exemplo_caracteres
+* codigo_em_python_caracteres
+    - action_set_slot_value
+    - utter_codigo_em_python_caracteres
+
+## exemplo_caracteres3
+* exemplo_caracteres
+    - action_set_slot_value
+    - utter_exemplo_caracteres
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
+
+## exemplo_booleanos
+* exemplo_booleanos
+    - action_set_slot_value
+    - utter_exemplo_booleanos
+
+## exemplo_booleanos2
+* exemplo_booleanos
+    - action_set_slot_value
+    - utter_exemplo_booleanos
+* codigo_em_python_booleanos
+    - action_set_slot_value
+    - utter_codigo_em_python_booleanos
+
+## exemplo_booleanos3
+* exemplo_booleanos
+    - action_set_slot_value
+    - utter_exemplo_booleanos
+* intent_utter_codigo_em_python_vaga
+    - action_utter_codigo_em_python_vaga
+
 ## exemplo_strings
 * exemplo_strings
     - action_set_slot_value
@@ -27,9 +107,9 @@
 * exemplo_strings
     - action_set_slot_value
     - utter_exemplo_strings
-* codigo_em_python_variaveis
+* codigo_em_python_strings
     - action_set_slot_value
-    - utter_codigo_em_python_variaveis
+    - utter_codigo_em_python_strings
 
 ## exemplo_strings3
 * exemplo_strings
