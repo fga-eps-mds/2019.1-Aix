@@ -1116,6 +1116,8 @@ templates:
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!!
+        Bée..recomendo fortemente que sua pesquisa esteja em inglês. 
+        Em inglês há maior probabilidade de você encontrar o que deseja além de uma maior variedade de conteúdos. ;)
         Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
