@@ -46,6 +46,23 @@
 - curiosidade aix
 - cabrita
 - bode
+- o que você é
+- o que voce e
+- o que vc e
+- o que vc é
+- que animal você é
+- que animal voce e
+- que animal vc e
+- que animal vc é
+- sobre aix
+- sobre chatbode
+- quem é você
+- quem e voce
+- quem é vc
+- quem e vc
+- who are you
+- what are you
+- what animal are you
 
 ## intent:sobre_condicionais
 - básico sobre if

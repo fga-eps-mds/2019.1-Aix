@@ -152,26 +152,7 @@ templates:
 
   utter_help:
     - text: |
-        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
-        É béem simples...
-        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
-
-        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
-
-        Quero saber o que é [Nome do conteúdo]
-        Quero um exemplo sobre [Nome do conteúdo]
-        Quero um exemplo em código de [Nome do conteúdo]
-        Me dê exercícios sobre [Nome do conteúdo]
-        Quero saber mais sobre [Nome do conteúdo]
-        Quero um desafio de [Nome do conteúdo]
-
-        Para pesquisar no StackOverflow voce deve digitar:
-        pesquise sobre [conteúdo que você quer saber]
-
-        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
-        Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
-
-        Ah! E aqui estão minhas principais funções:
+        Aqui estão minhas principais funções:
         1. Explicar um conteúdo;
         2. Citar exemplos;
         3. Enviar um exemplo prático;
@@ -180,8 +161,27 @@ templates:
         6. Sugerir desafios para cada conteúdo;
         7. Pesquisar no StackOverflow.
         8. Informar um cronograma de conteúdos de python.
+        9. Submeter e dar feedback de exercícios do UVa.
+        
+        Para checar todos os conteúdos mapeados: /cronograma ou cronograma de estudos
 
-        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
+        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
+
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo de [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios de [Nome do conteúdo]
+        Quero saber mais de [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
+
+        Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
+
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
+        Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
+
+      image: |
+        https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_despedir:
     - text: |
@@ -311,19 +311,35 @@ templates:
         Para me pedir algumas coisas, você tem que ser bem claro comigo!!
         Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, hahaha!!
 
+        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
+
         Me diga o que você deseja, e de qual conteúdo você quer aprender, béem assim olha:
 
         Quero saber o que é [Nome do conteúdo]
-        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo de [Nome do conteúdo]
         Quero um exemplo em código de [Nome do conteúdo]
-        Me dê exercícios sobre [Nome do conteúdo]
-        Quero saber mais sobre [Nome do conteúdo]
+        Me dê exercícios de [Nome do conteúdo]
+        Quero saber mais de [Nome do conteúdo]
         Quero um desafio de [Nome do conteúdo]
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
 
+        Ah! E aqui estão minhas principais funções:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Enviar um exemplo prático;
+        4. Indicar exercícios;
+        5. Enviar links extras sobre o conteúdo;
+        6. Sugerir desafios para cada conteúdo;
+        7. Pesquisar no StackOverflow.
+        8. Informar um cronograma de conteúdos de python.
+        9. Submeter e dar feedback de exercícios do UVa.
+
         E se não souber por onde começar a aprender, é só pedir o cronograma de estudos, que o seu caminho já está todo trilhado, não se preocupe com isto!
         Apenas digite: /cronograma . Ele vai te ajudar a se localizar quanto ao conteúdo!!
+
+      image: |
+        https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_curiosidades_python:
     - text: |
@@ -383,10 +399,10 @@ templates:
         Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília?
 
         Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz
-        de criar uma ferramenta de estudo tão maneira quanto essa!
+        de criar uma ferramenta de estudo tão maneira quanto essa! 
 
         Então para isso acontecer, você tem que começar a entender um pouco mais sobre meu funcionamento.
-        É só me pedir o menu ajuda!
+        É só me pedir o menu ajuda! Eu sou a cabra Aix e estou aqui pra te ensinar python!
 
     - text: |
         Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas
@@ -395,10 +411,12 @@ templates:
         Béem, se você falou seu professor, você acertou...
         Mas sabia que eu também posso te ajudar com isso?
 
-        Sugiro me pedir o menu ajuda, caso qualquer dúvida do meu funcionamento!
+        Sugiro me pedir o menu ajuda, caso tenha qualquer dúvida do meu funcionamento!
+        Sou a cabra Aix e estou pronta pra te ensinar python!
 
     - text: |
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim!
+        Eu sou a cabra Aix e vou te ensinar python!
 
         Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam
         ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você
@@ -420,7 +438,7 @@ templates:
         não perde tempo e te chama:
         pro próximo conteúdo do fluxograma!
 
-        Afinal, eu sei que você quer aprender como eu funciono...
+        Afinal, eu sei que você quer aprender como eu, a Aix, funciono...
         É só me pedir o menu ajuda, não se acanhe!!
 
 
