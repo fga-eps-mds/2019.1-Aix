@@ -282,3 +282,17 @@
     - utter_sobre_arquivos
 * intent_utter_exemplo_vaga
     - action_utter_exemplo_vaga
+
+## sobre_aix1
+* cumprimentar
+    - utter_cumprimentar
+* sobre_aix
+    - utter_sobre_aix
+
+## sobre_aix2
+* cumprimentar
+    - utter_cumprimentar
+* sobre_aix
+    - utter_sobre_aix
+* manter_conversa
+    - utter_manter_conversa
