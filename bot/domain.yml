@@ -176,6 +176,7 @@ templates:
 
         Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
+        Uma dica: Se você pesquisar em inglês, é mais provável que você encontre mais conteúdos. ;)
 
         OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
         Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
@@ -321,6 +322,7 @@ templates:
         Quero um desafio de [Nome do conteúdo]
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
+        Recomendo que sua pesquisa seja feita em inglês..Bée..em inglês existem muito mais variedades de conteúdos.
 
         Ah! E aqui estão minhas principais funções:
         1. Explicar um conteúdo;
@@ -663,8 +665,9 @@ templates:
     - text: |
         O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
         Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
-        E ,para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
-        
+        E, para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        No entanto, como linguagens de programação são utilizadas no mundo inteiro é mais provável que você encontre o que precisa pesquisando em inglês!
+        Mas nada o impede de pesquisar em português, há apenas o risco de encontrar pouco ou nenhum contéudo Bée..
         Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
         Digite "quero pesquisar" que te ajudo com isso!
 
@@ -1115,6 +1118,8 @@ templates:
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!!
+        Bée..recomendo fortemente que sua pesquisa esteja em inglês. 
+        Em inglês há maior probabilidade de você encontrar o que deseja além de uma maior variedade de conteúdos. ;)
         Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
