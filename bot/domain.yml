@@ -288,7 +288,8 @@ templates:
         Primeiro, você terá que aprender uma linguagem de programação...
         E eu estou aqui para te ajudar a explorar a linguagem Python!!!
 
-        Por que você não me pergunta mais sobre ela?
+        Por que você não me pergunta mais sobre ela? O que é? Onde habita?
+        Use palavras como "sobre" e "python"!
 
     - text: |
         Você quer ser um programador, né...
@@ -303,6 +304,7 @@ templates:
         em linguagens de programação! E eu posso te ensinar uma delas: o Python.
 
         Tente me perguntar a respeito dessa linguagem!
+        Use palavras como "sobre" e "python" :)
 
   utter_menu_ajuda:
     - text: |
@@ -446,6 +448,7 @@ templates:
 
         Agora que sabe sobre o que é o Python,
         por que não me pede pra te ensinar a instalá-lo?
+        Use frases como "Como instalar python?" :)
 
 
   utter_sobre_variaveis:
@@ -724,9 +727,6 @@ templates:
         código, for, while, exemplo prático, estruturas de repetição
 
         Simples como comer capim!
-        E olha, se você estiver se sentindo confiante nesse conteúdo,
-        você pode me pedir para falar sobre vetores, que é o próximo conteúdo!
-
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
@@ -835,9 +835,6 @@ templates:
           minha_string = "olá, bom dia! como vai você?" (string)
           print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
 
-        Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
-        Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
-
         Bée..se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
          exemplo strings, strings na prática, strings na pratica, exercicios strings
 
@@ -927,10 +924,8 @@ templates:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-        Agora posso te enviar alguns links com conteúdo mais aprofundado ou
-        podemos já começar o próximo conteúdo!
+        Agora posso te enviar alguns links com conteúdo mais aprofundado!
         Caso queira aprender mais sobre matrizes, me peça por 'conteúdo extra de matrizes'.
-        Ou, me pergunte sobre 'como importar bibliotecas' que te ensino feliz e contente!
 
 
   utter_exercicios_arquivos:
@@ -977,8 +972,9 @@ templates:
           
         Obteve algum erro de compilação? Podemos pesquisar sobre ele!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-        
-        E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
+
+        Que tal aprender um pouco mais sobre strings agora?
+        Só me pedir por "conteúdo extra de strings"
 
 
   # ============================ CONTEÚDO EXTRA ============================ #
@@ -1082,11 +1078,9 @@ templates:
           https://www.w3schools.com/python/python_strings.asp
 
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
-        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, 
-        é só pedir!
-
-        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender:
-        exercicios strings, treinar strings
+        
+        Agora já podemos partir para o próximo conteúdo
+        Basta me perguntar "sobre estruturas condicionais" e eu te explico!        
 
 
   # ============================ PESQUISAR ============================ #
@@ -1157,6 +1151,9 @@ templates:
 
           print('Meu username é:', username, 'e minha senha... É segredo!')
 
+       Agora que você já viu como funiona, que tal fazermos uns exercícios?
+       Só me pedir por "exercícios de variáveis" que te mando alguns!
+
   utter_codigo_em_python_condicionais:
     - text: |
        Então você quer um exemplo mais palpável de condicionais?
@@ -1192,6 +1189,9 @@ templates:
             print("amo python")
           else:
             print("amo a Aix")
+
+       Que tal uns exercícios para fixar o conteúdo?!
+       Me peça por "exercícios de estruturas de repetição" e vamos treinar juntos!
 
   utter_codigo_em_python_repeticao:
     - text: |
@@ -1246,7 +1246,6 @@ templates:
 
        Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade:
        exercicios funções, praticar funções
-
 
   utter_codigo_em_python_arquivos:
     - text: |
@@ -1332,7 +1331,8 @@ templates:
           print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
 
        Muito bem! Já podemos partir para o próximo conteúdo.
-       É só pedir o cronograma para se localizar rs
+       É só perguntar "o que é uma função" que eu te explico!
+       Ou se preferir, pode olhar no cronograma também.
 
   utter_codigo_em_python_input_dados:
     - text: |
@@ -1348,7 +1348,7 @@ templates:
 
        Espero que tenha entendido o conteúdo!
        Caso tenha, você está pronto para o próximo conteúdo: variáveis!
-       Se quiser saber a respeito desse tema, é só me pedir :)
+       Se quiser saber a respeito desse tema, é só me pedir usando frases como "sobre variáveis" :)
 
        Qualquer coisa também, verifique o nosso cronograma!
        Ele irá te ajudar a se localizar nos nossos conteúdos!
