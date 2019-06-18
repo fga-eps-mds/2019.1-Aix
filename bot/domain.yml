@@ -397,10 +397,10 @@ templates:
         Vou te contar um segredo: sabia que eu fui criada por estudantes da Universidade de Brasília?
 
         Eu aposto que se você se esforçar e estudar muito junto comigo você tambéem será capaz
-        de criar uma ferramenta de estudo tão maneira quanto essa!
+        de criar uma ferramenta de estudo tão maneira quanto essa! 
 
         Então para isso acontecer, você tem que começar a entender um pouco mais sobre meu funcionamento.
-        É só me pedir o menu ajuda!
+        É só me pedir o menu ajuda! Eu sou a cabra Aix e estou aqui pra te ensinar python!
 
     - text: |
         Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas
@@ -409,10 +409,12 @@ templates:
         Béem, se você falou seu professor, você acertou...
         Mas sabia que eu também posso te ajudar com isso?
 
-        Sugiro me pedir o menu ajuda, caso qualquer dúvida do meu funcionamento!
+        Sugiro me pedir o menu ajuda, caso tenha qualquer dúvida do meu funcionamento!
+        Sou a cabra Aix e estou pronta pra te ensinar python!
 
     - text: |
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim!
+        Eu sou a cabra Aix e vou te ensinar python!
 
         Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam
         ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você
@@ -434,7 +436,7 @@ templates:
         não perde tempo e te chama:
         pro próximo conteúdo do fluxograma!
 
-        Afinal, eu sei que você quer aprender como eu funciono...
+        Afinal, eu sei que você quer aprender como eu, a Aix, funciono...
         É só me pedir o menu ajuda, não se acanhe!!
 
 
