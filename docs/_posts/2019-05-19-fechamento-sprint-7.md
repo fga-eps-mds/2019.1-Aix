@@ -107,7 +107,7 @@ category: Sprint
 
 ## Resumo pelo Scrum Master
 
-A sprint logo em sequência da R2 teve alguns pontos positivos, como o grande interesse da equipe em manter o ritmo - infelizmente nem todos tiveram (o que pode ser observado na falta de entrega contínua presente no burndown da sprint).
+A sprint logo em sequência da R2 tiveram alguns pontos positivos, como o grande interesse da equipe em manter o ritmo - infelizmente nem todos tiveram (o que pode ser observado na falta de entrega contínua presente no burndown da sprint).
 
 Foi uma sprint com bastante estudo e refatoração baseado no feedback recebido durante a release, então apesar da pontuação não foi uma sprint tão pesada se comparada às anteriores.
 
