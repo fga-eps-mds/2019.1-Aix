@@ -984,3 +984,12 @@
 - resuma scanf
 - resumo scanf
 - resume scanf
+- receber um valor em python
+- receber um numero em python
+- receber uma string em python
+- adquirir um valor em python
+- pegar um valor em python
+- pegar um numero em python
+- receber dados
+- entrada de dados
+- entrada de valores
