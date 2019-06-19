@@ -508,3 +508,9 @@
 - indice de estudos
 - indice
 - indíce
+- caminho para seguir
+- o que fazer de primeira
+- me passe um cronograma das suas tarefas
+- o que você pode fazer
+- como você ensina
+- como você vai me ensinar python
