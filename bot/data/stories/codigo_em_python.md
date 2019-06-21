@@ -32,6 +32,106 @@
 * intent_utter_conteudo_extra_vaga
     - action_utter_conteudo_extra_vaga
 
+## codigo_em_python_inteiros
+* codigo_em_python_inteiros
+    - action_set_slot_value
+    - utter_codigo_em_python_inteiros
+
+## codigo_em_python_inteiros2
+* codigo_em_python_inteiros
+    - action_set_slot_value
+    - utter_codigo_em_python_inteiros
+* conteudo_extra_inteiros
+    - action_set_slot_value
+    - utter_conteudo_extra_inteiros
+
+## codigo_em_python_inteiros3
+* codigo_em_python_inteiros
+    - action_set_slot_value
+    - utter_codigo_em_python_inteiros
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+## codigo_em_python_pontos_flutuantes
+* codigo_em_python_pontos_flutuantes
+    - action_set_slot_value
+    - utter_codigo_em_python_pontos_flutuantes
+
+## codigo_em_python_pontos_flutuantes2
+* codigo_em_python_pontos_flutuantes
+    - action_set_slot_value
+    - utter_codigo_em_python_pontos_flutuantes
+* conteudo_extra_pontos_flutuantes
+    - action_set_slot_value
+    - utter_conteudo_extra_pontos_flutuantes
+
+## codigo_em_python_pontos_flutuantes3
+* codigo_em_python_pontos_flutuantes
+    - action_set_slot_value
+    - utter_codigo_em_python_pontos_flutuantes
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+## codigo_em_python_caracteres
+* codigo_em_python_caracteres
+    - action_set_slot_value
+    - utter_codigo_em_python_caracteres
+
+## codigo_em_python_caracteres2
+* codigo_em_python_caracteres
+    - action_set_slot_value
+    - utter_codigo_em_python_caracteres
+* conteudo_extra_caracteres
+    - action_set_slot_value
+    - utter_conteudo_extra_caracteres
+
+## codigo_em_python_caracteres3
+* codigo_em_python_caracteres
+    - action_set_slot_value
+    - utter_codigo_em_python_caracteres
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+## codigo_em_python_booleanos
+* codigo_em_python_booleanos
+    - action_set_slot_value
+    - utter_codigo_em_python_booleanos
+
+## codigo_em_python_booleanos2
+* codigo_em_python_booleanos
+    - action_set_slot_value
+    - utter_codigo_em_python_booleanos
+* conteudo_extra_booleanos
+    - action_set_slot_value
+    - utter_conteudo_extra_booleanos
+
+## codigo_em_python_booleanos3
+* codigo_em_python_booleanos
+    - action_set_slot_value
+    - utter_codigo_em_python_booleanos
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
+## codigo_em_python_strings
+* codigo_em_python_strings
+    - action_set_slot_value
+    - utter_codigo_em_python_strings
+
+## codigo_em_python_strings2
+* codigo_em_python_strings
+    - action_set_slot_value
+    - utter_codigo_em_python_strings
+* conteudo_extra_strings
+    - action_set_slot_value
+    - utter_conteudo_extra_strings
+
+## codigo_em_python_strings3
+* codigo_em_python_strings
+    - action_set_slot_value
+    - utter_codigo_em_python_strings
+* intent_utter_conteudo_extra_vaga
+    - action_utter_conteudo_extra_vaga
+
 
 ## codigo_em_python_condicionais
 * codigo_em_python_condicionais
