@@ -34,6 +34,52 @@
   - utter_codigo_em_python_input_dados
 
 
+## desafio_variaveis
+* desafio_variaveis
+  - action_set_slot_value
+  - utter_desafio_variaveis
+
+## desafio_variaveis2
+* desafio_variaveis
+  - action_set_slot_value
+  - utter_desafio_variaveis
+* login_no_uva
+  - user_form
+  - form{"name": "user_form"}
+  - form{"name": null}
+
+## desafio_variaveis3
+* desafio_variaveis
+  - action_set_slot_value
+  - utter_desafio_variaveis
+* sobre_condicionais
+  - action_set_slot_value
+  - utter_sobre_condicionais
+
+
+## desafio_condicionais
+* desafio_condicionais
+  - action_set_slot_value
+  - utter_desafio_condicionais
+
+## desafio_condicionais2
+* desafio_condicionais
+  - action_set_slot_value
+  - utter_desafio_condicionais
+* login_no_uva
+  - user_form
+  - form{"name": "user_form"}
+  - form{"name": null}
+
+## desafio_condicionais3
+* desafio_condicionais
+  - action_set_slot_value
+  - utter_desafio_condicionais
+* sobre_repeticao
+  - action_set_slot_value
+  - utter_sobre_repeticao
+
+
 ## desafio_repeticao
 * desafio_repeticao
   - action_set_slot_value
@@ -48,7 +94,6 @@
   - form{"name": "user_form"}
   - form{"name": null}
 
-
 ## desafio_repeticao3
 * desafio_repeticao
   - action_set_slot_value
@@ -56,6 +101,7 @@
 * sobre_vetores
   - action_set_slot_value
   - utter_sobre_vetores
+
 
 ## desafio_vetores
 * desafio_vetores
@@ -116,3 +162,11 @@
   - user_form
   - form{"name": "user_form"}
   - form{"name": null}
+
+## desafio_funcao3
+* desafio_funcao
+  - action_set_slot_value
+  - utter_desafio_funcao
+* sobre_arquivos
+  - action_set_slot_value
+  - utter_sobre_arquivos
