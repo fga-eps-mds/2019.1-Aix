@@ -34,6 +34,8 @@ Estarão listadas neste tópico definições, acrônimos e abreviações para ga
 
 **API:** Application Programming Interface. Em português significa Interface de Programação de Aplicações. São formas de integrar sistemas.
 
+**Online Judge** são corretores automatizados para correção de problemas e desafios de programação, é esperado que seja enviado um arquivo ou trecho de código para o corretor, e ele retorne uma correção simples dizendo se o código passou pelo seu crivo de aceitação ou falhou de alguma forma e de qual forma.
+
 ### 1.4  Referências
 
 * [Stack Overflow](https://stackoverflow.com/)
