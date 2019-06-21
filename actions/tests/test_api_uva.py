@@ -236,11 +236,12 @@ def test_get_problem_by_number(custom_data_by_number):
 def test_problem_submit():
     result = api_uva.problem_submit('username', 'password',
                                     '11459', '5', '', 'codigo')
-    assert result == 'UVa Online Judge'
+    assert result == 'Online Judge'
+
     result = api_uva.problem_submit('username', 'password',
                                     '11459', '5', 'actions/tests/teste.txt',
                                     'codigo')
-    assert result == 'UVa Online Judge'
+    assert result == 'Online Judge'
 
 def test_username_to_user_id():
     assert api_uva.username_to_user_id('usuario_teste') == '1057837'
