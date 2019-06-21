@@ -32,9 +32,9 @@ Estarão listadas neste tópico definições, acrônimos e abreviações para ga
 
 **Chatbot:** programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.
 
-**API:** Application Programming Interface. Em português significa Interface de Programação de Aplicações. São formas de integrar sistemas.
-
 **Online Judge** são corretores automatizados para correção de problemas e desafios de programação, é esperado que seja enviado um arquivo ou trecho de código para o corretor, e ele retorne uma correção simples dizendo se o código passou pelo seu crivo de aceitação ou falhou de alguma forma e de qual forma.
+
+**API:** Application Programming Interface. Em português significa Interface de Programação de Aplicações. São formas de integrar sistemas.
 
 ### 1.4  Referências
 
