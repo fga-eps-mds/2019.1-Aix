@@ -208,7 +208,13 @@ O usuário pode solicitar por conteúdo extra, será fornecido o link de algum s
 <p align="justify"> &emsp;&emsp;
 O usuário pode solicitar por exercícios para que seja fixado o que foi aprendido. Serão retornados 3 links de exercícios a serem resolvidos por meio do juiz online URI, referentes ao conteúdo solicitado.</p>
 
-### 5.6 Permitir que o usuário pesquise no StackOverflow
+### 5.6 Oferecer desafios e correção deles oferecidos pelo UVa Online Judge
+
+<p align="justify"> &emsp;&emsp;
+O usuário pode solicitar por desafios relacionados ao conteúdo que ele está aprendendo. Serão retornados links para desafios de diferentes níveis sobre o conteúdo escolhido, o usuário poderá logar em uma conta para assim conseguir usar a feature de correção feita pelo Online Judge e receberá um feedback do bot.
+</p>
+
+### 5.7 Permitir que o usuário pesquise no StackOverflow
 
 <p align="justify"> &emsp;&emsp;
 O usuário poderá solicitar uma pesquisa. Será feita uma requisição com a API do site StackOverflow que retornará cerca de cinco links com dúvidas semelhantes que foram esclarecidas.
