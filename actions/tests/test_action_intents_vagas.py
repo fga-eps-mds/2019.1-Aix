@@ -62,15 +62,6 @@ def test_name_action_set_slot_value(custom_set_slot_value):
 	assert name == 'action_set_slot_value'
 
 
-def test_verify_if_is_variable(custom_set_slot_value):
-	variavel = 'strings'
-	vetores = 'vetores'
-	assert (custom_set_slot_value.verify_if_is_variable(variavel) ==
-		   'variaveis')
-	assert (custom_set_slot_value.verify_if_is_variable(vetores) ==
-		   vetores)
-
-
 def test_run_action_set_slot_value(custom_set_slot_value, custom_dispatcher,
 								   custom_tracker, custom_domain):
 	slot = custom_set_slot_value.run(custom_dispatcher,
@@ -209,6 +200,13 @@ def test_run_exercicios_vaga(custom_utter_exercicios_vaga, custom_dispatcher,
 									   		custom_domain)
 	assert slot == []
 
+def test_verify_if_is_variable(custom_utter_exercicios_vaga):
+	variavel = 'strings'
+	vetores = 'vetores'
+	assert (custom_utter_exercicios_vaga.verify_if_is_variable(variavel) ==
+		   'variaveis')
+	assert (custom_utter_exercicios_vaga.verify_if_is_variable(vetores) ==
+		   vetores)
 
 @pytest.fixture
 def custom_utter_conteudo_extra_vaga():

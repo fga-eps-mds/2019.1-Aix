@@ -2,24 +2,57 @@
 * sobre_variaveis
     - action_set_slot_value
     - utter_sobre_variaveis
-* sobre_inteiros
-    - action_set_slot_value
-    - utter_sobre_inteiros
-* sobre_pontos_flutuantes
-    - action_set_slot_value
-    - utter_sobre_pontos_flutuantes
-* sobre_caracteres
-    - action_set_slot_value
-    - utter_sobre_caracteres
-* sobre_booleanos
-    - action_set_slot_value
-    - utter_sobre_booleanos
 * exemplo_variaveis
     - action_set_slot_value
     - utter_exemplo_variaveis
 * codigo_em_python_variaveis
     - action_set_slot_value
     - utter_codigo_em_python_variaveis
+* sobre_inteiros
+    - action_set_slot_value
+    - utter_sobre_inteiros
+* exemplo_inteiros
+    - action_set_slot_value
+    - utter_exemplo_inteiros
+* codigo_em_python_inteiros
+    - action_set_slot_value
+    - utter_codigo_em_python_inteiros
+* sobre_pontos_flutuantes
+    - action_set_slot_value
+    - utter_sobre_pontos_flutuantes
+* exemplo_pontos_flutuantes
+    - action_set_slot_value
+    - utter_exemplo_pontos_flutuantes
+* codigo_em_python_pontos_flutuantes
+    - action_set_slot_value
+    - utter_codigo_em_python_pontos_flutuantes
+* sobre_caracteres
+    - action_set_slot_value
+    - utter_sobre_caracteres
+* exemplo_caracteres
+    - action_set_slot_value
+    - utter_exemplo_caracteres
+* codigo_em_python_caracteres
+    - action_set_slot_value
+    - utter_codigo_em_python_caracteres
+* sobre_booleanos
+    - action_set_slot_value
+    - utter_sobre_booleanos
+* exemplo_booleanos
+    - action_set_slot_value
+    - utter_exemplo_booleanos
+* codigo_em_python_booleanos
+    - action_set_slot_value
+    - utter_codigo_em_python_booleanos
+* sobre_strings
+    - action_set_slot_value
+    - utter_sobre_strings
+* exemplo_strings
+    - action_set_slot_value
+    - utter_exemplo_strings
+* codigo_em_python_strings
+    - action_set_slot_value
+    - utter_codigo_em_python_strings
 * exercicios_variaveis
     - action_set_slot_value
     - utter_exercicios_variaveis
