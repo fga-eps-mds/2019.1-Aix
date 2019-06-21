@@ -33,9 +33,9 @@ category: Gerencia
 - Papeis bem definidos
 - Complementação de conhecimento da equipe equilibrado
 - Integração e empenho da equipe
-<li>Crescimento da autonomia dos membros da equipe na busca de informações nas últimas sprints.</li>
+- Crescimento da autonomia dos membros da equipe na busca de informações nas últimas sprints.
 
-
+<div></div>
 * __Equipe de MDS__
 - Aulas diversas, tanto com slide, quanto apresentações e até aulas ministradas por outros alunos
 - Muitos conteúdos abrangidos, apresentando toda uma nova área da engenharia de software pros alunos
@@ -54,8 +54,9 @@ category: Gerencia
 * __Equipe de EPS__
 - Consumo de tempo excessivo com relação a disciplina
 - Alterações de emergência nas datas de planejamento que algumas vezes resultavam em divida técnica.
-<li>Pouca rotação de papéis dentro da equipe, o que por vezes pode atrapalhar a passagem de conhecimento.</li>
+- Pouca rotação de papéis dentro da equipe, o que por vezes pode atrapalhar a passagem de conhecimento.
 
+<div></div>
 * __Equipe de MDS__
 - Cronograma da disciplina desalinhado, visto que a maioria dos conteúdos são explicados pela Equipe de EPS
 - Ápice no qual as aulas já não abrangem mais as necessidades dos projetos ou não a mais conteúdo a ser ministrado na disciplina.
@@ -74,8 +75,9 @@ category: Gerencia
 - Aprendizado quanto a saber priorizar as funcionalidades a serem implementadas
 - Aprendizado quanto a saber sobre a importancia de se ter um MVP e a aplicar de forma correta
 - Aprendizados quanto ao gerenciamento de um projeto e suas etapas
-<li>Aprendizados e práticas de conteúdos estudados principalmente em Arquitetura, GCS, Qualidade e Testes</li>
+- Aprendizados e práticas de conteúdos estudados principalmente em Arquitetura, GCS, Qualidade e Testes
 
+<div></div>
 * __Equipe de MDS__
 - Manter repositório organizado por meio de issues e PRs
 - Métodos ágeis
@@ -95,8 +97,9 @@ category: Gerencia
 * __Equipe de EPS__
 - Disciplina possui número de créditos condizentes com o nível de esforço e exigência
 - Recebimento de feedbacks de forma mais constante com relação ao andamento da equipe
-<li>É necessário saber filtrar quais práticas ágeis auxiliam o projeto, realizar rituais apenas por realizar não contribui para o projeto</li>
+- É necessário saber filtrar quais práticas ágeis auxiliam o projeto, realizar rituais apenas por realizar não contribui para o projeto
 
+<div></div>
 * __Equipe de MDS__
 - Maior abertura da banca pra abraçar ideias novas de projetos, sugestoes de clientes
 - Aproveitar a aula, quando atingir o conteúdo todo e não tiver mais nada para passar, o examinador propor algumas reunioes com cada grupo em horário de aula, para propor sugestoes e ver se as equipes estão caminhando corretamente.
