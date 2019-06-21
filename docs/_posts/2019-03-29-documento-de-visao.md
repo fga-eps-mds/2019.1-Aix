@@ -21,7 +21,7 @@ O objetivo deste artigo será definir o problema, os perfis das partes interessa
 ### 1.2  Escopo
 
 <p align="justify"> &emsp;&emsp;
-De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.</p>
+De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de introdução à linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.</p>
 <p align="justify"> &emsp;&emsp;
 Em seguida, as informações técnicas do programa também serão bem delineadas e atualizadas caso seja necessário durante o processo de criação do sistema.</p>
 
@@ -118,7 +118,7 @@ Dessa forma, no momento atual, é necessário para o usuário apenas um disposit
 
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas da parte interessada
 
-Critérios de Sucesso|Envolvimento|Entregas|
+|Critérios de Sucesso|Envolvimento|Entregas|
 |--|--|--|--|
 |Maior adesão ao serviço da parte interessada, graças aos bons resultados alcançados através de programas inovadores de ensino e grandes profissionais que podem ser formados por estas entidades que darão nome a essas instituições.|Revisor de requisitos. Confere se é abordado no projeto todos os temas que a entidade busca propagar aos usuários, todo o conteúdo necessário para o pupilo em determinado período. Em caso de ausência de algum tema, contacta a equipe para que o tópico seja implementado.|Entregas adicionais que podem ser requeridas pela parte interessada serão os temas não abordados pela equipe mas que carecem na hora da revisão da parte interessada. Conteúdos relacionados ao estudo da linguagem Python.
 
@@ -133,7 +133,7 @@ Critérios de Sucesso|Envolvimento|Entregas|
 
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas do usuário
 
-Critérios de Sucesso|Envolvimento|Entregas|
+|Critérios de Sucesso|Envolvimento|Entregas|
 |--|--|--|--|
 |Reconhecimento pelo usuário de noções básicas da linguagem, identificação pelo beneficente de capítulos recorrentes de conteúdos bibliográficos, capacidade de solucionar problemas propostos pela Aix e outros demais empecilhos. | Construtor das dúvidas e receptor de conhecimento. Dialoga com o simulador de maneira informal e envia interrogações para que assim o chatbot retorne uma explicação correspondente.|As entregas do usuário são as dúvidas enviadas que deverão ser elaboradas por ele durante o processo de aprendizagem.
 
