@@ -320,7 +320,7 @@ templates:
         Quero um exemplo de [Nome do conteúdo]
         Quero um exemplo em código de [Nome do conteúdo]
         Me dê exercícios de [Nome do conteúdo]
-        Quero saber mais de [Nome do conteúdo]
+        Quero saber mais de [Nome do conteúdo] 
         Quero um desafio de [Nome do conteúdo]
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
@@ -1214,7 +1214,7 @@ templates:
             print("amo a Aix")
 
        Que tal uns exercícios para fixar o conteúdo?!
-       Me peça por "exercícios de estruturas de repetição" e vamos treinar juntos!
+       Me peça por "exercícios de estruturas condicionais" e vamos treinar juntos!
 
   utter_codigo_em_python_repeticao:
     - text: |
@@ -1441,11 +1441,14 @@ templates:
 
   utter_desafio_input_dados:
     - text: |
-        Que tal um desafio sobre importar dados?
+        Que tal um desafio sobre imprimir dados?
         Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
         Depois printe tudo formatando do jeito que quiser!
 
         Caso queira o gabarito para conferir, me peça o código em python de input de dados!
+
+        Vamos seguir para o próximo conteúdo sugerido: estruturas condicionais!
+        É só me perguntar o que são estruturas condicionais!
 
   utter_desafio_variaveis:
     - text : |
@@ -1458,8 +1461,8 @@ templates:
         Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-        Agora você já pode seguir para o próximo conteúdo: Estruturas condicionais!
-        Me pergunte "o que são estruturas condicionais?" que te explico rapidinho!
+        Agora, vamos aprender sobre leitura de dados do usuário!
+        Me pergunte "como ler dado do usuário?" que te explico rapidinho!
 
   utter_desafio_condicionais:
     - text : |
