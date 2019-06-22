@@ -494,12 +494,16 @@
 - qual conteúdo devo aprender primeiro
 - quais conteudos devo aprender primeiro
 - quais conteúdos devo aprender primeiro
+- cronograma python
+- cronograma de ensino
 - cronograma aprender python do zero
 - entender python do zero
 - todos os conteudos de python
 - python na ordem
 - como aprender python
 - em qual ordem devo aprender python
+- ordem de estudo
+- ordem de conteúdos
 - qual a ordem de conteudos
 - o que aprender agora
 - o que você pode me ensinar
@@ -508,3 +512,5 @@
 - indice de estudos
 - indice
 - indíce
+- sumário dos conteúdos
+- sumário de conteúdo
