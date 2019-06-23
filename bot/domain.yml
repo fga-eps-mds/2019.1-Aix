@@ -1252,7 +1252,7 @@ templates:
   utter_codigo_em_python_inteiros:
     - text: |
        Se estiver pronto pra próxima etapa, basta me pedir para explicar
-       sobre caracteres agora! É tão fácil quanto esse conteúdo,
+       sobre pontos flutuantes agora! É tão fácil quanto esse conteúdo,
        pode ter certeza! Agora dá uma olhada no código que você me pediu!
 
        código:
