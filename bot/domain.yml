@@ -739,7 +739,23 @@ templates:
 
   utter_exemplo_pontos_flutuantes:
     - text: |
-        pontos_flutuantes
+        Bom, já que nem tudo é brincadeira, agora teremos que fazer
+        algumas continhas... Eu preciso que você faça um programa que
+        registre um número proposto pelo usuário e divida por dois.
+        Esse número pode ser um número decimal, por exemplo: 3.5!!!
+
+        Depois verifique o valor em alguma calculadora, veja se acertou!
+
+        Caso não tenha conseguido, tente trocar a variável para
+        ponto flutuante!
+
+        Basta colocar o input entre parenteses e a sentença float ou
+        double antes destes. Acontece que os pontos flutuantes são
+        capazes de tratar mais opções de números, como por exemplo
+        decimais...
+
+        Você pode me pedir o código desse programa se quiser, é só dizer
+        o que deseja!
 
   utter_exemplo_caracteres:
     - text: |
@@ -1258,19 +1274,24 @@ templates:
        código:
           print("""Vamos brincar de pique-esconde! Antes, você precisa contar,
           para eu me esconder!""")
-
           n1 = int(input('Primeira contagem: '))
           n2 = int(input('Segunda contagem: '))
           n3 = int(input('Terceira contagem: '))
-
           soma = n1 + n2 + n3
-
           print('A soma total foi de {}! Lá vou eu!'.format(soma))
           resposta = input('Onde a cabra está? ')
 
   utter_codigo_em_python_pontos_flutuantes:
     - text: |
-       codigo em python pontos_flutuantes
+       Olha aí embaixo! Dá pra acreditar que é só isso que temos que fazer?
+       Fácil né??
+       Tenta me perguntar sobre caracteres agora!! Estamos avançando
+       cada vez mais, estou gostando de ver ;)
+
+       código:
+          numero = float(input("Número: "))
+          print(numero/2)
+
 
   utter_codigo_em_python_caracteres:
     - text: |
@@ -1281,14 +1302,11 @@ templates:
 
        código:
           print("Qual é o nome da cabra que ensina Python?")
-
           print("A) Udewmy")
           print("B) Aix")
           print("C) Alura")
           print("D) Naomi ")
-
           resposta = input("Digite a resposta: ")
-
           print(resposta)
 
 
@@ -1297,10 +1315,8 @@ templates:
        código:
           online = False
           print(online)
-
           input("Aperte enter para eu saber se você está ai! ")
           online = True
-
           print(online)
 
       Não falei que era simples? Agora vamos ver um pouco sobre strings!
@@ -1310,13 +1326,10 @@ templates:
       código:
           import random
           import string
-
           print(random.choice(string.ascii_uppercase))
-
           carro = str(input("Digite o carro: "))
           fruta = str(input("Digite a fruta: "))
           animal = str(input("Digite o animal: "))
-
           print("Carro: {}".format(carro))
           print("Fruta: {}".format(fruta))
           print("Animal: {}".format(animal))
