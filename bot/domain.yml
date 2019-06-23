@@ -45,6 +45,10 @@ intents:
   - exemplo_matrizes
   - exemplo_importar_bibliotecas
   - exemplo_strings
+  - exemplo_inteiros
+  - exemplo_pontos_flutuantes
+  - exemplo_caracteres
+  - exemplo_booleanos
 
 
   - exercicios_variaveis
@@ -96,6 +100,11 @@ intents:
 
 
   - codigo_em_python_variaveis
+  - codigo_em_python_inteiros
+  - codigo_em_python_pontos_flutuantes
+  - codigo_em_python_caracteres
+  - codigo_em_python_booleanos
+  - codigo_em_python_strings
   - codigo_em_python_condicionais
   - codigo_em_python_repeticao
   - codigo_em_python_funcao
@@ -707,6 +716,22 @@ templates:
 
         Simples como comer capim!
 
+  utter_exemplo_inteiros:
+    - text: |
+        inteiros
+
+  utter_exemplo_pontos_flutuantes:
+    - text: |
+        pontos_flutuantes
+
+  utter_exemplo_caracteres:
+    - text: |
+        caracteres
+
+  utter_exemplo_booleanos:
+    - text: |
+        booleanos
+
   utter_exemplo_condicionais:
     - text: |
         Quer saber como seria o uso de uma estrutura condicional? Xá comigo, nisso eu sou muito boa!
@@ -1179,6 +1204,26 @@ templates:
 
           print('Meu username é:', username, 'e minha senha... É segredo!')
 
+  utter_codigo_em_python_inteiros:
+    - text: |
+       codigo em python inteiros
+
+  utter_codigo_em_python_pontos_flutuantes:
+    - text: |
+       codigo em python pontos_flutuantes
+
+  utter_codigo_em_python_caracteres:
+    - text: |
+       codigo em python caracteres
+
+  utter_codigo_em_python_booleanos:
+    - text: |
+       codigo em python booleanos
+
+  utter_codigo_em_python_strings:
+    - text: |
+       codigo em python strings
+
   utter_codigo_em_python_condicionais:
     - text: |
        Então você quer um exemplo mais palpável de condicionais?
@@ -1505,6 +1550,10 @@ actions:
 
 
   - utter_exemplo_variaveis
+  - utter_exemplo_inteiros
+  - utter_exemplo_pontos_flutuantes
+  - utter_exemplo_caracteres
+  - utter_exemplo_booleanos
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
   - utter_exemplo_vetores
@@ -1517,6 +1566,11 @@ actions:
 
   - utter_codigo_em_python_input_dados
   - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_inteiros
+  - utter_codigo_em_python_pontos_flutuantes
+  - utter_codigo_em_python_caracteres
+  - utter_codigo_em_python_booleanos
+  - utter_codigo_em_python_strings
   - utter_codigo_em_python_condicionais
   - utter_codigo_em_python_repeticao
   - utter_codigo_em_python_vetores

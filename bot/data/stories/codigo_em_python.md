@@ -21,16 +21,9 @@
 * codigo_em_python_variaveis
     - action_set_slot_value
     - utter_codigo_em_python_variaveis
-* conteudo_extra_variaveis
+* sobre_inteiros
     - action_set_slot_value
-    - utter_conteudo_extra_variaveis
-
-## codigo_em_python_variaveis3
-* codigo_em_python_variaveis
-    - action_set_slot_value
-    - utter_codigo_em_python_variaveis
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_sobre_inteiros
 
 ## codigo_em_python_inteiros
 * codigo_em_python_inteiros
@@ -41,16 +34,9 @@
 * codigo_em_python_inteiros
     - action_set_slot_value
     - utter_codigo_em_python_inteiros
-* conteudo_extra_inteiros
+* sobre_pontos_flutuantes
     - action_set_slot_value
-    - utter_conteudo_extra_inteiros
-
-## codigo_em_python_inteiros3
-* codigo_em_python_inteiros
-    - action_set_slot_value
-    - utter_codigo_em_python_inteiros
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_sobre_pontos_flutuantes
 
 ## codigo_em_python_pontos_flutuantes
 * codigo_em_python_pontos_flutuantes
@@ -61,16 +47,9 @@
 * codigo_em_python_pontos_flutuantes
     - action_set_slot_value
     - utter_codigo_em_python_pontos_flutuantes
-* conteudo_extra_pontos_flutuantes
+* sobre_caracteres
     - action_set_slot_value
-    - utter_conteudo_extra_pontos_flutuantes
-
-## codigo_em_python_pontos_flutuantes3
-* codigo_em_python_pontos_flutuantes
-    - action_set_slot_value
-    - utter_codigo_em_python_pontos_flutuantes
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_sobre_caracteres
 
 ## codigo_em_python_caracteres
 * codigo_em_python_caracteres
@@ -81,16 +60,9 @@
 * codigo_em_python_caracteres
     - action_set_slot_value
     - utter_codigo_em_python_caracteres
-* conteudo_extra_caracteres
+* sobre_booleanos
     - action_set_slot_value
-    - utter_conteudo_extra_caracteres
-
-## codigo_em_python_caracteres3
-* codigo_em_python_caracteres
-    - action_set_slot_value
-    - utter_codigo_em_python_caracteres
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_sobre_booleanos
 
 ## codigo_em_python_booleanos
 * codigo_em_python_booleanos
@@ -101,16 +73,9 @@
 * codigo_em_python_booleanos
     - action_set_slot_value
     - utter_codigo_em_python_booleanos
-* conteudo_extra_booleanos
+* sobre_strings
     - action_set_slot_value
-    - utter_conteudo_extra_booleanos
-
-## codigo_em_python_booleanos3
-* codigo_em_python_booleanos
-    - action_set_slot_value
-    - utter_codigo_em_python_booleanos
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_sobre_strings
 
 ## codigo_em_python_strings
 * codigo_em_python_strings
@@ -121,16 +86,9 @@
 * codigo_em_python_strings
     - action_set_slot_value
     - utter_codigo_em_python_strings
-* conteudo_extra_strings
+* exercicios_variaveis
     - action_set_slot_value
-    - utter_conteudo_extra_strings
-
-## codigo_em_python_strings3
-* codigo_em_python_strings
-    - action_set_slot_value
-    - utter_codigo_em_python_strings
-* intent_utter_conteudo_extra_vaga
-    - action_utter_conteudo_extra_vaga
+    - utter_exercicios_variaveis
 
 
 ## codigo_em_python_condicionais

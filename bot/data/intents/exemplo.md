@@ -104,37 +104,19 @@
 - exemplos variavel
 - exemplos variaveis
 - exemplos variável
-- exemplos de int double float
-- modelos de int
-- modelos de double
 - modelos de variavies
-- sintaxe de int
-- sintaxe de double
 - modelos de variavel
 - sintaxe de variaveis
 - sintaxe de variavel
 - sintaxe de variável
-- sintaxe de float
 - como declarar variavel
 - como declarar variaveis
 - exemplifique variaveis
 - exemplifique variavel
-- exemplifique int
-- exemplifique float
-- exemplifique double
-- exemplo de bool
 - variaveis na pratica
 - variavel na pratica
-- int na pratica
-- double na pratica
-- bool na pratica
-- float na pratica
 - demonstração de variáveis
 - demonstração de variável
-- demonstração de int
-- demonstração de double
-- demonstração de bool
-- demonstração de float
 
 
 ## intent:exemplo_funcao
@@ -295,3 +277,107 @@
 - me de um exemplo de strings
 - demonstração de strings
 - demonstração de string
+
+## intent:exemplo_inteiros
+- exemplo de int
+- como usar inteiros em python
+- exemplo prático de inteiros
+- como declarar uma int
+- usar tipo inteiros
+- pratica inteiros
+- inteiros na prática
+- int na pratica
+- exemplo de inteiro
+- como usar inteiro em python
+- exemplo prático de inteiro
+- como declarar uma inteiro
+- usar tipo inteiro
+- pratica ints
+- inteiro na prática
+- inteiro na pratica
+- me de alguns exemplos de ints
+- me de alguns de inteiros
+- quero alguns exemplos de inteiros
+- quero alguns exemplos de inteiro
+- me de um exemplo de inteiro
+- me de um exemplo de inteiros
+- demonstração de ints
+- demonstração de inteiro
+
+## intent:exemplo_pontos_flutuantes
+- exemplo de double
+- como usar float em python
+- exemplo prático de pontos flutuantes
+- como declarar uma pontos flutuantes
+- usar tipo double
+- pratica pontos flutuantes
+- pontos flutuantes na prática
+- pontos flutuantes na pratica
+- exemplo de ponto flutuante
+- como usar ponto flutuante em python
+- exemplo prático de ponto flutuante
+- como declarar uma ponto flutuante
+- usar tipo float
+- pratica ponto flutuante
+- ponto flutuante na prática
+- ponto flutuante na pratica
+- me de alguns exemplos de float
+- me de alguns de pontos flutuantes
+- quero alguns exemplos de pontos flutuantes
+- quero alguns exemplos de ponto flutuante
+- me de um exemplo de double
+- me de um exemplo de pontos flutuantes
+- demonstração de pontos flutuantes
+- demonstração de float
+
+## intent:exemplo_caracteres
+- exemplo de caracteres
+- como usar char em python
+- exemplo prático de caracteres
+- como declarar uma chars
+- usar tipo caracteres
+- pratica char
+- caracteres na prática
+- caracteres na pratica
+- exemplo de caracter
+- como usar caracter em python
+- exemplo prático de caracter
+- como declarar uma caracter
+- usar tipo chars
+- pratica caracter
+- caracter na prática
+- char na pratica
+- me de alguns exemplos de chars
+- me de alguns de caracteres
+- quero alguns exemplos de caracteres
+- quero alguns exemplos de char
+- me de um exemplo de caracter
+- me de um exemplo de chars
+- demonstração de caracteres
+- demonstração de char
+
+## intent:exemplo_booleanos
+- exemplo de bool
+- como usar booleanos em python
+- exemplo prático de booleanos
+- como declarar uma bools
+- usar tipo booleanos
+- pratica bool
+- booleanos na prática
+- booleanos na pratica
+- exemplo de booleano
+- como usar bools em python
+- exemplo prático de booleano
+- como declarar uma booleano
+- usar tipo bool
+- pratica booleano
+- booleano na prática
+- bools na pratica
+- me de alguns exemplos de booleano
+- me de alguns de booleanos
+- quero alguns exemplos de booleanos
+- quero alguns exemplos de bool
+- me de um exemplo de booleano
+- me de um exemplo de booleanos
+- demonstração de bools
+- demonstração de booleano
