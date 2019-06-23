@@ -917,70 +917,60 @@
 - onde tirar dúvidas
 
 ## intent:sobre_input_dados
-- como ler dado do usuário
-- como ler dado do usuario
-- como ler uma informação do usuário
-- como ler uma informacao do usuario
-- leitura de texto
-- entrada de dados
-- como ler string
-- como ler inteiro
-- como ler float
-- input em python
-- scanf em python
-- cin em python
-- in data python
-- ler um numero
-- ler um inteiro
-- ler um float
-- entrada do usuario
-- solicitar valor do usuario
-- solicitar dado do usuario
-- ler no terminal
-- pegar texto do usuario
-- pegar texto do terminal
-- básico input
-- básico scanf
-- basico input
-- basico scanf
-- faz um input
-- faz um scanf
-- montar um input
-- montar um scanf
-- monte um input
-- monte um scanf
-- o que é input
-- o que é scanf
-- o que e input
-- o que e scanf
-- sobre scanf
-- sobre input
+- acerca de entrada de dados
 - acerca de input
-- defina input
-- definição input
-- definiçao input
-- explique input
-- explicação input
-- explicaçao input
-- descreva input
-- descrição input
-- significado input
-- conceito input
-- defina scanf
-- resuma input
-- resumo input
-- resume input
+- acerca de input de dados
 - acerca de scanf
-- definição scanf
-- definiçao scanf
-- explique scanf
-- explicação scanf
-- explicaçao scanf
-- descreva scanf
-- descrição scanf
-- significado scanf
+- conceito entrada de dados
+- conceito input
+- conceito input de dados
 - conceito scanf
+- defina entrada de dados
+- defina entrada de dados
+- defina input
+- defina input
+- defina input de dados
+- defina input de dados
 - defina scanf
-- resuma scanf
-- resumo scanf
-- resume scanf
+- defina scanf
+- definiçao entrada de dados
+- definiçao input
+- definiçao input de dados
+- definiçao scanf
+- definição entrada de dados
+- definição input
+- definição input de dados
+- definição scanf
+- descreva entrada de dados
+- descreva input
+- descreva input de dados
+- descreva scanf
+- descrição entrada de dados
+- descrição input
+- descrição input de dados
+- descrição scanf
+- explicaçao entrada de dados
+- explicaçao input
+- explicaçao input de dados
+- explicaçao scanf
+- explicação entrada de dados
+- explicação input
+- explicação input de dados
+- explicação scanf
+- explique entrada de dados
+- explique input
+- explique input de dados
+- explique scanf
+- o que e entrada de dados
+- o que e input
+- o que e input de dados
+- o que e scanf
+- o que sao entrada de dados
+- o que sao input
+- o que sao input de dados
+- o que sao scanf
+- o que são entrada de dados
+- o que são input
+- o que são input de dados
+- o que são scanf
+- o que é entrada de dados

@@ -70,38 +70,39 @@
 
 ## intent:desafio_input_dados
 
-- desafie-me input de dados
-- quero desafios de input de dados
+- challenge accepted entrada de dados
+- challenge accepted input
+- challenge accepted input de dados
+- desafie-me sobre entrada de dados
+- desafie-me sobre input
+- desafie-me sobre input de dados
+- desafio entrada de dados
+- desafio input
+- desafio input de dados
+- desejo desafios de entrada de dados
+- desejo desafios de input
 - desejo desafios de input de dados
-- gostaria de desafios de input de dados
-- quero aumentar a dificuldade de input de dados
+- dificulte os exercícios de entrada de dados
+- dificulte os exercícios de input
 - dificulte os exercícios de input de dados
-- me desafie em input de dados
-- desafio entrada de dados
-- desafio leitura de texto
-- desafio entrada do usuário
-- desafio ler valor do usuário
-- desafio ler informação do terminal
-- desafio scanf
-- desafio cin
-- exercicios entrada de dados
-- exercicios leitura de texto
-- exercicios entrada do usuário
-- exercicios ler valor do usuário
-- exercicios ler informação do terminal
-- exercicios scanf
-- exercicios cin
-- exercicio entrada de dados
-- exercicio leitura de texto
-- exercicio entrada do usuário
-- exercicio ler valor do usuário
-- exercicio ler informação do terminal
-- exercicio scanf
-- exercicio cin
-- challenge accepted cin scanf
-- me mostra o desafio input de dados
-- desafio entrada de dados
+- gostaria de desafios de entrada de dados
+- gostaria de desafios de input
+- gostaria de desafios de input de dados
+- me desafia a fazer entrada de dados
+- me desafia a fazer input
 - me desafia a fazer input de dados
+- me desafie em entrada de dados
+- me desafie em input
+- me desafie em input de dados
+- me mostra o desafio de entrada de dados
+- me mostra o desafio de input
+- me mostra o desafio de input de dados
+- quero aumentar a dificuldade de entrada de dados
+- quero aumentar a dificuldade de input
+- quero aumentar a dificuldade de input de dados
+- quero desafios de entrada de dados
+- quero desafios de input
+- quero desafios de input de dados
 
 ## intent:desafio_variaveis
 

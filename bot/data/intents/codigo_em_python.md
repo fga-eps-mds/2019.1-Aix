@@ -230,28 +230,46 @@
 - demonstre um código em python que possua bibliotecas
 
 ## intent:codigo_em_python_input_dados
-- código input de dados
-- código python receber dados do usuário
-- receber dados em python
+- como funcionam input de dados no código
+- como funcionam input no código
+- como funcionam leitura de dados no código
+- código de input
 - código de input de dados
-- codigo de recepção de dados
-- exemplo prático de input de dados
-- exemplo pratico de recebimento de dados
-- receber dados no python
-- input de dados no python
-- receber input em código
-- input em codigo
+- código de leitura de dados
+- código em python de input
+- código em python de input de dados
 - código em python de leitura de dados
-- codigo em python de receber dados
-- implementação com input de dados
-- implementacao de como ler dados
-- exemplifique em código input de dados
-- exemplifique em codigo como receber dados
-- como funcionam inputs no código
-- como funciona ler dados no codigo
-- implemente um código com leitura de dados
-- implemente um exemplo de recepção de input
-- me mostre um código com input de dados
+- código input
+- código input de dados
+- código leitura de dados
+- códipo python input
+- códipo python input de dados
+- códipo python leitura de dados
+- demonstre input de dados na prática
+- demonstre input na prática
 - demonstre leitura de dados na prática
-- demonstre recebimento de dados na pratica
-- demonstre um código em python que possua leitura de input
+- demonstre um código em python que possua inputdemonstre um código em python que possua input de dados
+- demonstre um código em python que possua leitura de dadosexemplifique em código input
+- exemplifique em código input de dados
+- exemplifique em código leitura de dados
+- exemplo prático de input
+- exemplo prático de input de dados
+- exemplo prático de leitura de dados
+- implementação com input
+- implementação com input de dados
+- implementação com leitura de dados
+- implemente um exemplo de input
+- implemente um exemplo de input de dados
+- implemente um exemplo de leitura de dados
+- input de dados em código
+- input de dados em python
+- input de dados no python
+- input em código
+- input em python
+- input no python
+- leitura de dados em código
+- leitura de dados em python
+- leitura de dados no python
+- me mostre um código com input
+- me mostre um código com input de dados
+- me mostre um código com leitura de dados
