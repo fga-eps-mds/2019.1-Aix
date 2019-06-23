@@ -904,19 +904,28 @@ templates:
 
   utter_exemplo_strings:
     - text: |
-        Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
-        Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas.
-        Pode ser aspas simples ou duplas :D
+        Agora vamos aprender a tratar strings, e para isso,
+        vamos fazer um mini jogo de adedonha!
 
-        Veja um exemplo:
-          minha_string = "olá, bom dia! como vai você?" (string)
-          print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
+        Inicialmente, o programa escolherá uma letra aleatória com a função
+        random.choice.
+        Apenas acrescente nas primeiras linhas do seu programa o seguinte:
 
-        Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
-        Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
+        import random
+        import string
 
-        Bée..se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
-         exemplo strings, strings na prática, strings na pratica, exercicios strings
+        print(random.choice(string.ascii_uppercase))
+
+        Depois, o usuário terá que digitar 3 dados do tipo string,
+        com essa inicial sorteada: carro, fruta e animal!
+
+        Após entrada as informações, o programa deve retornar o
+        que o usuário escolheu para suas respostas.
+
+        Por enquanto, quem vai checar se as respostas são válidas
+        será você, humano. Se você continuar estudando, você aprenderá como
+        fazer isso de modo automático! Mas antes, vamos ver o código desse
+        exemplo! É só pedir :)
 
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
@@ -1298,7 +1307,22 @@ templates:
 
   utter_codigo_em_python_strings:
     - text: |
-       codigo em python strings
+      código:
+          import random
+          import string
+
+          print(random.choice(string.ascii_uppercase))
+
+          carro = str(input("Digite o carro: "))
+          fruta = str(input("Digite a fruta: "))
+          animal = str(input("Digite o animal: "))
+
+          print("Carro: {}".format(carro))
+          print("Fruta: {}".format(fruta))
+          print("Animal: {}".format(animal))
+
+      E agora vamos ver alguns exercícios que tenho preparados pra você!
+      Basta pedir por exercícios de variáveis ^^
 
   utter_codigo_em_python_condicionais:
     - text: |
