@@ -1242,7 +1242,22 @@ templates:
 
   utter_codigo_em_python_inteiros:
     - text: |
-       codigo em python inteiros
+       Se estiver pronto pra próxima etapa, basta me pedir para explicar
+       sobre caracteres agora! É tão fácil quanto esse conteúdo,
+       pode ter certeza! Agora dá uma olhada no código que você me pediu!
+
+       código:
+          print("""Vamos brincar de pique-esconde! Antes, você precisa contar,
+          para eu me esconder!""")
+
+          n1 = int(input('Primeira contagem: '))
+          n2 = int(input('Segunda contagem: '))
+          n3 = int(input('Terceira contagem: '))
+
+          soma = n1 + n2 + n3
+
+          print('A soma total foi de {}! Lá vou eu!'.format(soma))
+          resposta = input('Onde a cabra está? ')
 
   utter_codigo_em_python_pontos_flutuantes:
     - text: |
@@ -1250,11 +1265,36 @@ templates:
 
   utter_codigo_em_python_caracteres:
     - text: |
-       codigo em python caracteres
+       Vamos aprender sobre booleanos agora! Se estiver preparado,
+       basta me pedir pra explicar sobre booleanos :)
+
+       Ahh, e eu não esqueci, aqui está o código que você me pediu:
+
+       código:
+          print("Qual é o nome da cabra que ensina Python?")
+
+          print("A) Udewmy")
+          print("B) Aix")
+          print("C) Alura")
+          print("D) Naomi ")
+
+          resposta = input("Digite a resposta: ")
+
+          print(resposta)
+
 
   utter_codigo_em_python_booleanos:
     - text: |
-       codigo em python booleanos
+       código:
+          online = False
+          print(online)
+
+          input("Aperte enter para eu saber se você está ai! ")
+          online = True
+
+          print(online)
+
+      Não falei que era simples? Agora vamos ver um pouco sobre strings!
 
   utter_codigo_em_python_strings:
     - text: |
