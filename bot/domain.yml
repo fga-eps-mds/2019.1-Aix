@@ -1281,6 +1281,9 @@ templates:
           print('A soma total foi de {}! Lá vou eu!'.format(soma))
           resposta = input('Onde a cabra está? ')
 
+      image: |
+        https://i.imgur.com/3E3DOsu.jpg
+
   utter_codigo_em_python_pontos_flutuantes:
     - text: |
        Olha aí embaixo! Dá pra acreditar que é só isso que temos que fazer?
