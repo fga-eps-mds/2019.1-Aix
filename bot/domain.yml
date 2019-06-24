@@ -1382,16 +1382,17 @@ templates:
     - text: |
         Então você quer um desafio pra testar todo o conhecimento já visto até então...
         Certo! Quero ver você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1.
-        Você pode me enviar a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
-
+      
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
+
+        Você pode me enviar a submissão por aqui mesmo, que te retornarei um feedback! Para fazer isso você deve fazer o login no UVa antes, basta me dizer algo como "Logar no UVa" ou "Quero fazer login no UVa"
 
         Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre vetores!
 
   utter_desafio_vetores:
     - text: |
         Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
-        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! 
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Para logar, basta dizer "Logar no UVa" que te ensino como faz!
         Lá vamos nós:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
