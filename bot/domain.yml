@@ -1274,9 +1274,9 @@ templates:
        código:
           print("""Vamos brincar de pique-esconde! Antes, você precisa contar,
           para eu me esconder!""")
-          n1 = int(input('Primeira contagem: '))
-          n2 = int(input('Segunda contagem: '))
-          n3 = int(input('Terceira contagem: '))
+          n1 = int(input('Primeira contagem '))
+          n2 = int(input('Segunda contagem '))
+          n3 = int(input('Terceira contagem '))
           soma = n1 + n2 + n3
           print('A soma total foi de {}! Lá vou eu!'.format(soma))
           resposta = input('Onde a cabra está? ')
@@ -1289,7 +1289,7 @@ templates:
        cada vez mais, estou gostando de ver ;)
 
        código:
-          numero = float(input("Número: "))
+          numero = float(input("Número "))
           print(numero/2)
 
 
@@ -1319,7 +1319,7 @@ templates:
           online = True
           print(online)
 
-      Não falei que era simples? Agora vamos ver um pouco sobre strings!
+       Não falei que era simples? Agora vamos ver um pouco sobre strings!
 
   utter_codigo_em_python_strings:
     - text: |
@@ -1327,15 +1327,15 @@ templates:
           import random
           import string
           print(random.choice(string.ascii_uppercase))
-          carro = str(input("Digite o carro: "))
-          fruta = str(input("Digite a fruta: "))
-          animal = str(input("Digite o animal: "))
-          print("Carro: {}".format(carro))
-          print("Fruta: {}".format(fruta))
-          print("Animal: {}".format(animal))
+          carro = str(input("Digite o carro "))
+          fruta = str(input("Digite a fruta "))
+          animal = str(input("Digite o animal "))
+          print("Carro {}".format(carro))
+          print("Fruta {}".format(fruta))
+          print("Animal {}".format(animal))
 
-      E agora vamos ver alguns exercícios que tenho preparados pra você!
-      Basta pedir por exercícios de variáveis ^^
+       E agora vamos ver alguns exercícios que tenho preparados pra você!
+       Basta pedir por exercícios de variáveis ^^
 
   utter_codigo_em_python_condicionais:
     - text: |
