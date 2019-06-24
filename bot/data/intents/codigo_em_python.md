@@ -1,29 +1,218 @@
 ## intent:codigo_em_python_variaveis
 - código variáveis
-- código python variáveis
+- código python variaveis
+- código python variável
 - variáveis em python
-- código de variáveis
+- variavel em python
+- código de variável
+- código de variaveis
+- exemplo prático de variavel
 - exemplo prático de variáveis
+- código python variaveis
+- variável código em python
+- código de variavel 
+- codigo de variáveis
+- exemplo prático de variável
+- exemplo pratico de variaveis
+- variavel no python
 - variáveis no python
+- variável no python
 - variaveis em código
+- variavel no python
 - código em python de variáveis
+- código em python de variável
 - implementação com variaveis
+- implementação com variavel
 - exemplifique em código variáveis
-- como funcionam variáveis no código
+- exemplifique em código variável
+- como funcionam variaveis no código
+- como funcionam variavel no código
 - implemente um exemplo de variáveis
-- me mostre um código com variáveis
-- demonstre variaveis na prática
+- me mostre um código com variaveis
+- demonstre variáveis na prática
+- demonstre variável na prática
+- demonstre um código em python que possua variavel
 - demonstre um código em python que possua variáveis
-- codigo de inteiros
+
+## intent:codigo_em_python_inteiros
+- código int
+- código python inteiros
+- código python int
+- inteiros em python
+- inteiro em python
+- código de inteiro
+- código de int
+- exemplo prático de inteiro
+- exemplo prático de inteiros
+- código python inteiros
+- inteiro código em python
+- código de ints
+- codigo de inteiro
+- exemplo prático de inteiro
+- exemplo pratico de inteiros
+- inteiro no python
+- inteiros no python
+- inteiro no python
+- inteiros em código
+- inteiro no python
+- código em python de inteiros
+- código em python de inteiro
+- implementação com ints
+- implementação com inteiro
+- exemplifique em código inteiros
+- exemplifique em código inteiro
+- como funcionam inteiros no código
+- como funcionam inteiro no código
+- implemente um exemplo de inteiros
+- me mostre um código com inteiros
+- demonstre ints na prática
+- demonstre inteiro na prática
+- demonstre um código em python que possua inteiro
+- demonstre um código em python que possua inteiros
+
+## intent:codigo_em_python_pontos_flutuantes
+- código double
+- código python double
+- código python float 
+- pontos flutuantes em python
+- ponto flutuante em python
+- código de ponto flutuante
+- código de pontos flutuantes
+- exemplo prático de float 
+- exemplo prático de pontos flutuantes
+- código python double
+- ponto flutuante código em python
+- código de pontos flutuantes
+- codigo de ponto flutuante
+- exemplo prático de float 
 - exemplo pratico de pontos flutuantes
-- double no python
-- char em codigo
-- codigo em python de booleanos
-- implementacao com strings
-- exemplifique em codigo int
-- como funcionam float no codigo
-- demonstre strings na pratica
-- implemente um código com booleanos
+- ponto flutuante no python
+- pontos flutuantes no python
+- ponto flutuante no python
+- pontos flutuantes em código
+- ponto flutuante no python
+- código em python de double
+- código em python de ponto flutuante
+- implementação com pontos flutuantes
+- implementação com float 
+- exemplifique em código pontos flutuantes
+- exemplifique em código ponto flutuante
+- como funcionam pontos flutuantes no código
+- como funcionam ponto flutuante no código
+- implemente um exemplo de pontos flutuantes
+- me mostre um código com double
+- demonstre pontos flutuantes na prática
+- demonstre float  na prática
+- demonstre um código em python que possua ponto flutuante
+- demonstre um código em python que possua pontos flutuantes
+
+## intent:codigo_em_python_caracteres
+- código chars
+- código python caracteres
+- código python char
+- caracteres em python
+- caracter em python
+- código de caracter
+- código de chars
+- exemplo prático de caracter
+- exemplo prático de caracteres
+- código python caracteres
+- caracter código em python
+- código de caracteres
+- codigo de char
+- exemplo prático de caracter
+- exemplo pratico de caracteres
+- caracter no python
+- caracteres no python
+- caracter no python
+- caracteres em código
+- caracter no python
+- código em python de chars
+- código em python de caracter
+- implementação com caracteres
+- implementação com char
+- exemplifique em código caracteres
+- exemplifique em código caracter
+- como funcionam caracteres no código
+- como funcionam caracter no código
+- implemente um exemplo de caracteres
+- me mostre um código com chars
+- demonstre caracteres na prática
+- demonstre char na prática
+- demonstre um código em python que possua caracter
+- demonstre um código em python que possua chars
+
+## intent:codigo_em_python_booleanos
+- código bools
+- código python booleanos
+- código python bool
+- booleanos em python
+- booleano em python
+- código de bool
+- código de booleanos
+- exemplo prático de booleano
+- exemplo prático de bools
+- código python booleanos
+- booleano código em python
+- código de booleanos
+- codigo de booleano
+- exemplo prático de booleano
+- exemplo pratico de booleanos
+- booleano no python
+- booleanos no python
+- bool no python
+- bools em código
+- booleano no python
+- código em python de booleanos
+- código em python de booleano
+- implementação com booleanos
+- implementação com booleano
+- exemplifique em código booleanos
+- exemplifique em código bool
+- como funcionam bools no código
+- como funcionam booleano no código
+- implemente um exemplo de booleanos
+- me mostre um código com booleanos
+- demonstre booleanos na prática
+- demonstre bool na prática
+- demonstre um código em python que possua booleano
+- demonstre um código em python que possua bools
+
+## intent:codigo_em_python_strings
+- código strings
+- código python strings
+- código python string
+- strings em python
+- string em python
+- código de string
+- código de strings
+- exemplo prático de string
+- exemplo prático de strings
+- código python strings
+- string código em python
+- código de strings
+- codigo de string
+- exemplo prático de string
+- exemplo pratico de strings
+- string no python
+- strings no python
+- string no python
+- strings em código
+- string no python
+- código em python de strings
+- código em python de string
+- implementação com strings
+- implementação com string
+- exemplifique em código strings
+- exemplifique em código string
+- como funcionam strings no código
+- como funcionam string no código
+- implemente um exemplo de strings
+- me mostre um código com strings
+- demonstre strings na prática
+- demonstre string na prática
+- demonstre um código em python que possua string
+- demonstre um código em python que possua strings
 
 ## intent:codigo_em_python_condicionais
 - código condicionais
@@ -37,10 +226,10 @@
 - exemplo prático de condicionais
 - código python condicionais
 - condicional código em python
-- código de condicional condicionais
-- codigo de condicional condicionais
-- exemplo prático de condicional condicionais
-- exemplo pratico de condicional condicionais
+- código de condicionais
+- codigo de condicional
+- exemplo prático de condicional
+- exemplo pratico de condicionais
 - condicional no python
 - condicionais no python
 - condicional no python
