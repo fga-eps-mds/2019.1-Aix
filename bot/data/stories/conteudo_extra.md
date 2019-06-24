@@ -35,7 +35,7 @@
 ## conteudo_extra_condicionais3
 * conteudo_extra_condicionais
     - action_set_slot_value
-    - utter_conteudo_extra_repeticao
+    - utter_conteudo_extra_condicionais
 * intent_utter_desafio_vaga
     - action_utter_desafio_vaga
 
