@@ -190,7 +190,6 @@ templates:
         OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
         Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
 
-      image: |
         https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_despedir:
@@ -279,7 +278,6 @@ templates:
 
         Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
 
-      image: |
         https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
 
@@ -349,7 +347,6 @@ templates:
         E se não souber por onde começar a aprender, é só pedir o cronograma de estudos, que o seu caminho já está todo trilhado, não se preocupe com isto!
         Apenas digite: /cronograma . Ele vai te ajudar a se localizar quanto ao conteúdo!!
 
-      image: |
         https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_curiosidades_python:
