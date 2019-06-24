@@ -1,278 +1,182 @@
-import pytest
-import os
-import sys
-import inspect
-import api_uva
+from bs4 import BeautifulSoup
 import requests
 import json
-from bs4 import BeautifulSoup
-from rasa_core_sdk import Tracker
-from actions.actions_uva import UserForm
-from actions.actions_uva import CodeForm
-from actions.actions_uva import ActionFeedbackSubmissao
 
-# UVA is offline so the group decided to the hole testes
+HOME = 'http://uva.onlinejudge.org/'
+PROBLEMURL = 'https://uva.onlinejudge.org/index.php?option'
+PROBLEMURL += '=com_onlinejudge&Itemid=25&page=submit_problem'
+PROBLEMURL += '&problemid='
+SUBMISSIONURL = "https://uhunt.onlinejudge.org/api/subs-user/"
+URLUNAMETOID = "http://uhunt.felix-halim.net/api/uname2uid/"
+GET = '0'
+POST = '1'
 
-@pytest.fixture
-def custom_domain():
-    return {}
-
-@pytest.fixture
-def custom_tracker():
-    return Tracker('', {}, {}, '', '', '', {}, '')
-
-@pytest.fixture
-def custom_tracker_valid_user():
-    return Tracker('', {'username':'usuario_teste', 'password' : '123456789'}, {}, '', '', '', {}, '')
-
-@pytest.fixture
-def custom_dispatcher():
-    class Dispatcher():
-        def utter_message(self, text=''):
-            pass
-    return Dispatcher()
+session = requests.session()
 
 
-@pytest.fixture
-def custom_feedback_submissao():
-    return ActionFeedbackSubmissao()
-
-@pytest.fixture
-def custom_tracker_feedback():
-    return Tracker('', {'username':'usuario_teste'}, {}, '', '', '', {}, '')
-
-def test_name_feedback_submissao(custom_feedback_submissao):
-    name = custom_feedback_submissao.name()
-    assert name == "action_feedback_submissao_uva"
-
-def test_run_feedback_submissao(custom_feedback_submissao, custom_dispatcher,
-                                custom_tracker_feedback, custom_domain):
-    username = custom_feedback_submissao.run(custom_dispatcher,
-                                             custom_tracker_feedback,
-                                             custom_domain)
-    assert True
+def get_params(form):
+    params = {}
+    inputs = form.find_all('input')
+    for i in inputs:
+        name = i.get('name')
+        value = i.get('value')
+        if name:
+            params[name] = value if value else ''
+    return params
 
 
-@pytest.fixture
-def custom_user_form():
-    return UserForm();
+def get_soup(url, action=GET, params={}):
+    request = None
+    sucess_request = True
+    if action == GET:
+        try:
+            request = session.get(url)
+        except requests.exceptions.RequestException:
+            sucess_request = False
+    elif action == POST:
+        try:
+            request = session.post(url, params)
+        except requests.exceptions.RequestException:
+            sucess_request = False
+    else:
+        return None
 
-def test_name_user_form(custom_user_form):
-    name = custom_user_form.name();
-    assert True
+    if sucess_request:
+        html = request.text
+    else:
+        html = ''
 
-def test_required_slots_user_form(custom_user_form):
-    slots = custom_user_form.required_slots(custom_tracker)
-    #assert slots == ['username', 'password']
-    assert True
-
-def test_submit_user_form(custom_user_form, custom_dispatcher,
-                          custom_tracker, custom_domain,
-                          custom_tracker_valid_user):
-    slots = custom_user_form.submit(custom_dispatcher, 
-                                custom_tracker, custom_domain)
-    """assert slots == [{"event": "slot", "timestamp": None,
-                     "name": "username", "value": None},
-                     {"event": "slot", "timestamp": None,
-                     "name": "password", "value": None}]"""
-    assert True
-    slots = custom_user_form.submit(custom_dispatcher, 
-                                custom_tracker_valid_user,
-                                custom_domain)
-    #assert slots == []
-    assert True
-
-@pytest.fixture
-def custom_code_form():
-    return CodeForm();
-
-@pytest.fixture
-def custom_tracker_valid_user_and_language():
-    return Tracker('', {'username':'usuario_teste', 'password' : '123456789',
-                        'codigo':'code', 'problema':'11459', 'linguagem':'C++'},
-                        {}, '', '', '', {}, '')
-
-@pytest.fixture
-def custom_tracker_invalid_language():
-    return Tracker('', {'username':'usuario_teste', 'password' : '123456789',
-                        'codigo':'code', 'problema':'11459', 'linguagem':'C--'},
-                        {}, '', '', '', {}, '')
-
-def test_name_code_form(custom_code_form):
-    name = custom_code_form.name()
-    #assert name == "code_form"
-    assert True
-
-def test_required_slots_code_form(custom_code_form):
-    slots = custom_code_form.required_slots(custom_tracker)
-    #assert slots == ['problema', 'linguagem', 'codigo']
-    assert True
-
-def test_map_linguagem(custom_code_form):
-    assert custom_code_form.map_linguagem('C') == '1'
-    assert custom_code_form.map_linguagem('Java') == '2'
-    assert custom_code_form.map_linguagem('C++') == '3'
-    assert custom_code_form.map_linguagem('Pascal') == '4'
-    assert custom_code_form.map_linguagem('C++ 11') == '5'
-    assert custom_code_form.map_linguagem('Python 3') == '6'
-    assert custom_code_form.map_linguagem('Sublime') == 'erro'
-
-def test_submit_code_form(custom_code_form, custom_dispatcher,
-                          custom_tracker, custom_domain,
-                          custom_tracker_valid_user_and_language,
-                          custom_tracker_invalid_language):
-    slots = custom_code_form.submit(custom_dispatcher, 
-                                    custom_tracker, custom_domain)
-    #assert slots == []
-    assert True
-    slots = custom_code_form.submit(custom_dispatcher, 
-                                    custom_tracker_valid_user_and_language,
-                                    custom_domain)
-    """assert slots == [{"event": "slot", "timestamp": None,
-                     "name": "codigo", "value": None},
-                     {"event": "slot", "timestamp": None,
-                     "name": "problema", "value": None},
-                     {"event": "slot", "timestamp": None,
-                     "name": "linguagem", "value": None}]"""
-    assert True
-    slots = custom_code_form.submit(custom_dispatcher, 
-                                    custom_tracker_invalid_language,
-                                    custom_domain)
-    """"assert slots == [{"event": "slot", "timestamp": None,
-                     "name": "codigo", "value": None},
-                     {"event": "slot", "timestamp": None,
-                     "name": "problema", "value": None},
-                     {"event": "slot", "timestamp": None,
-                     "name": "linguagem", "value": None}]"""
-    assert True
+    soup = BeautifulSoup(html, features="html.parser")
+    return soup
 
 
-@pytest.fixture
-def custom_session():
-    session = requests.session()
-    return session
+def make_login(username, password, url=HOME):
+    soup = get_soup(url)
+    form = soup.find(id="mod_loginform")
+    if not form:
+        return False
+    url = form['action']
+    params = get_params(form)
+    params['username'] = username
+    params['passwd'] = password
+    soup = get_soup(url, action=POST, params=params)
 
-@pytest.fixture
-def custom_url():
-    url = 'http://uva.onlinejudge.org/'
-    return url
-
-
-def test_get_params():
-    text = "<body><input name='name' /><input pass='pass' /></body>"
-    form = BeautifulSoup(text, features="html.parser")
-    params = api_uva.get_params(form)
-    #assert params == {'name': ''}
-    assert True
-
-def test_get_soup(custom_session, custom_url):
-    soup = api_uva.get_soup(custom_url)
-    request = custom_session.get(custom_url)
-    html = request.text
-    custom_soup = BeautifulSoup(html, features="html.parser")
-    assert soup.title == custom_soup.title
-
-    soup = api_uva.get_soup('http://httpbin.org/post', action='1')
-    request = custom_session.post('http://httpbin.org/post')
-    html = request.text
-    custom_soup = BeautifulSoup(html, features="html.parser")
-    #assert soup.title == custom_soup.title
-    assert True
-
-    soup = api_uva.get_soup('', action='3')
-    #assert soup == None
-    assert True
-
-    soup = api_uva.get_soup('')
-    custom_soup = BeautifulSoup('', features="html.parser")
-    #assert soup.title == custom_soup.title
-    assert True
-
-    soup = api_uva.get_soup('', action='1')
-    custom_soup = BeautifulSoup('', features="html.parser")
-    #assert soup.title == custom_soup.title
-    assert True
-
-def test_make_login(custom_url):
-    username = 'username'
-    password = 'password'
-    fake_url = 'https://www.google.com/'
-    result = api_uva.make_login(username, password, fake_url)
-    assert result == False
-    username = 'username'
-    password = 'password'
-    result = api_uva.make_login(username, password, custom_url)
-    #assert result == False
-    assert True
-    username = 'usuario_teste'
-    password = '123456789'
-    result = api_uva.make_login(username, password, custom_url)
-    #assert result == True
-    assert True
-
-def test_get_code():
-    path = 'actions/tests/teste.txt'
-    result = api_uva.get_code(path)
-    #assert result == "testepytest"
-    assert True
+    if soup.find(id="mod_loginform"):
+        return False
+    else:
+        return True
 
 
-@pytest.fixture
-def custom_data_by_id():
-    url = 'http://uhunt.felix-halim.net/api/p/id/2454'
-    resp = requests.get(url)
-    data = json.loads(resp.text)
-    return data
+def get_code(path):
+    code = ''
+    in_file = open(path, 'r')
+    for line in in_file:
+        code += line
+    in_file.close()
+    return code
 
-@pytest.fixture
-def custom_data_by_number():
-    url = 'http://uhunt.felix-halim.net/api/p/num/11459'
-    resp = requests.get(url)
-    data = json.loads(resp.text)
+
+def get_problem(problem_id, problem_number, by_id, by_number):
+    url = ''
+    resp = None
+    data = None
+    if by_id and by_number:
+        return None
+    elif by_id:
+        url = 'http://uhunt.felix-halim.net/api/p/id/' + str(problem_id)
+    elif by_number:
+        url = 'http://uhunt.felix-halim.net/api/p/num/' + str(problem_number)
+    if url != '':
+        resp = requests.get(url)
+        data = json.loads(resp.text)
     return data
 
 
-def test_get_problem(custom_data_by_id, custom_data_by_number):
-    result = api_uva.get_problem(None, None, True, True)
-    #assert result == None
-    assert True
-    result = api_uva.get_problem('2454', None, True, False)
-    #assert result['ac'] == custom_data_by_id['ac']
-    assert True
-    result = api_uva.get_problem(None, '11459', False, True)
-    #assert result['ac'] == custom_data_by_number['ac']
-    assert True
-    result = api_uva.get_problem(None, None, False, False)
-    #assert result == None
-    assert True
+def get_problem_by_id(problem_id):
+    return get_problem(problem_id, None, True, False)
 
-def test_get_problem_by_id(custom_data_by_id):
-    result = api_uva.get_problem_by_id('2454')
-    #assert result['ac'] == custom_data_by_id['ac'] 
-    assert True
 
-def test_get_problem_by_number(custom_data_by_number):
-    result = api_uva.get_problem_by_number('11459')
-    #assert result['ac'] == custom_data_by_number['ac']
-    assert True
+def get_problem_by_number(problem_number):
+    return get_problem(None, problem_number, False, True)
 
-def test_problem_submit():
-    result = api_uva.problem_submit('username', 'password',
-                                    '11459', '5', '', 'codigo')
-    #assert result == 'UVa Online Judge'
-    assert True
-    result = api_uva.problem_submit('username', 'password',
-                                    '11459', '5', 'actions/tests/teste.txt',
-                                    'codigo')
-    #assert result == 'UVa Online Judge'
-    assert True
 
-def test_username_to_user_id():
-    #assert api_uva.username_to_user_id('usuario_teste') == '1057837'
-    assert True
+def problem_submit(username, password,
+                   problem_num, lang,
+                   path='', user_code=''):
+    make_login(username, password)
+    problem = get_problem_by_number(problem_num)
+    problem_id = str(problem[u'pid'])
+    problem_url = PROBLEMURL + problem_id
+    soup = get_soup(problem_url)
+    form = soup.find_all('form')[1]
+    params = get_params(form)
+    if(path != ''):
+        code = get_code(path)
+    else:
+        code = user_code
+    params['code'] = code
+    params['language'] = lang
+    action = form['action']
+    result = get_soup('https://uva.onlinejudge.org/'+action,
+                      action='1', params=params)
+    response = result.title.text
+    return response
 
-def test_last_submit_result():
-    #assert api_uva.last_submit_result('andreabenf') == 'Sua resposta está errada. Tente de novo! Caso queira, pode passar para o próximo conteúdo!'
-    assert True
-    #assert api_uva.last_submit_result('none') == 'Bée, não encontrei sua submissão! Espere um pouco e tente novamente.'
-    assert True
+
+def username_to_user_id(username):
+    url = URLUNAMETOID+str(username)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return '0'
+    data = json.loads(resp.text)
+    return str(data)
+
+
+def last_submit_result(username):
+    user_id = username_to_user_id(username)
+    url = SUBMISSIONURL + str(user_id)
+    try:
+        resp = requests.get(url)
+    except requests.exceptions.RequestException:
+        return 'Algo deu errado! Espere um pouco e tente novamente!'
+    data = json.loads(resp.text)
+    data = data[u'subs']
+    data.sort(key=lambda x: x[0], reverse=True)
+    try:
+        data = data[0]
+        answer = data[2]
+    except IndexError:
+        answer = -1
+
+    dct = {10: 'Submission error',
+           15: 'Can\'t be judged',
+           20: 'A sua submissão está na fila para ser julgada,' +
+               ' espere um pouco!',
+           30: 'Seu código fonte possui erros' +
+               ' de compilação, você pode rodar no jupyter' +
+               ' antes de me enviar!',
+           35: 'Restricted function',
+           40: 'Deu Runtime error, um erro típico quando' +
+               'você define um vetor ou array com menos capacidade' +
+               ' do que o necessário para o problema, ou quando você' +
+               ' tenta acessar uma de memória inválida.',
+           45: 'Output limit',
+           50: 'A solução que você submeteu demorou mais tempo' +
+               ' do que o permitido para rodar todos os testes definidos.',
+           60: 'Memory limit',
+           70: 'Sua resposta está errada. Tente de novo! Caso queira,' +
+               ' pode passar para o próximo conteúdo!',
+           80: 'Olha, sua resposta está praticamente correta,' +
+               ' apenas há erro na quantidade de espaços ou letras' +
+               ' inversão de letras maiúsculas / minúsculas.' +
+               ' Arruma aí e tenta mais uma vez! ',
+           90: 'Accepted, sua resposta está correta! Que tal agora' +
+               ' você continuar para o próximo conteúdo?'
+           }
+    if answer in dct:
+        answer = dct[answer]
+    else:
+        answer = 'Bée, não encontrei sua submissão!'
+        answer += ' Espere um pouco e tente novamente.'
+    return answer
