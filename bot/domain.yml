@@ -329,7 +329,7 @@ templates:
         Quero um exemplo de [Nome do conteúdo]
         Quero um exemplo em código de [Nome do conteúdo]
         Me dê exercícios de [Nome do conteúdo]
-        Quero saber mais de [Nome do conteúdo] 
+        Quero saber mais de [Nome do conteúdo]
         Quero um desafio de [Nome do conteúdo]
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
@@ -627,25 +627,25 @@ templates:
 
   utter_sobre_instalar_python:
     - text: |
-        Instalar o Python no sistema Linux é beém fácil! Antes, cheque se você já tem Python instalado com o seguinte comando no terminal:
+        [PYTHON]
+        Instalar o Python no sistema Linux é beém fácil! Basta seguir os passos do seu sistema operacional:
+        [NO LINUX]
+        1) Antes, cheque se você já tem Python instalado com o seguinte comando no terminal: python -V
+        2) Caso você ainda não tenha o python na versão 3 já instalado, digite no prompt: sudo apt-get install python3.6
+        [NO WINDOWS/MAC]
+        1) Acesse https://www.python.org/
+        2) Escolha o seu sistema operacional em "Downloads"
+        3) Escolha a versão 3 do Python, mais atual.
+        4.1) No caso de um sistema 64 bits: escolha a versão (Windows/Mac)-x86-64-executable installer
+        4.2) No caso de um sistema 32 bits: escolha a versão (Windows/Mac)-x86-executable installer
+        5) Faça o download normalmente e execute. O processo agora é bem simples!
 
-        python -V
-
-        É importante que você tenha a versão atualizada, o Python3 no caso. Caso você ainda não tenha o python já instalado, digite no prompt:
-
-        sudo apt-get install python3.6
-
-        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt:
-
-        uname -m
-
-        para verificar se você deve usar o comando para 32 bits:
-
-        wget "https://go.microsoft.com/fwlink/?LinkID=760681" -O vscode.rpm
-
-        ou de 64 bits:
-
-        wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
+        [VISUAL STUDIO]
+        Consiste em um ambiente de desenvolvimento integrado (IDE) da Microsoft para desenvolvimento de software, vamos utilizar bastante ele!
+        [NO LINUX]
+        1) Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt: uname -m
+        2.1) Para verificar se você deve usar o comando para 32 bits: wget "https://go.microsoft.com/fwlink/?LinkID=760681" -O vscode.rpm
+        2.2) Ou de 64 bits: wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
 
         Agora pegue sua água, tempere seu capim e vamos começar a aprender!!!
         E para isso, nada melhor que aprender o famoso
@@ -1194,6 +1194,7 @@ templates:
           https://www.w3schools.com/python/python_strings.asp
 
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
+
         Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings,
         é só pedir!
 
@@ -1201,14 +1202,14 @@ templates:
         exercicios strings, treinar strings
         
         Agora já podemos partir para o próximo conteúdo
-        Basta me perguntar "sobre estruturas condicionais" e eu te explico!        
+        Basta me perguntar "sobre estruturas condicionais" e eu te explico!
 
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!!
-        Bée..recomendo fortemente que sua pesquisa esteja em inglês. 
+        Bée..recomendo fortemente que sua pesquisa esteja em inglês.
         Em inglês há maior probabilidade de você encontrar o que deseja além de uma maior variedade de conteúdos. ;)
         Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
@@ -1596,7 +1597,7 @@ templates:
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
         Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter:
-        Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+        Variáveis. É só perguntar o que são variáveis que eu te explico.
 
   utter_desafio_funcao:
     - text: |
