@@ -8,6 +8,7 @@ category: Produto
 | :--------: | :----: | :-----------------------------------------: | :--------------: |
 | 17/04/2019 | 0.0.1  | Criação do backlog                  | Kamilla Costa   e Lucas Vitor |
 | 22/04/2019 | 0.0.2  | Refatoração do backlog              | Kamilla Costa    |
+| 23/06/2019 | 0.0.3  | Refatoração do backlog              | Lucas Vitor   |
 
 Foram criado algumas personas para inserção das histórias de usuário como:
 - Desenvolvedor: Responsável pelo desenvolvimento de funcionalidades do bot
@@ -56,7 +57,8 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>Primeiro Programa
    </td>
   </tr>
-  <td>EP06
+  <tr>
+    <td>EP06
    </td>
    <td>Compilação
    </td>
@@ -213,6 +215,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>EP05
    </td>
   </tr>
+  <tr>
    <td>FT18
    </td>
    <td>Integração com UVA online judge
@@ -220,6 +223,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>EP06
    </td>
   </tr>
+  <tr>
    <td>FT19
    </td>
    <td>Compilação de exercício
@@ -627,6 +631,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>FT17
    </td>
   </tr>
+  <tr>
    <td>IS49
    </td>
    <td>Eu, como usuário, desejo me cadastrar no UVA por meio do bot
@@ -634,6 +639,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>FT18
    </td>
   </tr>
+  <tr>
    <td>IS50
    </td>
    <td>Eu, como usuário, desejo receber exercícios propostos pelo UVA
@@ -641,6 +647,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>FT18
    </td>
   </tr>
+  <tr>
    <td>IS51
    </td>
    <td>Eu, como usuário, desejo submeter exercício para correção no UVA online judge
@@ -648,6 +655,7 @@ Por experiências de sprints iniciais, o grupo optou por não levantar as tasks 
    <td>FT19
    </td>
   </tr>
+  <tr>
    <td>IS52
    </td>
    <td>Eu, como usuário, desejo receber feedback do exercício enviado no UVA online judge

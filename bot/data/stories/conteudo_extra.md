@@ -128,6 +128,13 @@
     - action_set_slot_value
     - utter_desafio_funcao
 
+## conteudo_extra_funcao3
+* conteudo_extra_funcao
+    - action_set_slot_value
+    - utter_conteudo_extra_funcao
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
+
 
 ## conteudo_extra_arquivos
 * conteudo_extra_arquivos
@@ -140,4 +147,3 @@
     - utter_conteudo_extra_arquivos
 * sobre_stack_overflow
     - utter_sobre_stack_overflow
-
