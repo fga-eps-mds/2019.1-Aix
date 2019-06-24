@@ -6,6 +6,13 @@
 - login no UVA
 - conectar ao UVa
 - logar no uva
+- quero me conectar ao UVa
+- conecte-se ao uva
+- conexão no uva
+- login no juiz online
+- fazer conexão no uva
+- login uva
+- logar no juiz online
 
 ## intent:submissao_de_exercicio
 - quero submeter um exercicio
@@ -17,11 +24,27 @@
 - finalizar questão do UVA
 - submeter exercicio no uva
 - submeter exercício
+- submeter exercicio
+- enviar exercício
+- validar meu código
+- verificar meu exercicio
+- enviar exercicio para o uva
+- submeter meu código
+- submissão UVa
+- enviar para o uva
 
 ## intent:feedback_uva
 - ultima submissao
 - resposta do exercicio
 - ultima resposta
+- feedback UVa
+- feedback do último exercício
+- resposta da ultima submissão
+- feedback do exercicio
+- resposta do ultimo envio
+- resultado da questão
+- ultimo exercicio enviado
+- ultimo envio
 
 ## intent:inform
 - meu usuário é [iuri_severo](username)
