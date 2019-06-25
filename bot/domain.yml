@@ -45,6 +45,10 @@ intents:
   - exemplo_matrizes
   - exemplo_importar_bibliotecas
   - exemplo_strings
+  - exemplo_inteiros
+  - exemplo_pontos_flutuantes
+  - exemplo_caracteres
+  - exemplo_booleanos
 
 
   - exercicios_variaveis
@@ -96,6 +100,11 @@ intents:
 
 
   - codigo_em_python_variaveis
+  - codigo_em_python_inteiros
+  - codigo_em_python_pontos_flutuantes
+  - codigo_em_python_caracteres
+  - codigo_em_python_booleanos
+  - codigo_em_python_strings
   - codigo_em_python_condicionais
   - codigo_em_python_repeticao
   - codigo_em_python_funcao
@@ -152,26 +161,7 @@ templates:
 
   utter_help:
     - text: |
-        Ok! Você é uma pessoa direta e quer ver como funciono por trás dos fenos...
-        É béem simples...
-        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
-
-        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
-
-        Quero saber o que é [Nome do conteúdo]
-        Quero um exemplo sobre [Nome do conteúdo]
-        Quero um exemplo em código de [Nome do conteúdo]
-        Me dê exercícios sobre [Nome do conteúdo]
-        Quero saber mais sobre [Nome do conteúdo]
-        Quero um desafio de [Nome do conteúdo]
-
-        Para pesquisar no StackOverflow voce deve digitar:
-        pesquise sobre [conteúdo que você quer saber]
-
-        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
-        Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
-
-        Ah! E aqui estão minhas principais funções:
+        Aqui estão minhas principais funções:
         1. Explicar um conteúdo;
         2. Citar exemplos;
         3. Enviar um exemplo prático;
@@ -180,8 +170,27 @@ templates:
         6. Sugerir desafios para cada conteúdo;
         7. Pesquisar no StackOverflow.
         8. Informar um cronograma de conteúdos de python.
+        9. Submeter e dar feedback de exercícios do UVa.
 
-        image: "https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif"
+        Para checar todos os conteúdos mapeados: /cronograma ou cronograma de estudos
+
+        Para acessá-los, em seus subtópicos, basta escrever algo do tipo:
+
+        Quero saber o que é [Nome do conteúdo]
+        Quero um exemplo de [Nome do conteúdo]
+        Quero um exemplo em código de [Nome do conteúdo]
+        Me dê exercícios de [Nome do conteúdo]
+        Quero saber mais de [Nome do conteúdo]
+        Quero um desafio de [Nome do conteúdo]
+
+        Para pesquisar no StackOverflow voce deve digitar:
+        pesquise sobre [conteúdo que você quer saber]
+        Uma dica: Se você pesquisar em inglês, é mais provável que você encontre mais conteúdos. ;)
+
+        OBS: Eu sei processar linguagem natural! Não perca tempo pensando se vou entender ou não.
+        Desde que a sua mensagem tenha O QUE você quer e SOBRE o que você quer, é provável que eu entenda!
+
+        https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_despedir:
     - text: |
@@ -269,7 +278,6 @@ templates:
 
         Ah sim, já ia me esquecendo... Dá uma olhadinha nas minhas funcionalidades antes:
 
-      image: |
         https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
 
@@ -288,7 +296,8 @@ templates:
         Primeiro, você terá que aprender uma linguagem de programação...
         E eu estou aqui para te ajudar a explorar a linguagem Python!!!
 
-        Por que você não me pergunta mais sobre ela?
+        Por que você não me pergunta mais sobre ela? O que é? Onde habita?
+        Use palavras como "sobre" e "python"!
 
     - text: |
         Você quer ser um programador, né...
@@ -303,25 +312,42 @@ templates:
         em linguagens de programação! E eu posso te ensinar uma delas: o Python.
 
         Tente me perguntar a respeito dessa linguagem!
+        Use palavras como "sobre" e "python" :)
 
   utter_menu_ajuda:
     - text: |
         Para me pedir algumas coisas, você tem que ser bem claro comigo!!
         Talvez eu peça um pouco de feno em troca hein.... brincadeirinha, hahaha!!
 
+        Para checar todos os conteúdos mapeados: me peça o cronograma de estudos!
+
         Me diga o que você deseja, e de qual conteúdo você quer aprender, béem assim olha:
 
         Quero saber o que é [Nome do conteúdo]
-        Quero um exemplo sobre [Nome do conteúdo]
+        Quero um exemplo de [Nome do conteúdo]
         Quero um exemplo em código de [Nome do conteúdo]
-        Me dê exercícios sobre [Nome do conteúdo]
-        Quero saber mais sobre [Nome do conteúdo]
+        Me dê exercícios de [Nome do conteúdo]
+        Quero saber mais de [Nome do conteúdo]
         Quero um desafio de [Nome do conteúdo]
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
+        Recomendo que sua pesquisa seja feita em inglês..Bée..em inglês existem muito mais variedades de conteúdos.
+
+        Ah! E aqui estão minhas principais funções:
+        1. Explicar um conteúdo;
+        2. Citar exemplos;
+        3. Enviar um exemplo prático;
+        4. Indicar exercícios;
+        5. Enviar links extras sobre o conteúdo;
+        6. Sugerir desafios para cada conteúdo;
+        7. Pesquisar no StackOverflow.
+        8. Informar um cronograma de conteúdos de python.
+        9. Submeter e dar feedback de exercícios do UVa.
 
         E se não souber por onde começar a aprender, é só pedir o cronograma de estudos, que o seu caminho já está todo trilhado, não se preocupe com isto!
         Apenas digite: /cronograma . Ele vai te ajudar a se localizar quanto ao conteúdo!!
+
+        https://raw.githubusercontent.com/fga-eps-mds/2019.1-Aix/devel/docs/assets/img/ghpages/funcionalidades.gif
 
   utter_curiosidades_python:
     - text: |
@@ -384,7 +410,7 @@ templates:
         de criar uma ferramenta de estudo tão maneira quanto essa!
 
         Então para isso acontecer, você tem que começar a entender um pouco mais sobre meu funcionamento.
-        É só me pedir o menu ajuda!
+        É só me pedir o menu ajuda! Eu sou a cabra Aix e estou aqui pra te ensinar python!
 
     - text: |
         Aí vai uma charada: Quem é, quem é... que te ajuda com a sintaxe Python, tira suas
@@ -393,18 +419,20 @@ templates:
         Béem, se você falou seu professor, você acertou...
         Mas sabia que eu também posso te ajudar com isso?
 
-        Sugiro me pedir o menu ajuda, caso qualquer dúvida do meu funcionamento!
+        Sugiro me pedir o menu ajuda, caso tenha qualquer dúvida do meu funcionamento!
+        Sou a cabra Aix e estou pronta pra te ensinar python!
 
     - text: |
         Já vi que você não me conhece muito béem... Mas aposto que você vai gostar de mim!
+        Eu sou a cabra Aix e vou te ensinar python!
 
         Inclusive, se quiser me apresentar aos seus amigos, fala para eles que eles precisam
         ter um desses sistema operacionais: Linux, Windows ou MacOS. E não esqueça, você
         tambéem precisa do ambiente Jupyter instalado!
 
         Ah!! E agora também estou no telegram!
-        
-        Que tal começarmos a aprender? 
+
+        Que tal começarmos a aprender?
         Mas antes, eu sugiro que me peça o menu ajuda para saber como eu funciono!
 
     - text: |
@@ -418,7 +446,7 @@ templates:
         não perde tempo e te chama:
         pro próximo conteúdo do fluxograma!
 
-        Afinal, eu sei que você quer aprender como eu funciono...
+        Afinal, eu sei que você quer aprender como eu, a Aix, funciono...
         É só me pedir o menu ajuda, não se acanhe!!
 
 
@@ -446,6 +474,7 @@ templates:
 
         Agora que sabe sobre o que é o Python,
         por que não me pede pra te ensinar a instalá-lo?
+        Use frases como "Como instalar python?" :)
 
 
   utter_sobre_variaveis:
@@ -530,9 +559,9 @@ templates:
         Dentro de range são informados os valores inicial e final. A cada passo a variável será incrementada em 1.
 
         Já o while funciona de forma mais simples: enquanto (while) a operação booleana for verdadeira realize o bloco de ações.
-        
+
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
-        
+
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
         Simples como comer capim!
 
@@ -575,8 +604,8 @@ templates:
         Temos então:
             print("Hello World!")
 
-        Vamos para o próximo conteúdo agora: aprender a ler os conteúdos do usuário!
-        É só me perguntar sobre o input de dados :)
+        Vamos para o próximo conteúdo agora: aprender sobre variáveis!
+        É só me perguntar o que são variáveis :)
 
       image: "https://user-images.githubusercontent.com/45996980/57019461-fd78e500-6bfc-11e9-8ea8-717ff4e61c34.png"
 
@@ -585,7 +614,7 @@ templates:
     - text: |
         Bée, as bibliotecas são funções úteis que já foram implementadas e não estão presentes nativamente no python.
         Para utilizá-las é necessário adicioná-las ao nosso código. Vamos importar uma biblioteca Bée!
-        
+
         No jupyter-notebook, para instalar uma biblioteca é necessário dar o comando: 'pip install' e o nome da biblioteca.
         Para importar há duas formas: 'import nome_da_biblioteca' que importa todos os módulos e 'from nome_da_biblioteca import função' que importa uma função específica.
         Caso não tenha entendido perfeitamente, peça-me um exemplo. Bée.
@@ -595,25 +624,25 @@ templates:
 
   utter_sobre_instalar_python:
     - text: |
-        Instalar o Python no sistema Linux é beém fácil! Antes, cheque se você já tem Python instalado com o seguinte comando no terminal:
+        [PYTHON]
+        Instalar o Python no sistema Linux é beém fácil! Basta seguir os passos do seu sistema operacional:
+        [NO LINUX]
+        1) Antes, cheque se você já tem Python instalado com o seguinte comando no terminal: python -V
+        2) Caso você ainda não tenha o python na versão 3 já instalado, digite no prompt: sudo apt-get install python3.6
+        [NO WINDOWS/MAC]
+        1) Acesse https://www.python.org/
+        2) Escolha o seu sistema operacional em "Downloads"
+        3) Escolha a versão 3 do Python, mais atual.
+        4.1) No caso de um sistema 64 bits: escolha a versão (Windows/Mac)-x86-64-executable installer
+        4.2) No caso de um sistema 32 bits: escolha a versão (Windows/Mac)-x86-executable installer
+        5) Faça o download normalmente e execute. O processo agora é bem simples!
 
-        python -V
-
-        É importante que você tenha a versão atualizada, o Python3 no caso. Caso você ainda não tenha o python já instalado, digite no prompt:
-
-        sudo apt-get install python3.6
-
-        Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt:
-
-        uname -m
-
-        para verificar se você deve usar o comando para 32 bits:
-
-        wget "https://go.microsoft.com/fwlink/?LinkID=760681" -O vscode.rpm
-
-        ou de 64 bits:
-
-        wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
+        [VISUAL STUDIO]
+        Consiste em um ambiente de desenvolvimento integrado (IDE) da Microsoft para desenvolvimento de software, vamos utilizar bastante ele!
+        [NO LINUX]
+        1) Para a instalação do Visual Studio, o ambiente de desenvolvimento, digite no prompt: uname -m
+        2.1) Para verificar se você deve usar o comando para 32 bits: wget "https://go.microsoft.com/fwlink/?LinkID=760681" -O vscode.rpm
+        2.2) Ou de 64 bits: wget "https://go.microsoft.com/fwlink/?LinkID=760867" -O vscode.rpm
 
         Agora pegue sua água, tempere seu capim e vamos começar a aprender!!!
         E para isso, nada melhor que aprender o famoso
@@ -632,12 +661,12 @@ templates:
     - text: |
         Uma string é a junção de vários caracteres, de forma geral uma string é um texto.
         Se você precisa armazenar o menu nome lindo: Aix, por exemplo, você precisará de uma string. Bem simples né?
-        
+
         Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
         (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
-        
+
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
-        
+
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
         Simples como comer capim!
 
@@ -645,16 +674,21 @@ templates:
     - text: |
         O Stack Overflow é um site de perguntas e respostas relacionadas a programação, parecido com aqueles fóruns de dúvidas, sabe?
         Nele, qualquer pessoa pode tirar suas dúvidas com outros programadores do muuundo inteiro!
-        E ,para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        
+        E, para você confiar nas respostas, outros usuários podem dar feedbacks positivos ou negativos para elas, criando assim um ambiente béeem colaborativo e que se auto-regula.
+        No entanto, como linguagens de programação são utilizadas no mundo inteiro é mais provável que você encontre o que precisa pesquisando em inglês!
+        Mas nada o impede de pesquisar em português, há apenas o risco de encontrar pouco ou nenhum contéudo Bée..
         
         Quer fazer uma pesquisa no Stack Overflow por aqui mesmo?
         Digite "quero pesquisar" que te ajudo com isso!
+
+        Ou então peça pelo cronograma, para lembrar onde havia parado!
 
   utter_sobre_input_dados:
     - text: |
         Então você quer aprender a ler informações do usuário? Deixa que eu te ensino, béee
         É bem simples, você precisa chamar a função "entrada", mas claro, em inglês.
-        
+
         Algumas funções necessitam de parâmetros que são passados dentro de parênteses (o print por exemplo).
         No nosso caso, o parâmetro é opcional. Você pode passar entre aspas um texto que será mostrado ao usuário antes que ele digite algo. Tudo o que for digitado pelo usuário será guardado em uma variável até que ele digite ENTER.
         Fica assim então:
@@ -689,6 +723,74 @@ templates:
 
         Simples como comer capim!
 
+  utter_exemplo_inteiros:
+    - text: |
+        Para aprendermos um pouco mais sobre inteiros, vamos brincar de
+        pique-esconde! Mas de uma forma diferente: vamos criar juntos a
+        brincadeira EM PYTHON!!
+
+        Temos apenas uma regra: antes de começar, o usuário tem que contar até 3
+        dígitos inteiros, para que eu possa me esconder!
+        E assim que acabar, ele tem que me dizer onde é que eu estou!
+
+        O programa deve me avisar a soma dos números ao final da contagem,
+        para eu me preparar!
+
+        Temos que tratar a contagem como tipo int e fazer a expressão de
+        conta normalmente! Para mostrar a soma, utilizaremos {} no lugar do
+        número, e após a aspas simples, colocaremos:
+        .format(e o nome da variável aqui!)
+
+        Se estiver muito difícil, pode me pedir o código de inteiros,
+        que mostrarei o exemplo na prática!
+
+  utter_exemplo_pontos_flutuantes:
+    - text: |
+        Bom, já que nem tudo é brincadeira, agora teremos que fazer
+        algumas continhas... Eu preciso que você faça um programa que
+        registre um número proposto pelo usuário e divida por dois.
+        Esse número pode ser um número decimal, por exemplo: 3.5!!!
+
+        Depois verifique o valor em alguma calculadora, veja se acertou!
+
+        Caso não tenha conseguido, tente trocar a variável para
+        ponto flutuante!
+
+        Basta colocar o input entre parenteses e a sentença float ou
+        double antes destes. Acontece que os pontos flutuantes são
+        capazes de tratar mais opções de números, como por exemplo
+        decimais...
+
+        Você pode me pedir o código desse programa se quiser, é só dizer
+        o que deseja!
+
+  utter_exemplo_caracteres:
+    - text: |
+        Para aprendermos sobre caracteres, vamos fazer um mini quiz!!
+
+        Você vai apresentar pro usuário uma pergunta com três opções
+        de resposta, e vai receber um caractere char. Logo após, preciso
+        saber qual foi a resposta do usuário, então basta printar em tela!!
+
+        Se quiser ver o código desse exemplo, basta me pedir!
+
+  utter_exemplo_booleanos:
+    - text: |
+        Você sabe que estou no Telegram? Mas eu béem que queria
+        visitar novos lugares, talvez CRIAR novos locais, semelhante a essa
+        rede! Beém, então, vou te pedir um pequeno favor agora!
+
+        Preciso que você me ajude a criar um código
+        para dizer se o usuário está ou não online! Daí você aproveita
+        e aprende mais sobre booleanos. Vai ser bem simples, não se preocupe!
+
+        Primeiro você printará na tela uma variável booleano em False.
+        Não esqueça a letra maiúscula!! Logo após, o usuário irá digitar algo...
+        Assim que receber um sinal de fumaça, preciso que você troque a variável
+        booleana para True e printe em tela!
+
+        Bem simples né? Me peça o código pra ver se acertou agora!
+
   utter_exemplo_condicionais:
     - text: |
         Quer saber como seria o uso de uma estrutura condicional? Xá comigo, nisso eu sou muito boa!
@@ -715,24 +817,21 @@ templates:
         Cada passo será uma ação minha.
         No caso, eu terei que executar uma quantia de passos finitos até chegar ao meu objetivo.
         Repetirei então a minha ação 'dar um passo' até chegar ao meu feno. Funciona mais ou menos assim!
-        
-        Quer ver como ficaria o código disso? 
+
+        Quer ver como ficaria o código disso?
         Só pedir por um exemplo em código que eu te mostro um!
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
         código, for, while, exemplo prático, estruturas de repetição
 
         Simples como comer capim!
-        E olha, se você estiver se sentindo confiante nesse conteúdo,
-        você pode me pedir para falar sobre vetores, que é o próximo conteúdo!
-
       image:
         https://user-images.githubusercontent.com/43069991/56447561-626c3b00-62df-11e9-81f3-77963cf19bd5.png
 
 
   utter_exemplo_funcao:
     - text: |
-        Imagine que eu preciso mostrar a frase "Oi, " e citar o nome da pessoa "Oi, Nelson!" toda vez que um usuário entrar no meu programa. 
-        É possível fazer uma função que receba como parâmetro o nome e dentro dela, 
+        Imagine que eu preciso mostrar a frase "Oi, " e citar o nome da pessoa "Oi, Nelson!" toda vez que um usuário entrar no meu programa.
+        É possível fazer uma função que receba como parâmetro o nome e dentro dela,
         monte e retorne essa frase, evitando a repetição de código!
 
         Para isso temos a palavra reservada "def", é a abreviação de define, que serve para explicitar que aquela função será definida naquele trecho do código.
@@ -747,10 +846,10 @@ templates:
   utter_exemplo_arquivos:
     - text: |
         Que tal um exemplo?
-        Digamos que você quer escrever "Aix Chatbot" num arquivo. Para isso você deverá ter uma variável abrindo o arquivo, depois deverá utilizar uma 
+        Digamos que você quer escrever "Aix Chatbot" num arquivo. Para isso você deverá ter uma variável abrindo o arquivo, depois deverá utilizar uma
         função para escrever seu texto nele e, por fim, fechá-lo!
-        Por exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open, 
-        
+        Por exemplo, um arquivo chamado 'bodes-mais-legais.txt' é aberto pela função open,
+
         e o objeto gerado por essa função é atribuído a variável 'arquivo'.
         A função 'write' é usada para gravar o conteúdo da variável 'texto' no arquivo aberto,
         por fim, o arquivo é fechado com a função 'close'!!
@@ -767,7 +866,7 @@ templates:
           [4, 3, 3, 2, 3, 4, 5]
 
         E se eu quiser saber quantos fenos eu comi no Domingo é só olhar o vetor na primeira posição!
-          [4, 3, 3, 2, 3, 4, 5]          
+          [4, 3, 3, 2, 3, 4, 5]
            ^
            1ª posição
         Lembrando que em código as posições começam a ser contadas a partir 0.
@@ -792,15 +891,15 @@ templates:
           [1, 2, 4, 3, 7, 1, 1]
           [0, 5, 6, 7, 7, 5, 0]
 
-        Sendo as linhas referentes as semanas e as colunas os dias! 
+        Sendo as linhas referentes as semanas e as colunas os dias!
         E para saber as dúvidas de segunda-feira da primeira semana basta olhar a tabela formada:
-              
+
               | segunda-feira
-              v 
+              v
           [0, 4, 7, 9, 5, 3, 1] 1ª semana
           [0, 0, 2, 4, 3, 2, 2]
           [1, 2, 4, 3, 7, 1, 1]
-          [0, 5, 6, 7, 7, 5, 0]     
+          [0, 5, 6, 7, 7, 5, 0]
 
         Lembrando que as posições começam a ser contadas a partir 0.
 
@@ -819,22 +918,34 @@ templates:
         Segundo passo: math.sqrt(9)
 
         Caso queira um código pra você testar em seu programa é só pedir.
-        
+
         Se seu pedido tiver essas palavras fica melhor de eu entender!:
         código importar bibliotecas, exemplo prático para importar bibliotecas. Iria me ajudar bastante a te entender :)
 
   utter_exemplo_strings:
     - text: |
-        Ahhh então você quer um exemplo de strings? Xá comigo, isso é bem simples.
-        Para declarar uma string basta colocar o nome da string '=' a um texto entre aspas.
-        Pode ser aspas simples ou duplas :D
+        Agora vamos aprender a tratar strings, e para isso,
+        vamos fazer um mini jogo de adedonha!
 
-        Veja um exemplo:
-          minha_string = "olá, bom dia! como vai você?" (string)
-          print(minha_string[5]) (será mostrado o caractere 'b' que é o 5º caractere da nossa string)
+        Inicialmente, o programa escolherá uma letra aleatória com a função
+        random.choice.
+        Apenas acrescente nas primeiras linhas do seu programa o seguinte:
 
-        Quer saber mais? O python possui muitas funções úteis para manipulação de strings.
-        Você pode me pedir conteudos extras sobre strings ou até mesmo alguns exercícios.
+        import random
+        import string
+
+        print(random.choice(string.ascii_uppercase))
+
+        Depois, o usuário terá que digitar 3 dados do tipo string,
+        com essa inicial sorteada: carro, fruta e animal!
+
+        Após entrada as informações, o programa deve retornar o
+        que o usuário escolheu para suas respostas.
+
+        Por enquanto, quem vai checar se as respostas são válidas
+        será você, humano. Se você continuar estudando, você aprenderá como
+        fazer isso de modo automático! Mas antes, vamos ver o código desse
+        exemplo! É só pedir :)
 
         Bée..se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
          exemplo strings, strings na prática, strings na pratica, exercicios strings
@@ -925,10 +1036,8 @@ templates:
         Encontrou algum erro em seu código? Só me falar que quer pesquisar que te ajudo nisso!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
-        Agora posso te enviar alguns links com conteúdo mais aprofundado ou
-        podemos já começar o próximo conteúdo!
+        Agora posso te enviar alguns links com conteúdo mais aprofundado!
         Caso queira aprender mais sobre matrizes, me peça por 'conteúdo extra de matrizes'.
-        Ou, me pergunte sobre 'como importar bibliotecas' que te ensino feliz e contente!
 
 
   utter_exercicios_arquivos:
@@ -941,7 +1050,7 @@ templates:
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-        
+
         Que tal aprendermos um pouco mais sobre arquivos? É só pedir um conteúdo extra!
 
         Se seu pedido tiver essas expressões eu ficaria muito feliz:
@@ -952,7 +1061,7 @@ templates:
         Ahh, então você quer praticar funçoes? Beleza!
         Olha, não existem exercícios só de função, então tente fazer esses exercicios aqui usando funções!
         (Por exemplo, fazendo uma função que soma dois argumentos passados)
-        
+
         Área do círculo (https://www.urionlinejudge.com.br/judge/pt/problems/view/1002)
         Soma simples (https://www.urionlinejudge.com.br/judge/pt/problems/view/1003)
 
@@ -972,10 +1081,12 @@ templates:
           Combinador - https://www.urionlinejudge.com.br/judge/pt/problems/view/1238
           Cifra de César - https://www.urionlinejudge.com.br/judge/pt/problems/view/1253
           Array Hash - https://www.urionlinejudge.com.br/judge/pt/problems/view/1257
-          
+
         Obteve algum erro de compilação? Podemos pesquisar sobre ele!
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
-        
+
+        Que tal aprender um pouco mais sobre strings agora?
+        Só me pedir por "conteúdo extra de strings"
         E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
 
 
@@ -990,11 +1101,8 @@ templates:
         Primeiros comandos em Python3 (https://www.youtube.com/watch?v=31llNGKWDdo&feature=youtu.be),
         e uma aula exclusiva sobre Tipos Primitivos e Saída de Dados (https://www.youtube.com/watch?v=hdDHg1p3YVc&feature=youtu.be)!
 
-        Teve algum dúvida e quer pesquisar algo no StackOverflow?
-        Só me falar, faço pesquisas para você!
-        Para solicitar uma pesquisa me envie "quero pesquisar"..que te explico como pesquisar.
-
-        Sugiro olhar o cronograma para se localizar na matéria e ver o que temos adiante!
+        Béem, por que você agora não testa todo este conhecimento em desafios ainda mais intrigantes e legais?!
+        Só me pedir 'desafio de variaveis' que te passarei alguns!
 
   utter_conteudo_extra_condicionais:
     - text: |
@@ -1005,23 +1113,19 @@ templates:
               Tudo béem! Ta aqui um link que explica mais mastigado do que meu feno.
               https://www.w3schools.com/python/python_conditions.asp
 
-        Agora que está melhor em condicionais do que eu comendo feno,
-        por que não me pergunta sobre estruturas de repetição?
-
-        É um conteúdo importantíiissimo para um programador, e você vai aprender rapidinho!
-
-        Para me ajudar a entender melhor, me peça uma explicação sobre estruturas de repetição.
+        Agora que você já sabe tudo de estruturas condicionais, por que não um desafio?
+        Me peça por "desafio de estruturas condicionais" e te passo um!
 
 
   utter_conteudo_extra_repeticao:
     - text : |
-        Quer dizer que você quer aprender mais né? Béeem legal! 
-        Olha só esse link aqui que fala sobre como fazer estruturas de repetição eficientes! 
+        Quer dizer que você quer aprender mais né? Béeem legal!
+        Olha só esse link aqui que fala sobre como fazer estruturas de repetição eficientes!
         Tem até alguns exemplos legais.
         Olha aqui ó: https://curso-intro-python.readthedocs.io/repeticao.html
 
         Você é o mestre das estruturas de repetição!
-        
+
         Béem, por que você agora não testa todo este conhecimento em desafios ainda mais intrigantes e legais?!
         Só me pedir 'desafio de estruturas de repetição' que te passarei alguns!
 
@@ -1047,8 +1151,9 @@ templates:
         https://panda.ime.usp.br/pensepy/static/pensepy/10-Arquivos/files.html
         http://blog.evaldojunior.com.br/aulas/python/2009/02/08/curso-de-python-aula-12.html
 
-        Muito bem! Já podemos aprender mais assuntos.
-        Bée..É só me pedir o cronograma que te mostro qual seria o próximo conteúdo ideal..
+        Muito bem! Acho que já acabamos todos os conteúdos e, infelizmente, deve ser minha hora de partir... ;.;
+        Mas não se preocupe, sempre que precisar revisar estarei aqui!
+        E, béem, se quiser olhar tudo o que você estudou, me peça pelo cronograma para rever os conteúdos!
 
   utter_conteudo_extra_vetores:
     - text: |
@@ -1061,7 +1166,7 @@ templates:
         Introdução aos vetores em Python(https://www.ime.usp.br/~leo/mac2166/2017-1/introducao_vetores_python.html)
 
         Agora que você é o mestre dos vetores, te desafio a passar por alguns desafios com essa temática!
-        
+
         Se quiser mostrar coragem, só me pedir 'desafios de vetores'!
 
   utter_conteudo_extra_matrizes:
@@ -1077,7 +1182,7 @@ templates:
 
         Agora que entendeu na teoria tudo sobre matrizes,
         vamos por na prática mais desafiadora que você já fez?
-       
+
         Só me pedir pelo 'desafio sobre matrizes';
 
   utter_conteudo_extra_strings:
@@ -1086,17 +1191,23 @@ templates:
           https://www.w3schools.com/python/python_strings.asp
 
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
-        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings, 
+
+        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings,
         é só pedir!
 
         Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender:
         exercicios strings, treinar strings
+        
+        Agora já podemos partir para o próximo conteúdo
+        Basta me perguntar "sobre estruturas condicionais" e eu te explico!
 
 
   # ============================ PESQUISAR ============================ #
   utter_pesquisar:
     - text : |
         Pois béem, vou me conectar no StackOverflow para te ajudar nisso!!
+        Bée..recomendo fortemente que sua pesquisa esteja em inglês.
+        Em inglês há maior probabilidade de você encontrar o que deseja além de uma maior variedade de conteúdos. ;)
         Escreva sua pesquisa da seguinte forma:
         "pesquise sobre " e insira o conteúdo desejado. Fácil igual comer capim!!!
 
@@ -1161,6 +1272,81 @@ templates:
 
           print('Meu username é:', username, 'e minha senha... É segredo!')
 
+  utter_codigo_em_python_inteiros:
+    - text: |
+       Se estiver pronto pra próxima etapa, basta me pedir para explicar
+       sobre pontos flutuantes agora! É tão fácil quanto esse conteúdo,
+       pode ter certeza! Agora dá uma olhada no código que você me pediu!
+
+       código:
+          print("""Vamos brincar de pique-esconde! Antes, você precisa contar,
+          para eu me esconder!""")
+          n1 = int(input('Primeira contagem '))
+          n2 = int(input('Segunda contagem '))
+          n3 = int(input('Terceira contagem '))
+          soma = n1 + n2 + n3
+          print('A soma total foi de {}! Lá vou eu!'.format(soma))
+          resposta = input('Onde a cabra está? ')
+
+      image: |
+        https://i.imgur.com/3E3DOsu.jpg
+
+  utter_codigo_em_python_pontos_flutuantes:
+    - text: |
+       Olha aí embaixo! Dá pra acreditar que é só isso que temos que fazer?
+       Fácil né??
+       Tenta me perguntar sobre caracteres agora!! Estamos avançando
+       cada vez mais, estou gostando de ver ;)
+
+       código:
+          numero = float(input("Número "))
+          print(numero/2)
+
+
+  utter_codigo_em_python_caracteres:
+    - text: |
+       Vamos aprender sobre booleanos agora! Se estiver preparado,
+       basta me pedir pra explicar sobre booleanos :)
+
+       Ahh, e eu não esqueci, aqui está o código que você me pediu:
+
+       código:
+          print("Qual é o nome da cabra que ensina Python?")
+          print("A) Udewmy")
+          print("B) Aix")
+          print("C) Alura")
+          print("D) Naomi ")
+          resposta = input("Digite a resposta: ")
+          print(resposta)
+
+
+  utter_codigo_em_python_booleanos:
+    - text: |
+       código:
+          online = False
+          print(online)
+          input("Aperte enter para eu saber se você está ai! ")
+          online = True
+          print(online)
+
+       Não falei que era simples? Agora vamos ver um pouco sobre strings!
+
+  utter_codigo_em_python_strings:
+    - text: |
+      código:
+          import random
+          import string
+          print(random.choice(string.ascii_uppercase))
+          carro = str(input("Digite o carro "))
+          fruta = str(input("Digite a fruta "))
+          animal = str(input("Digite o animal "))
+          print("Carro {}".format(carro))
+          print("Fruta {}".format(fruta))
+          print("Animal {}".format(animal))
+
+       E agora vamos ver alguns exercícios que tenho preparados pra você!
+       Basta pedir por exercícios de variáveis ^^
+
   utter_codigo_em_python_condicionais:
     - text: |
        Então você quer um exemplo mais palpável de condicionais?
@@ -1196,6 +1382,9 @@ templates:
             print("amo python")
           else:
             print("amo a Aix")
+
+       Que tal uns exercícios para fixar o conteúdo?!
+       Me peça por "exercícios de estruturas condicionais" e vamos treinar juntos!
 
   utter_codigo_em_python_repeticao:
     - text: |
@@ -1250,7 +1439,6 @@ templates:
 
        Se seu pedido tiver as seguintes palavras te entenderei com maior facilidade:
        exercicios funções, praticar funções
-
 
   utter_codigo_em_python_arquivos:
     - text: |
@@ -1336,7 +1524,8 @@ templates:
           print('A raíz quadrada de', valor, 'é', raiz_quadrada, '!!!')
 
        Muito bem! Já podemos partir para o próximo conteúdo.
-       É só pedir o cronograma para se localizar rs
+       É só perguntar "o que é uma função" que eu te explico!
+       Ou se preferir, pode olhar no cronograma também.
 
   utter_codigo_em_python_input_dados:
     - text: |
@@ -1352,7 +1541,7 @@ templates:
 
        Espero que tenha entendido o conteúdo!
        Caso tenha, você está pronto para o próximo conteúdo: variáveis!
-       Se quiser saber a respeito desse tema, é só me pedir :)
+       Se quiser saber a respeito desse tema, é só me pedir usando frases como "sobre variáveis" :)
 
        Qualquer coisa também, verifique o nosso cronograma!
        Ele irá te ajudar a se localizar nos nossos conteúdos!
@@ -1363,16 +1552,17 @@ templates:
     - text: |
         Então você quer um desafio pra testar todo o conhecimento já visto até então...
         Certo! Quero ver você resolver alguns exercícios um pouco mais complexos, a começar pelo nível 1.
-        Você pode me enviar a submissão por aqui mesmo, que te retornarei um feedback! Aqui está o exercício:
-
+      
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=79&page=show_problem&problem=2030%60
+
+        Você pode me enviar a submissão por aqui mesmo, que te retornarei um feedback! Para fazer isso você deve fazer o login no UVa antes, basta me dizer algo como "Logar no UVa" ou "Quero fazer login no UVa"
 
         Tambéem não se esqueça de continuar sua carreira de desenvolvedor python me perguntando sobre vetores!
 
   utter_desafio_vetores:
     - text: |
         Béem vamos dificultar um pouco mais!! Quero ver você conseguir fazer essa questão aqui, lembrando que é
-        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! 
+        apenas o nível 1!! Você pode me mandar a submissão que eu te digo se está certo! Para logar, basta dizer "Logar no UVa" que te ensino como faz!
         Lá vamos nós:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=829&page=show_problem&problem=4459
@@ -1403,8 +1593,8 @@ templates:
         Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter: 
-        Estruturas condicionais. É só perguntar o que são estruturas condicionais que eu te explico.
+        Já podemos seguir pro próximo conteúdo sugerido, meu pequeno júpiter:
+        Variáveis. É só perguntar o que são variáveis que eu te explico.
 
   utter_desafio_funcao:
     - text: |
@@ -1414,20 +1604,22 @@ templates:
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=233&page=show_problem&problem=1862
 
-        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA.
-        Para entrar é só pedir.
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-        Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
-
-        Não se preocupe se ainda não tem uma conta, é só pedir para se conectar que te ensino ;)
+        Já podemos seguir pro próximo conteúdo sugerido: Arquivos.
+        É só perguntar o que são arquivos!
 
   utter_desafio_input_dados:
     - text: |
-        Que tal um desafio sobre importar dados?
+        Que tal um desafio sobre imprimir dados?
         Faça o um programinha em python que pega uma string NOME, um int IDADE e um double MEDIA_ESCOLAR.
         Depois printe tudo formatando do jeito que quiser!
 
         Caso queira o gabarito para conferir, me peça o código em python de input de dados!
+
+        Vamos seguir para o próximo conteúdo sugerido: estruturas condicionais!
+        É só me perguntar o que são estruturas condicionais!
 
   utter_desafio_variaveis:
     - text : |
@@ -1437,15 +1629,23 @@ templates:
 
         NÍVEL 2: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=1012
 
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
+
+        Agora, vamos aprender sobre leitura de dados do usuário!
+        Me pergunte "como ler dado do usuário?" que te explico rapidinho!
+
   utter_desafio_condicionais:
     - text : |
         Agora vamos testar em problemas mais complexos sobre variaveis!
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=635
 
+        Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+        Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
 
-
-
+        E o próximo conteúdo é referente a Estruturas de Repetição!
+        Me pergunte "o que são estruturas de repetição?" e eu te respondo num instante!
 
 
 actions:
@@ -1487,6 +1687,10 @@ actions:
 
 
   - utter_exemplo_variaveis
+  - utter_exemplo_inteiros
+  - utter_exemplo_pontos_flutuantes
+  - utter_exemplo_caracteres
+  - utter_exemplo_booleanos
   - utter_exemplo_condicionais
   - utter_exemplo_repeticao
   - utter_exemplo_vetores
@@ -1499,6 +1703,11 @@ actions:
 
   - utter_codigo_em_python_input_dados
   - utter_codigo_em_python_variaveis
+  - utter_codigo_em_python_inteiros
+  - utter_codigo_em_python_pontos_flutuantes
+  - utter_codigo_em_python_caracteres
+  - utter_codigo_em_python_booleanos
+  - utter_codigo_em_python_strings
   - utter_codigo_em_python_condicionais
   - utter_codigo_em_python_repeticao
   - utter_codigo_em_python_vetores

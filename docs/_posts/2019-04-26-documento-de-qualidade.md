@@ -7,6 +7,7 @@ category: Gerencia
 |Data   |Versão   |Descrição   |Autor   |
 |---|---|---|---|
 |26/04/2019   | 1.0  |Criação do documento   |Kamilla Costa   |
+|17/06/2019   | 1.1  |Atualização do documento | Kamilla Costa |
 
 ## Objetivo
 
@@ -48,6 +49,8 @@ Neste quesito foi possivel identificar que mais da metade dos usuários não tiv
 
 Quanto as sugestões de melhorias foi possível identificar várias que estão sendo planejadas para implementação afim de melhorar a interação entre bot e usuário assim como identificar alguns problemas por meio de sua utilização com usuários diversificados.
 
+Foram aplicados mais dois testes de usabilidade documentados no repositório.
+
 
 
 ## Testes Unitários
@@ -55,7 +58,7 @@ Quanto as sugestões de melhorias foi possível identificar várias que estão s
 A aplicação de testes unitários se dá por meio da implementação de testes da menor parte testável de um programa. Em nosso contexto, como entrega para a release 1 foi aplicado o teste unitário na função da custom action responsável pela integração do bot com a API do stackoverflow por meio da utilização do framework Pytest.
 
 
-![]({{ site.url }}/2019.1-Aix/assets/img/teste.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/teste1.png)
 
 
 ## Testes Estáticos
@@ -63,7 +66,7 @@ A aplicação de testes unitários se dá por meio da implementação de testes 
 A análise estática de softwares, também conhecida como whitebox, trabalha diretamente com o código. Nesse caso, os componentes são verificados sem que o produto seja executado. No chatbot Aix foi aplicado o uso de ferramentas automatizadas no qual o principal objetivo dessa técnica é identificar erros de programação como práticas ruins, erros de sintaxe, identação entre outros. As ferramentas utilizadas são Flake8 e CodeClimate
 
 #### CodeClimate
-![]({{ site.url }}/2019.1-Aix/assets/img/codeclimate.png)
+![]({{ site.url }}/2019.1-Aix/assets/img/codeclimate1.png)
 
 #### Flake8
 ![]({{ site.url }}/2019.1-Aix/assets/img/flake8.png)

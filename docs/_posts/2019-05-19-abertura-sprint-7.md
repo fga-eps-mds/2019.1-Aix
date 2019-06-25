@@ -7,7 +7,7 @@ category: Sprint
 
 ## Objetivos
 
-SSprint dedicada a refatorações e aplicações de melhoria mediante feedback referente a release 1 assim como estudo de ferramentos que serão aplicadas nas sprints seguintes.
+Sprint dedicada a refatorações e aplicações de melhoria mediante feedback referente a release 1 assim como estudo de ferramentos que serão aplicadas nas sprints seguintes.
 
 ## Papéis
 

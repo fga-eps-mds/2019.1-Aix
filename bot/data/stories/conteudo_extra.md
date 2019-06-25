@@ -7,9 +7,16 @@
 * conteudo_extra_variaveis
     - action_set_slot_value
     - utter_conteudo_extra_variaveis
-* sobre_condicionais
+* desafio_variaveis
     - action_set_slot_value
-    - utter_sobre_condicionais
+    - utter_desafio_variaveis
+
+## conteudo_extra_variaveis3
+* conteudo_extra_variaveis
+    - action_set_slot_value
+    - utter_conteudo_extra_variaveis
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 
 
 ## conteudo_extra_condicionais
@@ -21,9 +28,16 @@
 * conteudo_extra_condicionais
     - action_set_slot_value
     - utter_conteudo_extra_condicionais
-* sobre_repeticao
+* desafio_condicionais
     - action_set_slot_value
-    - utter_sobre_repeticao
+    - utter_desafio_condicionais
+
+## conteudo_extra_condicionais3
+* conteudo_extra_condicionais
+    - action_set_slot_value
+    - utter_conteudo_extra_condicionais
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
 
 
 ## conteudo_extra_repeticao
@@ -114,6 +128,13 @@
     - action_set_slot_value
     - utter_desafio_funcao
 
+## conteudo_extra_funcao3
+* conteudo_extra_funcao
+    - action_set_slot_value
+    - utter_conteudo_extra_funcao
+* intent_utter_desafio_vaga
+    - action_utter_desafio_vaga
+
 
 ## conteudo_extra_arquivos
 * conteudo_extra_arquivos
@@ -126,4 +147,3 @@
     - utter_conteudo_extra_arquivos
 * sobre_stack_overflow
     - utter_sobre_stack_overflow
-

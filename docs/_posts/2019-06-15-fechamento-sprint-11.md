@@ -37,6 +37,8 @@ category: Sprint
 ### Débitos Técnicos Gerados
 
 * [#343 Seleção e implementação de exercícios do UVA online judge](https://github.com/fga-eps-mds/2019.1-Aix/issues/343)
+* [#371 Otimizar criação de intents](https://github.com/fga-eps-mds/2019.1-Aix/issues/371)
+* [#372 Refatorar feedback do uva](https://github.com/fga-eps-mds/2019.1-Aix/issues/372)
 
 
 ## Retrospectiva

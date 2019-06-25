@@ -21,7 +21,7 @@ O objetivo deste artigo será definir o problema, os perfis das partes interessa
 ### 1.2  Escopo
 
 <p align="justify"> &emsp;&emsp;
-De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.</p>
+De maneira sucinta, a problemática que tentaremos solucionar com este trabalho estará diretamente conectada à área pedagógica. A tecnologia desenvolvida facilitará o processo de aprendizagem de iniciantes principalmente e terá como destino não só o corpo discente como também os profissionais e as instituições de ensino responsáveis por lecionar disciplinas de introdução à linguagens de programação. Tais pontos serão devidamente explorados neste documento de visão.</p>
 <p align="justify"> &emsp;&emsp;
 Em seguida, as informações técnicas do programa também serão bem delineadas e atualizadas caso seja necessário durante o processo de criação do sistema.</p>
 
@@ -31,6 +31,8 @@ Em seguida, as informações técnicas do programa também serão bem delineadas
 Estarão listadas neste tópico definições, acrônimos e abreviações para garantir uma maior proximidade para com o leitor e o público interessado no projeto.</p>
 
 **Chatbot:** programa de software que estabelece uma interação automática com o usuário, sem a necessidade de um indivíduo presente na ferramenta.
+
+**Online Judge** são corretores automatizados para correção de problemas e desafios de programação, é esperado que seja enviado um arquivo ou trecho de código para o corretor, e ele retorne uma correção simples dizendo se o código passou pelo seu crivo de aceitação ou falhou de alguma forma e de qual forma.
 
 **API:** Application Programming Interface. Em português significa Interface de Programação de Aplicações. São formas de integrar sistemas.
 
@@ -118,7 +120,7 @@ Dessa forma, no momento atual, é necessário para o usuário apenas um disposit
 
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas da parte interessada
 
-Critérios de Sucesso|Envolvimento|Entregas|
+|Critérios de Sucesso|Envolvimento|Entregas|
 |--|--|--|--|
 |Maior adesão ao serviço da parte interessada, graças aos bons resultados alcançados através de programas inovadores de ensino e grandes profissionais que podem ser formados por estas entidades que darão nome a essas instituições.|Revisor de requisitos. Confere se é abordado no projeto todos os temas que a entidade busca propagar aos usuários, todo o conteúdo necessário para o pupilo em determinado período. Em caso de ausência de algum tema, contacta a equipe para que o tópico seja implementado.|Entregas adicionais que podem ser requeridas pela parte interessada serão os temas não abordados pela equipe mas que carecem na hora da revisão da parte interessada. Conteúdos relacionados ao estudo da linguagem Python.
 
@@ -133,7 +135,7 @@ Critérios de Sucesso|Envolvimento|Entregas|
 
 **Tabela 2.** Critérios de sucesso, envolvimento e entregas do usuário
 
-Critérios de Sucesso|Envolvimento|Entregas|
+|Critérios de Sucesso|Envolvimento|Entregas|
 |--|--|--|--|
 |Reconhecimento pelo usuário de noções básicas da linguagem, identificação pelo beneficente de capítulos recorrentes de conteúdos bibliográficos, capacidade de solucionar problemas propostos pela Aix e outros demais empecilhos. | Construtor das dúvidas e receptor de conhecimento. Dialoga com o simulador de maneira informal e envia interrogações para que assim o chatbot retorne uma explicação correspondente.|As entregas do usuário são as dúvidas enviadas que deverão ser elaboradas por ele durante o processo de aprendizagem.
 
@@ -208,7 +210,13 @@ O usuário pode solicitar por conteúdo extra, será fornecido o link de algum s
 <p align="justify"> &emsp;&emsp;
 O usuário pode solicitar por exercícios para que seja fixado o que foi aprendido. Serão retornados 3 links de exercícios a serem resolvidos por meio do juiz online URI, referentes ao conteúdo solicitado.</p>
 
-### 5.6 Permitir que o usuário pesquise no StackOverflow
+### 5.6 Oferecer desafios e correção deles oferecidos pelo UVa Online Judge
+
+<p align="justify"> &emsp;&emsp;
+O usuário pode solicitar por desafios relacionados ao conteúdo que ele está aprendendo. Serão retornados links para desafios de diferentes níveis sobre o conteúdo escolhido, o usuário poderá logar em uma conta para assim conseguir usar a feature de correção feita pelo Online Judge e receberá um feedback do bot.
+</p>
+
+### 5.7 Permitir que o usuário pesquise no StackOverflow
 
 <p align="justify"> &emsp;&emsp;
 O usuário poderá solicitar uma pesquisa. Será feita uma requisição com a API do site StackOverflow que retornará cerca de cinco links com dúvidas semelhantes que foram esclarecidas.

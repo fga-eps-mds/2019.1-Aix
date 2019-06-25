@@ -14,16 +14,7 @@ class ActionSetSlotValue(Action):
         slot_content = slot_content.replace('exercicios_', '')
         slot_content = slot_content.replace('conteudo_extra_', '')
 
-        slot_content = self.verify_if_is_variable(slot_content)
         return [SlotSet('conteudo', slot_content)]
-
-    def verify_if_is_variable(self, slot_content):
-        variable_types = ['inteiros', 'pontos_flutuantes', 'booleanos',
-                          'caracteres', 'strings']
-        if any(word == slot_content for word in variable_types):
-            return 'variaveis'
-        else:
-            return slot_content
 
 
 class ActionUtterVaga(Action):
@@ -117,6 +108,8 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
 
     def run(self, dispatcher, tracker, domain):
         slot_content = tracker.get_slot('conteudo')
+        slot_content = self.verify_if_is_variable(slot_content)
+
         if(slot_content == 'erro'):
             dispatcher.utter_message('Estou confusa, bée...' +
                                      ' Você ainda não perguntou' +
@@ -129,6 +122,14 @@ class ActionUtterExerciciosVaga(ActionUtterVaga):
             self.dispatch_message(tracker, dispatcher,
                                   is_valid, desired_subject)
             return []
+
+    def verify_if_is_variable(self, slot_content):
+        variable_types = ['inteiros', 'pontos_flutuantes', 'booleanos',
+                          'caracteres', 'strings']
+        if any(word == slot_content for word in variable_types):
+            return 'variaveis'
+        else:
+            return slot_content
 
 
 class ActionUtterConteudoExtraVaga(ActionUtterVaga):

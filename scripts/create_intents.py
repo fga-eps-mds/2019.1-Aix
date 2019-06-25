@@ -24,15 +24,21 @@ while(content != "QQ"):
 filename = "intents/" + tipo_de_intent + ".txt"
 fileToWrite = open("result.txt", "w")
 
-fileToWriteContent = []
+fileToWriteContentTemp = []
 
 for conteudo in conteudos:
     fileToRead = open(filename, "r")
     for line in fileToRead:
-        fileToWriteContent.append(line.replace("[CONTEUDO]", conteudo))
+        fileToWriteContentTemp.append(line.replace("[CONTEUDO]", conteudo))
     fileToRead.close()
 
-fileToWriteContent.sort()
+fileToWriteContentTemp.sort()
+
+fileToWriteContent = []
+
+for contentLine in fileToWriteContentTemp:
+    fileToWriteContent.append("- " + contentLine)
+
 fileToWrite.writelines(fileToWriteContent)
 
 fileToWrite.close()   
