@@ -1,3 +1,7 @@
+## path 0
+* start
+    - utter_start
+
 ## path 1
 * start
     - utter_start
