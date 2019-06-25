@@ -2,6 +2,12 @@
 * sobre_aix
     - utter_sobre_aix
 
+## sobre_aix2
+* sobre_aix
+    - utter_sobre_aix
+* menu_ajuda
+    - utter_menu_ajuda
+
 
 ## sobre_stack_overflow_sem_pesquisa
 * sobre_stack_overflow
