@@ -233,7 +233,7 @@ templates:
         Você está me deixando béem triste... Não me trate mal, por favor.
 
     - text: |
-        Por que você está me tratando desse jeito? Achei que éramos camaradas :(
+        Por que você está me tratando desse jeito? Achei que ééramos camaradas :(
 
     - text: |
         Quanta beésteira!! Não fale assim comigo!
@@ -269,7 +269,7 @@ templates:
     - text: |
         Eu sou a Aix, a chatbode Python e estou aqui para te auxiliar no aprendizado desta linguagem de programação!
 
-        Infelizmente não consigo explicar sore tudo. Para ver o que posso lhe ensinar, é só me pedir o cronograma de estudos! Bée
+        Infelizmente não consigo explicar sobre tudo. Para ver o que posso lhe ensinar, é só me pedir o cronograma de estudos! Bée
         P.S: e, em caso de dúvida do meu funcionamento, digite o /help que vou te ensinar!
 
         E lembre-se: eu não sou um simples robô, poxa!!
@@ -329,6 +329,7 @@ templates:
         Me dê exercícios de [Nome do conteúdo]
         Quero saber mais de [Nome do conteúdo]
         Quero um desafio de [Nome do conteúdo]
+
         *Para pesquisar no StackOverflow voce deve digitar:
         pesquise sobre [conteúdo que você quer saber]
         Recomendo que sua pesquisa seja feita em inglês..Bée..em inglês existem muito mais variedades de conteúdos.
@@ -493,16 +494,13 @@ templates:
   utter_sobre_inteiros:
     - text: |
         Uma variável do tipo inteiro, serve para guardar números que pertencem ao conjunto dos inteiros.
-        Isto éee, todos números positivos e negatios sem casas decimais.
+        Isto éee, todos números positivos e negativos sem casas decimais.
         Você pode contar seus fenos com inteiros!! 20 fenos, 30 fenos...
 
-        Quer ver um exemplo das variáveis em ação?? Pois béem, só me pedir!
+        Quer ver um exemplo dos inteiros em ação?? Pois béem, só me pedir!
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo inteiros
         Simples como comer capim!
-
-        Caso já tenha entendido tudinho sobre inteiros, por que não aprender agora sobre caracteres, booleanos, pontos flutuantes ou strings?
-        É só me perguntar sobre esses temas, que te explico direitinho!
 
   utter_sobre_pontos_flutuantes:
     - text: |
@@ -511,35 +509,28 @@ templates:
 
         Ainda ficou uma dúvida? Lembrando que você pode me pedir alguns exemplos!
 
-        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas me ajudaria bastante a te entender: exemplo pontos flutuantes
         Simples como comer capim!
-
-        E aí, entendeu tudo direitinho sobre pontos flutuantes? Agora seria muuuito legal você aprender sobre: caracteres, booleanos, inteiros ou strings!
 
   utter_sobre_caracteres:
     - text: |
         As variáveis do tipo caracter guardam valores alfanuméricos e caractéres especiais, ou seja, letras, números, pontos, acentos, chaves, parênteses...
         Exemplos de caracteres seriam 'b', 'é', 'e', '!'
 
-        Que tal um exemplo prático de variáveis? Só me pedir que te mostro um!
+        Que tal um exemplo prático de caracteres? Só me pedir que te mostro um!
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo caracteres
         Simples como comer capim!
-
-        Mas caso já tenha entendido, e não precise dos exercícios, vamos logo pros próximos conteúdos,
-        ele é béem legal de aprender: booleanos, inteiros, strings ou pontos flutuantes!
 
   utter_sobre_booleanos:
     - text: |
         O tipo booleano serve para armazenar apenas o valor verdadeiro ou falso, é usado em operações lógicas!
         Eu gosto muito de feno é uma afirmação verdadeira!!
 
-        Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de variáveis para você.
+        Bééé, você quer mais um exemplo? Só me pedir! Tenho alguns exemplos de booleanos para você.
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo variáveis
+        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo booleanos
         Simples como comer capim!
-
-        Se você sentir que já sabe booleanos, me peça para te ensinar sobre os outros tipos de variáveis!
 
   utter_sobre_condicionais:
     - text: |
@@ -562,7 +553,7 @@ templates:
 
         Quer ver os loops em ação? Me peça um exemplo de estruturas de repetição!
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: saber mais sobre repetição, for, while, treinar, exercicios
+        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplo, estruturas de repetição
         Simples como comer capim!
 
   utter_sobre_arquivos:
@@ -660,14 +651,14 @@ templates:
   utter_sobre_strings:
     - text: |
         Uma string é a junção de vários caracteres, de forma geral uma string é um texto.
-        Se você precisa armazenar o menu nome lindo: Aix, por exemplo, você precisará de uma string. Bem simples né?
+        Se você precisa armazenar o meu nome lindo: Aix, por exemplo, você precisará de uma string. Bem simples né?
 
         Além de tudo isso uma string é um vetor de caracteres. Ou seja, você pode acessar um caractere específico colocando um número dentro de "[]" ao lado da variável do tipo string.
         (Se você ainda não sabe o que é vetor ou caractere é só me perguntar, Bée).
 
         Caso ainda não tenha entendido ou tenha ficado alguma dúvida me peça um exemplo que mostro na prática!
 
-        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplos variáveis, exemplos de strings, o que é vetor, o que é caractere
+        Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender: exemplos strings, exemplos de strings!
         Simples como comer capim!
 
   utter_sobre_stack_overflow:
@@ -725,24 +716,18 @@ templates:
 
   utter_exemplo_inteiros:
     - text: |
-        Para aprendermos um pouco mais sobre inteiros, vamos brincar de
-        pique-esconde! Mas de uma forma diferente: vamos criar juntos a
-        brincadeira EM PYTHON!!
+        Para aprendermos um pouco mais sobre inteiros, vamos brincar de pique-esconde!
+        Mas de uma forma diferente: vamos criar juntos a brincadeira EM PYTHON!!
 
-        Temos apenas uma regra: antes de começar, o usuário tem que contar até 3
-        dígitos inteiros, para que eu possa me esconder!
-        E assim que acabar, ele tem que me dizer onde é que eu estou!
-
-        O programa deve me avisar a soma dos números ao final da contagem,
+        Temos apenas uma regra: antes de começar, o usuário tem que contar até 3 dígitos inteiros, para que eu possa me esconder!
+        E assim que acabar, ele tem que me dizer onde é que eu estou!\n\nO programa deve me avisar a soma dos números ao final da contagem,
         para eu me preparar!
 
-        Temos que tratar a contagem como tipo int e fazer a expressão de
-        conta normalmente! Para mostrar a soma, utilizaremos {} no lugar do
-        número, e após a aspas simples, colocaremos:
-        .format(e o nome da variável aqui!)
-
-        Se estiver muito difícil, pode me pedir o código de inteiros,
-        que mostrarei o exemplo na prática!
+        Temos que tratar a contagem como tipo int e fazer a expressão de conta normalmente!
+        Para mostrar a soma você pode usar o comando print() e colocar como parâmetro um texto que preferir e
+        após o texto usar ',' e o nome da variável onde a soma ficou armazenada!
+ 
+        Se estiver muito difícil, pode me pedir o código de inteiros, que mostrarei o exemplo na prática!"
 
   utter_exemplo_pontos_flutuantes:
     - text: |
@@ -764,15 +749,19 @@ templates:
         Você pode me pedir o código desse programa se quiser, é só dizer
         o que deseja!
 
+        Se sua mensagem tiver as palavras "código" e "pontos flutuantes"
+        vai me ajudar muito!
+
   utter_exemplo_caracteres:
     - text: |
         Para aprendermos sobre caracteres, vamos fazer um mini quiz!!
 
         Você vai apresentar pro usuário uma pergunta com três opções
-        de resposta, e vai receber um caractere char. Logo após, preciso
+        de resposta, e vai receber um caractere. Logo após, preciso
         saber qual foi a resposta do usuário, então basta printar em tela!!
 
         Se quiser ver o código desse exemplo, basta me pedir!
+        Use as palavras "código de caracteres", por exemplo.
 
   utter_exemplo_booleanos:
     - text: |
@@ -789,13 +778,14 @@ templates:
         Assim que receber um sinal de fumaça, preciso que você troque a variável
         booleana para True e printe em tela!
 
-        Bem simples né? Me peça o código pra ver se acertou agora!
+        Bem simples né? Me peça o código pra ver se acertou, agora!
+        Me mande algo como "código em python de booleanos"!
 
   utter_exemplo_condicionais:
     - text: |
         Quer saber como seria o uso de uma estrutura condicional? Xá comigo, nisso eu sou muito boa!
         Digamos que se você quer que seja printado "amo feno", "amo python" e "amo a Aix", mas cada uma dessas palavras tem uma condição para acontecer!
-        Se uma variavel x for igual a 2 você printa a primera, caso essa variável seja igual 5, a segunda e ,por fim, se x não encaixar em nenhum dos casos, a terceira!
+        Se uma variável x for igual a 2 você printa a primera, caso essa variável seja igual 5, a segunda e ,por fim, se x não encaixar em nenhum dos casos, a terceira!
 
         Quer ver mais a respeito de condicionais?
         Só pedir, posso te mostrar esse exemplo na prática!
@@ -803,9 +793,6 @@ templates:
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
         código em python de condicionais.
         Simples como comer capim!
-
-        E caso você queria seguir na sua carreira de desenvolver python,
-        você pode perguntar pra mim sobre nosso cronograma de estudos!
 
       image:
         https://user-images.githubusercontent.com/43069991/57010199-d658ee00-6bd1-11e9-92dc-02c556380a26.png
@@ -820,6 +807,7 @@ templates:
 
         Quer ver como ficaria o código disso?
         Só pedir por um exemplo em código que eu te mostro um!
+
         Bée..Se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
         código, for, while, exemplo prático, estruturas de repetição
 
@@ -892,6 +880,7 @@ templates:
           [0, 5, 6, 7, 7, 5, 0]
 
         Sendo as linhas referentes as semanas e as colunas os dias!
+
         E para saber as dúvidas de segunda-feira da primeira semana basta olhar a tabela formada:
 
               | segunda-feira
@@ -920,7 +909,9 @@ templates:
         Caso queira um código pra você testar em seu programa é só pedir.
 
         Se seu pedido tiver essas palavras fica melhor de eu entender!:
-        código importar bibliotecas, exemplo prático para importar bibliotecas. Iria me ajudar bastante a te entender :)
+        código importar bibliotecas, exemplo prático para importar bibliotecas. 
+
+        Iria me ajudar bastante a te entender :)
 
   utter_exemplo_strings:
     - text: |
@@ -948,7 +939,7 @@ templates:
         exemplo! É só pedir :)
 
         Bée..se seu pedido tiver essas palavras específicas abaixo me ajudaria bastante a te entender:
-         exemplo strings, strings na prática, strings na pratica, exercicios strings
+         exemplo strings, strings na prática, strings na pratica!
 
   # ============================ EXERCICIOS ============================ #
   utter_exercicios_variaveis:
@@ -984,7 +975,7 @@ templates:
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
         Ou agora que você já sabe o básico sobre condicionais, vamos aprofundar nesse tema!
-        Me peça links extras desse conteúdo!
+        Me peça links extras de condicionais!
 
   utter_exercicios_repeticao:
     - text: |
@@ -1001,7 +992,7 @@ templates:
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar no StackOverflow por aqui mesmo!
 
         E agora que fez todos esses exercícios, porque não dar uma aprofundada ainda maior no conteúdo?
-        É só me pedir por 'conteúdos extras sobre estruturas de repetição'!
+        É só me pedir por 'conteúdos extras de estruturas de repetição'!
 
 
   utter_exercicios_vetores:
@@ -1018,9 +1009,9 @@ templates:
         E qualquer erro, só me dizer que posso pesquisar e te ajudar.
         Para pesquisar me envie "quero pesquisar" que explico como pesquisar por aqui mesmo!
 
-        Com os três exercícios feitos e acertados,
+        Com os quatro exercícios feitos e acertados,
         se você quiser se aprofundar ainda mais nesse conteúdo de vetores, só me pedir.
-        Me peça por 'conteúdo extra sobre vetores' que te mandarei alguns links úteis!
+        Me peça por 'conteúdo extra de vetores' que te mandarei alguns links úteis!
 
 
   utter_exercicios_matrizes:
@@ -1045,7 +1036,7 @@ templates:
         Como não encontrei exercícios no URI para resolução deste tipo de exercício,
         vamos fazer um aqui mesmo!
 
-        Seria intetessante se você abrisse um arquivo no modo 'w', de escrita,
+        Seria interessante se você abrisse um arquivo no modo 'w', de escrita,
         e escrevesse seu nome completo nele.
 
         Não conseguiu ou encontrou algum erro? Só me falar que pesquiso no StackOverflow e te mando.
@@ -1087,7 +1078,6 @@ templates:
 
         Que tal aprender um pouco mais sobre strings agora?
         Só me pedir por "conteúdo extra de strings"
-        E oras, agora que você acabou o conteúdo de strings, que tal me perguntar sobre laços de repetição?
 
 
   # ============================ CONTEÚDO EXTRA ============================ #
@@ -1172,7 +1162,6 @@ templates:
   utter_conteudo_extra_matrizes:
     - text: |
         Olha esse links sobre matrizes que eu achei!
-        Neles explica muito béem!!!
         Tem três aulas em texto para você e uma vídeo aula, se preferir.
 
         Curso Python #17 - Listas (Parte 2)(https://www.youtube.com/watch?v=YV_JQmZNFsk&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH&index=17&t=0s)
@@ -1180,10 +1169,10 @@ templates:
         Matrizes IC-UFF(http://www2.ic.uff.br/~vanessa/material/prog-python/07-Matrizes.pdf)
         Aula 11 - Teórica: Matrizes UFRJ(https://www.cos.ufrj.br/~bfgoldstein/python/compI/slides/aula11_teorica.pdf)
 
-        Agora que entendeu na teoria tudo sobre matrizes,
+        Agora que entendeu tudo sobre a teoria de matrizes,
         vamos por na prática mais desafiadora que você já fez?
 
-        Só me pedir pelo 'desafio sobre matrizes';
+        Só me pedir pelo 'desafio de matrizes';
 
   utter_conteudo_extra_strings:
     - text: |
@@ -1191,12 +1180,6 @@ templates:
           https://www.w3schools.com/python/python_strings.asp
 
         Aqui você pode aprender diversas funções e métodos de manipulação de strings bastante úteis.
-
-        Que tal praticar um pouco agora? Se quiser, te recomendo alguns exercícios sobre strings,
-        é só pedir!
-
-        Béee..Se seu pedido tiver essas palavras me ajudaria bastante a te entender:
-        exercicios strings, treinar strings
         
         Agora já podemos partir para o próximo conteúdo
         Basta me perguntar "sobre estruturas condicionais" e eu te explico!
@@ -1218,13 +1201,17 @@ templates:
         Para fazer submissão de um exercício é necessária uma conta no juiz online UVA.
         Caso ainda não tenha basta criar por meio desse link:
         https://uva.onlinejudge.org/index.php?option=com_comprofiler&task=registers
+
         Agora que você tem uma conta, podemos prosseguir.
+
         Caso não queira mais fazer o login, só me enviar uma mensagem qualquer!
+
         Bée, qual o seu username? (Envie apenas ele!!!)
 
   utter_ask_password:
     - text: |
         Por favor, digite sua senha, só a senha,mas não se preocupe, eu não vou olhar!
+
         E se você tiver desistido de fazer login, só enviar uma mensagem qualquer!
 
   utter_ask_codigo:
@@ -1248,8 +1235,6 @@ templates:
        Dá uma olhada nesse código aqui, ele é béem legal e dá atée para
        você colar ele no terminal e ver como fica!!!
 
-       Depois, pode me pedir alguns exercícios de variáveis :)
-
        código:
           # Fórmula de Bháskara
           # Equação: -5x^2 + 4x + 1 = 0
@@ -1272,6 +1257,12 @@ templates:
 
           print('Meu username é:', username, 'e minha senha... É segredo!')
 
+       Agora que viu sobre variáveis em geral, que tal me perguntar sobre inteiros?
+       Se sua mensagem tiver as palavras "sobre" e "inteiros" me ajudaria muito!
+
+       Ou então, caso já tenha visto sobre todos os tipos primitivos, pode me pedir por exercícios de variáveis!
+       Basta dizer "exercícios de variáveis"!!!
+
   utter_codigo_em_python_inteiros:
     - text: |
        Se estiver pronto pra próxima etapa, basta me pedir para explicar
@@ -1285,7 +1276,7 @@ templates:
           n2 = int(input('Segunda contagem '))
           n3 = int(input('Terceira contagem '))
           soma = n1 + n2 + n3
-          print('A soma total foi de {}! Lá vou eu!'.format(soma))
+          print('A soma total foi de', soma)
           resposta = input('Onde a cabra está? ')
 
       image: |
@@ -1504,6 +1495,7 @@ templates:
               print('Esse dia eu tirei', duvida, 'dúvidas!')
 
        Deu pra entender, néee? Agora por que não testar suas habilidades com 'exercícios sobre matrizes'?
+
        Só me pedir!
 
   utter_codigo_em_python_importar_bibliotecas:
@@ -1578,6 +1570,7 @@ templates:
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=2201
 
         Para submeter o seu código é necessário entrar em uma conta do juiz online UVA. Para entrar é só pedir.
+
         Bée..Se seu pedido tiver essas palavras me ajudaria bastante a te entender: login uva, conectar no uva
         Não se preocupe se ainda não tem uma conta, te ensino rapidinho, é só pedir pra se conectar.
 
@@ -1598,7 +1591,7 @@ templates:
 
   utter_desafio_funcao:
     - text: |
-        Agora vamos testar em problemas mais complexos! Vamos ter problemas de vários níveis...
+        Agora vamos testar em problemas mais complexos!
         Começando pelo nível 1, você pode me mandar seu código para eu te dar um feedback!
         Vamos tentar?
 
@@ -1623,7 +1616,7 @@ templates:
 
   utter_desafio_variaveis:
     - text : |
-        Agora vamos testar em problemas mais complexos sobre consicionais!
+        Agora vamos testar em problemas mais complexos sobre variaveis!
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=996
 
@@ -1637,7 +1630,7 @@ templates:
 
   utter_desafio_condicionais:
     - text : |
-        Agora vamos testar em problemas mais complexos sobre variaveis!
+        Agora vamos testar em problemas mais complexos sobre condicionais!
 
         NÍVEL 1: https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=94&page=show_problem&problem=635
 
